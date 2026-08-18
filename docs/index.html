@@ -124,6 +124,7 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 14px;
       align-items: start;
+      margin-top: 22px;
     }
     .col { background: transparent; min-width: 0; }
     .col-head {
@@ -177,7 +178,12 @@
       font-weight: 500;
       margin: 0;
     }
-    .body { white-space: pre-wrap; font-size: 14px; line-height: 1.6; margin: 0 0 12px; }
+    .col-head .col-status { margin: 0; min-height: 0; flex: 1; }
+    .body { font-size: 14px; line-height: 1.65; margin: 0 0 12px; }
+    .body p { margin: 0 0 0.7em; }
+    .body p:last-child { margin-bottom: 0; }
+    .body ul { margin: 0.15em 0 0.85em; padding-left: 1.2em; }
+    .body li { margin: 0.15em 0; }
     .card-actions {
       display: flex;
       flex-wrap: wrap;
@@ -405,26 +411,14 @@
 
         <div class="columns" id="columns">
           <section class="col" data-col="morning">
-            <div class="col-head">
-              <h2>Morning</h2>
-              <button class="refresh" type="button" data-run="morning">Refresh</button>
-            </div>
             <p class="col-status" data-col-status="morning"></p>
             <div class="col-ideas" id="col-morning"></div>
           </section>
           <section class="col" data-col="close">
-            <div class="col-head">
-              <h2>Close</h2>
-              <button class="refresh" type="button" data-run="close">Refresh</button>
-            </div>
             <p class="col-status" data-col-status="close"></p>
             <div class="col-ideas" id="col-close"></div>
           </section>
           <section class="col" data-col="week-ahead">
-            <div class="col-head">
-              <h2>Sunday</h2>
-              <button class="refresh" type="button" data-run="week-ahead">Refresh</button>
-            </div>
             <p class="col-status" data-col-status="week-ahead"></p>
             <div class="col-ideas" id="col-week-ahead"></div>
           </section>
@@ -541,6 +535,99 @@
       return wrap;
     }
 
+    function formatPct(sign, num) {
+      if (!String(num).includes(".")) return sign + num + "%";
+      const n = Number(sign + num);
+      const rounded = Math.round(n * 10) / 10;
+      if (rounded === 0) return "0.0%";
+      if (rounded < 0) return "-" + Math.abs(rounded).toFixed(1) + "%";
+      if (sign === "+") return "+" + rounded.toFixed(1) + "%";
+      return rounded.toFixed(1) + "%";
+    }
+
+    function formatPriceToken(token) {
+      const raw = String(token).replaceAll(",", "");
+      const n = Number(raw);
+      if (!Number.isFinite(n)) return token;
+      const decimals = raw.includes(".") ? raw.split(".")[1].length : 0;
+      const asMoney = n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      if (decimals <= 2 && Math.abs(n) < 1000) return token;
+      if (decimals <= 2 && Math.abs(n) >= 1000) return asMoney;
+      if (Math.abs(n) < 10 && decimals <= 3) return token;
+      if (Math.abs(n) >= 1000) return asMoney;
+      return n.toFixed(2);
+    }
+
+    function formatIdeaTitle(text) {
+      return String(text || "").replace(/(?<![\d.])([+-]?)(\d+(?:\.\d+)?)%/g, (_, sign, num) => formatPct(sign, num));
+    }
+
+    function explodeMovers(paragraph) {
+      const stripped = paragraph.trim();
+      if (/^\s*[-*•]\s+/.test(stripped)) return paragraph;
+      const moverRe = /\$[A-Z]{1,5}\s+[+-]?\d+(?:\.\d+)?%(?:\s+to\s+[\d,]+(?:\.\d+)?)?/g;
+      const movers = [...stripped.matchAll(moverRe)];
+      if (movers.length < 2) return paragraph;
+      if (movers.length < 3 && !stripped.includes(",")) return paragraph;
+      let intro = stripped.slice(0, movers[0].index);
+      intro = intro.replace(/(?:,?\s+(?:with|including|and|vs\.?))\s*$/i, "").replace(/[:—\-\s]+$/, "");
+      const last = movers[movers.length - 1];
+      const tail = stripped.slice(last.index + last[0].length).replace(/^[ .;,]+/, "").trim();
+      const lines = [];
+      if (intro) lines.push(intro + ":");
+      movers.forEach((m) => lines.push("- " + m[0].trim()));
+      if (tail && !/\$[A-Z]{1,5}\b/.test(tail)) {
+        lines.push("");
+        lines.push(tail);
+      }
+      return lines.join("\n");
+    }
+
+    function sentenceRows(paragraph) {
+      if (paragraph.includes("\n") || /^\s*[-*•]\s+/.test(paragraph)) return paragraph;
+      const protectedText = paragraph.replaceAll("vs. ", "\uE000").replaceAll("U.S. ", "\uE001");
+      const parts = protectedText.trim().split(/(?<=[.!?])\s+(?=[A-Z$“"‘])/);
+      if (parts.length < 2) return paragraph;
+      return parts.map((part) => part.replaceAll("\uE000", "vs. ").replaceAll("\uE001", "U.S. ")).join("\n");
+    }
+
+    function formatIdeaBody(text) {
+      if (!text) return "";
+      let out = formatIdeaTitle(text).replace(/(?<![\d.,])(\d{1,3}(?:,\d{3})+\.\d+|\d+\.\d+)(?![\d%])/g, (_, num) => formatPriceToken(num));
+      return out.trim().split(/\n{2,}/).map((raw) => {
+        let para = raw.trim();
+        if (!para) return "";
+        para = explodeMovers(para);
+        if (para.includes("\n")) {
+          return para.split("\n").map((line) => line.startsWith("- ") ? line : sentenceRows(line)).join("\n");
+        }
+        return sentenceRows(para);
+      }).filter(Boolean).join("\n\n");
+    }
+
+    function bodyToHtml(text) {
+      return formatIdeaBody(text).split(/\n{2,}/).map((block) => {
+        const lines = block.split("\n");
+        let html = "";
+        let bullets = [];
+        const flush = () => {
+          if (!bullets.length) return;
+          html += "<ul>" + bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join("") + "</ul>";
+          bullets = [];
+        };
+        lines.forEach((line) => {
+          const m = line.match(/^\s*[-*•]\s+(.*)$/);
+          if (m) bullets.push(m[1]);
+          else {
+            flush();
+            if (line.trim()) html += `<p>${escapeHtml(line)}</p>`;
+          }
+        });
+        flush();
+        return html;
+      }).join("");
+    }
+
     function renderColumn(mode) {
       const root = document.getElementById("col-" + mode);
       const result = packs[mode];
@@ -560,10 +647,10 @@
         if (!ready) art.classList.add("empty");
         art.innerHTML = `
           <header class="row">
-            <h3>${escapeHtml(slot.title)}</h3>
+            <h3>${escapeHtml(formatIdeaTitle(slot.title))}</h3>
             <span class="badge ${ready ? "" : "skip"}">${slot.kind === "x_recap" ? (ready ? "Recap" : "Skipped") : (ready ? "Ready" : "Skipped")}</span>
           </header>
-          <p class="body">${escapeHtml(ready ? slot.body : slot.skip_reason || "")}</p>
+          <div class="body">${ready ? bodyToHtml(slot.body) : `<p>${escapeHtml(slot.skip_reason || "")}</p>`}</div>
         `;
         if (ready) {
           const actions = document.createElement("div");
@@ -573,7 +660,7 @@
           btn.type = "button";
           btn.textContent = "Copy";
           btn.addEventListener("click", async () => {
-            await navigator.clipboard.writeText(slot.body);
+            await navigator.clipboard.writeText(formatIdeaBody(slot.body));
             btn.textContent = "Copied";
             setTimeout(() => { btn.textContent = "Copy"; }, 1200);
           });

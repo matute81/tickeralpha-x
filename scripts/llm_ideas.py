@@ -53,6 +53,24 @@ STREAM_WINDOWS = {
 
 TICKER_RE = re.compile(r"\$([A-Z]{1,5})\b")
 CASHTAG_RE = re.compile(r"\$[A-Z]{1,5}\b")
+PCT_IN_TEXT = re.compile(r"(?<![\d.])([+-]?)(\d+(?:\.\d+)?)%")
+PRICE_IN_TEXT = re.compile(r"(?<![\d.,])(\d{1,3}(?:,\d{3})+\.\d+|\d+\.\d+)(?![\d%])")
+MOVER_IN_TEXT = re.compile(
+    r"\$[A-Z]{1,5}\s+[+-]?\d+(?:\.\d+)?%(?:\s+to\s+[\d,]+(?:\.\d+)?)?"
+)
+PERCENT_KEY_RE = re.compile(r"percent", re.I)
+PRICE_KEYS = {
+    "price",
+    "change",
+    "previousClose",
+    "dayHigh",
+    "dayLow",
+    "yearHigh",
+    "yearLow",
+    "open",
+    "close",
+    "vwap",
+}
 IDEA_RE = re.compile(
     r"(?:^|\n)\s*(?:#{1,3}\s*)?Idea\s+(\d+)\s*[:.]?\s*\n(.*?)(?=(?:^|\n)\s*(?:#{1,3}\s*)?Idea\s+\d+\b|\Z)",
     re.I | re.S,
@@ -101,7 +119,7 @@ def slim_fmp_data(brief: dict[str, Any]) -> dict[str, Any]:
                 "site": item.get("site"),
             }
         )
-    return {
+    payload = {
         "session_date": brief.get("session_date"),
         "timezone": brief.get("timezone") or "America/New_York",
         "mode": brief.get("mode"),
@@ -121,6 +139,124 @@ def slim_fmp_data(brief: dict[str, Any]) -> dict[str, Any]:
         "earnings_calendar": brief.get("earnings_calendar") or [],
         "news": news[:15],
     }
+    return round_quote_numbers(payload)
+
+
+def _round_num(value: Any, digits: int) -> Any:
+    try:
+        return round(float(value), digits)
+    except (TypeError, ValueError):
+        return value
+
+
+def round_quote_numbers(obj: Any) -> Any:
+    """Round quote percents to 1 decimal and prices to 2 before the LLM sees them."""
+    if isinstance(obj, list):
+        return [round_quote_numbers(item) for item in obj]
+    if not isinstance(obj, dict):
+        return obj
+    out: dict[str, Any] = {}
+    for key, value in obj.items():
+        if isinstance(value, (dict, list)):
+            out[key] = round_quote_numbers(value)
+        elif PERCENT_KEY_RE.search(str(key)):
+            out[key] = _round_num(value, 1)
+        elif key in PRICE_KEYS:
+            out[key] = _round_num(value, 2)
+        else:
+            out[key] = value
+    return out
+
+
+def _fmt_pct(sign: str, num: str) -> str:
+    if "." not in num:
+        return f"{sign}{num}%"
+    n = float(sign + num)
+    rounded = round(n, 1)
+    if rounded == 0:
+        return "0.0%"
+    if rounded < 0:
+        return f"-{abs(rounded):.1f}%"
+    if sign == "+":
+        return f"+{rounded:.1f}%"
+    return f"{rounded:.1f}%"
+
+
+def _fmt_price_token(token: str) -> str:
+    raw = token.replace(",", "")
+    try:
+        n = float(raw)
+    except ValueError:
+        return token
+    decimals = len(raw.split(".", 1)[1]) if "." in raw else 0
+    if decimals <= 2 and abs(n) < 1000:
+        return token
+    if decimals <= 2 and abs(n) >= 1000:
+        return f"{n:,.2f}"
+    if abs(n) < 10 and decimals <= 3:
+        return token
+    if abs(n) >= 1000:
+        return f"{n:,.2f}"
+    return f"{n:.2f}"
+
+
+def _explode_movers(paragraph: str) -> str:
+    stripped = paragraph.strip()
+    if re.match(r"^[-*•]\s+", stripped):
+        return paragraph
+    movers = list(MOVER_IN_TEXT.finditer(stripped))
+    if len(movers) < 2:
+        return paragraph
+    if len(movers) < 3 and "," not in stripped:
+        return paragraph
+    intro = stripped[: movers[0].start()]
+    intro = re.sub(r"(?:,?\s+(?:with|including|and|vs\.?))\s*$", "", intro, flags=re.I)
+    intro = intro.rstrip(" :—-")
+    tail = stripped[movers[-1].end() :].lstrip(" .;,").strip()
+    lines: list[str] = []
+    if intro:
+        lines.append(intro + ":")
+    for match in movers:
+        lines.append("- " + match.group(0).strip())
+    if tail and not MOVER_IN_TEXT.search(tail):
+        lines.append("")
+        lines.append(tail)
+    return "\n".join(lines)
+
+
+def _sentence_rows(paragraph: str) -> str:
+    if "\n" in paragraph or re.match(r"\s*[-*•]\s+", paragraph):
+        return paragraph
+    protected = paragraph.replace("vs. ", "\ue000").replace("U.S. ", "\ue001")
+    parts = re.split(r'(?<=[.!?])\s+(?=[A-Z$“"‘])', protected.strip())
+    if len(parts) < 2:
+        return paragraph
+    return "\n".join(part.replace("\ue000", "vs. ").replace("\ue001", "U.S. ") for part in parts)
+
+
+def format_post_body(text: str) -> str:
+    """Round percents/prices and turn ticker lists into readable rows."""
+    if not text:
+        return text
+    out = PCT_IN_TEXT.sub(lambda m: _fmt_pct(m.group(1), m.group(2)), text)
+    out = PRICE_IN_TEXT.sub(lambda m: _fmt_price_token(m.group(1)), out)
+    blocks: list[str] = []
+    for raw in re.split(r"\n{2,}", out.strip()):
+        para = raw.strip()
+        if not para:
+            continue
+        para = _explode_movers(para)
+        if "\n" in para:
+            blocks.append("\n".join(_sentence_rows(line) if not line.startswith("- ") else line for line in para.split("\n")))
+        else:
+            blocks.append(_sentence_rows(para))
+    return "\n\n".join(blocks)
+
+
+def format_idea_title(text: str) -> str:
+    if not text:
+        return text
+    return PCT_IN_TEXT.sub(lambda m: _fmt_pct(m.group(1), m.group(2)), text)
 
 
 def previous_posts(session: date) -> list[dict[str, Any]]:
@@ -338,21 +474,21 @@ def _first_url(value: str) -> str:
 
 
 def _as_idea(number: str, title: str, summary: str, body: str, supporting_lines: list[str], source_url: str) -> dict[str, Any] | None:
-    body = _clean_field(body or "")
+    body = format_post_body(_clean_field(body or ""))
     if not body:
         return None
     source_url = _first_url(source_url or "")
     return {
         "id": f"idea_{number}",
-        "title": re.sub(r"\s+", " ", _clean_field(title) or f"Idea {number}").strip(),
+        "title": format_idea_title(re.sub(r"\s+", " ", _clean_field(title) or f"Idea {number}").strip()),
         "window": "",
         "status": "ready",
         "body": body,
         "skip_reason": "",
         "source_notes": source_url or "FMP_DATA",
         "kind": "x_idea",
-        "summary": re.sub(r"\s+", " ", _clean_field(summary or "")).strip(),
-        "supporting_data": [_clean_field(row) for row in supporting_lines if _clean_field(row)],
+        "summary": format_idea_title(re.sub(r"\s+", " ", _clean_field(summary or "")).strip()),
+        "supporting_data": [format_post_body(_clean_field(row)) for row in supporting_lines if _clean_field(row)],
         "source_url": source_url,
         "tickers": sorted(set(CASHTAG_RE.findall(body))),
     }

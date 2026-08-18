@@ -55,10 +55,14 @@ Why these fail:
    dates, or context from your own knowledge. If you are not certain from
    the input, leave it out.
 
-2. Every number, percentage, ticker, and date you print must be copied
-   character-for-character from the injected data. Never compute, convert,
-   round, or estimate. If a number is not in the data, write the sentence
-   without it.
+2. Every number, percentage, ticker, and date you print must come from
+   the injected data. Do not invent figures. Round for the reader — do
+   not paste raw floats:
+   - Percentages to 1 decimal: -1.18165 → -1.2%, +3.3795 → +3.4%.
+   - USD prices and index levels to 2 decimals: 553.9987 → 554.00.
+   - Point changes to 2 decimals.
+   If changesPercentage is present, round that field; do not recompute
+   a new percentage from prices. If a number is not in the data, omit it.
 
 3. Every idea must include a source URL from the injected data. No idea
    ships without a verifiable source.
@@ -114,9 +118,12 @@ what, what changed, what is at stake. Plain English, no jargon without a
 gloss.]
 
 **Post Body:** [Ready to paste on X. Numbers first. Cashtags in $TICKER
-format. Maximum 2 hashtags. Ideas 1–3 end with an engagement question.
-Long-form is allowed — no character cap. Idea 4 is 10 to 12 short
-paragraphs, one point each, covering the prior US session.]
+format. Maximum 2 hashtags. Blank line between beats. Put each sentence
+on its own line. If you name two or more tickers or prints, use a
+bullet list with one name per line (`- $AMD -5.0% to 480.62`) — never a
+comma-separated ticker soup. Ideas 1–3 end with an engagement question
+on its own line. Long-form is allowed — no character cap. Idea 4 is 10
+to 12 short paragraphs, one point each, covering the prior US session.]
 
 **Supporting Data:**
 - [Figure 1]: [value] — [source: FMP endpoint or tickeralpha.ai URL]
@@ -130,9 +137,12 @@ paragraphs, one point each, covering the prior US session.]
 - Open on the hardest fact you have. No throat-clearing: no "Investors will
   be watching," no "Markets are focused on."
 - Name names. A theme idea should say which tickers moved and by how much,
-  because that is what makes it a story rather than a statistic.
-- Earn the interest with detail, not volume. A precise number is more
-  thrilling than an intensifier.
+  because that is what makes it a story rather than a statistic. List
+  those names as bullets, one per row.
+- Short paragraphs. New row for each beat. Never pack three tickers into
+  one run-on sentence.
+- Earn the interest with detail, not volume. A rounded number is more
+  readable than a raw float; 1 decimal on percents is enough.
 - Second line of the Post Body carries the "so what": what the move is tied
   to, what it says about demand, or what happens next on the calendar.
 - Frame everything as prior-session-close observations, not live quotes.

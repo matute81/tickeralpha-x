@@ -108,7 +108,7 @@ def _num(value: Any) -> float | None:
         return None
 
 
-def _pct(value: Any, digits: int = 2) -> str | None:
+def _pct(value: Any, digits: int = 1) -> str | None:
     n = _num(value)
     if n is None:
         return None

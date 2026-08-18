@@ -1,6 +1,67 @@
 {
-  "updated_at": null,
-  "morning": null,
+  "updated_at": "2026-08-18T11:48:13-04:00",
+  "morning": {
+    "mode": "morning",
+    "session_date": "2026-08-18",
+    "generated_at": "2026-08-18T11:48:13-04:00",
+    "draft_path": "drafts/2026-08-18-am.md",
+    "errors": [],
+    "slots": [
+      {
+        "title": "July housing starts 1.239M miss 1.35M estimate",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "July housing starts: 1.239M vs 1.35M expected (prior 1.415M). Starts fell 12.4% month over month; the consensus was -4.7%, after June\u2019s +19.7%. That\u2019s the count of new homes where ground broke\u2014one of the first reads on how much builders are adding supply.  \nCoverage tied the miss to muted builder sentiment after a stretch of soft demand data.  \nWhat part of the housing pipeline do you watch first\u2014starts, permits, or sales?",
+        "skip_reason": "",
+        "supporting_data": [
+          "Housing Starts (Jul) actual: 1.239 \u2014 source: FMP economic_calendar",
+          "Housing Starts (Jul) estimate: 1.35 \u2014 source: FMP economic_calendar",
+          "Housing Starts (Jul) previous: 1.415 \u2014 source: FMP economic_calendar",
+          "Housing Starts MoM (Jul) actual: -12.4 \u2014 source: FMP economic_calendar",
+          "Housing Starts MoM (Jul) estimate: -4.7 \u2014 source: FMP economic_calendar",
+          "Housing Starts MoM (Jul) previous: 19.7 \u2014 source: FMP economic_calendar"
+        ],
+        "source_url": "https://www.wsj.com/economy/housing/u-s-housing-starts-dropped-in-july-96b4f96a",
+        "source_notes": "https://www.wsj.com/economy/housing/u-s-housing-starts-dropped-in-july-96b4f96a"
+      },
+      {
+        "title": "Atlanta Fed GDPNow Q3 cut to 4% from 4.3%",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "Atlanta Fed GDPNow for Q3: 4% vs 4.3% expected, previous 4.3%. GDPNow is a model-based snapshot of gross domestic product\u2014the broad measure of everything the U.S. economy produces\u2014updated as fresh data arrive.  \nToday\u2019s housing starts print (1.239M vs 1.35M expected) was one of the inputs traders were weighing alongside the GDP tracker.  \nWhen GDPNow moves, do you treat it as a forecast or just a data diary?",
+        "skip_reason": "",
+        "supporting_data": [
+          "Atlanta Fed GDPNow (Q3) actual: 4 \u2014 source: FMP economic_calendar",
+          "Atlanta Fed GDPNow (Q3) estimate: 4.3 \u2014 source: FMP economic_calendar",
+          "Atlanta Fed GDPNow (Q3) previous: 4.3 \u2014 source: FMP economic_calendar",
+          "Housing Starts (Jul) actual: 1.239 \u2014 source: FMP economic_calendar",
+          "Housing Starts (Jul) estimate: 1.35 \u2014 source: FMP economic_calendar"
+        ],
+        "source_url": "https://www.wsj.com/economy/housing/u-s-housing-starts-dropped-in-july-96b4f96a",
+        "source_notes": "https://www.wsj.com/economy/housing/u-s-housing-starts-dropped-in-july-96b4f96a"
+      },
+      {
+        "title": "10-year Treasury 4.68% as $SPY session fades",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "Prior close: S&P 500 7704.58, -0.5226557315243584%; Nasdaq Composite 26339.494, -1.146245192796677%; VIX 15.76, +3.7524687294272567%.  \nTreasury snapshot (2026-08-14): 10-year 4.68%, 30-year 5.25%, 2s10s spread 0.51.  \nDaytime coverage described stocks tracking lower for a third straight session and Treasury yields moving up as bond prices fell\u2014higher yields mean higher borrowing costs across the economy.  \nFOMC Minutes are scheduled 2026-08-19 18:00:00 (High impact)\u2014the written record of the last Fed meeting on rates and inflation.  \nWhich release do you read first when yields and stocks move the same day\u2014Fed minutes or the next jobs or inflation print?",
+        "skip_reason": "",
+        "supporting_data": [
+          "^GSPC price: 7704.58 \u2014 source: FMP indexes",
+          "^GSPC changesPercentage: -0.5226557315243584 \u2014 source: FMP indexes",
+          "^IXIC changesPercentage: -1.146245192796677 \u2014 source: FMP indexes",
+          "^VIX price: 15.76 \u2014 source: FMP indexes",
+          "^VIX changesPercentage: 3.7524687294272567 \u2014 source: FMP indexes",
+          "year10: 4.68 \u2014 source: FMP treasury",
+          "year30: 5.25 \u2014 source: FMP treasury",
+          "spread_2s10s: 0.51 \u2014 source: FMP treasury",
+          "FOMC Minutes date: 2026-08-19 18:00:00 \u2014 source: FMP economic_calendar"
+        ],
+        "source_url": "https://seekingalpha.com/article/4937779-markets-track-lower-third-straight-session",
+        "source_notes": "https://seekingalpha.com/article/4937779-markets-track-lower-third-straight-session"
+      }
+    ]
+  },
   "close": null,
   "week-ahead": null
 }

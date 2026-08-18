@@ -45,7 +45,7 @@ If the LLM key is missing or the model call fails, the app shows **AI is not ava
 
 ## GitHub Actions
 
-Daily generation is [`.github/workflows/daily-briefs.yml`](.github/workflows/daily-briefs.yml). Add repository secrets (never commit them):
+Daily generation is [`.github/workflows/daily-briefs.yml`](.github/workflows/daily-briefs.yml). It runs every day at **08:00 Hong Kong time** and generates Morning, Close, and Sunday in one job. Add repository secrets (never commit them):
 
 - `FMP_API_KEY` (required)
 - `CURSOR_API_KEY` (preferred), or `ANTHROPIC_API_KEY`, or `OPENAI_API_KEY`

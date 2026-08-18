@@ -2,23 +2,19 @@ name: Daily briefs
 
 on:
   schedule:
-    # America/New_York, ignoring DST: morning ~8:30am EDT / 7:30am EST
-    - cron: "30 12 * * 1-5"
-    # Close ~5:30pm EDT / 4:30pm EST
-    - cron: "30 21 * * 1-5"
-    # Sunday week-ahead ~6:00pm EDT
-    - cron: "0 22 * * 0"
+    # 08:00 Hong Kong (UTC+8, no DST) = 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
       mode:
-        description: Session to generate
+        description: Sessions to generate
         type: choice
         options:
-          - auto
+          - all
           - morning
           - close
           - week-ahead
-        default: auto
+        default: all
 
 concurrency:
   group: daily-briefs
@@ -27,7 +23,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 60
     permissions:
       contents: write
     env:
@@ -38,6 +34,7 @@ jobs:
       CURSOR_MODEL: ${{ vars.CURSOR_MODEL }}
       ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+      INPUT_MODE: ${{ github.event.inputs.mode || 'all' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -59,29 +56,24 @@ jobs:
             exit 1
           fi
 
-      - name: Pick session
-        id: pick
-        env:
-          INPUT_MODE: ${{ github.event.inputs.mode || 'auto' }}
-          CRON: ${{ github.event.schedule }}
+      - name: Generate
         run: |
           python - <<'PY'
           import os
-          cron = os.environ.get("CRON") or ""
-          mode = (os.environ.get("INPUT_MODE") or "auto").strip()
-          if cron == "30 12 * * 1-5":
-              mode = "morning"
-          elif cron == "30 21 * * 1-5":
-              mode = "close"
-          elif cron == "0 22 * * 0":
-              mode = "week-ahead"
-          print(f"mode={mode}")
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
-              fh.write(f"mode={mode}\n")
-          PY
+          import subprocess
+          import sys
 
-      - name: Generate
-        run: python scripts/generate_pack.py --mode ${{ steps.pick.outputs.mode }}
+          mode = (os.environ.get("INPUT_MODE") or "all").strip()
+          if os.environ.get("GITHUB_EVENT_NAME") == "schedule" or mode in {"", "all", "auto"}:
+              modes = ["morning", "close", "week-ahead"]
+          else:
+              modes = [mode]
+          print("sessions:", ", ".join(modes))
+          for item in modes:
+              print(f"::group::Generate {item}")
+              subprocess.check_call([sys.executable, "scripts/generate_pack.py", "--mode", item])
+              print("::endgroup::")
+          PY
 
       - name: Publish drafts and Pages JSON
         run: |
@@ -92,5 +84,5 @@ jobs:
             echo "No changes to publish."
             exit 0
           fi
-          git commit -m "Publish ${{ steps.pick.outputs.mode }} briefs"
+          git commit -m "Publish daily briefs"
           git push

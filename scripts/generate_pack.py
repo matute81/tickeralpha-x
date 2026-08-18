@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import shutil
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -1039,7 +1040,33 @@ def update_latest(result: dict[str, Any]) -> Path:
     latest[result["mode"]] = pack
     latest["updated_at"] = pack["generated_at"]
     path.write_text(json.dumps(latest, indent=2) + "\n", encoding="utf-8")
+    copy_pages_assets()
     return path
+
+
+def copy_pages_assets() -> None:
+    """Mirror prompt files into docs/ so GitHub Pages can show them read-only."""
+    dest = REPO_ROOT / "docs" / "prompts"
+    dest.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(REPO_ROOT / "prompts" / "x_ideas.md", dest / "x_ideas.md")
+    for mode in ("morning", "close", "week-ahead"):
+        custom = REPO_ROOT / "prompts" / f"focus-{mode}.md"
+        default = REPO_ROOT / "prompts" / "defaults" / f"focus-{mode}.md"
+        src = custom if custom.is_file() else default
+        shutil.copy2(src, dest / f"focus-{mode}.md")
+    ctx_src = REPO_ROOT / "prompts" / "context.json"
+    ctx_dest = dest / "context.json"
+    if ctx_src.is_file():
+        shutil.copy2(ctx_src, ctx_dest)
+    else:
+        ctx_dest.write_text(
+            json.dumps(
+                {"good_examples": "", "good_why": "", "bad_examples": "", "bad_why": ""},
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
 
 
 def resolve_mode(mode: str) -> str | None:

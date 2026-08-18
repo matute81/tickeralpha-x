@@ -28,7 +28,7 @@
       line-height: 1.5;
     }
     main {
-      width: min(1180px, calc(100% - 32px));
+      width: min(1440px, calc(100% - 32px));
       margin: 0 auto;
       padding: 56px 0 96px;
     }
@@ -50,22 +50,110 @@
       margin: 0 0 12px;
     }
     .lede { color: var(--muted); max-width: 46em; margin: 0; }
-    .status { min-height: 1.5em; color: var(--muted); font-size: 14px; margin: 0 0 16px; }
-    .status.error { color: #8f2d2d; }
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 340px;
+      gap: 24px;
+      align-items: start;
+    }
+    .jobs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 8px 0 0;
+    }
+    .job-card, .side-card { position: relative; }
+    button.job {
+      appearance: none;
+      text-align: left;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px 44px 18px 20px;
+      cursor: pointer;
+      color: inherit;
+      font: inherit;
+      width: 100%;
+      min-height: 100%;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+    button.job:hover { background: var(--hover); border-color: #d7d2c6; }
+    button.refresh:disabled, button.refresh-all:disabled { opacity: 0.55; cursor: wait; }
+    button.job strong { display: block; font-weight: 600; font-size: 15px; margin-bottom: 4px; }
+    button.job p { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
+    button.job p em { font-style: normal; color: var(--ink); font-weight: 500; }
+    .pen {
+      appearance: none;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 2;
+      width: 32px;
+      height: 32px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+    }
+    .pen:hover { background: var(--hover); color: var(--ink); }
+    .pen svg { display: block; }
+    .refresh-all-wrap, button.refresh { display: none; }
+    .refresh-all-wrap-off {
+      display: flex;
+      justify-content: center;
+      margin: 28px 0 32px;
+    }
+    .refresh-all, .refresh, .copy, .ref, .dialog-actions button, .context-save {
+      appearance: none;
+      border: 0;
+      cursor: pointer;
+      font: 500 13px/1 Inter, sans-serif;
+    }
+    .refresh-all, .context-save {
+      background: var(--ink);
+      color: var(--paper);
+      border-radius: 999px;
+      padding: 12px 22px;
+    }
+    .refresh-all:hover, .context-save:hover { opacity: 0.88; }
     .columns {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 14px;
       align-items: start;
     }
-    .col { min-width: 0; }
+    .col { background: transparent; min-width: 0; }
+    .col-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
     .col-head h2 {
       font-family: Newsreader, Georgia, serif;
       font-size: 22px;
       font-weight: 500;
-      margin: 0 0 4px;
+      margin: 0;
     }
-    .col-status { color: var(--muted); font-size: 12px; margin: 0 0 10px; min-height: 1.4em; }
+    .refresh {
+      background: var(--paper);
+      color: var(--ink);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 12px;
+    }
+    .refresh:hover:not(:disabled) { background: var(--hover); }
+    .col-status {
+      min-height: 1.4em;
+      color: var(--muted);
+      font-size: 12px;
+      margin: 0 0 10px;
+    }
+    .col-status.error { color: #8f2d2d; }
     .col-ideas { display: grid; gap: 12px; }
     article {
       background: var(--paper);
@@ -73,6 +161,7 @@
       border-radius: 16px;
       padding: 18px 18px 14px;
       position: relative;
+      overflow: visible;
     }
     article.empty { opacity: 0.55; }
     article header.row {
@@ -89,16 +178,19 @@
       margin: 0;
     }
     .body { white-space: pre-wrap; font-size: 14px; line-height: 1.6; margin: 0 0 12px; }
-    .card-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .card-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
     .copy, .ref {
-      appearance: none;
-      border: 0;
-      cursor: pointer;
-      font: 500 12px/1 Inter, sans-serif;
+      background: var(--ink);
+      color: var(--paper);
       border-radius: 999px;
       padding: 8px 14px;
+      font-size: 12px;
     }
-    .copy { background: var(--ink); color: var(--paper); }
     .copy:hover { opacity: 0.88; }
     .ref {
       background: var(--paper);
@@ -114,21 +206,28 @@
       bottom: calc(100% + 8px);
       width: min(280px, 72vw);
       background: var(--paper);
+      color: var(--ink);
       border: 1px solid var(--line);
       border-radius: 12px;
-      padding: 12px;
+      padding: 12px 12px 10px;
       box-shadow: 0 10px 28px rgba(28, 27, 24, 0.14);
       z-index: 8;
     }
-    .ref-wrap:hover .ref-pop, .ref-wrap:focus-within .ref-pop { display: block; }
+    .ref-wrap:hover .ref-pop,
+    .ref-wrap:focus-within .ref-pop { display: block; }
     .ref-pop h4 {
       margin: 0 0 8px;
       font-size: 11px;
       letter-spacing: 0.04em;
       text-transform: uppercase;
       color: var(--muted);
+      font-weight: 600;
     }
-    .ref-pop ul { margin: 0; padding: 0; list-style: none; }
+    .ref-pop ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
     .ref-pop li {
       color: var(--muted);
       font-size: 12px;
@@ -155,8 +254,107 @@
       border-radius: 16px;
       background: var(--paper);
     }
+    .status { min-height: 1.5em; color: var(--muted); font-size: 14px; margin: 0 0 8px; }
+    .status.error { color: #8f2d2d; }
     footer { margin-top: 64px; color: var(--muted); font-size: 12px; }
-    @media (max-width: 900px) { .columns { grid-template-columns: 1fr; } }
+    footer p { margin: 0; }
+    .sidebar {
+      display: grid;
+      gap: 14px;
+      position: sticky;
+      top: 24px;
+    }
+    .side-card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 16px 16px;
+    }
+    .side-card h2 {
+      font-family: Newsreader, Georgia, serif;
+      font-size: 22px;
+      font-weight: 500;
+      margin: 0 8px 6px 0;
+      padding-right: 28px;
+    }
+    .side-note { color: var(--muted); font-size: 12px; margin: 0 0 12px; }
+    #full-preview {
+      margin: 0;
+      max-height: 160px;
+      overflow: hidden;
+      font: 11px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: var(--muted);
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .context-card label {
+      display: block;
+      font-size: 12px;
+      font-weight: 500;
+      margin: 10px 0 4px;
+    }
+    .context-card label:first-of-type { margin-top: 0; }
+    .context-card textarea {
+      width: 100%;
+      min-height: 76px;
+      font: 12px/1.45 Inter, sans-serif;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 8px 10px;
+      resize: none;
+      background: #f7f4ed;
+      color: var(--ink);
+    }
+    .context-save { margin-top: 12px; width: 100%; }
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(28, 27, 24, 0.42);
+      z-index: 20;
+      padding: 24px 16px;
+      overflow: auto;
+    }
+    .overlay.open { display: grid; place-items: start center; }
+    .dialog {
+      width: min(860px, 100%);
+      margin: 40px auto;
+      background: var(--paper);
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      padding: 22px 22px 18px;
+    }
+    .dialog.focus { width: min(640px, 100%); }
+    .dialog h2 {
+      font-family: Newsreader, Georgia, serif;
+      font-weight: 500;
+      font-size: 26px;
+      margin: 0 0 6px;
+    }
+    .dialog .hint { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+    .dialog textarea {
+      width: 100%;
+      min-height: 52vh;
+      font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      resize: vertical;
+      background: #f7f4ed;
+      color: var(--ink);
+    }
+    .dialog.focus textarea { min-height: 36vh; }
+    .dialog-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; flex-wrap: wrap; }
+    .dialog-actions button { border-radius: 999px; padding: 10px 16px; }
+    .dialog-actions .ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+    .dialog-actions .primary { background: var(--ink); color: var(--paper); }
+    @media (max-width: 1100px) {
+      .layout { grid-template-columns: 1fr; }
+      .sidebar { position: static; }
+    }
+    @media (max-width: 900px) {
+      .jobs, .columns { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -164,42 +362,154 @@
     <header>
       <p class="mark">TickerAlpha</p>
       <h1>Market briefs</h1>
-      <p class="lede">Published posts for <a href="https://x.com/tickeralphai">@tickeralphai</a>. A GitHub Action refreshes these from FMP. Keys stay in repository secrets — they are not in this page.</p>
+      <p class="lede">Click the pen on Morning, Close, or Sunday to view that stream’s focus. The pen on Prompt text opens the full shell. Quality context is shown on the right. Prompts are read-only here — edit them locally. A daily Action publishes the packs.</p>
     </header>
-    <p class="status" id="status">Loading…</p>
-    <div class="columns">
-      <section class="col">
-        <div class="col-head"><h2>Morning</h2></div>
-        <p class="col-status" id="status-morning"></p>
-        <div class="col-ideas" id="col-morning"></div>
-      </section>
-      <section class="col">
-        <div class="col-head"><h2>Close</h2></div>
-        <p class="col-status" id="status-close"></p>
-        <div class="col-ideas" id="col-close"></div>
-      </section>
-      <section class="col">
-        <div class="col-head"><h2>Sunday</h2></div>
-        <p class="col-status" id="status-week-ahead"></p>
-        <div class="col-ideas" id="col-week-ahead"></div>
-      </section>
+
+    <p class="status" id="status"></p>
+
+    <div class="layout">
+      <div class="stage">
+        <div class="jobs">
+          <div class="job-card">
+            <button class="pen" type="button" data-view-focus="morning" aria-label="View Stream 1 focus" title="View Stream 1 focus">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+            </button>
+            <button class="job" type="button" data-view-focus="morning">
+              <strong>Morning</strong>
+              <p><em>Stream 1</em> — US data, economy, politics, and news</p>
+            </button>
+          </div>
+          <div class="job-card">
+            <button class="pen" type="button" data-view-focus="close" aria-label="View Stream 2 focus" title="View Stream 2 focus">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+            </button>
+            <button class="job" type="button" data-view-focus="close">
+              <strong>Close</strong>
+              <p><em>Stream 2</em> — 3 ideas plus a previous-day recap</p>
+            </button>
+          </div>
+          <div class="job-card">
+            <button class="pen" type="button" data-view-focus="week-ahead" aria-label="View Stream 3 focus" title="View Stream 3 focus">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+            </button>
+            <button class="job" type="button" data-view-focus="week-ahead">
+              <strong>Sunday</strong>
+              <p><em>Stream 3</em> — What to look for next week</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="refresh-all-wrap">
+          <button class="refresh-all" id="refresh-all" type="button">Refresh all sessions</button>
+        </div>
+
+        <div class="columns" id="columns">
+          <section class="col" data-col="morning">
+            <div class="col-head">
+              <h2>Morning</h2>
+              <button class="refresh" type="button" data-run="morning">Refresh</button>
+            </div>
+            <p class="col-status" data-col-status="morning"></p>
+            <div class="col-ideas" id="col-morning"></div>
+          </section>
+          <section class="col" data-col="close">
+            <div class="col-head">
+              <h2>Close</h2>
+              <button class="refresh" type="button" data-run="close">Refresh</button>
+            </div>
+            <p class="col-status" data-col-status="close"></p>
+            <div class="col-ideas" id="col-close"></div>
+          </section>
+          <section class="col" data-col="week-ahead">
+            <div class="col-head">
+              <h2>Sunday</h2>
+              <button class="refresh" type="button" data-run="week-ahead">Refresh</button>
+            </div>
+            <p class="col-status" data-col-status="week-ahead"></p>
+            <div class="col-ideas" id="col-week-ahead"></div>
+          </section>
+        </div>
+      </div>
+
+      <aside class="sidebar">
+        <div class="side-card">
+          <button class="pen" type="button" id="view-full" aria-label="View full prompt" title="View full prompt">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+          </button>
+          <h2>Prompt text</h2>
+          <p class="side-note">Full <code>x_ideas.md</code> — role, rules, format. Stream focus and examples are injected at generate time.</p>
+          <pre id="full-preview">Loading…</pre>
+        </div>
+        <div class="side-card context-card">
+          <h2>Quality context</h2>
+          <p class="side-note">Read-only copy of the published prompt. Edit locally with <code>python web/server.py</code>.</p>
+          <label for="good-examples">Good examples</label>
+          <textarea id="good-examples" readonly></textarea>
+          <label for="good-why">Why these are good</label>
+          <textarea id="good-why" readonly></textarea>
+          <label for="bad-examples">Bad examples</label>
+          <textarea id="bad-examples" readonly></textarea>
+          <label for="bad-why">Why these fail</label>
+          <textarea id="bad-why" readonly></textarea>
+        </div>
+      </aside>
     </div>
+
     <footer>
-      <p>This site is static. Prompt editing and live generation still run locally with <code>python web/server.py</code>.</p>
+      <p id="foot">This page is published by GitHub Actions. Keys stay in repository secrets. Prompts are view-only.</p>
     </footer>
   </main>
+
+  <div class="overlay" id="overlay" hidden>
+    <div class="dialog" id="dialog" role="dialog" aria-modal="true" aria-labelledby="prompt-title">
+      <h2 id="prompt-title">View prompt</h2>
+      <p class="hint" id="prompt-hint"></p>
+      <textarea id="prompt-text" spellcheck="false" readonly></textarea>
+      <div class="dialog-actions">
+        <button class="ghost" type="button" id="prompt-close">Close</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     const MODES = [
-      { id: "morning", label: "Morning" },
-      { id: "close", label: "Close" },
-      { id: "week-ahead", label: "Sunday" },
+      { id: "morning", label: "Morning", stream: "Stream 1" },
+      { id: "close", label: "Close", stream: "Stream 2" },
+      { id: "week-ahead", label: "Sunday", stream: "Stream 3" },
     ];
+    const FOCUS_HINT = "This block is injected into the full prompt as {{STREAM_FOCUS}}. View only on this page.";
+    const FULL_HINT = "Full published shell. Placeholders are filled at generate time. View only on this page.";
+    const packs = { morning: null, close: null, "week-ahead": null };
+
+    const statusEl = document.getElementById("status");
+    const overlay = document.getElementById("overlay");
+    const dialog = document.getElementById("dialog");
+    const promptText = document.getElementById("prompt-text");
+    const promptTitle = document.getElementById("prompt-title");
+    const promptHint = document.getElementById("prompt-hint");
+    const fullPreview = document.getElementById("full-preview");
 
     function escapeHtml(s) {
       return String(s || "")
         .replaceAll("&", "&amp;")
         .replaceAll("<", "&lt;")
         .replaceAll(">", "&gt;");
+    }
+
+    function setStatus(text, isError) {
+      statusEl.textContent = text || "";
+      statusEl.classList.toggle("error", !!isError);
+    }
+
+    function setColStatus(mode, text, isError) {
+      const el = document.querySelector(`[data-col-status="${mode}"]`);
+      if (!el) return;
+      el.textContent = text || "";
+      el.classList.toggle("error", !!isError);
+    }
+
+    function emptyState() {
+      return `<p class="placeholder">No ideas yet. Waiting for the daily workflow.</p>`;
     }
 
     function linkify(text) {
@@ -219,22 +529,32 @@
       if (!items.length) return null;
       const wrap = document.createElement("div");
       wrap.className = "ref-wrap";
-      wrap.innerHTML = `<button class="ref" type="button">Reference</button>
-        <div class="ref-pop"><h4>Sources</h4><ul>${items.map((row) => `<li>${linkify(row)}</li>`).join("")}</ul></div>`;
+      const btn = document.createElement("button");
+      btn.className = "ref";
+      btn.type = "button";
+      btn.textContent = "Reference";
+      const pop = document.createElement("div");
+      pop.className = "ref-pop";
+      pop.innerHTML = `<h4>Sources</h4><ul>${items.map((row) => `<li>${linkify(row)}</li>`).join("")}</ul>`;
+      wrap.appendChild(btn);
+      wrap.appendChild(pop);
       return wrap;
     }
 
-    function renderColumn(mode, pack) {
+    function renderColumn(mode) {
       const root = document.getElementById("col-" + mode);
-      const status = document.getElementById("status-" + mode);
-      root.innerHTML = "";
-      if (!pack || !(pack.slots || []).length) {
-        status.textContent = "No pack yet.";
-        root.innerHTML = `<p class="placeholder">Waiting for the daily workflow.</p>`;
+      const result = packs[mode];
+      if (!result) {
+        root.innerHTML = emptyState();
         return;
       }
-      status.textContent = pack.session_date ? pack.session_date + (pack.generated_at ? " · " + pack.generated_at : "") : "";
-      (pack.slots || []).forEach((slot) => {
+      const slots = result.slots || [];
+      root.innerHTML = "";
+      if (!slots.length) {
+        root.innerHTML = emptyState();
+        return;
+      }
+      slots.forEach((slot) => {
         const ready = slot.status === "ready" && slot.body;
         const art = document.createElement("article");
         if (!ready) art.classList.add("empty");
@@ -258,29 +578,122 @@
             setTimeout(() => { btn.textContent = "Copy"; }, 1200);
           });
           actions.appendChild(btn);
-          const ref = referencePopup(slot);
-          if (ref) actions.appendChild(ref);
+          const refPop = referencePopup(slot);
+          if (refPop) actions.appendChild(refPop);
           art.appendChild(actions);
         }
         root.appendChild(art);
       });
     }
 
-    fetch("./latest.json", { cache: "no-store" })
-      .then((r) => {
-        if (!r.ok) throw new Error("Could not load latest.json");
-        return r.json();
-      })
-      .then((data) => {
-        const stamp = data.updated_at ? "Updated " + data.updated_at : "No briefs published yet.";
-        document.getElementById("status").textContent = stamp;
-        MODES.forEach((m) => renderColumn(m.id, data[m.id]));
-      })
-      .catch((err) => {
-        document.getElementById("status").textContent = err.message || String(err);
-        document.getElementById("status").classList.add("error");
-        MODES.forEach((m) => renderColumn(m.id, null));
+    function streamFor(mode) {
+      return (MODES.find((m) => m.id === mode) || {}).stream || mode;
+    }
+
+    function setPreview(text) {
+      const raw = (text || "").trim();
+      fullPreview.textContent = raw ? raw.slice(0, 700) + (raw.length > 700 ? "…" : "") : "No prompt loaded.";
+    }
+
+    async function loadText(url) {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error("Could not load " + url);
+      return res.text();
+    }
+
+    async function loadFullPreview() {
+      try {
+        setPreview(await loadText("./prompts/x_ideas.md"));
+      } catch (err) {
+        fullPreview.textContent = err.message || "Could not load prompt.";
+      }
+    }
+
+    async function loadContext() {
+      try {
+        const res = await fetch("./prompts/context.json", { cache: "no-store" });
+        if (!res.ok) return;
+        const data = await res.json();
+        document.getElementById("good-examples").value = data.good_examples || "";
+        document.getElementById("good-why").value = data.good_why || "";
+        document.getElementById("bad-examples").value = data.bad_examples || "";
+        document.getElementById("bad-why").value = data.bad_why || "";
+      } catch (e) {}
+    }
+
+    function openOverlay(kind) {
+      dialog.classList.toggle("focus", kind === "focus");
+      promptText.value = "Loading…";
+      overlay.hidden = false;
+      overlay.classList.add("open");
+    }
+
+    async function openFocus(mode) {
+      promptTitle.textContent = streamFor(mode) + " focus";
+      promptHint.textContent = FOCUS_HINT;
+      openOverlay("focus");
+      try {
+        promptText.value = await loadText("./prompts/focus-" + mode + ".md");
+      } catch (err) {
+        promptText.value = err.message || "Could not load focus.";
+      }
+    }
+
+    async function openFull() {
+      promptTitle.textContent = "Full prompt";
+      promptHint.textContent = FULL_HINT;
+      openOverlay("full");
+      try {
+        promptText.value = await loadText("./prompts/x_ideas.md");
+      } catch (err) {
+        promptText.value = err.message || "Could not load prompt.";
+      }
+    }
+
+    function closePrompt() {
+      overlay.classList.remove("open");
+      overlay.hidden = true;
+    }
+
+    async function loadPacks() {
+      try {
+        const res = await fetch("./latest.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("Could not load latest.json");
+        const data = await res.json();
+        setStatus(data.updated_at ? "Updated " + data.updated_at : "No briefs published yet.");
+        MODES.forEach((m) => {
+          packs[m.id] = data[m.id] || null;
+          const pack = packs[m.id];
+          if (pack && pack.session_date) setColStatus(m.id, pack.session_date, false);
+          else setColStatus(m.id, "No pack yet.", false);
+          renderColumn(m.id);
+        });
+      } catch (err) {
+        setStatus(err.message || String(err), true);
+        MODES.forEach((m) => renderColumn(m.id));
+      }
+    }
+
+    document.querySelectorAll("[data-view-focus]").forEach((b) => {
+      b.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        openFocus(b.dataset.viewFocus);
       });
+    });
+    document.getElementById("view-full").addEventListener("click", openFull);
+    document.getElementById("prompt-close").addEventListener("click", closePrompt);
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) closePrompt();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && overlay.classList.contains("open")) closePrompt();
+    });
+
+    loadPacks();
+    loadFullPreview().catch(() => {});
+    loadContext().catch(() => {});
   </script>
+
 </body>
 </html>

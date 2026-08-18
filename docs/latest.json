@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T11:53:23-04:00",
+  "updated_at": "2026-08-18T11:54:32-04:00",
   "morning": {
     "mode": "morning",
     "session_date": "2026-08-18",
@@ -145,5 +145,69 @@
       }
     ]
   },
-  "week-ahead": null
+  "week-ahead": {
+    "mode": "week-ahead",
+    "session_date": "2026-08-18",
+    "generated_at": "2026-08-18T11:54:32-04:00",
+    "draft_path": "drafts/2026-08-18-week-ahead.md",
+    "errors": [],
+    "slots": [
+      {
+        "title": "FOMC minutes land Wednesday at 6 p.m.",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "Wednesday, **2026-08-19 18:00:00** (U.S.), the **FOMC Minutes** hit the calendar with **High** impact in the data.\n\nThat document is the written record of the Fed\u2019s last rate-setting meeting\u2014what policymakers said about inflation, jobs, and borrowing costs, not a new vote on rates.\n\nAfter **2026-08-18** data showed the S&P 500 at **7704.58** (**-0.5226557315243584%**) and the VIX at **15.73** (**3.554970375246879%**), many readers use the minutes to see how the Fed\u2019s story lines up with recent housing and growth prints already on the tape.\n\nWhat line in past Fed minutes has changed how you read the next data release?",
+        "skip_reason": "",
+        "supporting_data": [
+          "FOMC Minutes date/time: 2026-08-19 18:00:00 \u2014 source: FMP_DATA economic_calendar",
+          "FOMC Minutes impact: High \u2014 source: FMP_DATA economic_calendar",
+          "^GSPC price: 7704.58 \u2014 source: FMP_DATA indexes",
+          "^GSPC changesPercentage: -0.5226557315243584 \u2014 source: FMP_DATA indexes",
+          "^VIX price: 15.73 \u2014 source: FMP_DATA indexes",
+          "^VIX changesPercentage: 3.554970375246879 \u2014 source: FMP_DATA indexes"
+        ],
+        "source_url": "https://www.etftrends.com/etf-strategist-content-hub/the-inflation-component-markets-chose-to-ignore/",
+        "source_notes": "https://www.etftrends.com/etf-strategist-content-hub/the-inflation-component-markets-chose-to-ignore/"
+      },
+      {
+        "title": "Walmart reports Thursday; EPS estimate 0.741",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "2026-08-20** is $WMT day on the earnings calendar: **epsEstimated 0.741**, **revenueEstimated 186619700000**, **marketCap 919556144000.0**.\n\nWalmart\u2019s report is a read on U.S. shopping and pricing\u2014how much people spend at scale, told in dollars per share and total sales versus those estimates.\n\nSame week, **Deere & Company** ($DE) is also set for **2026-08-20** (**epsEstimated 4.71**, **revenueEstimated 10814670000**) and **Ross Stores** ($ROST) (**epsEstimated 1.94**, **revenueEstimated 6146831000**), so Thursday stacks big-consumer and discretionary names after Wednesday\u2019s retail batch.\n\nWhich number do you watch first on a mega-cap report\u2014EPS, revenue, or guidance language?",
+        "skip_reason": "",
+        "supporting_data": [
+          "WMT date: 2026-08-20 \u2014 source: FMP_DATA earnings_calendar",
+          "WMT epsEstimated: 0.741 \u2014 source: FMP_DATA earnings_calendar",
+          "WMT revenueEstimated: 186619700000 \u2014 source: FMP_DATA earnings_calendar",
+          "WMT marketCap: 919556144000.0 \u2014 source: FMP_DATA earnings_calendar",
+          "DE epsEstimated: 4.71 \u2014 source: FMP_DATA earnings_calendar",
+          "DE revenueEstimated: 10814670000 \u2014 source: FMP_DATA earnings_calendar",
+          "ROST epsEstimated: 1.94 \u2014 source: FMP_DATA earnings_calendar",
+          "ROST revenueEstimated: 6146831000 \u2014 source: FMP_DATA earnings_calendar"
+        ],
+        "source_url": "https://www.marketwatch.com/story/6-treasury-yields-are-the-biggest-risk-facing-stocks-right-now-heres-why-04fb9bbe",
+        "source_notes": "https://www.marketwatch.com/story/6-treasury-yields-are-the-biggest-risk-facing-stocks-right-now-heres-why-04fb9bbe"
+      },
+      {
+        "title": "Jobless claims Thursday; estimate 210K",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "2026-08-20 12:30:00**: **Initial Jobless Claims (Aug/15)**\u2014estimate **210**, previous **209**, unit **K**\u2014plus **Continuing Jobless Claims (Aug/08)** estimate **1790** (previous **1777**) and the **4-Week Average** estimate **200** (previous **199**).\n\nInitial claims count new unemployment filings; continuing claims track people still on benefits\u2014together they describe whether layoffs are picking up or easing.\n\nFriday **2026-08-21 13:45:00** adds **S&P Global Manufacturing PMI (Aug)** estimate **53.9** (previous **53.9**) and **Services PMI** estimate **54** (previous **54.6**); PMI readings above **50** mean expansion, below **50** mean contraction in the survey.\n\nDo you treat claims or PMI as the clearer same-week labor-and-activity snapshot?",
+        "skip_reason": "",
+        "supporting_data": [
+          "Initial Jobless Claims date/time: 2026-08-20 12:30:00 \u2014 source: FMP_DATA economic_calendar",
+          "Initial Jobless Claims estimate: 210 \u2014 source: FMP_DATA economic_calendar",
+          "Initial Jobless Claims previous: 209 \u2014 source: FMP_DATA economic_calendar",
+          "Continuing Jobless Claims estimate: 1790 \u2014 source: FMP_DATA economic_calendar",
+          "Continuing Jobless Claims previous: 1777 \u2014 source: FMP_DATA economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 200 \u2014 source: FMP_DATA economic_calendar",
+          "S&P Global Manufacturing PMI estimate: 53.9 \u2014 source: FMP_DATA economic_calendar",
+          "S&P Global Services PMI estimate: 54 \u2014 source: FMP_DATA economic_calendar",
+          "S&P Global Services PMI previous: 54.6 \u2014 source: FMP_DATA economic_calendar"
+        ],
+        "source_url": "https://invezz.com/news/2026/08/18/dow-opens-150-points-lower-as-oil-rises-and-treasury-yields-pressure-stocks/",
+        "source_notes": "https://invezz.com/news/2026/08/18/dow-opens-150-points-lower-as-oil-rises-and-treasury-yields-pressure-stocks/"
+      }
+    ]
+  }
 }

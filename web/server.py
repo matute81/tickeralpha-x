@@ -96,7 +96,12 @@ class Handler(SimpleHTTPRequestHandler):
                     "ok": True,
                     "fmp": bool((os.environ.get("FMP_API_KEY") or "").strip()),
                     "llm": bool(
-                        (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("OPENAI_API_KEY") or "").strip()
+                        (
+                            os.environ.get("CURSOR_API_KEY")
+                            or os.environ.get("ANTHROPIC_API_KEY")
+                            or os.environ.get("OPENAI_API_KEY")
+                            or ""
+                        ).strip()
                     ),
                 },
             )

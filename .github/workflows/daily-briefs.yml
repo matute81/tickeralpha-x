@@ -27,12 +27,15 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     permissions:
       contents: write
     env:
       FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+      CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      CURSOR_MODEL: ${{ vars.CURSOR_MODEL }}
       ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
     steps:
@@ -42,15 +45,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
       - name: Check secrets
         run: |
           if [ -z "$FMP_API_KEY" ]; then
             echo "Add repository secret FMP_API_KEY."
             exit 1
           fi
-          if [ -z "$ANTHROPIC_API_KEY" ] && [ -z "$OPENAI_API_KEY" ]; then
-            echo "Add repository secret ANTHROPIC_API_KEY (preferred) or OPENAI_API_KEY."
-            echo "CURSOR_API_KEY cannot run this job."
+          if [ -z "$CURSOR_API_KEY" ] && [ -z "$ANTHROPIC_API_KEY" ] && [ -z "$OPENAI_API_KEY" ]; then
+            echo "Add repository secret CURSOR_API_KEY (preferred), ANTHROPIC_API_KEY, or OPENAI_API_KEY."
             exit 1
           fi
 

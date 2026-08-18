@@ -845,7 +845,7 @@
       }
       aiOk = false;
       syncBusy();
-      setStatus("AI is not available. Add ANTHROPIC_API_KEY or OPENAI_API_KEY to .env.", true);
+      setStatus("AI is not available. Add CURSOR_API_KEY, ANTHROPIC_API_KEY, or OPENAI_API_KEY to .env.", true);
       if (foot) foot.textContent = "AI is not available. Jobs will not run until an Anthropic or OpenAI key is in .env.";
     }).catch(() => {});
   </script>

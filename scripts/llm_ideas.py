@@ -17,7 +17,7 @@ PROMPT_PATH = ROOT / "prompts" / "x_ideas.md"
 DEFAULT_PROMPT_PATH = ROOT / "prompts" / "defaults" / "x_ideas.md"
 CONTEXT_PATH = ROOT / "prompts" / "context.json"
 DRAFTS = ROOT / "drafts"
-AI_UNAVAILABLE = "AI is not available. Add ANTHROPIC_API_KEY or OPENAI_API_KEY to .env."
+AI_UNAVAILABLE = "AI is not available. Add CURSOR_API_KEY, ANTHROPIC_API_KEY, or OPENAI_API_KEY to .env."
 MAX_PROMPT_CHARS = 200_000
 CONTEXT_KEYS = ("good_examples", "good_why", "bad_examples", "bad_why")
 
@@ -64,14 +64,18 @@ FIELD_RE = re.compile(
 RAW_DUMP = ROOT / "data" / "last_llm_raw.md"
 
 
-def _llm_keys() -> tuple[str, str]:
+def _llm_keys() -> tuple[str, str, str]:
     load_dotenv(ROOT / ".env")
-    return (os.environ.get("ANTHROPIC_API_KEY") or "").strip(), (os.environ.get("OPENAI_API_KEY") or "").strip()
+    return (
+        (os.environ.get("CURSOR_API_KEY") or "").strip(),
+        (os.environ.get("ANTHROPIC_API_KEY") or "").strip(),
+        (os.environ.get("OPENAI_API_KEY") or "").strip(),
+    )
 
 
 def llm_configured() -> bool:
-    anthropic, openai = _llm_keys()
-    return bool(anthropic or openai)
+    cursor, anthropic, openai = _llm_keys()
+    return bool(cursor or anthropic or openai)
 
 
 def unavailable_message(detail: str | None = None) -> str:
@@ -469,10 +473,37 @@ def _anthropic(api_key: str, prompt: str, *, max_tokens: int = 8000) -> str:
     return data["content"][0]["text"]
 
 
+def _cursor(api_key: str, prompt: str) -> str:
+    try:
+        from cursor_sdk import Agent, AgentOptions, CursorAgentError, LocalAgentOptions
+    except ImportError as exc:
+        raise RuntimeError("cursor-sdk is not installed. Run: pip install cursor-sdk") from exc
+
+    model = os.environ.get("CURSOR_MODEL") or "composer-2.5"
+    try:
+        result = Agent.prompt(
+            prompt,
+            AgentOptions(
+                api_key=api_key,
+                model=model,
+                tools=[],
+                local=LocalAgentOptions(cwd=str(ROOT)),
+            ),
+        )
+    except CursorAgentError as exc:
+        raise RuntimeError(f"Cursor agent failed to start: {exc}") from exc
+    if result.status != "finished":
+        raise RuntimeError(f"Cursor agent {result.status}: {(result.result or result.id or '')}")
+    text = (result.result or "").strip()
+    if not text:
+        raise RuntimeError("Cursor agent returned empty text.")
+    return text
+
+
 def generate_x_ideas(brief: dict[str, Any], mode: str, session: date) -> tuple[list[dict[str, Any]] | None, str | None]:
     """Return (slots, error). slots is None if LLM is off or the call failed."""
-    anthropic, openai = _llm_keys()
-    if not anthropic and not openai:
+    cursor, anthropic, openai = _llm_keys()
+    if not cursor and not anthropic and not openai:
         return None, None
     if mode not in MODE_TO_STREAM:
         return None, f"Unknown mode: {mode}"
@@ -486,18 +517,28 @@ def generate_x_ideas(brief: dict[str, Any], mode: str, session: date) -> tuple[l
         return None, str(exc)
     max_tokens = 12000 if mode == "close" else 8000
     try:
-        raw = (
-            _anthropic(anthropic, prompt, max_tokens=max_tokens)
-            if anthropic
-            else _openai(openai, prompt, max_tokens=min(max_tokens, 8000))
-        )
+        if cursor:
+            raw = _cursor(cursor, prompt)
+        elif anthropic:
+            raw = _anthropic(anthropic, prompt, max_tokens=max_tokens)
+        else:
+            raw = _openai(openai, prompt, max_tokens=min(max_tokens, 8000))
         RAW_DUMP.parent.mkdir(parents=True, exist_ok=True)
         RAW_DUMP.write_text(raw or "", encoding="utf-8")
         ideas = parse_ideas(raw, want)
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")[:400]
         return None, f"HTTP {exc.code}: {detail}"
-    except (json.JSONDecodeError, KeyError, TypeError, urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
+    except (
+        json.JSONDecodeError,
+        KeyError,
+        TypeError,
+        urllib.error.URLError,
+        TimeoutError,
+        OSError,
+        ValueError,
+        RuntimeError,
+    ) as exc:
         return None, str(exc)
 
     if not ideas:

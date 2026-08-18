@@ -977,7 +977,7 @@ def run_job(mode: str, session: date | None = None, polish: bool = True) -> dict
     md_path = draft_path(mode, session)
     rel_json = str(out_json.relative_to(REPO_ROOT)).replace("\\", "/")
     md_path.write_text(render_markdown(mode, session, rel_json, slots), encoding="utf-8")
-    return {
+    result = {
         "mode": mode,
         "session_date": session.isoformat(),
         "generated_at": datetime.now(NY).isoformat(timespec="seconds"),
@@ -989,3 +989,100 @@ def run_job(mode: str, session: date | None = None, polish: bool = True) -> dict
         "llm": True,
         "slots": slots,
     }
+    update_latest(result)
+    return result
+
+
+def public_pack(result: dict[str, Any]) -> dict[str, Any]:
+    """JSON for GitHub Pages. No FMP dump, no API keys."""
+    return {
+        "mode": result["mode"],
+        "session_date": result["session_date"],
+        "generated_at": result["generated_at"],
+        "draft_path": result["draft_path"],
+        "errors": result.get("errors") or [],
+        "slots": [
+            {
+                "title": s.get("title") or "",
+                "status": s.get("status") or "",
+                "kind": s.get("kind") or "x_idea",
+                "body": s.get("body") or "",
+                "skip_reason": s.get("skip_reason") or "",
+                "supporting_data": s.get("supporting_data") or [],
+                "source_url": s.get("source_url") or "",
+                "source_notes": s.get("source_notes") or "",
+            }
+            for s in result.get("slots") or []
+        ],
+    }
+
+
+def update_latest(result: dict[str, Any]) -> Path:
+    path = REPO_ROOT / "docs" / "latest.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    latest: dict[str, Any] = {
+        "updated_at": None,
+        "morning": None,
+        "close": None,
+        "week-ahead": None,
+    }
+    if path.is_file():
+        try:
+            loaded = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            loaded = {}
+        if isinstance(loaded, dict):
+            for key in ("morning", "close", "week-ahead", "updated_at"):
+                if key in loaded:
+                    latest[key] = loaded[key]
+    pack = public_pack(result)
+    latest[result["mode"]] = pack
+    latest["updated_at"] = pack["generated_at"]
+    path.write_text(json.dumps(latest, indent=2) + "\n", encoding="utf-8")
+    return path
+
+
+def resolve_mode(mode: str) -> str | None:
+    if mode != "auto":
+        return mode
+    now = datetime.now(NY)
+    if now.weekday() == 5:
+        return None
+    if now.weekday() == 6:
+        return "week-ahead"
+    if now.hour >= 16:
+        return "close"
+    return "morning"
+
+
+def main() -> None:
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Generate one TickerAlpha session pack.")
+    parser.add_argument(
+        "--mode",
+        default="auto",
+        choices=("auto", "morning", "close", "week-ahead"),
+        help="auto picks morning/close/week-ahead from America/New_York (skips Saturday).",
+    )
+    args = parser.parse_args()
+    mode = resolve_mode(args.mode)
+    if not mode:
+        print("Saturday in New York — no session to generate.")
+        return
+    result = run_job(mode)
+    print(
+        json.dumps(
+            {
+                "mode": result["mode"],
+                "session_date": result["session_date"],
+                "draft_path": result["draft_path"],
+                "generated_at": result["generated_at"],
+            },
+            indent=2,
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()

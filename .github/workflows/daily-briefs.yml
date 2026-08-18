@@ -1,0 +1,91 @@
+name: Daily briefs
+
+on:
+  schedule:
+    # America/New_York, ignoring DST: morning ~8:30am EDT / 7:30am EST
+    - cron: "30 12 * * 1-5"
+    # Close ~5:30pm EDT / 4:30pm EST
+    - cron: "30 21 * * 1-5"
+    # Sunday week-ahead ~6:00pm EDT
+    - cron: "0 22 * * 0"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Session to generate
+        type: choice
+        options:
+          - auto
+          - morning
+          - close
+          - week-ahead
+        default: auto
+
+concurrency:
+  group: daily-briefs
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check secrets
+        run: |
+          if [ -z "$FMP_API_KEY" ]; then
+            echo "Add repository secret FMP_API_KEY."
+            exit 1
+          fi
+          if [ -z "$ANTHROPIC_API_KEY" ] && [ -z "$OPENAI_API_KEY" ]; then
+            echo "Add repository secret ANTHROPIC_API_KEY (preferred) or OPENAI_API_KEY."
+            echo "CURSOR_API_KEY cannot run this job."
+            exit 1
+          fi
+
+      - name: Pick session
+        id: pick
+        env:
+          INPUT_MODE: ${{ github.event.inputs.mode || 'auto' }}
+          CRON: ${{ github.event.schedule }}
+        run: |
+          python - <<'PY'
+          import os
+          cron = os.environ.get("CRON") or ""
+          mode = (os.environ.get("INPUT_MODE") or "auto").strip()
+          if cron == "30 12 * * 1-5":
+              mode = "morning"
+          elif cron == "30 21 * * 1-5":
+              mode = "close"
+          elif cron == "0 22 * * 0":
+              mode = "week-ahead"
+          print(f"mode={mode}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"mode={mode}\n")
+          PY
+
+      - name: Generate
+        run: python scripts/generate_pack.py --mode ${{ steps.pick.outputs.mode }}
+
+      - name: Publish drafts and Pages JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add drafts docs/latest.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+          git commit -m "Publish ${{ steps.pick.outputs.mode }} briefs"
+          git push

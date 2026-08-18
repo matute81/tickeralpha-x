@@ -27,7 +27,7 @@ Requires `FMP_API_KEY` in the environment or in `.env` (gitignored). Copy `.env.
 
 ## Web app
 
-GitHub Pages cannot run this (it would expose the FMP key). Run the product locally, then open it in a browser:
+GitHub Pages cannot run the generator (it would expose API keys). The public site at `docs/` is a **read-only** view of the latest packs. Live generate/edit still runs locally:
 
 ```text
 python web/server.py
@@ -42,6 +42,15 @@ Then go to [http://127.0.0.1:8787](http://127.0.0.1:8787). Three buttons map to 
 The page has three columns (Morning / Close / Sunday). Click a session card (or its pen) to edit that stream’s **STREAM-SPECIFIC FOCUS** only (`prompts/focus-morning.md`, and so on). The **Prompt text** card on the right edits the full shell, [prompts/x_ideas.md](prompts/x_ideas.md). Quality context under that card is saved to `prompts/context.json` and injected as few-shot calibration (not facts to copy). Refresh a column or **Refresh all sessions**. Copy pastes the post body. Hover **Reference** for sources. Numbers still come from FMP. `CURSOR_API_KEY` is not used.
 
 If the LLM key is missing or the model call fails, the app shows **AI is not available** and does not fall back to Python drafts. There is no 280-character cap.
+
+## GitHub Actions
+
+Daily generation is [`.github/workflows/daily-briefs.yml`](.github/workflows/daily-briefs.yml). Add repository secrets (never commit them):
+
+- `FMP_API_KEY` (required)
+- `ANTHROPIC_API_KEY` (preferred) or `OPENAI_API_KEY`
+
+`CURSOR_API_KEY` cannot call this pipeline. After a run, drafts land in `drafts/` and the Pages payload in `docs/latest.json`.
 
 ## Output
 

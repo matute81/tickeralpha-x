@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TickerAlpha briefs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f3f1ea;
+      --paper: #fffcf7;
+      --ink: #1c1b18;
+      --muted: #6f6d66;
+      --line: #e4e0d6;
+      --hover: #ebe7dc;
+      --good: #2f6b4f;
+      --warn: #8a5a2b;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    main {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 96px;
+    }
+    header { margin-bottom: 28px; }
+    .mark {
+      font-family: Newsreader, Georgia, serif;
+      font-size: 13px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 18px;
+    }
+    h1 {
+      font-family: Newsreader, Georgia, serif;
+      font-weight: 500;
+      font-size: 42px;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin: 0 0 12px;
+    }
+    .lede { color: var(--muted); max-width: 46em; margin: 0; }
+    .status { min-height: 1.5em; color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+    .status.error { color: #8f2d2d; }
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      align-items: start;
+    }
+    .col { min-width: 0; }
+    .col-head h2 {
+      font-family: Newsreader, Georgia, serif;
+      font-size: 22px;
+      font-weight: 500;
+      margin: 0 0 4px;
+    }
+    .col-status { color: var(--muted); font-size: 12px; margin: 0 0 10px; min-height: 1.4em; }
+    .col-ideas { display: grid; gap: 12px; }
+    article {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 18px 14px;
+      position: relative;
+    }
+    article.empty { opacity: 0.55; }
+    article header.row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    article h3 {
+      font-family: Newsreader, Georgia, serif;
+      font-size: 18px;
+      font-weight: 500;
+      margin: 0;
+    }
+    .body { white-space: pre-wrap; font-size: 14px; line-height: 1.6; margin: 0 0 12px; }
+    .card-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .copy, .ref {
+      appearance: none;
+      border: 0;
+      cursor: pointer;
+      font: 500 12px/1 Inter, sans-serif;
+      border-radius: 999px;
+      padding: 8px 14px;
+    }
+    .copy { background: var(--ink); color: var(--paper); }
+    .copy:hover { opacity: 0.88; }
+    .ref {
+      background: var(--paper);
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+    .ref:hover { background: var(--hover); }
+    .ref-wrap { position: relative; }
+    .ref-pop {
+      display: none;
+      position: absolute;
+      left: 0;
+      bottom: calc(100% + 8px);
+      width: min(280px, 72vw);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 0 10px 28px rgba(28, 27, 24, 0.14);
+      z-index: 8;
+    }
+    .ref-wrap:hover .ref-pop, .ref-wrap:focus-within .ref-pop { display: block; }
+    .ref-pop h4 {
+      margin: 0 0 8px;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .ref-pop ul { margin: 0; padding: 0; list-style: none; }
+    .ref-pop li {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+      margin: 0 0 8px;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .ref-pop li:last-child { margin-bottom: 0; }
+    .ref-pop a { color: var(--ink); }
+    .badge {
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--good);
+      flex-shrink: 0;
+    }
+    .badge.skip { color: var(--warn); }
+    .placeholder {
+      color: var(--muted);
+      font-size: 13px;
+      padding: 18px;
+      border: 1px dashed var(--line);
+      border-radius: 16px;
+      background: var(--paper);
+    }
+    footer { margin-top: 64px; color: var(--muted); font-size: 12px; }
+    @media (max-width: 900px) { .columns { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="mark">TickerAlpha</p>
+      <h1>Market briefs</h1>
+      <p class="lede">Published posts for <a href="https://x.com/tickeralphai">@tickeralphai</a>. A GitHub Action refreshes these from FMP. Keys stay in repository secrets — they are not in this page.</p>
+    </header>
+    <p class="status" id="status">Loading…</p>
+    <div class="columns">
+      <section class="col">
+        <div class="col-head"><h2>Morning</h2></div>
+        <p class="col-status" id="status-morning"></p>
+        <div class="col-ideas" id="col-morning"></div>
+      </section>
+      <section class="col">
+        <div class="col-head"><h2>Close</h2></div>
+        <p class="col-status" id="status-close"></p>
+        <div class="col-ideas" id="col-close"></div>
+      </section>
+      <section class="col">
+        <div class="col-head"><h2>Sunday</h2></div>
+        <p class="col-status" id="status-week-ahead"></p>
+        <div class="col-ideas" id="col-week-ahead"></div>
+      </section>
+    </div>
+    <footer>
+      <p>This site is static. Prompt editing and live generation still run locally with <code>python web/server.py</code>.</p>
+    </footer>
+  </main>
+  <script>
+    const MODES = [
+      { id: "morning", label: "Morning" },
+      { id: "close", label: "Close" },
+      { id: "week-ahead", label: "Sunday" },
+    ];
+
+    function escapeHtml(s) {
+      return String(s || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;");
+    }
+
+    function linkify(text) {
+      return escapeHtml(text).replace(/https?:\/\/[^\s<&]+/g, (url) => {
+        const clean = url.replace(/[).,]+$/, "");
+        return `<a href="${clean}" target="_blank" rel="noopener noreferrer">${clean}</a>`;
+      });
+    }
+
+    function referencePopup(slot) {
+      const rows = (slot.supporting_data || []).map((row) => String(row).trim()).filter(Boolean);
+      const url = String(slot.source_url || "").trim();
+      const notes = String(slot.source_notes || "").trim();
+      const items = [...rows];
+      if (url && !items.some((row) => row.includes(url))) items.push("Source: " + url);
+      if (notes && notes !== url && !items.some((row) => row.includes(notes))) items.push(notes);
+      if (!items.length) return null;
+      const wrap = document.createElement("div");
+      wrap.className = "ref-wrap";
+      wrap.innerHTML = `<button class="ref" type="button">Reference</button>
+        <div class="ref-pop"><h4>Sources</h4><ul>${items.map((row) => `<li>${linkify(row)}</li>`).join("")}</ul></div>`;
+      return wrap;
+    }
+
+    function renderColumn(mode, pack) {
+      const root = document.getElementById("col-" + mode);
+      const status = document.getElementById("status-" + mode);
+      root.innerHTML = "";
+      if (!pack || !(pack.slots || []).length) {
+        status.textContent = "No pack yet.";
+        root.innerHTML = `<p class="placeholder">Waiting for the daily workflow.</p>`;
+        return;
+      }
+      status.textContent = pack.session_date ? pack.session_date + (pack.generated_at ? " · " + pack.generated_at : "") : "";
+      (pack.slots || []).forEach((slot) => {
+        const ready = slot.status === "ready" && slot.body;
+        const art = document.createElement("article");
+        if (!ready) art.classList.add("empty");
+        art.innerHTML = `
+          <header class="row">
+            <h3>${escapeHtml(slot.title)}</h3>
+            <span class="badge ${ready ? "" : "skip"}">${slot.kind === "x_recap" ? (ready ? "Recap" : "Skipped") : (ready ? "Ready" : "Skipped")}</span>
+          </header>
+          <p class="body">${escapeHtml(ready ? slot.body : slot.skip_reason || "")}</p>
+        `;
+        if (ready) {
+          const actions = document.createElement("div");
+          actions.className = "card-actions";
+          const btn = document.createElement("button");
+          btn.className = "copy";
+          btn.type = "button";
+          btn.textContent = "Copy";
+          btn.addEventListener("click", async () => {
+            await navigator.clipboard.writeText(slot.body);
+            btn.textContent = "Copied";
+            setTimeout(() => { btn.textContent = "Copy"; }, 1200);
+          });
+          actions.appendChild(btn);
+          const ref = referencePopup(slot);
+          if (ref) actions.appendChild(ref);
+          art.appendChild(actions);
+        }
+        root.appendChild(art);
+      });
+    }
+
+    fetch("./latest.json", { cache: "no-store" })
+      .then((r) => {
+        if (!r.ok) throw new Error("Could not load latest.json");
+        return r.json();
+      })
+      .then((data) => {
+        const stamp = data.updated_at ? "Updated " + data.updated_at : "No briefs published yet.";
+        document.getElementById("status").textContent = stamp;
+        MODES.forEach((m) => renderColumn(m.id, data[m.id]));
+      })
+      .catch((err) => {
+        document.getElementById("status").textContent = err.message || String(err);
+        document.getElementById("status").classList.add("error");
+        MODES.forEach((m) => renderColumn(m.id, null));
+      });
+  </script>
+</body>
+</html>

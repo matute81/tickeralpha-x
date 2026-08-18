@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T11:48:13-04:00",
+  "updated_at": "2026-08-18T11:53:23-04:00",
   "morning": {
     "mode": "morning",
     "session_date": "2026-08-18",
@@ -62,6 +62,88 @@
       }
     ]
   },
-  "close": null,
+  "close": {
+    "mode": "close",
+    "session_date": "2026-08-18",
+    "generated_at": "2026-08-18T11:53:23-04:00",
+    "draft_path": "drafts/2026-08-18.md",
+    "errors": [],
+    "slots": [
+      {
+        "title": "Nasdaq down 1.18% as semis slide",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "The Nasdaq Composite closed at 26330.06, down 314.85 points (-1.1816515799828131%). The S&P 500 finished at 7703.17 (-0.5408608842281445%).\n\nSemiconductor-heavy names led the pressure: $AMD -5.015810276679841% to 480.62, $ASML -4.922681507285772% to 1790.42, $TSM -3.923706986565196% to 414.06. $NVDA -2.164348251188838% to 220.14, $AVGO -2.8845908824503717% to 381.11, $META -2.631298662495394% to 553.9987.\n\nNASDAQ Technology averaged -0.9524524446533178% for the session \u2014 the weakest sector in the injected sector snapshot. Trading flow showed the inverse pair: Direxion Daily Semiconductor Bull 3X ETF $SOXL -16.307% vs. Bear 3X $SOXS +16.52763%.\n\nCoverage on the tape cited inflation concerns, profit-taking, and Treasury yields moving up as bond prices fell \u2014 the same session theme as \u201cMarkets Track Lower For Third Straight Session.\u201d\n\nWhich large-cap chip name\u2019s move surprised you most on the close?",
+        "skip_reason": "",
+        "supporting_data": [
+          "Nasdaq Composite close: 26330.06 \u2014 [source: FMP indexes ^IXIC]",
+          "Nasdaq change %: -1.1816515799828131 \u2014 [source: FMP indexes ^IXIC]",
+          "$AMD change %: -5.015810276679841 \u2014 [source: FMP mega_caps AMD]",
+          "$ASML change %: -4.922681507285772 \u2014 [source: FMP mega_caps ASML]",
+          "$TSM change %: -3.923706986565196 \u2014 [source: FMP mega_caps TSM]",
+          "Technology sector avg change: -0.9524524446533178 \u2014 [source: FMP sectors]",
+          "$SOXL change %: -16.307 \u2014 [source: FMP actives]",
+          "$SOXS change %: 16.52763 \u2014 [source: FMP liquid_gainers / actives]"
+        ],
+        "source_url": "https://seekingalpha.com/article/4937779-markets-track-lower-third-straight-session",
+        "source_notes": "https://seekingalpha.com/article/4937779-markets-track-lower-third-straight-session"
+      },
+      {
+        "title": "Lilly up 3.38% as healthcare leads",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "NASDAQ Healthcare averaged +0.6796558732155233% \u2014 top sector in the dataset while Technology averaged -0.9524524446533178%.\n\n$LLY closed at 1223.145, up 39.985 (+3.3795091111937436%). Day range: 1191.03\u20131225.2567; year range in the feed spans 685.15\u20131249.45.\n\n$JNJ finished at 271.21, up 8.84 (+3.3692876472157547%), with a session high of 271.73.\n\nConsumer Defensive also printed green at +0.3912545369061604%, with $KO +1.9889629799953894% to 88.71 and $PEP +1.316550925925921% to 140.06 \u2014 a split tape vs. growth and semis.\n\nDid you read today\u2019s healthcare strength as stock-specific, or a broader \u201crisk-off within equities\u201d tilt?",
+        "skip_reason": "",
+        "supporting_data": [
+          "Healthcare sector avg change: 0.6796558732155233 \u2014 [source: FMP sectors]",
+          "$LLY price: 1223.145 \u2014 [source: FMP mega_caps LLY]",
+          "$LLY change %: 3.3795091111937436 \u2014 [source: FMP mega_caps LLY]",
+          "$JNJ price: 271.21 \u2014 [source: FMP mega_caps JNJ]",
+          "$JNJ change %: 3.3692876472157547 \u2014 [source: FMP mega_caps JNJ]",
+          "$KO change %: 1.9889629799953894 \u2014 [source: FMP mega_caps KO]"
+        ],
+        "source_url": "https://www.tickeralpha.ai",
+        "source_notes": "https://www.tickeralpha.ai"
+      },
+      {
+        "title": "July starts 1.239M vs 1.35M est.",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "The injected calendar shows Housing Starts (Jul) actual 1.239 vs estimate 1.35 (unit M), previous 1.415. Housing Starts MoM (Jul) printed -12.4% vs estimate -4.7%, previous 19.7%.\n\nBuilding Permits (Jul) actual 1.443 vs estimate 1.37, previous 1.374; Building Permits MoM (Jul) +5% vs estimate 1.2%, previous -2.6%.\n\n$HD \u2014 on the earnings calendar for 2026-08-18 \u2014 reported epsActual 4.92 vs epsEstimated 4.73 and revenueActual 47861000000 vs revenueEstimated 47243150000. Shares closed at 340.37 (+0.7369480288859978%).\n\n$TOL closed at 143.3325 (-1.4558267445857536%). $KEYS, also on the calendar, finished at 334.85001 (-7.282289907240753%).\n\nWSJ headline on the release: \u201cU.S. Housing Starts Dropped in July.\u201d\n\nWhen permits beat and starts miss in the same print, which line do you watch first?",
+        "skip_reason": "",
+        "supporting_data": [
+          "Housing Starts (Jul) actual: 1.239 \u2014 [source: FMP economic_calendar]",
+          "Housing Starts (Jul) estimate: 1.35 \u2014 [source: FMP economic_calendar]",
+          "Housing Starts MoM (Jul) actual: -12.4 \u2014 [source: FMP economic_calendar]",
+          "Building Permits (Jul) actual: 1.443 \u2014 [source: FMP economic_calendar]",
+          "$HD epsActual: 4.92 \u2014 [source: FMP earnings_calendar]",
+          "$HD epsEstimated: 4.73 \u2014 [source: FMP earnings_calendar]",
+          "$HD revenueActual: 47861000000 \u2014 [source: FMP earnings_calendar]",
+          "$HD change %: 0.7369480288859978 \u2014 [source: FMP mega_caps HD]"
+        ],
+        "source_url": "https://www.wsj.com/economy/housing/u-s-housing-starts-dropped-in-july-96b4f96a",
+        "source_notes": "https://www.wsj.com/economy/housing/u-s-housing-starts-dropped-in-july-96b4f96a"
+      },
+      {
+        "title": "Aug. 18 session recap",
+        "status": "ready",
+        "kind": "x_recap",
+        "body": "The S&P 500 closed at 7703.17, down 41.89 points (-0.5408608842281445%), with a session range of 7693.89\u20137713.95. The Dow Jones Industrial Average finished at 53368.3 (-0.17111929753544802%), while the Russell 2000 ended at 3030.00099 (-0.9006797403309605%).\n\nThe Nasdaq Composite took the largest hit among the major U.S. benchmarks at 26330.06 (-1.1816515799828131%), low 26266.676, high 26422.502 \u2014 consistent with the technology sector\u2019s -0.9524524446533178% average change on NASDAQ.\n\nEarly-session economic data in the feed included Housing Starts (Jul) at 1.239M vs 1.35M estimate and Housing Starts MoM at -12.4% vs -4.7% estimate; Building Permits (Jul) at 1.443M vs 1.37M estimate. Atlanta Fed GDPNow (Q3) printed 4% vs 4.3% estimate and 4.3% previous.\n\nTreasury snapshot dated 2026-08-14 in the bundle shows the 10-year at 4.68 and the 2s10s spread at 0.51. Headlines in the news array described stocks tracking lower for a third straight session and Treasury yields heading higher as bond prices dropped.\n\nSemiconductor and AI-adjacent megacaps dominated the loser side of the injected mega_cap set: $AMD -5.015810276679841%, $ASML -4.922681507285772%, $TSM -3.923706986565196%, $AVGO -2.8845908824503717%, $NVDA -2.164348251188838%, $META -2.631298662495394%, $ORCL -1.7115581316058774%. $INTC, among actives, closed at 96.2886 (-6.95855%).\n\nHealthcare and consumer staples were relative bright spots: sector averages +0.6796558732155233% and +0.3912545369061604%. $LLY +3.3795091111937436% to 1223.145; $JNJ +3.3692876472157547% to 271.21; $KO +1.9889629799953894%; $WMT +1.03962214641827%; $COST +1.2798426848453082%; $V +1.6609073681863886%.\n\nEnergy names in mega_caps mixed with oil proxies firm: $CVX +0.740009866798224% to 204.2 while NASDAQ Energy averaged -0.749023219784084. Brent crude in cross_asset data: 91.63 (+0.8363596346428864%); USO 131.53999 (+0.9593905902218105%).\n\nReal Estate was the weakest sector after Technology at -0.6963648157850666%. Communication Services averaged -0.20641851401347333%; Financial Services -0.1863861366113051%.\n\nThe VIX closed at 15.76, up 0.57 (+3.7524687294272567%), session high 16.09. Gold futures (GCUSD) 4414.9 (-1.3143483023001137%). Bitcoin USD 64814.17 (+0.5063295065024028%). UUP (dollar proxy) 28.115 (+0.035580857498658636%); EURUSD 1.15813.\n\nOverseas indexes in the feed: Nikkei 225 67460.73 (-2.5419151187694413%); FTSE 100 10735.7 (+0.14365269628649813%); Hang Seng 25471.16 (+0.07040361069945615%).\n\nEarnings with reported actuals in the calendar: $HD epsActual 4.92 vs 4.73 estimate; revenueActual 47861000000 vs revenueEstimated 47243150000 \u2014 shares +0.7369480288859978%. $KEYS closed -7.282289907240753% on its report day in the calendar; $TOL -1.4558267445857536%; $JKHY +3.389604323747237%.",
+        "skip_reason": "",
+        "supporting_data": [
+          "S&P 500: 7703.17, -0.5408608842281445% \u2014 [source: FMP indexes ^GSPC]",
+          "Nasdaq: 26330.06, -1.1816515799828131% \u2014 [source: FMP indexes ^IXIC]",
+          "VIX: 15.76, +3.7524687294272567% \u2014 [source: FMP indexes ^VIX]",
+          "year10 Treasury: 4.68 \u2014 [source: FMP treasury]",
+          "Brent: 91.63 \u2014 [source: FMP cross_asset brent]",
+          "Gold GCUSD: 4414.9 \u2014 [source: FMP cross_asset gold]",
+          "Housing Starts actual: 1.239 \u2014 [source: FMP economic_calendar]",
+          "$HD epsActual / revenueActual: 4.92 / 47861000000 \u2014 [source: FMP earnings_calendar]"
+        ],
+        "source_url": "https://seekingalpha.com/article/4937779-markets-track-lower-third-straight-session",
+        "source_notes": "https://seekingalpha.com/article/4937779-markets-track-lower-third-straight-session"
+      }
+    ]
+  },
   "week-ahead": null
 }

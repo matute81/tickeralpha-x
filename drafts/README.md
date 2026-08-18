@@ -2,16 +2,12 @@
 
 Generated posts live here. You copy them to X. The agent does not post.
 
-| File | When | Slots |
-|------|------|--------|
-| `YYYY-MM-DD-am.md` | Weekday pre-market | Next session, overnight (optional), how to read the print (optional), engagement (rare) |
-| `YYYY-MM-DD.md` | Weekday after close | Recap, story, movers, cross-asset, plus conditionals, plus Friday wrap |
-| `YYYY-MM-DD-week-ahead.md` | Sunday | Week ahead |
+Each job fills `prompts/x_ideas.md` with that stream’s focus and any quality examples in `prompts/context.json`. Close also writes a fourth previous-session recap. If AI is not available, nothing is drafted.
 
-Start from:
+| File | Button | Stream |
+|------|--------|--------|
+| `YYYY-MM-DD-am.md` | Morning | 1 — US data, economy, politics, news |
+| `YYYY-MM-DD.md` | Close | 2 — Price movements and stock analysis |
+| `YYYY-MM-DD-week-ahead.md` | Sunday | 3 — Next week preview |
 
-- [morning_template.md](morning_template.md)
-- [weekday_template.md](weekday_template.md)
-- [sunday_template.md](sunday_template.md)
-
-`YYYY-MM-DD` is the US session date (America/New_York). Skip any slot with `Status: empty`.
+`YYYY-MM-DD` is the US session date (America/New_York).

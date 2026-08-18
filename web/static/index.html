@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TickerAlpha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f3f1ea;
+      --paper: #fffcf7;
+      --ink: #1c1b18;
+      --muted: #6f6d66;
+      --line: #e4e0d6;
+      --hover: #ebe7dc;
+      --good: #2f6b4f;
+      --warn: #8a5a2b;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    main {
+      width: min(1440px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 96px;
+    }
+    header { margin-bottom: 28px; }
+    .mark {
+      font-family: Newsreader, Georgia, serif;
+      font-size: 13px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 18px;
+    }
+    h1 {
+      font-family: Newsreader, Georgia, serif;
+      font-weight: 500;
+      font-size: 42px;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin: 0 0 12px;
+    }
+    .lede { color: var(--muted); max-width: 46em; margin: 0; }
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 340px;
+      gap: 24px;
+      align-items: start;
+    }
+    .jobs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 8px 0 0;
+    }
+    .job-card, .side-card { position: relative; }
+    button.job {
+      appearance: none;
+      text-align: left;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px 44px 18px 20px;
+      cursor: pointer;
+      color: inherit;
+      font: inherit;
+      width: 100%;
+      min-height: 100%;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+    button.job:hover { background: var(--hover); border-color: #d7d2c6; }
+    button.refresh:disabled, button.refresh-all:disabled { opacity: 0.55; cursor: wait; }
+    button.job strong { display: block; font-weight: 600; font-size: 15px; margin-bottom: 4px; }
+    button.job p { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
+    button.job p em { font-style: normal; color: var(--ink); font-weight: 500; }
+    .pen {
+      appearance: none;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 2;
+      width: 32px;
+      height: 32px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+    }
+    .pen:hover { background: var(--hover); color: var(--ink); }
+    .pen svg { display: block; }
+    .refresh-all-wrap {
+      display: flex;
+      justify-content: center;
+      margin: 28px 0 32px;
+    }
+    .refresh-all, .refresh, .copy, .ref, .dialog-actions button, .context-save {
+      appearance: none;
+      border: 0;
+      cursor: pointer;
+      font: 500 13px/1 Inter, sans-serif;
+    }
+    .refresh-all, .context-save {
+      background: var(--ink);
+      color: var(--paper);
+      border-radius: 999px;
+      padding: 12px 22px;
+    }
+    .refresh-all:hover, .context-save:hover { opacity: 0.88; }
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      align-items: start;
+    }
+    .col { background: transparent; min-width: 0; }
+    .col-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .col-head h2 {
+      font-family: Newsreader, Georgia, serif;
+      font-size: 22px;
+      font-weight: 500;
+      margin: 0;
+    }
+    .refresh {
+      background: var(--paper);
+      color: var(--ink);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 12px;
+    }
+    .refresh:hover:not(:disabled) { background: var(--hover); }
+    .col-status {
+      min-height: 1.4em;
+      color: var(--muted);
+      font-size: 12px;
+      margin: 0 0 10px;
+    }
+    .col-status.error { color: #8f2d2d; }
+    .col-ideas { display: grid; gap: 12px; }
+    article {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 18px 14px;
+      position: relative;
+      overflow: visible;
+    }
+    article.empty { opacity: 0.55; }
+    article header.row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    article h3 {
+      font-family: Newsreader, Georgia, serif;
+      font-size: 18px;
+      font-weight: 500;
+      margin: 0;
+    }
+    .body { white-space: pre-wrap; font-size: 14px; line-height: 1.6; margin: 0 0 12px; }
+    .card-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    .copy, .ref {
+      background: var(--ink);
+      color: var(--paper);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 12px;
+    }
+    .copy:hover { opacity: 0.88; }
+    .ref {
+      background: var(--paper);
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+    .ref:hover { background: var(--hover); }
+    .ref-wrap { position: relative; }
+    .ref-pop {
+      display: none;
+      position: absolute;
+      left: 0;
+      bottom: calc(100% + 8px);
+      width: min(280px, 72vw);
+      background: var(--paper);
+      color: var(--ink);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px 12px 10px;
+      box-shadow: 0 10px 28px rgba(28, 27, 24, 0.14);
+      z-index: 8;
+    }
+    .ref-wrap:hover .ref-pop,
+    .ref-wrap:focus-within .ref-pop { display: block; }
+    .ref-pop h4 {
+      margin: 0 0 8px;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .ref-pop ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .ref-pop li {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+      margin: 0 0 8px;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .ref-pop li:last-child { margin-bottom: 0; }
+    .ref-pop a { color: var(--ink); }
+    .badge {
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--good);
+      flex-shrink: 0;
+    }
+    .badge.skip { color: var(--warn); }
+    .placeholder {
+      color: var(--muted);
+      font-size: 13px;
+      padding: 18px;
+      border: 1px dashed var(--line);
+      border-radius: 16px;
+      background: var(--paper);
+    }
+    .status { min-height: 1.5em; color: var(--muted); font-size: 14px; margin: 0 0 8px; }
+    .status.error { color: #8f2d2d; }
+    footer { margin-top: 64px; color: var(--muted); font-size: 12px; }
+    footer p { margin: 0; }
+    .sidebar {
+      display: grid;
+      gap: 14px;
+      position: sticky;
+      top: 24px;
+    }
+    .side-card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 16px 16px;
+    }
+    .side-card h2 {
+      font-family: Newsreader, Georgia, serif;
+      font-size: 22px;
+      font-weight: 500;
+      margin: 0 8px 6px 0;
+      padding-right: 28px;
+    }
+    .side-note { color: var(--muted); font-size: 12px; margin: 0 0 12px; }
+    #full-preview {
+      margin: 0;
+      max-height: 160px;
+      overflow: hidden;
+      font: 11px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: var(--muted);
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .context-card label {
+      display: block;
+      font-size: 12px;
+      font-weight: 500;
+      margin: 10px 0 4px;
+    }
+    .context-card label:first-of-type { margin-top: 0; }
+    .context-card textarea {
+      width: 100%;
+      min-height: 76px;
+      font: 12px/1.45 Inter, sans-serif;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 8px 10px;
+      resize: vertical;
+      background: #fff;
+      color: var(--ink);
+    }
+    .context-save { margin-top: 12px; width: 100%; }
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(28, 27, 24, 0.42);
+      z-index: 20;
+      padding: 24px 16px;
+      overflow: auto;
+    }
+    .overlay.open { display: grid; place-items: start center; }
+    .dialog {
+      width: min(860px, 100%);
+      margin: 40px auto;
+      background: var(--paper);
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      padding: 22px 22px 18px;
+    }
+    .dialog.focus { width: min(640px, 100%); }
+    .dialog h2 {
+      font-family: Newsreader, Georgia, serif;
+      font-weight: 500;
+      font-size: 26px;
+      margin: 0 0 6px;
+    }
+    .dialog .hint { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+    .dialog textarea {
+      width: 100%;
+      min-height: 52vh;
+      font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      resize: vertical;
+      background: #fff;
+      color: var(--ink);
+    }
+    .dialog.focus textarea { min-height: 36vh; }
+    .dialog-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; flex-wrap: wrap; }
+    .dialog-actions button { border-radius: 999px; padding: 10px 16px; }
+    .dialog-actions .ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+    .dialog-actions .primary { background: var(--ink); color: var(--paper); }
+    @media (max-width: 1100px) {
+      .layout { grid-template-columns: 1fr; }
+      .sidebar { position: static; }
+    }
+    @media (max-width: 900px) {
+      .jobs, .columns { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="mark">TickerAlpha</p>
+      <h1>Market briefs</h1>
+      <p class="lede">Click Morning, Close, or Sunday to edit that stream’s focus. The card on the right edits the full prompt. Quality examples below it are injected as calibration, not as facts to copy. Refresh a column to generate. Close also writes a long-form previous-day recap. No character cap.</p>
+    </header>
+
+    <p class="status" id="status"></p>
+
+    <div class="layout">
+      <div class="stage">
+        <div class="jobs">
+          <div class="job-card">
+            <button class="pen" type="button" data-edit-focus="morning" aria-label="Edit Stream 1 focus" title="Edit Stream 1 focus">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+            </button>
+            <button class="job" data-edit-focus="morning" type="button">
+              <strong>Morning</strong>
+              <p><em>Stream 1</em> — US data, economy, politics, and news</p>
+            </button>
+          </div>
+          <div class="job-card">
+            <button class="pen" type="button" data-edit-focus="close" aria-label="Edit Stream 2 focus" title="Edit Stream 2 focus">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+            </button>
+            <button class="job" data-edit-focus="close" type="button">
+              <strong>Close</strong>
+              <p><em>Stream 2</em> — 3 ideas plus a previous-day recap</p>
+            </button>
+          </div>
+          <div class="job-card">
+            <button class="pen" type="button" data-edit-focus="week-ahead" aria-label="Edit Stream 3 focus" title="Edit Stream 3 focus">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+            </button>
+            <button class="job" data-edit-focus="week-ahead" type="button">
+              <strong>Sunday</strong>
+              <p><em>Stream 3</em> — What to look for next week</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="refresh-all-wrap">
+          <button class="refresh-all" id="refresh-all" type="button">Refresh all sessions</button>
+        </div>
+
+        <div class="columns" id="columns">
+          <section class="col" data-col="morning">
+            <div class="col-head">
+              <h2>Morning</h2>
+              <button class="refresh" type="button" data-run="morning">Refresh</button>
+            </div>
+            <p class="col-status" data-col-status="morning"></p>
+            <div class="col-ideas" id="col-morning"></div>
+          </section>
+          <section class="col" data-col="close">
+            <div class="col-head">
+              <h2>Close</h2>
+              <button class="refresh" type="button" data-run="close">Refresh</button>
+            </div>
+            <p class="col-status" data-col-status="close"></p>
+            <div class="col-ideas" id="col-close"></div>
+          </section>
+          <section class="col" data-col="week-ahead">
+            <div class="col-head">
+              <h2>Sunday</h2>
+              <button class="refresh" type="button" data-run="week-ahead">Refresh</button>
+            </div>
+            <p class="col-status" data-col-status="week-ahead"></p>
+            <div class="col-ideas" id="col-week-ahead"></div>
+          </section>
+        </div>
+      </div>
+
+      <aside class="sidebar">
+        <div class="side-card">
+          <button class="pen" type="button" id="edit-full" aria-label="Edit full prompt" title="Edit full prompt">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+          </button>
+          <h2>Prompt text</h2>
+          <p class="side-note">Full <code>x_ideas.md</code> — role, rules, format. Stream focus and examples are injected at generate time.</p>
+          <pre id="full-preview">Loading…</pre>
+        </div>
+        <div class="side-card context-card">
+          <h2>Quality context</h2>
+          <p class="side-note">Good and bad examples plus why. Injected into every stream as calibration — numbers here are not facts to copy.</p>
+          <label for="good-examples">Good examples</label>
+          <textarea id="good-examples" placeholder="Paste posts or idea blocks that match the voice you want."></textarea>
+          <label for="good-why">Why these are good</label>
+          <textarea id="good-why" placeholder="Lead with the number, name the ticker, no advice…"></textarea>
+          <label for="bad-examples">Bad examples</label>
+          <textarea id="bad-examples" placeholder="Paste wording you do not want repeated."></textarea>
+          <label for="bad-why">Why these fail</label>
+          <textarea id="bad-why" placeholder="Prediction, jargon, missing source, invented number…"></textarea>
+          <button class="context-save" id="context-save" type="button">Save context</button>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p id="foot">FMP and the LLM key stay in <code>.env</code>. Jobs fill <code>prompts/x_ideas.md</code> with that stream’s focus and the quality context.</p>
+    </footer>
+  </main>
+
+  <div class="overlay" id="overlay" hidden>
+    <div class="dialog" id="dialog" role="dialog" aria-modal="true" aria-labelledby="prompt-title">
+      <h2 id="prompt-title">Edit prompt</h2>
+      <p class="hint" id="prompt-hint"></p>
+      <textarea id="prompt-text" spellcheck="false"></textarea>
+      <div class="dialog-actions">
+        <button class="ghost" type="button" id="prompt-reset">Reset to default</button>
+        <button class="ghost" type="button" id="prompt-cancel">Cancel</button>
+        <button class="primary" type="button" id="prompt-save">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const MODES = [
+      { id: "morning", label: "Morning", stream: "Stream 1" },
+      { id: "close", label: "Close", stream: "Stream 2" },
+      { id: "week-ahead", label: "Sunday", stream: "Stream 3" },
+    ];
+    const FOCUS_HINT = "This block is injected into the full prompt as {{STREAM_FOCUS}}. Only this stream’s habits belong here.";
+    const FULL_HINT = "Keep {{STREAM}}, {{STREAM_FOCUS}}, {{FMP_DATA}}, {{PREVIOUS_POSTS}}, {{GOOD_EXAMPLES}}, {{GOOD_WHY}}, {{BAD_EXAMPLES}}, and {{BAD_WHY}} so the app can fill them.";
+    const packs = { morning: null, close: null, "week-ahead": null };
+    const running = new Set();
+    let aiOk = true;
+    let editingKind = null;
+    let editingMode = null;
+
+    const statusEl = document.getElementById("status");
+    const overlay = document.getElementById("overlay");
+    const dialog = document.getElementById("dialog");
+    const promptText = document.getElementById("prompt-text");
+    const promptTitle = document.getElementById("prompt-title");
+    const promptHint = document.getElementById("prompt-hint");
+    const fullPreview = document.getElementById("full-preview");
+
+    function escapeHtml(s) {
+      return String(s || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;");
+    }
+
+    function setStatus(text, isError) {
+      statusEl.textContent = text || "";
+      statusEl.classList.toggle("error", !!isError);
+    }
+
+    function setColStatus(mode, text, isError) {
+      const el = document.querySelector(`[data-col-status="${mode}"]`);
+      if (!el) return;
+      el.textContent = text || "";
+      el.classList.toggle("error", !!isError);
+    }
+
+    function syncBusy() {
+      const busy = running.size > 0 || !aiOk;
+      document.querySelectorAll("[data-run], #refresh-all").forEach((b) => {
+        b.disabled = busy;
+      });
+    }
+
+    function emptyState() {
+      return `<p class="placeholder">No ideas yet. Refresh this session.</p>`;
+    }
+
+    function linkify(text) {
+      return escapeHtml(text).replace(/https?:\/\/[^\s<&]+/g, (url) => {
+        const clean = url.replace(/[).,]+$/, "");
+        return `<a href="${clean}" target="_blank" rel="noopener noreferrer">${clean}</a>`;
+      });
+    }
+
+    function referencePopup(slot) {
+      const rows = (slot.supporting_data || []).map((row) => String(row).trim()).filter(Boolean);
+      const url = String(slot.source_url || "").trim();
+      const notes = String(slot.source_notes || "").trim();
+      const items = [...rows];
+      if (url && !items.some((row) => row.includes(url))) items.push("Source: " + url);
+      if (notes && notes !== url && !items.some((row) => row.includes(notes))) items.push(notes);
+      if (!items.length) return null;
+      const wrap = document.createElement("div");
+      wrap.className = "ref-wrap";
+      const btn = document.createElement("button");
+      btn.className = "ref";
+      btn.type = "button";
+      btn.textContent = "Reference";
+      const pop = document.createElement("div");
+      pop.className = "ref-pop";
+      pop.innerHTML = `<h4>Sources</h4><ul>${items.map((row) => `<li>${linkify(row)}</li>`).join("")}</ul>`;
+      wrap.appendChild(btn);
+      wrap.appendChild(pop);
+      return wrap;
+    }
+
+    function renderColumn(mode) {
+      const root = document.getElementById("col-" + mode);
+      const result = packs[mode];
+      if (!result) {
+        root.innerHTML = emptyState();
+        return;
+      }
+      const slots = result.slots || [];
+      root.innerHTML = "";
+      if (!slots.length) {
+        root.innerHTML = emptyState();
+        return;
+      }
+      slots.forEach((slot) => {
+        const ready = slot.status === "ready" && slot.body;
+        const art = document.createElement("article");
+        if (!ready) art.classList.add("empty");
+        art.innerHTML = `
+          <header class="row">
+            <h3>${escapeHtml(slot.title)}</h3>
+            <span class="badge ${ready ? "" : "skip"}">${slot.kind === "x_recap" ? (ready ? "Recap" : "Skipped") : (ready ? "Ready" : "Skipped")}</span>
+          </header>
+          <p class="body">${escapeHtml(ready ? slot.body : slot.skip_reason || "")}</p>
+        `;
+        if (ready) {
+          const actions = document.createElement("div");
+          actions.className = "card-actions";
+          const btn = document.createElement("button");
+          btn.className = "copy";
+          btn.type = "button";
+          btn.textContent = "Copy";
+          btn.addEventListener("click", async () => {
+            await navigator.clipboard.writeText(slot.body);
+            btn.textContent = "Copied";
+            setTimeout(() => { btn.textContent = "Copy"; }, 1200);
+          });
+          actions.appendChild(btn);
+          const refPop = referencePopup(slot);
+          if (refPop) actions.appendChild(refPop);
+          art.appendChild(actions);
+        }
+        root.appendChild(art);
+      });
+    }
+
+    function renderAll() {
+      MODES.forEach((m) => renderColumn(m.id));
+    }
+
+    async function poll(id) {
+      for (;;) {
+        const res = await fetch("/api/jobs/" + id);
+        const job = await res.json();
+        if (job.status === "running") {
+          await new Promise((r) => setTimeout(r, 1500));
+          continue;
+        }
+        if (job.status === "error") throw new Error(job.error || "Job failed.");
+        return job.result;
+      }
+    }
+
+    async function run(mode) {
+      if (!aiOk || running.has(mode)) return;
+      running.add(mode);
+      syncBusy();
+      setColStatus(mode, "Pulling the tape…", false);
+      setStatus("Generating " + labelFor(mode) + "…");
+      try {
+        const res = await fetch("/api/jobs", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ mode }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "Could not start.");
+        const result = await poll(data.id);
+        packs[mode] = result;
+        const n = (result.slots || []).filter((s) => s.status === "ready" && s.body).length;
+        setColStatus(mode, `${n} idea${n === 1 ? "" : "s"} ready`, false);
+        renderColumn(mode);
+        setStatus("");
+      } catch (err) {
+        const msg = err.message || String(err);
+        setColStatus(mode, msg, true);
+        setStatus(msg, true);
+      } finally {
+        running.delete(mode);
+        syncBusy();
+      }
+    }
+
+    function labelFor(mode) {
+      return (MODES.find((m) => m.id === mode) || {}).label || mode;
+    }
+
+    function streamFor(mode) {
+      return (MODES.find((m) => m.id === mode) || {}).stream || mode;
+    }
+
+    async function runAll() {
+      if (!aiOk) return;
+      setStatus("Refreshing all three sessions…");
+      await Promise.all(MODES.map((m) => run(m.id)));
+      setStatus("All sessions finished.");
+    }
+
+    function setPreview(text) {
+      const raw = (text || "").trim();
+      fullPreview.textContent = raw ? raw.slice(0, 700) + (raw.length > 700 ? "…" : "") : "No prompt loaded.";
+    }
+
+    async function loadFullPreview() {
+      const res = await fetch("/api/prompts/full");
+      const data = await res.json();
+      if (!res.ok) {
+        fullPreview.textContent = data.error || "Could not load prompt.";
+        return;
+      }
+      setPreview(data.text || "");
+    }
+
+    async function loadContext() {
+      const res = await fetch("/api/context");
+      const data = await res.json();
+      if (!res.ok) return;
+      document.getElementById("good-examples").value = data.good_examples || "";
+      document.getElementById("good-why").value = data.good_why || "";
+      document.getElementById("bad-examples").value = data.bad_examples || "";
+      document.getElementById("bad-why").value = data.bad_why || "";
+    }
+
+    async function saveContext() {
+      const res = await fetch("/api/context", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          good_examples: document.getElementById("good-examples").value,
+          good_why: document.getElementById("good-why").value,
+          bad_examples: document.getElementById("bad-examples").value,
+          bad_why: document.getElementById("bad-why").value,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setStatus(data.error || "Could not save context.", true);
+        return;
+      }
+      setStatus("Quality context saved. Refresh a session to use it.");
+    }
+
+    function openOverlay(kind) {
+      editingKind = kind;
+      dialog.classList.toggle("focus", kind === "focus");
+      promptText.value = "Loading…";
+      overlay.hidden = false;
+      overlay.classList.add("open");
+    }
+
+    async function openFocus(mode) {
+      editingMode = mode;
+      promptTitle.textContent = streamFor(mode) + " focus";
+      promptHint.textContent = FOCUS_HINT;
+      openOverlay("focus");
+      const res = await fetch("/api/prompts/focus/" + mode);
+      const data = await res.json();
+      if (!res.ok) {
+        promptText.value = data.error || "Could not load focus.";
+        return;
+      }
+      promptText.value = data.text || "";
+      promptTitle.textContent = streamFor(mode) + " focus" + (data.customized ? " (custom)" : " (default)");
+    }
+
+    async function openFull() {
+      editingMode = null;
+      promptTitle.textContent = "Edit full prompt";
+      promptHint.textContent = FULL_HINT;
+      openOverlay("full");
+      const res = await fetch("/api/prompts/full");
+      const data = await res.json();
+      if (!res.ok) {
+        promptText.value = data.error || "Could not load prompt.";
+        return;
+      }
+      promptText.value = data.text || "";
+      promptTitle.textContent = "Edit full prompt" + (data.customized ? " (custom)" : " (default)");
+    }
+
+    function closePrompt() {
+      overlay.classList.remove("open");
+      overlay.hidden = true;
+      editingKind = null;
+      editingMode = null;
+    }
+
+    async function savePrompt() {
+      if (editingKind === "full") {
+        const res = await fetch("/api/prompts/full", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text: promptText.value }),
+        });
+        const data = await res.json();
+        if (!res.ok) {
+          setStatus(data.error || "Could not save prompt.", true);
+          return;
+        }
+        closePrompt();
+        await loadFullPreview();
+        setStatus("Full prompt saved. Refresh a session to use it.");
+        return;
+      }
+      if (!editingMode) return;
+      const res = await fetch("/api/prompts/focus/" + editingMode, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: promptText.value }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setStatus(data.error || "Could not save focus.", true);
+        return;
+      }
+      closePrompt();
+      setStatus(streamFor(data.mode) + " focus saved. Refresh that session to use it.");
+    }
+
+    async function resetPrompt() {
+      if (editingKind === "full") {
+        const res = await fetch("/api/prompts/full", { method: "DELETE" });
+        const data = await res.json();
+        if (!res.ok) {
+          setStatus(data.error || "Could not reset prompt.", true);
+          return;
+        }
+        promptText.value = data.text || "";
+        promptTitle.textContent = "Edit full prompt (default)";
+        setPreview(data.text || "");
+        setStatus("Full prompt reset to default.");
+        return;
+      }
+      if (!editingMode) return;
+      const res = await fetch("/api/prompts/focus/" + editingMode, { method: "DELETE" });
+      const data = await res.json();
+      if (!res.ok) {
+        setStatus(data.error || "Could not reset focus.", true);
+        return;
+      }
+      promptText.value = data.text || "";
+      promptTitle.textContent = streamFor(editingMode) + " focus (default)";
+      setStatus(streamFor(editingMode) + " focus reset to default.");
+    }
+
+    document.querySelectorAll("[data-run]").forEach((b) => {
+      b.addEventListener("click", () => run(b.dataset.run));
+    });
+    document.querySelectorAll("[data-edit-focus]").forEach((b) => {
+      b.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        openFocus(b.dataset.editFocus);
+      });
+    });
+    document.getElementById("edit-full").addEventListener("click", openFull);
+    document.getElementById("refresh-all").addEventListener("click", runAll);
+    document.getElementById("context-save").addEventListener("click", saveContext);
+    document.getElementById("prompt-cancel").addEventListener("click", closePrompt);
+    document.getElementById("prompt-save").addEventListener("click", savePrompt);
+    document.getElementById("prompt-reset").addEventListener("click", resetPrompt);
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) closePrompt();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && overlay.classList.contains("open")) closePrompt();
+    });
+
+    renderAll();
+    loadFullPreview().catch(() => {});
+    loadContext().catch(() => {});
+
+    fetch("/api/health").then((r) => r.json()).then((h) => {
+      const foot = document.getElementById("foot");
+      if (h.llm) {
+        aiOk = true;
+        syncBusy();
+        if (foot) foot.textContent = "FMP is connected. Each refresh fills x_ideas.md with that stream’s focus and the quality context.";
+        return;
+      }
+      aiOk = false;
+      syncBusy();
+      setStatus("AI is not available. Add ANTHROPIC_API_KEY or OPENAI_API_KEY to .env.", true);
+      if (foot) foot.textContent = "AI is not available. Jobs will not run until an Anthropic or OpenAI key is in .env.";
+    }).catch(() => {});
+  </script>
+</body>
+</html>

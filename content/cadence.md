@@ -21,7 +21,7 @@ Saturday: no job. Friday next-session = Monday.
 | Overnight | Asia/Europe actually moved | morning |
 | How to read the print | 1–2 mornings before a high-impact US release | morning |
 | Data print | High-impact US release that session | close |
-| Earnings reaction | Mega-cap or a cluster that moved the index | close |
+| Earnings reaction | US-listed name over $5B (or a cluster) that moved the tape | close |
 | Breadth / the index lied | SPX vs Russell (or mega vs the rest) disagree in a meaningful way | close |
 | Engagement | 2–3x / week, tied to the calendar | close or morning |
 

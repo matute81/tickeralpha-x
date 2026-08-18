@@ -77,7 +77,7 @@ FMP brief: `data/YYYY-MM-DD.json`
 
 **Status:** empty
 **Suggested window:** after the bell or with the close cluster
-**Skip reason:** (no mega-cap print that moved the tape)
+**Skip reason:** (no US-listed $5B+ print that moved the tape)
 
 ### Body
 

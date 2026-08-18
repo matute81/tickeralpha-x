@@ -70,7 +70,7 @@ Copy the template. For each slot:
 - Overnight: at least one overseas index moved in a way that is not noise (use judgment; a 0.1% DAX is empty).
 - How to read the print: a high-impact US release is on **today or tomorrow** morning’s calendar (CPI, PPI, PCE, NFP, FOMC, GDP, etc.).
 - Data print: that high-impact series has an `actual` in today’s calendar.
-- Earnings reaction: a mega-cap (or a cluster) in `earnings_calendar` with actuals, or a mega-cap in gainers/losers with an earnings headline in `news`.
+- Earnings reaction: a US-listed name over $5B (or a cluster) in `earnings_calendar` with actuals, or one of those names in gainers/losers with an earnings headline in `news`.
 - Breadth: S&P vs Russell (or Nasdaq vs Dow) disagree enough to be the point — not 2bp of noise.
 - Engagement: 2–3 times per week, tied to a real calendar fork. Skip most days.
 - Friday wrap: Fridays only, after the close pack.

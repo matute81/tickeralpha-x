@@ -67,6 +67,11 @@ CROSS_ASSET_FALLBACKS = {
     "gold": ["GLD"],
 }
 
+# Earnings universe: US-listed (NYSE/NASDAQ/AMEX), country US, market cap >= $5B.
+MIN_US_MARKET_CAP = 5_000_000_000
+SCREENER_PAGE_SIZE = 1000
+QUOTE_CHUNK = 40
+
 MEGA_CAPS = {
     "AAPL",
     "MSFT",
@@ -184,8 +189,14 @@ def quote_fields(row: dict[str, Any] | None) -> dict[str, Any] | None:
         "yearHigh",
         "yearLow",
         "timestamp",
+        "exchange",
+        "exchangeShortName",
+        "marketCap",
+        "mktCap",
     )
     out = {k: row.get(k) for k in keys if row.get(k) is not None}
+    if "marketCap" not in out and out.get("mktCap") is not None:
+        out["marketCap"] = out["mktCap"]
     if "changesPercentage" not in out and out.get("price") is not None and out.get("previousClose"):
         prev = float(out["previousClose"])
         if prev:
@@ -205,6 +216,7 @@ class FmpClient:
     def __init__(self, api_key: str) -> None:
         self.api_key = api_key
         self.errors: list[str] = []
+        self._us_large_caps: dict[str, dict[str, Any]] | None = None
 
     def get(
         self,
@@ -304,6 +316,187 @@ def slim_earnings(row: dict[str, Any]) -> dict[str, Any]:
     return {k: row[k] for k in keys if k in row and row[k] not in (None, "")}
 
 
+def _norm_symbol(symbol: str) -> str:
+    return str(symbol or "").upper().replace("-", ".")
+
+
+def _is_us_listed_exchange(value: str) -> bool:
+    text = str(value or "").upper()
+    return any(token in text for token in ("NYSE", "NASDAQ", "AMEX", "NEW YORK"))
+
+
+def _country_is_us(value: str) -> bool:
+    text = str(value or "").upper().strip()
+    return text in {"", "US", "USA", "UNITED STATES"}
+
+
+def _market_cap(row: dict[str, Any] | None) -> float | None:
+    if not row:
+        return None
+    raw = row.get("marketCap")
+    if raw is None:
+        raw = row.get("mktCap")
+    try:
+        if raw is None or raw == "":
+            return None
+        return float(raw)
+    except (TypeError, ValueError):
+        return None
+
+
+def _profile_from_screener(row: dict[str, Any]) -> dict[str, Any] | None:
+    symbol = str(row.get("symbol") or "").upper()
+    cap = _market_cap(row)
+    exchange = str(row.get("exchangeShortName") or row.get("exchange") or "")
+    if not symbol or cap is None or cap < MIN_US_MARKET_CAP:
+        return None
+    if exchange and not _is_us_listed_exchange(exchange):
+        return None
+    if not _country_is_us(str(row.get("country") or "")):
+        return None
+    return {
+        "symbol": symbol,
+        "marketCap": cap,
+        "exchange": exchange,
+        "name": row.get("companyName") or row.get("name"),
+        "country": row.get("country") or "US",
+    }
+
+
+def _profile_from_quote(row: dict[str, Any] | None) -> dict[str, Any] | None:
+    slim = quote_fields(row)
+    if not slim:
+        return None
+    symbol = str(slim.get("symbol") or "").upper()
+    cap = _market_cap(slim)
+    exchange = str(slim.get("exchangeShortName") or slim.get("exchange") or "")
+    if not symbol or cap is None or cap < MIN_US_MARKET_CAP:
+        return None
+    if exchange and not _is_us_listed_exchange(exchange):
+        return None
+    return {
+        "symbol": symbol,
+        "marketCap": cap,
+        "exchange": exchange,
+        "name": slim.get("name"),
+    }
+
+
+def us_large_cap_universe(client: FmpClient) -> dict[str, dict[str, Any]]:
+    """US-listed stocks with market cap >= $5B, keyed by normalized ticker."""
+    if client._us_large_caps is not None:
+        return client._us_large_caps
+    universe: dict[str, dict[str, Any]] = {}
+    page = 0
+    while page < 8:
+        payload = client.get(
+            "company-screener",
+            {
+                "marketCapMoreThan": str(MIN_US_MARKET_CAP),
+                "country": "US",
+                "isEtf": "false",
+                "isFund": "false",
+                "isActivelyTrading": "true",
+                "limit": str(SCREENER_PAGE_SIZE),
+                "page": str(page),
+            },
+            record_error=(page == 0),
+        )
+        rows = list_of_dicts(payload)
+        if not rows:
+            break
+        for row in rows:
+            profile = _profile_from_screener(row)
+            if not profile:
+                continue
+            universe[_norm_symbol(str(profile["symbol"]))] = profile
+        if len(rows) < SCREENER_PAGE_SIZE:
+            break
+        page += 1
+    client._us_large_caps = universe
+    return universe
+
+
+def _caps_from_quotes(client: FmpClient, symbols: list[str]) -> dict[str, dict[str, Any]]:
+    universe: dict[str, dict[str, Any]] = {}
+    unique: list[str] = []
+    seen: set[str] = set()
+    for symbol in symbols:
+        key = str(symbol or "").upper()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        unique.append(key)
+    for i in range(0, len(unique), QUOTE_CHUNK):
+        chunk = unique[i : i + QUOTE_CHUNK]
+        payload = client.get("batch-quote", {"symbols": ",".join(chunk)})
+        for row in list_of_dicts(payload):
+            profile = _profile_from_quote(row)
+            if not profile:
+                continue
+            universe[_norm_symbol(str(profile["symbol"]))] = profile
+    return universe
+
+
+def filter_earnings(client: FmpClient, rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Keep US-listed names with market cap >= $5B. Rank largest first. Not a dump."""
+    unique_rows: list[tuple[str, dict[str, Any]]] = []
+    seen: set[str] = set()
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        symbol = str(row.get("symbol") or "").upper()
+        if not symbol or symbol in seen:
+            continue
+        seen.add(symbol)
+        unique_rows.append((symbol, row))
+
+    universe = us_large_cap_universe(client)
+    if not universe:
+        universe = _caps_from_quotes(client, [symbol for symbol, _ in unique_rows])
+
+    picked: list[dict[str, Any]] = []
+    for symbol, row in unique_rows:
+        profile = universe.get(_norm_symbol(symbol))
+        if not profile:
+            continue
+        slim = slim_earnings(row)
+        slim["symbol"] = symbol
+        slim["marketCap"] = profile["marketCap"]
+        if profile.get("exchange"):
+            slim["exchange"] = profile["exchange"]
+        if profile.get("name"):
+            slim["name"] = profile["name"]
+        picked.append(slim)
+    picked.sort(key=lambda r: -float(r.get("marketCap") or 0))
+    return picked
+
+
+def quote_earnings_moves(client: FmpClient, brief: dict[str, Any]) -> None:
+    """Attach session quotes for $5B+ names that printed, so close copy can use the move."""
+    mega = brief.setdefault("mega_caps", {})
+    calendar = brief.get("earnings_calendar") or []
+    with_actuals = [
+        str(row.get("symbol") or "").upper()
+        for row in calendar
+        if row.get("epsActual") not in (None, "")
+    ]
+    rest = [
+        str(row.get("symbol") or "").upper()
+        for row in calendar
+        if str(row.get("symbol") or "").upper() not in with_actuals
+    ]
+    need = [symbol for symbol in with_actuals + rest if symbol and symbol not in mega][:15]
+    if not need:
+        return
+    payload = client.get("batch-quote", {"symbols": ",".join(need)})
+    for row in list_of_dicts(payload):
+        slim = quote_fields(row)
+        symbol = str((slim or {}).get("symbol") or "")
+        if slim and symbol:
+            mega[symbol] = slim
+
+
 def is_liquid_mover(row: dict[str, Any]) -> bool:
     try:
         price = float(row.get("price") or 0)
@@ -338,23 +531,6 @@ def slim_news(row: dict[str, Any]) -> dict[str, Any]:
     if len(text) > 400:
         out["text"] = text[:400] + "…"
     return out
-
-
-def filter_earnings(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    picked: list[dict[str, Any]] = []
-    seen: set[str] = set()
-    for row in rows:
-        symbol = str(row.get("symbol") or "").upper()
-        if symbol not in MEGA_CAPS or symbol in seen:
-            continue
-        seen.add(symbol)
-        picked.append(slim_earnings(row))
-        if len(picked) >= 25:
-            break
-    if picked:
-        return picked
-    # If no mega-caps that day, keep the first handful so the agent can still skip cleanly.
-    return [slim_earnings(r) for r in rows[:8] if isinstance(r, dict)]
 
 
 def list_of_dicts(payload: Any) -> list[dict[str, Any]]:
@@ -462,7 +638,8 @@ def build_brief(client: FmpClient, mode: str, session: date) -> dict[str, Any]:
             slim_event(r) for r in events[:12]
         ]
         earnings = list_of_dicts(client.get("earnings-calendar", {"from": iso, "to": iso}))
-        brief["earnings_calendar"] = filter_earnings(earnings)
+        brief["earnings_calendar"] = filter_earnings(client, earnings)
+        quote_earnings_moves(client, brief)
 
     if mode == "morning":
         nxt = (session + timedelta(days=1)).isoformat()
@@ -476,7 +653,7 @@ def build_brief(client: FmpClient, mode: str, session: date) -> dict[str, Any]:
             slim_event(r) for r in events[:20]
         ]
         earnings = list_of_dicts(client.get("earnings-calendar", {"from": iso, "to": nxt}))
-        brief["earnings_calendar"] = filter_earnings(earnings)
+        brief["earnings_calendar"] = filter_earnings(client, earnings)
 
     if mode == "week-ahead":
         start = monday_of_coming_week(session)
@@ -495,7 +672,9 @@ def build_brief(client: FmpClient, mode: str, session: date) -> dict[str, Any]:
         earnings = list_of_dicts(
             client.get("earnings-calendar", {"from": start.isoformat(), "to": end.isoformat()})
         )
-        brief["earnings_calendar"] = filter_earnings(earnings)
+        brief["earnings_calendar"] = filter_earnings(client, earnings)
+        news = list_of_dicts(client.get("news/general-latest", {"page": "0", "limit": "20"}))
+        brief["news"] = [slim_news(row) for row in news[:15]]
 
     brief["errors"] = client.errors
     return brief

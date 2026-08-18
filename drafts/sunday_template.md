@@ -15,7 +15,7 @@ FMP brief: `data/YYYY-MM-DD-week-ahead.json`
 
 (paste to X)
 
-Group by weekday. High-impact US data only. Consensus and prior when FMP has them. Earnings: mega-caps / index-movers, not every ticker. Note holidays or early closes. End with which days are heavy.
+Group by weekday. High-impact US data only. Consensus and prior when FMP has them. Earnings: US-listed names over $5B, ranked and clustered — not every ticker. Note holidays or early closes. End with which days are heavy.
 
 ### Source notes
 

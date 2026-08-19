@@ -5,95 +5,132 @@ FMP brief: `data/2026-08-18-week-ahead.json`
 
 ---
 
-## FOMC minutes land Wednesday at 6 p.m.
+## FOMC minutes drop Wednesday at 6 p.m.
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** The Federal Reserve publishes minutes from its latest policy meeting on Wednesday evening; the release summarizes what officials discussed about interest rates and the economy, with no consensus estimate published ahead of time.
+**Short Summary:** The Federal Reserve publishes minutes from its latest policy meeting on Wednesday evening, a readout of what officials discussed about rates and the economy.
 
 ### Post Body
 
-Wednesday, **2026-08-19 18:00:00** (U.S.), the **FOMC Minutes** hit the calendar with **High** impact in the data.
+Wednesday, Aug 19 — 6:00 p.m.
+ET.
 
-That document is the written record of the Fed’s last rate-setting meeting—what policymakers said about inflation, jobs, and borrowing costs, not a new vote on rates.
+The release is the FOMC Minutes: notes from the Fed’s most recent rate-setting meeting, not a new vote on interest rates.
 
-After **2026-08-18** data showed the S&P 500 at **7704.58** (**-0.5226557315243584%**) and the VIX at **15.73** (**3.554970375246879%**), many readers use the minutes to see how the Fed’s story lines up with recent housing and growth prints already on the tape.
+It shows how policymakers talked about inflation, jobs, and borrowing costs when they last met.
 
-What line in past Fed minutes has changed how you read the next data release?
+Markets often parse the wording for hints about the path of rates; the calendar flags it as high-impact.
+
+What do you watch first when the minutes land — inflation, labor, or financial conditions?
 
 ### Supporting Data
 
-- FOMC Minutes date/time: 2026-08-19 18:00:00 — source: FMP_DATA economic_calendar
-- FOMC Minutes impact: High — source: FMP_DATA economic_calendar
-- ^GSPC price: 7704.58 — source: FMP_DATA indexes
-- ^GSPC changesPercentage: -0.5226557315243584 — source: FMP_DATA indexes
-- ^VIX price: 15.73 — source: FMP_DATA indexes
-- ^VIX changesPercentage: 3.554970375246879 — source: FMP_DATA indexes
+- Event: FOMC Minutes — source: FMP economic_calendar
+- Date/time: 2026-08-19 18:00:00 (US) — source: FMP economic_calendar
+- Impact: High — source: FMP economic_calendar
 
-**Source URL:** https://www.etftrends.com/etf-strategist-content-hub/the-inflation-component-markets-chose-to-ignore/
+**Source URL:** https://tickeralpha.ai/
 
 ---
 
-## Walmart reports Thursday; EPS estimate 0.741
+## Walmart reports with $0.74 EPS estimate
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** Walmart Inc. ($WMT) is on the earnings calendar for **2026-08-20** with an EPS estimate of **0.741** and a revenue estimate of **186619700000** in the injected data.
+**Short Summary:** Deere and Ross Stores join Walmart on Thursday’s earnings slate, after a Wednesday cluster of big-box and home-improvement names with published EPS estimates.
 
 ### Post Body
 
-2026-08-20** is $WMT day on the earnings calendar: **epsEstimated 0.741**, **revenueEstimated 186619700000**, **marketCap 919556144000.0**.
+$WMT reports Thursday, Aug 20.
 
-Walmart’s report is a read on U.S. shopping and pricing—how much people spend at scale, told in dollars per share and total sales versus those estimates.
+Wall Street EPS estimate: $0.74.
 
-Same week, **Deere & Company** ($DE) is also set for **2026-08-20** (**epsEstimated 4.71**, **revenueEstimated 10814670000**) and **Ross Stores** ($ROST) (**epsEstimated 1.94**, **revenueEstimated 6146831000**), so Thursday stacks big-consumer and discretionary names after Wednesday’s retail batch.
+Revenue estimate: about $186.6B.
 
-Which number do you watch first on a mega-cap report—EPS, revenue, or guidance language?
+Same day:
+
+- $DE — EPS estimate $4.71, revenue estimate about $10.8B
+- $ROST — EPS estimate $1.95, revenue estimate about $6.1B
+
+Wednesday, Aug 19, already on the calendar:
+
+- $TGT — EPS estimate $2.30
+- $LOW — EPS estimate $4.22
+- $TJX — EPS estimate $1.19
+
+Those prints are quarterly profit and sales versus analyst estimates — a snapshot of consumer and housing-related demand, not a forecast.
+
+Which report on this list is your first read — retail, off-price, or equipment?
 
 ### Supporting Data
 
-- WMT date: 2026-08-20 — source: FMP_DATA earnings_calendar
-- WMT epsEstimated: 0.741 — source: FMP_DATA earnings_calendar
-- WMT revenueEstimated: 186619700000 — source: FMP_DATA earnings_calendar
-- WMT marketCap: 919556144000.0 — source: FMP_DATA earnings_calendar
-- DE epsEstimated: 4.71 — source: FMP_DATA earnings_calendar
-- DE revenueEstimated: 10814670000 — source: FMP_DATA earnings_calendar
-- ROST epsEstimated: 1.94 — source: FMP_DATA earnings_calendar
-- ROST revenueEstimated: 6146831000 — source: FMP_DATA earnings_calendar
+- $WMT date: 2026-08-20 — source: FMP earnings_calendar
+- $WMT epsEstimated: 0.741 → $0.74 — source: FMP earnings_calendar
+- $WMT revenueEstimated: 186619700000 → ~$186.6B — source: FMP earnings_calendar
+- $DE epsEstimated: 4.71 — source: FMP earnings_calendar
+- $DE revenueEstimated: 10814670000 → ~$10.8B — source: FMP earnings_calendar
+- $ROST epsEstimated: 1.95 — source: FMP earnings_calendar
+- $ROST revenueEstimated: 6146831000 → ~$6.1B — source: FMP earnings_calendar
+- $TGT epsEstimated: 2.3 — source: FMP earnings_calendar
+- $LOW epsEstimated: 4.22 — source: FMP earnings_calendar
+- $TJX epsEstimated: 1.19 — source: FMP earnings_calendar
 
-**Source URL:** https://www.marketwatch.com/story/6-treasury-yields-are-the-biggest-risk-facing-stocks-right-now-heres-why-04fb9bbe
+**Source URL:** https://tickeralpha.ai/
 
 ---
 
-## Jobless claims Thursday; estimate 210K
+## Jobless claims Thursday, PMI Friday
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** Initial jobless claims for the week of Aug/15 are scheduled **2026-08-20 12:30:00** with an estimate of **210** (thousands) versus **209** prior, alongside continuing claims estimate **1790** (thousands).
+**Short Summary:** Initial unemployment filings print Thursday morning with a 210K estimate, then three S&P Global PMI readings on Friday afternoon gauge factory and service activity in August.
 
 ### Post Body
 
-2026-08-20 12:30:00**: **Initial Jobless Claims (Aug/15)**—estimate **210**, previous **209**, unit **K**—plus **Continuing Jobless Claims (Aug/08)** estimate **1790** (previous **1777**) and the **4-Week Average** estimate **200** (previous **199**).
+Thursday, Aug 20 — 8:30 a.m.
+ET.
 
-Initial claims count new unemployment filings; continuing claims track people still on benefits—together they describe whether layoffs are picking up or easing.
+Initial Jobless Claims (week of Aug 15):
 
-Friday **2026-08-21 13:45:00** adds **S&P Global Manufacturing PMI (Aug)** estimate **53.9** (previous **53.9**) and **Services PMI** estimate **54** (previous **54.6**); PMI readings above **50** mean expansion, below **50** mean contraction in the survey.
+- Estimate: 210K
+- Prior week: 209K
 
-Do you treat claims or PMI as the clearer same-week labor-and-activity snapshot?
+Also at 8:30 a.m.: continuing claims (estimate 1,790K vs prior 1,777K) and the four-week average (estimate 200K vs prior 199K).
+
+Claims count how many people filed for unemployment benefits — a weekly pulse on layoffs and hiring friction.
+
+Friday, Aug 21 — 9:45 a.m.
+ET.
+
+S&P Global PMI for August (readings above 50 mean expansion, below 50 mean contraction):
+
+- Manufacturing PMI — estimate 53.9 (prior 53.9)
+- Services PMI — estimate 54.0 (prior 54.6)
+- Composite PMI — estimate 53.2 (prior 54.5)
+
+All three resolve the same morning window.
+
+Do you lead with the labor print or the PMI bundle on Friday?
 
 ### Supporting Data
 
-- Initial Jobless Claims date/time: 2026-08-20 12:30:00 — source: FMP_DATA economic_calendar
-- Initial Jobless Claims estimate: 210 — source: FMP_DATA economic_calendar
-- Initial Jobless Claims previous: 209 — source: FMP_DATA economic_calendar
-- Continuing Jobless Claims estimate: 1790 — source: FMP_DATA economic_calendar
-- Continuing Jobless Claims previous: 1777 — source: FMP_DATA economic_calendar
-- Jobless Claims 4-Week Average estimate: 200 — source: FMP_DATA economic_calendar
-- S&P Global Manufacturing PMI estimate: 53.9 — source: FMP_DATA economic_calendar
-- S&P Global Services PMI estimate: 54 — source: FMP_DATA economic_calendar
-- S&P Global Services PMI previous: 54.6 — source: FMP_DATA economic_calendar
+- Initial Jobless Claims date: 2026-08-20 12:30:00 — source: FMP economic_calendar
+- Initial Jobless Claims estimate: 210K — source: FMP economic_calendar
+- Initial Jobless Claims previous: 209K — source: FMP economic_calendar
+- Continuing Jobless Claims estimate: 1790K — source: FMP economic_calendar
+- Continuing Jobless Claims previous: 1777K — source: FMP economic_calendar
+- Jobless Claims 4-Week Average estimate: 200K — source: FMP economic_calendar
+- Jobless Claims 4-Week Average previous: 199K — source: FMP economic_calendar
+- S&P Global Manufacturing PMI estimate: 53.9 — source: FMP economic_calendar
+- S&P Global Manufacturing PMI previous: 53.9 — source: FMP economic_calendar
+- S&P Global Services PMI estimate: 54 — source: FMP economic_calendar
+- S&P Global Services PMI previous: 54.6 — source: FMP economic_calendar
+- S&P Global Composite PMI estimate: 53.2 — source: FMP economic_calendar
+- S&P Global Composite PMI previous: 54.5 — source: FMP economic_calendar
+- PMI release date: 2026-08-21 13:45:00 — source: FMP economic_calendar
 
-**Source URL:** https://invezz.com/news/2026/08/18/dow-opens-150-points-lower-as-oil-rises-and-treasury-yields-pressure-stocks/
+**Source URL:** https://tickeralpha.ai/

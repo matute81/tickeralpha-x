@@ -1,196 +1,215 @@
 {
-  "updated_at": "2026-08-19T21:07:10-04:00",
+  "updated_at": "2026-08-20T21:10:27-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-08-19",
-    "generated_at": "2026-08-19T21:06:02-04:00",
-    "draft_path": "drafts/2026-08-19-am.md",
+    "session_date": "2026-08-20",
+    "generated_at": "2026-08-20T21:09:27-04:00",
+    "draft_path": "drafts/2026-08-20-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "FOMC minutes land after Wednesday close",
+        "title": "Jobless claims 206K beat 210K estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The FOMC minutes for the latest Fed meeting were on the calendar for Aug. 19 at 6:00 p.m.\nET \u2014 a high-impact U.S. release.\n\nThe S&P 500 closed at 7,708.03, up 16.27 points (+0.2%) on the session.\n\nThe Nasdaq Composite finished at 26,331.09 (+0.2%).\n\nThe Dow Jones Industrial Average closed at 53,463.05 (+0.2%).\n\nThe CBOE Volatility Index ended at 14.89, down 0.95 points (-6.0%) from the prior close.\n\nThose index levels are from the Aug. 19 U.S. session, before the minutes hit the wire.\n\nWhat part of the Fed\u2019s last meeting do you still want spelled out in plain English?",
+        "body": "Initial jobless claims: **206K** actual vs **210K** estimate (prior **212K**).\n\nThat is the headline \u201cinitial filings\u201d number\u2014the count of people filing for unemployment benefits for the first time in a week.\n\nThe **4-week average** printed **204K** vs a **200K** estimate (prior **199.8K**).\n\nContinuing claims (people already on benefits) were **1,799K** vs **1,790K** estimated (prior **1,781K**).\n\nAll three prints were on the Aug. 20 calendar alongside retail earnings.\n\nWhich labor line do you watch first\u2014initial claims or the 4-week average?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 close: 7,708.03 (+0.2%) \u2014 [source: FMP indexes ^GSPC]",
-          "S&P 500 point change: +16.27 \u2014 [source: FMP indexes ^GSPC]",
-          "Nasdaq Composite close: 26,331.09 (+0.2%) \u2014 [source: FMP indexes ^IXIC]",
-          "Dow Jones close: 53,463.05 (+0.2%) \u2014 [source: FMP indexes ^DJI]",
-          "VIX close: 14.89 (-6.0%) \u2014 [source: FMP indexes ^VIX]",
-          "FOMC Minutes event date/time: 2026-08-19 18:00:00, impact High \u2014 [source: FMP economic_calendar]"
+          "Initial Jobless Claims (Aug/15) actual: 206K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims estimate: 210K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims previous: 212K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average actual: 204K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 200K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average previous: 199.75K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims actual: 1,799K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims estimate: 1,790K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims previous: 1,781K \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html",
-        "source_notes": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
+        "source_url": "https://www.barrons.com/articles/stocks-today-bond-market-drives-stocks-lower-e03116ff",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-bond-market-drives-stocks-lower-e03116ff"
       },
       {
-        "title": "Treasury flags longer-term bond buybacks",
+        "title": "Walmart EPS $0.81 tops $0.74 estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "U.S. stocks closed higher on Aug. 19, with coverage linking the session to the Treasury Department moving to buy back more longer-term bonds.\n\nThe S&P 500 finished at 7,708.03 (+0.2%).\n\nThe Russell 2000 closed at 3,032.94 (+0.5%) \u2014 the largest gain among the major U.S. indexes in this snapshot.\n\nIn the Aug. 17 Treasury yield snapshot, the 10-year note yielded 4.7%.\n\nThe 2-year was at 4.2%, for a 2s10s spread of 0.53 percentage points \u2014 the gap between short- and long-term government borrowing costs.\n\nAsian currency coverage also pointed to the Treasury buyback announcement as a factor in regional FX moves.\n\nWhich bond maturity do you watch first when Treasury steps into the market?",
+        "body": "$WMT Aug. 20 earnings:\n- EPS **$0.81** actual vs **$0.74** estimate\n- Revenue **~$187.9B** actual vs **~$186.6B** estimate\n\nCoverage tied the session\u2019s retail read-through to how households are spending as borrowing costs stay elevated.\n\nThe same narrative showed up as major indexes finished lower on Aug. 20 despite the beat on paper.\n\nDo you treat mega-cap retail EPS as a consumer-health signal or a company-specific story?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 close: 7,708.03 (+0.2%) \u2014 [source: FMP indexes ^GSPC]",
-          "Russell 2000 close: 3,032.94 (+0.5%) \u2014 [source: FMP indexes ^RUT]",
-          "10-year Treasury yield: 4.7% \u2014 [source: FMP treasury]",
-          "2-year Treasury yield: 4.2% \u2014 [source: FMP treasury]",
-          "2s10s spread: 0.53 \u2014 [source: FMP treasury spread_2s10s]",
-          "Treasury snapshot date: 2026-08-17 \u2014 [source: FMP treasury date]"
+          "WMT EPS actual: 0.81 \u2014 source: FMP earnings_calendar",
+          "WMT EPS estimated: 0.741 \u2014 source: FMP earnings_calendar",
+          "WMT revenue actual: 187,937,000,000 (~$187.9B) \u2014 source: FMP earnings_calendar",
+          "WMT revenue estimated: 186,619,700,000 (~$186.6B) \u2014 source: FMP earnings_calendar",
+          "S&P 500 close: 7,642.21 (-0.9%) \u2014 source: FMP indexes ^GSPC"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-moderna-boost-government-bond-buyback-8d64fce8",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-moderna-boost-government-bond-buyback-8d64fce8"
+        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-and-bonds-slide-brushing-off-treasurys-buyback-plans-57ced23b",
+        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-and-bonds-slide-brushing-off-treasurys-buyback-plans-57ced23b"
       },
       {
-        "title": "Japan exports up 23.2% vs 19.9% est.",
+        "title": "S&P \u22120.9% as bonds, stocks slip",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Japan\u2019s exports grew 23.2% in July \u2014 the fifth consecutive month of acceleration in reported trade data.\n\nEconomists polled by Reuters had looked for 19.2% growth; the headline in coverage rounded the consensus to 19.9%.\n\nCoverage tied the outperformance to robust chip-related shipments as AI demand stays in the trade flow.\n\nIn the same Aug. 19 snapshot, Japan\u2019s Nikkei 225 closed at 66,124.90 (+1.2%).\n\nU.S. session indexes were modestly higher the same day: S&P 500 at 7,708.03 (+0.2%).\n\nDo you treat overseas export prints as a read-through for U.S. tech supply chains?",
+        "body": "Aug. 20 U.S. index closes:\n- $SPX (^GSPC) **\u22120.9%** to **7,642.21**\n- Nasdaq **\u22121.0%** to **26,067.17**\n- Dow **\u22121.3%** to **52,759.21**\n\nHeadlines pointed to **Treasuries selling off again** and **mixed Walmart-led retail results** as the day\u2019s macro backdrop.\n\nIn the Aug. 18 Treasury snapshot in the data, the **10-year yield** was **4.7%** and the **2s10s spread** was **0.52** percentage points.\n\nOil exposure in the cross-asset set showed **$USO +2.8%** to **134.54** on the session.\n\nWhat mattered more to you that day\u2014rates, oil, or the retail prints?",
         "skip_reason": "",
         "supporting_data": [
-          "Japan exports growth (reported): 23.2% \u2014 [source: CNBC news text]",
-          "Reuters consensus (reported): 19.9% \u2014 [source: CNBC news text]",
-          "Nikkei 225 close: 66,124.90 (+1.2%) \u2014 [source: FMP overseas ^N225]",
-          "S&P 500 close: 7,708.03 (+0.2%) \u2014 [source: FMP indexes ^GSPC]"
+          "^GSPC price: 7,642.21 \u2014 source: FMP indexes",
+          "^GSPC changesPercentage: -0.9% \u2014 source: FMP indexes",
+          "^IXIC changesPercentage: -1.0% \u2014 source: FMP indexes",
+          "^IXIC price: 26,067.17 \u2014 source: FMP indexes",
+          "^DJI changesPercentage: -1.3% \u2014 source: FMP indexes",
+          "^DJI price: 52,759.21 \u2014 source: FMP indexes",
+          "Treasury year10: 4.7% \u2014 source: FMP treasury (date 2026-08-18)",
+          "Treasury spread_2s10s: 0.52 \u2014 source: FMP treasury",
+          "USO changesPercentage: +2.8% \u2014 source: FMP cross_asset wti",
+          "USO price: 134.54 \u2014 source: FMP cross_asset wti"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/20/japan-exports-imports-july-chip-ai.html",
-        "source_notes": "https://www.cnbc.com/2026/08/20/japan-exports-imports-july-chip-ai.html"
+        "source_url": "https://www.barrons.com/articles/stocks-today-bond-market-drives-stocks-lower-e03116ff",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-bond-market-drives-stocks-lower-e03116ff"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-08-19",
-    "generated_at": "2026-08-19T21:06:36-04:00",
-    "draft_path": "drafts/2026-08-19.md",
+    "session_date": "2026-08-20",
+    "generated_at": "2026-08-20T21:09:58-04:00",
+    "draft_path": "drafts/2026-08-20.md",
     "errors": [],
     "slots": [
       {
-        "title": "Indexes up 0.2% as volatility eases",
+        "title": "Walmart falls 9.2% after profit beat",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The S&P 500 closed at 7,708.03, up 0.2% (+16.27 pts).\n\nThe Nasdaq Composite and Dow Jones also finished up 0.2% \u2014 26,331.09 and 53,463.05.\n\nThe Russell 2000 led among major U.S. indexes at +0.5%, 3,032.94.\n\nThe VIX settled at 14.89, down 6.0% from 15.84.\n\nCoverage tied the session to the U.S. Treasury signaling support for longer-term bonds after yields had been elevated.\n\nWhich index move surprised you most today \u2014 large caps or small caps?",
+        "body": "$WMT closed at $103.84, down 9.2% ($10.46) on heavy volume.\n\nEarnings for the quarter: EPS $0.81 vs $0.74 estimate; revenue about $187.9B vs $186.6B estimate.\n\nThe print beat the Street on both lines, but the session still treated big-box retail as a pressure point alongside a weaker index tape.\n\nThe Dow fell 1.3% and the S&P 500 fell 0.9% on the same day coverage tied mixed retailer results to worries about U.S. consumer spending.\n\nWhich part of the Walmart report \u2014 margins, guidance, or the share reaction \u2014 are you reading first?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 close: 7,708.03, +0.2% \u2014 indexes ^GSPC, FMP close 2026-08-19",
-          "Nasdaq Composite: 26,331.09, +0.2% \u2014 indexes ^IXIC",
-          "Dow Jones: 53,463.05, +0.2% \u2014 indexes ^DJI",
-          "Russell 2000: 3,032.94, +0.5% \u2014 indexes ^RUT",
-          "VIX: 14.89, -6.0% \u2014 indexes ^VIX"
+          "WMT close: $103.84 \u2014 mega_caps / FMP quote",
+          "WMT change: -9.2% \u2014 changesPercentage in FMP_DATA",
+          "WMT EPS actual: $0.81 \u2014 earnings_calendar",
+          "WMT EPS estimate: $0.741 \u2014 earnings_calendar",
+          "WMT revenue actual: $187,937,000,000 \u2014 earnings_calendar",
+          "WMT revenue estimate: $186,619,700,000 \u2014 earnings_calendar",
+          "^DJI: -1.3% to 52,759.21 \u2014 indexes",
+          "^GSPC: -0.9% to 7,642.21 \u2014 indexes"
         ],
-        "source_url": "https://www.wsj.com/finance/investing/bessent-leans-into-his-role-as-americas-bond-trader-in-chief-633f28a4",
-        "source_notes": "https://www.wsj.com/finance/investing/bessent-leans-into-his-role-as-americas-bond-trader-in-chief-633f28a4"
+        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-and-bonds-slide-brushing-off-treasurys-buyback-plans-57ced23b",
+        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-and-bonds-slide-brushing-off-treasurys-buyback-plans-57ced23b"
       },
       {
-        "title": "Moderna shares up 177% at the close",
+        "title": "Deere jumps 6.9% on earnings beat",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$MRNA closed at 174.38, up 177.0% for the session.\n\nIt was among the most active names by volume narrative in the day\u2019s market wrap.\n\nThe same coverage noted stocks finishing higher and government bond-market action in the background.\n\nHealthcare was one of the stronger Nasdaq sector buckets at +2.4% average change for the session.\n\nDid you track biotech separately from the rest of the market today?",
+        "body": "$DE finished at $620.94, up 6.9% ($40.31).\n\nQuarter results from the calendar: EPS $5.10 vs $4.69 estimate.\n\nRevenue about $12.6B vs $10.8B estimate.\n\nThe stock traded between $587.15 and $639.00 during the session.\n\nWhile the S&P 500 lost 0.9% and the Nasdaq lost 1.0%, Deere was among the standout large-cap gainers on the earnings table for Aug. 20.\n\nDoes equipment demand showing up in Deere\u2019s revenue line change how you\u2019re grouping today\u2019s industrial names?",
         "skip_reason": "",
         "supporting_data": [
-          "MRNA close: 174.38 \u2014 actives / mega_caps context, changesPercentage 177.0% \u2014 actives",
-          "Nasdaq Healthcare sector average: +2.4% (2.41 rounded) \u2014 sectors Healthcare NASDAQ"
+          "DE close: $620.94 \u2014 mega_caps",
+          "DE change: +6.9% \u2014 changesPercentage",
+          "DE day high: $639.00 \u2014 mega_caps",
+          "DE day low: $587.15 \u2014 mega_caps",
+          "DE EPS actual: $5.10 \u2014 earnings_calendar",
+          "DE EPS estimated: $4.69 \u2014 earnings_calendar",
+          "DE revenue actual: $12,608,000,000 \u2014 earnings_calendar",
+          "DE revenue estimated: $10,814,670,000 \u2014 earnings_calendar",
+          "^GSPC: -0.9% \u2014 indexes",
+          "^IXIC: -1.0% to 26,067.17 \u2014 indexes"
         ],
-        "source_url": "https://www.youtube.com/watch?v=rKUPMjEHFNA",
-        "source_notes": "https://www.youtube.com/watch?v=rKUPMjEHFNA"
+        "source_url": "https://tickeralpha.ai",
+        "source_notes": "https://tickeralpha.ai"
       },
       {
-        "title": "Target up 4.3% after earnings beat",
+        "title": "Moderna down 23.5% at the close",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$TGT closed at 159.03, up 4.3%.\n\nReported EPS was 4.11 vs a 2.35 estimate; revenue was about $26.54B vs ~$26.15B estimated.\n\n$LOW finished at 220.71, up 2.4%, with EPS 4.40 vs 4.22 estimated.\n\n$LOW revenue was about $25.96B vs ~$26.13B estimated.\n\n$TJX closed at 144.50, down 4.2%, despite EPS 1.22 vs 1.19 estimated and revenue slightly above the estimate.\n\nConsumer Cyclical was the strongest Nasdaq sector average at +2.8% for the session.\n\nWhen two retailers beat on EPS, why do you think the stocks can still diverge this much?",
+        "body": "$MRNA closed at $133.32, down 23.5% ($41.06).\n\nHealthcare was one of the weaker Nasdaq sectors, with an average decline of about 1.0% in the session snapshot.\n\nLiquid decliners screen placed Moderna near the top of the list by percentage drop.\n\nThe S&P 500 fell 0.9% and the Nasdaq Composite fell 1.0%; session commentary also flagged Moderna alongside retailer results as names that did not stabilize the tape.\n\nWhat metric are you watching on Moderna after a move of this size in one session?",
         "skip_reason": "",
         "supporting_data": [
-          "TGT: 159.03, +4.3% \u2014 mega_caps TGT; EPS 4.11 vs 2.35 est \u2014 earnings_calendar",
-          "TGT revenue: 26539000000 vs 26152160000 est \u2014 earnings_calendar",
-          "LOW: 220.71, +2.4%; EPS 4.4 vs 4.22 \u2014 earnings_calendar; revenue 25956000000 vs 26132270000 est",
-          "TJX: 144.50, -4.2%; EPS 1.22 vs 1.19 \u2014 earnings_calendar; revenue 15180000000 vs 15169060000 est",
-          "Consumer Cyclical sector: +2.8% \u2014 sectors"
+          "MRNA close: $133.32 \u2014 liquid_losers",
+          "MRNA change: -23.5% \u2014 liquid_losers",
+          "MRNA dollar change: -41.06 \u2014 liquid_losers",
+          "Healthcare sector average change: -1.0% \u2014 sectors (rounded from -1.01)",
+          "^GSPC: -0.9% to 7,642.21 \u2014 indexes",
+          "^IXIC: -1.0% to 26,067.17 \u2014 indexes"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-moderna-boost-government-bond-buyback-8d64fce8",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-moderna-boost-government-bond-buyback-8d64fce8"
+        "source_url": "https://www.barrons.com/articles/stocks-today-bond-market-drives-stocks-lower-e03116ff",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-bond-market-drives-stocks-lower-e03116ff"
       },
       {
-        "title": "Aug. 19 session: indexes, retail, chips, tape",
+        "title": "Aug. 20 session recap",
         "status": "ready",
         "kind": "x_recap",
-        "body": "U.S. equity benchmarks finished in the green on Aug. 19.\nThe S&P 500 closed at 7,708.03 (+0.2%), the Nasdaq Composite at 26,331.09 (+0.2%), and the Dow at 53,463.05 (+0.2%).\nThe Russell 2000 outpaced them at 3,032.94 (+0.5%).\n\nThe VIX ended at 14.89, down 6.0% from the prior close of 15.84.\nSession headlines included the Treasury Department\u2019s longer-dated bond buyback messaging and the release of FOMC minutes (scheduled high-impact at 6:00 p.m.\nET on the economic calendar).\n\nOn Nasdaq sector averages, Consumer Cyclical led at +2.8% and Healthcare at +2.4%.\nTechnology lagged at -1.5%, Industrials at -1.7%, and Financial Services at -0.5%.\nEnergy averaged -0.5%.\n\nMegacap and large-cap moves were split.\nApple closed at 316.83 (+2.2%).\nTesla at 351.12 (+4.2%).\nSalesforce at 206.09 (+5.1%).\nNetflix at 80.22 (+3.2%).\nMicrosoft at 484.31 (+0.6%).\nOn the downside, Broadcom finished at 362.48 (-4.6%), AMD at 466.42 (-3.7%), NVIDIA at 217.56 (-1.0%), and Intel at 92.80 (-4.0% in actives).\nJPMorgan closed at 357.26 (-1.6%).\n\nRetail and consumer earnings drove several named moves.\nTarget reported EPS of 4.11 vs 2.35 estimated and revenue above estimate; the stock closed at 159.03 (+4.3%), touching a 161.98 day high vs a 52-week high of 161.98 in the profile data.\nLowe\u2019s posted EPS 4.40 vs 4.22 estimated with revenue slightly below estimate; shares ended at 220.71 (+2.4%).\nTJX beat on EPS (1.22 vs 1.19) with revenue slightly above estimate but closed at 144.50 (-4.2%).\nEst\u00e9e Lauder reported EPS 0.39 vs 0.32 estimated and revenue above estimate; the stock surged to 98.01 (+16.3%).\nAnalog Devices beat on EPS (3.45 vs 3.34) and revenue; shares still closed at 373.26 (-0.9%).\n\nModerna was a standout in actives, closing at 174.38 (+177.0%).\nBitcoin ETF proxies also saw heavy activity: iShares Bitcoin Trust at 38.78 (+6.0%) and ProShares Bitcoin ETF at 9.25 (+6.0%), while spot Bitcoin in the cross-asset block finished at 69,344.98 (+0.1%).\n\nCross-asset and rates context from the injected snapshot: gold futures at 4,563.30 (+0.4%), Brent crude at 92.09 (+0.5%), and the dollar-proxy ETF UUP at 27.88 (-0.9%).\nEUR/USD printed 1.17 (-0.1%).\nTreasury yields in the Aug. 17 FMP treasury block showed the 10-year at 4.7% and the 30-year at 5.3%, with a 2s10s spread of 0.53.\n\nOverseas indexes in the bundle included the Nikkei 225 at 66,137.49 (+1.2%) and the FTSE 100 at 10,743.35 (+0.1%).\nJapan export data showing accelerated growth on chip shipments appeared in the day\u2019s news flow alongside U.S. debt passing $40 trillion in reported coverage.",
+        "body": "The S&P 500 finished at 7,642.21, down 0.9% (65.77 points), with an intraday range between 7,639.01 and 7,699.96.\n\nThe Nasdaq Composite lost 1.0%, closing at 26,067.17, and the Dow Jones Industrial Average fell 1.3% to 52,759.21, a 703.84-point drop.\n\nThe Russell 2000 declined 1.3% to 2,992.43, in line with the large-cap weakness rather than a small-cap bounce.\n\nThe VIX rose 7.5% to 16.01, up from a prior close of 14.89, as equity indexes slid.\n\nAt 12:30 p.m.\nET the U.S. released jobless claims: initial claims 206K vs 210K estimate (previous 212K), continuing claims 1,799K vs 1,790K estimate, and the four-week average at 204K vs 200K estimate.\n\nSector performance on Nasdaq tilted defensive in places: Real Estate led with an average gain of about 0.7%, while Industrials lagged at about -1.5%, Energy about -1.5%, Healthcare about -1.0%, and Technology was slightly positive at about +0.2%.\n\nWalmart reported EPS $0.81 on revenue near $187.9B, both above estimates, yet $WMT still closed down 9.2% at $103.84 on volume of 83.5M shares.\n\nDeere posted EPS $5.10 and revenue about $12.6B, above estimates, and $DE rallied 6.9% to $620.94.\n\nRoss Stores beat on EPS ($2.66 vs $1.95 estimate) and revenue (~$6.26B vs ~$6.16B estimate), while $ROST still finished down 2.4% at $228.99.\n\nConsumer-linked megacaps weakened with the tape:\n- $AMZN -2.2%\n- $HD -2.8%\n- $COST -2.5%\n\nto $933.51; $MRNA fell 23.5% to $133.32 among the session\u2019s largest liquid declines.\n\nTechnology names were mixed against a down Nasdaq:\n- $AMD +0.7%\n- $NVDA -0.3%\n- $MSFT -0.7%\n- $GOOG -1.0%\n\nto $338.20.\n\nCross-asset moves in the snapshot included Bitcoin up 1.2% to $73,897.79, the USO oil fund proxy up 2.8% to $134.54, gold futures roughly flat at $4,566.90 (-0.1%), Brent crude at $93.50 (-0.3%), and the dollar fund proxy UUP up 0.1% to $27.91.\n\nOverseas indexes diverged: Japan\u2019s Nikkei 225 fell 1.0% to 65,574.88, the FTSE 100 edged up less than 0.1% to 10,748.16, and Hong Kong\u2019s Hang Seng rose 0.9% to 25,698.49.\n\nThe latest Treasury yield snapshot in the feed is dated 2026-08-18, with the 10-year at 4.7% and the 2s10s spread at 0.52 percentage points; session headlines still described Treasury selling weighing on stocks Thursday.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC 7,708.03, +0.2%; ^IXIC 26,331.09, +0.2%; ^DJI 53,463.05, +0.2%; ^RUT 3,032.94, +0.5% \u2014 indexes",
-          "^VIX 14.89, -6.0% \u2014 indexes",
-          "Sector averages Consumer Cyclical +2.8%, Healthcare +2.4%, Technology -1.5%, Industrials -1.7% \u2014 sectors",
-          "AAPL 316.83 +2.2%; TSLA 351.12 +4.2%; CRM 206.09 +5.1%; AVGO 362.48 -4.6%; AMD 466.42 -3.7%; NVDA 217.56 -1.0%; INTC 92.80 -4.0% \u2014 mega_caps / actives",
-          "TGT, LOW, TJX, EL, ADI earnings and closes \u2014 earnings_calendar / mega_caps",
-          "MRNA 174.38 +177.0%; IBIT 38.78 +6.0%; BITO 9.25 +6.0% \u2014 actives",
-          "GCUSD 4,563.30 +0.4%; BZUSD 92.09 +0.5%; UUP 27.88 -0.9%; BTCUSD 69,344.98 +0.1% \u2014 cross_asset",
-          "Treasury year10 4.72, year30 5.31, spread_2s10s 0.53, date 2026-08-17 \u2014 treasury",
-          "^N225 66,137.49 +1.2%; ^FTSE 10,743.35 +0.1% \u2014 overseas"
+          "^GSPC: 7,642.21, -0.9% \u2014 indexes",
+          "^IXIC: 26,067.17, -1.0% \u2014 indexes",
+          "^DJI: 52,759.21, -1.3% \u2014 indexes",
+          "^RUT: 2,992.43, -1.3% \u2014 indexes",
+          "^VIX: 16.01, +7.5% \u2014 indexes",
+          "Initial jobless claims: 206K actual, 210K estimate \u2014 economic_calendar",
+          "WMT / DE / ROST earnings lines \u2014 earnings_calendar",
+          "Sector average changes \u2014 sectors",
+          "BTCUSD: +1.2% \u2014 cross_asset",
+          "USO: +2.8% \u2014 cross_asset",
+          "GCUSD: -0.1% \u2014 cross_asset",
+          "Treasury year10: 4.71, spread_2s10s: 0.52 \u2014 treasury (date 2026-08-18)",
+          "^N225, ^FTSE, ^HSI \u2014 overseas"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html",
-        "source_notes": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html"
+        "source_url": "https://tickeralpha.ai",
+        "source_notes": "https://tickeralpha.ai"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-08-19",
-    "generated_at": "2026-08-19T21:07:10-04:00",
-    "draft_path": "drafts/2026-08-19-week-ahead.md",
+    "session_date": "2026-08-20",
+    "generated_at": "2026-08-20T21:10:27-04:00",
+    "draft_path": "drafts/2026-08-20-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Three PMI prints land Friday at 1:45 p.m.",
+        "title": "Composite PMI due at 53.2 estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Three U.S. PMI-style activity indexes are scheduled for Friday, Aug. 21, at 1:45 p.m.\nET.\n\nS&P Global Manufacturing PMI (Aug): estimate 53.9 points, same as the prior 53.9.\n\nS&P Global Services PMI (Aug): estimate 54.0 points, prior 54.6.\n\nS&P Global Composite PMI (Aug): estimate 53.2 points, prior 54.5.\n\nPMI here means purchasing managers\u2019 surveys boiled down to one number \u2014 roughly, whether orders and activity are growing or shrinking.\n\nAll three resolve in one release window on the economic calendar for the week ending Aug. 21.\n\nWhich of the three do you track first when they hit?",
+        "body": "August S&P Global Composite PMI: consensus 53.2 points, prior month 54.5.\n\nSame release window, 1:45 p.m.\nET Friday.\n\nComposite PMI rolls manufacturing and services into one read on how broadly the economy is growing or contracting.\n\nAlso on the calendar at 1:45 p.m.\nET:\n- Manufacturing PMI \u2014 estimate 53.9, prior 53.9\n- Services PMI \u2014 estimate 54.0, prior 54.6\n\nAll three are in points, not percent; 50 is the line between expansion and contraction.\n\nWhich of the three prints do you track first when they land together?",
         "skip_reason": "",
         "supporting_data": [
-          "Manufacturing PMI estimate: 53.9 points \u2014 source: FMP economic_calendar",
-          "Manufacturing PMI previous: 53.9 points \u2014 source: FMP economic_calendar",
-          "Services PMI estimate: 54.0 points \u2014 source: FMP economic_calendar",
-          "Services PMI previous: 54.6 points \u2014 source: FMP economic_calendar",
-          "Composite PMI estimate: 53.2 points \u2014 source: FMP economic_calendar",
-          "Composite PMI previous: 54.5 points \u2014 source: FMP economic_calendar",
-          "Release time: 2026-08-21 13:45:00 (US) \u2014 source: FMP economic_calendar"
+          "Composite PMI estimate: 53.2 \u2014 source: FMP economic_calendar",
+          "Composite PMI previous: 54.5 \u2014 source: FMP economic_calendar",
+          "Release time: 2026-08-21 13:45:00 (America/New_York) \u2014 source: FMP economic_calendar",
+          "Manufacturing PMI estimate: 53.9 \u2014 source: FMP economic_calendar",
+          "Manufacturing PMI previous: 53.9 \u2014 source: FMP economic_calendar",
+          "Services PMI estimate: 54.0 \u2014 source: FMP economic_calendar",
+          "Services PMI previous: 54.6 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/20/japan-exports-imports-july-chip-ai.html",
-        "source_notes": "https://www.cnbc.com/2026/08/20/japan-exports-imports-july-chip-ai.html"
+        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       },
       {
-        "title": "BJ\u2019s and Ubiquiti report Friday",
+        "title": "BJ\u2019s reports with $1.17 EPS estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Two NYSE names report on Friday, Aug. 21, with estimates already on the calendar.\n\n$BJ (BJ\u2019s Wholesale Club Holdings):\n- EPS estimate: $1.17\n- Revenue estimate: $5.97B\n\n$UI (Ubiquiti Inc.):\n- EPS estimate: $4.03\n- Revenue estimate: $850.50M\n\nThose numbers are what the market uses to size the quarter before management commentary and guidance land.\n\nBoth resolve on the Aug. 21 earnings calendar for the week of Aug. 17\u2013Aug. 21.\n\nDo you watch club retail, networking gear, or both on that day?",
+        "body": "$BJ earnings are on the calendar for 2026-08-21.\n\nConsensus EPS: $1.17.\n\nRevenue estimate: $5.97B ($5,968,030,000).\n\nThe report is the line item for warehouse-club sales and traffic versus other big-box and grocery names that already reported this week.\n\nNYSE-listed; market cap in the data snapshot is about $11.65B.\n\nWhat do you watch first on a club retailer report \u2014 comp sales, membership, or margin?",
         "skip_reason": "",
         "supporting_data": [
-          "$BJ EPS estimate: $1.17 \u2014 source: FMP earnings_calendar",
-          "$BJ revenue estimate: $5,968,030,000 (~$5.97B) \u2014 source: FMP earnings_calendar",
-          "$BJ report date: 2026-08-21 \u2014 source: FMP earnings_calendar",
-          "$UI EPS estimate: $4.03 \u2014 source: FMP earnings_calendar",
-          "$UI revenue estimate: $850,497,000 (~$850.50M) \u2014 source: FMP earnings_calendar",
-          "$UI report date: 2026-08-21 \u2014 source: FMP earnings_calendar"
+          "Symbol: BJ \u2014 source: FMP earnings_calendar",
+          "Report date: 2026-08-21 \u2014 source: FMP earnings_calendar",
+          "EPS estimate: 1.17 \u2014 source: FMP earnings_calendar",
+          "Revenue estimate: 5968030000 \u2014 source: FMP earnings_calendar",
+          "Market cap: 11,648,245,494.00 \u2014 source: FMP earnings_calendar",
+          "Exchange: NYSE \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-moderna-boost-government-bond-buyback-8d64fce8",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-moderna-boost-government-bond-buyback-8d64fce8"
+        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       },
       {
-        "title": "Jobless claims update Thursday at 12:30 p.m.",
+        "title": "Shein IPO talk targets $26B\u2013$27B",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Thursday, Aug. 20, at 12:30 p.m.\nET, the U.S. jobless claims bundle hits the calendar.\n\nInitial Jobless Claims (week of Aug. 15):\n- Estimate: 210K\n- Previous: 209K\n\nJobless Claims 4-Week Average (Aug. 15):\n- Estimate: 200K\n- Previous: 199K\n\nContinuing Jobless Claims (week of Aug. 8):\n- Estimate: 1,790K\n- Previous: 1,777K\n\nInitial claims count new unemployment filings; continuing claims count people still receiving benefits after the first week.\n\nThe prints close out the main labor-data slot left in the Aug. 17\u2013Aug. 21 window after earlier housing and GDP tracker releases.\n\nWhich line in the trio do you look at first \u2014 initial, average, or continuing?",
+        "body": "Shein is described as targeting a Hong Kong IPO valuation of $26B to $27B.\n\nThat range is from Bloomberg\u2019s reporting in the session news set, not from the U.S. earnings calendar in the same payload.\n\nAn IPO valuation headline measures what underwriters and the company are signaling about size at listing; it does not by itself set a U.S. trading price.\n\nNo Shein ticker or U.S. print date appears in the week-ahead earnings or economic calendar blocks supplied here.\n\nDo you treat mega IPO valuation headlines as a macro liquidity story or ignore them until there is a U.S. line item?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial claims estimate: 210K \u2014 source: FMP economic_calendar",
-          "Initial claims previous: 209K \u2014 source: FMP economic_calendar",
-          "4-week average estimate: 200K \u2014 source: FMP economic_calendar",
-          "4-week average previous: 199K \u2014 source: FMP economic_calendar",
-          "Continuing claims estimate: 1,790K \u2014 source: FMP economic_calendar",
-          "Continuing claims previous: 1,777K \u2014 source: FMP economic_calendar",
-          "Release time: 2026-08-20 12:30:00 (US) \u2014 source: FMP economic_calendar"
+          "Valuation range cited: $26 billion to $27 billion \u2014 source: FMP news (Bloomberg Markets and Finance)",
+          "Published: 2026-08-20 20:15:14 \u2014 source: FMP news"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html",
-        "source_notes": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
+        "source_url": "https://www.youtube.com/watch?v=k_moOftNdyc",
+        "source_notes": "https://www.youtube.com/watch?v=k_moOftNdyc"
       }
     ]
   }

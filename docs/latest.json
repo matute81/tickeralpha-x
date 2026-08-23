@@ -1,209 +1,206 @@
 {
-  "updated_at": "2026-08-21T21:06:37-04:00",
+  "updated_at": "2026-08-22T21:11:36-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-08-21",
-    "generated_at": "2026-08-21T21:05:31-04:00",
-    "draft_path": "drafts/2026-08-21-am.md",
+    "session_date": "2026-08-22",
+    "generated_at": "2026-08-22T21:10:46-04:00",
+    "draft_path": "drafts/2026-08-22-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Services PMI 56.8 beats 54.0 estimate",
+        "title": "Treasury doubled buybacks; 30-year dip faded in a day",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August S&P Global Services PMI (a monthly read on business activity outside factories) came in at 56.8.\n\nThe consensus estimate was 54.0; the prior month was 54.6.\n\nComposite PMI, which blends manufacturing and services, printed 56.0 vs a 53.2 estimate and 54.5 previously.\n\nManufacturing PMI was 53.2 vs 53.9 expected and 53.9 last time \u2014 the only print of the three below forecast.\n\nAll three releases hit at 1:45 p.m.\nET on Aug. 21.\n\nWhich line in the PMI trio matters most to you for the rest of the month?",
+        "body": "The Treasury doubled its cap on long-end bond buybacks midweek.\n\nThe 30-year yield moved down 9 basis points on that news.\n\nBy the next day, that entire yield move had reversed.\n\nReporting on the episode notes Fed Chair Kevin Warsh is scheduled for his first Jackson Hole keynote on Friday, Aug. 28.\n\nLatest Treasury snapshot in the feed (Aug. 20): 10-year at 4.7%, 30-year at 5.2%, 2s10s spread at 0.50.\n\nPrior session equities closed higher anyway:\n\n- S&P 500 +0.4% to 7,674.37\n- Dow Jones +1.0% to 53,277.01\n\nWhat do you watch first when a buyback headline fades in yields but stocks still finish green?",
         "skip_reason": "",
         "supporting_data": [
-          "Services PMI (Aug) actual: 56.8 \u2014 source: FMP economic calendar",
-          "Services PMI estimate: 54.0 \u2014 source: FMP economic calendar",
-          "Services PMI previous: 54.6 \u2014 source: FMP economic calendar",
-          "Composite PMI actual: 56.0 \u2014 source: FMP economic calendar",
-          "Composite PMI estimate: 53.2 \u2014 source: FMP economic calendar",
-          "Composite PMI previous: 54.5 \u2014 source: FMP economic calendar",
-          "Manufacturing PMI actual: 53.2 \u2014 source: FMP economic calendar",
-          "Manufacturing PMI estimate: 53.9 \u2014 source: FMP economic calendar",
-          "Manufacturing PMI previous: 53.9 \u2014 source: FMP economic calendar"
+          "30-year yield move cited in headline: 9 basis points \u2014 [source: Seeking Alpha news]",
+          "10-year Treasury yield: 4.7% \u2014 [source: FMP treasury]",
+          "30-year Treasury yield: 5.2% \u2014 [source: FMP treasury]",
+          "2s10s spread: 0.5 \u2014 [source: FMP treasury]",
+          "S&P 500 change: +0.4% \u2014 [source: FMP indexes ^GSPC]",
+          "S&P 500 close: 7,674.37 \u2014 [source: FMP indexes ^GSPC]",
+          "Dow change: +1.0% \u2014 [source: FMP indexes ^DJI]",
+          "Dow close: 53,277.01 \u2014 [source: FMP indexes ^DJI]"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://seekingalpha.com/article/4939217-bessent-doubled-buybacks-yields-went-higher-a-headache-for-warsh-at-jackson-hole",
+        "source_notes": "https://seekingalpha.com/article/4939217-bessent-doubled-buybacks-yields-went-higher-a-headache-for-warsh-at-jackson-hole"
       },
       {
-        "title": "Yields up after Treasury buyback push",
+        "title": "Jackson Hole preview centers on the Fed chair\u2019s speech",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The WSJ framed the week around Treasury Secretary Scott Bessent and a bond market that kept pushing yields higher despite a shock from Treasury buyback plans.\n\nFriday\u2019s session also saw crypto climb and U.S. stocks finish higher.\n\nThe 10-year Treasury yield was 4.7% on the Aug. 19 Treasury curve snapshot in the data.\n\nThe 2-year was 4.2%; the 2s\u201310s spread was 0.46 percentage point.\n\nGold futures closed up 2.4% at 4,680.60.\n\nWhat part of the rates story are you tracking into Jackson Hole?",
+        "body": "Jackson Hole is the macro story heading into the week.\n\nBloomberg\u2019s preview puts the focus on Fed Chair Kevin Warsh and his first annual symposium address.\n\nThat sits alongside a prior-session risk read where the VIX closed at 15.13, down 5.5% from the previous close.\n\nMajor U.S. indexes finished Aug. 22 higher:\n\n- Nasdaq Composite +0.4% to 26,180.46\n- Russell 2000 +0.9% to 3,017.87\n\nGold futures in the feed: +2.4% to 4,680.60.\n\nWhich part of the symposium program do you treat as the main U.S. rates signal \u2014 the chair\u2019s remarks or the side conversations on debt and liquidity?",
         "skip_reason": "",
         "supporting_data": [
-          "10-year Treasury yield: 4.7% \u2014 source: FMP treasury (date 2026-08-19)",
-          "2-year Treasury yield: 4.2% \u2014 source: FMP treasury",
-          "2s\u201310s spread: 0.46 \u2014 source: FMP treasury",
-          "Gold (GCUSD) change: +2.4% \u2014 source: FMP cross_asset",
-          "Gold price: 4,680.60 \u2014 source: FMP cross_asset"
+          "VIX close: 15.13 \u2014 [source: FMP indexes ^VIX]",
+          "VIX change: -5.5% \u2014 [source: FMP indexes ^VIX]",
+          "Nasdaq Composite change: +0.4% \u2014 [source: FMP indexes ^IXIC]",
+          "Nasdaq Composite close: 26,180.46 \u2014 [source: FMP indexes ^IXIC]",
+          "Russell 2000 change: +0.9% \u2014 [source: FMP indexes ^RUT]",
+          "Russell 2000 close: 3,017.87 \u2014 [source: FMP indexes ^RUT]",
+          "Gold futures change: +2.4% \u2014 [source: FMP cross_asset gold]",
+          "Gold futures price: 4,680.60 \u2014 [source: FMP cross_asset gold]"
         ],
-        "source_url": "https://www.wsj.com/finance/investing/bond-yields-rise-despite-treasury-efforts-to-curb-borrowing-costs-8aed2b0f",
-        "source_notes": "https://www.wsj.com/finance/investing/bond-yields-rise-despite-treasury-efforts-to-curb-borrowing-costs-8aed2b0f"
+        "source_url": "https://www.youtube.com/watch?v=A3YfPtl04rE",
+        "source_notes": "https://www.youtube.com/watch?v=A3YfPtl04rE"
       },
       {
-        "title": "U.S. debt past $40 trillion in focus",
+        "title": "TikTok agrees to $400M U.S. privacy settlement",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Bloomberg\u2019s Rebecca Patterson segment noted U.S. public debt topped $40 trillion for the first time.\n\nThe same discussion cited debt up by about a third in less than five years while fiscal deficits stay historically wide.\n\nFriday\u2019s close in the data:\n\n- S&P 500 +0.4% to 7,674.10\n- Dow Jones +1.0% to 53,277.01\n- Nasdaq Composite +0.4% to 26,180.45\n\nThe VIX finished at 15.13, down 5.5% on the session.\n\nBarron\u2019s also flagged a heavy calendar ahead, including the Federal Reserve gathering at Jackson Hole.\n\nWhich scheduled event are you watching first next week?",
+        "body": "TikTok agreed to pay $400 million to settle a U.S. DOJ lawsuit over children\u2019s privacy claims, the department announced Friday.\n\nThat headline landed the same session U.S. stocks closed up and volatility eased.\n\nSession markers from the feed:\n\n- S&P 500 +0.4% to 7,674.37\n- CBOE Volatility Index 15.13 (-5.5%)\n\nSeparately, CNBC carried Eurasia Group commentary that the U.S. Treasury\u2019s debt buyback plan is small relative to the overall bond market and that Treasury Secretary Scott Bessent has limited tools to pull yields lower.\n\nBitcoin in the cross-asset feed: -1.4% to 77,249.96.\n\nDo you bucket a nine-figure platform settlement with macro weeks like Jackson Hole, or keep regulatory fines in a separate column?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 (^GSPC): 7,674.10, +0.4% \u2014 source: FMP indexes",
-          "Dow (^DJI): 53,277.01, +1.0% \u2014 source: FMP indexes",
-          "Nasdaq (^IXIC): 26,180.45, +0.4% \u2014 source: FMP indexes",
-          "VIX: 15.13, -5.5% \u2014 source: FMP indexes"
+          "TikTok settlement amount: $400 million \u2014 [source: TechXplore news]",
+          "S&P 500 change: +0.4% \u2014 [source: FMP indexes ^GSPC]",
+          "S&P 500 close: 7,674.37 \u2014 [source: FMP indexes ^GSPC]",
+          "VIX close: 15.13 \u2014 [source: FMP indexes ^VIX]",
+          "VIX change: -5.5% \u2014 [source: FMP indexes ^VIX]",
+          "Bitcoin change: -1.4% \u2014 [source: FMP cross_asset btc]",
+          "Bitcoin price: 77,249.96 \u2014 [source: FMP cross_asset btc]"
         ],
-        "source_url": "https://www.youtube.com/watch?v=RlKcdl84cbo",
-        "source_notes": "https://www.youtube.com/watch?v=RlKcdl84cbo"
+        "source_url": "https://techxplore.com/news/2026-08-tiktok-pay-million-settlement-children.html",
+        "source_notes": "https://techxplore.com/news/2026-08-tiktok-pay-million-settlement-children.html"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-08-21",
-    "generated_at": "2026-08-21T21:06:08-04:00",
-    "draft_path": "drafts/2026-08-21.md",
+    "session_date": "2026-08-22",
+    "generated_at": "2026-08-22T21:11:17-04:00",
+    "draft_path": "drafts/2026-08-22.md",
     "errors": [],
     "slots": [
       {
-        "title": "Bitcoin up 7% near $78,118",
+        "title": "Tesla closes up 5.1% on the session",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Bitcoin closed around $78,117.52, up 7.0% ($5,104.52) on the session.\n\nThe S&P 500 finished up 0.4% at 7,674.10 and the Nasdaq Composite up 0.4% at 26,180.45 on the same day coverage linked rising equities to a surge in bitcoin and crypto-related activity.\n\nCrypto-linked ETFs also moved with the coin:\n\n- $IBIT +6.0% to 43.68\n- $BITO +6.1% to 10.41\n\nWhat stood out most to you in the cross-asset link between crypto and the U.S. equity close?",
+        "body": "$TSLA closed at 362.86, up 5.1% (+17.73) on the day.\n\nSession range ran 346.90 to 366.50 with about 57.8M shares traded.\n\nAmong the large-cap set in the same snapshot, that gain was the widest on a percentage basis.\n\nWhich megacap name had the second-largest move on your board Friday?",
         "skip_reason": "",
         "supporting_data": [
-          "BTCUSD price: 78,117.52 \u2014 FMP cross_asset / BTCUSD",
-          "BTCUSD changesPercentage: 7.0% \u2014 FMP cross_asset / BTCUSD",
-          "BTCUSD change: 5,104.52 \u2014 FMP cross_asset / BTCUSD",
-          "^GSPC price: 7,674.10 \u2014 FMP indexes / ^GSPC",
-          "^GSPC changesPercentage: 0.4% \u2014 FMP indexes / ^GSPC",
-          "^IXIC price: 26,180.45 \u2014 FMP indexes / ^IXIC",
-          "^IXIC changesPercentage: 0.4% \u2014 FMP indexes / ^IXIC",
-          "IBIT changesPercentage: 6.0%, price: 43.68 \u2014 FMP actives",
-          "BITO changesPercentage: 6.1%, price: 10.41 \u2014 FMP actives"
+          "$TSLA close: 362.86 \u2014 FMP quote / mega_caps",
+          "$TSLA change: +17.73 \u2014 FMP quote / mega_caps",
+          "$TSLA changesPercentage: +5.1% \u2014 FMP quote / mega_caps",
+          "$TSLA day high / low: 366.50 / 346.90 \u2014 FMP quote / mega_caps",
+          "$TSLA volume: 57,808,372 \u2014 FMP quote / mega_caps"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-bitcoin-nears-80-000-5de452ad",
-        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-bitcoin-nears-80-000-5de452ad"
+        "source_url": "https://financialmodelingprep.com/api/v3/quote/TSLA",
+        "source_notes": "https://financialmodelingprep.com/api/v3/quote/TSLA"
       },
       {
-        "title": "Alibaba shares down 8.6%",
+        "title": "Oracle up 3.1% to 146.47",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Alibaba ($BABA) closed at $119.32, down 8.6% (-$11.21) from the prior session\u2019s $130.53.\n\nVolume was 30,266,110 shares; the session range ran from a low of $119.24 to a high of $125.77.\n\nLeveraged products tied to the name moved in the same direction:\n\n- $BABU -17.3% to 11.02\n- $BABX -17.2% to 20.40\n\nWhich part of the megacap tape felt heavier to you on Friday\u2019s close \u2014 single-name drops like this or the tech sector\u2019s average decline?",
+        "body": "$ORCL finished at 146.47, up 3.1% (+4.40).\n\nThe session high was 147.45; the low was 142.60.\n\nIn the same megacap batch, $CRM closed up 1.8% at 209.17 and $MSFT up 0.4% at 483.24.\n\n$NVDA was down 1.0% at 214.72 in that group.\n\nDid you track enterprise software separately from chip names on Friday\u2019s close?",
         "skip_reason": "",
         "supporting_data": [
-          "BABA price: 119.32 \u2014 FMP mega_caps / BABA",
-          "BABA changesPercentage: -8.6% \u2014 FMP mega_caps / BABA",
-          "BABA change: -11.21 \u2014 FMP mega_caps / BABA",
-          "BABA previousClose: 130.53 \u2014 FMP mega_caps / BABA",
-          "BABA volume: 30266110 \u2014 FMP mega_caps / BABA",
-          "BABU changesPercentage: -17.3%, price: 11.02 \u2014 FMP liquid_losers",
-          "BABX changesPercentage: -17.2%, price: 20.40 \u2014 FMP liquid_losers"
+          "$ORCL close: 146.47 \u2014 FMP quote / mega_caps",
+          "$ORCL changesPercentage: +3.1% \u2014 FMP quote / mega_caps",
+          "$ORCL change: +4.40 \u2014 FMP quote / mega_caps",
+          "$CRM close / change: 209.17 / +1.8% \u2014 FMP quote / mega_caps",
+          "$MSFT close / change: 483.24 / +0.4% \u2014 FMP quote / mega_caps",
+          "$NVDA close / change: 214.72 / -1.0% \u2014 FMP quote / mega_caps"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-rise-markets-waiting-nvidia-fed-meeting-1195b879",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-rise-markets-waiting-nvidia-fed-meeting-1195b879"
+        "source_url": "https://financialmodelingprep.com/api/v3/quote/ORCL",
+        "source_notes": "https://financialmodelingprep.com/api/v3/quote/ORCL"
       },
       {
-        "title": "BJ\u2019s up 5.6% after earnings",
+        "title": "Dow up 1.0%, beats S&P by 0.6 pt",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$BJ finished at $96.42, up 5.6% (+$5.12) after reporting results for the Aug. 21 earnings date in the calendar data.\n\nActual EPS was $1.36 versus a $1.17 estimate.\n\nRevenue was about $6.23 billion versus an estimate near $5.97 billion.\n\nThe session high was $96.88 and volume was 3,607,560 shares.\n\nHow do you weigh a wholesale-club print like this against the broader consumer-staples and cyclical sector averages from the same close?",
+        "body": "The Dow closed at 53,277.01, up 1.0% (+517.80).\n\nThe S&P 500 finished at 7,674.37, up 0.4% (+33.21).\n\nThe Nasdaq Composite closed at 26,180.46, also up 0.4% (+113.29).\n\nThe Russell 2000 rose 0.9% to 3,017.87 (+25.44).\n\nThe VIX settled at 15.13, down 5.5% (-0.88) on the session.\n\nWhich index gap\u2014Dow vs. Nasdaq\u2014stood out most to you at the bell?",
         "skip_reason": "",
         "supporting_data": [
-          "BJ price: 96.42 \u2014 FMP mega_caps / BJ",
-          "BJ changesPercentage: 5.6% \u2014 FMP mega_caps / BJ",
-          "BJ change: 5.12 \u2014 FMP mega_caps / BJ",
-          "BJ epsActual: 1.36 \u2014 FMP earnings_calendar",
-          "BJ epsEstimated: 1.17 \u2014 FMP earnings_calendar",
-          "BJ revenueActual: 6226579000 \u2014 FMP earnings_calendar",
-          "BJ revenueEstimated: 5968030000 \u2014 FMP earnings_calendar"
+          "^DJI close / changesPercentage / change: 53,277.01 / +1.0% / +517.80 \u2014 FMP indexes",
+          "^GSPC close / changesPercentage: 7,674.37 / +0.4% \u2014 FMP indexes",
+          "^IXIC close / changesPercentage: 26,180.46 / +0.4% \u2014 FMP indexes",
+          "^RUT close / changesPercentage: 3,017.87 / +0.9% \u2014 FMP indexes",
+          "^VIX close / changesPercentage: 15.13 / -5.5% \u2014 FMP indexes"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-rise-markets-waiting-nvidia-fed-meeting-1195b879",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-rise-markets-waiting-nvidia-fed-meeting-1195b879"
+        "source_url": "https://financialmodelingprep.com/api/v3/quote/%5EDJI",
+        "source_notes": "https://financialmodelingprep.com/api/v3/quote/%5EDJI"
       },
       {
-        "title": "Aug. 21 session recap",
+        "title": "Aug. 22 US cash session recap",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Dow Jones Industrial Average led the major U.S. benchmarks, closing at 53,277.01, up 1.0% (+517.80 points).\nThe S&P 500 rose 0.4% to 7,674.10 (+32.94) and the Nasdaq Composite added 0.4% to 26,180.45 (+113.29).\nThe Russell 2000 gained 0.9% to 3,017.87 (+25.44).\n\nAt 1:45 p.m.\nET the calendar showed three U.S. S&P Global PMI releases for August.\nThe composite reading printed at 56.0 points versus a 53.2 estimate and 54.5 prior.\nManufacturing PMI was 53.2 versus a 53.9 estimate and 53.9 prior.\nServices PMI was 56.8 versus a 54.0 estimate and 54.6 prior.\n\nThe CBOE Volatility Index fell 5.5% to 15.13 (-0.88) from a 16.01 prior close, with an intraday range of 15.08 to 15.88.\n\nOn the Nasdaq sector averages for the date, Financial Services led at +1.2%, Healthcare at +1.0%, and Consumer Cyclical at +0.7%.\nTechnology averaged -0.8%, Energy -0.7%, Utilities -2.0%, and Real Estate -2.4%.\n\nBitcoin closed at $78,117.52, up 7.0% on the session.\nGold futures (GCUSD) rose 2.4% to $4,680.60 (+$109.20).\nBrent crude (BZUSD) added 0.7% to $94.39.\nThe injected UUP proxy for the dollar was effectively unchanged at $27.90 (0.0%).\n\nTreasury yield snapshot in the data is dated 2026-08-19: the 10-year at 4.7% and the 2s10s spread at 0.46 percentage points.\n\nPayment and financial megacaps posted gains alongside the financial sector average:\n- $V +1.5% to 371.04\n- $MA +1.2% to 580.63\n- $CRM +1.8% to 209.17\n\n$JPM was flat at 351.58 (0.0%).\n\nAlibaba ($BABA) fell 8.6% to $119.32.\nNVIDIA ($NVDA) slipped 1.0% to 214.72 on volume of 91,591,112 shares.\nMicrosoft ($MSFT) rose 0.4% to 483.24.\n\nBJ\u2019s Wholesale Club ($BJ) closed up 5.6% at $96.42 after reporting EPS of $1.36 versus a $1.17 estimate and revenue of about $6.23 billion versus a ~$5.97 billion estimate.\nUbiquiti ($UI) reported EPS of $4.73 versus a $4.03 estimate and revenue near $937.3 million versus ~$850.5 million estimated, and still closed down 2.6% at $559.00.\n\nOverseas indexes in the bundle included the Hang Seng up 2.0% to 26,009.46, the FTSE 100 up 0.6% to 10,816.56, and the Nikkei 225 down 0.3% to 66,016.36.",
+        "body": "The Aug. 22 US cash session closed with broad index gains.\nThe Dow Jones Industrial Average finished at 53,277.01, up 1.0% (+517.80 points), the strongest move among the major US benchmarks in the feed.\nThe S&P 500 ended at 7,674.37 (+0.4%, +33.21) and the Nasdaq Composite at 26,180.46 (+0.4%, +113.29).\nThe Russell 2000 rose 0.9% to 3,017.87.\n\nThe CBOE Volatility Index fell 5.5% to 15.13, down 0.88 point from the prior close of 16.01.\nThat reading sat between the session high of 15.88 and the low of 15.08.\n\nTesla led megacap percentage moves in the injected data: $TSLA closed at 362.86, up 5.1% (+17.73), with volume near 57.8 million shares and an intraday range of 346.90 to 366.50.\n\nOracle was the next standout among large caps: $ORCL finished at 146.47, up 3.1% (+4.40), with a high of 147.45.\nSalesforce gained 1.8% to 209.17; Microsoft rose 0.4% to 483.24.\n\nHealthcare and consumer names posted solid green closes in the megacap set.\nUnitedHealth rose 1.4% to 390.11, Johnson & Johnson 1.1% to 270.24, and Procter & Gamble 1.2% to 144.68.\n\nPayment networks also closed higher: Visa up 1.5% to 371.04 and Mastercard up 1.2% to 580.63.\nBroadcom gained 1.2% to 368.45; Taiwan Semiconductor rose 0.7% to 418.95; ASML up 0.8% to 1,763.76.\n\nSeveral heavily traded megacaps finished lower on the day.\nApple closed at 309.35 (-0.6%), Amazon at 258.63 (-0.6%), Netflix at 79.59 (-0.7%), and NVIDIA at 214.72 (-1.0%).\nExxon Mobil slipped 0.6% to 165.11; Bank of America was down 0.3% to 61.69.\nWalmart edged 0.1% lower to 103.70.\n\nGold futures in the cross-asset block rose 2.4% to 4,680.60 (+109.20), with a session high of 4,690.40.\nBrent crude settled at 94.39 (+0.7%); the USO ETF proxy for oil was up 0.1% at 134.64.\n\nBitcoin USD in the feed printed 77,251.93, up 0.2% (+175.87).\nAmong active symbols, the iShares Bitcoin Trust ETF (IBIT) closed up 6.0% at 43.68 and ProShares Bitcoin ETF (BITO) up 6.1% at 10.41, with heavy volume interest on several crypto-linked actives.\n\nTreasury yield levels in the injected snapshot (dated 2026-08-20) showed the 10-year at 4.7% and the 2s10s spread at 0.50 percentage point.\nThe dollar proxy UUP was essentially flat at 27.90 (0.0%).\n\nOverseas benchmarks in the same package mixed: Hang Seng rose 2.0% to 26,009.50, FTSE 100 gained 0.6% to 10,816.56, and the Nikkei 225 slipped 0.3% to 66,016.36.\n\nNo US economic releases or earnings entries appeared in the injected calendars for this close package; sector ETF performance was not populated in the feed.",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI: 53,277.01, +1.0% \u2014 FMP indexes",
-          "^GSPC: 7,674.10, +0.4% \u2014 FMP indexes",
-          "^IXIC: 26,180.45, +0.4% \u2014 FMP indexes",
-          "^RUT: 3,017.87, +0.9% \u2014 FMP indexes",
-          "PMI composite actual 56, est 53.2 \u2014 FMP economic_calendar",
-          "PMI manufacturing 53.2, est 53.9 \u2014 FMP economic_calendar",
-          "PMI services 56.8, est 54 \u2014 FMP economic_calendar",
+          "^DJI / ^GSPC / ^IXIC / ^RUT closes and changesPercentage \u2014 FMP indexes",
           "^VIX: 15.13, -5.5% \u2014 FMP indexes",
-          "Sector Financial Services +1.2%, Real Estate -2.4% \u2014 FMP sectors",
-          "BTCUSD: 78,117.52, +7.0% \u2014 FMP cross_asset",
+          "Mega_cap moves (TSLA, ORCL, CRM, MSFT, UNH, JNJ, PG, V, MA, AVGO, TSM, ASML, AAPL, AMZN, NFLX, NVDA, XOM, BAC, WMT) \u2014 FMP mega_caps",
           "GCUSD: 4,680.60, +2.4% \u2014 FMP cross_asset",
-          "BZUSD: 94.39, +0.7% \u2014 FMP cross_asset",
-          "Treasury 10y 4.7%, spread_2s10s 0.46 \u2014 FMP treasury",
-          "BABA, NVDA, MSFT, BJ, UI closes \u2014 FMP mega_caps / earnings_calendar",
+          "BZUSD: 94.39, +0.7%; USO: 134.64, +0.1% \u2014 FMP cross_asset",
+          "BTCUSD: 77,251.93, +0.2%; IBIT / BITO actives \u2014 FMP cross_asset / actives",
+          "Treasury: year10 4.69, spread_2s10s 0.5 \u2014 FMP treasury",
+          "UUP: 27.90 \u2014 FMP cross_asset",
           "^HSI, ^FTSE, ^N225 \u2014 FMP overseas"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-rise-markets-waiting-nvidia-fed-meeting-1195b879",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-rise-markets-waiting-nvidia-fed-meeting-1195b879"
+        "source_url": "https://seekingalpha.com/article/4939346-what-moved-markets-this-week",
+        "source_notes": "https://seekingalpha.com/article/4939346-what-moved-markets-this-week"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-08-21",
-    "generated_at": "2026-08-21T21:06:37-04:00",
-    "draft_path": "drafts/2026-08-21-week-ahead.md",
+    "session_date": "2026-08-22",
+    "generated_at": "2026-08-22T21:11:36-04:00",
+    "draft_path": "drafts/2026-08-22-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Jackson Hole on the calendar next",
+        "title": "Core PCE lands Tuesday 12:30 ET",
         "status": "ready",
         "kind": "x_idea",
-        "body": "VIX closed at 15.13, down 5.5% on the session, before a week when Fed speakers often use Jackson Hole to explain how they read inflation and jobs data.\n\nThat speech is not a rate vote\u2014it is the Fed\u2019s plain-language update on what would keep policy steady vs. what would force a change.\n\nThe S&P 500 finished at 7,674.10, up 0.4%, and the Dow at 53,277.01, up 1.0%, on 2026-08-21.\n\nWhat part of the Fed message do you watch first\u2014inflation, jobs, or financial conditions?",
+        "body": "Tuesday Aug. 26, 12:30 p.m.\nET: July inflation and spending data drop in one batch.\n\nCore PCE (prices excluding food and energy, the measure the Fed watches most closely for \u201cunderlying\u201d inflation):\n- YoY estimate: 3.3% (prior 3.3%)\n- MoM estimate: 0.2% (prior 0.1%)\n\nHeadline PCE YoY estimate: 3.7% (prior 3.7%).\n\nSame release: Personal Income MoM estimate 0.3% (prior 0.2%).\n\nSame time: Durable Goods Orders MoM estimate +0.7% (prior +0.3%)\u2014factory orders for long-lived items like machinery and aircraft.\n\nThe numbers describe what consumers paid and earned in July; they do not tell you what the Fed will do next.\n\nWhich line in that stack do you track first\u2014monthly Core PCE or durable goods?",
         "skip_reason": "",
         "supporting_data": [
-          "VIX close: 15.13 \u2014 [source: FMP indexes ^VIX]",
-          "VIX session change: -5.5% \u2014 [source: FMP indexes ^VIX changesPercentage]",
-          "S&P 500 close: 7,674.10 \u2014 [source: FMP indexes ^GSPC]",
-          "S&P 500 session change: +0.4% \u2014 [source: FMP indexes ^GSPC changesPercentage]",
-          "Dow Jones close: 53,277.01 \u2014 [source: FMP indexes ^DJI]",
-          "Dow Jones session change: +1.0% \u2014 [source: FMP indexes ^DJI changesPercentage]"
+          "Core PCE Price Index YoY (Jul) estimate: 3.3% \u2014 [source: FMP economic_calendar]",
+          "Core PCE Price Index MoM (Jul) estimate: 0.2% \u2014 [source: FMP economic_calendar]",
+          "PCE Price Index YoY (Jul) estimate: 3.7% \u2014 [source: FMP economic_calendar]",
+          "Personal Income MoM (Jul) estimate: 0.3% \u2014 [source: FMP economic_calendar]",
+          "Durable Goods Orders MoM (Jul) estimate: 0.7% \u2014 [source: FMP economic_calendar]",
+          "Release date/time: 2026-08-26 12:30:00 US \u2014 [source: FMP economic_calendar]"
         ],
-        "source_url": "https://www.youtube.com/watch?v=cpllxhK1XCI",
-        "source_notes": "https://www.youtube.com/watch?v=cpllxhK1XCI"
+        "source_url": "https://financialmodelingprep.com/developer/docs#economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/developer/docs#economic-calendar"
       },
       {
-        "title": "Nvidia earnings slot the final August week",
+        "title": "$CRM and $CRWD report Aug. 26",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The last week of August is when $NVDA is on the earnings calendar in multiple preview write-ups\u2014profit per share vs. the published estimate, plus revenue vs. the published estimate.\n\nThose prints measure AI and data-center chip demand; the numbers land when the company files, not before.\n\nNasdaq Composite: 26,180.45, up 0.4%, at the 2026-08-21 close.\n\nS&P 500: 7,674.10, up 0.4%, same session.\n\nWhich line item do you read first on a chip report\u2014revenue, gross margin, or guidance language?",
+        "body": "Aug. 26 earnings: two large cloud names with published Street estimates.\n\n$CRM (Salesforce)\n- EPS estimate: $3.27\n- Revenue estimate: $11.33B\n\n$CRWD (CrowdStrike)\n- EPS estimate: $0.29\n- Revenue estimate: $1.44B\n\nReports mark the quarter\u2019s subscription demand, deal flow, and guidance language\u2014resolved when numbers and call commentary are out, not before.\n\nSame calendar day also includes $HPQ, $SNPS, $OKTA, and others in the FMP earnings list for Aug. 26.\n\nDo you watch the print or the post-earnings call for these names?",
         "skip_reason": "",
         "supporting_data": [
-          "Nasdaq Composite close: 26,180.45 \u2014 [source: FMP indexes ^IXIC]",
-          "Nasdaq Composite session change: +0.4% \u2014 [source: FMP indexes ^IXIC changesPercentage]",
-          "S&P 500 close: 7,674.10 \u2014 [source: FMP indexes ^GSPC]",
-          "S&P 500 session change: +0.4% \u2014 [source: FMP indexes ^GSPC changesPercentage]"
+          "$CRM EPS estimate: 3.27 \u2014 [source: FMP earnings_calendar]",
+          "$CRM revenue estimate: 11,330,080,000 USD \u2014 [source: FMP earnings_calendar]",
+          "$CRWD EPS estimate: 0.29 \u2014 [source: FMP earnings_calendar]",
+          "$CRWD revenue estimate: 1,440,081,000 USD \u2014 [source: FMP earnings_calendar]",
+          "Report date: 2026-08-26 \u2014 [source: FMP earnings_calendar]"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-rise-markets-waiting-nvidia-fed-meeting-1195b879",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-rise-markets-waiting-nvidia-fed-meeting-1195b879"
+        "source_url": "https://financialmodelingprep.com/developer/docs#earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/developer/docs#earnings-calendar"
       },
       {
-        "title": "Dividend dates for the Aug. 23 week",
+        "title": "Claims at 209K estimate Thursday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Week of August 23: dividend trackers publish who goes ex-dividend and who changed the payout\u2014separate from earnings, but it sets which days share prices often adjust for the cash payment.\n\nRussell 2000 closed at 3,017.87, up 0.9%, on 2026-08-21.\n\nSmall-cap index session range: 3,000.05 low to 3,020.24 high.\n\nDo you mark ex-dividend weeks on a calendar, or only when a name you hold shows up?",
+        "body": "Thursday Aug. 27, 12:30 p.m.\nET: Initial Jobless Claims (week ended Aug. 22).\n\n- Estimate: 209K\n- Prior: 206K\n\nSame release bundle:\n- Jobless Claims 4-Week Average estimate: 203K (prior 204K)\n- Continuing Claims (Aug. 15) estimate: 1,811K (prior 1,799K)\n\nInitial claims count people filing for unemployment insurance for the first time\u2014a high-frequency snapshot of the labor market, not a full jobs report.\n\nFriday Aug. 28 adds Chicago PMI (Aug) at 1:45 p.m.\nET\u2014estimate 57.0 vs prior 57.6\u2014a survey of manufacturing activity in the Chicago area.\n\nWhich weekly print matters more for how you read the economy\u2014claims or Chicago PMI?",
         "skip_reason": "",
         "supporting_data": [
-          "Russell 2000 close: 3,017.87 \u2014 [source: FMP indexes ^RUT]",
-          "Russell 2000 session change: +0.9% \u2014 [source: FMP indexes ^RUT changesPercentage]",
-          "Russell 2000 day low: 3,000.05 \u2014 [source: FMP indexes ^RUT]",
-          "Russell 2000 day high: 3,020.24 \u2014 [source: FMP indexes ^RUT]"
+          "Initial Jobless Claims (Aug/22) estimate: 209K \u2014 [source: FMP economic_calendar]",
+          "Initial Jobless Claims prior: 206K \u2014 [source: FMP economic_calendar]",
+          "Jobless Claims 4-Week Average estimate: 203K \u2014 [source: FMP economic_calendar]",
+          "Continuing Jobless Claims estimate: 1,811K \u2014 [source: FMP economic_calendar]",
+          "Chicago PMI (Aug) estimate: 57 \u2014 [source: FMP economic_calendar]",
+          "Chicago PMI previous: 57.6 \u2014 [source: FMP economic_calendar]",
+          "Claims release: 2026-08-27 12:30:00 US \u2014 [source: FMP economic_calendar]",
+          "Chicago PMI release: 2026-08-28 13:45:00 US \u2014 [source: FMP economic_calendar]"
         ],
-        "source_url": "https://seekingalpha.com/article/4939248-dividend-champion-contender-and-challenger-highlights-week-august-23",
-        "source_notes": "https://seekingalpha.com/article/4939248-dividend-champion-contender-and-challenger-highlights-week-august-23"
+        "source_url": "https://financialmodelingprep.com/developer/docs#economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/developer/docs#economic-calendar"
       }
     ]
   }

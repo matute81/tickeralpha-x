@@ -1,206 +1,216 @@
 {
-  "updated_at": "2026-08-22T21:11:36-04:00",
+  "updated_at": "2026-08-23T21:10:09-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-08-22",
-    "generated_at": "2026-08-22T21:10:46-04:00",
-    "draft_path": "drafts/2026-08-22-am.md",
+    "session_date": "2026-08-23",
+    "generated_at": "2026-08-23T21:08:37-04:00",
+    "draft_path": "drafts/2026-08-23-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Treasury doubled buybacks; 30-year dip faded in a day",
+        "title": "50% U.S. tariff hits ~$20B Canada imports",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Treasury doubled its cap on long-end bond buybacks midweek.\n\nThe 30-year yield moved down 9 basis points on that news.\n\nBy the next day, that entire yield move had reversed.\n\nReporting on the episode notes Fed Chair Kevin Warsh is scheduled for his first Jackson Hole keynote on Friday, Aug. 28.\n\nLatest Treasury snapshot in the feed (Aug. 20): 10-year at 4.7%, 30-year at 5.2%, 2s10s spread at 0.50.\n\nPrior session equities closed higher anyway:\n\n- S&P 500 +0.4% to 7,674.37\n- Dow Jones +1.0% to 53,277.01\n\nWhat do you watch first when a buyback headline fades in yields but stocks still finish green?",
+        "body": "A 50% tariff is now in place on roughly $20 billion of Canadian imports.\n\nTalks between the U.S. and Canada broke down late Friday.\n\nThe levy took effect at 12:01 a.m., per weekend trade coverage.\n\nThat policy line landed as U.S. benchmarks had already finished higher on the prior cash session:\n\n- $SPY proxy ^GSPC +0.4% to 7,674.37\n- ^DJI +1.0% to 53,277.01\n\nThe fear gauge eased on that close:\n\n- ^VIX -5.5% to 15.13\n\nWhich part of the Canada trade story are you tracking first \u2014 goods categories, timing, or the next negotiation headline?",
         "skip_reason": "",
         "supporting_data": [
-          "30-year yield move cited in headline: 9 basis points \u2014 [source: Seeking Alpha news]",
-          "10-year Treasury yield: 4.7% \u2014 [source: FMP treasury]",
-          "30-year Treasury yield: 5.2% \u2014 [source: FMP treasury]",
-          "2s10s spread: 0.5 \u2014 [source: FMP treasury]",
-          "S&P 500 change: +0.4% \u2014 [source: FMP indexes ^GSPC]",
-          "S&P 500 close: 7,674.37 \u2014 [source: FMP indexes ^GSPC]",
-          "Dow change: +1.0% \u2014 [source: FMP indexes ^DJI]",
-          "Dow close: 53,277.01 \u2014 [source: FMP indexes ^DJI]"
+          "Tariff rate 50% \u2014 source: Barrons news, https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146",
+          "Canadian imports scope ~$20 billion \u2014 source: Barrons news, https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146",
+          "^GSPC price 7,674.37, changesPercentage 0.4% \u2014 source: FMP indexes ^GSPC",
+          "^DJI price 53,277.01, changesPercentage 1.0% \u2014 source: FMP indexes ^DJI",
+          "^VIX price 15.13, changesPercentage -5.5% \u2014 source: FMP indexes ^VIX"
         ],
-        "source_url": "https://seekingalpha.com/article/4939217-bessent-doubled-buybacks-yields-went-higher-a-headache-for-warsh-at-jackson-hole",
-        "source_notes": "https://seekingalpha.com/article/4939217-bessent-doubled-buybacks-yields-went-higher-a-headache-for-warsh-at-jackson-hole"
+        "source_url": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146",
+        "source_notes": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146"
       },
       {
-        "title": "Jackson Hole preview centers on the Fed chair\u2019s speech",
+        "title": "Chicago Fed index due: 0.1 vs -0.02",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Jackson Hole is the macro story heading into the week.\n\nBloomberg\u2019s preview puts the focus on Fed Chair Kevin Warsh and his first annual symposium address.\n\nThat sits alongside a prior-session risk read where the VIX closed at 15.13, down 5.5% from the previous close.\n\nMajor U.S. indexes finished Aug. 22 higher:\n\n- Nasdaq Composite +0.4% to 26,180.46\n- Russell 2000 +0.9% to 3,017.87\n\nGold futures in the feed: +2.4% to 4,680.60.\n\nWhich part of the symposium program do you treat as the main U.S. rates signal \u2014 the chair\u2019s remarks or the side conversations on debt and liquidity?",
+        "body": "Monday 12:30 p.m.\nET: Chicago Fed National Activity Index for July.\n\nConsensus: 0.1.\n\nPrior month: -0.02.\n\nThe index bundles production, income, employment, and sales into one growth-versus-trend score \u2014 positive means above trend, negative means below.\n\nImpact tag in the calendar: Medium.\n\nSame day, low-impact bill auctions also sit on the schedule at 3:30 p.m.\nET:\n\n- 3-Month Bill Auction (prior yield 3.7%)\n- 6-Month Bill Auction (prior yield 3.8%)\n\nWhat threshold on the Chicago Fed print would you treat as \u201cin line\u201d versus a clear shift?",
         "skip_reason": "",
         "supporting_data": [
-          "VIX close: 15.13 \u2014 [source: FMP indexes ^VIX]",
-          "VIX change: -5.5% \u2014 [source: FMP indexes ^VIX]",
-          "Nasdaq Composite change: +0.4% \u2014 [source: FMP indexes ^IXIC]",
-          "Nasdaq Composite close: 26,180.46 \u2014 [source: FMP indexes ^IXIC]",
-          "Russell 2000 change: +0.9% \u2014 [source: FMP indexes ^RUT]",
-          "Russell 2000 close: 3,017.87 \u2014 [source: FMP indexes ^RUT]",
-          "Gold futures change: +2.4% \u2014 [source: FMP cross_asset gold]",
-          "Gold futures price: 4,680.60 \u2014 [source: FMP cross_asset gold]"
+          "Event: Chicago Fed National Activity Index (Jul) \u2014 source: FMP economic_calendar",
+          "Release time 2026-08-24 12:30:00 US \u2014 source: FMP economic_calendar",
+          "Estimate 0.1 \u2014 source: FMP economic_calendar",
+          "Previous -0.02 \u2014 source: FMP economic_calendar",
+          "Impact Medium \u2014 source: FMP economic_calendar",
+          "3-Month Bill Auction previous 3.7% \u2014 source: FMP economic_calendar",
+          "6-Month Bill Auction previous 3.8% \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.youtube.com/watch?v=A3YfPtl04rE",
-        "source_notes": "https://www.youtube.com/watch?v=A3YfPtl04rE"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "TikTok agrees to $400M U.S. privacy settlement",
+        "title": "Up to 300,000 tons beef import tariff pause",
         "status": "ready",
         "kind": "x_idea",
-        "body": "TikTok agreed to pay $400 million to settle a U.S. DOJ lawsuit over children\u2019s privacy claims, the department announced Friday.\n\nThat headline landed the same session U.S. stocks closed up and volatility eased.\n\nSession markers from the feed:\n\n- S&P 500 +0.4% to 7,674.37\n- CBOE Volatility Index 15.13 (-5.5%)\n\nSeparately, CNBC carried Eurasia Group commentary that the U.S. Treasury\u2019s debt buyback plan is small relative to the overall bond market and that Treasury Secretary Scott Bessent has limited tools to pull yields lower.\n\nBitcoin in the cross-asset feed: -1.4% to 77,249.96.\n\nDo you bucket a nine-figure platform settlement with macro weeks like Jackson Hole, or keep regulatory fines in a separate column?",
+        "body": "Up to 300,000 metric tons of ground beef can enter the U.S. for 90 days with no out-of-quota tariff.\n\nCoverage frames it as targeted relief on ground beef to ease consumer grocery costs.\n\nThe same announcement included a commitment that qualifying beef would be sold at 25% below current market prices.\n\nThat food-policy headline sits beside a softer oil complex in the cross-asset tape:\n\n- Brent -3.6% to 90.96\n- WTI proxy $USO +0.1% to 134.64\n\nLong-dated Treasury yields from the Aug. 21 snapshot:\n\n- 10-year 4.7%\n- 2s10s spread 0.5 percentage point\n\nDo you read this beef import carve-out mainly as a grocery-price story or as part of the wider tariff toolkit?",
         "skip_reason": "",
         "supporting_data": [
-          "TikTok settlement amount: $400 million \u2014 [source: TechXplore news]",
-          "S&P 500 change: +0.4% \u2014 [source: FMP indexes ^GSPC]",
-          "S&P 500 close: 7,674.37 \u2014 [source: FMP indexes ^GSPC]",
-          "VIX close: 15.13 \u2014 [source: FMP indexes ^VIX]",
-          "VIX change: -5.5% \u2014 [source: FMP indexes ^VIX]",
-          "Bitcoin change: -1.4% \u2014 [source: FMP cross_asset btc]",
-          "Bitcoin price: 77,249.96 \u2014 [source: FMP cross_asset btc]"
+          "Ground beef import allowance up to 300,000 metric tons \u2014 source: Bloomberg Markets and Finance news, https://www.youtube.com/watch?v=QnDJyQThR8I",
+          "90-day window, no out-of-quota tariff \u2014 source: Bloomberg Markets and Finance news, https://www.youtube.com/watch?v=QnDJyQThR8I",
+          "Sold at 25% below current market prices (stated commitment) \u2014 source: Bloomberg Markets and Finance news, https://www.youtube.com/watch?v=QnDJyQThR8I",
+          "Brent price 90.96, changesPercentage -3.6% \u2014 source: FMP cross_asset brent",
+          "USO price 134.64, changesPercentage 0.1% \u2014 source: FMP cross_asset wti",
+          "10-year Treasury 4.7% \u2014 source: FMP treasury",
+          "spread_2s10s 0.5 \u2014 source: FMP treasury"
         ],
-        "source_url": "https://techxplore.com/news/2026-08-tiktok-pay-million-settlement-children.html",
-        "source_notes": "https://techxplore.com/news/2026-08-tiktok-pay-million-settlement-children.html"
+        "source_url": "https://www.youtube.com/watch?v=QnDJyQThR8I",
+        "source_notes": "https://www.youtube.com/watch?v=QnDJyQThR8I"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-08-22",
-    "generated_at": "2026-08-22T21:11:17-04:00",
-    "draft_path": "drafts/2026-08-22.md",
+    "session_date": "2026-08-23",
+    "generated_at": "2026-08-23T21:09:25-04:00",
+    "draft_path": "drafts/2026-08-23.md",
     "errors": [],
     "slots": [
       {
-        "title": "Tesla closes up 5.1% on the session",
+        "title": "VIX down 5.5% with indexes green",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$TSLA closed at 362.86, up 5.1% (+17.73) on the day.\n\nSession range ran 346.90 to 366.50 with about 57.8M shares traded.\n\nAmong the large-cap set in the same snapshot, that gain was the widest on a percentage basis.\n\nWhich megacap name had the second-largest move on your board Friday?",
+        "body": "The CBOE Volatility Index ($VIX) closed at 15.13, down 0.88 points (-5.5%) from 16.01.\n\nThat sat alongside gains on the main US equity benchmarks.\n\n- $SPY proxy ^GSPC +0.4% to 7,674.37 (+33.21 pts)\n- ^IXIC +0.4% to 26,180.46 (+113.29 pts)\n- ^DJI +1.0% to 53,277.01 (+517.80 pts)\n\nThe Russell 2000 (^RUT) rose 0.9% to 3,017.87.\n\nLower volatility readings often show up on sessions when large-cap indexes finish in the green.\n\nWhich index move stood out most to you on the close?",
         "skip_reason": "",
         "supporting_data": [
-          "$TSLA close: 362.86 \u2014 FMP quote / mega_caps",
-          "$TSLA change: +17.73 \u2014 FMP quote / mega_caps",
-          "$TSLA changesPercentage: +5.1% \u2014 FMP quote / mega_caps",
-          "$TSLA day high / low: 366.50 / 346.90 \u2014 FMP quote / mega_caps",
-          "$TSLA volume: 57,808,372 \u2014 FMP quote / mega_caps"
+          "VIX close: 15.13 \u2014 FMP quote ^VIX",
+          "VIX change: -0.88 (-5.5%) \u2014 FMP quote ^VIX",
+          "S&P 500: 7,674.37 (+0.4%) \u2014 FMP quote ^GSPC",
+          "Nasdaq Composite: 26,180.46 (+0.4%) \u2014 FMP quote ^IXIC",
+          "Dow Jones: 53,277.01 (+1.0%) \u2014 FMP quote ^DJI",
+          "Russell 2000: 3,017.87 (+0.9%) \u2014 FMP quote ^RUT"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/TSLA",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/TSLA"
+        "source_url": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146",
+        "source_notes": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146"
       },
       {
-        "title": "Oracle up 3.1% to 146.47",
+        "title": "Brent crude off 3.7% at 90.91",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$ORCL finished at 146.47, up 3.1% (+4.40).\n\nThe session high was 147.45; the low was 142.60.\n\nIn the same megacap batch, $CRM closed up 1.8% at 209.17 and $MSFT up 0.4% at 483.24.\n\n$NVDA was down 1.0% at 214.72 in that group.\n\nDid you track enterprise software separately from chip names on Friday\u2019s close?",
+        "body": "Brent crude (BZUSD) closed at 90.91, down 3.48 (-3.7%) from 94.39.\n\nSession range ran 90.78 to 93.68.\n\nLarge US energy names finished softer with the crude move:\n\n- $XOM -0.6% to 165.11\n- $CVX -0.3% to 205.24\n\nThe United States Oil Fund ($USO) ticked +0.1% to 134.64 on the day.\n\nOil prices were in focus alongside headlines on US\u2013Canada trade levies and energy markets over the weekend.\n\nDid you track oil separately from the equity close?",
         "skip_reason": "",
         "supporting_data": [
-          "$ORCL close: 146.47 \u2014 FMP quote / mega_caps",
-          "$ORCL changesPercentage: +3.1% \u2014 FMP quote / mega_caps",
-          "$ORCL change: +4.40 \u2014 FMP quote / mega_caps",
-          "$CRM close / change: 209.17 / +1.8% \u2014 FMP quote / mega_caps",
-          "$MSFT close / change: 483.24 / +0.4% \u2014 FMP quote / mega_caps",
-          "$NVDA close / change: 214.72 / -1.0% \u2014 FMP quote / mega_caps"
+          "Brent (BZUSD): 90.91 (-3.7%) \u2014 FMP quote BZUSD",
+          "Brent change: -3.48 \u2014 FMP quote BZUSD",
+          "XOM: 165.11 (-0.6%) \u2014 FMP quote XOM",
+          "CVX: 205.24 (-0.3%) \u2014 FMP quote CVX",
+          "USO: 134.64 (+0.1%) \u2014 FMP quote USO"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/ORCL",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/ORCL"
+        "source_url": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146",
+        "source_notes": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146"
       },
       {
-        "title": "Dow up 1.0%, beats S&P by 0.6 pt",
+        "title": "Megacap tech split on the close",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Dow closed at 53,277.01, up 1.0% (+517.80).\n\nThe S&P 500 finished at 7,674.37, up 0.4% (+33.21).\n\nThe Nasdaq Composite closed at 26,180.46, also up 0.4% (+113.29).\n\nThe Russell 2000 rose 0.9% to 3,017.87 (+25.44).\n\nThe VIX settled at 15.13, down 5.5% (-0.88) on the session.\n\nWhich index gap\u2014Dow vs. Nasdaq\u2014stood out most to you at the bell?",
+        "body": "Mega-cap tech did not move as one block at the cash close.\n\n$GOOGL +1.2% to 344.82 (+4.15).\n\nDecliners in the same group:\n\n- $AAPL -0.6% to 309.35\n- $AMZN -0.6% to 258.63\n- $NVDA -1.0% to 214.72\n\n$NVDA was among the most active names by volume in the injected screen.\n\nThat mix left the Nasdaq Composite up 0.4% to 26,180.46 while several heavy weights slipped.\n\nWhich name\u2019s close surprised you relative to the index?",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI close / changesPercentage / change: 53,277.01 / +1.0% / +517.80 \u2014 FMP indexes",
-          "^GSPC close / changesPercentage: 7,674.37 / +0.4% \u2014 FMP indexes",
-          "^IXIC close / changesPercentage: 26,180.46 / +0.4% \u2014 FMP indexes",
-          "^RUT close / changesPercentage: 3,017.87 / +0.9% \u2014 FMP indexes",
-          "^VIX close / changesPercentage: 15.13 / -5.5% \u2014 FMP indexes"
+          "GOOGL: 344.82 (+1.2%) \u2014 FMP quote GOOGL",
+          "AAPL: 309.35 (-0.6%) \u2014 FMP quote AAPL",
+          "AMZN: 258.63 (-0.6%) \u2014 FMP quote AMZN",
+          "NVDA: 214.72 (-1.0%) \u2014 FMP quote NVDA",
+          "Nasdaq Composite: 26,180.46 (+0.4%) \u2014 FMP quote ^IXIC"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/%5EDJI",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/%5EDJI"
+        "source_url": "https://seekingalpha.com/article/4939202-why-macro-trends-matter-to-prudent-investors",
+        "source_notes": "https://seekingalpha.com/article/4939202-why-macro-trends-matter-to-prudent-investors"
       },
       {
-        "title": "Aug. 22 US cash session recap",
+        "title": "Aug. 23 US session recap",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Aug. 22 US cash session closed with broad index gains.\nThe Dow Jones Industrial Average finished at 53,277.01, up 1.0% (+517.80 points), the strongest move among the major US benchmarks in the feed.\nThe S&P 500 ended at 7,674.37 (+0.4%, +33.21) and the Nasdaq Composite at 26,180.46 (+0.4%, +113.29).\nThe Russell 2000 rose 0.9% to 3,017.87.\n\nThe CBOE Volatility Index fell 5.5% to 15.13, down 0.88 point from the prior close of 16.01.\nThat reading sat between the session high of 15.88 and the low of 15.08.\n\nTesla led megacap percentage moves in the injected data: $TSLA closed at 362.86, up 5.1% (+17.73), with volume near 57.8 million shares and an intraday range of 346.90 to 366.50.\n\nOracle was the next standout among large caps: $ORCL finished at 146.47, up 3.1% (+4.40), with a high of 147.45.\nSalesforce gained 1.8% to 209.17; Microsoft rose 0.4% to 483.24.\n\nHealthcare and consumer names posted solid green closes in the megacap set.\nUnitedHealth rose 1.4% to 390.11, Johnson & Johnson 1.1% to 270.24, and Procter & Gamble 1.2% to 144.68.\n\nPayment networks also closed higher: Visa up 1.5% to 371.04 and Mastercard up 1.2% to 580.63.\nBroadcom gained 1.2% to 368.45; Taiwan Semiconductor rose 0.7% to 418.95; ASML up 0.8% to 1,763.76.\n\nSeveral heavily traded megacaps finished lower on the day.\nApple closed at 309.35 (-0.6%), Amazon at 258.63 (-0.6%), Netflix at 79.59 (-0.7%), and NVIDIA at 214.72 (-1.0%).\nExxon Mobil slipped 0.6% to 165.11; Bank of America was down 0.3% to 61.69.\nWalmart edged 0.1% lower to 103.70.\n\nGold futures in the cross-asset block rose 2.4% to 4,680.60 (+109.20), with a session high of 4,690.40.\nBrent crude settled at 94.39 (+0.7%); the USO ETF proxy for oil was up 0.1% at 134.64.\n\nBitcoin USD in the feed printed 77,251.93, up 0.2% (+175.87).\nAmong active symbols, the iShares Bitcoin Trust ETF (IBIT) closed up 6.0% at 43.68 and ProShares Bitcoin ETF (BITO) up 6.1% at 10.41, with heavy volume interest on several crypto-linked actives.\n\nTreasury yield levels in the injected snapshot (dated 2026-08-20) showed the 10-year at 4.7% and the 2s10s spread at 0.50 percentage point.\nThe dollar proxy UUP was essentially flat at 27.90 (0.0%).\n\nOverseas benchmarks in the same package mixed: Hang Seng rose 2.0% to 26,009.50, FTSE 100 gained 0.6% to 10,816.56, and the Nikkei 225 slipped 0.3% to 66,016.36.\n\nNo US economic releases or earnings entries appeared in the injected calendars for this close package; sector ETF performance was not populated in the feed.",
+        "body": "The Dow Jones Industrial Average led the US cash session, closing up 1.0% at 53,277.01, a gain of 517.80 points from 52,759.21.\nThe session high was 53,355.92 and the low 52,768.87.\n\nThe S&P 500 finished at 7,674.37, up 0.4% (+33.21 points), with an intraday range of 7,660.06 to 7,697.11.\nThe Nasdaq Composite matched that percentage gain, rising 0.4% to 26,180.46 (+113.29 points).\n\nSmaller US stocks participated: the Russell 2000 rose 0.9% to 3,017.87 (+25.44 points).\n\nVolatility eased alongside the equity gains.\nThe VIX closed at 15.13, down 5.5% (-0.88) from 16.01, with a session low of 15.08.\n\nNo US economic releases appeared in the injected calendar for this session; the recap is price- and cross-asset-driven from the close data.\n\nIn megacaps, Tesla stood out on the upside:\n- $TSLA +5.1% to 362.86\n- $BABA -8.6% to 119.32\n\n(-11.21).\n\nOther large names mixed higher:\n- $CRM +1.8% to 209.17\n- $V +1.5% to 371.04\n- $COST +1.5% to 947.74\n- $UNH +1.4% to 390.11\n- $MA +1.2% to 580.63\n- $GOOGL +1.2% to 344.82\n- $ABBV +1.2% to 265.01\n- $PG +1.2% to 144.68\n- $PEP +1.0% to 143.48\n- $JNJ +1.1% to 270.24\n- $KO +0.7% to 91.10\n- $AAPL -0.6% to 309.35\n- $AMZN -0.6% to 258.63\n- $NVDA -1.0% to 214.72\n\nlagged among widely held tech names.\n\nThe injected earnings calendar carried no reported actuals for this close; price action stands without EPS figures in the feed.\n\nOn rates, Treasury snapshot data dated 2026-08-21 showed the 10-year at 4.7%, the 2-year at 4.2%, and the 2s10s spread at 0.50 percentage points.\n\nBrent crude fell 3.7% to 90.91 (-3.48).\nGold futures (GCUSD) slipped 0.2% to 4,673.20 (-7.40).\nBitcoin (BTCUSD) rose 0.6% to 77,515.45 (+439.39); bitcoin ETFs:\n- $IBIT +6.0% to 43.68\n- $BITO +6.1% to 10.41\n\nwere among active names.\nThe dollar proxy $UUP was flat at 27.90 (0.0%).\n\nOverseas indexes in the feed: Hang Seng +2.0% to 26,009.50, FTSE 100 +0.6% to 10,816.56, iShares Germany proxy $EWG +0.6% to 44.20, Nikkei 225 -0.1% to 65,972.54.\n\nHeadlines in the injected news flow included a 50% US tariff on about $20 billion of Canadian imports after talks broke down, Shein\u2019s Hong Kong IPO bookbuilding targeting up to about $1.77 billion, and weekend discussion of Treasury buybacks and the Jackson Hole meeting on the calendar.",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI / ^GSPC / ^IXIC / ^RUT closes and changesPercentage \u2014 FMP indexes",
-          "^VIX: 15.13, -5.5% \u2014 FMP indexes",
-          "Mega_cap moves (TSLA, ORCL, CRM, MSFT, UNH, JNJ, PG, V, MA, AVGO, TSM, ASML, AAPL, AMZN, NFLX, NVDA, XOM, BAC, WMT) \u2014 FMP mega_caps",
-          "GCUSD: 4,680.60, +2.4% \u2014 FMP cross_asset",
-          "BZUSD: 94.39, +0.7%; USO: 134.64, +0.1% \u2014 FMP cross_asset",
-          "BTCUSD: 77,251.93, +0.2%; IBIT / BITO actives \u2014 FMP cross_asset / actives",
-          "Treasury: year10 4.69, spread_2s10s 0.5 \u2014 FMP treasury",
-          "UUP: 27.90 \u2014 FMP cross_asset",
-          "^HSI, ^FTSE, ^N225 \u2014 FMP overseas"
+          "^DJI: 53,277.01 (+1.0%) \u2014 FMP quote ^DJI",
+          "^GSPC: 7,674.37 (+0.4%) \u2014 FMP quote ^GSPC",
+          "^IXIC: 26,180.46 (+0.4%) \u2014 FMP quote ^IXIC",
+          "^RUT: 3,017.87 (+0.9%) \u2014 FMP quote ^RUT",
+          "^VIX: 15.13 (-5.5%) \u2014 FMP quote ^VIX",
+          "TSLA: 362.86 (+5.1%) \u2014 FMP quote TSLA",
+          "BABA: 119.32 (-8.6%) \u2014 FMP quote BABA",
+          "NVDA: 214.72 (-1.0%) \u2014 FMP quote NVDA",
+          "Brent BZUSD: 90.91 (-3.7%) \u2014 FMP quote BZUSD",
+          "GCUSD: 4,673.20 (-0.2%) \u2014 FMP quote GCUSD",
+          "BTCUSD: 77,515.45 (+0.6%) \u2014 FMP quote BTCUSD",
+          "year10 / spread_2s10s: 4.74 / 0.5 \u2014 FMP treasury 2026-08-21",
+          "^HSI: 26,009.50 (+2.0%) \u2014 FMP quote ^HSI"
         ],
-        "source_url": "https://seekingalpha.com/article/4939346-what-moved-markets-this-week",
-        "source_notes": "https://seekingalpha.com/article/4939346-what-moved-markets-this-week"
+        "source_url": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146",
+        "source_notes": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-08-22",
-    "generated_at": "2026-08-22T21:11:36-04:00",
-    "draft_path": "drafts/2026-08-22-week-ahead.md",
+    "session_date": "2026-08-23",
+    "generated_at": "2026-08-23T21:10:09-04:00",
+    "draft_path": "drafts/2026-08-23-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Core PCE lands Tuesday 12:30 ET",
+        "title": "Aug 26 noon ET: PCE and spending",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Tuesday Aug. 26, 12:30 p.m.\nET: July inflation and spending data drop in one batch.\n\nCore PCE (prices excluding food and energy, the measure the Fed watches most closely for \u201cunderlying\u201d inflation):\n- YoY estimate: 3.3% (prior 3.3%)\n- MoM estimate: 0.2% (prior 0.1%)\n\nHeadline PCE YoY estimate: 3.7% (prior 3.7%).\n\nSame release: Personal Income MoM estimate 0.3% (prior 0.2%).\n\nSame time: Durable Goods Orders MoM estimate +0.7% (prior +0.3%)\u2014factory orders for long-lived items like machinery and aircraft.\n\nThe numbers describe what consumers paid and earned in July; they do not tell you what the Fed will do next.\n\nWhich line in that stack do you track first\u2014monthly Core PCE or durable goods?",
+        "body": "Tuesday Aug 26, 12:30 p.m.\nET: a stack of July demand and inflation prints lands together.\n\nCore PCE (month over month) \u2014 the Fed\u2019s preferred inflation read \u2014 carries a 0.2% estimate vs 0.1% prior.\n\nHeadline PCE month over month: 0.1% estimate vs -0.1% prior.\n\nPCE year over year: 3.7% estimate, unchanged from prior.\n\nPersonal spending month over month: 0.2% estimate vs 0.3% prior.\n\nPersonal income month over month: 0.3% estimate vs 0.2% prior.\n\nDurable goods orders month over month: 0.7% estimate vs 0.3% prior.\n\nThat bundle ties consumer demand to price pressure in one release window.\n\nWhich line do you track first when they hit?",
         "skip_reason": "",
         "supporting_data": [
-          "Core PCE Price Index YoY (Jul) estimate: 3.3% \u2014 [source: FMP economic_calendar]",
-          "Core PCE Price Index MoM (Jul) estimate: 0.2% \u2014 [source: FMP economic_calendar]",
-          "PCE Price Index YoY (Jul) estimate: 3.7% \u2014 [source: FMP economic_calendar]",
-          "Personal Income MoM (Jul) estimate: 0.3% \u2014 [source: FMP economic_calendar]",
-          "Durable Goods Orders MoM (Jul) estimate: 0.7% \u2014 [source: FMP economic_calendar]",
-          "Release date/time: 2026-08-26 12:30:00 US \u2014 [source: FMP economic_calendar]"
+          "Core PCE Price Index MoM (Jul) estimate: 0.2% \u2014 source: FMP economic_calendar",
+          "Core PCE Price Index MoM (Jul) previous: 0.1% \u2014 source: FMP economic_calendar",
+          "PCE Price Index MoM (Jul) estimate: 0.1% \u2014 source: FMP economic_calendar",
+          "PCE Price Index MoM (Jul) previous: -0.1% \u2014 source: FMP economic_calendar",
+          "PCE Price Index YoY (Jul) estimate: 3.7% \u2014 source: FMP economic_calendar",
+          "PCE Price Index YoY (Jul) previous: 3.7% \u2014 source: FMP economic_calendar",
+          "Personal Spending MoM (Jul) estimate: 0.2% \u2014 source: FMP economic_calendar",
+          "Personal Spending MoM (Jul) previous: 0.3% \u2014 source: FMP economic_calendar",
+          "Personal Income MoM (Jul) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Personal Income MoM (Jul) previous: 0.2% \u2014 source: FMP economic_calendar",
+          "Durable Goods Orders MoM (Jul) estimate: 0.7% \u2014 source: FMP economic_calendar",
+          "Durable Goods Orders MoM (Jul) previous: 0.3% \u2014 source: FMP economic_calendar",
+          "Release date/time: 2026-08-26 12:30:00 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs#economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs#economic-calendar"
+        "source_url": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146",
+        "source_notes": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146"
       },
       {
-        "title": "$CRM and $CRWD report Aug. 26",
+        "title": "Aug 25 earnings: $INTU, $DKS, $ZM",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Aug. 26 earnings: two large cloud names with published Street estimates.\n\n$CRM (Salesforce)\n- EPS estimate: $3.27\n- Revenue estimate: $11.33B\n\n$CRWD (CrowdStrike)\n- EPS estimate: $0.29\n- Revenue estimate: $1.44B\n\nReports mark the quarter\u2019s subscription demand, deal flow, and guidance language\u2014resolved when numbers and call commentary are out, not before.\n\nSame calendar day also includes $HPQ, $SNPS, $OKTA, and others in the FMP earnings list for Aug. 26.\n\nDo you watch the print or the post-earnings call for these names?",
+        "body": "Monday Aug 25: three mid- and large-cap names report after the recent US close.\n\n- $INTU \u2014 EPS estimate $3.58; revenue estimate about $4.27B\n\n- $DKS \u2014 EPS estimate $3.77; revenue estimate about $5.65B\n\n- $ZM \u2014 EPS estimate $1.48; revenue estimate about $1.27B\n\nEach release resolves how those businesses performed last quarter vs the printed estimates.\n\nNo direction call \u2014 just the calendar and the numbers on the board.\n\nWhich name\u2019s report are you opening first?",
         "skip_reason": "",
         "supporting_data": [
-          "$CRM EPS estimate: 3.27 \u2014 [source: FMP earnings_calendar]",
-          "$CRM revenue estimate: 11,330,080,000 USD \u2014 [source: FMP earnings_calendar]",
-          "$CRWD EPS estimate: 0.29 \u2014 [source: FMP earnings_calendar]",
-          "$CRWD revenue estimate: 1,440,081,000 USD \u2014 [source: FMP earnings_calendar]",
-          "Report date: 2026-08-26 \u2014 [source: FMP earnings_calendar]"
+          "INTU date: 2026-08-25 \u2014 source: FMP earnings_calendar",
+          "INTU epsEstimated: 3.58 \u2014 source: FMP earnings_calendar",
+          "INTU revenueEstimated: 4266803000 (~$4.27B) \u2014 source: FMP earnings_calendar",
+          "DKS date: 2026-08-25 \u2014 source: FMP earnings_calendar",
+          "DKS epsEstimated: 3.77 \u2014 source: FMP earnings_calendar",
+          "DKS revenueEstimated: 5645904000 (~$5.65B) \u2014 source: FMP earnings_calendar",
+          "ZM date: 2026-08-25 \u2014 source: FMP earnings_calendar",
+          "ZM epsEstimated: 1.48 \u2014 source: FMP earnings_calendar",
+          "ZM revenueEstimated: 1266742000 (~$1.27B) \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs#earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs#earnings-calendar"
+        "source_url": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146",
+        "source_notes": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146"
       },
       {
-        "title": "Claims at 209K estimate Thursday",
+        "title": "Aug 27: claims at 209K estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Thursday Aug. 27, 12:30 p.m.\nET: Initial Jobless Claims (week ended Aug. 22).\n\n- Estimate: 209K\n- Prior: 206K\n\nSame release bundle:\n- Jobless Claims 4-Week Average estimate: 203K (prior 204K)\n- Continuing Claims (Aug. 15) estimate: 1,811K (prior 1,799K)\n\nInitial claims count people filing for unemployment insurance for the first time\u2014a high-frequency snapshot of the labor market, not a full jobs report.\n\nFriday Aug. 28 adds Chicago PMI (Aug) at 1:45 p.m.\nET\u2014estimate 57.0 vs prior 57.6\u2014a survey of manufacturing activity in the Chicago area.\n\nWhich weekly print matters more for how you read the economy\u2014claims or Chicago PMI?",
+        "body": "Thursday Aug 27, 12:30 p.m.\nET: the weekly labor filing data prints.\n\nInitial jobless claims (Aug 22 week): estimate 209K vs prior 206K.\n\nJobless claims 4-week average: estimate 203K vs prior 204K.\n\nContinuing jobless claims (Aug 15 week): estimate 1,811K vs prior 1,799K.\n\nSame window that day: several company earnings (software and retail names on the calendar).\n\nThe claims figures measure how many people are newly filing for unemployment benefits \u2014 a read on layoffs, not the full jobs picture.\n\nDo you watch the headline print or the four-week average?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial Jobless Claims (Aug/22) estimate: 209K \u2014 [source: FMP economic_calendar]",
-          "Initial Jobless Claims prior: 206K \u2014 [source: FMP economic_calendar]",
-          "Jobless Claims 4-Week Average estimate: 203K \u2014 [source: FMP economic_calendar]",
-          "Continuing Jobless Claims estimate: 1,811K \u2014 [source: FMP economic_calendar]",
-          "Chicago PMI (Aug) estimate: 57 \u2014 [source: FMP economic_calendar]",
-          "Chicago PMI previous: 57.6 \u2014 [source: FMP economic_calendar]",
-          "Claims release: 2026-08-27 12:30:00 US \u2014 [source: FMP economic_calendar]",
-          "Chicago PMI release: 2026-08-28 13:45:00 US \u2014 [source: FMP economic_calendar]"
+          "Initial Jobless Claims date/time: 2026-08-27 12:30:00 \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims estimate: 209K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims previous: 206K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 203K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average previous: 204K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims estimate: 1811K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims previous: 1799K \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs#economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs#economic-calendar"
+        "source_url": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146",
+        "source_notes": "https://www.barrons.com/articles/stock-futures-tariffs-canada-iran-oil-gas-prices-084f0146"
       }
     ]
   }

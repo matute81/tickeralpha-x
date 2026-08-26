@@ -1,209 +1,239 @@
 {
-  "updated_at": "2026-08-24T21:08:44-04:00",
+  "updated_at": "2026-08-25T21:10:35-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-08-24",
-    "generated_at": "2026-08-24T21:07:46-04:00",
-    "draft_path": "drafts/2026-08-24-am.md",
+    "session_date": "2026-08-25",
+    "generated_at": "2026-08-25T21:09:49-04:00",
+    "draft_path": "drafts/2026-08-25-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Consumer confidence print due at 2 p.m. ET",
+        "title": "Consumer confidence 89.4, below 90.3 estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "At 2 p.m.\nET today, the U.S. gets August consumer confidence \u2014 the survey of how households feel about jobs and spending.\n\nThe estimate in the calendar is 90.3, down from 90.8 in July.\n\nThe same time slot has July new home sales (annualized pace, millions of units).\n\nThat release carries a 0.62 estimate versus 0.628 previously.\n\nBoth are flagged high and medium impact for the dollar data week.\n\nWhich number are you tracking first \u2014 confidence or housing?",
+        "body": "August US consumer confidence: **89.4**.\n\nConsensus was **90.3**; July was **90.2**.\n\nThat print landed the same session major US indexes finished higher and the fear gauge eased.\n\n- $SPY proxy: S&P 500 **+0.3%** to **7,675.83**\n- Nasdaq Composite **+0.7%** to **26,151.30**\n- $VIX **\u22122.5%** to **15.46**\n\nThe survey measures how households feel about jobs and spending \u2014 a soft read next to the estimate, with stocks still closing up on the day.\n\nWhat do you watch first when confidence slips but indexes don\u2019t?",
         "skip_reason": "",
         "supporting_data": [
-          "CB Consumer Confidence (Aug) estimate: 90.3 \u2014 source: FMP economic_calendar",
-          "CB Consumer Confidence (Aug) previous: 90.8 \u2014 source: FMP economic_calendar",
-          "New Home Sales (Jul) estimate: 0.62 M \u2014 source: FMP economic_calendar",
-          "New Home Sales (Jul) previous: 0.628 M \u2014 source: FMP economic_calendar",
-          "Release time: 2026-08-25 14:00:00 US \u2014 source: FMP economic_calendar"
+          "CB Consumer Confidence (Aug) actual: 89.4 \u2014 FMP economic_calendar",
+          "CB Consumer Confidence estimate: 90.3 \u2014 FMP economic_calendar",
+          "CB Consumer Confidence previous: 90.2 \u2014 FMP economic_calendar",
+          "S&P 500 change: +0.3% \u2014 FMP indexes ^GSPC",
+          "S&P 500 price: 7,675.83 \u2014 FMP indexes ^GSPC",
+          "Nasdaq Composite change: +0.7% \u2014 FMP indexes ^IXIC",
+          "Nasdaq Composite price: 26,151.30 \u2014 FMP indexes ^IXIC",
+          "VIX change: \u22122.5% \u2014 FMP indexes ^VIX",
+          "VIX price: 15.46 \u2014 FMP indexes ^VIX"
         ],
-        "source_url": "https://www.wsj.com/finance/investing/ai-jitters-and-geopolitical-threats-mark-start-of-busy-week-in-markets-a192c22a",
-        "source_notes": "https://www.wsj.com/finance/investing/ai-jitters-and-geopolitical-threats-mark-start-of-busy-week-in-markets-a192c22a"
+        "source_url": "https://www.youtube.com/watch?v=kNprl-JIU5g",
+        "source_notes": "https://www.youtube.com/watch?v=kNprl-JIU5g"
       },
       {
-        "title": "Iran policy headline meets softer crude",
+        "title": "July new home sales 0.61M, under 0.62M est",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Traders parsed new U.S. measures on Iran as Asian FX held in a narrow range against the dollar, per WSJ.\n\nBrent crude settled at 90.45, off 1.9% on the day.\n\nGold futures (GC) closed at 4,745.60, up 1.0%.\n\nThe dollar proxy in the feed ($UUP) ticked up 0.2% to 27.96.\n\nHang Seng was down 1.9% to 25,517.33 in the overseas index set.\n\nDoes oil or gold match how you read the headline risk?",
+        "body": "July **new home sales**: **0.61M** (0.607M in the release).\n\nEconomists looked for **0.62M**; June was **0.68M**.\n\nSame day, **building permits** for July: **1.43M** vs **1.44M** expected.\n\nPermits rose **+4.3%** month over month vs a **+5.0%** forecast \u2014 permits are an early read on future construction.\n\nTogether, sales down from June and permits a touch light vs estimates.\n\nHow much housing data do you stack against confidence prints like August\u2019s **89.4**?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude price: 90.45 \u2014 source: FMP cross_asset (BZUSD)",
-          "Brent changesPercentage: -1.9% \u2014 source: FMP cross_asset (BZUSD)",
-          "Gold futures price: 4,745.60 \u2014 source: FMP cross_asset (GCUSD)",
-          "Gold changesPercentage: 1.0% \u2014 source: FMP cross_asset (GCUSD)",
-          "UUP price: 27.96 \u2014 source: FMP cross_asset (UUP)",
-          "UUP changesPercentage: 0.2% \u2014 source: FMP cross_asset (UUP)",
-          "Hang Seng price: 25,517.33 \u2014 source: FMP overseas (^HSI)",
-          "Hang Seng changesPercentage: -1.9% \u2014 source: FMP overseas (^HSI)"
+          "New Home Sales (Jul) actual: 0.607M \u2014 FMP economic_calendar",
+          "New Home Sales (Jul) estimate: 0.62M \u2014 FMP economic_calendar",
+          "New Home Sales (Jul) previous: 0.678M \u2014 FMP economic_calendar",
+          "Building Permits (Jul) actual: 1.433M \u2014 FMP economic_calendar",
+          "Building Permits (Jul) estimate: 1.443M \u2014 FMP economic_calendar",
+          "Building Permits MoM (Jul) actual: +4.3% \u2014 FMP economic_calendar",
+          "Building Permits MoM (Jul) estimate: +5.0% \u2014 FMP economic_calendar"
         ],
-        "source_url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-as-traders-parse-u-s-new-measures-on-iran-40b529c7",
-        "source_notes": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-as-traders-parse-u-s-new-measures-on-iran-40b529c7"
+        "source_url": "https://www.youtube.com/watch?v=kNprl-JIU5g",
+        "source_notes": "https://www.youtube.com/watch?v=kNprl-JIU5g"
       },
       {
-        "title": "Bessent: auctions stay on schedule",
+        "title": "Aug 26: core PCE est 0.2%, durables 0.7%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Scott Bessent said Treasury auctions will continue as usual even as an expanded buyback structure for longer-dated securities takes effect Sept. 9, Fox Business reported.\n\nThat lines up with a busy week for rates talk ahead of the Fed chair\u2019s Jackson Hole appearance.\n\nIn the Treasury snapshot dated 2026-08-21 in the feed:\n\n- 10-year yield: 4.7%\n- 2s10s spread: 0.50 percentage point\n\nThe S&P 500 closed Aug. 24 at 7,652.82, down 0.3%, with the VIX up 4.8% to 15.85.\n\nWhat do you watch first \u2014 auction cadence or the buyback start date?",
+        "body": "2026-08-26, 12:30 p.m.\nET** \u2014 batch of US July data:\n\n**Durable goods orders** (month over month): est **+0.7%**, prior **+0.3%**.\n\n**Core PCE** (month over month): est **+0.2%**, prior **+0.1%** \u2014 \u201ccore\u201d strips out volatile food and energy.\n\n**Headline PCE** (year over year): est **+3.6%**, prior **+3.7%**.\n\n**Personal income** (month over month): est **+0.2%**, prior **+0.2%**.\n\nSame calendar day, **$NVDA** is on the earnings schedule (EPS estimate **2.09** per the calendar).\n\nWhich line in that 12:30 stack matters most for how you read inflation vs spending?",
         "skip_reason": "",
         "supporting_data": [
-          "10-year Treasury yield: 4.74 \u2014 source: FMP treasury",
-          "2s10s spread: 0.5 \u2014 source: FMP treasury (spread_2s10s)",
-          "Treasury snapshot date: 2026-08-21 \u2014 source: FMP treasury",
-          "S&P 500 (^GSPC) price: 7,652.82 \u2014 source: FMP indexes",
-          "S&P 500 changesPercentage: -0.3% \u2014 source: FMP indexes",
-          "VIX price: 15.85 \u2014 source: FMP indexes (^VIX)",
-          "VIX changesPercentage: 4.8% \u2014 source: FMP indexes (^VIX)",
-          "Buyback structure effective: Sept. 9 \u2014 source: Fox Business (injected news text)"
+          "Durable Goods Orders MoM (Jul) estimate: +0.7% \u2014 FMP economic_calendar",
+          "Durable Goods Orders MoM (Jul) previous: +0.3% \u2014 FMP economic_calendar",
+          "Core PCE Price Index MoM (Jul) estimate: +0.2% \u2014 FMP economic_calendar",
+          "Core PCE Price Index MoM (Jul) previous: +0.1% \u2014 FMP economic_calendar",
+          "PCE Price Index YoY (Jul) estimate: +3.6% \u2014 FMP economic_calendar",
+          "PCE Price Index YoY (Jul) previous: +3.7% \u2014 FMP economic_calendar",
+          "Personal Income MoM (Jul) estimate: +0.2% \u2014 FMP economic_calendar",
+          "Personal Income MoM (Jul) previous: +0.2% \u2014 FMP economic_calendar",
+          "NVDA epsEstimated: 2.09 \u2014 FMP earnings_calendar"
         ],
-        "source_url": "https://www.foxbusiness.com/economy/scott-bessent-says-treasury-auctions-continue-usual-despite-expanded-buyback-program",
-        "source_notes": "https://www.foxbusiness.com/economy/scott-bessent-says-treasury-auctions-continue-usual-despite-expanded-buyback-program"
+        "source_url": "https://www.barrons.com/articles/stocks-today-review-preview-2ba0b98b",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-review-preview-2ba0b98b"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-08-24",
-    "generated_at": "2026-08-24T21:08:20-04:00",
-    "draft_path": "drafts/2026-08-24.md",
+    "session_date": "2026-08-25",
+    "generated_at": "2026-08-25T21:10:11-04:00",
+    "draft_path": "drafts/2026-08-25.md",
     "errors": [],
     "slots": [
       {
-        "title": "Nasdaq \u22120.8% as chip names slip",
+        "title": "Dick\u2019s drops 30.7% on earnings miss",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Nasdaq Composite closed at 25,980.19, down 200.26 points (\u22120.8%) on Aug. 24.\n\nThe S&P 500 finished at 7,652.82 (\u22120.3%).\n\nCoverage linked the tone to chip makers and broader tech weighing on the major indexes at the start of a busy week.\n\nNamed megacap moves on the close:\n\n- $NVDA \u22122.9% to 208.48\n- $AMD \u22123.5% to 456.75\n- $TSM \u22122.1% to 410.12\n- $TSLA \u22123.8% to 348.95\n\nThe Dow Jones Industrial Average bucked the trend at 53,417.16 (+0.3%).\n\nWhich large-cap name\u2019s move stood out most on your board today?",
+        "body": "$DKS closed down 30.7% at $124.31.\n\nThe session low matched the 52-week low at $124.00 on heavy volume.\n\nEPS came in at $3.53 vs $3.75 estimated.\n\nRevenue was $5.59B vs $5.64B estimated.\n\nWhich line in the report \u2014 margin, inventory, or outlook \u2014 mattered most to you?",
         "skip_reason": "",
         "supporting_data": [
-          "Nasdaq Composite close: 25,980.19 \u2014 FMP indexes ^IXIC",
-          "Nasdaq change: \u22120.8% \u2014 FMP indexes ^IXIC changesPercentage",
-          "S&P 500 close: 7,652.82 \u2014 FMP indexes ^GSPC",
-          "S&P 500 change: \u22120.3% \u2014 FMP indexes ^GSPC changesPercentage",
-          "NVDA: \u22122.9% to 208.48 \u2014 FMP mega_caps NVDA",
-          "AMD: \u22123.5% to 456.75 \u2014 FMP mega_caps AMD",
-          "TSM: \u22122.1% to 410.12 \u2014 FMP mega_caps TSM",
-          "TSLA: \u22123.8% to 348.95 \u2014 FMP mega_caps TSLA",
-          "Dow close: 53,417.16 (+0.3%) \u2014 FMP indexes ^DJI"
+          "DKS change: -30.7% \u2014 mega_caps / liquid_losers",
+          "DKS price: 124.31 \u2014 mega_caps",
+          "DKS day low: 124.00 \u2014 mega_caps",
+          "DKS volume: 38,563,567 \u2014 mega_caps",
+          "EPS actual: 3.53 \u2014 earnings_calendar",
+          "EPS estimate: 3.75 \u2014 earnings_calendar",
+          "Revenue actual: $5,587,000,000 \u2014 earnings_calendar",
+          "Revenue estimate: $5,636,310,000 \u2014 earnings_calendar"
         ],
-        "source_url": "https://www.wsj.com/finance/investing/ai-jitters-and-geopolitical-threats-mark-start-of-busy-week-in-markets-a192c22a",
-        "source_notes": "https://www.wsj.com/finance/investing/ai-jitters-and-geopolitical-threats-mark-start-of-busy-week-in-markets-a192c22a"
+        "source_url": "https://www.youtube.com/watch?v=kNprl-JIU5g",
+        "source_notes": "https://www.youtube.com/watch?v=kNprl-JIU5g"
       },
       {
-        "title": "Visa +3.1%, touches 383.43 high",
+        "title": "Nasdaq up 0.7% as megacap tech gains",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$V closed at 382.41, up 11.37 (+3.1%) on Aug. 24.\n\nThe session high was 383.43 \u2014 the same level as the 52-week high in the data.\n\nVisa outpaced the S&P 500 (\u22120.3%) and the Nasdaq (\u22120.8%) on the close.\n\nFinancials were mixed on the day:\n- $JPM +1.4% to 356.39\n- $BAC +1.0% to 62.33\n\nwhile the broader Nasdaq financial services group averaged \u22120.1%.\n\nDo you track payment names separately from big-bank earnings cycles?",
+        "body": "The Nasdaq Composite closed up 0.7% at 26,151.30.\n\nThe S&P 500 finished up 0.3% at 7,675.83.\n\nThe Dow Jones Industrial Average rose 0.3% to 53,577.40.\n\nNamed megacap moves on the close:\n\n- $META +2.0% to 570.05\n- $NVDA +2.2% to 213.05\n- $MSFT +0.9% to 491.71\n- $ORCL +1.6% to 144.71\n\nThe VIX settled at 15.46, down 2.5% on the session.\n\nWhich of these names did the most work in your watchlist today?",
         "skip_reason": "",
         "supporting_data": [
-          "V close: 382.41 \u2014 FMP mega_caps V",
-          "V change: +3.1% \u2014 FMP mega_caps V changesPercentage",
-          "V day high / year high: 383.43 \u2014 FMP mega_caps V dayHigh, yearHigh",
-          "S&P 500 change: \u22120.3% \u2014 FMP indexes ^GSPC changesPercentage",
-          "Nasdaq change: \u22120.8% \u2014 FMP indexes ^IXIC changesPercentage",
-          "JPM: +1.4% to 356.39 \u2014 FMP mega_caps JPM",
-          "BAC: +1.0% to 62.33 \u2014 FMP mega_caps BAC"
+          "^IXIC changesPercentage: 0.7% \u2014 indexes",
+          "^IXIC price: 26,151.30 \u2014 indexes",
+          "^IXIC change: 171.11 \u2014 indexes",
+          "^GSPC changesPercentage: 0.3% \u2014 indexes",
+          "^GSPC price: 7,675.83 \u2014 indexes",
+          "^DJI price: 53,577.40 \u2014 indexes",
+          "^DJI changesPercentage: 0.3% \u2014 indexes",
+          "META: +2.0%, 570.05 \u2014 mega_caps",
+          "NVDA: +2.2%, 213.05 \u2014 actives",
+          "MSFT: +0.9%, 491.71 \u2014 mega_caps",
+          "ORCL: +1.6%, 144.71 \u2014 mega_caps",
+          "^VIX: 15.46, -2.5% \u2014 indexes"
         ],
-        "source_url": "https://www.wsj.com/finance/investing/ai-jitters-and-geopolitical-threats-mark-start-of-busy-week-in-markets-a192c22a",
-        "source_notes": "https://www.wsj.com/finance/investing/ai-jitters-and-geopolitical-threats-mark-start-of-busy-week-in-markets-a192c22a"
+        "source_url": "https://www.wsj.com/finance/stocks/tech-stocks-lead-major-indexes-higher-6291aac9",
+        "source_notes": "https://www.wsj.com/finance/stocks/tech-stocks-lead-major-indexes-higher-6291aac9"
       },
       {
-        "title": "Energy \u22121.2% as crude futures fall",
+        "title": "Intuit down 3.4% after EPS beat",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Energy was the weakest sector in the injected Nasdaq sector snapshot, averaging about \u22121.2% on Aug. 24.\n\nOil-linked quotes on the close:\n\n- Brent crude (BZUSD): 90.42 (\u22121.9%)\n- United States Oil Fund ($USO): 132.21 (\u22121.8%)\n\nMegacap producers on the same session:\n\n- $XOM \u22120.6% to 164.05\n- $CVX \u22121.1% to 203.05\n\nConsumer Defensive led sectors at about +1.8% \u2014 a different corner of the tape than energy.\n\nWhere did you see the oil move show up first \u2014 ETFs, majors, or the sector line?",
+        "body": "$INTU closed down 3.4% at $357.46.\n\nReported EPS was $4.03 vs $3.58 estimated.\n\nRevenue was $4.35B vs $4.27B estimated.\n\nSame session, other reporters:\n\n- $ZM -3.7% to 100.92 \u2014 EPS $1.55 vs $1.48 est\n- $SMTC +5.5% to 127.52 \u2014 EPS $0.71 vs $0.61 est\n- $HEI -0.5% to 351.05 \u2014 EPS $1.67 vs $1.51 est\n\nWhen the print beats estimates and the stock still falls, what do you look at first?",
         "skip_reason": "",
         "supporting_data": [
-          "Energy sector average change: \u22121.2% \u2014 FMP sectors (Energy, rounded from \u22121.22)",
-          "Brent: 90.42, \u22121.9% \u2014 FMP cross_asset brent",
-          "USO: 132.21, \u22121.8% \u2014 FMP cross_asset wti (USO)",
-          "XOM: \u22120.6% to 164.05 \u2014 FMP mega_caps XOM",
-          "CVX: \u22121.1% to 203.05 \u2014 FMP mega_caps CVX",
-          "Consumer Defensive sector: +1.8% \u2014 FMP sectors (rounded from 1.82)"
+          "INTU changesPercentage: -3.4% \u2014 mega_caps",
+          "INTU price: 357.46 \u2014 mega_caps",
+          "INTU epsActual: 4.03 \u2014 earnings_calendar",
+          "INTU epsEstimated: 3.58 \u2014 earnings_calendar",
+          "INTU revenueActual: 4,354,000,000 \u2014 earnings_calendar",
+          "INTU revenueEstimated: 4,266,803,000 \u2014 earnings_calendar",
+          "ZM: -3.7%, 100.92; eps 1.55 vs 1.48 \u2014 mega_caps / earnings_calendar",
+          "SMTC: +5.5%, 127.52; eps 0.71 vs 0.614 \u2014 mega_caps / earnings_calendar",
+          "HEI: -0.5%, 351.05; eps 1.67 vs 1.51 \u2014 mega_caps / earnings_calendar"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html",
-        "source_notes": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html"
+        "source_url": "https://www.barrons.com/articles/stocks-today-review-preview-2ba0b98b",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-review-preview-2ba0b98b"
       },
       {
-        "title": "Aug. 24 US cash session recap",
+        "title": "Aug. 25 US cash session recap",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Aug. 24 U.S. cash session split the main indexes.\nThe Dow Jones Industrial Average closed at 53,417.16 (+140.15, +0.3%).\nThe S&P 500 finished at 7,652.82 (\u221221.55, \u22120.3%).\nThe Nasdaq Composite ended at 25,980.19 (\u2212200.26, \u22120.8%).\nThe Russell 2000 closed at 2,995.08 (\u221222.79, \u22120.8%).\n\nCoverage described chip makers and other technology shares as a drag on the major benchmarks at the start of a busy week, with AI-related jitters and geopolitical headlines in the backdrop.\nNVIDIA was among the most active names on the close at 208.48 (\u22122.9%), with Advanced Micro Devices at 456.75 (\u22123.5%), Taiwan Semiconductor at 410.12 (\u22122.1%), and Tesla at 348.95 (\u22123.8%).\nAlphabet\u2019s Class C shares bucked the tech tone at 344.59 (+0.8%).\n\nVisa closed at 382.41 (+3.1%), with a session high of 383.43 matching the 52-week high in the quote data.\nCostco rose 2.5% to 971.40.\nProcter & Gamble, Coca-Cola, PepsiCo, and Johnson & Johnson each finished about +1.0% to +1.3%, alongside a Consumer Defensive sector average near +1.8% \u2014 the strongest sector reading in the snapshot.\n\nEnergy was the weakest sector group at about \u22121.2%.\nBrent crude settled at 90.42 (\u22121.9%).\nThe United States Oil Fund closed at 132.21 (\u22121.8%).\nExxon Mobil and Chevron finished at 164.05 (\u22120.6%) and 203.05 (\u22121.1%).\nCommunication Services averaged about +1.4%; Technology averaged about \u22121.0%; Industrials about \u22120.9%.\n\nThe Chicago Fed National Activity Index for July printed at \u22120.08, versus a 0.1 estimate and 0.06 prior in the economic calendar.\nLater, 3-month and 6-month bill auction results were logged at 3.7% and 3.8%.\n\nTreasury snapshot dated 2026-08-21 in the data showed the 10-year at 4.7% and the 2s10s spread at 0.50.\nGold futures (GCUSD) closed at 4,745.90 (+1.0%).\nBitcoin (BTCUSD) was at 79,804.84 (+1.0%).\nThe Invesco dollar-bullish fund proxy (UUP) ticked up 0.2% to 27.96.\nEUR/USD was flat at 1.17 in the feed.\n\nThe CBOE Volatility Index rose to 15.85 (+0.72, +4.8%) from a 15.13 prior close.\nOverseas, the Hang Seng was down 1.9% at 25,517.33; the Nikkei 225 was off 0.6% at 65,142.88; the FTSE 100 was up 0.3% at 10,854.32.\n\nNo earnings entries were listed in the injected earnings calendar for this bundle.\nThe session\u2019s economic and cross-asset prints sat alongside ongoing discussion of Treasury auction schedules and expanded buyback operations in the news flow.",
+        "body": "The S&P 500 rose 0.3% to 7,675.83 (+22.97 points).\nThe Nasdaq Composite gained 0.7% to 26,151.30 (+171.11).\nThe Dow added 0.3% to 53,577.40 (+160.24).\nThe Russell 2000 finished up 0.5% at 3,010.02.\n\nThe CBOE Volatility Index closed at 15.46, down 2.5% from 15.85, with an intraday range of 15.13 to 16.30.\n\nAt 2:00 p.m.\nET, the Conference Board\u2019s consumer-confidence reading for August printed at 89.4, below the 90.3 estimate and down from 90.2 prior.\nNew home sales for July were 0.607M units vs 0.62M expected and 0.678M previously.\n\nBuilding permits for July were 1.433M vs 1.443M estimated; permits rose 4.3% month over month vs a 5.0% estimate.\n\nReal Estate led Nasdaq sector averages at +1.7%.\nUtilities averaged +0.8%.\nFinancial Services averaged +0.6%.\nHealthcare averaged +0.4%.\nEnergy averaged -1.0%.\nConsumer Defensive averaged -0.6%.\nTechnology was roughly flat at 0.0%.\n\n$DKS fell 30.7% to $124.31 after EPS of $3.53 missed the $3.75 estimate and revenue of $5.59B trailed the ~$5.64B forecast; volume was 38.6M shares and the low tagged $124.00.\n\n$INTU dropped 3.4% to $357.46 despite EPS $4.03 vs $3.58 est and revenue beat; $ZM fell 3.7% to $100.92 with an EPS beat; $SMTC rose 5.5% to $127.52 on a beat.\n\nMegacap tech mixed to higher:\n- $META +2.0% to 570.05\n- $NVDA +2.2% to 213.05\n- $MSFT +0.9% to 491.71\n- $GOOGL -0.3% to 346.96\n- $GOOG -0.4% to 343.34\n\nEnergy-linked large caps weakened with Brent crude at $85.34 (-3.7%) and the United States Oil Fund at $126.15 (-4.6%):\n- $XOM -2.1% to 160.63\n- $CVX -1.6% to 199.90\n\nGold futures settled at $4,693.30 (0.0%).\nBitcoin USD closed at $78,806.67 (+0.4%).\nThe Invesco DB US Dollar Index Bullish Fund finished at $27.94 (-0.1%).\nEUR/USD was 1.17.\n\nOverseas snapshots in the feed: Nikkei 225 -0.6% to 65,452.40; FTSE 100 +0.3% to 10,886.16; Hang Seng 0.0% to 25,511.10.\n\nLatest Treasury snapshot in the data (dated 2026-08-21) shows the 10-year at 4.7% and the 2s10s spread at 0.50 percentage points.",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI: 53,417.16, +0.3% \u2014 FMP indexes ^DJI",
-          "^GSPC: 7,652.82, \u22120.3% \u2014 FMP indexes ^GSPC",
-          "^IXIC: 25,980.19, \u22120.8% \u2014 FMP indexes ^IXIC",
-          "^RUT: 2,995.08, \u22120.8% \u2014 FMP indexes ^RUT",
-          "^VIX: 15.85, +4.8% \u2014 FMP indexes ^VIX",
-          "NVDA, AMD, TSM, TSLA, GOOG \u2014 FMP mega_caps",
-          "V, COST, PG, KO, PEP, JNJ \u2014 FMP mega_caps",
-          "Sectors Energy \u22121.2%, Consumer Defensive +1.8% \u2014 FMP sectors",
-          "Brent 90.42, USO 132.21, GCUSD 4,745.90, BTCUSD 79,804.84, UUP 27.96 \u2014 FMP cross_asset",
-          "Treasury 10y 4.74, spread_2s10s 0.5 \u2014 FMP treasury",
-          "Chicago Fed NACI \u22120.08 \u2014 FMP economic_calendar",
-          "^HSI, ^N225, ^FTSE \u2014 FMP overseas"
+          "Session date: 2026-08-25 \u2014 FMP_DATA session_date",
+          "^GSPC, ^IXIC, ^DJI, ^RUT, ^VIX \u2014 indexes",
+          "CB Consumer Confidence: 89.4 actual, 90.3 est \u2014 economic_calendar",
+          "New Home Sales: 0.607M \u2014 economic_calendar",
+          "Building Permits: 1.433M, MoM 4.3% \u2014 economic_calendar",
+          "Sectors averageChange (rounded) \u2014 sectors",
+          "DKS, INTU, ZM, SMTC, META, NVDA, MSFT, GOOGL, GOOG, XOM, CVX \u2014 mega_caps / actives",
+          "Brent: 85.34, -3.7%; USO: 126.15, -4.6% \u2014 cross_asset",
+          "GCUSD, BTCUSD, UUP, EURUSD \u2014 cross_asset",
+          "^N225, ^FTSE, ^HSI \u2014 overseas",
+          "Treasury year10: 4.74, spread_2s10s: 0.5 \u2014 treasury"
         ],
-        "source_url": "https://www.youtube.com/watch?v=J6MEU1TBoGU",
-        "source_notes": "https://www.youtube.com/watch?v=J6MEU1TBoGU"
+        "source_url": "https://www.youtube.com/watch?v=kNprl-JIU5g",
+        "source_notes": "https://www.youtube.com/watch?v=kNprl-JIU5g"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-08-24",
-    "generated_at": "2026-08-24T21:08:44-04:00",
-    "draft_path": "drafts/2026-08-24-week-ahead.md",
+    "session_date": "2026-08-25",
+    "generated_at": "2026-08-25T21:10:35-04:00",
+    "draft_path": "drafts/2026-08-25-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "$NVDA reports Aug. 26, EPS est 2.09",
+        "title": "Discount retail reports Aug. 27",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$NVDA reports Aug. 26.\n\nWall Street EPS estimate: $2.09.\n\nRevenue estimate: about $92.25B.\n\nThe release covers how much the chip maker earned and what it took in during the quarter\u2014demand for AI data-center gear shows up in those lines.\n\nThat date falls in a week when U.S. tech and chip names were already in focus after the prior session.\n\nWhich line do you watch first\u2014EPS, revenue, or guidance?",
+        "body": "Aug. 27 is stacked with big-box and discount retail earnings.\n\nEach print shows store traffic, pricing, and how shoppers are spending.\n\n- $DG \u2014 EPS estimate $2.01; revenue estimate about $11.19B\n- $DLTR \u2014 EPS estimate $1.15; revenue estimate about $4.86B\n- $BBY \u2014 EPS estimate $1.39; revenue estimate about $9.60B\n- $ULTA \u2014 EPS estimate $6.20; revenue estimate about $2.98B\n\nSame day also has $BURL (EPS est.\n$2.19) and $GAP (EPS est.\n$0.48).\n\nWhich line item do you watch first\u2014same-store sales or gross margin?",
         "skip_reason": "",
         "supporting_data": [
-          "NVDA EPS estimate: 2.09 \u2014 earnings_calendar (FMP)",
-          "NVDA revenue estimate: 92,245,630,000 (~$92.25B) \u2014 earnings_calendar (FMP)",
-          "NVDA report date: 2026-08-26 \u2014 earnings_calendar (FMP)",
-          "NVDA market cap: ~$5.05T (5,049,594,080,000) \u2014 earnings_calendar (FMP)"
+          "DG EPS estimate: $2.01 \u2014 source: FMP earnings_calendar",
+          "DG revenue estimate: $11,191,680,000 (~$11.19B) \u2014 source: FMP earnings_calendar",
+          "DLTR EPS estimate: $1.15 \u2014 source: FMP earnings_calendar",
+          "DLTR revenue estimate: $4,857,712,000 (~$4.86B) \u2014 source: FMP earnings_calendar",
+          "BBY EPS estimate: $1.39 \u2014 source: FMP earnings_calendar",
+          "BBY revenue estimate: $9,595,181,000 (~$9.60B) \u2014 source: FMP earnings_calendar",
+          "ULTA EPS estimate: $6.20 \u2014 source: FMP earnings_calendar",
+          "ULTA revenue estimate: $2,984,502,000 (~$2.98B) \u2014 source: FMP earnings_calendar",
+          "BURL EPS estimate: $2.19 \u2014 source: FMP earnings_calendar",
+          "GAP EPS estimate: $0.48 (0.48 rounded) \u2014 source: FMP earnings_calendar",
+          "Report date: 2026-08-27 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://www.wsj.com/finance/investing/ai-jitters-and-geopolitical-threats-mark-start-of-busy-week-in-markets-a192c22a",
-        "source_notes": "https://www.wsj.com/finance/investing/ai-jitters-and-geopolitical-threats-mark-start-of-busy-week-in-markets-a192c22a"
+        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       },
       {
-        "title": "Aug. 26 12:30 ET: spending and durable goods",
+        "title": "Aug. 26 enterprise software earnings",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Aug. 26, 12:30 p.m.\nET: a batch of July household and factory-order data.\n\nPersonal Income MoM \u2014 estimate +0.3% (prior +0.2%).\n\nPersonal Spending MoM \u2014 estimate +0.2% (prior +0.3%).\n\nDurable Goods Orders MoM \u2014 estimate +0.7% (prior +0.3%).\n\nSpending tracks checkout activity; durable goods covers items like machinery and aircraft\u2014both feed into how the economy looked before the school-year stretch.\n\nSame window also includes PCE inflation gauges the Fed uses for its 2% target.\n\nWhich print do you treat as the main \u201cdemand\u201d read for July?",
+        "body": "Aug. 26 lines up several enterprise software and security names after the prior session\u2019s chip-led index gains.\n\nThe S&P 500 closed Aug. 25 at 7,675.83 (+0.3%).\nThe Nasdaq Composite closed at 26,151.30 (+0.7%).\n\nThose prints update subscription demand, security spending, and design-tool revenue\u2014not one sector, but three readouts the same day.\n\n- $CRM \u2014 EPS estimate $3.27; revenue estimate about $11.33B\n- $CRWD \u2014 EPS estimate $0.29 (0.29 rounded); revenue estimate about $1.44B\n- $SNPS \u2014 EPS estimate $3.67; revenue estimate about $2.44B\n\nAlso on the calendar that day: $OKTA (EPS est.\n$0.97), $VEEV (EPS est.\n$2.22), and $HPQ (EPS est.\n$0.66).\n\nDo you treat these as one \u201centerprise\u201d day or separate stories?",
         "skip_reason": "",
         "supporting_data": [
-          "Personal Income MoM (Jul) estimate: 0.3% \u2014 economic_calendar (FMP)",
-          "Personal Income MoM (Jul) previous: 0.2% \u2014 economic_calendar (FMP)",
-          "Personal Spending MoM (Jul) estimate: 0.2% \u2014 economic_calendar (FMP)",
-          "Personal Spending MoM (Jul) previous: 0.3% \u2014 economic_calendar (FMP)",
-          "Durable Goods Orders MoM (Jul) estimate: 0.7% \u2014 economic_calendar (FMP)",
-          "Durable Goods Orders MoM (Jul) previous: 0.3% \u2014 economic_calendar (FMP)",
-          "Release datetime: 2026-08-26 12:30:00 \u2014 economic_calendar (FMP)"
+          "S&P 500 close: 7,675.83 \u2014 source: FMP indexes ^GSPC",
+          "S&P 500 change: +0.3% \u2014 source: FMP indexes ^GSPC changesPercentage",
+          "Nasdaq close: 26,151.30 \u2014 source: FMP indexes ^IXIC",
+          "Nasdaq change: +0.7% \u2014 source: FMP indexes ^IXIC changesPercentage",
+          "CRM EPS estimate: $3.27 \u2014 source: FMP earnings_calendar",
+          "CRM revenue estimate: $11,330,060,000 (~$11.33B) \u2014 source: FMP earnings_calendar",
+          "CRWD EPS estimate: $0.29 \u2014 source: FMP earnings_calendar",
+          "CRWD revenue estimate: $1,440,081,000 (~$1.44B) \u2014 source: FMP earnings_calendar",
+          "SNPS EPS estimate: $3.67 \u2014 source: FMP earnings_calendar",
+          "SNPS revenue estimate: $2,437,657,000 (~$2.44B) \u2014 source: FMP earnings_calendar",
+          "OKTA EPS estimate: $0.97 (0.965 rounded) \u2014 source: FMP earnings_calendar",
+          "VEEV EPS estimate: $2.22 \u2014 source: FMP earnings_calendar",
+          "HPQ EPS estimate: $0.66 (0.664 rounded) \u2014 source: FMP earnings_calendar",
+          "Report date: 2026-08-26 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html",
-        "source_notes": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html"
+        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       },
       {
-        "title": "Aug. 28 Chicago PMI est 57",
+        "title": "Marvell reports Aug. 27, EPS 0.93",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Aug. 28, 1:45 p.m.\nET: Chicago PMI (Aug).\n\nEstimate: 57.\n\nPrevious: 57.6.\n\nThe index summarizes whether Midwest factories saw orders and production expand or contract; readings above 50 point to expansion, below 50 to contraction.\n\nIt lands at the end of a week that also includes large-cap earnings and midweek inflation-related releases.\n\nDo you use regional PMIs as a warm-up for the national factory surveys?",
+        "body": "Aug. 27 adds a semiconductor readout after a week when chip names were in focus ahead of large-cap AI earnings.\n\n$MRVL \u2014 EPS estimate $0.93 (0.933 rounded).\nRevenue estimate about $2.72B ($2,716,828,000).\n\nThe release measures demand for connectivity and data-infrastructure chips used in cloud and networking gear.\n\nSame day, design and HR software names also report:\n\n- $ADSK \u2014 EPS estimate $3.12; revenue estimate about $2.01B\n- $WDAY \u2014 EPS estimate $2.61; revenue estimate about $2.64B\n\nAug. 28, the Chicago area manufacturing survey (Chicago PMI) is due at 1:45 p.m.\nET with estimate 57 vs prior 57.6\u2014 a separate Midwest factory-activity print to close the week.\n\nWhat do you compare first\u2014chip revenue guidance or cloud customer commentary?",
         "skip_reason": "",
         "supporting_data": [
-          "Chicago PMI (Aug) estimate: 57 \u2014 economic_calendar (FMP)",
-          "Chicago PMI (Aug) previous: 57.6 \u2014 economic_calendar (FMP)",
-          "Release datetime: 2026-08-28 13:45:00 \u2014 economic_calendar (FMP)",
-          "Impact: Medium \u2014 economic_calendar (FMP)"
+          "MRVL EPS estimate: $0.93 \u2014 source: FMP earnings_calendar",
+          "MRVL revenue estimate: $2,716,828,000 (~$2.72B) \u2014 source: FMP earnings_calendar",
+          "MRVL report date: 2026-08-27 \u2014 source: FMP earnings_calendar",
+          "ADSK EPS estimate: $3.12 \u2014 source: FMP earnings_calendar",
+          "ADSK revenue estimate: $2,012,017,000 (~$2.01B) \u2014 source: FMP earnings_calendar",
+          "WDAY EPS estimate: $2.61 \u2014 source: FMP earnings_calendar",
+          "WDAY revenue estimate: $2,636,212,000 (~$2.64B) \u2014 source: FMP earnings_calendar",
+          "Chicago PMI date/time: 2026-08-28 13:45:00 ET \u2014 source: FMP economic_calendar",
+          "Chicago PMI estimate: 57 \u2014 source: FMP economic_calendar",
+          "Chicago PMI previous: 57.6 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.reuters.com/business/energy/power-supply-firm-aggreko-files-us-ipo-2026-08-24/",
-        "source_notes": "https://www.reuters.com/business/energy/power-supply-firm-aggreko-files-us-ipo-2026-08-24/"
+        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       }
     ]
   }

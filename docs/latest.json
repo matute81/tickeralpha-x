@@ -1,207 +1,193 @@
 {
-  "updated_at": "2026-08-27T03:19:35-04:00",
+  "updated_at": "2026-08-28T05:33:18-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-08-27",
-    "generated_at": "2026-08-27T03:18:09-04:00",
-    "draft_path": "drafts/2026-08-27-am.md",
+    "session_date": "2026-08-28",
+    "generated_at": "2026-08-28T05:32:01-04:00",
+    "draft_path": "drafts/2026-08-28-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Bessent and Warsh split on rate-setting",
+        "title": "Warsh\u2019s first Jackson Hole speech at 10 a.m. ET",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Reuters: Bessent and Warsh are at odds over how hands-off policymakers can be when setting the price of money.\n\nThe Jackson Hole symposium is on the calendar for Aug. 28, flagged high impact in U.S. data feeds.\n\nAt 12:30 p.m.\nET today:\n- Initial jobless claims (Aug. 22): consensus 208K vs prior 206K\n- Continuing claims (Aug. 15): consensus 1,790K vs prior 1,799K\n- Four-week average: consensus 203K vs prior 204K\n- July goods trade balance: consensus \u2212$99B vs prior \u2212$101.4B\n\nPrior U.S. session:\n- $SPY proxy ^GSPC \u22120.0% to 7,675.70\n- 10-year Treasury yield 4.6% (FMP snapshot dated Aug. 25)\n\nWhat part of that policy split do you think markets price first\u2014Fed messaging or Treasury comments?",
+        "body": "Fed Chair Kevin Warsh\u2019s first Jackson Hole keynote is scheduled for 10 a.m.\nET today.\n\nCoverage ahead of the speech describes U.S. stock futures as mixed and Treasury yields as little changed.\n\nThe 10-year Treasury yield was last marked at 4.7% on Aug. 26.\n\nThe gap between 2-year (4.2%) and 10-year yields was 0.47 percentage points on that same snapshot.\n\nThe CBOE Volatility Index finished the prior session at 14.5, down 0.1%.\n\nWhat line from a Fed chair at Jackson Hole do you remember most?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial jobless claims estimate: 208K \u2014 source: FMP economic_calendar",
-          "Initial jobless claims previous: 206K \u2014 source: FMP economic_calendar",
-          "Continuing jobless claims estimate: 1,790K \u2014 source: FMP economic_calendar",
-          "Continuing jobless claims previous: 1,799K \u2014 source: FMP economic_calendar",
-          "Four-week average estimate: 203K \u2014 source: FMP economic_calendar",
-          "Four-week average previous: 204K \u2014 source: FMP economic_calendar",
-          "Goods trade balance estimate: \u2212$99B \u2014 source: FMP economic_calendar",
-          "Goods trade balance previous: \u2212$101.4B \u2014 source: FMP economic_calendar",
-          "Jackson Hole Symposium date: 2026-08-28 \u2014 source: FMP economic_calendar",
-          "S&P 500 (^GSPC): 7,675.70, \u22120.0% \u2014 source: FMP indexes",
-          "10-year Treasury: 4.6% \u2014 source: FMP treasury"
+          "10-year Treasury yield: 4.7% \u2014 [source: FMP treasury]",
+          "2-year Treasury yield: 4.2% \u2014 [source: FMP treasury]",
+          "2s10s spread: 0.47 \u2014 [source: FMP treasury]",
+          "VIX: 14.5 (-0.1%) \u2014 [source: FMP indexes ^VIX]",
+          "Treasury snapshot date: 2026-08-26 \u2014 [source: FMP treasury]"
         ],
-        "source_url": "https://www.reuters.com/business/finance/bessent-warsh-diverge-who-should-set-price-money-2026-08-27/",
-        "source_notes": "https://www.reuters.com/business/finance/bessent-warsh-diverge-who-should-set-price-money-2026-08-27/"
+        "source_url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026",
+        "source_notes": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026"
       },
       {
-        "title": "Hormuz tanker strike, Brent at $85.54",
+        "title": "Trump raises bank-sanction talk as Xi visit prep continues",
         "status": "ready",
         "kind": "x_idea",
-        "body": "CNBC: an oil tanker caught fire Tuesday after being hit in the Strait of Hormuz, per UKMTO.\n\nThe same report notes U.S. allies reportedly challenged claims that Hormuz mine clearance was complete.\n\nCross-asset close levels from the feed:\n- Brent (BZUSD) \u22121.3% to $85.54\n- U.S. oil ETF $USO +1.0% to $127.35\n\nOverseas equity snapshots in the same bundle:\n- Hang Seng \u22120.4% to 25,557.50\n- FTSE 100 \u22120.3% to 10,842.89\n\nReuters separately frames OPEC+ as having less sway in the oil market six months into the Iran war, with China\u2019s role rising.\n\nWhich number are you tracking first on days like this\u2014Brent, the U.S. oil ETF, or shipping headlines?",
+        "body": "U.S. President Donald Trump said Thursday he could impose sanctions on Chinese banks, according to CNBC\u2019s report on the U.S.\u2013China relationship.\n\nThe same reporting notes that U.S. and Chinese officials are still moving ahead with plans for President Xi Jinping\u2019s trip to the U.S. next month.\n\nThe headline frames sharper rhetoric from Washington alongside continued meeting preparation.\n\nNo new U.S. economic release in the injected calendar is tied to this story.\n\nWhich part of U.S.\u2013China headlines do you track first \u2014 trade, banks, or diplomacy?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent (BZUSD): $85.54, \u22121.3% \u2014 source: FMP cross_asset",
-          "USO: $127.35, +1.0% \u2014 source: FMP cross_asset",
-          "Hang Seng (^HSI): 25,557.50, \u22120.4% \u2014 source: FMP overseas",
-          "FTSE 100 (^FTSE): 10,842.89, \u22120.3% \u2014 source: FMP overseas"
+          "Report date context: published 2026-08-27 \u2014 [source: FMP news CNBC]",
+          "Session date: 2026-08-28 \u2014 [source: FMP session_date]"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/27/us-iran-war-trump-hormuz-attack-mine-.html",
-        "source_notes": "https://www.cnbc.com/2026/08/27/us-iran-war-trump-hormuz-attack-mine-.html"
+        "source_url": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sanctions.html",
+        "source_notes": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sanctions.html"
       },
       {
-        "title": "Six months since Iran bombing",
+        "title": "French borrowing costs at 2008-crisis highs",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Reuters: Friday marks six months since bombing of Iran that started a conflict tied to disrupted global energy supplies and ripples across financial markets.\n\nPrior U.S. index closes in the injected session:\n- ^GSPC \u22120.0% to 7,675.70\n- ^IXIC \u22120.1% to 26,130.20\n- ^DJI \u22120.2% to 53,463.88\n\nVolatility gauge:\n- ^VIX \u22121.6% to 15.21\n\nRates snapshot (FMP treasury, dated 2026-08-25):\n- 2-year 4.2%\n- 10-year 4.6%\n- 2s10s spread 0.47 percentage points\n\nGold futures in the cross-asset block:\n- GCUSD +0.1% to $4,658.70\n\nWhen you look at \u201csix months of war\u201d stories, do you start with oil, rates, or equities?",
+        "body": "French government borrowing costs have reached their highest level since the 2008 global financial crisis, per CNBC International\u2019s report.\n\nFrench stocks hit a one-month low in the same coverage.\n\nThe story ties the move to the first presidential debate before a key vote next year.\n\nFor U.S. readers, the piece sits alongside a day when global markets are also focused on the Fed\u2019s Jackson Hole forum.\n\nGermany exposure via the iShares MSCI Germany ETF ($EWG) closed up 0.6% at 44.58 in the prior session.\n\nThe FTSE 100 closed up 0.2% at 10,814.57.\n\nDo you follow European bond yields when reading U.S. macro news?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 (^GSPC): 7,675.70, \u22120.0% \u2014 source: FMP indexes",
-          "Nasdaq Composite (^IXIC): 26,130.20, \u22120.1% \u2014 source: FMP indexes",
-          "Dow Jones (^DJI): 53,463.88, \u22120.2% \u2014 source: FMP indexes",
-          "VIX (^VIX): 15.21, \u22121.6% \u2014 source: FMP indexes",
-          "Treasury 2-year: 4.2% \u2014 source: FMP treasury",
-          "Treasury 10-year: 4.6% \u2014 source: FMP treasury",
-          "Spread 2s10s: 0.47 \u2014 source: FMP treasury",
-          "Gold (GCUSD): $4,658.70, +0.1% \u2014 source: FMP cross_asset"
+          "$EWG price: 44.58 (+0.6%) \u2014 [source: FMP overseas ^GDAXI proxy EWG]",
+          "FTSE 100: 10,814.57 (+0.2%) \u2014 [source: FMP overseas ^FTSE]"
         ],
-        "source_url": "https://www.reuters.com/business/energy/six-months-war-how-middle-east-conflict-has-shaped-financial-markets-2026-08-27/",
-        "source_notes": "https://www.reuters.com/business/energy/six-months-war-how-middle-east-conflict-has-shaped-financial-markets-2026-08-27/"
+        "source_url": "https://www.youtube.com/watch?v=7i7Gi7wvp50",
+        "source_notes": "https://www.youtube.com/watch?v=7i7Gi7wvp50"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-08-27",
-    "generated_at": "2026-08-27T03:18:54-04:00",
-    "draft_path": "drafts/2026-08-27.md",
+    "session_date": "2026-08-28",
+    "generated_at": "2026-08-28T05:32:37-04:00",
+    "draft_path": "drafts/2026-08-28.md",
     "errors": [],
     "slots": [
       {
-        "title": "Lilly shares fall 3.5% at the close",
+        "title": "Nasdaq +1.6% as Nvidia closes up 8.7%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$LLY closed down 3.5% at 1,190.03.\n\nThe session range ran from 1,180.01 to 1,235.78, off a prior close of 1,233.66.\n\nThat was one of the steeper single-day moves in large-cap healthcare names in the injected close data for 2026-08-27.\n\nWhich large-cap healthcare name caught your attention after the bell?",
+        "body": "$NVDA closed +8.7% at 227.98 (+18.32).\n\nThe session high was 230.47 on volume near 297.2M shares.\n\nThe Nasdaq Composite finished +1.6% at 26,541.35 (+411.15).\n\nThe S&P 500 rose +0.7% to 7,730.99 (+55.29).\n\nCoverage framed the index move as a narrow lift, with Nvidia carrying a large share of the advance.\n\nWhich megacap chip name moved your watchlist most on the close?",
         "skip_reason": "",
         "supporting_data": [
-          "LLY change: -3.5% \u2014 mega_caps / FMP quote",
-          "LLY price: 1,190.03 \u2014 mega_caps",
-          "LLY previous close: 1,233.66 \u2014 mega_caps",
-          "LLY day low / day high: 1,180.01 / 1,235.78 \u2014 mega_caps",
-          "Session date: 2026-08-27 \u2014 FMP_DATA session_date"
+          "NVDA changesPercentage: 8.7% \u2014 FMP mega_caps / EOD",
+          "NVDA price: 227.98 \u2014 FMP mega_caps",
+          "NVDA change: 18.32 \u2014 FMP mega_caps",
+          "NVDA dayHigh: 230.47 \u2014 FMP mega_caps",
+          "NVDA volume: 297,197,891 \u2014 FMP mega_caps",
+          "^IXIC changesPercentage: 1.6% \u2014 FMP indexes",
+          "^IXIC price: 26,541.35 \u2014 FMP indexes",
+          "^IXIC change: 411.15 \u2014 FMP indexes",
+          "^GSPC changesPercentage: 0.7% \u2014 FMP indexes",
+          "^GSPC price: 7,730.99 \u2014 FMP indexes"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/LLY",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/LLY"
+        "source_url": "https://seekingalpha.com/article/4941103-nvidia-picks-up-slack",
+        "source_notes": "https://seekingalpha.com/article/4941103-nvidia-picks-up-slack"
       },
       {
-        "title": "Software names split after Aug. 27 reports",
+        "title": "Salesforce jumps 22.6% to 252.05",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Enterprise and infrastructure software names were on the calendar for 2026-08-27; the close showed a split tape.\n\n- $ORCL +2.8% to 148.84\n- $MRVL +2.0% to 245.11\n- $ADSK +1.4% to 254.77\n- $WDAY -1.9% to 190.75\n\nThe Nasdaq Technology sector average change was +0.9% for the same session.\n\nHow do you read the gap between the winners and Workday on report day?",
+        "body": "$CRM closed +22.6% at 252.05 (+46.43).\n\nPrior close: 205.62.\n\nDay range: 230.05 low to 254.45 high.\n\nVolume: about 55.4M shares.\n\nAmong liquid NYSE/NASDAQ names in the screen, that was the biggest percentage gain outside leveraged ETFs.\n\nDid you track this move on fundamentals, flow, or something else?",
         "skip_reason": "",
         "supporting_data": [
-          "ORCL changesPercentage: +2.8%, price 148.84 \u2014 mega_caps",
-          "MRVL changesPercentage: +2.0%, price 245.11 \u2014 mega_caps",
-          "ADSK changesPercentage: +1.4%, price 254.77 \u2014 mega_caps",
-          "WDAY changesPercentage: -1.9%, price 190.75 \u2014 mega_caps",
-          "Technology sector averageChange: +0.9% \u2192 +0.9% \u2014 sectors",
-          "Earnings calendar date 2026-08-27 for ORCL, MRVL, ADSK, WDAY \u2014 earnings_calendar"
+          "CRM changesPercentage: 22.6% \u2014 FMP mega_caps / liquid_gainers",
+          "CRM price: 252.05 \u2014 FMP mega_caps",
+          "CRM change: 46.43 \u2014 FMP mega_caps",
+          "CRM previousClose: 205.62 \u2014 FMP mega_caps",
+          "CRM dayLow: 230.05 \u2014 FMP mega_caps",
+          "CRM dayHigh: 254.45 \u2014 FMP mega_caps",
+          "CRM volume: 55,409,963 \u2014 FMP mega_caps"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/ORCL",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/ORCL"
+        "source_url": "https://financialmodelingprep.com/api/v3/quote/CRM",
+        "source_notes": "https://financialmodelingprep.com/api/v3/quote/CRM"
       },
       {
-        "title": "Communication services lagged peers by 1.7%",
+        "title": "Chip and software peers lift with Broadcom +4.5%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Sector averages for 2026-08-27 put Communication Services at the bottom and Real Estate at the top.\n\n- Communication Services: -1.7%\n- Real Estate: +1.2%\n\nNamed large caps in that part of the market:\n\n- $NFLX -0.9% to 81.46\n- $META +1.1% to 576.14\n\nReal Estate led the sector screen; Energy was up +1.0% on the same average-change field.\n\nDid sector leadership match what you saw in your watchlist?",
+        "body": "Semiconductor and platform names led part of the tech tape:\n\n- $AVGO +4.5% to 371.54\n- $TSM +2.3% to 427.30\n- $INTC +4.4% to 92.09\n- $MSFT +1.8% to 505.06\n\nNASDAQ Technology sector average change: +0.6%.\n\n$NVDA +8.7% to 227.98 was the largest megacap chip move in the set.\n\nWhich link in the chain\u2014foundry, GPU, or platform\u2014stood out to you?",
         "skip_reason": "",
         "supporting_data": [
-          "Communication Services averageChange: -1.7% \u2192 -1.7% \u2014 sectors",
-          "Real Estate averageChange: +1.2% \u2192 +1.2% \u2014 sectors",
-          "Energy averageChange: +1.0% \u2192 +1.0% \u2014 sectors",
-          "NFLX: -0.9%, 81.46 \u2014 mega_caps",
-          "META: +1.1%, 576.14 \u2014 mega_caps"
+          "AVGO changesPercentage: 4.5% \u2014 FMP mega_caps",
+          "AVGO price: 371.54 \u2014 FMP mega_caps",
+          "TSM changesPercentage: 2.3% \u2014 FMP mega_caps",
+          "TSM price: 427.30 \u2014 FMP mega_caps",
+          "INTC changesPercentage: 4.4% \u2014 FMP actives",
+          "INTC price: 92.09 \u2014 FMP actives",
+          "MSFT changesPercentage: 1.8% \u2014 FMP mega_caps",
+          "MSFT price: 505.06 \u2014 FMP mega_caps",
+          "Technology sector averageChange: 0.6% \u2192 0.6% \u2014 FMP sectors",
+          "NVDA changesPercentage: 8.7% \u2014 FMP mega_caps",
+          "NVDA price: 227.98 \u2014 FMP mega_caps"
         ],
         "source_url": "https://financialmodelingprep.com/api/v3/sector-performance",
         "source_notes": "https://financialmodelingprep.com/api/v3/sector-performance"
       },
       {
-        "title": "US session recap \u2014 Aug. 27, 2026",
+        "title": "US cash session recap \u2014 Aug. 28, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "US equity indexes finished the 2026-08-27 cash session with small losses.\nThe S&P 500 closed at 7,675.70, essentially flat at 0.0%.\nThe Nasdaq Composite was 26,130.20, down 0.1%.\nThe Dow Jones Industrial Average lost 0.2% to 53,463.88, and the Russell 2000 was 3,005.90, down 0.1%.\n\nVolatility eased: the VIX settled at 15.21, down 1.6% from 15.45, with an intraday band of 15.21 to 15.74.\n\nOn Nasdaq sector averages, Real Estate led at +1.2%, followed by Energy at +1.0% and Technology at +0.9%.\nCommunication Services lagged at -1.7%, with Consumer Defensive and Consumer Cyclical both around -0.6%.\n\nMegacap technology saw mixed closes.\nNVIDIA finished at 209.66, down 1.6%, on heavy volume in the actives list.\nMeta Platforms rose 1.1% to 576.14.\nAmazon was off 0.3% at 260.28, and AMD was up 0.4% at 480.93.\n\nOracle closed up 2.8% at 148.84; Marvell gained 2.0% to 245.11; Autodesk added 1.4% to 254.77; Workday fell 1.9% to 190.75 \u2014 all names on the Aug. 27 earnings calendar in the injected data.\n\nEli Lilly was a notable drag among large caps, down 3.5% to 1,190.03.\nJohnson & Johnson lost 1.1% to 270.00.\nUnitedHealth rose 1.1% to 401.01.\nTesla closed at 345.82, down 1.3%.\n\nRetail and consumer names on the same calendar showed varied reactions: Gap finished up 5.0% at 21.15; Best Buy gained 2.5% to 87.44; Ulta rose 1.1% to 543.19; Dollar Tree fell 1.7% to 132.18; Dollar General was roughly flat, up 0.2% at 122.79.\n\nEnergy equities diverged from the sector average: Exxon Mobil fell 1.5% to 158.20 while Chevron ticked up 0.2% to 200.25.\nBrent crude in the cross-asset set was 85.54, down 1.3%; the United States Oil Fund (USO) was up 1.0% at 127.35.\n\nGold futures (GCUSD) closed at 4,658.40, up 0.1%.\nThe dollar proxy UUP rose 0.3% to 28.02.\nBitcoin was 78,802.51, down 0.3%.\nEUR/USD was unchanged at 1.17 in the injected quote.\n\nTreasury snapshot dated 2026-08-25 in the data showed a 10-year yield of 4.6% and a 2s10s spread of 0.47 percentage points.\n\nThe economic calendar listed high-impact US releases at 12:30 ET on Aug. 27 for initial jobless claims, continuing claims, the four-week average, and the goods trade balance; the injected bundle did not include released actuals for those prints.\n\nOverseas indexes in the file were modestly softer: Nikkei 225 -0.2%, FTSE 100 -0.3%, Hang Seng -0.4%.\n\nAmong liquid movers in the screen, Abercrombie & Fitch led gainers at +35.7% to 147.75; several low-priced actives showed extreme percentage moves, separate from the large-cap core of the session.",
+        "body": "The S&P 500 finished at 7,730.99, up 55.29 points (+0.7%), with an intraday range of 7,689.89 to 7,741.27.\n\nThe Nasdaq Composite closed at 26,541.35, up 411.15 points (+1.6%), reaching a session high of 26,553.90.\n\nThe Dow Jones Industrial Average added 105.56 points (+0.2%) to 53,569.44.\n\nThe Russell 2000 rose +0.3% to 3,014.34.\n\nNVIDIA closed +8.7% at 227.98 on volume near 297.2M shares, the dominant megacap move in the injected set.\n\nSalesforce finished +22.6% at 252.05, from a prior close of 205.62, with volume about 55.4M shares.\n\nOther large tech and chip names included Microsoft +1.8% to 505.06, Broadcom +4.5% to 371.54, Taiwan Semiconductor +2.3% to 427.30, Oracle +2.0% to 151.92, and Intel +4.4% to 92.09.\n\nMegacap decliners in the data included Amazon \u22121.5% to 256.26, UnitedHealth \u22121.5% to 395.05, Costco \u22122.2% to 934.66, and Alibaba \u22122.9% to 116.31.\n\nAmong NASDAQ sector averages, Consumer Defensive lagged at \u22121.2%, Real Estate \u22120.8%, and Communication Services \u22120.2%.\n\nHealthcare (+0.4%), Technology (+0.6%), Utilities (+0.5%), and Energy (+0.4%) posted positive average sector changes in the injected screen.\n\nThe CBOE Volatility Index settled at 14.50, down 0.1% from 14.51.\n\nGold futures (GCUSD) were \u22120.2% at 4,656.50; Brent crude (BZUSD) \u22120.5% at 88.07; the United States Oil Fund (USO) +2.1% at 130.01.\n\nBitcoin USD closed \u22121.1% at 79,393.59.\n\nTreasury yield snapshot dated 2026-08-26 in the data showed the 2-year at 4.2%, 10-year at 4.7%, and the 2s10s spread at 0.47 percentage points.\n\nThe economic calendar listed US Chicago PMI (Aug) for 2026-08-28 13:45:00 with estimate 57.0 and previous 57.6; no actual print appeared in the injected close bundle.\n\nHeadlines ahead of the session highlighted US stock futures as mixed and Treasury yields steady while investors awaited Fed Chair Kevin Warsh\u2019s Jackson Hole appearance.\n\nOverseas indexes in the bundle included Nikkei 225 +0.4%, FTSE 100 +0.2%, and Hang Seng +0.1%.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,675.70, 0.0% \u2014 indexes",
-          "^IXIC: 26,130.20, -0.1% \u2014 indexes",
-          "^DJI: 53,463.88, -0.2% \u2014 indexes",
-          "^RUT: 3,005.90, -0.1% \u2014 indexes",
-          "^VIX: 15.21, -1.6% \u2014 indexes",
-          "Sector averages \u2014 sectors array, date 2026-08-27",
-          "NVDA, META, AMZN, AMD, ORCL, MRVL, ADSK, WDAY, LLY, JNJ, UNH, TSLA, GAP, BBY, ULTA, DLTR, DG, XOM, CVX \u2014 mega_caps",
-          "GCUSD, USO, BZUSD, UUP, BTCUSD, EURUSD \u2014 cross_asset",
-          "Treasury year10: 4.64, spread_2s10s: 0.47 \u2014 treasury",
-          "ANF +35.7% \u2014 liquid_gainers",
-          "economic_calendar events \u2014 estimates only, no actuals"
+          "^GSPC: 7,730.99, +0.7% \u2014 FMP indexes",
+          "^IXIC: 26,541.35, +1.6% \u2014 FMP indexes",
+          "^DJI: 53,569.44, +0.2% \u2014 FMP indexes",
+          "^RUT: 3,014.34, +0.3% \u2014 FMP indexes",
+          "NVDA: 227.98, +8.7% \u2014 FMP mega_caps",
+          "CRM: 252.05, +22.6% \u2014 FMP mega_caps",
+          "^VIX: 14.50, \u22120.1% \u2014 FMP indexes",
+          "GCUSD: 4,656.50, \u22120.2% \u2014 FMP cross_asset",
+          "BZUSD: 88.07, \u22120.5% \u2014 FMP cross_asset",
+          "USO: 130.01, +2.1% \u2014 FMP cross_asset",
+          "BTCUSD: 79,393.59, \u22121.1% \u2014 FMP cross_asset",
+          "Treasury year2/year10/spread_2s10s: 4.19 / 4.66 / 0.47 \u2014 FMP treasury",
+          "Chicago PMI calendar entry \u2014 FMP economic_calendar"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026",
+        "source_notes": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-08-27",
-    "generated_at": "2026-08-27T03:19:35-04:00",
-    "draft_path": "drafts/2026-08-27-week-ahead.md",
+    "session_date": "2026-08-28",
+    "generated_at": "2026-08-28T05:33:18-04:00",
+    "draft_path": "drafts/2026-08-28-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Jackson Hole runs through Aug. 28",
+        "title": "Shein lists in Hong Kong Sept. 1",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Jackson Hole is scheduled for Aug. 28 (US calendar, high impact).\n\nIt is the annual gathering where central bankers and economists speak on inflation, jobs, and the cost of borrowing \u2014 not a single data print, but a full day of remarks that can move rate expectations.\n\nThe window in this feed runs through the week ending Aug. 28.\n\nWhat do you usually watch first from Jackson Hole \u2014 the chair\u2019s speech or the side comments?",
+        "body": "Shein is set for a Hong Kong trading debut on Sept. 1.\n\nHong Kong Exchanges and Clearing said it will allow short selling of Shein shares after listing, and will list weekly and monthly options and derivative warrants on the name.\n\nThat schedule marks when public two-way trading\u2014and listed hedging tools\u2014begin for the fast-fashion retailer\u2019s Hong Kong shares.\n\nWhich part of the listing setup do you track first: the open, or the new derivatives?",
         "skip_reason": "",
         "supporting_data": [
-          "Event: Jackson Hole Symposium \u2014 source: FMP economic_calendar",
-          "Date: 2026-08-28 \u2014 source: FMP economic_calendar",
-          "Impact: High \u2014 source: FMP economic_calendar",
-          "Country: US \u2014 source: FMP economic_calendar"
+          "Shein trading debut date: Sept. 1 \u2014 [source: Reuters \u2014 Hong Kong exchange Shein derivatives](https://www.reuters.com/business/retail-consumer/hong-kong-exchange-launch-shein-derivatives-after-trading-debut-next-week-2026-08-28/)"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://www.reuters.com/business/retail-consumer/hong-kong-exchange-launch-shein-derivatives-after-trading-debut-next-week-2026-08-28/",
+        "source_notes": "https://www.reuters.com/business/retail-consumer/hong-kong-exchange-launch-shein-derivatives-after-trading-debut-next-week-2026-08-28/"
       },
       {
-        "title": "Chicago PMI due Aug. 28 at 1:45 p.m.",
+        "title": "Warsh Jackson Hole talk at 10 a.m. ET",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Chicago PMI (Aug) \u2014 Aug. 28, 1:45 p.m.\nET.\n\nConsensus: 57.0.\n\nPrior reading: 57.6.\n\nThe index tracks manufacturing orders and production around Chicago; it is a mid-impact US release in this calendar.\n\nWhich regional print do you treat as the best early read on factories \u2014 Chicago or something else?",
+        "body": "Fed Chair Kevin Warsh is scheduled for a Jackson Hole keynote at 10 a.m.\nET on Aug. 28.\n\nCoverage ahead of the slot cites his debut appearance at the symposium and attention on U.S. consumer inflation and the interest-rate path.\n\nThe speech is a fixed time on the calendar\u2014not a forecast\u2014when the chair\u2019s remarks become public.\n\nWhat do you look for first in a Jackson Hole address: inflation wording or rate-path language?",
         "skip_reason": "",
         "supporting_data": [
-          "Event: Chicago PMI (Aug) \u2014 source: FMP economic_calendar",
-          "Estimate: 57 \u2014 source: FMP economic_calendar",
-          "Previous: 57.6 \u2014 source: FMP economic_calendar",
-          "Date/time: 2026-08-28 13:45:00 \u2014 source: FMP economic_calendar",
-          "Impact: Medium \u2014 source: FMP economic_calendar"
+          "Jackson Hole keynote time: 10 a.m.\nET \u2014 [source: WSJ live coverage](https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026)",
+          "Session date (U.S. market context): 2026-08-28 \u2014 [source: FMP_DATA session_date]"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026",
+        "source_notes": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026"
       },
       {
-        "title": "Aug. 27 claims near 208K, trade gap est.",
+        "title": "U.S.\u2013China talks ahead of Xi visit",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Aug. 27, 8:30 a.m.\nET \u2014 labor and trade prints land together.\n\nInitial jobless claims (week of Aug. 22):\n\n- Estimate: 208K\n- Prior: 206K\n\n4-week average:\n\n- Estimate: 203K\n- Prior: 204K\n\nContinuing claims (Aug. 15):\n\n- Estimate: 1,790K\n- Prior: 1,799K\n\nGoods trade balance (Jul):\n\n- Estimate: \u2212$99B\n- Prior: \u2212$101.4B\n\nClaims measure how many people filed for unemployment benefits; the goods trade figure is exports minus imports in goods only.\n\nDo you weight the weekly claims more, or the goods trade gap, for your week-ahead checklist?",
+        "body": "U.S. and Chinese officials are proceeding with preparations for Chinese President Xi Jinping\u2019s trip to the U.S. next month, per Thursday reporting.\n\nThe same coverage notes U.S. President Donald Trump told reporters he could sanction Chinese banks, with meetings continuing around the planned visit.\n\nThe open item on the calendar is when visit details and any policy steps are confirmed\u2014not how markets react.\n\nWhich milestone do you watch first: visit dates or official statements on sanctions?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial Jobless Claims estimate: 208 (K) \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims previous: 206 (K) \u2014 source: FMP economic_calendar",
-          "Jobless Claims 4-Week Average estimate: 203 (K) \u2014 source: FMP economic_calendar",
-          "Jobless Claims 4-Week Average previous: 204 (K) \u2014 source: FMP economic_calendar",
-          "Continuing Jobless Claims estimate: 1790 (K) \u2014 source: FMP economic_calendar",
-          "Continuing Jobless Claims previous: 1799 (K) \u2014 source: FMP economic_calendar",
-          "Goods Trade Balance (Jul) estimate: -99 (B USD) \u2014 source: FMP economic_calendar",
-          "Goods Trade Balance (Jul) previous: -101.4 (B USD) \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-08-27 12:30:00 \u2014 source: FMP economic_calendar"
+          "Xi Washington visit: planned for next month (no day in feed) \u2014 [source: CNBC](https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sanctions.html)"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sands.html",
+        "source_notes": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sands.html"
       }
     ]
   }

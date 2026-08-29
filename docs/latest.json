@@ -1,193 +1,206 @@
 {
-  "updated_at": "2026-08-28T05:33:18-04:00",
+  "updated_at": "2026-08-29T01:39:27-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-08-28",
-    "generated_at": "2026-08-28T05:32:01-04:00",
-    "draft_path": "drafts/2026-08-28-am.md",
+    "session_date": "2026-08-29",
+    "generated_at": "2026-08-29T01:38:27-04:00",
+    "draft_path": "drafts/2026-08-29-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Warsh\u2019s first Jackson Hole speech at 10 a.m. ET",
+        "title": "Warsh puts inflation first; S&P \u22120.2% at close",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Fed Chair Kevin Warsh\u2019s first Jackson Hole keynote is scheduled for 10 a.m.\nET today.\n\nCoverage ahead of the speech describes U.S. stock futures as mixed and Treasury yields as little changed.\n\nThe 10-year Treasury yield was last marked at 4.7% on Aug. 26.\n\nThe gap between 2-year (4.2%) and 10-year yields was 0.47 percentage points on that same snapshot.\n\nThe CBOE Volatility Index finished the prior session at 14.5, down 0.1%.\n\nWhat line from a Fed chair at Jackson Hole do you remember most?",
+        "body": "The S&P 500 closed at 7,711.76, down 0.2% (\u221219.23 pts) on the session.\n\nCoverage tied the move to Warsh\u2019s Jackson Hole message: inflation remains central to the Fed\u2019s job, with bond yields moving up and stocks slipping after that tone.\n\n- ^GSPC (S&P 500): \u22120.2% to 7,711.76  \n- ^IXIC (Nasdaq): \u22120.5% to 26,402.42  \n- 10-year Treasury yield: 4.7% (FMP treasury snapshot dated 2026-08-27)\n\nJackson Hole is still on the calendar as a high-impact U.S. event for 2026-08-29.\n\nWhat part of the Fed\u2019s inflation framing stood out most to you from the headlines?",
         "skip_reason": "",
         "supporting_data": [
-          "10-year Treasury yield: 4.7% \u2014 [source: FMP treasury]",
-          "2-year Treasury yield: 4.2% \u2014 [source: FMP treasury]",
-          "2s10s spread: 0.47 \u2014 [source: FMP treasury]",
-          "VIX: 14.5 (-0.1%) \u2014 [source: FMP indexes ^VIX]",
-          "Treasury snapshot date: 2026-08-26 \u2014 [source: FMP treasury]"
+          "S&P 500 close: 7,711.76 \u2014 indexes.^GSPC, session 2026-08-29",
+          "S&P 500 change: \u22120.2% (\u221219.23) \u2014 indexes.^GSPC",
+          "Nasdaq close: 26,402.42 \u2014 indexes.^IXIC",
+          "Nasdaq change: \u22120.5% \u2014 indexes.^IXIC, changesPercentage",
+          "10-year Treasury: 4.7% \u2014 treasury.year10, date 2026-08-27"
         ],
-        "source_url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026",
-        "source_notes": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026"
+        "source_url": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f",
+        "source_notes": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f"
       },
       {
-        "title": "Trump raises bank-sanction talk as Xi visit prep continues",
+        "title": "U.S.\u2013Venezuela oil deal: 65B+ barrels cited",
         "status": "ready",
         "kind": "x_idea",
-        "body": "U.S. President Donald Trump said Thursday he could impose sanctions on Chinese banks, according to CNBC\u2019s report on the U.S.\u2013China relationship.\n\nThe same reporting notes that U.S. and Chinese officials are still moving ahead with plans for President Xi Jinping\u2019s trip to the U.S. next month.\n\nThe headline frames sharper rhetoric from Washington alongside continued meeting preparation.\n\nNo new U.S. economic release in the injected calendar is tied to this story.\n\nWhich part of U.S.\u2013China headlines do you track first \u2014 trade, banks, or diplomacy?",
+        "body": "Headlines Friday described a U.S. oil agreement with Venezuela, including language about securing more than 65 billion barrels of oil reserves.\n\nReuters and CNBC framed it as Trump announcing the deal; Sky News reported talk of partial U.S. control of a fifth of Venezuela\u2019s oil reserves.\n\nOn the same U.S. session, Brent crude settled at 88.10, down 0.5%.\n\nThat is the policy headline from the feed \u2014 not a price forecast.\n\nWhich detail mattered more to you: the reserve size in the reports, or how energy prices traded that session?",
         "skip_reason": "",
         "supporting_data": [
-          "Report date context: published 2026-08-27 \u2014 [source: FMP news CNBC]",
-          "Session date: 2026-08-28 \u2014 [source: FMP session_date]"
+          "Brent crude: 88.10 \u2014 cross_asset.brent",
+          "Brent change: \u22120.5% \u2014 cross_asset.brent, changesPercentage",
+          "Brent prior close: 88.52 \u2014 cross_asset.brent"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sanctions.html",
-        "source_notes": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sanctions.html"
+        "source_url": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html",
+        "source_notes": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html"
       },
       {
-        "title": "French borrowing costs at 2008-crisis highs",
+        "title": "Gold \u22122.9%; Russell 2000 \u22121.4%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "French government borrowing costs have reached their highest level since the 2008 global financial crisis, per CNBC International\u2019s report.\n\nFrench stocks hit a one-month low in the same coverage.\n\nThe story ties the move to the first presidential debate before a key vote next year.\n\nFor U.S. readers, the piece sits alongside a day when global markets are also focused on the Fed\u2019s Jackson Hole forum.\n\nGermany exposure via the iShares MSCI Germany ETF ($EWG) closed up 0.6% at 44.58 in the prior session.\n\nThe FTSE 100 closed up 0.2% at 10,814.57.\n\nDo you follow European bond yields when reading U.S. macro news?",
+        "body": "Gold futures finished at 4,529.90, down 2.9% (\u2212134.10) for the session.\n\nThe Russell 2000 closed at 2,972.37, down 1.4% (\u221241.97) \u2014 a wider drop than the S&P 500\u2019s 0.2% decline on the same close.\n\n- GCUSD (gold): \u22122.9% to 4,529.90  \n- ^RUT (Russell 2000): \u22121.4% to 2,972.37  \n- ^GSPC (S&P 500): \u22120.2% to 7,711.76\n\nThe VIX ended at 14.43, down 0.6% on the day.\n\nNo single headline in the injected feed tied gold\u2019s move to one cause; the numbers are the prior-session print.\n\nDo you watch small caps or gold first when macro days like Jackson Hole land on the calendar?",
         "skip_reason": "",
         "supporting_data": [
-          "$EWG price: 44.58 (+0.6%) \u2014 [source: FMP overseas ^GDAXI proxy EWG]",
-          "FTSE 100: 10,814.57 (+0.2%) \u2014 [source: FMP overseas ^FTSE]"
+          "Gold futures: 4,529.90 \u2014 cross_asset.gold",
+          "Gold change: \u22122.9% \u2014 cross_asset.gold, changesPercentage",
+          "Gold point change: \u2212134.10 \u2014 cross_asset.gold",
+          "Russell 2000: 2,972.37 \u2014 indexes.^RUT",
+          "Russell change: \u22121.4% \u2014 indexes.^RUT, changesPercentage",
+          "S&P 500: 7,711.76, \u22120.2% \u2014 indexes.^GSPC",
+          "VIX: 14.43, \u22120.6% \u2014 indexes.^VIX"
         ],
-        "source_url": "https://www.youtube.com/watch?v=7i7Gi7wvp50",
-        "source_notes": "https://www.youtube.com/watch?v=7i7Gi7wvp50"
+        "source_url": "https://www.barrons.com/articles/stockstoday-warsh-inflation-jackson-hole-9e430e7f",
+        "source_notes": "https://www.barrons.com/articles/stockstoday-warsh-inflation-jackson-hole-9e430e7f"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-08-28",
-    "generated_at": "2026-08-28T05:32:37-04:00",
-    "draft_path": "drafts/2026-08-28.md",
+    "session_date": "2026-08-29",
+    "generated_at": "2026-08-29T01:39:02-04:00",
+    "draft_path": "drafts/2026-08-29.md",
     "errors": [],
     "slots": [
       {
-        "title": "Nasdaq +1.6% as Nvidia closes up 8.7%",
+        "title": "Nasdaq \u22120.5% as chips slide after Warsh",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$NVDA closed +8.7% at 227.98 (+18.32).\n\nThe session high was 230.47 on volume near 297.2M shares.\n\nThe Nasdaq Composite finished +1.6% at 26,541.35 (+411.15).\n\nThe S&P 500 rose +0.7% to 7,730.99 (+55.29).\n\nCoverage framed the index move as a narrow lift, with Nvidia carrying a large share of the advance.\n\nWhich megacap chip name moved your watchlist most on the close?",
+        "body": "The Nasdaq Composite closed at 26,402.42, down 0.5% (\u2212138.93 points) on the session.\n\nCoverage tied the pullback to Chair Kevin Warsh\u2019s Jackson Hole remarks and a firmer read on inflation and rates.\n\nSemiconductor and chip-equipment names were among the heavier megcap declines:\n\n- $NVDA \u22124.6% to 217.55\n- $AMD \u22122.3% to 465.58\n- $TSM \u22122.3% to 417.52\n- $ASML \u22122.2% to 1,696.16\n\nThe S&P 500 finished at 7,711.76, down 0.2%.\n\nWhich large-cap name stood out most in your watchlist today?",
         "skip_reason": "",
         "supporting_data": [
-          "NVDA changesPercentage: 8.7% \u2014 FMP mega_caps / EOD",
-          "NVDA price: 227.98 \u2014 FMP mega_caps",
-          "NVDA change: 18.32 \u2014 FMP mega_caps",
-          "NVDA dayHigh: 230.47 \u2014 FMP mega_caps",
-          "NVDA volume: 297,197,891 \u2014 FMP mega_caps",
-          "^IXIC changesPercentage: 1.6% \u2014 FMP indexes",
-          "^IXIC price: 26,541.35 \u2014 FMP indexes",
-          "^IXIC change: 411.15 \u2014 FMP indexes",
-          "^GSPC changesPercentage: 0.7% \u2014 FMP indexes",
-          "^GSPC price: 7,730.99 \u2014 FMP indexes"
+          "Nasdaq Composite close: 26,402.42 (\u22120.5%) \u2014 FMP index ^IXIC",
+          "NVIDIA close: 217.55 (\u22124.6%) \u2014 FMP mega_caps NVDA",
+          "AMD close: 465.58 (\u22122.3%) \u2014 FMP mega_caps AMD",
+          "TSM close: 417.52 (\u22122.3%) \u2014 FMP mega_caps TSM",
+          "ASML close: 1,696.16 (\u22122.2%) \u2014 FMP mega_caps ASML",
+          "S&P 500 close: 7,711.76 (\u22120.2%) \u2014 FMP index ^GSPC"
         ],
-        "source_url": "https://seekingalpha.com/article/4941103-nvidia-picks-up-slack",
-        "source_notes": "https://seekingalpha.com/article/4941103-nvidia-picks-up-slack"
+        "source_url": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f",
+        "source_notes": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f"
       },
       {
-        "title": "Salesforce jumps 22.6% to 252.05",
+        "title": "Apple +1.6% to 319.70 at the close",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$CRM closed +22.6% at 252.05 (+46.43).\n\nPrior close: 205.62.\n\nDay range: 230.05 low to 254.45 high.\n\nVolume: about 55.4M shares.\n\nAmong liquid NYSE/NASDAQ names in the screen, that was the biggest percentage gain outside leveraged ETFs.\n\nDid you track this move on fundamentals, flow, or something else?",
+        "body": "$AAPL closed at 319.70, up 1.6% (+5.12) for the day.\n\nThe session range ran from 315.45 to 322.37 on 38.5M shares.\n\nOn the same close, the Nasdaq Composite was down 0.5% to 26,402.42.\n\nMegacap chip names posted declines:\n\n- $NVDA \u22124.6% to 217.55\n- $AMD \u22122.3% to 465.58\n\nDoes a green Apple day while semis are red change how you read the tape?",
         "skip_reason": "",
         "supporting_data": [
-          "CRM changesPercentage: 22.6% \u2014 FMP mega_caps / liquid_gainers",
-          "CRM price: 252.05 \u2014 FMP mega_caps",
-          "CRM change: 46.43 \u2014 FMP mega_caps",
-          "CRM previousClose: 205.62 \u2014 FMP mega_caps",
-          "CRM dayLow: 230.05 \u2014 FMP mega_caps",
-          "CRM dayHigh: 254.45 \u2014 FMP mega_caps",
-          "CRM volume: 55,409,963 \u2014 FMP mega_caps"
+          "Apple close: 319.70 (+1.6%) \u2014 FMP mega_caps AAPL",
+          "Apple day high / low: 322.37 / 315.45 \u2014 FMP mega_caps AAPL",
+          "Apple volume: 38,500,185 \u2014 FMP mega_caps AAPL",
+          "Nasdaq Composite: 26,402.42 (\u22120.5%) \u2014 FMP index ^IXIC",
+          "NVIDIA: 217.55 (\u22124.6%) \u2014 FMP mega_caps NVDA",
+          "AMD: 465.58 (\u22122.3%) \u2014 FMP mega_caps AMD"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/CRM",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/CRM"
+        "source_url": "https://www.barrons.com/articles/stockstoday-warsh-inflation-jackson-hole-9e430e7f",
+        "source_notes": "https://www.barrons.com/articles/stockstoday-warsh-inflation-jackson-hole-9e430e7f"
       },
       {
-        "title": "Chip and software peers lift with Broadcom +4.5%",
+        "title": "Russell 2000 \u22121.4% vs flat Dow",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Semiconductor and platform names led part of the tech tape:\n\n- $AVGO +4.5% to 371.54\n- $TSM +2.3% to 427.30\n- $INTC +4.4% to 92.09\n- $MSFT +1.8% to 505.06\n\nNASDAQ Technology sector average change: +0.6%.\n\n$NVDA +8.7% to 227.98 was the largest megacap chip move in the set.\n\nWhich link in the chain\u2014foundry, GPU, or platform\u2014stood out to you?",
+        "body": "The Russell 2000 closed at 2,972.37, down 1.4% (\u221241.97 points).\n\nThe index touched 2,972.37 as the session low.\n\nBy comparison:\n\n- $^GSPC \u22120.2% to 7,711.76\n- $^IXIC \u22120.5% to 26,402.42\n- Dow Jones Industrial Average \u22120.0% to 53,559.99\n\nThe CBOE Volatility Index (VIX) closed at 14.43, down 0.6% on the day.\n\nWhen small caps underperform this much, what do you check first \u2014 rates, earnings, or something else?",
         "skip_reason": "",
         "supporting_data": [
-          "AVGO changesPercentage: 4.5% \u2014 FMP mega_caps",
-          "AVGO price: 371.54 \u2014 FMP mega_caps",
-          "TSM changesPercentage: 2.3% \u2014 FMP mega_caps",
-          "TSM price: 427.30 \u2014 FMP mega_caps",
-          "INTC changesPercentage: 4.4% \u2014 FMP actives",
-          "INTC price: 92.09 \u2014 FMP actives",
-          "MSFT changesPercentage: 1.8% \u2014 FMP mega_caps",
-          "MSFT price: 505.06 \u2014 FMP mega_caps",
-          "Technology sector averageChange: 0.6% \u2192 0.6% \u2014 FMP sectors",
-          "NVDA changesPercentage: 8.7% \u2014 FMP mega_caps",
-          "NVDA price: 227.98 \u2014 FMP mega_caps"
+          "Russell 2000 close: 2,972.37 (\u22121.4%) \u2014 FMP index ^RUT",
+          "Russell 2000 session low: 2,972.37 \u2014 FMP index ^RUT",
+          "S&P 500: 7,711.76 (\u22120.2%) \u2014 FMP index ^GSPC",
+          "Nasdaq Composite: 26,402.42 (\u22120.5%) \u2014 FMP index ^IXIC",
+          "Dow Jones: 53,559.99 (\u22120.0%) \u2014 FMP index ^DJI",
+          "VIX: 14.43 (\u22120.6%) \u2014 FMP index ^VIX"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/sector-performance",
-        "source_notes": "https://financialmodelingprep.com/api/v3/sector-performance"
+        "source_url": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f",
+        "source_notes": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f"
       },
       {
-        "title": "US cash session recap \u2014 Aug. 28, 2026",
+        "title": "US cash session \u2014 Aug. 28, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 finished at 7,730.99, up 55.29 points (+0.7%), with an intraday range of 7,689.89 to 7,741.27.\n\nThe Nasdaq Composite closed at 26,541.35, up 411.15 points (+1.6%), reaching a session high of 26,553.90.\n\nThe Dow Jones Industrial Average added 105.56 points (+0.2%) to 53,569.44.\n\nThe Russell 2000 rose +0.3% to 3,014.34.\n\nNVIDIA closed +8.7% at 227.98 on volume near 297.2M shares, the dominant megacap move in the injected set.\n\nSalesforce finished +22.6% at 252.05, from a prior close of 205.62, with volume about 55.4M shares.\n\nOther large tech and chip names included Microsoft +1.8% to 505.06, Broadcom +4.5% to 371.54, Taiwan Semiconductor +2.3% to 427.30, Oracle +2.0% to 151.92, and Intel +4.4% to 92.09.\n\nMegacap decliners in the data included Amazon \u22121.5% to 256.26, UnitedHealth \u22121.5% to 395.05, Costco \u22122.2% to 934.66, and Alibaba \u22122.9% to 116.31.\n\nAmong NASDAQ sector averages, Consumer Defensive lagged at \u22121.2%, Real Estate \u22120.8%, and Communication Services \u22120.2%.\n\nHealthcare (+0.4%), Technology (+0.6%), Utilities (+0.5%), and Energy (+0.4%) posted positive average sector changes in the injected screen.\n\nThe CBOE Volatility Index settled at 14.50, down 0.1% from 14.51.\n\nGold futures (GCUSD) were \u22120.2% at 4,656.50; Brent crude (BZUSD) \u22120.5% at 88.07; the United States Oil Fund (USO) +2.1% at 130.01.\n\nBitcoin USD closed \u22121.1% at 79,393.59.\n\nTreasury yield snapshot dated 2026-08-26 in the data showed the 2-year at 4.2%, 10-year at 4.7%, and the 2s10s spread at 0.47 percentage points.\n\nThe economic calendar listed US Chicago PMI (Aug) for 2026-08-28 13:45:00 with estimate 57.0 and previous 57.6; no actual print appeared in the injected close bundle.\n\nHeadlines ahead of the session highlighted US stock futures as mixed and Treasury yields steady while investors awaited Fed Chair Kevin Warsh\u2019s Jackson Hole appearance.\n\nOverseas indexes in the bundle included Nikkei 225 +0.4%, FTSE 100 +0.2%, and Hang Seng +0.1%.",
+        "body": "Fed Chair Kevin Warsh\u2019s Jackson Hole appearance dominated the narrative into the close, with headlines describing a harder focus on inflation and interest-rate expectations. U.S. equity indexes finished softer rather than sharply broken, but the leadership underneath was narrow.\n\nThe S&P 500 closed at 7,711.76, down 0.2% (\u221219.23 points), after trading between 7,700.91 and 7,771.48.\nThe benchmark stayed below its 52-week high of 7,816.70 printed in the index data.\n\nThe Nasdaq Composite lost 0.5%, ending at 26,402.42 (\u2212138.93), with a session range of 26,359.27 to 26,700.68.\nTech-heavy exposure showed up in the underperformance versus the Dow.\n\nThe Dow Jones Industrial Average was nearly flat at 53,559.99, down less than 0.1% (\u22129.45 points).\nThat divergence mattered: large industrials did not match the pressure seen in growth and chip names.\n\nSmall caps took the largest index hit among the U.S. benchmarks in the feed.\nThe Russell 2000 fell 1.4% to 2,972.37, with the low of day matching the closing print at 2,972.37.\n\nNVIDIA was the standout megacap mover by percentage among widely held names in the dataset, closing at 217.55, down 4.6% (\u221210.43).\nTrading interest showed up in the actives list alongside the raw price decline.\n\nChip and semiconductor supply-chain peers moved in the same direction as NVIDIA on the close: Advanced Micro Devices finished at 465.58 (\u22122.3%), Taiwan Semiconductor at 417.52 (\u22122.3%), and ASML at 1,696.16 (\u22122.2%).\n\nApple bucked the weak Nasdaq tone, rising 1.6% to 319.70.\nMeta Platforms gained 1.2% to 578.02, and Costco rose 1.2% to 945.47.\nTesla closed at 348.75, down 1.7%.\n\nFinancial megacaps were green on the session: Bank of America rose 1.9% to 62.32, and JPMorgan Chase gained 1.0% to 357.62.\nVisa and Mastercard were up 0.5% and 0.6%, respectively.\n\nEnergy-linked large caps were modestly higher: Chevron closed at 201.88 (+1.1%), and Exxon Mobil at 156.70 (+0.2%).\nHeadlines also carried President Trump\u2019s statements about a U.S.\u2013Venezuela oil agreement; the tape showed Brent crude at 88.10, down 0.5%, and the U.S. Oil Fund (USO) at 129.70, down 0.2%.\n\nGold futures (GC) fell 2.9% to 4,529.90, a \u2212134.10 move from the prior close of 4,664.00, with a session low of 4,495.00.\nThat sat alongside a firmer dollar read via the Invesco DB US Dollar Index Bullish Fund (UUP) at 28.18, up 0.6%.\n\nTreasury yields in the injected snapshot (dated 2026-08-27) showed the 10-year at 4.7% and the 2s10s spread at 0.47 percentage points.\nBitcoin USD was quoted at 77,694.66, down 0.2% on the session.\n\nThe VIX closed at 14.43, down 0.6%, with an intraday band of 14.13 to 14.84.\nOverseas indexes in the feed were mixed ahead of or outside the U.S. cash window, including the FTSE 100 up 0.3% and the Hang Seng down 0.3%.\n\nThe economic calendar flagged the Jackson Hole Symposium (high impact, U.S.) on 2026-08-29 in the data feed.\nNo earnings actuals were listed in the injected earnings calendar for this close.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,730.99, +0.7% \u2014 FMP indexes",
-          "^IXIC: 26,541.35, +1.6% \u2014 FMP indexes",
-          "^DJI: 53,569.44, +0.2% \u2014 FMP indexes",
-          "^RUT: 3,014.34, +0.3% \u2014 FMP indexes",
-          "NVDA: 227.98, +8.7% \u2014 FMP mega_caps",
-          "CRM: 252.05, +22.6% \u2014 FMP mega_caps",
-          "^VIX: 14.50, \u22120.1% \u2014 FMP indexes",
-          "GCUSD: 4,656.50, \u22120.2% \u2014 FMP cross_asset",
-          "BZUSD: 88.07, \u22120.5% \u2014 FMP cross_asset",
-          "USO: 130.01, +2.1% \u2014 FMP cross_asset",
-          "BTCUSD: 79,393.59, \u22121.1% \u2014 FMP cross_asset",
-          "Treasury year2/year10/spread_2s10s: 4.19 / 4.66 / 0.47 \u2014 FMP treasury",
-          "Chicago PMI calendar entry \u2014 FMP economic_calendar"
+          "S&P 500: 7,711.76 (\u22120.2%) \u2014 FMP index ^GSPC",
+          "Nasdaq Composite: 26,402.42 (\u22120.5%) \u2014 FMP index ^IXIC",
+          "Dow Jones: 53,559.99 (\u22120.0%) \u2014 FMP index ^DJI",
+          "Russell 2000: 2,972.37 (\u22121.4%) \u2014 FMP index ^RUT",
+          "NVIDIA: 217.55 (\u22124.6%) \u2014 FMP mega_caps NVDA",
+          "Gold GCUSD: 4,529.90 (\u22122.9%) \u2014 FMP cross_asset gold",
+          "VIX: 14.43 (\u22120.6%) \u2014 FMP index ^VIX",
+          "10-year Treasury: 4.7% \u2014 FMP treasury",
+          "Brent: 88.10 (\u22120.5%) \u2014 FMP cross_asset brent"
         ],
-        "source_url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026",
-        "source_notes": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026"
+        "source_url": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f",
+        "source_notes": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-08-28",
-    "generated_at": "2026-08-28T05:33:18-04:00",
-    "draft_path": "drafts/2026-08-28-week-ahead.md",
+    "session_date": "2026-08-29",
+    "generated_at": "2026-08-29T01:39:27-04:00",
+    "draft_path": "drafts/2026-08-29-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Shein lists in Hong Kong Sept. 1",
+        "title": "August jobs data lands Friday at 12:30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Shein is set for a Hong Kong trading debut on Sept. 1.\n\nHong Kong Exchanges and Clearing said it will allow short selling of Shein shares after listing, and will list weekly and monthly options and derivative warrants on the name.\n\nThat schedule marks when public two-way trading\u2014and listed hedging tools\u2014begin for the fast-fashion retailer\u2019s Hong Kong shares.\n\nWhich part of the listing setup do you track first: the open, or the new derivatives?",
+        "body": "Friday, Sept. 4, 12:30 p.m.\nET: the August jobs report.\n\nNonfarm payrolls \u2014 total hiring across the economy minus farms \u2014 carry a consensus of +45K jobs.\n\nJuly printed \u221223K.\n\nUnemployment rate estimate: 4.2% (July: 4.1%).\n\nPrivate payrolls estimate: +50K (July: +30K).\n\nAverage hourly earnings: +0.2% month over month and +3.3% year over year (estimates).\n\nThe broader U-6 rate \u2014 unemployed plus underemployed \u2014 is estimated at 8.0% (July: 7.9%).\n\nSame release window: manufacturing payrolls (+7K est.) and government payrolls (\u221223K est.).\n\nWhat part of the jobs bundle do you track first on payroll Friday?",
         "skip_reason": "",
         "supporting_data": [
-          "Shein trading debut date: Sept. 1 \u2014 [source: Reuters \u2014 Hong Kong exchange Shein derivatives](https://www.reuters.com/business/retail-consumer/hong-kong-exchange-launch-shein-derivatives-after-trading-debut-next-week-2026-08-28/)"
+          "Non Farm Payrolls (Aug) estimate: 45K \u2014 source: FMP economic_calendar",
+          "Non Farm Payrolls (Aug) previous: \u221223K \u2014 source: FMP economic_calendar",
+          "Unemployment Rate (Aug) estimate: 4.2% \u2014 source: FMP economic_calendar",
+          "Unemployment Rate (Aug) previous: 4.1% \u2014 source: FMP economic_calendar",
+          "Nonfarm Payrolls Private (Aug) estimate: 50K \u2014 source: FMP economic_calendar",
+          "Average Hourly Earnings MoM (Aug) estimate: 0.2% \u2014 source: FMP economic_calendar",
+          "Average Hourly Earnings YoY (Aug) estimate: 3.3% \u2014 source: FMP economic_calendar",
+          "U-6 Unemployment Rate (Aug) estimate: 8% \u2014 source: FMP economic_calendar",
+          "Release date/time: 2026-09-04 12:30:00 US \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.reuters.com/business/retail-consumer/hong-kong-exchange-launch-shein-derivatives-after-trading-debut-next-week-2026-08-28/",
-        "source_notes": "https://www.reuters.com/business/retail-consumer/hong-kong-exchange-launch-shein-derivatives-after-trading-debut-next-week-2026-08-28/"
+        "source_url": "https://seekingalpha.com/article/4941419-us-ipoaggreko-4-others-file-papers-ahead-of-labor-day-holiday",
+        "source_notes": "https://seekingalpha.com/article/4941419-us-ipoaggreko-4-others-file-papers-ahead-of-labor-day-holiday"
       },
       {
-        "title": "Warsh Jackson Hole talk at 10 a.m. ET",
+        "title": "$AVGO reports Tuesday, EPS est. 3.22",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Fed Chair Kevin Warsh is scheduled for a Jackson Hole keynote at 10 a.m.\nET on Aug. 28.\n\nCoverage ahead of the slot cites his debut appearance at the symposium and attention on U.S. consumer inflation and the interest-rate path.\n\nThe speech is a fixed time on the calendar\u2014not a forecast\u2014when the chair\u2019s remarks become public.\n\nWhat do you look for first in a Jackson Hole address: inflation wording or rate-path language?",
+        "body": "$AVGO (Broadcom) reports Tuesday, Sept. 2.\n\nEPS estimate: $3.22.\n\nRevenue estimate: about $29.24B.\n\nSame week, other dated prints from the calendar:\n\n- $PANW \u2014 Monday, Sept. 1; EPS est. $0.98; revenue est. about $3.35B\n- $DELL \u2014 Monday, Sept. 1; EPS est. $4.91; revenue est. about $44.93B\n- $SNOW \u2014 Tuesday, Sept. 2; EPS est. $0.45; revenue est. about $1.48B\n- $HPE \u2014 Tuesday, Sept. 2; EPS est. $0.93; revenue est. about $11.95B\n- $MDB \u2014 Monday, Sept. 1; EPS est. $1.62; revenue est. about $735M\n\nEach report resolves after the company posts; estimates are what analysts modeled ahead of the release.\n\nWhich Tuesday name is on your calendar besides Broadcom?",
         "skip_reason": "",
         "supporting_data": [
-          "Jackson Hole keynote time: 10 a.m.\nET \u2014 [source: WSJ live coverage](https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026)",
-          "Session date (U.S. market context): 2026-08-28 \u2014 [source: FMP_DATA session_date]"
+          "AVGO date: 2026-09-02 \u2014 source: FMP earnings_calendar",
+          "AVGO epsEstimated: 3.22 \u2014 source: FMP earnings_calendar",
+          "AVGO revenueEstimated: 29240910000 (~$29.24B) \u2014 source: FMP earnings_calendar",
+          "PANW epsEstimated: 0.977 \u2014 source: FMP earnings_calendar",
+          "DELL epsEstimated: 4.91 \u2014 source: FMP earnings_calendar",
+          "SNOW epsEstimated: 0.45 \u2014 source: FMP earnings_calendar",
+          "HPE epsEstimated: 0.93 \u2014 source: FMP earnings_calendar",
+          "MDB epsEstimated: 1.62 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026",
-        "source_notes": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026"
+        "source_url": "https://seekingalpha.com/article/4941419-us-ipoaggreko-4-others-file-papers-ahead-of-labor-day-holiday",
+        "source_notes": "https://seekingalpha.com/article/4941419-us-ipoaggreko-4-others-file-papers-ahead-of-labor-day-holiday"
       },
       {
-        "title": "U.S.\u2013China talks ahead of Xi visit",
+        "title": "ISM services PMI due Wednesday 2 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "U.S. and Chinese officials are proceeding with preparations for Chinese President Xi Jinping\u2019s trip to the U.S. next month, per Thursday reporting.\n\nThe same coverage notes U.S. President Donald Trump told reporters he could sanction Chinese banks, with meetings continuing around the planned visit.\n\nThe open item on the calendar is when visit details and any policy steps are confirmed\u2014not how markets react.\n\nWhich milestone do you watch first: visit dates or official statements on sanctions?",
+        "body": "Wednesday, Sept. 3, 2:00 p.m.\nET: ISM Services PMI for August.\n\nEstimate: 53.8.\n\nJuly reading: 54.1.\n\nAbove 50 = expansion in services; below 50 = contraction.\n\nSame release: ISM services prices estimate 66.0 (July: 70.3) \u2014 a gauge of what surveyed firms say they are paying.\n\nWednesday, 12:30 p.m.\nET: initial jobless claims for the week of Aug. 29.\n\nEstimate: 203K (unchanged vs. prior 203K).\n\nFour-week average estimate: 205K (prior: 205.5K).\n\nContinuing claims (Aug. 22 week) estimate: 1,816K (prior: 1,778K).\n\nTuesday, Sept. 2, 12:15 p.m.\nET: ADP private payroll estimate +59K (July: +44K) \u2014 a separate count of private hiring before the official Friday jobs number.\n\nDo you lean on ISM services or claims more midweek?",
         "skip_reason": "",
         "supporting_data": [
-          "Xi Washington visit: planned for next month (no day in feed) \u2014 [source: CNBC](https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sanctions.html)"
+          "ISM Services PMI (Aug) date: 2026-09-03 14:00:00 \u2014 source: FMP economic_calendar",
+          "ISM Services PMI (Aug) estimate: 53.8 \u2014 source: FMP economic_calendar",
+          "ISM Services PMI (Aug) previous: 54.1 \u2014 source: FMP economic_calendar",
+          "ISM Services Prices (Aug) estimate: 66 \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims (Aug/29) estimate: 203K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims (Aug/22) estimate: 1816K \u2014 source: FMP economic_calendar",
+          "ADP Employment Change (Aug) estimate: 59K \u2014 source: FMP economic_calendar",
+          "ADP date: 2026-09-02 12:15:00 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sands.html",
-        "source_notes": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sands.html"
+        "source_url": "https://seekingalpha.com/article/4941419-us-ipoaggreko-4-others-file-papers-ahead-of-labor-day-holiday",
+        "source_notes": "https://seekingalpha.com/article/4941419-us-ipoaggreko-4-others-file-papers-ahead-of-labor-day-holiday"
       }
     ]
   }

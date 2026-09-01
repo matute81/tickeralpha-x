@@ -1,216 +1,221 @@
 {
-  "updated_at": "2026-08-30T23:39:30-04:00",
+  "updated_at": "2026-08-31T23:35:16-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-08-30",
-    "generated_at": "2026-08-30T23:38:12-04:00",
-    "draft_path": "drafts/2026-08-30-am.md",
+    "session_date": "2026-08-31",
+    "generated_at": "2026-08-31T23:34:22-04:00",
+    "draft_path": "drafts/2026-08-31-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "China PMI 49.8 beats 49.6 forecast",
+        "title": "ISM manufacturing 55.2 est. at 2 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "China\u2019s August manufacturing PMI: 49.8.\n\nEconomists polled by Reuters had expected 49.6.\n\nA reading below 50 means factory activity is still contracting \u2014 just not as sharply as feared.\n\nThe print landed as Asian indexes were already reacting to tighter U.S. rate expectations after Fed commentary at Jackson Hole.\n\nWhich regional data point are you tracking this week?",
+        "body": "ISM Manufacturing PMI for August is on the calendar at 2:00 p.m.\nET.\n\nConsensus: 55.2.\n\nPrior reading: 55.6.\n\nA reading above 50 means more factories report growth than contraction\u2014that is the plain-English line on the index.\n\nSame release window: JOLTs job openings for July.\n\nEstimate: 7.3M openings.\n\nPrevious: 7.4M (7.359M in the feed).\n\nThat pair ties factory demand to how many roles employers still had unfilled.\n\nU.S. equity benchmarks finished Aug. 31 lower ahead of the prints:\n- $SPY proxy ^GSPC -0.3% to 7,685.01\n- ^DJI -0.7% to 53,185.90\n\nWhich number do you watch first\u2014factory PMI or job openings?",
         "skip_reason": "",
         "supporting_data": [
-          "China official PMI (August): 49.8 \u2014 source: CNBC news in FMP_DATA (`https://www.cnbc.com/2026/08/31/china-pmi-august-economy-slowdown.html`)",
-          "PMI forecast: 49.6 \u2014 source: same",
-          "Hang Seng prior move: -0.6% to 25,421.26 \u2014 source: FMP indexes/overseas `^HSI`"
+          "ISM Manufacturing PMI (Aug) estimate: 55.2 \u2014 source: FMP `economic_calendar`",
+          "ISM Manufacturing PMI (Aug) previous: 55.6 \u2014 source: FMP `economic_calendar`",
+          "JOLTs Job Openings (Jul) estimate: 7.3M \u2014 source: FMP `economic_calendar`",
+          "JOLTs Job Openings (Jul) previous: 7.359M \u2014 source: FMP `economic_calendar`",
+          "^GSPC: 7,685.01, -0.3% \u2014 source: FMP `indexes`",
+          "^DJI: 53,185.90, -0.7% \u2014 source: FMP `indexes`"
         ],
-        "source_url": "https://www.cnbc.com/2026/08/31/china-pmi-august-economy-slowdown.html",
-        "source_notes": "https://www.cnbc.com/2026/08/31/china-pmi-august-economy-slowdown.html"
+        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-make-august-gains-nasdaqs-and-p-set-records-639b66a9",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-make-august-gains-nasdaqs-and-p-set-records-639b66a9"
       },
       {
-        "title": "Brent +2.3% after Larak Island strikes",
+        "title": "Brent at $91.13 after Hormuz strike",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude: +2.3% to $90.14.\n\nReuters and CNBC tied the move to U.S. strikes on two Iranian launchers on Larak Island on Sunday \u2014 the first known U.S. action on that Gulf route since late July.\n\nSupply-disruption headlines hit energy while gold futures were down 1.2% to $4,477.10 in the same cross-asset snapshot.\n\nHow are you weighing geopolitical oil headlines against the prior U.S. session?",
+        "body": "Brent crude closed at $91.13, up 0.7% in the feed.\n\nHeadline driver: a tanker struck while transiting eastbound through the Strait of Hormuz, with renewed U.S.\u2013Iran tension in the same news cycle.\n\nOil-exposed proxies in the cross-asset snapshot moved with crude:\n- Brent (BZUSD): $91.13, +0.7%\n- $USO: $133.70, +3.1%\n\nThe CBOE Volatility Index finished at 14.92, up 3.4% on Aug. 31.\n\nMajor U.S. indexes were down modestly into month-end:\n- ^GSPC: 7,685.01, -0.3%\n\nWhat do you track when shipping headlines hit\u2014Brent spot or an ETF like $USO?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude price: 90.14 \u2014 source: FMP cross_asset `BZUSD`",
-          "Brent change: +2.3% \u2014 source: FMP cross_asset `changesPercentage`",
-          "Gold futures: 4,477.10, -1.2% \u2014 source: FMP cross_asset `GCUSD`"
+          "Brent (BZUSD) price: 91.13 \u2014 source: FMP `cross_asset.brent`",
+          "Brent changesPercentage: 0.7% \u2014 source: FMP `cross_asset.brent`",
+          "USO price: 133.70 \u2014 source: FMP `cross_asset.wti` (USO entry)",
+          "USO changesPercentage: 3.1% \u2014 source: FMP `cross_asset.wti`",
+          "^VIX: 14.92, +3.4% \u2014 source: FMP `indexes`",
+          "^GSPC: 7,685.01, -0.3% \u2014 source: FMP `indexes`"
         ],
-        "source_url": "https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/",
-        "source_notes": "https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/"
+        "source_url": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html",
+        "source_notes": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html"
       },
       {
-        "title": "Bessent flags weekly Iran bank sanctions",
+        "title": "Hang Seng -1.1% as Shein debuts",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Scott Bessent said the Treasury Department expects new U.S. secondary sanctions roughly every week, with an initial focus on banks, in an interview reported Sunday.\n\nThe headline landed alongside a separate energy story: oil up more than 2% after U.S. forces struck launchers on Iran\u2019s Larak Island.\n\nOn the U.S. calendar for Monday, the Dallas Fed manufacturing index for August is due at 2:30 p.m.\nET \u2014 prior reading 1.3, consensus 0.7 in FMP\u2019s calendar.\n\nWhat policy headline is on your radar before the Dallas Fed print?",
+        "body": "Hang Seng: 25,292.29, -1.1% in the overseas block.\n\nFast-fashion retailer Shein began trading in Hong Kong after a long-awaited IPO, with multiple outlets reporting shares lower in early dealing.\n\nCNBC cited roughly a 7% drop in the debut session; WSJ framed regulatory headwinds and slowing sales against a prior valuation near $66 billion.\n\nRegional benchmark context in the same feed:\n- ^N225: 66,050.33, -0.4%\n- ^FTSE: 10,824.26, +0.3%\n\nU.S. session date in the pack: 2026-08-31, with ^IXIC -0.1% to 26,370.89 at the close.\n\nWhen a mega IPO stumbles overseas, do you look at the local index or sector peers first?",
         "skip_reason": "",
         "supporting_data": [
-          "Dallas Fed Manufacturing Index (Aug) estimate: 0.7 \u2014 source: FMP `economic_calendar`",
-          "Dallas Fed previous: 1.3 \u2014 source: FMP `economic_calendar`",
-          "Event time: 2026-08-31 14:30:00 US \u2014 source: FMP `economic_calendar`",
-          "Brent crude: +2.3% to 90.14 \u2014 source: FMP cross_asset `BZUSD`"
+          "^HSI price: 25,292.29 \u2014 source: FMP `overseas`",
+          "^HSI changesPercentage: -1.1% \u2014 source: FMP `overseas`",
+          "^N225: 66,050.33, -0.4% \u2014 source: FMP `overseas`",
+          "^FTSE: 10,824.26, +0.3% \u2014 source: FMP `overseas`",
+          "^IXIC: 26,370.89, -0.1% \u2014 source: FMP `indexes`"
         ],
-        "source_url": "https://www.reuters.com/business/finance/bessent-expects-new-us-secondary-sanctions-weekly-aiming-increase-pressure-iran-2026-08-30/",
-        "source_notes": "https://www.reuters.com/business/finance/bessent-expects-new-us-secondary-sanctions-weekly-aiming-increase-pressure-iran-2026-08-30/"
+        "source_url": "https://www.cnbc.com/2026/09/01/shein-ipo-market-debut-hong-kong.html",
+        "source_notes": "https://www.cnbc.com/2026/09/01/shein-ipo-market-debut-hong-kong.html"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-08-30",
-    "generated_at": "2026-08-30T23:38:58-04:00",
-    "draft_path": "drafts/2026-08-30.md",
+    "session_date": "2026-08-31",
+    "generated_at": "2026-08-31T23:34:47-04:00",
+    "draft_path": "drafts/2026-08-31.md",
     "errors": [],
     "slots": [
       {
-        "title": "Russell 2000 down 1.4% as large caps hold",
+        "title": "California utility shares fall on liability fight",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Russell 2000 closed down 1.4% at 2,972.37, off 41.97 points from the prior session.\n\nThe Dow Jones Industrial Average finished down 0.0% at 53,559.99.\n\nThe S&P 500 lost 0.2% to 7,711.76.\n\nThe Nasdaq Composite fell 0.5% to 26,402.42.\n\nThat gap \u2014 small caps lagging while the Dow barely moved \u2014 fits a session where high-volume megacaps mixed and chip-linked names were under pressure.\n\nWhich part of the cap spectrum stood out most in your watchlist today?",
+        "body": "$EIX closed down 23.1% at 53.98.\n\n$PCG closed down 20.1% at 13.27.\n\nCoverage pointed to California lawmakers pushing back on a proposal to limit how much utilities owe after wildfire damage.\n\nBoth names were among the session\u2019s largest liquid decliners by percentage.\n\nWhich part of the wildfire-liability debate are you tracking closest?",
         "skip_reason": "",
         "supporting_data": [
-          "Russell 2000: -1.4% (2,972.37) \u2014 FMP indexes ^RUT",
-          "Russell 2000 point change: -41.97 \u2014 FMP indexes ^RUT",
-          "Dow Jones: 0.0% (53,559.99) \u2014 FMP indexes ^DJI",
-          "S&P 500: -0.2% (7,711.76) \u2014 FMP indexes ^GSPC",
-          "Nasdaq Composite: -0.5% (26,402.42) \u2014 FMP indexes ^IXIC"
+          "EIX change: -23.1% \u2014 mega_caps / liquid_losers (FMP)",
+          "EIX price: 53.98 \u2014 mega_caps (FMP)",
+          "PCG change: -20.1% \u2014 liquid_losers (FMP)",
+          "PCG price: 13.27 \u2014 liquid_losers (FMP)"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/the-sudden-unraveling-of-wall-streets-momentum-trade-fe79b4fa",
-        "source_notes": "https://www.wsj.com/finance/stocks/the-sudden-unraveling-of-wall-streets-momentum-trade-fe79b4fa"
+        "source_url": "https://www.wsj.com/us-news/who-pays-for-wildfire-damage-california-cant-agree-45ad8ea6",
+        "source_notes": "https://www.wsj.com/us-news/who-pays-for-wildfire-damage-california-cant-agree-45ad8ea6"
       },
       {
-        "title": "Salesforce adds 1.6% after prior surge",
+        "title": "Brent above $91 as Hormuz tanker report hits tape",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$CRM closed up 1.6% at $256.00.\n\nVolume was 34.3 million shares.\n\nThe stock\u2019s day range ran from $249.00 to $263.53.\n\nThat move came as commentary in the market highlighted enterprise software names alongside chip stocks after a run of clearing events that included recent megacap earnings and macro speeches.\n\nDid you track $CRM for the follow-through session rather than the initial spike?",
+        "body": "Brent settled at 91.13, up 0.7% on the session.\n\nHeadlines cited a tanker hit by projectiles transiting the Strait of Hormuz and renewed focus on shipping risk in the region.\n\nLarge U.S. oil names moved with crude:\n\n- $XOM +2.7% to 160.98\n- $CVX +2.1% to 206.15\n\nThe oil ETF proxy $USO rose 3.1% to 133.70.\n\nHow are you reading the link between shipping headlines and energy stocks this week?",
         "skip_reason": "",
         "supporting_data": [
-          "CRM price: 256.00 \u2014 FMP mega_caps CRM",
-          "CRM change: +3.95 \u2014 FMP mega_caps CRM",
-          "CRM changesPercentage: +1.6% \u2014 FMP mega_caps CRM",
-          "CRM day low / day high: 249.00 / 263.53 \u2014 FMP mega_caps CRM",
-          "CRM volume: 34,320,234 \u2014 FMP mega_caps CRM"
+          "Brent price: 91.13 \u2014 cross_asset.brent (FMP)",
+          "Brent changesPercentage: 0.7% \u2014 cross_asset.brent (FMP)",
+          "XOM changesPercentage: 2.7% \u2014 mega_caps (FMP)",
+          "XOM price: 160.98 \u2014 mega_caps (FMP)",
+          "CVX changesPercentage: 2.1% \u2014 mega_caps (FMP)",
+          "CVX price: 206.15 \u2014 mega_caps (FMP)",
+          "USO changesPercentage: 3.1% \u2014 cross_asset.wti (FMP)",
+          "USO price: 133.70 \u2014 cross_asset.wti (FMP)"
         ],
-        "source_url": "https://seekingalpha.com/article/4941611-tech-rallies-in-september-im-adding-software-and-chip-stocks",
-        "source_notes": "https://seekingalpha.com/article/4941611-tech-rallies-in-september-im-adding-software-and-chip-stocks"
+        "source_url": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html",
+        "source_notes": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html"
       },
       {
-        "title": "Elastic jumps 19.3% in software group",
+        "title": "SAIC EPS $3.01 beats $2.31 estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$ESTC closed up 19.3% at $99.91.\n\nOther megacap session moves in the same broad bucket:\n\n- $GOOGL +1.7% to $346.59\n- $GOOG +1.5% to $342.88\n- $NFLX +2.4% to $81.72\n\nChip-equipment megacap $ASML closed down 2.2% at $1,696.16 on the same day.\n\nWhat software or data name had the clearest volume behind the move in your feed?",
+        "body": "$SAIC reported EPS of 3.01 versus an estimate of 2.31.\n\nRevenue came in at 1.88B versus an estimate of about 1.76B.\n\nThe stock closed up 1.8% at 128.22.\n\nDay range: 127.10 to 141.18.\n\nDo you follow defense and government IT names around the print, or mostly the megacaps?",
         "skip_reason": "",
         "supporting_data": [
-          "ESTC changesPercentage: +19.3% \u2014 FMP liquid_gainers",
-          "ESTC price: 99.91 \u2014 FMP liquid_gainers",
-          "GOOGL: +1.7% (346.59) \u2014 FMP mega_caps GOOGL",
-          "GOOG: +1.5% (342.88) \u2014 FMP mega_caps GOOG",
-          "NFLX: +2.4% (81.72) \u2014 FMP mega_caps NFLX",
-          "ASML: -2.2% (1,696.16) \u2014 FMP mega_caps ASML"
+          "SAIC epsActual: 3.01 \u2014 earnings_calendar (FMP)",
+          "SAIC epsEstimated: 2.31 \u2014 earnings_calendar (FMP)",
+          "SAIC revenueActual: 1880000000 \u2014 earnings_calendar (FMP)",
+          "SAIC revenueEstimated: 1764077000 \u2014 earnings_calendar (FMP)",
+          "SAIC changesPercentage: 1.8% \u2014 mega_caps (FMP)",
+          "SAIC price: 128.22 \u2014 mega_caps (FMP)",
+          "SAIC dayLow: 127.10 \u2014 mega_caps (FMP)",
+          "SAIC dayHigh: 141.18 \u2014 mega_caps (FMP)"
         ],
-        "source_url": "https://seekingalpha.com/article/4941611-tech-rallies-in-september-im-adding-software-and-chip-stocks",
-        "source_notes": "https://seekingalpha.com/article/4941611-tech-rallies-in-september-im-adding-software-and-chip-stocks"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "US cash session recap \u2014 Aug. 30, 2026",
+        "title": "US cash session recap \u2014 Aug. 31, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Russell 2000 fell 1.4% to 2,972.37, the largest percentage decline among the major U.S. equity indexes in the session, while the Dow Jones Industrial Average was nearly flat at 53,559.99 (down 0.0%).\n\nThe S&P 500 slipped 0.2% to 7,711.76 and the Nasdaq Composite lost 0.5% to 26,402.42, so the growth-heavy benchmark bore more of the session\u2019s weakness than the large-cap blue-chip average.\n\nNVIDIA was among the most active symbols by volume, closing down 4.6% at $217.55 on 194.8 million shares, after a prior session that had seen a sharp upward repricing.\n\nAmazon.com finished up 4.0% at $266.43 with 49.5 million shares traded, making it one of the strongest megacap performers on a red index day.\n\nSalesforce rose 1.6% to $256.00, Alphabet Class A gained 1.7% to $346.59, Netflix added 2.4% to $81.72, and Mastercard ticked up 0.6% to $595.30.\n\nFinancial megacaps also closed higher: Bank of America up 1.9% to $62.32 and JPMorgan Chase up 1.0% to $357.62.\n\nOn the weak side among large liquid names, ASML lost 2.2% to $1,696.16, Tesla fell 1.7% to $348.75, and Oracle slipped 0.8% to $150.72.\n\nElastic N.V. stood out in the liquid gainers screen, up 19.3% to $99.91; PG&E closed down 7.5% at $16.60 among actives.\n\nNo U.S. economic releases were listed in the session calendar payload for this close bundle.\n\nTreasury snapshot dated 2026-08-28 showed the 10-year yield at 4.7% and the 2s10s spread at 0.39 percentage points.\n\nThe CBOE Volatility Index edged down 0.6% to 14.43.\n\nGold futures fell 1.2% to $4,476.00; the U.S. dollar proxy (UUP) rose 0.6% to $28.18; Brent crude rose 2.3% to $90.14; Bitcoin USD was up 0.1% at $77,772.62.\n\nOverseas indexes in the bundle included the Nikkei 225 down 1.6% at 65,361.60, the Hang Seng down 0.6% at 25,421.00, and the FTSE 100 up 0.3% at 10,824.26.\n\nHeadlines in the feed tied oil to supply concerns after U.S. forces struck Iranian rocket launchers on Larak Island, with Brent back above $90 in that reporting, while separate coverage linked Asian equity weakness and chip stocks to firmer U.S. rate-hike expectations after Fed commentary.",
+        "body": "The S&P 500 closed at 7,685.01, down 0.3% (26.75 points).\nThe Dow Jones Industrial Average lost 0.7%, finishing at 53,185.90.\nThe Nasdaq Composite was off 0.1% at 26,370.89.\nThe Russell 2000 fell 0.5% to 2,956.45.\n\nThe CBOE Volatility Index rose 3.4% to 14.92, with an intraday high of 15.48.\n\nBrent crude settled at 91.13 (+0.7%).\nGold futures were little changed at 4,483.80 (+0.1%).\nThe U.S. oil fund proxy $USO rose 3.1% to 133.70.\nBitcoin was up 0.1% at 78,647.15.\nThe dollar proxy $UUP slipped 0.2% to 28.12.\nEUR/USD held near 1.16.\n\nTreasury yields in the injected snapshot (dated 2026-08-28) showed the 10-year at 4.7% and the 2s10s spread at 0.39.\n\nOn the calendar, the Dallas Fed Manufacturing Index for August printed at 11.6 versus a 0.7 estimate (prior 1.3).\nThree- and six-month bill auction results were also released late in the session.\n\nSector averages on Nasdaq showed healthcare up about 1.3% and real estate up about 1.1%.\nCommunication services lagged, down about 1.0%.\nConsumer cyclical names averaged up about 0.9%; energy down about 0.6% despite gains in several large oil stocks.\n\nCalifornia utility shares led large percentage declines after coverage of lawmakers balking at wildfire liability limits: $EIX -23.1% to 53.98 and $PCG -20.1% to 13.27.\n\nEnergy majors moved higher with crude: $XOM +2.7% to 160.98 and $CVX +2.1% to 206.15.\n\nAmong megacaps, $TSLA rose 5.5% to 367.95.\n$AMZN fell 2.5% to 259.77.\n$GOOG fell 2.2% to 335.41.\n$NVDA gained 1.5% to 220.78.\n$META was down 1.0% at 572.34.\n\n$SAIC reported results with EPS 3.01 vs 2.31 estimated and revenue above the estimate; the stock closed up 1.8% at 128.22.\n\nOverseas indexes in the data included the Hang Seng down 1.2% and the Nikkei 225 off 0.4%; the FTSE 100 was up 0.3%.",
         "skip_reason": "",
         "supporting_data": [
-          "^RUT: -1.4% (2,972.37) \u2014 FMP indexes ^RUT",
-          "^DJI: 0.0% (53,559.99) \u2014 FMP indexes ^DJI",
-          "^GSPC: -0.2% (7,711.76) \u2014 FMP indexes ^GSPC",
-          "^IXIC: -0.5% (26,402.42) \u2014 FMP indexes ^IXIC",
-          "NVDA: -4.6% (217.55), volume 194,792,961 \u2014 FMP mega_caps NVDA",
-          "AMZN: +4.0% (266.43) \u2014 FMP mega_caps AMZN",
-          "CRM: +1.6% (256.00) \u2014 FMP mega_caps CRM",
-          "GOOGL: +1.7% (346.59) \u2014 FMP mega_caps GOOGL",
-          "NFLX: +2.4% (81.72) \u2014 FMP mega_caps NFLX",
-          "MA: +0.6% (595.30) \u2014 FMP mega_caps MA",
-          "BAC: +1.9% (62.32) \u2014 FMP mega_caps BAC",
-          "JPM: +1.0% (357.62) \u2014 FMP mega_caps JPM",
-          "ASML: -2.2% (1,696.16) \u2014 FMP mega_caps ASML",
-          "TSLA: -1.7% (348.75) \u2014 FMP mega_caps TSLA",
-          "ORCL: -0.8% (150.72) \u2014 FMP mega_caps ORCL",
-          "ESTC: +19.3% (99.91) \u2014 FMP liquid_gainers",
-          "PCG: -7.5% (16.60) \u2014 FMP actives",
-          "Treasury 10y: 4.7%, spread_2s10s: 0.39 \u2014 FMP treasury",
-          "^VIX: -0.6% (14.43) \u2014 FMP indexes ^VIX",
-          "GCUSD: -1.2% (4,476.00) \u2014 FMP cross_asset gold",
-          "UUP: +0.6% (28.18) \u2014 FMP cross_asset dxy",
-          "BZUSD: +2.3% (90.14) \u2014 FMP cross_asset brent",
-          "BTCUSD: +0.1% (77,772.62) \u2014 FMP cross_asset btc",
-          "^N225: -1.6% (65,361.60) \u2014 FMP overseas ^N225",
-          "^HSI: -0.6% (25,421.00) \u2014 FMP overseas ^HSI",
-          "^FTSE: +0.3% (10,824.26) \u2014 FMP overseas ^FTSE"
+          "^GSPC: 7,685.01, -0.3% \u2014 indexes (FMP)",
+          "^DJI: 53,185.90, -0.7% \u2014 indexes (FMP)",
+          "^IXIC: 26,370.89, -0.1% \u2014 indexes (FMP)",
+          "^RUT: 2,956.45, -0.5% \u2014 indexes (FMP)",
+          "^VIX: 14.92, +3.4% \u2014 indexes (FMP)",
+          "Brent: 91.13, +0.7% \u2014 cross_asset (FMP)",
+          "GCUSD: 4,483.80, +0.1% \u2014 cross_asset (FMP)",
+          "USO: 133.70, +3.1% \u2014 cross_asset (FMP)",
+          "Dallas Fed actual 11.6 vs estimate 0.7 \u2014 economic_calendar (FMP)",
+          "EIX/PCG/XOM/CVX/TSLA/AMZN/GOOG/NVDA/META/SAIC \u2014 mega_caps, liquid_losers, earnings_calendar (FMP)",
+          "Sector averageChange values \u2014 sectors (FMP)",
+          "Treasury year10 4.73, spread_2s10s 0.39 \u2014 treasury (FMP)"
         ],
-        "source_url": "https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/",
-        "source_notes": "https://www.reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/"
+        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-make-august-gains-nasdaqs-and-p-set-records-639b66a9",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-make-august-gains-nasdaqs-and-p-set-records-639b66a9"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-08-30",
-    "generated_at": "2026-08-30T23:39:30-04:00",
-    "draft_path": "drafts/2026-08-30-week-ahead.md",
+    "session_date": "2026-08-31",
+    "generated_at": "2026-08-31T23:35:16-04:00",
+    "draft_path": "drafts/2026-08-31-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "JOLTs 7.39M estimate Monday at 2 p.m.",
+        "title": "August payrolls print Friday at 12:30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Monday, Sept. 1, at 2:00 p.m.\nET: two U.S. labor and factory prints land back to back.\n\nJOLTs job openings for July carry a 7.39M estimate; the prior reading was 7.36M.\n\nThat series tracks how many jobs are open nationwide\u2014useful for seeing whether hiring demand is still broad.\n\nSame release window: ISM Manufacturing PMI for August is estimated at 55.3, down from 55.6.\n\nReadings above 50 mean more factories reporting expansion than contraction.\n\nISM Manufacturing employment for August is estimated at 52.5; prior was 52.8.\n\nWeek window: Aug. 31\u2013Sept. 4.\n\nWhat do you watch first on Monday\u2014openings or the factory PMI?",
+        "body": "August nonfarm payrolls land Friday, Sep. 4, at 12:30 p.m.\nET.\n\nConsensus: +58K jobs.\nPrior print: -23K.\n\nSame release: unemployment rate (estimate 4.1%, prior 4.1%) and the broader U-6 jobless rate (estimate 8.0%, prior 7.9%).\n\nAverage hourly earnings YoY: estimate 3.0%, prior 3.2%.\n\nPrivate payrolls estimate: 58K, prior 30K.\n\nThat bundle is the main hard read on how many people employers added and what workers are being paid.\n\nWhat part of the report do you track first \u2014 the headline job count or the wage line?",
         "skip_reason": "",
         "supporting_data": [
-          "JOLTs Job Openings (Jul) estimate: 7.39M \u2014 source: FMP economic_calendar",
-          "JOLTs Job Openings (Jul) previous: 7.36M \u2014 source: FMP economic_calendar",
-          "ISM Manufacturing PMI (Aug) estimate: 55.3 \u2014 source: FMP economic_calendar",
+          "Non Farm Payrolls (Aug) estimate: 58K \u2014 source: FMP economic_calendar",
+          "Non Farm Payrolls (Aug) previous: -23K \u2014 source: FMP economic_calendar",
+          "Unemployment Rate (Aug) estimate: 4.1% \u2014 source: FMP economic_calendar",
+          "U-6 Unemployment Rate (Aug) estimate: 8.0% \u2014 source: FMP economic_calendar",
+          "U-6 Unemployment Rate (Aug) previous: 7.9% \u2014 source: FMP economic_calendar",
+          "Average Hourly Earnings YoY (Aug) estimate: 3.0% \u2014 source: FMP economic_calendar",
+          "Average Hourly Earnings YoY (Aug) previous: 3.2% \u2014 source: FMP economic_calendar",
+          "Nonfarm Payrolls Private (Aug) estimate: 58K \u2014 source: FMP economic_calendar",
+          "Release time: 2026-09-04 12:30:00 ET \u2014 source: FMP economic_calendar"
+        ],
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+      },
+      {
+        "title": "Factory activity gauge due Monday at 2 p.m.",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "ISM Manufacturing PMI (Aug) \u2014 Monday, Sep. 1, 2:00 p.m.\nET.\n\nEstimate: 55.2.\nPrior: 55.6.\n\nThe index summarizes orders, production, and employment at U.S. factories; above 50 points to expansion, below 50 to contraction.\n\nSame release window includes ISM Manufacturing Employment (estimate 52.5, prior 52.8) and ISM Manufacturing Prices (estimate 72.0, prior 71.1), which track hiring and input costs on the factory floor.\n\nJob openings for July (JOLTs) are also scheduled Monday at 2:00 p.m., estimate 7.3M, prior 7.359M.\n\nWhich Monday print do you watch closer \u2014 the PMI headline or job openings?",
+        "skip_reason": "",
+        "supporting_data": [
+          "ISM Manufacturing PMI (Aug) estimate: 55.2 \u2014 source: FMP economic_calendar",
           "ISM Manufacturing PMI (Aug) previous: 55.6 \u2014 source: FMP economic_calendar",
           "ISM Manufacturing Employment (Aug) estimate: 52.5 \u2014 source: FMP economic_calendar",
           "ISM Manufacturing Employment (Aug) previous: 52.8 \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-09-01 14:00:00 ET \u2014 source: FMP economic_calendar"
+          "ISM Manufacturing Prices (Aug) estimate: 72.0 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing Prices (Aug) previous: 71.1 \u2014 source: FMP economic_calendar",
+          "JOLTs Job Openings (Jul) estimate: 7.3M \u2014 source: FMP economic_calendar",
+          "JOLTs Job Openings (Jul) previous: 7.359M \u2014 source: FMP economic_calendar",
+          "Release time (manufacturing/JOLTs): 2026-09-01 14:00:00 ET \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "ADP August jobs estimate 47K Tuesday",
+        "title": "Services PMI and claims hit Wednesday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Tuesday, Sept. 2, 12:15 p.m.\nET: ADP Employment Change for August.\n\nConsensus estimate: +47K private-sector jobs.\n\nPrior ADP reading: +44K.\n\nADP is a separate count from the official government payroll report\u2014it measures hiring at private employers before Friday\u2019s Bureau of Labor Statistics release.\n\nFriday\u2019s official nonfarm payrolls estimate is +45K, with July at -23K on that series.\n\nSame week, several large companies report results; the calendar is dense midweek.\n\nWhich number do you treat as the warm-up\u2014ADP Tuesday or claims Wednesday?",
+        "body": "Wednesday, Sep. 3, 12:30 p.m.\nET \u2014 initial jobless claims (Aug/29).\n\nEstimate: 205K.\nPrior: 203K.\n\n4-week average estimate: 205K, prior 205.5K.\n\nContinuing claims (Aug/22): estimate 1,816K, prior 1,778K.\n\nSame day, 2:00 p.m.\nET \u2014 ISM Services PMI (Aug).\n\nEstimate: 54.3.\nPrior: 54.1.\n\nThat survey covers the large \u201cservices\u201d slice of the economy \u2014 everything outside manufacturing.\n\nAlso on the calendar: ISM Services Business Activity estimate 59.0 (prior 59.1) and ISM Services Prices estimate 66.0 (prior 70.3).\n\n$MDB reports earnings Monday (EPS estimate 1.62).\n$NTAP reports Tuesday (EPS estimate 2.12).\n$CIEN reports Wednesday (EPS estimate 1.73).\n\nDo you treat Wednesday as a claims day, a services-PMI day, or an earnings day for names on the calendar?",
         "skip_reason": "",
         "supporting_data": [
-          "ADP Employment Change (Aug) estimate: 47K \u2014 source: FMP economic_calendar",
-          "ADP Employment Change (Aug) previous: 44K \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-09-02 12:15:00 ET \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Aug) estimate: 45K \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Jul) previous: -23K \u2014 source: FMP economic_calendar"
+          "Initial Jobless Claims (Aug/29) estimate: 205K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims (Aug/29) previous: 203K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 205K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims (Aug/22) estimate: 1816K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims (Aug/22) previous: 1778K \u2014 source: FMP economic_calendar",
+          "ISM Services PMI (Aug) estimate: 54.3 \u2014 source: FMP economic_calendar",
+          "ISM Services PMI (Aug) previous: 54.1 \u2014 source: FMP economic_calendar",
+          "ISM Services Business Activity (Aug) estimate: 59.0 \u2014 source: FMP economic_calendar",
+          "ISM Services Prices (Aug) estimate: 66.0 \u2014 source: FMP economic_calendar",
+          "ISM Services Prices (Aug) previous: 70.3 \u2014 source: FMP economic_calendar",
+          "$MDB epsEstimated: 1.62 \u2014 source: FMP earnings_calendar",
+          "$NTAP epsEstimated: 2.12 \u2014 source: FMP earnings_calendar",
+          "$CIEN epsEstimated: 1.73 \u2014 source: FMP earnings_calendar",
+          "Claims release: 2026-09-03 12:30:00 ET \u2014 source: FMP economic_calendar",
+          "ISM Services release: 2026-09-03 14:00:00 ET \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
-      },
-      {
-        "title": "August payrolls estimate 45K Friday 12:30",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "Friday, Sept. 4, 12:30 p.m.\nET: the August employment report.\n\nHeadline nonfarm payrolls estimate: +45K.\n\nJuly prior on that line: -23K.\n\nUnemployment rate estimate: 4.2%; prior: 4.1%.\n\nPrivate payrolls (subset) estimate: +50K; prior: +30K.\n\nAverage hourly earnings, year over year: +3.3% estimated; prior +3.2%.\n\nAverage hourly earnings, month over month: +0.2% estimated; prior +0.1%.\n\nU-6 unemployment (includes discouraged and part-time for economic reasons): 8.0% estimated; prior 7.9%.\n\nThe bundle resolves hiring, joblessness, and pay in one release.\n\nWhich line in the jobs report do you read first\u2014payrolls, unemployment, or wages?",
-        "skip_reason": "",
-        "supporting_data": [
-          "Non Farm Payrolls (Aug) estimate: 45K \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Jul) previous: -23K \u2014 source: FMP economic_calendar",
-          "Unemployment Rate (Aug) estimate: 4.2% \u2014 source: FMP economic_calendar",
-          "Unemployment Rate (Jul) previous: 4.1% \u2014 source: FMP economic_calendar",
-          "Nonfarm Payrolls Private (Aug) estimate: 50K \u2014 source: FMP economic_calendar",
-          "Nonfarm Payrolls Private (Jul) previous: 30K \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings YoY (Aug) estimate: 3.3% \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings YoY (Jul) previous: 3.2% \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings MoM (Aug) estimate: 0.2% \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings MoM (Jul) previous: 0.1% \u2014 source: FMP economic_calendar",
-          "U-6 Unemployment Rate (Aug) estimate: 8.0% \u2014 source: FMP economic_calendar",
-          "U-6 Unemployment Rate (Jul) previous: 7.9% \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-09-04 12:30:00 ET \u2014 source: FMP economic_calendar"
-        ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       }
     ]
   }

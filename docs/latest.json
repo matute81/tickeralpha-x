@@ -1,227 +1,224 @@
 {
-  "updated_at": "2026-09-01T22:53:41-04:00",
+  "updated_at": "2026-09-03T22:56:09-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-01",
-    "generated_at": "2026-09-01T22:52:42-04:00",
-    "draft_path": "drafts/2026-09-01-am.md",
+    "session_date": "2026-09-03",
+    "generated_at": "2026-09-03T22:55:20-04:00",
+    "draft_path": "drafts/2026-09-03-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Factory PMI 54.6 missed 55.2 forecast",
+        "title": "ISM services PMI 55.4 beats 54.3 estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August ISM manufacturing PMI: **54.6** vs **55.2** expected (July **55.6**).\n\nNew orders **53.7** vs **56.0** expected.\n\nEmployment **51.2** vs **52.5** expected \u2014 still above 50, which separates expansion from contraction.\n\nU.S. indexes closed lower the same session:\n- $SPY proxy ^GSPC **-0.7%** to **7,632.60**\n- Nasdaq ^IXIC **-1.0%** to **26,099.77**\n- Russell 2000 ^RUT **-1.2%** to **2,920.13**\n\nThe fear gauge ^VIX **+9.5%** to **16.34**.\n\nWhat factory line are you watching most ahead of payrolls data later this week?",
+        "body": "August ISM Services PMI: **55.4** (forecast **54.3**, prior **54.1**).\n\nThat keeps the headline gauge in expansion territory \u2014 anything above 50 means more firms reporting growth than shrinkage in services, which cover most of U.S. jobs outside factories.\n\nNew orders: **60.9** vs **57.0** expected.\n\nPrices paid: **72.6** vs **66.0** expected (prior **70.3**).\n\nEmployment subindex: **47.8** vs **51.8** expected \u2014 still below 50, so more respondents reported fewer hires than more.\n\nBusiness activity: **61.7** vs **59.0** expected.\n\nWhich subindex \u2014 orders, prices, or hiring \u2014 matters most to you ahead of tomorrow\u2019s payroll report?",
         "skip_reason": "",
         "supporting_data": [
-          "ISM Manufacturing PMI (Aug) actual: 54.6 \u2014 FMP economic calendar",
-          "ISM Manufacturing PMI estimate: 55.2 \u2014 FMP economic calendar",
-          "ISM Manufacturing PMI previous: 55.6 \u2014 FMP economic calendar",
-          "ISM Manufacturing New Orders actual: 53.7 \u2014 FMP economic calendar",
-          "ISM Manufacturing New Orders estimate: 56 \u2014 FMP economic calendar",
-          "ISM Manufacturing Employment actual: 51.2 \u2014 FMP economic calendar",
-          "ISM Manufacturing Employment estimate: 52.5 \u2014 FMP economic calendar",
-          "^GSPC price: 7,632.60 \u2014 FMP indexes",
-          "^GSPC changesPercentage: -0.7% \u2014 FMP indexes",
-          "^IXIC changesPercentage: -1.0% \u2014 FMP indexes",
-          "^RUT changesPercentage: -1.2% \u2014 FMP indexes",
-          "^VIX price: 16.34 \u2014 FMP indexes",
-          "^VIX changesPercentage: +9.5% \u2014 FMP indexes"
+          "ISM Services PMI (Aug) actual: 55.4 \u2014 source: FMP economic_calendar",
+          "ISM Services PMI estimate: 54.3 \u2014 source: FMP economic_calendar",
+          "ISM Services PMI previous: 54.1 \u2014 source: FMP economic_calendar",
+          "ISM Services New Orders actual: 60.9 \u2014 source: FMP economic_calendar",
+          "ISM Services New Orders estimate: 57 \u2014 source: FMP economic_calendar",
+          "ISM Services Prices actual: 72.6 \u2014 source: FMP economic_calendar",
+          "ISM Services Prices estimate: 66 \u2014 source: FMP economic_calendar",
+          "ISM Services Employment actual: 47.8 \u2014 source: FMP economic_calendar",
+          "ISM Services Employment estimate: 51.8 \u2014 source: FMP economic_calendar",
+          "ISM Services Business Activity actual: 61.7 \u2014 source: FMP economic_calendar",
+          "ISM Services Business Activity estimate: 59 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.barrons.com/articles/stockstoday-indexes-fall-bond-worries-iran-war-43922ed9",
-        "source_notes": "https://www.barrons.com/articles/stockstoday-indexes-fall-bond-worries-iran-war-43922ed9"
+        "source_url": "https://financialmodelingprep.com/developer/docs#economics-economics-data",
+        "source_notes": "https://financialmodelingprep.com/developer/docs#economics-economics-data"
       },
       {
-        "title": "Job openings 7.27M, quits below forecast",
+        "title": "Dow up 624 points after Waller rate talk",
         "status": "ready",
         "kind": "x_idea",
-        "body": "July **JOLTs** job openings: **7.27M** vs **7.30M** expected (June revised **7.18M**).\n\nQuits: **3.06M** vs **3.21M** expected (prior **3.21M**).\n\nOpenings still outnumber unemployed by a wide margin in this release \u2014 the question is whether quits keep cooling.\n\nSame day, S&P Global manufacturing PMI for August printed **53.9** vs **53.2** expected \u2014 a beat on that separate survey.\n\nDoes a sub-7.3M openings print change how you read labor tightness?",
+        "body": "Sep. 3 U.S. close, after Fed Governor Christopher Waller\u2019s comments on holding rates steady drew heavy coverage:\n\n- Dow Jones Industrial Average **+1.2%** to **53,686.11** (**+624.16** points)\n- S&P 500 **+1.1%** to **7,748.27**\n- Nasdaq Composite **+1.4%** to **26,584.06**\n- CBOE Volatility Index **-5.8%** to **14.32**\n\nThe session paired stronger large-cap indexes with a lower VIX \u2014 the index that tracks expected near-term stock swings.\n\nHeadlines tied the move to Waller\u2019s stance on keeping policy unchanged versus further hikes.\n\nHow are you weighing Fed commentary against tomorrow\u2019s jobs and wage prints?",
         "skip_reason": "",
         "supporting_data": [
-          "JOLTs Job Openings (Jul) actual: 7.271M \u2014 FMP economic calendar",
-          "JOLTs Job Openings estimate: 7.3M \u2014 FMP economic calendar",
-          "JOLTs Job Openings previous: 7.182M \u2014 FMP economic calendar",
-          "JOLTs Job Quits (Jul) actual: 3.056M \u2014 FMP economic calendar",
-          "JOLTs Job Quits estimate: 3.21M \u2014 FMP economic calendar",
-          "JOLTs Job Quits previous: 3.213M \u2014 FMP economic calendar",
-          "S&P Global Manufacturing PMI (Aug) actual: 53.9 \u2014 FMP economic calendar",
-          "S&P Global Manufacturing PMI estimate: 53.2 \u2014 FMP economic calendar"
+          "^DJI price: 53,686.11 \u2014 source: FMP indexes",
+          "^DJI changesPercentage: 1.2% \u2014 source: FMP indexes",
+          "^DJI change: 624.16 \u2014 source: FMP indexes",
+          "^GSPC price: 7,748.27 \u2014 source: FMP indexes",
+          "^GSPC changesPercentage: 1.1% \u2014 source: FMP indexes",
+          "^IXIC price: 26,584.06 \u2014 source: FMP indexes",
+          "^IXIC changesPercentage: 1.4% \u2014 source: FMP indexes",
+          "^VIX price: 14.32 \u2014 source: FMP indexes",
+          "^VIX changesPercentage: -5.8% \u2014 source: FMP indexes"
         ],
-        "source_url": "https://www.wsj.com/economy/the-bond-market-issues-world-leaders-a-failing-grade-621cf4dc",
-        "source_notes": "https://www.wsj.com/economy/the-bond-market-issues-world-leaders-a-failing-grade-621cf4dc"
+        "source_url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae",
+        "source_notes": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae"
       },
       {
-        "title": "Bessent: China alone blocked G-20 export line",
+        "title": "Jobless claims 206K; continuing claims 1.779M",
         "status": "ready",
         "kind": "x_idea",
-        "body": "At the G-20, Treasury Secretary Scott Bessent said China did **not** join language opposing \u201cnon-market based economies\u201d pushing \u201ccheap exports.\u201d\n\nHe pointed to China\u2019s large current account surplus as context for the split.\n\nSeparately, WSJ reported the summit closed with bond-market pressure, tariff disputes, and public friction among ministers \u2014 no shared fix on deficits or inflation in that coverage.\n\nU.S. session close (Sep. 1):\n- ^GSPC **7,632.60** (**-0.7%**)\n- 10-year Treasury yield **4.7%** (Aug. 28 snapshot)\n- 2s10s spread **0.39** percentage point\n\nWhich G-20 thread matters more for your macro read \u2014 trade language or bond yields?",
+        "body": "Sep. 3 labor filings (week of Aug. 29):\n\nInitial jobless claims: **206K** (forecast **205K**, prior **204K**).\n\nContinuing claims: **1,779K** (forecast **1,816K**, prior **1,771K**).\n\nFour-week average for initial claims: **207.25K** (forecast **205K**, prior **205.75K**).\n\nInitial claims count people filing for unemployment benefits for the first time; continuing claims count those still on benefits \u2014 both are weekly inputs before the monthly jobs report.\n\nTomorrow at **12:30 p.m.\nET**: August nonfarm payrolls (forecast **56K**, prior **-23K**), unemployment rate (forecast **4.1%**), and average hourly earnings.\n\nDo weekly claims or the monthly payroll number tell you more about the labor market right now?",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC price: 7,632.60 \u2014 FMP indexes",
-          "^GSPC changesPercentage: -0.7% \u2014 FMP indexes",
-          "Treasury year10: 4.73 \u2014 FMP treasury (date 2026-08-28)",
-          "Treasury spread_2s10s: 0.39 \u2014 FMP treasury"
+          "Initial Jobless Claims actual: 206 K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims estimate: 205 K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims previous: 204 K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims actual: 1779 K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims estimate: 1816 K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims previous: 1771 K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average actual: 207.25 K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 205 K \u2014 source: FMP economic_calendar",
+          "Non Farm Payrolls (Aug) estimate: 56 K \u2014 source: FMP economic_calendar",
+          "Non Farm Payrolls (Aug) previous: -23 K \u2014 source: FMP economic_calendar",
+          "Unemployment Rate (Aug) estimate: 4.1% \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html",
-        "source_notes": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html"
+        "source_url": "https://financialmodelingprep.com/developer/docs#economics-economics-data",
+        "source_notes": "https://financialmodelingprep.com/developer/docs#economics-economics-data"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-01",
-    "generated_at": "2026-09-01T22:53:21-04:00",
-    "draft_path": "drafts/2026-09-01.md",
+    "session_date": "2026-09-03",
+    "generated_at": "2026-09-03T22:55:44-04:00",
+    "draft_path": "drafts/2026-09-03.md",
     "errors": [],
     "slots": [
       {
-        "title": "Dell down 6.9% after EPS beat",
+        "title": "Dow Adds 624 Points After Waller Rate Pause Signal",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$DELL closed at 424.68, down 6.9% (-31.33) on the session.\n\nReported EPS was 7.04 versus a 4.91 estimate; revenue was about $46.97B versus roughly $44.89B estimated.\n\nThe print landed the same day the S&P 500 fell 0.7% and the Nasdaq fell 1.0%.\n\nHow much of today\u2019s move do you tie to the numbers versus the broader tape?",
+        "body": "The Dow Jones Industrial Average finished at 53,686.11, up 624.16 points (+1.2%).\n\nThe S&P 500 closed at 7,748.27 (+1.1%).\n\nThe Nasdaq Composite ended at 26,584.06 (+1.4%).\n\nCoverage tied the session to remarks that Governor Waller could back holding the Fed\u2019s policy rate steady.\n\nThe VIX closed at 14.32, down 0.88 point (-5.8%).\n\nWhich index level are you tracking into the next jobs print?",
         "skip_reason": "",
         "supporting_data": [
-          "DELL price: 424.68 \u2014 mega_caps / FMP EOD",
-          "DELL change: -6.9% \u2014 mega_caps changesPercentage",
-          "DELL EPS actual: 7.04 \u2014 earnings_calendar",
-          "DELL EPS estimate: 4.91 \u2014 earnings_calendar",
-          "DELL revenue actual: $46.97B \u2014 earnings_calendar",
-          "DELL revenue estimate: ~$44.89B \u2014 earnings_calendar",
-          "^GSPC: -0.7% \u2014 indexes",
-          "^IXIC: -1.0% \u2014 indexes"
+          "Dow close: 53,686.11 \u2014 FMP quote ^DJI",
+          "Dow change: +624.16 (+1.2%) \u2014 FMP quote ^DJI",
+          "S&P 500 close: 7,748.27 (+1.1%) \u2014 FMP quote ^GSPC",
+          "Nasdaq close: 26,584.06 (+1.4%) \u2014 FMP quote ^IXIC",
+          "VIX close: 14.32 (-5.8%) \u2014 FMP quote ^VIX"
         ],
-        "source_url": "https://www.barrons.com/articles/stockstoday-indexes-fall-bond-worries-iran-war-43922ed9",
-        "source_notes": "https://www.barrons.com/articles/stockstoday-indexes-fall-bond-worries-iran-war-43922ed9"
+        "source_url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae",
+        "source_notes": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae"
       },
       {
-        "title": "Palo Alto falls 5.2% after beat",
+        "title": "Oracle Closes Up 5.7% in Software Megacap Session",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$PANW finished at 362.09, down 5.2% (-20.04).\n\nEPS came in at 1.02 versus a 0.978 estimate; revenue was about $3.41B versus roughly $3.35B estimated.\n\nOther software-linked names were lower on the same close:\n- $MDB -4.2% to 434.21\n- $GTLB -3.1% to 45.09\n\n$ORCL was down 5.3% to 141.26 with no earnings line in today\u2019s calendar.\n\nWhen the report beats and the stock sells off, what do you look at first \u2014 guidance, multiples, or the macro day?",
+        "body": "$ORCL closed at 154.04, up 8.29 (+5.7%).\n\nLarge-cap software names moved with the broader risk-on tape after Fed-linked headlines.\n\n- $MSFT +2.7% to 510.12\n- $CRM +2.9% to 264.43\n\n$ORCL traded between 146.92 and 156.77 on the session.\n\nDid you notice software outpacing the S&P\u2019s +1.1% close?",
         "skip_reason": "",
         "supporting_data": [
-          "PANW price: 362.09 \u2014 mega_caps",
-          "PANW change: -5.2% \u2014 mega_caps",
-          "PANW EPS actual: 1.02 \u2014 earnings_calendar",
-          "PANW EPS estimate: 0.978 \u2014 earnings_calendar",
-          "PANW revenue actual: $3.41B \u2014 earnings_calendar",
-          "MDB: -4.2%, 434.21 \u2014 mega_caps",
-          "GTLB: -3.1%, 45.09 \u2014 mega_caps",
-          "ORCL: -5.3%, 141.26 \u2014 mega_caps"
+          "ORCL close: 154.04 (+5.7%) \u2014 FMP quote ORCL",
+          "ORCL day range: 146.92\u2013156.77 \u2014 FMP quote ORCL",
+          "MSFT close: 510.12 (+2.7%) \u2014 FMP quote MSFT",
+          "CRM close: 264.43 (+2.9%) \u2014 FMP quote CRM",
+          "S&P 500: +1.1% \u2014 FMP quote ^GSPC"
         ],
-        "source_url": "https://www.barrons.com/articles/stockstoday-indexes-fall-bond-worries-iran-war-43922ed9",
-        "source_notes": "https://www.barrons.com/articles/stockstoday-indexes-fall-bond-worries-iran-war-43922ed9"
+        "source_url": "https://www.barrons.com/articles/stocks-today-fed-waller-comments-boost-indexes-464502fd",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-fed-waller-comments-boost-indexes-464502fd"
       },
       {
-        "title": "Apple up 2.6% as Nasdaq drops 1%",
+        "title": "Ciena Falls 10.4% Despite EPS Beat",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AAPL closed at 325.13, up 2.6% (+8.28).\n\nThe Nasdaq Composite finished at 26,099.77, down 1.0% (-271.11).\n\nSeveral other large tech names closed lower:\n:\n- $MSFT -1.2% to 501.02\n- $GOOGL -1.3% to 335.02\n- $AMZN -1.9% to 254.92\n- $NVDA -1.5% to 217.44\n\n$META bucked the group slightly, up 1.1% to 578.54.\n\nDoes a single-name gain on a down index day change how you read sector breadth, or is it mostly noise?",
+        "body": "$CIEN closed at 317.46, down 36.70 (-10.4%), after reporting EPS of 2.11 vs a 1.73 estimate.\n\nRevenue came in at $1.67B vs about $1.64B estimated.\n\nOther Sept. 3 reporters in the data:\n\n- $ZS +2.9% to 177.80 \u2014 EPS 1.19 vs 1.09 est\n- $IOT +5.3% to 38.75 \u2014 EPS 0.20 vs 0.16 est\n- $CPB -7.0% to 22.12 \u2014 EPS 0.39 vs 0.39 est\n\n$CIEN\u2019s session low was 311.60 vs a prior close of 354.16.\n\nHow often do you see a profit-and-revenue beat paired with a double-digit drop?",
         "skip_reason": "",
         "supporting_data": [
-          "AAPL price: 325.13 \u2014 mega_caps",
-          "AAPL change: +2.6% \u2014 mega_caps",
-          "^IXIC: 26,099.77, -1.0% \u2014 indexes",
-          "MSFT: -1.2%, 501.02 \u2014 mega_caps",
-          "GOOGL: -1.3%, 335.02 \u2014 mega_caps",
-          "AMZN: -1.9%, 254.92 \u2014 mega_caps",
-          "NVDA: -1.5%, 217.44 \u2014 actives / mega_caps",
-          "META: +1.1%, 578.54 \u2014 mega_caps"
+          "CIEN close: 317.46 (-10.4%) \u2014 FMP quote CIEN",
+          "CIEN EPS actual: 2.11 vs est 1.73 \u2014 FMP earnings calendar",
+          "CIEN revenue actual: 1,671,100,000 \u2014 FMP earnings calendar",
+          "ZS close: 177.80 (+2.9%) \u2014 FMP quote ZS",
+          "ZS EPS actual: 1.19 vs est 1.09 \u2014 FMP earnings calendar",
+          "IOT close: 38.75 (+5.3%) \u2014 FMP quote IOT",
+          "CPB close: 22.12 (-7.0%) \u2014 FMP quote CPB"
         ],
-        "source_url": "https://www.barrons.com/articles/stockstoday-indexes-fall-bond-worries-iran-war-43922ed9",
-        "source_notes": "https://www.barrons.com/articles/stockstoday-indexes-fall-bond-worries-iran-war-43922ed9"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "US session recap \u2014 Sep. 1, 2026",
+        "title": "US Cash Session Recap \u2014 Sept. 3, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 closed at 7,632.60, down 0.7% (-53.54), with an intraday range between 7,611.20 and 7,663.63.\n\nThe Nasdaq Composite lost 1.0% to 26,099.77; the Dow Jones Industrial Average fell 0.8% to 52,766.88; the Russell 2000 was off 1.2% to 2,920.13.\n\nThe VIX rose 9.5% to 16.34, from a 14.92 prior close.\n\nAugust ISM Manufacturing PMI printed at 54.6 versus a 55.2 estimate (prior 55.6).\nNew orders were 53.7 versus a 56.0 estimate.\n\nJOLTs job openings for July were 7.271M versus a 7.3M estimate; job quits were 3.056M versus a 3.21M estimate.\n\nThe Atlanta Fed GDPNow reading for Q3 was 4.8% versus a 4.6% estimate.\n\nOn sector averages (NASDAQ), Utilities led at +2.6%; Financial Services, Industrials, and Real Estate were each about -1.1% to -1.2%; Communication Services was +1.1%; Technology was +0.3%.\n\nOil exposure showed strength in the cross-asset set: the United States Oil Fund ($USO proxy) rose 5.5% to 141.00; Brent crude was up 1.0% to 95.57.\nHeadlines in the feed tied fresh US\u2013Iran strikes to oil price action.\n\nGold futures (GCUSD) fell 0.8% to 4,359.30.\nThe dollar proxy (UUP) ticked up 0.3% to 28.21.\nBitcoin (BTCUSD) was down 0.2% to 77,216.30.\n\nTreasury yields in the injected snapshot (dated 2026-08-28) showed the 10-year at 4.7% and the 2s10s spread at 0.39.\n\nMegacap earnings that reported on the calendar included Dell (EPS 7.04 vs 4.91 est.; revenue ~$46.97B), Palo Alto (EPS 1.02 vs 0.978 est.), MongoDB (EPS 1.9 vs 1.62 est.), GitLab (EPS 0.24 vs 0.18 est.), and MiniMed (EPS 0.12 vs 0.12 est.).\n$DELL still closed -6.9%;:\n- $PANW -5.2%\n- $MDB -4.2%\n- $GTLB -3.1%\n- $MMED +10.7%\n\nHealthcare-heavy names were firmer among large caps:\n- $JNJ +2.0% to 271.19\n- $UNH +1.8% to 396.30\n- $ABBV +1.4% to 259.99\n- $V -1.8%\n- $MA -1.4%\n\nOverseas indexes in the feed were lower: Nikkei 225 -2.6%, Hang Seng -1.1%, FTSE 100 -0.3%.",
+        "body": "U.S. equities closed higher across the major benchmarks: the S&P 500 finished at 7,748.27 (+1.1%), the Nasdaq Composite at 26,584.06 (+1.4%), and the Dow at 53,686.11 (+624.16 points, +1.2%).\nThe Russell 2000 rose 0.5% to 2,968.27.\nHeadlines in the feed linked the move to Federal Reserve Governor Christopher Waller\u2019s comment that he could support holding rates steady.\n\nThe CBOE Volatility Index fell to 14.32, down 5.8% on the day, while session ranges showed the S&P traded between 7,686.71 and 7,756.76.\n\nOn the calendar, ISM Services PMI for August printed at 55.4 vs a 54.3 estimate (above 50 means expansion in that survey).\nISM Services New Orders was 60.9, and ISM Services Prices was 72.6.\nInitial jobless claims for the Aug. 29 week were 206K vs a 205K estimate; continuing claims were 1,779K.\nAtlanta Fed GDPNow for Q3 was updated to 4.7% vs 4.8% prior.\n\nNasdaq sector averages in the data showed Industrials up 3.3%, Real Estate up 1.8%, Financial Services up 1.7%, and Technology up 1.0%.\nUtilities (-1.2%) and Basic Materials (-1.2%) lagged, and Healthcare was down 0.6% on average.\n\nMegacap tech was mixed:\n- $MSFT +2.7% to 510.12\n- $GOOGL +1.6% to 342.48\n- $AMZN +1.5% to 258.90\n- $NVDA +1.8% to 228.45\n\nwhile $AVGO closed -2.7% at 357.16.\n$ORCL stood out among large software names at +5.7% (154.04).\n\nEarnings drove several large single-name moves.\n$CIEN reported EPS of 2.11 on revenue of $1.67B (both above estimates) but finished -10.4% at 317.46.\n$ZS rose 2.9% after EPS of 1.19 vs 1.09 estimated; $IOT gained 5.3% on a 0.20 vs 0.16 EPS print; $GWRE rose 5.2%.\n$CPB fell 7.0% despite EPS roughly in line with estimates; $VSXY dropped 13.2% with EPS 0.95 vs 0.774 estimated; $TTC was down 6.8% after reporting.\n\nCross-asset reads from the injected tape: gold futures (GCUSD) at 4,517.10 (-0.5%), the United States Oil Fund (USO) at 142.09 (+0.7%), Brent crude (BZUSD) near flat at 95.94, the dollar proxy UUP at 28.01 (-0.6%), and Bitcoin at 80,797.48 (-0.6%).\n\nTreasury snapshot dated Sept. 1 in the data showed the 10-year yield at 4.8% and the 2s10s spread at 0.40 percentage point.\n\nOverseas indexes in the feed included Hang Seng +2.2% to 25,767.00, Nikkei 225 +0.9%, and FTSE 100 +0.7%.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,632.60, -0.7% \u2014 indexes",
-          "^IXIC: 26,099.77, -1.0% \u2014 indexes",
-          "^DJI: 52,766.88, -0.8% \u2014 indexes",
-          "^RUT: 2,920.13, -1.2% \u2014 indexes",
-          "^VIX: 16.34, +9.5% \u2014 indexes",
-          "ISM Manufacturing PMI: 54.6 (est. 55.2) \u2014 economic_calendar",
-          "JOLTs openings: 7.271M \u2014 economic_calendar",
-          "GDPNow Q3: 4.8% \u2014 economic_calendar",
-          "USO: +5.5%, 141.00 \u2014 cross_asset",
-          "Brent BZUSD: +1.0%, 95.57 \u2014 cross_asset",
-          "GCUSD: -0.8%, 4,359.30 \u2014 cross_asset",
-          "UUP: +0.3%, 28.21 \u2014 cross_asset",
-          "year10: 4.7%, spread_2s10s: 0.39 \u2014 treasury",
-          "Sector averages \u2014 sectors array",
-          "Earnings rows \u2014 earnings_calendar",
-          "Named mega_caps \u2014 mega_caps"
+          "S&P 500: 7,748.27 (+1.1%) \u2014 FMP quote ^GSPC",
+          "Nasdaq: 26,584.06 (+1.4%) \u2014 FMP quote ^IXIC",
+          "Dow: 53,686.11 (+1.2%) \u2014 FMP quote ^DJI",
+          "Russell 2000: 2,968.27 (+0.5%) \u2014 FMP quote ^RUT",
+          "VIX: 14.32 (-5.8%) \u2014 FMP quote ^VIX",
+          "ISM Services PMI: 55.4 actual vs 54.3 est \u2014 FMP economic calendar",
+          "Initial jobless claims: 206K \u2014 FMP economic calendar",
+          "Industrials sector avg: +3.3% \u2014 FMP sector performance",
+          "MSFT/ORCL/AVGO/CIEN/ZS closes \u2014 FMP quotes & earnings calendar",
+          "Gold GCUSD: 4,517.10 (-0.5%) \u2014 FMP cross_asset",
+          "USO: 142.09 (+0.7%) \u2014 FMP cross_asset",
+          "UUP: 28.01 (-0.6%) \u2014 FMP cross_asset",
+          "10-year yield: 4.8% \u2014 FMP treasury"
         ],
-        "source_url": "https://www.reuters.com/business/energy/oil-up-nearly-1-us-iran-trade-fresh-strikes-2026-09-02/",
-        "source_notes": "https://www.reuters.com/business/energy/oil-up-nearly-1-us-iran-trade-fresh-strikes-2026-09-02/"
+        "source_url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae",
+        "source_notes": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-01",
-    "generated_at": "2026-09-01T22:53:41-04:00",
-    "draft_path": "drafts/2026-09-01-week-ahead.md",
+    "session_date": "2026-09-03",
+    "generated_at": "2026-09-03T22:56:09-04:00",
+    "draft_path": "drafts/2026-09-03-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Broadcom reports Tuesday with $3.22 EPS on the tape",
+        "title": "August jobs print: 56K on the calendar",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AVGO reports Tuesday.\n\nConsensus: $3.22 EPS.\n\nRevenue estimate: about $29.24B.\n\nThe print covers chip and infrastructure software demand\u2014the number the Street uses to size AI-related revenue mix.\n\nResults land with other large tech names still on the calendar this week.\n\nWhich line item do you watch first on Broadcom\u2014revenue, EPS, or segment detail?",
+        "body": "Friday, Sept. 4, 12:30 p.m.\nET: August nonfarm payrolls.\n\nConsensus: +56K jobs.\n\nPrior month: -23K.\n\nSame release also carries the unemployment rate (expected 4.1%, same as July) and average hourly earnings.\n\nThat bundle is the main US labor snapshot for August \u2014 hiring pace, jobless rate, and pay growth in one print.\n\nPrivate payrolls are expected at +45K (prior +30K).\n\nGovernment payrolls: -11K expected (prior -53K).\n\nWhich line in the report do you track first \u2014 headline jobs, unemployment, or wages?",
         "skip_reason": "",
         "supporting_data": [
-          "AVGO EPS estimate: 3.22 \u2014 source: FMP earnings_calendar",
-          "AVGO revenue estimate: 29240910000 (~29.24B) \u2014 source: FMP earnings_calendar",
-          "AVGO report date: 2026-09-02 \u2014 source: FMP earnings_calendar",
-          "AVGO market cap: 1,758,782,174,400.00 \u2014 source: FMP earnings_calendar"
+          "Non Farm Payrolls (Aug) estimate: 56K \u2014 [source: FMP economic_calendar]",
+          "Non Farm Payrolls (Aug) previous: -23K \u2014 [source: FMP economic_calendar]",
+          "Unemployment Rate (Aug) estimate: 4.1% \u2014 [source: FMP economic_calendar]",
+          "Unemployment Rate (Aug) previous: 4.1% \u2014 [source: FMP economic_calendar]",
+          "Nonfarm Payrolls Private (Aug) estimate: 45K \u2014 [source: FMP economic_calendar]",
+          "Nonfarm Payrolls Private (Aug) previous: 30K \u2014 [source: FMP economic_calendar]",
+          "Government Payrolls (Aug) estimate: -11K \u2014 [source: FMP economic_calendar]",
+          "Government Payrolls (Aug) previous: -53K \u2014 [source: FMP economic_calendar]",
+          "Release time: 2026-09-04 12:30:00 ET \u2014 [source: FMP economic_calendar]"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs/#Earnings-Calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs/#Earnings-Calendar"
+        "source_url": "https://site.financialmodelingprep.com/economic-calendar",
+        "source_notes": "https://site.financialmodelingprep.com/economic-calendar"
       },
       {
-        "title": "August jobs data Friday at 12:30 p.m. ET",
+        "title": "August wage data: 0.3% MoM on deck",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Friday, Sept. 4, 12:30 p.m.\nET: August employment report.\n\nNonfarm payrolls estimate: +58K.\n\nPrior print: -23K.\n\nUnemployment rate estimate: 4.1% (prior 4.1%).\n\nAverage hourly earnings YoY estimate: 3.0% (prior 3.2%).\n\nAverage hourly earnings MoM estimate: 0.3% (prior 0.1%).\n\nPrivate payrolls estimate: +58K (prior +30K).\n\nU-6 unemployment estimate: 8.0% (prior 7.9%).\n\nThe release bundles hiring, joblessness, and wage growth in one print.\n\nWhich component do you read first\u2014headline payrolls or the wage figures?",
+        "body": "Aug average hourly earnings \u2014 Friday, 12:30 p.m.\nET, inside the jobs report.\n\nMonth over month: +0.3% expected.\n\nPrior month: +0.1%.\n\nYear over year: +3.0% expected.\n\nPrior year-over-year: +3.2%.\n\nThe gauge tracks how fast typical hourly pay is moving \u2014 useful alongside the payrolls total and unemployment rate from the same release.\n\nU-6 unemployment (a broader jobless measure that includes discouraged workers and part-timers who want full-time work) is also on the tape: 8.0% expected vs 7.9% prior.\n\nDo you watch MoM or YoY wages more closely when the print hits?",
         "skip_reason": "",
         "supporting_data": [
-          "Non Farm Payrolls (Aug) estimate: 58K \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Aug) previous: -23K \u2014 source: FMP economic_calendar",
-          "Unemployment Rate (Aug) estimate: 4.1% \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings YoY (Aug) estimate: 3.0% \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings YoY (Aug) previous: 3.2% \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings MoM (Aug) estimate: 0.3% \u2014 source: FMP economic_calendar",
-          "Nonfarm Payrolls Private (Aug) estimate: 58K \u2014 source: FMP economic_calendar",
-          "U-6 Unemployment Rate (Aug) estimate: 8.0% \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-09-04 12:30:00 \u2014 source: FMP economic_calendar"
+          "Average Hourly Earnings MoM (Aug) estimate: 0.3% \u2014 [source: FMP economic_calendar]",
+          "Average Hourly Earnings MoM (Aug) previous: 0.1% \u2014 [source: FMP economic_calendar]",
+          "Average Hourly Earnings YoY (Aug) estimate: 3.0% \u2014 [source: FMP economic_calendar]",
+          "Average Hourly Earnings YoY (Aug) previous: 3.2% \u2014 [source: FMP economic_calendar]",
+          "U-6 Unemployment Rate (Aug) estimate: 8.0% \u2014 [source: FMP economic_calendar]",
+          "U-6 Unemployment Rate (Aug) previous: 7.9% \u2014 [source: FMP economic_calendar]",
+          "Release time: 2026-09-04 12:30:00 ET \u2014 [source: FMP economic_calendar]"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs/#Economic-Calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs/#Economic-Calendar"
+        "source_url": "https://site.financialmodelingprep.com/economic-calendar",
+        "source_notes": "https://site.financialmodelingprep.com/economic-calendar"
       },
       {
-        "title": "Services activity gauge Wednesday at 2 p.m.",
+        "title": "ADP 38K vs NFP 56K estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Wednesday, Sept. 3, 2:00 p.m.\nET: ISM services data for August.\n\nISM Services PMI estimate: 54.3.\n\nPrior: 54.1.\n\nISM Non-Manufacturing PMI estimate: 54.1 (prior 54.1).\n\nServices prices estimate: 66.0 (prior 70.3).\n\nServices employment estimate: 51.8 (prior 47.4).\n\nNew orders estimate: 57.0 (prior 57.2).\n\nSame morning, 12:30 p.m.\nET: weekly jobless claims.\n\nInitial claims estimate: 205K (prior 203K).\n\nContinuing claims estimate: 1,816K (prior 1,778K).\n\nThe services index scores whether restaurants, logistics, and other non-factory businesses are expanding (above 50) or contracting.\n\nDo you pair the ISM print with claims the same day or treat them separately?",
+        "body": "August hiring \u2014 two prints, two dates.\n\nADP employment change (Aug): +38K actual, vs +47K expected.\n\nReported: Sept. 2, 12:15 p.m.\nET.\n\nOfficial Labor Department payrolls: Friday, Sept. 4, 12:30 p.m.\nET.\n\nHeadline nonfarm payrolls estimate: +56K (prior -23K).\n\nPrivate payrolls estimate: +45K (prior +30K).\n\nManufacturing payrolls estimate: +5K (prior +5K).\n\nADP covers private jobs only; the Friday release adds government and revises the full picture.\n\nAfter ADP at 38K, what spread vs the 56K headline estimate are you watching for?",
         "skip_reason": "",
         "supporting_data": [
-          "ISM Services PMI (Aug) estimate: 54.3 \u2014 source: FMP economic_calendar",
-          "ISM Services PMI (Aug) previous: 54.1 \u2014 source: FMP economic_calendar",
-          "ISM Services Prices (Aug) estimate: 66.0 \u2014 source: FMP economic_calendar",
-          "ISM Services Prices (Aug) previous: 70.3 \u2014 source: FMP economic_calendar",
-          "ISM Services Employment (Aug) estimate: 51.8 \u2014 source: FMP economic_calendar",
-          "ISM Services Employment (Aug) previous: 47.4 \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims estimate: 205K \u2014 source: FMP economic_calendar",
-          "Continuing Jobless Claims estimate: 1816K \u2014 source: FMP economic_calendar",
-          "ISM release time: 2026-09-03 14:00:00 \u2014 source: FMP economic_calendar",
-          "Claims release time: 2026-09-03 12:30:00 \u2014 source: FMP economic_calendar"
+          "ADP Employment Change (Aug) actual: 38K \u2014 [source: FMP economic_calendar]",
+          "ADP Employment Change (Aug) estimate: 47K \u2014 [source: FMP economic_calendar]",
+          "ADP Employment Change (Aug) previous: 46K \u2014 [source: FMP economic_calendar]",
+          "Non Farm Payrolls (Aug) estimate: 56K \u2014 [source: FMP economic_calendar]",
+          "Non Farm Payrolls (Aug) previous: -23K \u2014 [source: FMP economic_calendar]",
+          "Nonfarm Payrolls Private (Aug) estimate: 45K \u2014 [source: FMP economic_calendar]",
+          "Manufacturing Payrolls (Aug) estimate: 5K \u2014 [source: FMP economic_calendar]",
+          "Manufacturing Payrolls (Aug) previous: 5K \u2014 [source: FMP economic_calendar]"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs/#Economic-Calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs/#Economic-Calendar"
+        "source_url": "https://site.financialmodelingprep.com/economic-calendar",
+        "source_notes": "https://site.financialmodelingprep.com/economic-calendar"
       }
     ]
   }

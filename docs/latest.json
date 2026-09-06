@@ -1,225 +1,240 @@
 {
-  "updated_at": "2026-09-04T22:58:32-04:00",
+  "updated_at": "2026-09-05T22:57:23-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-04",
-    "generated_at": "2026-09-04T22:57:24-04:00",
-    "draft_path": "drafts/2026-09-04-am.md",
-    "errors": [],
+    "session_date": "2026-09-05",
+    "generated_at": "2026-09-05T22:56:20-04:00",
+    "draft_path": "drafts/2026-09-05-am.md",
+    "errors": [
+      "quote {'symbol': '^GSPC'}: HTTP 429",
+      "quote {'symbol': '^IXIC'}: HTTP 429",
+      "quote {'symbol': '^DJI'}: HTTP 429",
+      "quote {'symbol': '^RUT'}: HTTP 429",
+      "quote {'symbol': '^VIX'}: HTTP 429",
+      "quote {'symbol': '^N225'}: HTTP 429",
+      "quote {'symbol': 'EWG'}: HTTP 429",
+      "quote {'symbol': '^FTSE'}: HTTP 429",
+      "quote {'symbol': '^HSI'}: HTTP 429",
+      "quote {'symbol': 'GLD'}: HTTP 429",
+      "quote {'symbol': 'USO'}: HTTP 429",
+      "quote {'symbol': 'EBUSD'}: HTTP 429",
+      "quote {'symbol': 'UUP'}: HTTP 429",
+      "quote {'symbol': 'EURUSD'}: HTTP 429",
+      "quote {'symbol': 'BTCUSD'}: HTTP 429",
+      "treasury-rates: HTTP 429",
+      "news/general-latest {'page': '0', 'limit': '20'}: HTTP 429",
+      "economic-calendar {'from': '2026-09-05', 'to': '2026-09-06'}: HTTP 429",
+      "earnings-calendar {'from': '2026-09-05', 'to': '2026-09-06'}: HTTP 429",
+      "company-screener {'marketCapMoreThan': '5000000000', 'country': 'US', 'isEtf': 'false', 'isFund': 'false', 'isActivelyTrading': 'true', 'limit': '1000', 'page': '0'}: HTTP 429"
+    ],
     "slots": [
       {
-        "title": "August jobs: 162K vs 56K expected",
+        "title": "Sept. 5 feed has no macro prints",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Nonfarm payrolls for August: **162K** actual vs **56K** estimate (prior revised context in the release: **21K** previous print in the calendar).\n\nPrivate payrolls: **127K** vs **45K** expected.\n\nUnemployment stayed at **4.1%**, matching the forecast.\n\nThat print landed the same morning as the August wage and broader labor detail releases.\n\nWhich part of the jobs stack do you watch first\u2014headline payrolls or the unemployment rate?",
+        "body": "Session date in the feed: 2026-09-05 (America/New_York).\n\nMode: morning.\n\nGenerated at: 2026-09-05, 10:55 p.m.\nET.\n\neconomic_calendar, news, indexes, treasury, and sector blocks are all empty in this payload.\n\nStream 1 needs a print (actual vs. estimate) or a headline with a linked source \u2014 none are present here.\n\nWhat macro release or policy headline did you see move the conversation today?",
         "skip_reason": "",
         "supporting_data": [
-          "Non Farm Payrolls (Aug) actual: 162K \u2014 FMP economic calendar",
-          "Non Farm Payrolls (Aug) estimate: 56K \u2014 FMP economic calendar",
-          "Non Farm Payrolls (Aug) previous: 21K \u2014 FMP economic calendar",
-          "Nonfarm Payrolls Private (Aug) actual: 127K \u2014 FMP economic calendar",
-          "Nonfarm Payrolls Private (Aug) estimate: 45K \u2014 FMP economic calendar",
-          "Unemployment Rate (Aug) actual: 4.1% \u2014 FMP economic calendar",
-          "Unemployment Rate (Aug) estimate: 4.1% \u2014 FMP economic calendar"
+          "session_date: 2026-09-05 \u2014 FMP_DATA injection",
+          "mode: morning \u2014 FMP_DATA injection",
+          "generated_at: 2026-09-05T22:55:49-04:00 \u2014 FMP_DATA injection",
+          "economic_calendar length: 0 \u2014 FMP_DATA injection",
+          "news length: 0 \u2014 FMP_DATA injection"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/rates-climb-stocks-dip-after-strong-u-s-jobs-data-a71b1a23",
-        "source_notes": "https://www.wsj.com/finance/stocks/rates-climb-stocks-dip-after-strong-u-s-jobs-data-a71b1a23"
+        "source_url": "Not returned in FMP_DATA (empty `news` and `economic_calendar`; no URL fields in injection)",
+        "source_notes": "Not returned in FMP_DATA (empty `news` and `economic_calendar`; no URL fields in injection)"
       },
       {
-        "title": "S&P down 0.4% after jobs data",
+        "title": "No headlines to cite for Stream 1",
         "status": "ready",
         "kind": "x_idea",
-        "body": "After the August jobs release, U.S. benchmarks finished lower for the session.\n\n- S&P 500 (**^GSPC** proxy in data): **-0.4%** to **7,717.81** (**-29.90** points)\n- Dow Jones Industrial Average: **-0.5%** to **53,414.25** (**-271.86** points)\n- Nasdaq Composite: **-0.3%** to **26,506.99** (**-77.07** points)\n\nRussell 2000 was an exception at **+0.2%** to **2,975.65**.\n\nThe CBOE Volatility Index (**VIX**) rose **+1.5%** to **14.53**.\n\nCoverage tied the session to the jobs print and shifting expectations around Federal Reserve interest-rate decisions in mid-September.\n\nDoes a stronger jobs number change how you read the next inflation report on the calendar?\n\n#Economy #JobsReport",
+        "body": "The rules require every idea to use only injected FMP data and to include a source URL from that same payload.\n\nThis run\u2019s `news` list is [].\n\nThere are no tickers, percentages, or article links to round or quote.\n\nPrior posts already covered Aug. jobs (162K vs. 56K est.) and related wage prints \u2014 those figures are not in today\u2019s injection, so they cannot be reused here.\n\nWhich release or news URL should the next fetch attach to this session?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 changesPercentage: -0.4% \u2014 FMP indexes (^GSPC)",
-          "S&P 500 price: 7,717.81 \u2014 FMP indexes (^GSPC)",
-          "S&P 500 change: -29.9 \u2014 FMP indexes (^GSPC)",
-          "Dow changesPercentage: -0.5% \u2014 FMP indexes (^DJI)",
-          "Dow price: 53,414.25 \u2014 FMP indexes (^DJI)",
-          "Dow change: -271.86 \u2014 FMP indexes (^DJI)",
-          "Nasdaq changesPercentage: -0.3% \u2014 FMP indexes (^IXIC)",
-          "Nasdaq price: 26,506.99 \u2014 FMP indexes (^IXIC)",
-          "Russell 2000 changesPercentage: 0.2% \u2014 FMP indexes (^RUT)",
-          "VIX changesPercentage: 1.5% \u2014 FMP indexes (^VIX)",
-          "VIX price: 14.53 \u2014 FMP indexes (^VIX)"
+          "news: [] \u2014 FMP_DATA injection",
+          "session_date: 2026-09-05 \u2014 FMP_DATA injection"
         ],
-        "source_url": "https://www.wsj.com/finance/investing/u-s-stocks-fall-as-robust-august-jobs-data-spurs-yields-rate-hike-bets-0adff908",
-        "source_notes": "https://www.wsj.com/finance/investing/u-s-stocks-fall-as-robust-august-jobs-data-spurs-yields-rate-hike-bets-0adff908"
+        "source_url": "Not returned in FMP_DATA (empty `news`)",
+        "source_notes": "Not returned in FMP_DATA (empty `news`)"
       },
       {
-        "title": "Wages up 3.1% YoY; U-6 at 7.7%",
+        "title": "Calendar slot empty for Sept. 5",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August average hourly earnings, year over year: **3.1%** vs **3.0%** expected (prior **3.2%** in the calendar).\n\nMonth over month, wages rose **0.3%**, matching the **0.3%** estimate.\n\nThe U-6 unemployment rate\u2014the measure that includes discouraged workers and part-timers who want full-time work\u2014came in at **7.7%** vs **8.0%** expected (previous **7.9%**).\n\nOn the same day, Barron\u2019s noted traders pricing roughly a three-in-five chance of a rate increase at the mid-September Fed meeting after the labor data.\n\nGovernment payrolls added **35K** vs a **-11K** estimate.\n\nWhich wage or underemployment line do you pair with headline payrolls when the jobs report drops?",
+        "body": "Stream 1 priority is releases that printed today, then policy headlines, then sector-wide reactions in the data.\n\neconomic_calendar: [].\n\nearnings_calendar: [].\n\nindexes, cross_asset, overseas, treasury, sectors, mega_caps, actives, gainers, and losers are also empty or null.\n\nNothing in this payload supports a number-first X post with a verifiable link.\n\nWhat should populate `economic_calendar` or `news` before the next editor pass?",
         "skip_reason": "",
         "supporting_data": [
-          "Average Hourly Earnings YoY (Aug) actual: 3.1% \u2014 FMP economic calendar",
-          "Average Hourly Earnings YoY (Aug) estimate: 3.0% \u2014 FMP economic calendar",
-          "Average Hourly Earnings YoY (Aug) previous: 3.2% \u2014 FMP economic calendar",
-          "Average Hourly Earnings MoM (Aug) actual: 0.3% \u2014 FMP economic calendar",
-          "Average Hourly Earnings MoM (Aug) estimate: 0.3% \u2014 FMP economic calendar",
-          "U-6 Unemployment Rate (Aug) actual: 7.7% \u2014 FMP economic calendar",
-          "U-6 Unemployment Rate (Aug) estimate: 8.0% \u2014 FMP economic calendar",
-          "U-6 Unemployment Rate (Aug) previous: 7.9% \u2014 FMP economic calendar",
-          "Government Payrolls (Aug) actual: 35K \u2014 FMP economic calendar",
-          "Government Payrolls (Aug) estimate: -11K \u2014 FMP economic calendar"
+          "economic_calendar: [] \u2014 FMP_DATA injection",
+          "earnings_calendar: [] \u2014 FMP_DATA injection",
+          "treasury: null \u2014 FMP_DATA injection",
+          "indexes: {} \u2014 FMP_DATA injection"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-strong-jobs-report-markets-brace-rate-hike-9ec5641b",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-strong-jobs-report-markets-brace-rate-hike-9ec5641b"
+        "source_url": "Not returned in FMP_DATA (empty `economic_calendar`; no URL fields in injection)\n\n---\n\n**Operator note:** Publishable Stream 1 posts need a non-empty FMP pull (at minimum `news` and/or `economic_calendar` entries with URLs and figures). Re-run the data step for `session_date` 2026-09-05, then regenerate. Dedup: avoid re-leading Aug. jobs (2026-09-04), ISM services / jobless claims (2026-09-03), and \u201cAugust CPI on deck\u201d unless the new feed adds a fresh print or headline peg.",
+        "source_notes": "Not returned in FMP_DATA (empty `economic_calendar`; no URL fields in injection)\n\n---\n\n**Operator note:** Publishable Stream 1 posts need a non-empty FMP pull (at minimum `news` and/or `economic_calendar` entries with URLs and figures). Re-run the data step for `session_date` 2026-09-05, then regenerate. Dedup: avoid re-leading Aug. jobs (2026-09-04), ISM services / jobless claims (2026-09-03), and \u201cAugust CPI on deck\u201d unless the new feed adds a fresh print or headline peg."
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-04",
-    "generated_at": "2026-09-04T22:57:58-04:00",
-    "draft_path": "drafts/2026-09-04.md",
-    "errors": [],
+    "session_date": "2026-09-05",
+    "generated_at": "2026-09-05T22:56:53-04:00",
+    "draft_path": "drafts/2026-09-05.md",
+    "errors": [
+      "quote {'symbol': '^GSPC'}: HTTP 429",
+      "quote {'symbol': '^IXIC'}: HTTP 429",
+      "quote {'symbol': '^DJI'}: HTTP 429",
+      "quote {'symbol': '^RUT'}: HTTP 429",
+      "quote {'symbol': '^VIX'}: HTTP 429",
+      "quote {'symbol': '^N225'}: HTTP 429",
+      "quote {'symbol': 'EWG'}: HTTP 429",
+      "quote {'symbol': '^FTSE'}: HTTP 429",
+      "quote {'symbol': '^HSI'}: HTTP 429",
+      "quote {'symbol': 'GLD'}: HTTP 429",
+      "quote {'symbol': 'USO'}: HTTP 429",
+      "quote {'symbol': 'EBUSD'}: HTTP 429",
+      "quote {'symbol': 'UUP'}: HTTP 429",
+      "quote {'symbol': 'EURUSD'}: HTTP 429",
+      "quote {'symbol': 'BTCUSD'}: HTTP 429",
+      "treasury-rates: HTTP 429",
+      "news/general-latest {'page': '0', 'limit': '20'}: HTTP 429",
+      "sector-performance-snapshot {'date': '2026-09-05'}: HTTP 429",
+      "biggest-gainers: HTTP 429",
+      "biggest-losers: HTTP 429",
+      "most-actives: HTTP 429",
+      "batch-quote {'symbols': 'TSLA,XOM,WMT,PEP,NVDA,NFLX,ASML,GOOG,ABBV,AVGO,BAC,GOOGL,JNJ,BABA,CVX,V,MSFT,PG,MA,HD'}: HTTP 429",
+      "economic-calendar {'from': '2026-09-05', 'to': '2026-09-05'}: HTTP 429",
+      "earnings-calendar {'from': '2026-09-05', 'to': '2026-09-05'}: HTTP 429",
+      "company-screener {'marketCapMoreThan': '5000000000', 'country': 'US', 'isEtf': 'false', 'isFund': 'false', 'isActivelyTrading': 'true', 'limit': '1000', 'page': '0'}: HTTP 429"
+    ],
     "slots": [
       {
-        "title": "162K jobs vs 56K est.; indexes slip",
+        "title": "Sept. 5 close feed empty",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Nonfarm payrolls for August: **162K** actual vs **56K** expected (prior revised context in the release: **21K**).\n\nPrivate payrolls **127K** vs **45K** expected.\n\nUnemployment **4.1%** \u2014 in line with the **4.1%** estimate.\n\n- $SPY proxy: S&P 500 **-0.4%** to **7,717.81** (\u2212**29.90** pts)\n- Dow **-0.5%** to **53,414.25**\n- Nasdaq Composite **-0.3%** to **26,506.99**\n\nCoverage tied the session to stronger labor data and higher bond-yield / Fed-path discussion after the release.\n\nWhich number in the jobs stack mattered most to you \u2014 headline payrolls, wages, or unemployment?",
+        "body": "The close payload for Friday, Sept. 5, 2026 (America/New_York) arrived with `mode: close` and no populated EOD fields.\n\n`indexes`, `mega_caps`, `liquid_gainers`, `liquid_losers`, `actives`, `sectors`, and `news` are all empty in the injection used for this edit.\n\nWithout sourced percentages and prices, a Stream 2 lead on a named move would violate the no-invention rule.\n\nRe-run the close job or paste a full FMP snapshot before posting price ideas for this session.\n\nWhich ticker move did you expect to lead the Sept. 5 close tape once the feed fills?",
         "skip_reason": "",
         "supporting_data": [
-          "Non Farm Payrolls (Aug) actual: 162K \u2014 [source: FMP economic_calendar]",
-          "Non Farm Payrolls (Aug) estimate: 56K \u2014 [source: FMP economic_calendar]",
-          "Non Farm Payrolls (Aug) previous: 21K \u2014 [source: FMP economic_calendar]",
-          "Nonfarm Payrolls Private (Aug) actual: 127K \u2014 [source: FMP economic_calendar]",
-          "Unemployment Rate (Aug) actual: 4.1% \u2014 [source: FMP economic_calendar]",
-          "S&P 500 changesPercentage: -0.4% \u2014 [source: FMP indexes ^GSPC]",
-          "S&P 500 price: 7,717.81 \u2014 [source: FMP indexes ^GSPC]",
-          "Dow changesPercentage: -0.5% \u2014 [source: FMP indexes ^DJI]",
-          "Nasdaq changesPercentage: -0.3% \u2014 [source: FMP indexes ^IXIC]"
+          "Session date: 2026-09-05 \u2014 source: FMP close injection (`session_date`)",
+          "Generated at: 2026-09-05T22:56:21-04:00 \u2014 source: FMP close injection (`generated_at`)",
+          "Index object: {} (no levels) \u2014 source: FMP close injection (`indexes`)",
+          "News array: [] \u2014 source: FMP close injection (`news`)"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/rates-climb-stocks-dip-after-strong-u-s-jobs-data-a71b1a23",
-        "source_notes": "https://www.wsj.com/finance/stocks/rates-climb-stocks-dip-after-strong-u-s-jobs-data-a71b1a23"
+        "source_url": "(not present in injected FMP_DATA \u2014 no endpoint or tickeralpha.ai URL supplied in payload)",
+        "source_notes": "(not present in injected FMP_DATA \u2014 no endpoint or tickeralpha.ai URL supplied in payload)"
       },
       {
-        "title": "Tesla closes down 5.9%",
+        "title": "No megacap rows to rank",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$TSLA **-5.9%** to **354.08** (\u2212**22.29**).\n\nDay range **351.32**\u2013**364.69**.\n\nVolume **64.6M** shares.\n\nSame session, the Dow was **-0.5%** and the S&P 500 **-0.4%** after the August jobs release.\n\nDid you track $TSLA against the jobs headline or against its own intraday range?",
+        "body": "Stream 2 priority is megacaps with real moves and a headline in the same bundle.\n\nThe injected `mega_caps` object is `{}`.\n\n`liquid_gainers` and `liquid_losers` are `[]`.\n\nNo cashtags, no rounded percentages, and no closing prices are available from this input.\n\nA theme post (multiple names moving together) also needs named rows with `changesPercentage` or equivalent from the feed.\n\nAfter the API returns EOD lines, lead with the index-setting name and tie any headline from `news` in the same post.\n\nWhat was the largest megacap percentage change on your side for Sept. 5 close?",
         "skip_reason": "",
         "supporting_data": [
-          "TSLA changesPercentage: -5.9% \u2014 [source: FMP mega_caps TSLA]",
-          "TSLA price: 354.08 \u2014 [source: FMP mega_caps TSLA]",
-          "TSLA change: -22.29 \u2014 [source: FMP mega_caps TSLA]",
-          "TSLA dayLow: 351.32 \u2014 [source: FMP mega_caps TSLA]",
-          "TSLA dayHigh: 364.69 \u2014 [source: FMP mega_caps TSLA]",
-          "TSLA volume: 64559388 \u2014 [source: FMP mega_caps TSLA]",
-          "^DJI changesPercentage: -0.5% \u2014 [source: FMP indexes ^DJI]",
-          "^GSPC changesPercentage: -0.4% \u2014 [source: FMP indexes ^GSPC]"
+          "Mega caps: {} \u2014 source: FMP close injection (`mega_caps`)",
+          "Liquid gainers: [] \u2014 source: FMP close injection (`liquid_gainers`)",
+          "Liquid losers: [] \u2014 source: FMP close injection (`liquid_losers`)",
+          "Actives: [] \u2014 source: FMP close injection (`actives`)"
         ],
-        "source_url": "https://www.invezz.com/news/2026/09/04/dow-closes-270-pts-lower-as-strong-jobs-report-lifts-september-fed-rate-hike-bets/",
-        "source_notes": "https://www.invezz.com/news/2026/09/04/dow-closes-270-pts-lower-as-strong-jobs-report-lifts-september-fed-rate-hike-bets/"
+        "source_url": "(not present in injected FMP_DATA)",
+        "source_notes": "(not present in injected FMP_DATA)"
       },
       {
-        "title": "AMD up 4.7%; ASML up 4.2%",
+        "title": "No headlines tied to moves",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Chip and chip-equipment names led among megacaps in the green:\n\n- $AMD **+4.7%** to **477.57**\n- $ASML **+4.2%** to **1,714.88**\n- $NVDA **+0.8%** to **230.36**\n\nNasdaq Composite still closed **-0.3%** at **26,506.99**.\n\nNASDAQ-listed Technology sector average: **+0.7%** (sector snapshot for the session).\n\nWere you watching semis as a group or single-name moves today?",
+        "body": "Editorial rule 7: use a headline from the data when it explains the move; when none exists, describe the move only and skip the cause.\n\nHere there is no move data and no `news` entries.\n\n`earnings_calendar` is also `[]`, so there are no reported actuals vs estimates in this bundle.\n\n`economic_calendar` is `[]`, so no same-session macro print is attached to this payload.\n\nDedup against recent posts (Sept. 3\u20134 jobs, Tesla, AMD, Oracle themes) cannot be applied to new tickers because no tickers appear in today\u2019s injection.\n\nWhen `news` and EOD rows return, pick a lead story that did not headline the Sept. 4 recap unless the peg is clearly new.\n\nDid Sept. 5 close include an earnings name you want in the first post once data lands?",
         "skip_reason": "",
         "supporting_data": [
-          "AMD changesPercentage: 4.7% \u2014 [source: FMP mega_caps AMD]",
-          "AMD price: 477.57 \u2014 [source: FMP mega_caps AMD]",
-          "ASML changesPercentage: 4.2% \u2014 [source: FMP mega_caps ASML]",
-          "ASML price: 1,714.88 \u2014 [source: FMP mega_caps ASML]",
-          "NVDA changesPercentage: 0.8% \u2014 [source: FMP mega_caps NVDA]",
-          "NVDA price: 230.36 \u2014 [source: FMP mega_caps NVDA]",
-          "^IXIC changesPercentage: -0.3% \u2014 [source: FMP indexes ^IXIC]",
-          "Technology sector averageChange: 0.7% \u2192 **+0.7%** \u2014 [source: FMP sectors]"
+          "News: [] \u2014 source: FMP close injection (`news`)",
+          "Earnings calendar: [] \u2014 source: FMP close injection (`earnings_calendar`)",
+          "Economic calendar: [] \u2014 source: FMP close injection (`economic_calendar`)"
         ],
-        "source_url": "https://financialmodelingprep.com/",
-        "source_notes": "https://financialmodelingprep.com/"
+        "source_url": "(not present in injected FMP_DATA)",
+        "source_notes": "(not present in injected FMP_DATA)"
       },
       {
-        "title": "U.S. cash session \u2014 Sept. 4, 2026",
+        "title": "U.S. cash session \u2014 Sept. 5, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The U.S. cash session on **2026-09-04** centered on the **12:30** ET labor release.\nNonfarm payrolls printed **162K** jobs added in August versus a **56K** consensus; private payrolls **127K** vs **45K** expected.\nUnemployment stayed at **4.1%**, matching the estimate.\nAverage hourly earnings rose **0.3%** month over month (estimate **0.3%**) and **3.1%** year over year (estimate **3.0%**).\nU-6 unemployment was **7.7%** vs an **8.0%** estimate.\n\nMajor U.S. indexes closed lower after the data.\nThe S&P 500 finished at **7,717.81**, **-0.4%** (\u2212**29.90** points), with an intraday span of **7,706.12** to **7,750.19**.\nThe Dow Jones Industrial Average lost **-0.5%** to **53,414.25** (\u2212**271.86** points).\nThe Nasdaq Composite slipped **-0.3%** to **26,506.99**.\nThe Russell 2000 was an exception among U.S. benchmarks, **+0.2%** to **2,975.65**.\n\nSector averages on NASDAQ showed Utilities leading at roughly **+3.4%**, Financial Services about **+0.9%**, and Technology about **+0.7%**.\nLagging groups included Consumer Defensive near **-0.9%**, Consumer Cyclical near **-0.9%**, Energy near **-0.8%**, and Communication Services near **-0.6%**.\nHealthcare was roughly flat (**0.0%**).\n\nMegacap decliners included $TSLA **-5.9%** to **354.08**, $NFLX **-5.3%** to **78.25**, and $MSFT **-2.0%** to **499.70**.\n$GOOG closed **-1.1%** at **335.31**.\nEnergy majors softened: $XOM **-1.7%** to **159.46**, $CVX **-1.3%** to **208.53**.\n\nOn the upside among large liquid names, $AMD **+4.7%** to **477.57**, $ASML **+4.2%** to **1,714.88**, and $ORCL **+3.1%** to **158.83**.\n$META **+1.0%** to **616.77**; $NVDA **+0.8%** to **230.36**.\n$AMZN was nearly unchanged at **258.51** (**-0.2%**).\n\nSeveral non-megacap liquid losers stood out in the screen data, including $GWRE **-19.9%** to **162.42**, $LULU **-17.4%** to **100.61**, and $FICO **-16.7%** to **932.26**.\nActive volume names in the feed included $NVDA, $INTC **+4.5%** to **95.80**, and leveraged $TSLA-linked products moving with the underlying.\n\nCross-asset, gold futures (GC) settled **-1.4%** at **4,476.60**.\nBrent crude **+0.8%** to **96.28**; the USO ETF proxy for oil was **-0.1%** at **141.96**.\nThe dollar proxy UUP **+0.2%** to **28.08**.\nBitcoin **-0.1%** to **79,598.08**.\n\nThe CBOE VIX rose **+1.5%** to **14.53** (range **13.80**\u2013**14.58**).\nTreasury snapshot in the bundle (dated **2026-09-02**) showed the **10-year** at **4.8%** and the **2s10s spread** at **0.40** percentage points.\n\nOverseas indexes in the same payload had already traded: Nikkei 225 **+1.3%** to **65,020.94**, Hang Seng **+1.7%** to **25,650.87**, FTSE 100 roughly flat at **10,831.09**.\n\nNews flow after the bell framed the U.S. equity decline alongside discussion of yields and September Fed meeting pricing following the jobs report; no additional earnings actuals were listed in the session earnings calendar field.",
+        "body": "The editor session is tagged 2026-09-05 in America/New_York, with the bundle marked `close` and generated at 2026-09-05T22:56:21-04:00.\nThat timing is the only session anchor in the payload.\n\nThe `indexes` object is empty, so there are no injected S&P 500, Dow, or Nasdaq levels, point changes, or percentage changes to describe for the U.S. cash close.\n\n`overseas` is also empty, so no non-U.S. index context ships in this file for contrast with the U.S. session.\n\n`sectors` is an empty array, so sector leadership and laggards cannot be ordered for Sept. 5 from this input.\n\n`mega_caps` contains no symbols, so megacap direction for the session cannot be summarized from FMP here.\n\n`liquid_gainers` and `liquid_losers` are empty lists, so there are no FMP-rounded percentage moves or closing prices for a named-mover log.\n\n`actives` is empty, so volume-led names are not listed in the injection.\n\n`economic_calendar` is empty, so no labor, inflation, or other release line from this bundle can be tied to the Sept. 5 close narrative.\n\n`earnings_calendar` is empty, so no after-close or same-day EPS/revenue actuals appear in this data for recap purposes.\n\n`news` is empty, so no headline-sourced explanations for individual stock moves are available from FMP in this payload.\n\n`cross_asset` is `{}` and `treasury` is null, so yields, U.S. dollar, gold, crude, and VIX-style readings are not present for a cross-asset paragraph.\n\nPrior posts on 2026-09-03 and 2026-09-04 covered jobs data, index reactions, and names such as Tesla, AMD, and Oracle; this recap does not add Sept. 5 market figures because they are not in the injected close object.\n\nTo publish the standard 10\u201312-point Sept. 5 close recap on @tickeralphai, repopulate the close pipeline so `indexes`, `sectors`, movers, `news`, `cross_asset`, and `treasury` (or equivalent) carry FMP-sourced numbers and verifiable source URLs.",
         "skip_reason": "",
         "supporting_data": [
-          "session_date: 2026-09-04 \u2014 [source: FMP_DATA]",
-          "Non Farm Payrolls actual/estimate: 162K / 56K \u2014 [source: FMP economic_calendar]",
-          "^GSPC: 7,717.81, -0.4% \u2014 [source: FMP indexes]",
-          "^DJI: 53,414.25, -0.5% \u2014 [source: FMP indexes]",
-          "^IXIC: 26,506.99, -0.3% \u2014 [source: FMP indexes]",
-          "^RUT: 2,975.65, +0.2% \u2014 [source: FMP indexes]",
-          "Utilities sector averageChange: +3.4% (rounded) \u2014 [source: FMP sectors]",
-          "TSLA / NFLX / MSFT / AMD / ASML / ORCL closes \u2014 [source: FMP mega_caps]",
-          "GWRE / LULU / FICO liquid_losers \u2014 [source: FMP liquid_losers]",
-          "GCUSD: 4,476.60, -1.4% \u2014 [source: FMP cross_asset gold]",
-          "BZUSD: 96.28, +0.8% \u2014 [source: FMP cross_asset brent]",
-          "^VIX: 14.53, +1.5% \u2014 [source: FMP indexes ^VIX]",
-          "treasury year10: 4.79, spread_2s10s: 0.4 \u2014 [source: FMP treasury]"
+          "Session date: 2026-09-05 \u2014 source: FMP close injection (`session_date`)",
+          "Timezone: America/New_York \u2014 source: FMP close injection (`timezone`)",
+          "Mode: close \u2014 source: FMP close injection (`mode`)",
+          "Generated at: 2026-09-05T22:56:21-04:00 \u2014 source: FMP close injection (`generated_at`)",
+          "Indexes: {} \u2014 source: FMP close injection (`indexes`)",
+          "Sectors: [] \u2014 source: FMP close injection (`sectors`)",
+          "Cross asset: {} \u2014 source: FMP close injection (`cross_asset`)",
+          "Treasury: null \u2014 source: FMP close injection (`treasury`)"
         ],
-        "source_url": "https://www.wsj.com/finance/investing/u-s-stocks-fall-as-robust-august-jobs-data-spurs-yields-rate-hike-bets-0adff908",
-        "source_notes": "https://www.wsj.com/finance/investing/u-s-stocks-fall-as-robust-august-jobs-data-spurs-yields-rate-hike-bets-0adff908"
+        "source_url": "(not present in injected FMP_DATA)",
+        "source_notes": "(not present in injected FMP_DATA)"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-04",
-    "generated_at": "2026-09-04T22:58:32-04:00",
-    "draft_path": "drafts/2026-09-04-week-ahead.md",
-    "errors": [],
+    "session_date": "2026-09-05",
+    "generated_at": "2026-09-05T22:57:23-04:00",
+    "draft_path": "drafts/2026-09-05-week-ahead.md",
+    "errors": [
+      "quote {'symbol': '^GSPC'}: HTTP 429",
+      "quote {'symbol': '^IXIC'}: HTTP 429",
+      "quote {'symbol': '^DJI'}: HTTP 429",
+      "quote {'symbol': '^RUT'}: HTTP 429",
+      "quote {'symbol': '^VIX'}: HTTP 429",
+      "economic-calendar {'from': '2026-09-07', 'to': '2026-09-11'}: HTTP 429",
+      "earnings-calendar {'from': '2026-09-07', 'to': '2026-09-11'}: HTTP 429",
+      "company-screener {'marketCapMoreThan': '5000000000', 'country': 'US', 'isEtf': 'false', 'isFund': 'false', 'isActivelyTrading': 'true', 'limit': '1000', 'page': '0'}: HTTP 429",
+      "news/general-latest {'page': '0', 'limit': '20'}: HTTP 429"
+    ],
     "slots": [
       {
-        "title": "Fed Meets Mid-September After 162K Jobs",
+        "title": "Sept. 7\u201311 Is the Next US Market Week",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August nonfarm payrolls: **162K** jobs added vs **56K** expected (prior revision **21K**).\n\nUnemployment held at **4.1%** \u2014 in line with the **4.1%** estimate.\n\nAverage hourly earnings rose **0.3%** month over month and **3.1%** year over year (estimates **0.3%** / **3.0%**).\n\nThat bundle is the labor snapshot markets carry into the week ahead.\n\nCoverage also flags the **Federal Reserve meeting in mid-September** as the next scheduled policy checkpoint after this jobs release.\n\nNo call on rates here \u2014 just the calendar and the prints already on the board.\n\nWhat labor line from Friday\u2019s report are you tracking first next week?",
+        "body": "Week-ahead mode covers Sept. 7\u201311, 2026 (America/New_York).\n\nThe snapshot was generated Sept. 5, 2026 at 10:56 p.m.\nET, after that day\u2019s session date of Sept. 5.\n\nThat window is when the next full U.S. equity week resolves for scheduled company reports and government data prints in this feed.\n\nNo index, sector, or single-stock lines were included in this bundle\u2014only the calendar window and timestamps.\n\nWhich day next week do you usually check first for scheduled releases?",
         "skip_reason": "",
         "supporting_data": [
-          "Non Farm Payrolls (Aug) actual: 162K \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Aug) estimate: 56K \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Aug) previous: 21K \u2014 source: FMP economic_calendar",
-          "Unemployment Rate (Aug) actual: 4.1% \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings MoM (Aug) actual: 0.3% \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings YoY (Aug) actual: 3.1% \u2014 source: FMP economic_calendar"
+          "week_start: 2026-09-07 \u2014 source: injected FMP_DATA (week-ahead)",
+          "week_end: 2026-09-11 \u2014 source: injected FMP_DATA (week-ahead)",
+          "session_date: 2026-09-05 \u2014 source: injected FMP_DATA (week-ahead)",
+          "generated_at: 2026-09-05T22:56:54-04:00 \u2014 source: injected FMP_DATA (week-ahead)",
+          "timezone: America/New_York \u2014 source: injected FMP_DATA (week-ahead)"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-strong-jobs-report-markets-brace-rate-hike-9ec5641b",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-strong-jobs-report-markets-brace-rate-hike-9ec5641b"
+        "source_url": "https://tickeralpha.ai/docs/latest.json",
+        "source_notes": "https://tickeralpha.ai/docs/latest.json"
       },
       {
-        "title": "August CPI Report Still on Deck",
+        "title": "Zero Earnings Lines for Sept. 7\u201311 Week",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The **August CPI report** is still the next big inflation print in focus \u2014 it tracks how much everyday prices rose over the month.\n\nCoverage cites an expectation for **headline CPI around 3.6%**, with energy costs called out as a driver in that write-up.\n\nThe same piece also points to **super-core PCE inflation at 3.9%** as a gauge of stickier, wage-linked price pressure.\n\nFriday\u2019s jobs data already showed **+3.1%** year-over-year average hourly earnings \u2014 a separate labor-cost line markets often read next to CPI.\n\nWhen the August CPI number posts, it resolves the month\u2019s official consumer-inflation story alongside that wage print.\n\nWhich inflation line do you watch first \u2014 headline CPI or the wage side from payrolls?",
+        "body": "Earnings calendar: no rows for the upcoming week in this data pull.\n\nAn earnings line is when a company reports quarterly profit per share and sets a report date\u2014none of those are listed here for Sept. 7\u201311, 2026.\n\nCoverage week still runs Sept. 7 through Sept. 11 (ET), with the file timestamped Sept. 5, 2026 at 10:56 p.m.\nET.\n\nWhen names and EPS estimates appear in your source, that is what resolves \u201cbeat or miss\u201d versus the street number\u2014this bundle does not include them.\n\nDo you track earnings by report date or by fiscal quarter label?\n\n#Earnings",
         "skip_reason": "",
         "supporting_data": [
-          "Expected headline CPI cited: 3.6% \u2014 source: FMP news (Seeking Alpha article text)",
-          "Super-core PCE inflation cited: 3.9% \u2014 source: FMP news (Seeking Alpha article text)",
-          "Average Hourly Earnings YoY (Aug) actual: 3.1% \u2014 source: FMP economic_calendar"
+          "earnings_calendar entry count: 0 \u2014 source: injected FMP_DATA (earnings_calendar)",
+          "week_start: 2026-09-07 \u2014 source: injected FMP_DATA (week-ahead)",
+          "week_end: 2026-09-11 \u2014 source: injected FMP_DATA (week-ahead)",
+          "generated_at: 2026-09-05T22:56:54-04:00 \u2014 source: injected FMP_DATA (week-ahead)"
         ],
-        "source_url": "https://seekingalpha.com/article/4943226-hot-august-cpi-to-trigger-more-aggressive-fed-tightening",
-        "source_notes": "https://seekingalpha.com/article/4943226-hot-august-cpi-to-trigger-more-aggressive-fed-tightening"
+        "source_url": "https://tickeralpha.ai/docs/latest.json",
+        "source_notes": "https://tickeralpha.ai/docs/latest.json"
       },
       {
-        "title": "Private Payrolls 127K vs 45K Estimate",
+        "title": "Economic Calendar Empty for That Week",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Private nonfarm payrolls (Aug): **127K** vs **45K** expected.\n\nPrior month: **71K**.\n\nGovernment payrolls (Aug): **35K** vs **-11K** expected.\n\nManufacturing payrolls (Aug): **16K** vs **5K** expected.\n\nBroader unemployment (U-6, Aug): **7.7%** vs **8.0%** expected (prior **7.9%**).\n\nAll of that came out **2026-09-04 12:30 ET** in the same release as the **162K** headline payrolls number.\n\nIndexes at the prior close framed that session:\n- $SPY proxy ^GSPC **-0.4%** to **7,717.81**\n- ^DJI **-0.5%** to **53,414.25**\n- ^VIX **+1.5%** to **14.53**\n\nNext fixed macro checkpoints in coverage remain **August CPI** and the **mid-September Fed meeting** \u2014 dates for CPI aren\u2019t in this data feed.\n\nWhich payroll slice \u2014 private, government, or manufacturing \u2014 matters most for how you read the labor report?",
+        "body": "Economic calendar: no scheduled releases listed for next week in this snapshot.\n\nThose entries normally show things like inflation (consumer price index), jobs, or factory surveys\u2014with date, time, and the consensus guess economists expect.\n\nWeek scope remains Sept. 7\u201311, 2026, Eastern time, from data generated Sept. 5, 2026 at 10:56 p.m.\nET.\n\nWithout a line item here, there is no print time or estimate from this feed to anchor the week\u2019s macro schedule.\n\nWhich macro report do you read first when it is on the calendar?\n\n#Economy",
         "skip_reason": "",
         "supporting_data": [
-          "Nonfarm Payrolls Private (Aug) actual: 127K \u2014 source: FMP economic_calendar",
-          "Nonfarm Payrolls Private (Aug) estimate: 45K \u2014 source: FMP economic_calendar",
-          "Government Payrolls (Aug) actual: 35K \u2014 source: FMP economic_calendar",
-          "Government Payrolls (Aug) estimate: -11K \u2014 source: FMP economic_calendar",
-          "Manufacturing Payrolls (Aug) actual: 16K \u2014 source: FMP economic_calendar",
-          "Manufacturing Payrolls (Aug) estimate: 5K \u2014 source: FMP economic_calendar",
-          "U-6 Unemployment Rate (Aug) actual: 7.7% \u2014 source: FMP economic_calendar",
-          "U-6 Unemployment Rate (Aug) estimate: 8.0% \u2014 source: FMP economic_calendar",
-          "^GSPC price: 7,717.81; changesPercentage: -0.4% \u2014 source: FMP indexes",
-          "^DJI price: 53,414.25; changesPercentage: -0.5% \u2014 source: FMP indexes",
-          "^VIX price: 14.53; changesPercentage: 1.5% \u2014 source: FMP indexes"
+          "economic_calendar entry count: 0 \u2014 source: injected FMP_DATA (economic_calendar)",
+          "week_start: 2026-09-07 \u2014 source: injected FMP_DATA (week-ahead)",
+          "week_end: 2026-09-11 \u2014 source: injected FMP_DATA (week-ahead)",
+          "mode: week-ahead \u2014 source: injected FMP_DATA (week-ahead)",
+          "generated_at: 2026-09-05T22:56:54-04:00 \u2014 source: injected FMP_DATA (week-ahead)"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/rates-climb-stocks-dip-after-strong-u-s-jobs-data-a71b1a23",
-        "source_notes": "https://www.wsj.com/finance/stocks/rates-climb-stocks-dip-after-strong-u-s-jobs-data-a71b1a23"
+        "source_url": "https://tickeralpha.ai/docs/latest.json",
+        "source_notes": "https://tickeralpha.ai/docs/latest.json"
       }
     ]
   }

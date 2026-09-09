@@ -1,205 +1,203 @@
 {
-  "updated_at": "2026-09-07T23:04:43-04:00",
+  "updated_at": "2026-09-08T23:05:36-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-07",
-    "generated_at": "2026-09-07T23:03:31-04:00",
-    "draft_path": "drafts/2026-09-07-am.md",
+    "session_date": "2026-09-08",
+    "generated_at": "2026-09-08T23:04:44-04:00",
+    "draft_path": "drafts/2026-09-08-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Labor Day pump prices hit a record",
+        "title": "NFIB optimism 98.7 misses 99.3 estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "U.S. drivers faced record Labor Day gasoline prices, per WSJ \u2014 more expensive crude and tighter global supply are in the headline.\n\nBrent crude settled at $97.35, up 1.1% on the session.\n\nCNBC reported oil at a six-week high after U.S.\u2013Iran tensions and reports of strikes on Saudi Aramco facilities.\n\nWhat energy print or headline are you tracking first this week?",
+        "body": "August NFIB Business Optimism: **98.7** vs **99.3** expected (July **99.8**).\n\nThat\u2019s a survey of Main Street hiring and spending plans \u2014 a read on how owners feel before big inflation and jobs prints later this week.\n\nRelease hit at 10:00 ET on Sept. 8.\n\nWhat do you watch when NFIB slips but stocks are still up double digits YTD?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude price: 97.35 \u2014 FMP cross_asset / BZUSD",
-          "Brent session change: +1.1% \u2014 FMP cross_asset / BZUSD changesPercentage",
-          "U.S. Oil Fund (USO): 141.96, -0.1% \u2014 FMP cross_asset / USO"
+          "NFIB Business Optimism Index (Aug) actual: 98.7 \u2014 economic_calendar, FMP",
+          "NFIB estimate: 99.3 \u2014 economic_calendar, FMP",
+          "NFIB previous (July): 99.8 \u2014 economic_calendar, FMP"
         ],
-        "source_url": "https://www.wsj.com/business/energy-oil/u-s-gasoline-prices-hit-labor-day-record-1a789682",
-        "source_notes": "https://www.wsj.com/business/energy-oil/u-s-gasoline-prices-hit-labor-day-record-1a789682"
+        "source_url": "https://tickeralpha.ai",
+        "source_notes": "https://tickeralpha.ai"
       },
       {
-        "title": "UBS now flags two 2026 Fed hikes",
+        "title": "Canada dairy, alcohol, bike imports banned in 3 weeks",
         "status": "ready",
         "kind": "x_idea",
-        "body": "UBS now expects two Federal Reserve rate hikes in 2026 \u2014 25 basis points in September and again in December \u2014 after the August jobs report came in stronger than expected, Invezz reports.\n\nThe bank had previously called for no policy changes this year.\n\nOn the latest FMP Treasury snapshot (2026-09-04), the 10-year yield was 4.8% and the 2-year was 4.4% \u2014 a 2s10s spread of 0.41 percentage points.\n\nHow do you read jobs strength against the next inflation release on the calendar?",
+        "body": "Import curbs on Canadian **dairy**, **alcoholic beverages**, and **motorcycles** are set to take effect in **three weeks**, per orders signed Sept. 8.\n\nThe slice of trade affected is small at the national level; for firms in those lanes, a hard stop on U.S. entry is the headline risk.\n\nSame day, U.S. equity benchmarks finished lower \u2014 S&P 500 **-0.6%** to **7,674.13**, Dow **-1.2%** to **52,786.07**.\n\nWhich cross-border category do you think gets the most airtime before the deadline?",
         "skip_reason": "",
         "supporting_data": [
-          "10-year Treasury yield: 4.8% \u2014 FMP treasury / year10 (date 2026-09-04)",
-          "2-year Treasury yield: 4.4% \u2014 FMP treasury / year2",
-          "2s10s spread: 0.41 \u2014 FMP treasury / spread_2s10s"
+          "S&P 500 close: 7,674.13 \u2014 indexes ^GSPC, FMP",
+          "S&P 500 change: -0.6% \u2014 indexes ^GSPC, FMP",
+          "Dow Jones close: 52,786.07 \u2014 indexes ^DJI, FMP",
+          "Dow Jones change: -1.2% \u2014 indexes ^DJI, FMP"
         ],
-        "source_url": "https://invezz.com/news/2026/09/07/ubs-sees-two-fed-hikes-in-2026-what-should-investors-buy/",
-        "source_notes": "https://invezz.com/news/2026/09/07/ubs-sees-two-fed-hikes-in-2026-what-should-investors-buy/"
+        "source_url": "https://www.wsj.com/economy/trade/trump-says-he-will-block-canadian-firms-from-government-contracts-a4c3c21e",
+        "source_notes": "https://www.wsj.com/economy/trade/trump-says-he-will-block-canadian-firms-from-government-contracts-a4c3c21e"
       },
       {
-        "title": "NFIB optimism due at 10:00 ET Tuesday",
+        "title": "China factory inflation 3.8% tops 3.6% forecast",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The next U.S. macro slot on the FMP calendar: NFIB Business Optimism Index (August), Tuesday 2026-09-08 at 10:00 ET.\n\nConsensus estimate: 99.3.\n\nPrior reading: 99.8.\n\nImpact tag in the feed: Low \u2014 it measures small-business sentiment, not prices or payrolls.\n\nWSJ noted Asian markets mixed with attention on U.S. consumer inflation data after the U.S. Labor Day holiday.\n\nWhich release on your calendar matters most after the long weekend?",
+        "body": "China **August producer prices (PPI): +3.8%** y/y vs **+3.6%** expected \u2014 July was **+3.5%**.\n\n**Consumer prices (CPI): +0.8%** y/y, in line with forecast, up from July **+0.5%**.\n\nCNBC tied the factory-side beat to commodity costs and tech manufacturing demand.\n\nBrent settled **99.54**, **+1.7%** on the session, with Middle East supply headlines in the mix.\n\nDo you treat China PPI as a lead indicator for U.S. goods inflation, or mostly an Asia story?",
         "skip_reason": "",
         "supporting_data": [
-          "NFIB (Aug) estimate: 99.3 \u2014 FMP economic_calendar",
-          "NFIB previous: 99.8 \u2014 FMP economic_calendar",
-          "Event time: 2026-09-08 10:00:00 US \u2014 FMP economic_calendar"
+          "China PPI August: 3.8% (headline) \u2014 news CNBC",
+          "China PPI forecast: 3.6% \u2014 news CNBC",
+          "China PPI July: 3.5% \u2014 news CNBC",
+          "China CPI August: 0.8% y/y \u2014 news CNBC",
+          "China CPI July: 0.5% \u2014 news CNBC",
+          "Brent crude price: 99.54 \u2014 cross_asset brent, FMP",
+          "Brent change: +1.7% \u2014 cross_asset brent, FMP"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/asian-stock-markets-mixed-as-investors-look-to-u-s-cpi-data-f41bca9f",
-        "source_notes": "https://www.wsj.com/finance/stocks/asian-stock-markets-mixed-as-investors-look-to-u-s-cpi-data-f41bca9f"
+        "source_url": "https://www.cnbc.com/2026/09/09/china-cpi-ppi-august-oil-prices-tech-manufacturing-.html",
+        "source_notes": "https://www.cnbc.com/2026/09/09/china-cpi-ppi-august-oil-prices-tech-manufacturing-.html"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-07",
-    "generated_at": "2026-09-07T23:04:21-04:00",
-    "draft_path": "drafts/2026-09-07.md",
+    "session_date": "2026-09-08",
+    "generated_at": "2026-09-08T23:05:12-04:00",
+    "draft_path": "drafts/2026-09-08.md",
     "errors": [],
     "slots": [
       {
-        "title": "Netflix finished down 5.3% at 78.25",
+        "title": "Dow off 628 points as Brent nears $100",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$NFLX closed down 5.3% at 78.25.\n\nThe stock\u2019s day range ran from 78.23 to 82.69 after a prior close of 82.67.\n\nThe Nasdaq Composite finished at 26,506.99, down 0.3% on the session.\n\nCommunication Services was the weakest Nasdaq sector in the feed, with an average change of about -0.6%.\n\nWhich megacap name surprised you most on the close?",
+        "body": "The Dow Jones Industrial Average closed down 1.2% (-628.18) at 52,786.07.\n\nThe S&P 500 finished at 7,674.13 (-0.6%, -44.47).\n\nThe Nasdaq Composite closed at 26,423.69 (-0.3%, -83.30).\n\nBrent crude settled at 99.50 (+1.6%).\n\nCNBC tied the oil move to escalating U.S.\u2013Iran tensions and supply worries in the Middle East.\n\nThe VIX closed at 15.72 (+8.2%).\n\nWhich cross-asset link do you watch first on days like this \u2014 oil, rates, or the dollar?",
         "skip_reason": "",
         "supporting_data": [
-          "NFLX change: -5.3% \u2014 source: FMP mega_caps",
-          "NFLX price: 78.25 \u2014 source: FMP mega_caps",
-          "NFLX previous close: 82.67 \u2014 source: FMP mega_caps",
-          "^IXIC: 26,506.99 (-0.3%) \u2014 source: FMP indexes",
-          "Communication Services sector average: -0.6% \u2014 source: FMP sectors"
+          "Dow close: 52,786.07, change -628.18, -1.2% \u2014 FMP indexes ^DJI",
+          "S&P 500 close: 7,674.13, change -44.47, -0.6% \u2014 FMP indexes ^GSPC",
+          "Nasdaq close: 26,423.69, change -83.30, -0.3% \u2014 FMP indexes ^IXIC",
+          "Brent: 99.50, +1.6% \u2014 FMP cross_asset brent",
+          "VIX: 15.72, +8.2% \u2014 FMP indexes ^VIX"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/investors-move-markets-read-signs-b0f2cc95",
-        "source_notes": "https://www.wsj.com/finance/stocks/investors-move-markets-read-signs-b0f2cc95"
+        "source_url": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
+        "source_notes": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html"
       },
       {
-        "title": "Oracle shares up 3.1% to 158.83",
+        "title": "AMD up 5.9% in a split chip session",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$ORCL finished up 3.1% at 158.83.\n\nVolume in the feed was 26.05 million shares; the day high was 159.70.\n\nOn the same close:\n\n- $CRM -2.0% to 259.23\n- $MSFT -2.0% to 499.70\n\nThe Technology sector\u2019s Nasdaq average change was +0.7% in the sector table.\n\nDoes enterprise software feel like one tape or many names to you?",
+        "body": "$AMD closed up 5.9% at 505.74 (+28.17).\n\nOther chip-linked names also gained on the session:\n\n- $TSM +2.4% to 439.00\n- $ASML +2.9% to 1,764.85\n\n$NVDA finished down 2.0% at 225.73 (-4.63).\n\nThe Nasdaq \u201cTechnology\u201d sector average change was -0.6% for the date in the sector snapshot.\n\n$INTC was among the most active names, up 9.1% at 104.47.\n\nDo you treat equipment ($ASML) and foundry ($TSM) as the same trade as GPU leaders, or separate?",
         "skip_reason": "",
         "supporting_data": [
-          "ORCL changesPercentage: 3.1% \u2014 source: FMP mega_caps",
-          "ORCL price: 158.83 \u2014 source: FMP mega_caps",
-          "ORCL volume: 26,053,295 \u2014 source: FMP mega_caps",
-          "CRM: -2.0%, 259.23 \u2014 source: FMP mega_caps",
-          "MSFT: -2.0%, 499.70 \u2014 source: FMP mega_caps",
-          "Technology sector average: +0.7% \u2014 source: FMP sectors"
+          "AMD: 505.74, +5.9% \u2014 FMP mega_caps AMD",
+          "TSM: 439.00, +2.4% \u2014 FMP mega_caps TSM",
+          "ASML: 1,764.85, +2.9% \u2014 FMP mega_caps ASML",
+          "NVDA: 225.73, -2.0% \u2014 FMP mega_caps NVDA",
+          "Technology sector average: -0.6% \u2014 FMP sectors",
+          "INTC: 104.47, +9.1% \u2014 FMP actives INTC"
         ],
-        "source_url": "https://seekingalpha.com/article/4943573-after-nvidias-blowout-the-ai-trades-next-leg-is-one-layer-down",
-        "source_notes": "https://seekingalpha.com/article/4943573-after-nvidias-blowout-the-ai-trades-next-leg-is-one-layer-down"
+        "source_url": "https://www.barrons.com/articles/stocks-today-geopolitical-fears-weigh-stocks-down-b3e94c37",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-geopolitical-fears-weigh-stocks-down-b3e94c37"
       },
       {
-        "title": "Utilities led sectors at +3.4%",
+        "title": "ServiceTitan down 7.2% after EPS beat",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Utilities led the Nasdaq sector averages at +3.4% for the dated snapshot.\n\nConsumer Defensive averaged -0.9%.\n\nConsumer Cyclical averaged -0.9%.\n\nFinancial Services averaged +0.9% \u2014 the second-strongest sector line in the feed.\n\nThe S&P 500 closed at 7,718.60, down 0.4% on the session.\n\nWhich sector line in your watchlist matched this split?",
+        "body": "$TTAN closed at 81.58 (-7.2%, -6.34).\n\nEarnings for the Sept. 8 report date in the calendar:\n\n- EPS actual 0.40 vs estimated 0.35\n- Revenue actual 292.76M vs estimated 285.89M\n\nThe day\u2019s range ran from a low of 81.41 to a high of 86.60.\n\nVolume was 4,506,981 shares in the mega-cap snapshot.\n\nWhen the print beats estimates and the stock still falls, what do you look at next \u2014 guidance, margins, or the prior run-up?",
         "skip_reason": "",
         "supporting_data": [
-          "Utilities averageChange: +3.4% \u2014 source: FMP sectors (2026-09-07)",
-          "Consumer Defensive: -0.9% \u2014 source: FMP sectors",
-          "Consumer Cyclical: -0.9% \u2014 source: FMP sectors",
-          "Financial Services: +0.9% \u2014 source: FMP sectors",
-          "^GSPC: 7,718.60 (-0.4%) \u2014 source: FMP indexes"
+          "TTAN close: 81.58, -7.2% \u2014 FMP mega_caps TTAN",
+          "EPS actual / estimated: 0.40 / 0.35 \u2014 FMP earnings_calendar TTAN",
+          "Revenue actual / estimated: 292,756,000 / 285,894,800 \u2014 FMP earnings_calendar TTAN",
+          "Day low / high: 81.41 / 86.60 \u2014 FMP mega_caps TTAN",
+          "Volume: 4,506,981 \u2014 FMP mega_caps TTAN"
         ],
-        "source_url": "https://invezz.com/news/2026/09/07/ubs-sees-two-fed-hikes-in-2026-what-should-investors-buy/",
-        "source_notes": "https://invezz.com/news/2026/09/07/ubs-sees-two-fed-hikes-in-2026-what-should-investors-buy/"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "US session recap \u2014 Sept. 7, 2026",
+        "title": "U.S. cash session \u2014 Sept. 8, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The calendar slot in the feed marks 2026-09-07 as a US Labour Day holiday with no market impact flag; the price tables still carry a full US equity and cross-asset snapshot for that dated run.\n\nThe S&P 500 finished at 7,718.60, down 29.11 points (-0.4%), with an intraday range of 7,706.12 to 7,750.19.\nThe Dow Jones Industrial Average closed at 53,414.25 (-0.5%), while the Nasdaq Composite settled at 26,506.99 (-0.3%).\nThe Russell 2000 was a outlier among US indexes at 2,975.65 (+0.2%).\n\nThe CBOE Volatility Index rose to 15.30, up 0.77 points (+5.3%) from a prior close of 14.53, with a session high of 15.32 in the feed.\n\nSector averages on Nasdaq showed Utilities up 3.4% and Technology up 0.7%, against Consumer Defensive (-0.9%), Consumer Cyclical (-0.9%), Energy (-0.8%), and Communication Services (-0.6%).\nHealthcare was nearly flat at 0.0% in the table; Real Estate averaged +0.1%.\n\nMegacap technology and consumer platforms were mostly lower: Apple closed at 319.97 (-2.5%), Microsoft at 499.70 (-2.0%), Alphabet (GOOG) at 335.31 (-1.1%), and Netflix at 78.25 (-5.3%).\nMeta bucked that pattern at 616.77 (+1.0%).\n\nSemiconductor and chip-equipment names were strong on the same close: Advanced Micro Devices finished at 477.57 (+4.7%), ASML at 1,714.88 (+4.2%), and Intel at 95.80 (+4.5%).\nNVIDIA closed at 230.36 (+0.8%) on heavy volume of 135.35 million shares in the megacap block.\n\nOracle rose 3.1% to 158.83, while Salesforce slipped 2.0% to 259.23.\nAmong liquid decliners in the screen, Lululemon was down 17.4% to 100.61, Guidewire down 19.9% to 162.42, Fair Isaac down 16.7% to 932.26, and UiPath down 16.6% to 15.19.\n\nThe earnings calendar array in this injection is empty; no after-close EPS lines are attached to the package.\n\nTreasury yields in the feed are dated 2026-09-04, with the 10-year at 4.8% and the 2s10s spread at 0.41 percentage points in the snapshot.\n\nBrent crude in the cross-asset block was up 1.2% at 97.39; gold futures were down 0.2% at 4,466.10.\nThe US dollar proxy (UUP) rose 0.2% to 28.08, and Bitcoin was down 0.2% at 78,923.45.\n\nOverseas indexes in the same file were mixed: the Nikkei 225 was up 0.1% at 66,445.13, the Hang Seng down 0.6% at 25,252.00, and the FTSE 100 down 0.1% at 10,822.13.\n\nHeadlines in the news bundle point to Middle East oil supply stress and investors looking ahead to US consumer inflation data after the holiday; regional Asian equity coverage cited mixed trading with US CPI on the calendar.",
+        "body": "U.S. equities closed lower on Sept. 8, with the Dow Jones Industrial Average down 1.2% at 52,786.07 and the S&P 500 off 0.6% at 7,674.13.\nThe Nasdaq Composite slipped 0.3% to 26,423.69, and the Russell 2000 fell 0.5% to 2,960.20.\n\nOil was firm while stocks softened: Brent crude finished at 99.50 (+1.6%), and the United States Oil Fund ($USO proxy in the tape) closed at 146.03 (+2.9%).\nCNBC linked crude strength to U.S.\u2013Iran tensions and supply concerns.\nBarrons noted renewed Middle East strikes and a oil spike weighing on equities.\n\nThe CBOE Volatility Index rose 8.2% to 15.72, from a prior close of 14.53.\n\nAt 10:00 ET the NFIB Small Business Optimism Index for August printed at 98.7, below the 99.3 estimate and down from 99.8 previously \u2014 a low-impact U.S. release in the economic calendar.\n\nAmong Nasdaq sector averages for the date, Financial Services lagged most at -1.7%, while Real Estate led at +1.7% and Industrials were up 1.1%.\nHealthcare averaged -0.9%, Basic Materials -0.7%, and Technology -0.6%.\n\nMegacap tech was mixed:\n- $TSLA +4.0% to 368.16\n- $ORCL +2.4% to 162.52\n- $AMD +5.9% to 505.74\n- $ASML +2.9%\n- $TSM +2.4%\n- $NVDA -2.0%\n- $MSFT -1.2%\n- $AAPL -1.2%\n- $CRM -3.9%\n\nweighed on the growth complex.\n\nEarnings after the bell calendar for the same date: $CASY reported EPS 7.37 vs 6.78 estimated and revenue about 5.68B vs 5.56B estimated, with the stock closing -3.0% at 733.49.\n$GME matched EPS at 0.27 with revenue 790.2M vs 756.9M estimated, finishing -1.4% at 18.89.\n$TTAN beat on EPS and revenue but closed -7.2% at 81.58.\n\nTreasury yields in the injected snapshot (dated 2026-09-04) showed the 10-year at 4.8% and the 2s10s spread at 0.41 percentage points \u2014 the latest curve print bundled with this close package, not necessarily same-day.\n\nGold futures (GCUSD) eased 0.3% to 4,424.80.\nThe dollar proxy ($UUP) slipped 0.3% to 27.99; EUR/USD was flat at 1.16.\nBitcoin USD closed up 0.3% at 78,666.58.\n\nOverseas references in the bundle: Nikkei 225 +0.3% at 65,495.23, FTSE 100 -0.1%, Hang Seng -0.3%.\nThe session date label throughout is 2026-09-08, America/New_York.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,718.60, -0.4% \u2014 source: FMP indexes",
-          "^DJI: 53,414.25, -0.5% \u2014 source: FMP indexes",
-          "^IXIC: 26,506.99, -0.3% \u2014 source: FMP indexes",
-          "^RUT: 2,975.65, +0.2% \u2014 source: FMP indexes",
-          "^VIX: 15.30, +5.3% \u2014 source: FMP indexes",
-          "Utilities sector: +3.4% \u2014 source: FMP sectors",
-          "AAPL: 319.97, -2.5% \u2014 source: FMP mega_caps",
-          "NFLX: 78.25, -5.3% \u2014 source: FMP mega_caps",
-          "AMD: 477.57, +4.7% \u2014 source: FMP mega_caps",
-          "ASML: 1,714.88, +4.2% \u2014 source: FMP mega_caps",
-          "Brent (BZUSD): 97.39, +1.2% \u2014 source: FMP cross_asset",
-          "Treasury 10-year: 4.8% \u2014 source: FMP treasury (2026-09-04)"
+          "^DJI: 52,786.07, -1.2% \u2014 FMP indexes",
+          "^GSPC: 7,674.13, -0.6% \u2014 FMP indexes",
+          "^IXIC: 26,423.69, -0.3% \u2014 FMP indexes",
+          "^RUT: 2,960.20, -0.5% \u2014 FMP indexes",
+          "Brent: 99.50, +1.6% \u2014 FMP cross_asset brent",
+          "USO: 146.03, +2.9% \u2014 FMP cross_asset wti (USO)",
+          "^VIX: 15.72, +8.2% \u2014 FMP indexes",
+          "NFIB: actual 98.7, estimate 99.3, previous 99.8 \u2014 FMP economic_calendar",
+          "Sector averages: Financial Services -1.7%, Real Estate +1.7%, Industrials +1.1% \u2014 FMP sectors",
+          "Treasury 10y / spread: 4.8%, 0.41 \u2014 FMP treasury",
+          "Gold GCUSD: 4,424.80, -0.3% \u2014 FMP cross_asset gold",
+          "UUP: 27.99, -0.3% \u2014 FMP cross_asset dxy",
+          "BTCUSD: 78,666.58, +0.3% \u2014 FMP cross_asset btc",
+          "Earnings: CASY, GME, TTAN \u2014 FMP earnings_calendar"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/asian-stock-markets-mixed-as-investors-look-to-u-s-cpi-data-f41bca9f",
-        "source_notes": "https://www.wsj.com/finance/stocks/asian-stock-markets-mixed-as-investors-look-to-u-s-cpi-data-f41bca9f"
+        "source_url": "https://www.seekingalpha.com/article/4944118-back-to-work-back-in-red",
+        "source_notes": "https://www.seekingalpha.com/article/4944118-back-to-work-back-in-red"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-07",
-    "generated_at": "2026-09-07T23:04:43-04:00",
-    "draft_path": "drafts/2026-09-07-week-ahead.md",
+    "session_date": "2026-09-08",
+    "generated_at": "2026-09-08T23:05:36-04:00",
+    "draft_path": "drafts/2026-09-08-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "August CPI resolves Thursday at 12:30 ET",
+        "title": "Existing home sales due Thursday 2 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August CPI is scheduled for Thursday, Sept. 11, at 12:30 p.m.\nET.\n\nThat release tracks how much everyday prices rose or fell for U.S. households.\n\nHeadline inflation month over month: estimate 0.4%, prior 0.1%.\n\nHeadline inflation year over year: estimate 3.4%, prior 3.4%.\n\nCore inflation (excluding food and energy) year over year: estimate 2.4%, prior 2.5%.\n\nCore inflation month over month: estimate 0.2%, prior 0.2%.\n\nThe CPI index level (estimate): 334.85, prior 333.92.\n\nLater that day, University of Michigan consumer sentiment (September) is due at 2:00 p.m.\nET \u2014 estimate 51.0, prior 51.7.\n\nWhich line in the CPI table do you watch first \u2014 headline MoM or core YoY?",
+        "body": "August existing home sales \u2014 Thursday, Sept. 10, 2:00 p.m.\nET.\n\nConsensus: 3.99 million units (seasonally adjusted annual rate).\n\nJuly reading: 4.06 million.\n\nMonth-over-month change (est.): -0.2%.\n\nPrior MoM: -1.7%.\n\nThe release tracks closed sales of previously owned homes, a direct read on mortgage rates, inventory, and buyer demand.\n\nWhich housing print do you watch first \u2014 level or MoM?",
         "skip_reason": "",
         "supporting_data": [
-          "Inflation Rate MoM (Aug) estimate: 0.4% \u2014 source: FMP economic_calendar",
-          "Inflation Rate MoM (Aug) previous: 0.1% \u2014 source: FMP economic_calendar",
-          "Inflation Rate YoY (Aug) estimate: 3.4% \u2014 source: FMP economic_calendar",
-          "Inflation Rate YoY (Aug) previous: 3.4% \u2014 source: FMP economic_calendar",
-          "Core Inflation Rate YoY (Aug) estimate: 2.4% \u2014 source: FMP economic_calendar",
-          "Core Inflation Rate YoY (Aug) previous: 2.5% \u2014 source: FMP economic_calendar",
-          "Core Inflation Rate MoM (Aug) estimate: 0.2% \u2014 source: FMP economic_calendar",
-          "CPI (Aug) estimate: 334.85 \u2014 source: FMP economic_calendar",
-          "CPI (Aug) previous: 333.92 \u2014 source: FMP economic_calendar",
+          "Existing Home Sales (Aug) estimate: 3.99 M \u2014 source: FMP economic_calendar",
+          "Existing Home Sales (Aug) previous: 4.06 M \u2014 source: FMP economic_calendar",
+          "Existing Home Sales MoM (Aug) estimate: -0.2% \u2014 source: FMP economic_calendar",
+          "Existing Home Sales MoM (Aug) previous: -1.7% \u2014 source: FMP economic_calendar",
+          "Release time: 2026-09-10 14:00:00 US \u2014 source: FMP economic_calendar"
+        ],
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+      },
+      {
+        "title": "Michigan sentiment Friday at 2 p.m.",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "Michigan Consumer Sentiment \u2014 September preliminary.\n\nFriday, Sept. 11, 2:00 p.m.\nET.\n\nConsensus headline: 51.0.\n\nPrevious: 51.7.\n\nThe index summarizes how households view jobs, incomes, and inflation \u2014 a mood check separate from the day\u2019s earlier price data.\n\nSame calendar day, earlier: multiple August consumer inflation releases at 12:30 p.m.\nET (headline YoY est. 3.4%, prior 3.4%; MoM est. 0.4%, prior 0.1%).\n\nDo you treat sentiment as a lagging read or a lead on spending?",
+        "skip_reason": "",
+        "supporting_data": [
           "Michigan Consumer Sentiment (Sep) estimate: 51 \u2014 source: FMP economic_calendar",
           "Michigan Consumer Sentiment (Sep) previous: 51.7 \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-09-11 12:30:00 (CPI bundle), 2026-09-11 14:00:00 (sentiment) \u2014 source: FMP economic_calendar"
+          "Release time: 2026-09-11 14:00:00 US \u2014 source: FMP economic_calendar",
+          "Inflation Rate YoY (Aug) estimate: 3.4% \u2014 source: FMP economic_calendar",
+          "Inflation Rate YoY (Aug) previous: 3.4% \u2014 source: FMP economic_calendar",
+          "Inflation Rate MoM (Aug) estimate: 0.4% \u2014 source: FMP economic_calendar",
+          "Inflation Rate MoM (Aug) previous: 0.1% \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/asian-stock-markets-mixed-as-investors-look-to-u-s-cpi-data-f41bca9f",
-        "source_notes": "https://www.wsj.com/finance/stocks/asian-stock-markets-mixed-as-investors-look-to-u-s-cpi-data-f41bca9f"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "Kroger reports Sept. 11 after CPI",
+        "title": "Sunbelt Rentals reports Tuesday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$KR earnings are scheduled for Sept. 11.\n\nConsensus EPS estimate: $1.05.\n\nRevenue estimate: about $34.64 billion ($34,641,620,000).\n\nThat day also includes the August CPI release at 12:30 p.m.\nET, so grocery demand and pricing land in the same news window as the inflation print.\n\nOther names on the week\u2019s earnings calendar (by date):\n\n- Sept. 8 \u2014 $GME (EPS est. $0.27), $CASY (EPS est. $6.78)\n- Sept. 9 \u2014 $CHWY (EPS est. $0.18), $COO (EPS est. $1.12)\n- Sept. 10 \u2014 $ORCL (EPS est. $1.74), $ADBE (EPS est. $6.08), $M (EPS est. $0.37)\n\nDo you treat supermarket reports mainly as a food-price read or as a standalone business update?",
+        "body": "$SUNB \u2014 Sunbelt Rentals Holdings.\n\nEarnings date: Tuesday, Sept. 9, 2026.\n\nEPS estimate: $1.04.\n\nRevenue estimate: ~$3.00 billion ($3,001,126,000).\n\nMarket cap (calendar): ~$28.4 billion.\n\nNYSE-listed equipment rental name; the report is full-quarter revenue and profit versus those estimates.\n\nLater in the week, other scheduled reports include:\n- $CPRT (Copart) \u2014 Sept. 10, EPS est. $0.38\n- $M (Macy\u2019s) \u2014 Sept. 10, EPS est. $0.37\n\nWhat do you look for first in rental-equipment results \u2014 utilization or pricing?",
         "skip_reason": "",
         "supporting_data": [
-          "KR earnings date: 2026-09-11 \u2014 source: FMP earnings_calendar",
-          "KR epsEstimated: 1.05 \u2014 source: FMP earnings_calendar",
-          "KR revenueEstimated: 34641620000 \u2014 source: FMP earnings_calendar",
-          "KR marketCap: 35,894,987,730.00 \u2014 source: FMP earnings_calendar",
-          "ORCL epsEstimated: 1.74, date 2026-09-10 \u2014 source: FMP earnings_calendar",
-          "ADBE epsEstimated: 6.08, date 2026-09-10 \u2014 source: FMP earnings_calendar"
+          "SUNB earnings date: 2026-09-09 \u2014 source: FMP earnings_calendar",
+          "SUNB epsEstimated: 1.04 \u2014 source: FMP earnings_calendar",
+          "SUNB revenueEstimated: 3001126000 \u2014 source: FMP earnings_calendar",
+          "SUNB marketCap: 28,417,564,582.00 \u2014 source: FMP earnings_calendar",
+          "CPRT epsEstimated: 0.38 \u2014 source: FMP earnings_calendar",
+          "CPRT date: 2026-09-10 \u2014 source: FMP earnings_calendar",
+          "M epsEstimated: 0.37 \u2014 source: FMP earnings_calendar",
+          "M date: 2026-09-10 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/the-stock-markets-breezy-summer-is-over-investors-beware-fb110133",
-        "source_notes": "https://www.wsj.com/finance/stocks/the-stock-markets-breezy-summer-is-over-investors-beware-fb110133"
-      },
-      {
-        "title": "PPI and jobless claims hit Wednesday 12:30",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "Wednesday, Sept. 10, 12:30 p.m.\nET \u2014 two labor-and-prices updates at once.\n\nProducer Price Index (August) month over month: estimate 0.4%, prior 0.0%.\n\nProducer Price Index year over year: estimate 5.3%, prior 4.7%.\n\nCore PPI month over month: estimate 0.3%, prior 0.2%.\n\nInitial jobless claims (week of Sept. 5): estimate 205K, prior 206K.\n\nContinuing claims (Aug. 29): prior 1,779K; estimate 1,790K.\n\nSame day, 2:00 p.m.\nET \u2014 existing home sales (August): estimate 3.99 million units, prior 4.06 million.\n\nMonth-over-month existing home sales: estimate -0.2%, prior -1.7%.\n\nPPI measures price changes at the wholesale/production stage before many consumer prices.\n\nWhich Wednesday print do you line up first \u2014 PPI or claims?",
-        "skip_reason": "",
-        "supporting_data": [
-          "Producer Price Index MoM (Aug) estimate: 0.4% \u2014 source: FMP economic_calendar",
-          "Producer Price Index MoM (Aug) previous: 0 \u2014 source: FMP economic_calendar",
-          "Producer Price Index YoY (Aug) estimate: 5.3% \u2014 source: FMP economic_calendar",
-          "Producer Price Index YoY (Aug) previous: 4.7% \u2014 source: FMP economic_calendar",
-          "Core PPI MoM (Aug) estimate: 0.3% \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims (Sep/05) estimate: 205 \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims (Sep/05) previous: 206 \u2014 source: FMP economic_calendar",
-          "Continuing Jobless Claims (Aug/29) estimate: 1790 \u2014 source: FMP economic_calendar",
-          "Existing Home Sales (Aug) estimate: 3.99 \u2014 source: FMP economic_calendar",
-          "Existing Home Sales (Aug) previous: 4.06 \u2014 source: FMP economic_calendar",
-          "Event date: 2026-09-10 12:30:00 and 2026-09-10 14:00:00 \u2014 source: FMP economic_calendar"
-        ],
-        "source_url": "https://www.invezz.com/news/2026/09/07/ubs-sees-two-fed-hikes-in-2026-what-should-investors-buy/",
-        "source_notes": "https://www.invezz.com/news/2026/09/07/ubs-sees-two-fed-hikes-in-2026-what-should-investors-buy/"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       }
     ]
   }

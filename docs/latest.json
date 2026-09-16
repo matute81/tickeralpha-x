@@ -1,202 +1,205 @@
 {
-  "updated_at": "2026-09-14T23:25:25-04:00",
+  "updated_at": "2026-09-15T23:21:49-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-14",
-    "generated_at": "2026-09-14T23:24:28-04:00",
-    "draft_path": "drafts/2026-09-14-am.md",
+    "session_date": "2026-09-15",
+    "generated_at": "2026-09-15T23:20:31-04:00",
+    "draft_path": "drafts/2026-09-15-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Empire State index due at 12:30",
+        "title": "Empire State factory survey 7.6 vs 14.8 expected",
         "status": "ready",
         "kind": "x_idea",
-        "body": "NY Empire State Manufacturing (Sep) prints today at 12:30 p.m.\nET.\n\nConsensus: 14.8.\nPrior reading: 20.6.\n\nThe survey tracks factory activity in New York State \u2014 a early read on industrial demand before broader national reports.\n\nAt Monday\u2019s close, the S&P 500 was down 0.5% at 7,620.25.\nThe Nasdaq Composite was down 0.6% at 26,186.41.\n\nBarron\u2019s tied the session in part to AI-led tech weakness and a Fed decision still on the calendar this week.\n\nWhat number would surprise you most versus 14.8?",
+        "body": "NY Empire State Manufacturing Index (Sep): **7.6** actual vs **14.8** estimate; prior **20.6**.\n\nThat reading is the September print for factory activity in the New York Fed region \u2014 lower than economists expected and softer than August.\n\nAt the prior close, broad indexes were down on the session:\n- $SPY proxy ^GSPC **-0.5%** to **7,585.51**\n- ^IXIC **-0.8%** to **25,981.57**\n- ^DJI **-0.6%** to **52,093.11**\n\nWednesday brings August retail sales at 12:30 ET and the Fed\u2019s rate decision at 18:00 ET (consensus **4.0%** vs prior **3.8%**).\n\nWhich print are you watching first \u2014 retail sales or the Fed?",
         "skip_reason": "",
         "supporting_data": [
-          "Empire State estimate: 14.75 (rounded 14.8) \u2014 [source: FMP economic_calendar]",
-          "Empire State previous: 20.6 \u2014 [source: FMP economic_calendar]",
-          "S&P 500 changesPercentage: -0.5% \u2014 [source: FMP indexes ^GSPC]",
-          "S&P 500 price: 7,620.25 \u2014 [source: FMP indexes ^GSPC]",
-          "Nasdaq Composite changesPercentage: -0.6% \u2014 [source: FMP indexes ^IXIC]",
-          "Nasdaq Composite price: 26,186.41 \u2014 [source: FMP indexes ^IXIC]"
+          "Empire State actual: 7.6 \u2014 source: FMP economic_calendar",
+          "Empire State estimate: 14.75 (rounded 14.8 in body) \u2014 source: FMP economic_calendar",
+          "Empire State previous: 20.6 \u2014 source: FMP economic_calendar",
+          "S&P 500: 7,585.51, -0.5% \u2014 source: FMP indexes ^GSPC",
+          "Nasdaq Composite: 25,981.57, -0.8% \u2014 source: FMP indexes ^IXIC",
+          "Dow Jones: 52,093.11, -0.6% \u2014 source: FMP indexes ^DJI",
+          "Fed rate estimate: 4% \u2014 source: FMP economic_calendar",
+          "Fed rate previous: 3.8% \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-ai-stocks-lower-slowdown-fears-upcoming-fed-meeting-a20a1aad",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-stocks-lower-slowdown-fears-upcoming-fed-meeting-a20a1aad"
+        "source_url": "https://www.barrons.com/articles/stocks-today-oil-weighs-on-equities-fed-meeting-tomorrow-77951c0f",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-oil-weighs-on-equities-fed-meeting-tomorrow-77951c0f"
       },
       {
-        "title": "BoJ hike story, Nikkei up 0.9%",
+        "title": "Fed day: 4% funds estimate, retail at 12:30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Bank of Japan is positioned for the fastest hike of this tightening cycle, per WSJ \u2014 with markets parsing how fast policy might move from here.\n\nIn the latest overseas close in the data set:\n\n- ^N225 +0.9% to 64,082.36\n\nThat move sits alongside headlines about Middle East conflict and energy costs weighing on earlier Japanese trade, while the session print in the feed closed higher.\n\nGuidance from the BOJ meeting is the next fixed event on the Japan macro calendar in this story.\n\nHow much do you follow BOJ decisions versus Fed week in the US?",
+        "body": "Fed Interest Rate Decision (Sep 16, 18:00 ET): estimate **4.0%**; previous **3.8%**.\n\nSame day at 12:30 ET \u2014 Retail Sales MoM (Aug): estimate **+0.8%** vs prior **-0.6%**.\n\nAlso on the calendar:\n- Retail Sales YoY (Aug): estimate **4.7%** vs prior **5.0%**\n- Retail Sales Ex Autos MoM: estimate **+0.5%** vs prior **-0.3%**\n- FOMC Economic Projections \u2014 18:00 ET\n- Fed Press Conference \u2014 18:30 ET\n\nPrior session, the fear gauge ticked up slightly: ^VIX **17.2**, **+0.6%**.\n\nCoverage ahead of the decision noted bond yields in focus into the meeting.\n\nWhat does your checklist look like for tomorrow\u2019s stack?",
         "skip_reason": "",
         "supporting_data": [
-          "Nikkei 225 (^N225) changesPercentage: 0.9% \u2014 [source: FMP overseas ^N225]",
-          "Nikkei 225 price: 64,082.36 \u2014 [source: FMP overseas ^N225]"
+          "Fed estimate: 4% \u2014 source: FMP economic_calendar",
+          "Fed previous: 3.8% \u2014 source: FMP economic_calendar",
+          "Retail Sales MoM estimate: 0.8% \u2014 source: FMP economic_calendar",
+          "Retail Sales MoM previous: -0.6% \u2014 source: FMP economic_calendar",
+          "Retail Sales YoY estimate: 4.7% \u2014 source: FMP economic_calendar",
+          "Retail Sales YoY previous: 5% \u2014 source: FMP economic_calendar",
+          "Retail Ex Autos MoM estimate: 0.5% \u2014 source: FMP economic_calendar",
+          "Retail Ex Autos MoM previous: -0.3% \u2014 source: FMP economic_calendar",
+          "VIX: 17.2, +0.6% \u2014 source: FMP indexes ^VIX"
         ],
-        "source_url": "https://www.wsj.com/economy/central-banking/bank-of-japan-set-to-deliver-fastest-hike-of-cycle-as-pressure-mounts-d87d8030",
-        "source_notes": "https://www.wsj.com/economy/central-banking/bank-of-japan-set-to-deliver-fastest-hike-of-cycle-as-pressure-mounts-d87d8030"
+        "source_url": "https://www.youtube.com/watch?v=hT9GDECys1E",
+        "source_notes": "https://www.youtube.com/watch?v=hT9GDECys1E"
       },
       {
-        "title": "10-year yield 5.0%, Asia FX softer",
+        "title": "U.S. probes cyberattacks on energy tankers",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Asian currencies mostly weakened in recent trade, WSJ reports, after the 10-year US Treasury yield pushed above 5% before settling lower.\n\nIn the Treasury snapshot in the data (2026-09-11):\n\n- 10-year: 5.0%\n- 2s10s spread: 0.33\n\nThe dollar proxy in the feed:\n\n- $UUP +0.4% to 28.17\n\nEUR/USD in the feed: 1.15, -0.2% on the day\u2019s change field.\n\nThe piece frames the FX moves around higher US yields, not a single stock name.\n\nDo you watch the 10-year yield or the 2s10s spread more day to day?",
+        "body": "WSJ: U.S. authorities are probing cyberattacks on energy tankers near Europe carrying oil and liquefied natural gas bound for the U.S. coast.\n\nBarron\u2019s noted oil prices weighed on stocks as investors awaited the Fed announcement.\n\nCross-asset moves at the prior close:\n- $USO **+3.3%** to **161.86**\n- Brent ($BZUSD) **-0.9%** to **107.77**\n- Gold ($GCUSD) **+0.8%** to **4,368.90**\n\nMajor indexes finished lower:\n- ^GSPC **-0.5%**\n- ^IXIC **-0.8%**\n\nHow do you separate energy headlines from the Fed calendar this week?",
         "skip_reason": "",
         "supporting_data": [
-          "10-year Treasury (year10): 4.96 \u2014 [source: FMP treasury]",
-          "2s10s spread (spread_2s10s): 0.33 \u2014 [source: FMP treasury]",
-          "UUP changesPercentage: 0.4% \u2014 [source: FMP cross_asset dxy/UUP]",
-          "UUP price: 28.17 \u2014 [source: FMP cross_asset]",
-          "EUR/USD price: 1.15 \u2014 [source: FMP cross_asset eurusd]",
-          "EUR/USD changesPercentage: -0.2% \u2014 [source: FMP cross_asset eurusd]"
+          "USO price: 161.86, +3.3% \u2014 source: FMP cross_asset wti/USO",
+          "Brent (BZUSD): 107.77, -0.9% \u2014 source: FMP cross_asset brent",
+          "Gold (GCUSD): 4,368.90, +0.8% \u2014 source: FMP cross_asset gold",
+          "S&P 500 changesPercentage: -0.5% \u2014 source: FMP indexes ^GSPC",
+          "Nasdaq changesPercentage: -0.8% \u2014 source: FMP indexes ^IXIC"
         ],
-        "source_url": "https://www.wsj.com/finance/currencies/asian-currencies-mostly-weaken-amid-higher-u-s-treasury-yields-6c31ec0f",
-        "source_notes": "https://www.wsj.com/finance/currencies/asian-currencies-mostly-weaken-amid-higher-u-s-treasury-yields-6c31ec0f"
+        "source_url": "https://www.wsj.com/politics/national-security/u-s-probes-cyberattacks-on-energy-tankers-bound-for-american-coast-33d92f3a",
+        "source_notes": "https://www.wsj.com/politics/national-security/u-s-probes-cyberattacks-on-energy-tankers-bound-for-american-coast-33d92f3a"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-14",
-    "generated_at": "2026-09-14T23:24:58-04:00",
-    "draft_path": "drafts/2026-09-14.md",
+    "session_date": "2026-09-15",
+    "generated_at": "2026-09-15T23:21:08-04:00",
+    "draft_path": "drafts/2026-09-15.md",
     "errors": [],
     "slots": [
       {
-        "title": "ASML down 7.3% in chip slide",
+        "title": "Empire State 7.6 as Nasdaq \u22120.8%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$ASML \u22127.3% to 1,575.15.\n\nChip and AI-linked equities pulled back into the close while major indexes finished lower.\n\nCoverage tied the session to AI safety worries and Treasury yields \u2014 the 10-year sat at 5.0% in the latest curve snapshot.\n\nOther large semis and suppliers moved with the group:\n\n- $AVGO \u22124.8% to 344.72\n- $AMD \u22124.4% to 493.41\n- $NVDA \u22123.4% to 210.96\n- $TSM \u22123.5% to 418.01\n\nThe Nasdaq Composite closed \u22120.6% at 26,186.41.\n\nWhich name in your watchlist had the widest gap vs the index today?",
+        "body": "The Nasdaq Composite finished down 0.8% at 25,981.57 (\u2212204.84 points).\n\nThe S&P 500 lost 0.5% to 7,585.51, and the Dow Jones Industrial Average slipped 0.6% to 52,093.11.\n\nAt 12:30 p.m.\nET the NY Empire State Manufacturing Index for September printed at 7.6, versus a 14.75 consensus and 20.6 in the prior month \u2014 a read on regional factory orders and conditions.\n\nCoverage of the session tied softer equities to oil and attention on the Fed meeting.\n\nWhich index level are you tracking into the rate announcement?",
         "skip_reason": "",
         "supporting_data": [
-          "ASML change: \u22127.3% \u2014 FMP quote / mega_caps",
-          "ASML price: 1,575.15 \u2014 FMP quote / mega_caps",
-          "AVGO: \u22124.8% to 344.72 \u2014 FMP quote / mega_caps",
-          "AMD: \u22124.4% to 493.41 \u2014 FMP quote / mega_caps",
-          "NVDA: \u22123.4% to 210.96 \u2014 FMP quote / mega_caps",
-          "TSM: \u22123.5% to 418.01 \u2014 FMP quote / mega_caps",
-          "^IXIC: \u22120.6% to 26,186.41 \u2014 FMP quote / indexes",
-          "10-year Treasury: 5.0% \u2014 FMP treasury"
+          "Nasdaq Composite close: 25,981.57 (\u22120.8%) \u2014 FMP index quote ^IXIC",
+          "S&P 500 close: 7,585.51 (\u22120.5%) \u2014 FMP index quote ^GSPC",
+          "Dow close: 52,093.11 (\u22120.6%) \u2014 FMP index quote ^DJI",
+          "Empire State Manufacturing Index (Sep) actual: 7.6 \u2014 FMP economic calendar",
+          "Empire State estimate: 14.75 \u2014 FMP economic calendar",
+          "Empire State previous: 20.6 \u2014 FMP economic calendar"
         ],
-        "source_url": "https://www.youtube.com/watch?v=3f8XR7I7YMc",
-        "source_notes": "https://www.youtube.com/watch?v=3f8XR7I7YMc"
+        "source_url": "https://www.barrons.com/articles/stocks-today-oil-weighs-on-equities-fed-meeting-tomorrow-77951c0f",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-oil-weighs-on-equities-fed-meeting-tomorrow-77951c0f"
       },
       {
-        "title": "Bank of America \u22125.1% at the close",
+        "title": "Oracle \u22123.1% as cloud peers slip",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$BAC \u22125.1% to 59.47.\n\nVolume was 61.68M shares \u2014 a heavy print for a money-center bank on a mixed index day.\n\nThe S&P 500 closed \u22120.5% at 7,620.25.\n\nThe Dow Jones Industrial Average was \u22120.3% at 52,421.20.\n\nNasdaq Financial Services names averaged +0.7% for the session \u2014 $BAC moved against that sector backdrop.\n\nDo you track banks mainly on rate moves or on credit headlines?",
+        "body": "$ORCL closed down 3.1% at $140.37 (\u2212$4.42).\n\nOther widely held names in the same bucket finished lower as well:\n\n- $NFLX \u22123.0% to $77.90\n- $AMZN \u22122.0% to $248.42\n- $MSFT \u22121.6% to $497.12\n- $CRM \u22121.5% to $255.65\n\n$ORCL traded between $140.03 and $144.88 on the session, with about 31.0M shares changing hands.\n\nAre you watching these names for earnings dates or for how they trade with rates?",
         "skip_reason": "",
         "supporting_data": [
-          "BAC changesPercentage: \u22125.1% \u2014 FMP quote / mega_caps",
-          "BAC price: 59.47 \u2014 FMP quote / mega_caps",
-          "BAC volume: 61,683,436 \u2014 FMP quote / mega_caps",
-          "^GSPC: \u22120.5% to 7,620.25 \u2014 FMP quote / indexes",
-          "^DJI: \u22120.3% to 52,421.20 \u2014 FMP quote / indexes",
-          "Financial Services averageChange: +0.7% \u2014 FMP sectors"
+          "ORCL: $140.37, \u22123.1% \u2014 FMP quote ORCL",
+          "NFLX: $77.90, \u22123.0% \u2014 FMP quote NFLX",
+          "AMZN: $248.42, \u22122.0% \u2014 FMP quote AMZN",
+          "MSFT: $497.12, \u22121.6% \u2014 FMP quote MSFT",
+          "CRM: $255.65, \u22121.5% \u2014 FMP quote CRM",
+          "ORCL volume: 30,965,883 \u2014 FMP quote ORCL"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/BAC",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/BAC"
+        "source_url": "https://financialmodelingprep.com/stable/quote?symbol=ORCL",
+        "source_notes": "https://financialmodelingprep.com/stable/quote?symbol=ORCL"
       },
       {
-        "title": "Meta, Alphabet, Netflix up while semis fell",
+        "title": "AMD +2.2% to $504.20 at close",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Nasdaq Communication Services averaged +1.6% \u2014 the top sector in the injected sector screen.\n\nLarge names in that bucket closed higher:\n\n- $GOOGL +3.2% to 349.39\n- $NFLX +3.8% to 80.32\n- $META +2.7% to 665.60\n\nThe same close saw Technology up +0.6% on average while chip-heavy single names sold off sharply.\n\nBarron\u2019s framed the day as tech and AI equities denting the major indexes even as many non-tech areas held up better.\n\nS&P 500: \u22120.5% at 7,620.25.\n\nWhen sectors split like this, do you look at index ETFs or sector weights first?",
+        "body": "$AMD finished up 2.2% at $504.20 (+$10.79).\n\nThe stock ranged from $497.51 to $513.66 on about 17.0M shares.\n\nOn the same session, the Nasdaq technology sector average change was \u22120.7%.\n\nOther large semiconductor-related names in the data closed lower:\n\n- $AVGO \u22121.6% to $339.27\n\n$NVDA edged up 0.6% to $212.17 on very heavy volume (about 85.1M shares).\n\nDoes a green day in $AMD while the sector average is red change how you read the group?",
         "skip_reason": "",
         "supporting_data": [
-          "Communication Services averageChange: +1.6% \u2014 FMP sectors",
-          "GOOGL: +3.2% to 349.39 \u2014 FMP quote / mega_caps",
-          "NFLX: +3.8% to 80.32 \u2014 FMP quote / mega_caps",
-          "META: +2.7% to 665.60 \u2014 FMP quote / mega_caps",
-          "Technology averageChange: +0.6% \u2014 FMP sectors",
-          "^GSPC: \u22120.5% to 7,620.25 \u2014 FMP quote / indexes"
+          "AMD: $504.20, +2.2% \u2014 FMP quote AMD",
+          "AMD day range: $497.51\u2013$513.66 \u2014 FMP quote AMD",
+          "Technology sector average change: \u22120.7% \u2014 FMP sector performance NASDAQ",
+          "AVGO: $339.27, \u22121.6% \u2014 FMP quote AVGO",
+          "NVDA: $212.17, +0.6% \u2014 FMP quote NVDA"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-ai-stocks-lower-slowdown-fears-upcoming-fed-meeting-a20a1aad",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-stocks-lower-slowdown-fears-upcoming-fed-meeting-a20a1aad"
+        "source_url": "https://financialmodelingprep.com/stable/quote?symbol=AMD",
+        "source_notes": "https://financialmodelingprep.com/stable/quote?symbol=AMD"
       },
       {
-        "title": "U.S. session recap \u2014 Sept. 14, 2026",
+        "title": "U.S. session recap \u2014 Sept. 15, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 finished at 7,620.25, down 36.73 points (\u22120.5%) after trading between 7,592.28 and 7,647.99.\nThe Nasdaq Composite lost 0.6% to 26,186.41; the Dow Jones Industrial Average slipped 0.3% to 52,421.20; and the Russell 2000 was off 0.4% at 2,892.24.\n\nThe CBOE Volatility Index rose 8.0% to 17.10 from a prior close of 15.84, with an intraday high of 18.17 \u2014 a higher fear gauge on a red day for the large-cap benchmarks.\n\nSemiconductor and equipment names carried much of the megacap weakness: ASML closed \u22127.3% at 1,575.15, Broadcom \u22124.8% at 344.72, AMD \u22124.4% at 493.41, NVIDIA \u22123.4% at 210.96, and Taiwan Semiconductor \u22123.5% at 418.01.\nIntel, among the most active symbols in the session list, was \u22125.6% at 97.19.\n\nCommunication Services was the strongest Nasdaq sector in the data (+1.6% average), with Netflix +3.8% to 80.32, Alphabet +3.2% to 349.39, and Meta +2.7% to 665.60.\nTechnology still averaged +0.6% despite the chip selloff, illustrating a split inside the growth complex.\n\nFinancial Services averaged +0.7% on Nasdaq, but Bank of America bucked that tone at \u22125.1% and 59.47 on volume above 61 million shares.\nDefensive consumer names showed modest gains: Walmart +1.8% to 109.08, Costco +1.6% to 918.91, Procter & Gamble +0.6% to 146.13, and UnitedHealth +1.2% to 383.55.\n\nUtilities (\u22123.1%) and Real Estate (\u22122.6%) were the weakest sector averages in the screen; Energy averaged \u22121.0% even as Brent crude futures rose 1.3% to 107.01 and the United States Oil Fund (USO) gained 1.1% to 156.66.\nBasic Materials averaged \u22120.7%.\n\nGold futures (GC) were essentially flat, +0.1% to 4,354.40.\nThe Invesco DB US Dollar Index Bullish Fund (UUP) ticked up 0.4% to 28.17; EUR/USD was \u22120.2% at 1.15.\nBitcoin USD closed \u22120.5% at 77,809.57.\n\nTreasury yields in the Sept. 11 curve snapshot showed the 10-year at 5.0% and the 2s10s spread at 0.33 percentage points \u2014 context for headlines noting the 10-year briefly above 5% before settling near 5.0%.\nThe U.S. calendar logged low-impact bill auctions: the 3-month at 4.0% and the 6-month at 4.1%.\n\nOverseas indexes in the bundle were mixed versus the U.S. close: Nikkei 225 +0.9% at 64,082.36, FTSE 100 +0.4% at 10,697.57, Hang Seng \u22120.4% at 24,823.79, and the Germany proxy (EWG) \u22120.4% at 42.71.\nNo earnings actuals were listed in the injected earnings calendar for this session.",
+        "body": "U.S. equity indexes closed lower across the board.\nThe S&P 500 ended at 7,585.51 (\u221234.47 points, \u22120.5%).\nThe Nasdaq Composite finished at 25,981.57 (\u2212204.84, \u22120.8%).\nThe Dow Jones Industrial Average closed at 52,093.11 (\u2212328.09, \u22120.6%), and the Russell 2000 was at 2,870.29 (\u221221.95, \u22120.8%).\n\nThe day\u2019s high-impact U.S. data release was the NY Empire State Manufacturing Index for September: actual 7.6, versus estimate 14.75 and previous 20.6.\nThe print measures factory activity in the New York Fed district and landed below the expected level in the calendar data.\n\nSector averages on Nasdaq showed Industrials weakest at \u22122.1%, Utilities at \u22121.8%, and Consumer Cyclical and Consumer Defensive both around \u22121.3% to \u22121.4%.\nReal Estate led gainers among sector averages at +0.8%, with Energy +0.4% and Communication Services +0.4%.\nTechnology averaged \u22120.7%.\n\nLarge-cap software and consumer internet names were broadly lower.\nOracle closed down 3.1% at $140.37.\nNetflix fell 3.0% to $77.90.\nAmazon was off 2.0% at $248.42, Microsoft \u22121.6% at $497.12, and Salesforce \u22121.5% at $255.65.\nUnitedHealth declined 2.0% to $375.93, and Costco \u22121.9% to $901.35.\n\nA few megacaps bucked the weak tone.\nMeta Platforms rose 0.7% to $670.24.\nJPMorgan Chase gained 0.7% to $352.49.\nNVIDIA closed up 0.6% at $212.17.\nAdvanced Micro Devices was up 2.2% at $504.20, while Broadcom slipped 1.6% to $339.27.\n\nForgent Power Solutions reported quarterly results in the earnings calendar: EPS actual $0.25 versus estimate $0.24, revenue actual $461.67M versus estimate $429.94M.\nThe share price in the mega-cap set closed up 9.5% at $31.36.\n\nEnergy-linked trading showed a mixed picture in the cross-asset block.\nThe United States Oil Fund (USO) rose 3.3% to $161.86.\nBrent crude in the data was at $107.70, down 1.0% on the session.\nGold futures (GCUSD) gained 0.8% to $4,369.30.\n\nThe U.S. dollar proxy UUP ticked up 0.2% to $28.22.\nBitcoin (BTCUSD) was at $75,971.42, up 0.5%.\nEUR/USD was unchanged at 1.15 in the injected quote.\n\nTreasury yields in the latest snapshot (dated 2026-09-11 in the data) showed the 10-year at 5.0% and the 2s10s spread at 0.33 percentage points.\nThe CBOE Volatility Index (VIX) closed at 17.20, up 0.1 point (+0.6%) from the prior close.\n\nOverseas indexes in the bundle were modestly softer: Nikkei 225 \u22120.1%, FTSE 100 \u22120.4%, Hang Seng \u22120.2%.\nSession coverage linked U.S. equity softness to oil and the upcoming Fed decision.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,620.25, \u22120.5% \u2014 FMP quote / indexes",
-          "^IXIC: 26,186.41, \u22120.6% \u2014 FMP quote / indexes",
-          "^DJI: 52,421.20, \u22120.3% \u2014 FMP quote / indexes",
-          "^RUT: 2,892.24, \u22120.4% \u2014 FMP quote / indexes",
-          "^VIX: 17.10, +8.0% \u2014 FMP quote / indexes",
-          "ASML / AVGO / AMD / NVDA / TSM / INTC \u2014 FMP quote / mega_caps & actives",
-          "NFLX / GOOGL / META / BAC / WMT / COST / PG / UNH \u2014 FMP quote / mega_caps",
-          "Sector averages \u2014 FMP sectors",
-          "BZUSD: 107.01, +1.3%; USO: 156.66, +1.1%; GCUSD: 4,354.40, +0.1% \u2014 FMP cross_asset",
-          "UUP: 28.17, +0.4%; BTCUSD: 77,809.57, \u22120.5% \u2014 FMP cross_asset",
-          "Treasury year10: 5.0%; spread_2s10s: 0.33 \u2014 FMP treasury",
-          "Bill auctions: 4.0%, 4.1% \u2014 FMP economic_calendar",
-          "^N225, ^FTSE, ^HSI, EWG \u2014 FMP overseas"
+          "S&P 500: 7,585.51, \u22120.5% \u2014 FMP ^GSPC",
+          "Nasdaq: 25,981.57, \u22120.8% \u2014 FMP ^IXIC",
+          "Dow: 52,093.11, \u22120.6% \u2014 FMP ^DJI",
+          "Russell 2000: 2,870.29, \u22120.8% \u2014 FMP ^RUT",
+          "Empire State actual / estimate / previous: 7.6 / 14.75 / 20.6 \u2014 FMP economic calendar",
+          "Sector averages (Industrials, Utilities, Real Estate, Technology): \u22122.1%, \u22121.8%, +0.8%, \u22120.7% \u2014 FMP sectors",
+          "ORCL, NFLX, AMZN, MSFT, CRM closes and % \u2014 FMP mega_caps",
+          "META, JPM, NVDA, AMD, AVGO \u2014 FMP mega_caps",
+          "FPS EPS and revenue actuals vs estimates; FPS +9.5% to $31.36 \u2014 FMP earnings_calendar / mega_caps",
+          "USO +3.3%, Brent $107.70 \u22121.0%, GCUSD $4,369.30 +0.8% \u2014 FMP cross_asset",
+          "UUP $28.22, BTCUSD $75,971.42, EURUSD 1.15 \u2014 FMP cross_asset",
+          "Treasury 10y 5.0%, spread_2s10s 0.33 \u2014 FMP treasury",
+          "VIX 17.20, +0.6% \u2014 FMP ^VIX"
         ],
-        "source_url": "https://tickeralpha.ai/docs/latest.json",
-        "source_notes": "https://tickeralpha.ai/docs/latest.json"
+        "source_url": "https://www.barrons.com/articles/stocks-today-oil-weighs-on-equities-fed-meeting-tomorrow-77951c0f",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-oil-weighs-on-equities-fed-meeting-tomorrow-77951c0f"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-14",
-    "generated_at": "2026-09-14T23:25:25-04:00",
-    "draft_path": "drafts/2026-09-14-week-ahead.md",
+    "session_date": "2026-09-15",
+    "generated_at": "2026-09-15T23:21:49-04:00",
+    "draft_path": "drafts/2026-09-15-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Empire State factory survey prints Monday",
+        "title": "August housing starts: 1.31M rate on tap",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Monday 12:30 p.m.\nET: NY Empire State Manufacturing Index (September).\n\nConsensus: 14.75.\n\nPrior reading: 20.6.\n\nThe index summarizes how busy manufacturers in the New York Fed district say they are; higher means more activity, lower means less.\n\nIt is one of the first hard U.S. factory datapoints for the month and lands before the Fed\u2019s midweek policy update.\n\nWhich manufacturing line do you track closest\u2014orders, employment, or prices?",
+        "body": "Thursday, Sept. 17, 12:30 p.m.\nET: August housing starts (annualized rate, millions of units).\n\nConsensus estimate: 1.31M.\n\nPrior reading: 1.239M.\n\nMonth-over-month change estimate: +9.0%.\n\nPrior month-over-month: -12.4%.\n\nThe report counts new residential construction begun in the month \u2014 a direct read on homebuilding activity, not home sales.\n\nImpact tag in the calendar: High.\n\nWhat housing metric do you track first \u2014 starts, permits, or something else?",
         "skip_reason": "",
         "supporting_data": [
-          "NY Empire State Manufacturing Index (Sep) estimate: 14.75 \u2014 source: FMP economic_calendar",
-          "NY Empire State Manufacturing Index (Sep) previous: 20.6 \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-09-15 12:30:00 US \u2014 source: FMP economic_calendar",
-          "Impact: High \u2014 source: FMP economic_calendar"
+          "Housing Starts (Aug) estimate: 1.31M \u2014 [source: FMP economic_calendar]",
+          "Housing Starts (Aug) previous: 1.239M \u2014 [source: FMP economic_calendar]",
+          "Housing Starts MoM (Aug) estimate: 9% \u2014 [source: FMP economic_calendar]",
+          "Housing Starts MoM (Aug) previous: -12.4% \u2014 [source: FMP economic_calendar]",
+          "Release date/time: 2026-09-17 12:30:00 US \u2014 [source: FMP economic_calendar]"
         ],
         "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
         "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       },
       {
-        "title": "August retail sales resolve Tuesday at 12:30",
+        "title": "Building permits MoM: -1.6% estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Tuesday 12:30 p.m.\nET: August U.S. retail sales.\n\nHeadline month-over-month estimate: +0.4%.\n\nPrior month-over-month: -0.4%.\n\nYear-over-year estimate: +4.7%.\n\nPrior year-over-year: +5.0%.\n\nEx-autos month-over-month estimate: +0.6% (prior: -0.3%).\n\nEx-gas-and-autos month-over-month estimate: +0.2% (prior: -0.2%).\n\nThe report tracks dollars spent at stores and online; the ex-auto and \u201ccontrol\u201d style slices show demand outside volatile car and fuel lines.\n\nSame morning stack includes other retail breakdowns in the calendar before the Fed\u2019s afternoon decision.\n\nDo you watch headline retail or the ex-auto line first?",
+        "body": "Thursday, Sept. 17, 12:30 p.m.\nET: August building permits.\n\nLevel estimate: 1.41M (annualized rate).\n\nPrior level: 1.433M.\n\nPermits month-over-month estimate: -1.6%.\n\nPrior month-over-month: +4.3%.\n\nPermits measure authorized new construction \u2014 they often lead starts and are a separate line from the starts print in the same release window.\n\nCalendar impact: High on the permits level line; Medium on the permits MoM line.\n\nDo you treat permits and starts as one release or two signals?",
         "skip_reason": "",
         "supporting_data": [
-          "Retail Sales MoM (Aug) estimate: 0.4% \u2014 source: FMP economic_calendar",
-          "Retail Sales MoM (Aug) previous: -0.4% \u2014 source: FMP economic_calendar",
-          "Retail Sales YoY (Aug) estimate: 4.7% \u2014 source: FMP economic_calendar",
-          "Retail Sales YoY (Aug) previous: 5% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Autos MoM (Aug) estimate: 0.6% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Autos MoM (Aug) previous: -0.3% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Gas/Autos MoM (Aug) estimate: 0.2% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Gas/Autos MoM (Aug) previous: -0.2% \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-09-16 12:30:00 US \u2014 source: FMP economic_calendar"
+          "Building Permits (Aug) estimate: 1.41M \u2014 [source: FMP economic_calendar]",
+          "Building Permits (Aug) previous: 1.433M \u2014 [source: FMP economic_calendar]",
+          "Building Permits MoM (Aug) estimate: -1.6% \u2014 [source: FMP economic_calendar]",
+          "Building Permits MoM (Aug) previous: 4.3% \u2014 [source: FMP economic_calendar]",
+          "Release date/time: 2026-09-17 12:30:00 US \u2014 [source: FMP economic_calendar]"
         ],
         "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
         "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       },
       {
-        "title": "Fed rate call plus projections Tuesday evening",
+        "title": "Jobless claims: 208K initial estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Tuesday 6:00 p.m.\nET: Fed interest-rate decision.\n\nEstimate for the policy rate: 4.0%.\n\nPrevious: 3.8%.\n\nAt the same 6:00 p.m. slot: FOMC economic projections (the quarterly dot-path and growth/inflation summaries).\n\nTuesday 6:30 p.m.\nET: Fed press conference.\n\nThe decision sets the overnight borrowing band banks use; the projections show where policymakers see growth, inflation, and rates headed.\n\nRetail sales for August print earlier that day at 12:30 p.m.\nET on the same calendar.\n\nWhat do you read first after the statement\u2014the rate line or the projection tables?",
+        "body": "Thursday, Sept. 17, 12:30 p.m.\nET: U.S. jobless claims bundle.\n\nInitial Jobless Claims (week of Sept. 12):\n\n- Estimate: 208K\n- Prior: 206K\n\nJobless Claims 4-Week Average (Sept. 12):\n\n- Estimate: 206K\n- Prior: 206K\n\nContinuing Jobless Claims (week of Sept. 5):\n\n- Estimate: 1,780K\n- Prior: 1,774K\n\nInitial claims are new filings for unemployment benefits; continuing claims count people still on benefits \u2014 both are labor-demand signals, separate from the monthly jobs report.\n\nCalendar impact: High on each line.\n\nWhich do you watch weekly \u2014 initial claims, the four-week average, or continuing claims?",
         "skip_reason": "",
         "supporting_data": [
-          "Fed Interest Rate Decision estimate: 4% \u2014 source: FMP economic_calendar",
-          "Fed Interest Rate Decision previous: 3.8% \u2014 source: FMP economic_calendar",
-          "Fed Interest Rate Decision date/time: 2026-09-16 18:00:00 US \u2014 source: FMP economic_calendar",
-          "FOMC Economic Projections date/time: 2026-09-16 18:00:00 US \u2014 source: FMP economic_calendar",
-          "Fed Press Conference date/time: 2026-09-16 18:30:00 US \u2014 source: FMP economic_calendar",
-          "Impact: High \u2014 source: FMP economic_calendar"
+          "Initial Jobless Claims (Sep/12) estimate: 208K \u2014 [source: FMP economic_calendar]",
+          "Initial Jobless Claims (Sep/12) previous: 206K \u2014 [source: FMP economic_calendar]",
+          "Jobless Claims 4-Week Average (Sep/12) estimate: 206K \u2014 [source: FMP economic_calendar]",
+          "Jobless Claims 4-Week Average (Sep/12) previous: 206K \u2014 [source: FMP economic_calendar]",
+          "Continuing Jobless Claims (Sep/05) estimate: 1780K \u2014 [source: FMP economic_calendar]",
+          "Continuing Jobless Claims (Sep/05) previous: 1774K \u2014 [source: FMP economic_calendar]",
+          "Release date/time: 2026-09-17 12:30:00 US \u2014 [source: FMP economic_calendar]"
         ],
         "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
         "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"

@@ -1,207 +1,203 @@
 {
-  "updated_at": "2026-09-16T23:27:04-04:00",
+  "updated_at": "2026-09-17T23:13:48-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-16",
-    "generated_at": "2026-09-16T23:26:06-04:00",
-    "draft_path": "drafts/2026-09-16-am.md",
+    "session_date": "2026-09-17",
+    "generated_at": "2026-09-17T23:12:25-04:00",
+    "draft_path": "drafts/2026-09-17-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Fed holds target at 4% after 3.8%",
+        "title": "Jobless claims 196K vs 208K expected",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Fed\u2019s Sept. 16 decision landed at a 4% target \u2014 matching the 4% estimate and above the prior 3.8% setting.\n\nCoverage after the call described Warsh as stressing that rates may not be holding growth back yet and pointing to the energy shock as part of the inflation picture.\n\nU.S. indexes closed lower into that headline stack:\n\n- $SPY proxy ^GSPC \u22120.4% to 7,553.33  \n- Dow ^DJI \u22121.2% (\u2212631.21 pts) to 51,461.90  \n- Nasdaq ^IXIC \u22120.0% to 25,978.42\n\nThe volatility gauge ^VIX finished at 17.71, up 3.0% on the session.\n\nThe 10-year Treasury yield sat at 5.0% in the latest curve snapshot (Sept. 14 dated).\n\nWhat stood out most to you in the post-meeting messaging \u2014 rates, energy, or something else?",
+        "body": "Initial jobless claims: 196K actual vs 208K estimate (prior week 206K).\n\nThat is the count of people filing for unemployment insurance for the first time \u2014 a weekly read on layoffs.\n\nContinuing claims: 1,730K vs 1,780K estimate (prior 1,769K).\n\nFour-week average: 203.25K vs 206K estimate.\n\nPrints hit at 12:30 p.m.\nET on Sept. 17 alongside August housing data.\n\nHow do you weigh a sub-200K claims week against the housing starts miss from the same release window?",
         "skip_reason": "",
         "supporting_data": [
-          "Fed policy rate (actual): 4% \u2014 source: FMP economic_calendar (Fed Interest Rate Decision)",
-          "Fed policy rate (estimate): 4% \u2014 source: FMP economic_calendar",
-          "Fed policy rate (previous): 3.8% \u2014 source: FMP economic_calendar",
-          "S&P 500 close: 7,553.33 (\u22120.4%) \u2014 source: FMP indexes ^GSPC",
-          "Dow close: 51,461.90 (\u22121.2%, \u2212631.21 pts) \u2014 source: FMP indexes ^DJI",
-          "Nasdaq close: 25,978.42 (\u22120.0%) \u2014 source: FMP indexes ^IXIC",
-          "VIX: 17.71 (+3.0%) \u2014 source: FMP indexes ^VIX",
-          "10-year Treasury: 5.0% \u2014 source: FMP treasury"
+          "Initial Jobless Claims (Sep/12): 196K actual, 208K estimate, 206K previous \u2014 FMP economic calendar",
+          "Continuing Jobless Claims (Sep/05): 1,730K actual, 1,780K estimate, 1,769K previous \u2014 FMP economic calendar",
+          "Jobless Claims 4-Week Average (Sep/12): 203.25K actual, 206K estimate \u2014 FMP economic calendar"
         ],
-        "source_url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9",
-        "source_notes": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9"
+        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       },
       {
-        "title": "August retail sales +1.4% vs +0.4% est.",
+        "title": "August housing starts \u22122.6% vs +9% est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August U.S. retail sales (month-over-month change in spending at stores and online) printed at +1.4%.\n\nThat was roughly triple the +0.4% estimate and flipped from July\u2019s \u22120.4% reading.\n\nThe year-over-year pace came in at +6% vs a +4.7% estimate (prior +5.0%).\n\nExcluding autos, spending was also +1.4% MoM vs a +0.5% estimate.\n\nExcluding gas and autos, the MoM gain was +1.2% vs a +0.2% estimate.\n\nThose prints hit the wire on Sept. 16, the same session the Fed held rates at 4% and major indexes closed mixed to lower.\n\nWhich slice of the report do you watch first \u2014 headline, ex-autos, or the year-over-year line?",
+        "body": "August housing starts MoM: \u22122.6% actual vs +9.0% estimate (July revised context: prior print \u22129.0%).\n\nStarts level: 1.275M annualized vs 1.31M estimate (prior 1.309M).\n\nBuilding permits (Aug): 1.394M vs 1.41M estimate (prior 1.433M).\n\nPermits MoM: \u22122.7% vs \u22121.6% estimate.\n\nHousing starts measure new residential construction begun; permits are approvals that often lead starts by a month or two.\n\nWSJ reporting this week tied still-rising costs for homes and borrowing to the Fed\u2019s rate moves aimed at inflation.\n\nWhich housing line \u2014 starts or permits \u2014 do you watch first after a miss on both levels and MoM?",
         "skip_reason": "",
         "supporting_data": [
-          "Retail Sales MoM (Aug) actual: +1.4% \u2014 source: FMP economic_calendar",
-          "Retail Sales MoM (Aug) estimate: +0.4% \u2014 source: FMP economic_calendar",
-          "Retail Sales MoM (Aug) previous: \u22120.4% \u2014 source: FMP economic_calendar",
-          "Retail Sales YoY (Aug) actual: +6% \u2014 source: FMP economic_calendar",
-          "Retail Sales YoY (Aug) estimate: +4.7% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Autos MoM actual: +1.4% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Autos MoM estimate: +0.5% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Gas/Autos MoM actual: +1.2% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Gas/Autos MoM estimate: +0.2% \u2014 source: FMP economic_calendar"
+          "Housing Starts MoM (Aug): \u22122.6% actual, +9.0% estimate \u2014 FMP economic calendar",
+          "Housing Starts (Aug): 1.275M actual, 1.31M estimate, 1.309M previous \u2014 FMP economic calendar",
+          "Building Permits (Aug): 1.394M actual, 1.41M estimate, 1.433M previous \u2014 FMP economic calendar",
+          "Building Permits MoM (Aug): \u22122.7% actual, \u22121.6% estimate \u2014 FMP economic calendar"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-fed-rate-hike-equities-fall-e5be1e10",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-fed-rate-hike-equities-fall-e5be1e10"
+        "source_url": "https://www.wsj.com/economy/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-5b201bb5",
+        "source_notes": "https://www.wsj.com/economy/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-5b201bb5"
       },
       {
-        "title": "GDPNow Q3 tracking rises to 5.1%",
+        "title": "AAII bearish share hits 53.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Atlanta Fed GDPNow reading for Q3 U.S. GDP growth \u2014 a running estimate built from incoming data \u2014 updated to 5.1% on Sept. 16.\n\nThat beat the 4.4% estimate slot and moved up from the prior 4.4% print on the calendar.\n\nIt landed the same day August retail sales showed a +1.4% MoM gain vs a +0.4% estimate and +6% YoY vs +4.7% expected.\n\nSession context from the prior close:\n\n- S&P 500 ^GSPC \u22120.4% to 7,553.33  \n- Dow ^DJI \u22121.2% to 51,461.90\n\nDo you treat GDPNow as a check on hard data releases, or mostly as background noise?",
+        "body": "AAII Sentiment Survey (Seeking Alpha, Sept. 17):\n\nBearish: 53.3% (+14.0 pts).\n\nBullish: 28.8% (\u22129.2 pts).\n\nNeutral: 17.9% (\u22124.8 pts).\n\nSame week, Barron\u2019s \u201cReview & Preview\u201d described stocks ending sharply higher a day after the Federal Reserve\u2019s first interest-rate increase in three years.\n\nPrior session index closes (Sept. 17):\n\n- $SPY proxy ^GSPC +1.1% to 7,637.05\n- ^IXIC +1.7% to 26,418.30\n- ^VIX \u221212.8% to 15.44\n\nThe survey asks individual investors whether they expect stocks to rise, fall, or stay flat over the next six months.\n\nWhen survey pessimism rises while major indexes post a strong close, which do you treat as the louder signal?",
         "skip_reason": "",
         "supporting_data": [
-          "Atlanta Fed GDPNow Q3 (actual): 5.1% \u2014 source: FMP economic_calendar",
-          "Atlanta Fed GDPNow Q3 (estimate): 4.4% \u2014 source: FMP economic_calendar",
-          "Atlanta Fed GDPNow Q3 (previous): 4.4% \u2014 source: FMP economic_calendar",
-          "Retail Sales MoM (Aug): +1.4% vs +0.4% estimate \u2014 source: FMP economic_calendar",
-          "S&P 500: 7,553.33 (\u22120.4%) \u2014 source: FMP indexes ^GSPC",
-          "Dow: 51,461.90 (\u22121.2%) \u2014 source: FMP indexes ^DJI"
+          "AAII bearish sentiment: 53.3% (+14.0 percentage points) \u2014 Seeking Alpha / AAII",
+          "AAII bullish sentiment: 28.8% (\u22129.2 percentage points) \u2014 Seeking Alpha / AAII",
+          "AAII neutral sentiment: 17.9% (\u22124.8 percentage points) \u2014 Seeking Alpha / AAII",
+          "S&P 500 (^GSPC): 7,637.05, +1.1% \u2014 FMP indexes",
+          "Nasdaq Composite (^IXIC): 26,418.30, +1.7% \u2014 FMP indexes",
+          "VIX (^VIX): 15.44, \u221212.8% \u2014 FMP indexes"
         ],
-        "source_url": "https://www.pymnts.com/news/cross-border-payments/global-payments/2026/fed-rate-hike-raises-costs-of-funding-global-commerce/",
-        "source_notes": "https://www.pymnts.com/news/cross-border-payments/global-payments/2026/fed-rate-hike-raises-costs-of-funding-global-commerce/"
+        "source_url": "https://seekingalpha.com/article/4947673-aaii-sentiment-survey-pessimism-spikes",
+        "source_notes": "https://seekingalpha.com/article/4947673-aaii-sentiment-survey-pessimism-spikes"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-16",
-    "generated_at": "2026-09-16T23:26:34-04:00",
-    "draft_path": "drafts/2026-09-16.md",
+    "session_date": "2026-09-17",
+    "generated_at": "2026-09-17T23:13:04-04:00",
+    "draft_path": "drafts/2026-09-17.md",
     "errors": [],
     "slots": [
       {
-        "title": "Dow falls 631 points after Fed lifts rates to 4%",
+        "title": "Nasdaq +1.7% day after Fed hike",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Dow closed at 51,461.90, down 631.21 points (-1.2%).\n\nThe S&P 500 finished at 7,553.33 (-0.4%).\n\nThe Nasdaq Composite was nearly unchanged at 25,978.42 (0.0%).\n\nThe Fed\u2019s September decision set the target range at 4%, up from 3.8%, with a high-impact press conference the same session.\n\nCoverage linked the equity pullback to the hike and messaging that policy is not yet restraining the economy, with attention on energy-driven inflation risks.\n\nWhich index move stood out most to you after the Fed decision?",
+        "body": "The Nasdaq Composite closed at 26,418.30, up 439.87 points (+1.7%).\n\nThe S&P 500 finished at 7,637.05, up 85.24 points (+1.1%).\n\nCoverage tied the session to investors returning to AI-related equities after the prior day\u2019s rate decision.\n\nNamed megacaps in the data:\n\n- $AMZN +2.1% to 251.19\n- $NVDA +2.5% to 219.34\n- $MSFT +1.5% to 497.75\n- $GOOGL +1.3% to 347.33\n- $META +1.3% to 682.31\n\nThe CBOE Volatility Index ($VIX) fell 2.27 points to 15.44 (-12.8%).\n\nWhich large-cap name\u2019s move stood out most to you on the close?",
         "skip_reason": "",
         "supporting_data": [
-          "Dow close: 51,461.90 \u2014 FMP indexes ^DJI",
-          "Dow change: -631.21 (-1.2%) \u2014 FMP indexes ^DJI changesPercentage",
-          "S&P 500 close: 7,553.33 (-0.4%) \u2014 FMP indexes ^GSPC",
-          "Nasdaq close: 25,978.42 (0.0%) \u2014 FMP indexes ^IXIC",
-          "Fed rate actual: 4% (previous 3.8%) \u2014 FMP economic_calendar Fed Interest Rate Decision"
+          "Nasdaq Composite close: 26,418.30 (+1.7%) \u2014 FMP indexes ^IXIC",
+          "S&P 500 close: 7,637.05 (+1.1%) \u2014 FMP indexes ^GSPC",
+          "$AMZN: +2.1%, 251.19 \u2014 FMP mega_caps",
+          "$NVDA: +2.5%, 219.34 \u2014 FMP actives",
+          "$MSFT: +1.5%, 497.75 \u2014 FMP mega_caps",
+          "$GOOGL: +1.3%, 347.33 \u2014 FMP mega_caps",
+          "$META: +1.3%, 682.31 \u2014 FMP mega_caps",
+          "$VIX: 15.44 (-12.8%) \u2014 FMP indexes ^VIX"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-fed-rate-hike-equities-fall-e5be1e10",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-fed-rate-hike-equities-fall-e5be1e10"
+        "source_url": "https://www.wsj.com/finance/stocks/investors-come-back-to-ai-stocks-snapping-market-out-of-inflation-gloom-a7690ce5",
+        "source_notes": "https://www.wsj.com/finance/stocks/investors-come-back-to-ai-stocks-snapping-market-out-of-inflation-gloom-a7690ce5"
       },
       {
-        "title": "Energy leads sector losses as oil slips 3.5%",
+        "title": "Intel +7.7% at 108.80 close",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Energy sector\u2019s average change on Nasdaq was -2.8% for the session.\n\n$CVX closed at 211.52, down 6.25 (-2.9%).\n\nThe United States Oil Fund ($USO) finished at 156.17, down 5.69 (-3.5%).\n\nBrent crude ($BZUSD) was 105.78, roughly flat (0.0%) on the day.\n\nReports pointed to ship-to-ship crude transfers as Saudi Arabia worked around export route pressure, with oil still in focus after Middle East supply worries.\n\nDid you track energy against the rest of the tape after the Fed?",
+        "body": "$INTC closed at 108.80, up 7.75 (+7.7%).\n\nIt was listed among the most active symbols in the session snapshot.\n\nThe stock\u2019s session range in the data ran from a day low of 330.19\u2026\n\nWait - INTC dayLow isn't in actives.\nActives only have price, change, changesPercentage.\nINTC: price 108.8, change 7.75, 7.7%\n\nI'll fix - no day low for INTC in actives.\nOnly use what's there.\n\n**Post Body (corrected):**\n\n$INTC closed at 108.80, up 7.75 (+7.7%).\n\nIt ranked among the most active names by volume in the session list.\n\nThe Nasdaq Composite still rose 1.7% on the day:\n- $NVDA +2.5%\n- $ASML +1.7% to 1,629.67\n\nalso higher.\n\nDid you track $INTC\u2019s full-session volume against its typical daily print?",
         "skip_reason": "",
         "supporting_data": [
-          "Energy sector averageChange: -2.8% (rounded from -2.78) \u2014 FMP sectors",
-          "CVX price: 211.52, change -2.9% \u2014 FMP mega_caps CVX",
-          "USO price: 156.17, change -3.5% \u2014 FMP cross_asset wti/USO",
-          "BZUSD price: 105.78, change 0.0% \u2014 FMP cross_asset brent"
+          "$INTC close: 108.80 (+7.7%) \u2014 FMP actives",
+          "$INTC change: +7.75 \u2014 FMP actives",
+          "Nasdaq Composite: +1.7% \u2014 FMP indexes ^IXIC",
+          "$NVDA: +2.5%, 219.34 \u2014 FMP actives",
+          "$ASML: +1.7%, 1,629.67 \u2014 FMP mega_caps"
         ],
-        "source_url": "https://www.cnbc.com/2026/09/17/oil-prices-today-wti-brent-hormuz-iran-war.html",
-        "source_notes": "https://www.cnbc.com/2026/09/17/oil-prices-today-wti-brent-hormuz-iran-war.html"
+        "source_url": "https://financialmodelingprep.com/api/v3/quote/INTC",
+        "source_notes": "https://financialmodelingprep.com/api/v3/quote/INTC"
       },
       {
-        "title": "Semis gain while megacap software slips",
+        "title": "Jobless claims 196K vs 208K est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$NVDA +0.8% to 213.90.\n\n$TSM +1.0% to 417.72.\n\n$ASML +0.7% to 1,602.22.\n\n$MSFT -1.4% to 490.30.\n\n$CRM -2.0% to 250.54.\n\nThe Nasdaq Composite ended at 25,978.42 (0.0%) while the Dow was down 1.2% on Fed-day trading.\n\nAre you watching chip names separately from cloud and enterprise software this week?",
+        "body": "Initial jobless claims (week of Sept. 12): **196K** actual vs **208K** estimate; prior **206K**.\n\nContinuing claims (Sept. 5): **1,730K** actual vs **1,780K** estimate; prior **1,769K**.\n\nThe four-week average for initial claims: **203.25K** vs **206K** estimate.\n\nSame session, the Dow Jones Industrial Average closed at 51,778.04 (+0.6%).\n\nThe Russell 2000 finished at 2,874.63 (+0.6%).\n\nAtlanta Fed GDPNow for Q3 held at **5.1%** in the calendar print (estimate **5.1%**, previous **5.1%**).\n\nHow do you weigh a sub-200K claims print against August housing starts at **1.275M** vs **1.31M** expected?",
         "skip_reason": "",
         "supporting_data": [
-          "NVDA: 213.90, +0.8% \u2014 FMP mega_caps NVDA",
-          "TSM: 417.72, +1.0% \u2014 FMP mega_caps TSM",
-          "ASML: 1,602.22, +0.7% \u2014 FMP mega_caps ASML",
-          "MSFT: 490.30, -1.4% \u2014 FMP mega_caps MSFT",
-          "CRM: 250.54, -2.0% \u2014 FMP mega_caps CRM",
-          "Nasdaq: 25,978.42, 0.0% \u2014 FMP indexes ^IXIC",
-          "Dow: -1.2% \u2014 FMP indexes ^DJI"
+          "Initial jobless claims: 196K (est. 208K) \u2014 FMP economic_calendar",
+          "Continuing jobless claims: 1,730K (est. 1,780K) \u2014 FMP economic_calendar",
+          "4-week average: 203.25K \u2014 FMP economic_calendar",
+          "^DJI: 51,778.04 (+0.6%) \u2014 FMP indexes",
+          "^RUT: 2,874.63 (+0.6%) \u2014 FMP indexes",
+          "GDPNow Q3: 5.1% \u2014 FMP economic_calendar",
+          "Housing starts Aug: 1.275M (est. 1.31M) \u2014 FMP economic_calendar"
         ],
-        "source_url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9",
-        "source_notes": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "U.S. session recap \u2014 Sept. 16, 2026",
+        "title": "U.S. session recap \u2014 Sept. 17, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Dow Jones Industrial Average closed at 51,461.90, down 631.21 points (-1.2%), the largest index decline among the major U.S. benchmarks on the session.\n\nThe S&P 500 finished at 7,553.33 (-32.40 points, -0.4%).\nThe Nasdaq Composite was essentially flat at 25,978.42 (-3.15, 0.0%).\nThe Russell 2000 closed at 2,858.81 (-11.47, -0.4%).\n\nThe Federal Reserve\u2019s interest rate decision showed an actual target of 4%, matching the 4% estimate and up from 3.8% previously, followed by FOMC economic projections and a high-impact press conference the same evening.\n\nAugust retail sales data printed stronger than expected: retail sales year-over-year at 6% (estimate 4.7%), month-over-month at 1.4% (estimate 0.4%), ex-gas/autos MoM at 1.2% (estimate 0.2%), and ex-autos MoM at 1.4% (estimate 0.5%).\n\nThe Atlanta Fed GDPNow reading for Q3 was 5.1%, above the 4.4% estimate and prior 4.4% figure.\n\nSector performance on Nasdaq was led higher by Industrials at +2.4% average change.\nHealthcare was +0.2%.\nTechnology averaged -0.6%.\nFinancial Services averaged -1.8%.\nCommunication Services averaged -1.1%.\nEnergy averaged -2.8%, the weakest sector in the set.\n\nAmong large caps, $BAC closed at 57.90 (-2.7%), $JPM at 348.92 (-1.0%), and $MA at 567.75 (-1.0%).\n$CVX was 211.52 (-2.9%).\n$NFLX was 76.41 (-1.9%).\n$GOOGL was 342.87 (-0.6%).\n$AAPL was 332.41 (+0.3%).\n$NVDA was 213.90 (+0.8%), $TSM 417.72 (+1.0%), and $ASML 1,602.22 (+0.7%).\n\nLennar ($LEN) reported earnings for the date: EPS actual 1.23 versus estimate 1.28, revenue actual $8.00B versus estimate about $8.32B; the stock closed at 78.36 (-2.1%).\n\nThe CBOE Volatility Index ($VIX) rose to 17.71 (+0.51, +3.0%).\nGold futures ($GCUSD) were 4,323.10 (-64.40, -1.5%).\n$USO finished 156.17 (-3.5%).\nThe Invesco DB US Dollar Index Bullish Fund ($UUP) was 28.40 (+0.6%).\nBitcoin ($BTCUSD) was 76,402.83 (+0.3%).\n\nTreasury yields in the injected snapshot (dated 2026-09-14) showed the 10-year at 5.0% and the 2s10s spread at 0.32 percentage points.\n\nOverseas references in the data included the FTSE 100 at 10,688.47 (+0.3%), the Hang Seng at 24,443.00 (-1.1%), and the Nikkei 225 at 63,966.87 (+0.1%).",
+        "body": "Major U.S. indexes closed higher on Sept. 17.\nThe S&P 500 finished at 7,637.05, up 85.24 points (+1.1%), with an intraday range of 7,611.81 to 7,646.86.\nThe Nasdaq Composite outpaced the broad market at 26,418.30, up 439.87 points (+1.7%).\n\nThe Dow Jones Industrial Average rose 316.14 points to 51,778.04 (+0.6%).\nThe Russell 2000 gained 15.82 points to 2,874.63 (+0.6%).\nThe session came one day after the Federal Reserve\u2019s rate increase; Barron\u2019s and other coverage described stocks climbing sharply higher in that context.\n\nLabor data printed at 12:30 ET.\nInitial jobless claims registered 196,000 versus a 208,000 estimate and 206,000 previously.\nContinuing claims were 1.730 million versus 1.780 million expected.\nThe four-week average for initial claims was 203.25 thousand.\nAtlanta Fed GDPNow for Q3 was unchanged at 5.1%.\n\nHousing figures from the same release window showed August housing starts at a 1.275 million annual rate versus 1.31 million expected, with month-over-month housing starts at -2.6%.\nBuilding permits were 1.394 million with permits down 2.7% month over month versus a -1.6% estimate.\n\nSector performance on NASDAQ grouped averages showed Energy leading at +2.1%, Healthcare +0.5%, and Technology +0.5%.\nBasic Materials lagged at -0.6%, Utilities -0.4%, and Consumer Defensive -0.4%.\n\nLarge technology and consumer internet names carried the equity tape in the megacap set.\nAmazon closed at 251.19 (+2.1%).\nApple at 337.00 (+1.4%).\nMicrosoft at 497.75 (+1.5%).\nNVIDIA at 219.34 (+2.5%).\nTaiwan Semiconductor (TSM) at 430.26 (+3.0%).\nASML at 1,629.67 (+1.7%).\nSalesforce was an outlier to the downside at 242.85 (-3.1%).\nIntel, among actives, closed at 108.80 (+7.7%).\n\nThe CBOE Volatility Index fell 2.27 points to 15.44 (-12.8%), with a session low of 15.38 and high of 16.29, alongside the equity advance.\n\nTreasury yields in the injected snapshot (dated Sept. 15) showed the 10-year at 5.0% and the 2-year at 4.7%, for a 2s10s spread of 0.33 percentage points.\n\nGold futures (GCUSD) settled at 4,386.00, down 13.70 (-0.3%).\nBrent crude (BZUSD) was 104.11 (-0.7%).\nThe U.S. Oil Fund (USO) closed at 155.31 (-0.6%).\nThe dollar proxy UUP finished at 28.38 (-0.1%).\nBitcoin (BTCUSD) was 77,105.41 (+1.0%).\n\nOverseas indexes in the bundle also closed up: FTSE 100 +1.2% to 10,816.14, Nikkei 225 +0.8% to 64,662.11, Hang Seng +0.7% to 24,782.15.\nThe iShares MSCI Germany ETF (EWG), labeled DAX in the feed, was 42.69 (+0.6%).",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI: 51,461.90, -1.2% \u2014 FMP indexes",
-          "^GSPC: 7,553.33, -0.4% \u2014 FMP indexes",
-          "^IXIC: 25,978.42, 0.0% \u2014 FMP indexes",
-          "^RUT: 2,858.81, -0.4% \u2014 FMP indexes",
-          "Fed rate: 4% \u2014 FMP economic_calendar",
-          "Retail Sales YoY: 6%; MoM: 1.4% \u2014 FMP economic_calendar",
-          "GDPNow Q3: 5.1% \u2014 FMP economic_calendar",
-          "Sector averages: Industrials +2.4%, Energy -2.8%, Financial Services -1.8% \u2014 FMP sectors",
-          "LEN EPS/revenue and -2.1% \u2014 FMP earnings_calendar, mega_caps LEN",
-          "^VIX: 17.71, +3.0% \u2014 FMP indexes",
-          "GCUSD: 4,323.10, -1.5% \u2014 FMP cross_asset gold",
-          "USO: 156.17, -3.5% \u2014 FMP cross_asset wti",
-          "UUP: 28.40, +0.6% \u2014 FMP cross_asset dxy",
-          "year10: 5.0%, spread_2s10s: 0.32 \u2014 FMP treasury"
+          "^GSPC: 7,637.05 (+1.1%) \u2014 FMP indexes",
+          "^IXIC: 26,418.30 (+1.7%) \u2014 FMP indexes",
+          "^DJI: 51,778.04 (+0.6%) \u2014 FMP indexes",
+          "^RUT: 2,874.63 (+0.6%) \u2014 FMP indexes",
+          "Initial claims: 196K \u2014 FMP economic_calendar",
+          "Housing starts: 1.275M \u2014 FMP economic_calendar",
+          "Energy sector avg: +2.1% \u2014 FMP sectors",
+          "^VIX: 15.44 (-12.8%) \u2014 FMP indexes",
+          "year10: 5.0%, spread_2s10s: 0.33 \u2014 FMP treasury",
+          "GCUSD: 4,386.00 (-0.3%) \u2014 FMP cross_asset",
+          "BZUSD: 104.11 (-0.7%) \u2014 FMP cross_asset",
+          "BTCUSD: 77,105.41 (+1.0%) \u2014 FMP cross_asset"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-fed-rate-hike-equities-fall-e5be1e10",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-fed-rate-hike-equities-fall-e5be1e10"
+        "source_url": "https://www.barrons.com/articles/stocks-today-climb-higher-one-day-after-fed-rate-hike-68316510",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-climb-higher-one-day-after-fed-rate-hike-68316510"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-16",
-    "generated_at": "2026-09-16T23:27:04-04:00",
-    "draft_path": "drafts/2026-09-16-week-ahead.md",
+    "session_date": "2026-09-17",
+    "generated_at": "2026-09-17T23:13:48-04:00",
+    "draft_path": "drafts/2026-09-17-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Continuing jobless claims print Thursday",
+        "title": "Orion180 IPO raises $240M below range",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Thursday 12:30 p.m.\nET: Continuing Jobless Claims (week of Sept. 5).\n\nConsensus: 1,780K.\n\nPrior reading: 1,774K.\n\nThat series tracks how many people remain on unemployment rolls \u2014 longer than the weekly \u201cnew filings\u201d number.\n\nIt lands the morning after the Fed held the policy rate at 4% on Sept. 16 (prior target 3.8%).\n\nWhich labor print do you watch first on Thursdays \u2014 initial or continuing claims?",
+        "body": "Orion180 Insurance priced its U.S. IPO below the targeted range and raised $240 million.\n\nReuters ties the deal to a wider pipeline of insurers bringing fall listings to market.\n\nThat print is a concrete data point on how new issuers are clearing the market this season\u2014not a forecast of the next name or date.\n\nWhen you scan the calendar for new listings, what do you look at first\u2014deal size, sector, or where the stock prices versus the range?",
         "skip_reason": "",
         "supporting_data": [
-          "Continuing Jobless Claims estimate: 1,780K \u2014 economic_calendar (FMP_DATA)",
-          "Continuing Jobless Claims previous: 1,774K \u2014 economic_calendar (FMP_DATA)",
-          "Release time: 2026-09-17 12:30:00 US \u2014 economic_calendar (FMP_DATA)",
-          "Fed Interest Rate Decision actual: 4% \u2014 economic_calendar (FMP_DATA)",
-          "Fed Interest Rate Decision previous: 3.8% \u2014 economic_calendar (FMP_DATA)"
+          "IPO proceeds: $240 million \u2014 [source: FMP news / Reuters]",
+          "Pricing: below the marketed range \u2014 [source: FMP news / Reuters]"
         ],
-        "source_url": "https://www.pymnts.com/news/cross-border-payments/global-payments/2026/fed-rate-hike-raises-costs-of-funding-global-commerce/",
-        "source_notes": "https://www.pymnts.com/news/cross-border-payments/global-payments/2026/fed-rate-hike-raises-costs-of-funding-global-commerce/"
+        "source_url": "https://www.reuters.com/legal/litigation/orion180-insurance-prices-us-ipo-below-range-raises-240-million-2026-09-18/",
+        "source_notes": "https://www.reuters.com/legal/litigation/orion180-insurance-prices-us-ipo-below-range-raises-240-million-2026-09-18/"
       },
       {
-        "title": "August housing starts MoM: +9.0% est.",
+        "title": "AAII bearish share hits 53.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Thursday 12:30 p.m.\nET: Housing Starts for August.\n\nMoM change \u2014 consensus +9.0%.\n\nPrior month: -12.4%.\n\nLevel \u2014 consensus 1.31M annualized units.\n\nPrior level: 1.24M (1.239M in the calendar).\n\nThe MoM figure is the pace of change in new-home construction; the level is how many starts that pace implies over a full year.\n\nSame release window as building permits and jobless claims.\n\nWhat do you use as the cleaner read \u2014 the percent change or the million-unit rate?",
+        "body": "The latest AAII Sentiment Survey read shows how individual investors label their six-month outlook\u2014not a market forecast.\n\nBearish responses rose 14.0 percentage points to 53.3%.\n\nBullish responses fell 9.2 percentage points to 28.8%.\n\nNeutral responses fell 4.8 percentage points to 17.9%.\n\nThe survey resolves weekly; the next print will show whether those splits hold or shift.\n\nWhich line do you track first when this survey drops\u2014bearish, bullish, or the gap between them?",
         "skip_reason": "",
         "supporting_data": [
-          "Housing Starts MoM (Aug) estimate: 9.0% \u2014 economic_calendar (FMP_DATA)",
-          "Housing Starts MoM (Aug) previous: -12.4% \u2014 economic_calendar (FMP_DATA)",
-          "Housing Starts (Aug) estimate: 1.31M \u2014 economic_calendar (FMP_DATA)",
-          "Housing Starts (Aug) previous: 1.239M \u2014 economic_calendar (FMP_DATA)",
-          "Release date/time: 2026-09-17 12:30:00 US \u2014 economic_calendar (FMP_DATA)"
+          "Bearish sentiment: 53.3% \u2014 [source: FMP news / Seeking Alpha]",
+          "Bearish change: +14.0 percentage points \u2014 [source: FMP news / Seeking Alpha]",
+          "Bullish sentiment: 28.8% \u2014 [source: FMP news / Seeking Alpha]",
+          "Bullish change: -9.2 percentage points \u2014 [source: FMP news / Seeking Alpha]",
+          "Neutral sentiment: 17.9% \u2014 [source: FMP news / Seeking Alpha]",
+          "Neutral change: -4.8 percentage points \u2014 [source: FMP news / Seeking Alpha]"
         ],
-        "source_url": "https://www.pymnts.com/news/cross-border-payments/global-payments/2026/fed-rate-hike-raises-costs-of-funding-global-commerce/",
-        "source_notes": "https://www.pymnts.com/news/cross-border-payments/global-payments/2026/fed-rate-hike-raises-costs-of-funding-global-commerce/"
+        "source_url": "https://seekingalpha.com/article/4947673-aaii-sentiment-survey-pessimism-spikes",
+        "source_notes": "https://seekingalpha.com/article/4947673-aaii-sentiment-survey-pessimism-spikes"
       },
       {
-        "title": "Building permits at 1.41M Thursday",
+        "title": "August permits 1.39M, starts 1.28M",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Thursday 12:30 p.m.\nET: Building Permits (August).\n\nHeadline rate \u2014 consensus 1.41M annualized.\n\nPrior: 1.43M (1.433M in the calendar).\n\nMoM change \u2014 consensus -1.6%.\n\nPrior MoM: +4.3%.\n\nPermits are approvals to begin construction \u2014 they often lead starts by a month or two in the data.\n\nAll of these housing and labor figures drop in the same 12:30 batch.\n\nDo you treat permits or starts as the better forward signal for housing activity?",
+        "body": "August U.S. housing permits came in at a 1.394 million annual rate.\n\nThe consensus estimate in the calendar was 1.41 million.\n\nPermits fell 2.7% month over month; the estimate was -1.6%.\n\nAugust housing starts printed at a 1.275 million annual rate versus a 1.31 million estimate.\n\nStarts fell 2.6% month over month; the estimate was +9.0%.\n\nThose releases measure approved projects and ground broken\u2014inputs that feed later construction and jobs data as revisions roll in.\n\nAfter a housing print, do you focus on the level, the month-over-month change, or the distance from the estimate?",
         "skip_reason": "",
         "supporting_data": [
-          "Building Permits (Aug) estimate: 1.41M \u2014 economic_calendar (FMP_DATA)",
-          "Building Permits (Aug) previous: 1.433M \u2014 economic_calendar (FMP_DATA)",
-          "Building Permits MoM (Aug) estimate: -1.6% \u2014 economic_calendar (FMP_DATA)",
-          "Building Permits MoM (Aug) previous: 4.3% \u2014 economic_calendar (FMP_DATA)",
-          "Release time: 2026-09-17 12:30:00 US \u2014 economic_calendar (FMP_DATA)"
+          "Building permits (Aug): 1.394M \u2014 [source: FMP economic_calendar]",
+          "Building permits estimate: 1.41M \u2014 [source: FMP economic_calendar]",
+          "Building permits previous: 1.433M \u2014 [source: FMP economic_calendar]",
+          "Building permits MoM (Aug): -2.7% \u2014 [source: FMP economic_calendar]",
+          "Building permits MoM estimate: -1.6% \u2014 [source: FMP economic_calendar]",
+          "Housing starts (Aug): 1.275M \u2014 [source: FMP economic_calendar]",
+          "Housing starts estimate: 1.31M \u2014 [source: FMP economic_calendar]",
+          "Housing starts previous: 1.309M \u2014 [source: FMP economic_calendar]",
+          "Housing starts MoM (Aug): -2.6% \u2014 [source: FMP economic_calendar]",
+          "Housing starts MoM estimate: 9.0% \u2014 [source: FMP economic_calendar]",
+          "Release timing: 2026-09-17 12:30:00 US \u2014 [source: FMP economic_calendar]"
         ],
-        "source_url": "https://www.pymnts.com/news/cross-border-payments/global-payments/2026/fed-rate-hike-raises-costs-of-funding-global-commerce/",
-        "source_notes": "https://www.pymnts.com/news/cross-border-payments/global-payments/2026/fed-rate-hike-raises-costs-of-funding-global-commerce/"
+        "source_url": "https://www.wsj.com/economy/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-5b201bb5",
+        "source_notes": "https://www.wsj.com/economy/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-5b201bb5"
       }
     ]
   }

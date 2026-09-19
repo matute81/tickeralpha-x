@@ -1,203 +1,202 @@
 {
-  "updated_at": "2026-09-17T23:13:48-04:00",
+  "updated_at": "2026-09-18T23:10:05-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-17",
-    "generated_at": "2026-09-17T23:12:25-04:00",
-    "draft_path": "drafts/2026-09-17-am.md",
+    "session_date": "2026-09-18",
+    "generated_at": "2026-09-18T23:08:34-04:00",
+    "draft_path": "drafts/2026-09-18-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Jobless claims 196K vs 208K expected",
+        "title": "August factory output flat, missed 0.3% gain",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Initial jobless claims: 196K actual vs 208K estimate (prior week 206K).\n\nThat is the count of people filing for unemployment insurance for the first time \u2014 a weekly read on layoffs.\n\nContinuing claims: 1,730K vs 1,780K estimate (prior 1,769K).\n\nFour-week average: 203.25K vs 206K estimate.\n\nPrints hit at 12:30 p.m.\nET on Sept. 17 alongside August housing data.\n\nHow do you weigh a sub-200K claims week against the housing starts miss from the same release window?",
+        "body": "August industrial production: 0.0% month over month.\n\nThe consensus had been +0.3%; July was +0.2%.\n\nManufacturing production fell 0.3% in August vs a +0.3% estimate.\n\nCapacity use held at 76.3% (estimate 76.4%).\n\nThe report measures physical output at factories, mines, and utilities \u2014 a read on goods-side demand before retail sales.\n\nWhich part of the economy do you watch first when production prints flat?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial Jobless Claims (Sep/12): 196K actual, 208K estimate, 206K previous \u2014 FMP economic calendar",
-          "Continuing Jobless Claims (Sep/05): 1,730K actual, 1,780K estimate, 1,769K previous \u2014 FMP economic calendar",
-          "Jobless Claims 4-Week Average (Sep/12): 203.25K actual, 206K estimate \u2014 FMP economic calendar"
+          "Industrial Production MoM (Aug): 0% \u2014 source: FMP economic_calendar",
+          "Industrial Production MoM estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Industrial Production MoM previous: 0.2% \u2014 source: FMP economic_calendar",
+          "Manufacturing Production MoM (Aug): -0.3% \u2014 source: FMP economic_calendar",
+          "Manufacturing Production MoM estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Capacity Utilization (Aug): 76.3% \u2014 source: FMP economic_calendar",
+          "Capacity Utilization estimate: 76.4% \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://financialmodelingprep.com/developer/docs#economics-calendar",
+        "source_notes": "https://financialmodelingprep.com/developer/docs#economics-calendar"
       },
       {
-        "title": "August housing starts \u22122.6% vs +9% est.",
+        "title": "Leading index \u22120.1% vs +0.1% expected",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August housing starts MoM: \u22122.6% actual vs +9.0% estimate (July revised context: prior print \u22129.0%).\n\nStarts level: 1.275M annualized vs 1.31M estimate (prior 1.309M).\n\nBuilding permits (Aug): 1.394M vs 1.41M estimate (prior 1.433M).\n\nPermits MoM: \u22122.7% vs \u22121.6% estimate.\n\nHousing starts measure new residential construction begun; permits are approvals that often lead starts by a month or two.\n\nWSJ reporting this week tied still-rising costs for homes and borrowing to the Fed\u2019s rate moves aimed at inflation.\n\nWhich housing line \u2014 starts or permits \u2014 do you watch first after a miss on both levels and MoM?",
+        "body": "August leading index: \u22120.1% month over month.\n\nEconomists had expected +0.1%.\n\nJuly\u2019s revision in the series was +0.2%.\n\nThe index bundles forward-looking inputs (orders, job market signals, credit) meant to flag turns in the business cycle months ahead.\n\nIt printed the same session as flat industrial production and a manufacturing decline.\n\nDo you treat one month of negative leading-index data as noise or signal?",
         "skip_reason": "",
         "supporting_data": [
-          "Housing Starts MoM (Aug): \u22122.6% actual, +9.0% estimate \u2014 FMP economic calendar",
-          "Housing Starts (Aug): 1.275M actual, 1.31M estimate, 1.309M previous \u2014 FMP economic calendar",
-          "Building Permits (Aug): 1.394M actual, 1.41M estimate, 1.433M previous \u2014 FMP economic calendar",
-          "Building Permits MoM (Aug): \u22122.7% actual, \u22121.6% estimate \u2014 FMP economic calendar"
+          "Leading Index MoM (Aug): -0.1% \u2014 source: FMP economic_calendar",
+          "Leading Index MoM estimate: 0.1% \u2014 source: FMP economic_calendar",
+          "Leading Index MoM previous: 0.2% \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.wsj.com/economy/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-5b201bb5",
-        "source_notes": "https://www.wsj.com/economy/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-5b201bb5"
+        "source_url": "https://financialmodelingprep.com/developer/docs#economics-calendar",
+        "source_notes": "https://financialmodelingprep.com/developer/docs#economics-calendar"
       },
       {
-        "title": "AAII bearish share hits 53.3%",
+        "title": "S&P 500 spec net shorts at \u2212100.5K",
         "status": "ready",
         "kind": "x_idea",
-        "body": "AAII Sentiment Survey (Seeking Alpha, Sept. 17):\n\nBearish: 53.3% (+14.0 pts).\n\nBullish: 28.8% (\u22129.2 pts).\n\nNeutral: 17.9% (\u22124.8 pts).\n\nSame week, Barron\u2019s \u201cReview & Preview\u201d described stocks ending sharply higher a day after the Federal Reserve\u2019s first interest-rate increase in three years.\n\nPrior session index closes (Sept. 17):\n\n- $SPY proxy ^GSPC +1.1% to 7,637.05\n- ^IXIC +1.7% to 26,418.30\n- ^VIX \u221212.8% to 15.44\n\nThe survey asks individual investors whether they expect stocks to rise, fall, or stay flat over the next six months.\n\nWhen survey pessimism rises while major indexes post a strong close, which do you treat as the louder signal?",
+        "body": "CFTC positioning (week of Sep 18):\n\n- S&P 500 speculative net: \u2212100.5K (prior \u221276.0K)\n- Nasdaq 100 speculative net: 33.7K (prior 20.9K)\n\nThe S&P figure is net futures positioning among reportable speculators \u2014 not cash stock ownership.\n\nIt landed after a session where the S&P 500 closed +0.1% at 7,646.04 and the Nasdaq Composite +0.4% at 26,522.55.\n\nCrude oil speculative net: 135.9K (prior 136.6K).\n\nGold speculative net: 230.3K (prior 232.0K).\n\nHow much weight do you put on weekly futures positioning vs the economic prints the same day?",
         "skip_reason": "",
         "supporting_data": [
-          "AAII bearish sentiment: 53.3% (+14.0 percentage points) \u2014 Seeking Alpha / AAII",
-          "AAII bullish sentiment: 28.8% (\u22129.2 percentage points) \u2014 Seeking Alpha / AAII",
-          "AAII neutral sentiment: 17.9% (\u22124.8 percentage points) \u2014 Seeking Alpha / AAII",
-          "S&P 500 (^GSPC): 7,637.05, +1.1% \u2014 FMP indexes",
-          "Nasdaq Composite (^IXIC): 26,418.30, +1.7% \u2014 FMP indexes",
-          "VIX (^VIX): 15.44, \u221212.8% \u2014 FMP indexes"
+          "CFTC S&P 500 speculative net positions: -100.5K \u2014 source: FMP economic_calendar",
+          "CFTC S&P 500 previous: -76K \u2014 source: FMP economic_calendar",
+          "CFTC Nasdaq 100 speculative net positions: 33.7K \u2014 source: FMP economic_calendar",
+          "CFTC Nasdaq 100 previous: 20.9K \u2014 source: FMP economic_calendar",
+          "^GSPC close: 7,646.04 (+0.1%) \u2014 source: FMP indexes",
+          "^IXIC close: 26,522.55 (+0.4%) \u2014 source: FMP indexes",
+          "CFTC Crude Oil speculative net: 135.9K \u2014 source: FMP economic_calendar",
+          "CFTC Gold speculative net: 230.3K \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://seekingalpha.com/article/4947673-aaii-sentiment-survey-pessimism-spikes",
-        "source_notes": "https://seekingalpha.com/article/4947673-aaii-sentiment-survey-pessimism-spikes"
+        "source_url": "https://financialmodelingprep.com/developer/docs#economics-calendar",
+        "source_notes": "https://financialmodelingprep.com/developer/docs#economics-calendar"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-17",
-    "generated_at": "2026-09-17T23:13:04-04:00",
-    "draft_path": "drafts/2026-09-17.md",
+    "session_date": "2026-09-18",
+    "generated_at": "2026-09-18T23:09:20-04:00",
+    "draft_path": "drafts/2026-09-18.md",
     "errors": [],
     "slots": [
       {
-        "title": "Nasdaq +1.7% day after Fed hike",
+        "title": "Netflix falls 4.7% on options expiry day",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Nasdaq Composite closed at 26,418.30, up 439.87 points (+1.7%).\n\nThe S&P 500 finished at 7,637.05, up 85.24 points (+1.1%).\n\nCoverage tied the session to investors returning to AI-related equities after the prior day\u2019s rate decision.\n\nNamed megacaps in the data:\n\n- $AMZN +2.1% to 251.19\n- $NVDA +2.5% to 219.34\n- $MSFT +1.5% to 497.75\n- $GOOGL +1.3% to 347.33\n- $META +1.3% to 682.31\n\nThe CBOE Volatility Index ($VIX) fell 2.27 points to 15.44 (-12.8%).\n\nWhich large-cap name\u2019s move stood out most to you on the close?",
+        "body": "$NFLX closed \u22124.7% at $71.79, from a prior close of $75.31.\n\nThe stock\u2019s day range ran $70.11\u2013$72.38 on volume above 113.6M shares.\n\nCommunication services averaged \u22122.3% among Nasdaq sectors, the deepest drop in that group.\n\nThe Nasdaq still finished +0.4% at 26,522.55 while the Dow slipped \u22120.2%.\n\nBarron\u2019s framed the session around triple witching \u2014 quarterly options and futures expiry \u2014 on a week already marked by volatile trading.\n\nWhich megacap name surprised you most at the bell?",
         "skip_reason": "",
         "supporting_data": [
-          "Nasdaq Composite close: 26,418.30 (+1.7%) \u2014 FMP indexes ^IXIC",
-          "S&P 500 close: 7,637.05 (+1.1%) \u2014 FMP indexes ^GSPC",
-          "$AMZN: +2.1%, 251.19 \u2014 FMP mega_caps",
-          "$NVDA: +2.5%, 219.34 \u2014 FMP actives",
-          "$MSFT: +1.5%, 497.75 \u2014 FMP mega_caps",
-          "$GOOGL: +1.3%, 347.33 \u2014 FMP mega_caps",
-          "$META: +1.3%, 682.31 \u2014 FMP mega_caps",
-          "$VIX: 15.44 (-12.8%) \u2014 FMP indexes ^VIX"
+          "NFLX change: \u22124.7% \u2014 FMP mega_caps EOD 2026-09-18",
+          "NFLX price: 71.79 \u2014 FMP mega_caps EOD 2026-09-18",
+          "NFLX previous close: 75.31 \u2014 FMP mega_caps EOD 2026-09-18",
+          "Communication Services sector average: \u22122.3% \u2014 FMP sectors NASDAQ 2026-09-18",
+          "^IXIC: +0.4% to 26,522.55 \u2014 FMP indexes EOD 2026-09-18",
+          "^DJI: \u22120.2% to 51,682.64 \u2014 FMP indexes EOD 2026-09-18"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/investors-come-back-to-ai-stocks-snapping-market-out-of-inflation-gloom-a7690ce5",
-        "source_notes": "https://www.wsj.com/finance/stocks/investors-come-back-to-ai-stocks-snapping-market-out-of-inflation-gloom-a7690ce5"
+        "source_url": "https://www.barrons.com/articles/stocks-today-dow-falls-triple-witching-890b5795",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-dow-falls-triple-witching-890b5795"
       },
       {
-        "title": "Intel +7.7% at 108.80 close",
+        "title": "Broadcom and ASML each up about 3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$INTC closed at 108.80, up 7.75 (+7.7%).\n\nIt was listed among the most active symbols in the session snapshot.\n\nThe stock\u2019s session range in the data ran from a day low of 330.19\u2026\n\nWait - INTC dayLow isn't in actives.\nActives only have price, change, changesPercentage.\nINTC: price 108.8, change 7.75, 7.7%\n\nI'll fix - no day low for INTC in actives.\nOnly use what's there.\n\n**Post Body (corrected):**\n\n$INTC closed at 108.80, up 7.75 (+7.7%).\n\nIt ranked among the most active names by volume in the session list.\n\nThe Nasdaq Composite still rose 1.7% on the day:\n- $NVDA +2.5%\n- $ASML +1.7% to 1,629.67\n\nalso higher.\n\nDid you track $INTC\u2019s full-session volume against its typical daily print?",
+        "body": "Technology averaged +1.5% among Nasdaq sectors, the strongest group on the board.\n\nChip and platform names at the close:\n\n- $AVGO +3.0% to 357.61\n- $ASML +3.1% to 1,679.92\n- $NVDA +1.3% to 222.27\n- $TSM +1.0% to 434.67\n\nThe Nasdaq Composite added +0.4% to 26,522.55; the S&P 500 rose +0.1% to 7,646.04.\n\nThe Wall Street Journal said U.S. stocks were mixed as inflation and Middle East war concerns sat alongside optimism about the artificial-intelligence build-out.\n\nDoes your watchlist lean more toward semis or megacap software after this close?",
         "skip_reason": "",
         "supporting_data": [
-          "$INTC close: 108.80 (+7.7%) \u2014 FMP actives",
-          "$INTC change: +7.75 \u2014 FMP actives",
-          "Nasdaq Composite: +1.7% \u2014 FMP indexes ^IXIC",
-          "$NVDA: +2.5%, 219.34 \u2014 FMP actives",
-          "$ASML: +1.7%, 1,629.67 \u2014 FMP mega_caps"
+          "Technology sector average: +1.5% \u2014 FMP sectors NASDAQ 2026-09-18",
+          "AVGO: +3.0%, price 357.61 \u2014 FMP mega_caps EOD 2026-09-18",
+          "ASML: +3.1%, price 1,679.92 \u2014 FMP mega_caps EOD 2026-09-18",
+          "NVDA: +1.3%, price 222.27 \u2014 FMP mega_caps EOD 2026-09-18",
+          "TSM: +1.0%, price 434.67 \u2014 FMP mega_caps EOD 2026-09-18",
+          "^IXIC: +0.4% to 26,522.55 \u2014 FMP indexes EOD 2026-09-18",
+          "^GSPC: +0.1% to 7,646.04 \u2014 FMP indexes EOD 2026-09-18"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/INTC",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/INTC"
+        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-inflation-trepidation-offsets-ai-optimism-36053264",
+        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-inflation-trepidation-offsets-ai-optimism-36053264"
       },
       {
-        "title": "Jobless claims 196K vs 208K est.",
+        "title": "PepsiCo \u22122.9% at its 52-week low",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Initial jobless claims (week of Sept. 12): **196K** actual vs **208K** estimate; prior **206K**.\n\nContinuing claims (Sept. 5): **1,730K** actual vs **1,780K** estimate; prior **1,769K**.\n\nThe four-week average for initial claims: **203.25K** vs **206K** estimate.\n\nSame session, the Dow Jones Industrial Average closed at 51,778.04 (+0.6%).\n\nThe Russell 2000 finished at 2,874.63 (+0.6%).\n\nAtlanta Fed GDPNow for Q3 held at **5.1%** in the calendar print (estimate **5.1%**, previous **5.1%**).\n\nHow do you weigh a sub-200K claims print against August housing starts at **1.275M** vs **1.31M** expected?",
+        "body": "$PEP closed \u22122.9% at $129.75.\n\nThe session low was $129.55 \u2014 the same figure as the 52-week low in the profile data.\n\nPrior close was $133.66; the day high was $132.26.\n\nConsumer defensive averaged +0.1% among Nasdaq sectors, so the name moved against a slightly positive group backdrop.\n\nThe Dow finished \u22120.2% at 51,682.64; the Russell 2000 was \u22120.5% at 2,860.40.\n\nWhat consumer staple are you tracking into next week?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial jobless claims: 196K (est. 208K) \u2014 FMP economic_calendar",
-          "Continuing jobless claims: 1,730K (est. 1,780K) \u2014 FMP economic_calendar",
-          "4-week average: 203.25K \u2014 FMP economic_calendar",
-          "^DJI: 51,778.04 (+0.6%) \u2014 FMP indexes",
-          "^RUT: 2,874.63 (+0.6%) \u2014 FMP indexes",
-          "GDPNow Q3: 5.1% \u2014 FMP economic_calendar",
-          "Housing starts Aug: 1.275M (est. 1.31M) \u2014 FMP economic_calendar"
+          "PEP change: \u22122.9% \u2014 FMP mega_caps EOD 2026-09-18",
+          "PEP price: 129.75 \u2014 FMP mega_caps EOD 2026-09-18",
+          "PEP day low / year low: 129.55 \u2014 FMP mega_caps EOD 2026-09-18",
+          "PEP previous close: 133.66 \u2014 FMP mega_caps EOD 2026-09-18",
+          "Consumer Defensive sector average: +0.1% \u2014 FMP sectors NASDAQ 2026-09-18",
+          "^DJI: \u22120.2% to 51,682.64 \u2014 FMP indexes EOD 2026-09-18",
+          "^RUT: \u22120.5% to 2,860.40 \u2014 FMP indexes EOD 2026-09-18"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://www.wsj.com/finance/stocks/wall-street-ends-volatile-week-with-quiet-finish-8aa4d4f2",
+        "source_notes": "https://www.wsj.com/finance/stocks/wall-street-ends-volatile-week-with-quiet-finish-8aa4d4f2"
       },
       {
-        "title": "U.S. session recap \u2014 Sept. 17, 2026",
+        "title": "U.S. session recap \u2014 Sept. 18, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "Major U.S. indexes closed higher on Sept. 17.\nThe S&P 500 finished at 7,637.05, up 85.24 points (+1.1%), with an intraday range of 7,611.81 to 7,646.86.\nThe Nasdaq Composite outpaced the broad market at 26,418.30, up 439.87 points (+1.7%).\n\nThe Dow Jones Industrial Average rose 316.14 points to 51,778.04 (+0.6%).\nThe Russell 2000 gained 15.82 points to 2,874.63 (+0.6%).\nThe session came one day after the Federal Reserve\u2019s rate increase; Barron\u2019s and other coverage described stocks climbing sharply higher in that context.\n\nLabor data printed at 12:30 ET.\nInitial jobless claims registered 196,000 versus a 208,000 estimate and 206,000 previously.\nContinuing claims were 1.730 million versus 1.780 million expected.\nThe four-week average for initial claims was 203.25 thousand.\nAtlanta Fed GDPNow for Q3 was unchanged at 5.1%.\n\nHousing figures from the same release window showed August housing starts at a 1.275 million annual rate versus 1.31 million expected, with month-over-month housing starts at -2.6%.\nBuilding permits were 1.394 million with permits down 2.7% month over month versus a -1.6% estimate.\n\nSector performance on NASDAQ grouped averages showed Energy leading at +2.1%, Healthcare +0.5%, and Technology +0.5%.\nBasic Materials lagged at -0.6%, Utilities -0.4%, and Consumer Defensive -0.4%.\n\nLarge technology and consumer internet names carried the equity tape in the megacap set.\nAmazon closed at 251.19 (+2.1%).\nApple at 337.00 (+1.4%).\nMicrosoft at 497.75 (+1.5%).\nNVIDIA at 219.34 (+2.5%).\nTaiwan Semiconductor (TSM) at 430.26 (+3.0%).\nASML at 1,629.67 (+1.7%).\nSalesforce was an outlier to the downside at 242.85 (-3.1%).\nIntel, among actives, closed at 108.80 (+7.7%).\n\nThe CBOE Volatility Index fell 2.27 points to 15.44 (-12.8%), with a session low of 15.38 and high of 16.29, alongside the equity advance.\n\nTreasury yields in the injected snapshot (dated Sept. 15) showed the 10-year at 5.0% and the 2-year at 4.7%, for a 2s10s spread of 0.33 percentage points.\n\nGold futures (GCUSD) settled at 4,386.00, down 13.70 (-0.3%).\nBrent crude (BZUSD) was 104.11 (-0.7%).\nThe U.S. Oil Fund (USO) closed at 155.31 (-0.6%).\nThe dollar proxy UUP finished at 28.38 (-0.1%).\nBitcoin (BTCUSD) was 77,105.41 (+1.0%).\n\nOverseas indexes in the bundle also closed up: FTSE 100 +1.2% to 10,816.14, Nikkei 225 +0.8% to 64,662.11, Hang Seng +0.7% to 24,782.15.\nThe iShares MSCI Germany ETF (EWG), labeled DAX in the feed, was 42.69 (+0.6%).",
+        "body": "U.S. indexes split on Sept. 18.\nThe S&P 500 rose +0.1% to 7,646.04 (+8.28 pts).\nThe Nasdaq Composite gained +0.4% to 26,522.55 (+104.25 pts).\nThe Dow Jones Industrial Average fell \u22120.2% to 51,682.64 (\u221295.40 pts).\nThe Russell 2000 lost \u22120.5% to 2,860.40.\n\nThe CBOE Volatility Index fell \u22124.1% to 14.81, with an intraday range of 14.80\u201315.63.\nCoverage tied the calendar to triple witching \u2014 simultaneous expiry of index options and futures \u2014 after a choppy week; the Wall Street Journal described a quiet finish to that stretch.\n\nSector performance on Nasdaq sorted cleanly.\nTechnology led at +1.5% average change.\nFinancial services followed at +1.2%.\nCommunication services was weakest at \u22122.3%.\nUtilities averaged \u22121.5%, energy \u22121.6%, and industrials \u22120.9%.\n\nMegacap and liquid large-cap moves carried the narrative.\nNetflix fell \u22124.7% to $71.79.\nPepsiCo dropped \u22122.9% to $129.75, with a session low at its 52-week low of $129.55 in the data.\nMicrosoft slipped \u22120.8% to $493.78.\nOn the upside, Broadcom rose +3.0% to $357.61, ASML +3.1% to $1,679.92, NVIDIA +1.3% to $222.27, and Taiwan Semiconductor +1.0% to $434.67.\n\nThe earnings calendar in the feed carried no major after-the-bell reports for this recap.\nThe economic diary included Baker Hughes U.S. oil rig count at 452 versus 450 prior and 451 estimated, plus late CFTC positioning releases (including S&P 500 speculative net positions at \u2212100.5K vs \u221276.0K prior).\n\nEnergy equities softened with the sector average \u22121.6%.\nBrent crude settled at $103.87 (\u22120.9%).\nThe United States Oil Fund (USO proxy in the tape) closed at $153.82 (\u22121.0%).\n\nGold futures (GCUSD) rose +0.6% to $4,424.90.\nThe dollar proxy UUP was flat at $28.39 (0.0%).\nEUR/USD held near 1.15 (+0.1% in the feed).\nBitcoin (BTCUSD) added +0.5% to $81,295.73.\n\nTreasury snapshot dated Sept. 16 in the data showed the 10-year yield at 5.0% and the 2s10s spread at 0.27 percentage point.\n\nOverseas benchmarks from the same bundle: Japan\u2019s Nikkei 225 +1.4% to 65,018.95; FTSE 100 \u22120.3%; Hang Seng +0.1%.\nThe session headline mix \u2014 inflation and geopolitical worry versus AI-related strength in tech \u2014 matched the index split at the U.S. close.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,637.05 (+1.1%) \u2014 FMP indexes",
-          "^IXIC: 26,418.30 (+1.7%) \u2014 FMP indexes",
-          "^DJI: 51,778.04 (+0.6%) \u2014 FMP indexes",
-          "^RUT: 2,874.63 (+0.6%) \u2014 FMP indexes",
-          "Initial claims: 196K \u2014 FMP economic_calendar",
-          "Housing starts: 1.275M \u2014 FMP economic_calendar",
-          "Energy sector avg: +2.1% \u2014 FMP sectors",
-          "^VIX: 15.44 (-12.8%) \u2014 FMP indexes",
-          "year10: 5.0%, spread_2s10s: 0.33 \u2014 FMP treasury",
-          "GCUSD: 4,386.00 (-0.3%) \u2014 FMP cross_asset",
-          "BZUSD: 104.11 (-0.7%) \u2014 FMP cross_asset",
-          "BTCUSD: 77,105.41 (+1.0%) \u2014 FMP cross_asset"
+          "^GSPC: +0.1%, 7,646.04 \u2014 FMP indexes 2026-09-18",
+          "^IXIC: +0.4%, 26,522.55 \u2014 FMP indexes 2026-09-18",
+          "^DJI: \u22120.2%, 51,682.64 \u2014 FMP indexes 2026-09-18",
+          "^RUT: \u22120.5%, 2,860.40 \u2014 FMP indexes 2026-09-18",
+          "^VIX: \u22124.1%, 14.81 \u2014 FMP indexes 2026-09-18",
+          "Technology sector: +1.5% \u2014 FMP sectors 2026-09-18",
+          "Communication Services: \u22122.3% \u2014 FMP sectors 2026-09-18",
+          "NFLX: \u22124.7%, 71.79 \u2014 FMP mega_caps 2026-09-18",
+          "AVGO: +3.0%, 357.61 \u2014 FMP mega_caps 2026-09-18",
+          "Baker Hughes rig count: 452 \u2014 FMP economic_calendar 2026-09-18",
+          "BZUSD: 103.87, \u22120.9% \u2014 FMP cross_asset 2026-09-18",
+          "GCUSD: 4,424.90, +0.6% \u2014 FMP cross_asset 2026-09-18",
+          "year10 Treasury: 5.0% \u2014 FMP treasury 2026-09-16"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-climb-higher-one-day-after-fed-rate-hike-68316510",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-climb-higher-one-day-after-fed-rate-hike-68316510"
+        "source_url": "https://www.wsj.com/finance/stocks/wall-street-ends-volatile-week-with-quiet-finish-8aa4d4f2",
+        "source_notes": "https://www.wsj.com/finance/stocks/wall-street-ends-volatile-week-with-quiet-finish-8aa4d4f2"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-17",
-    "generated_at": "2026-09-17T23:13:48-04:00",
-    "draft_path": "drafts/2026-09-17-week-ahead.md",
+    "session_date": "2026-09-18",
+    "generated_at": "2026-09-18T23:10:05-04:00",
+    "draft_path": "drafts/2026-09-18-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Orion180 IPO raises $240M below range",
+        "title": "Okta analyst meeting on CNBC\u2019s list",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Orion180 Insurance priced its U.S. IPO below the targeted range and raised $240 million.\n\nReuters ties the deal to a wider pipeline of insurers bringing fall listings to market.\n\nThat print is a concrete data point on how new issuers are clearing the market this season\u2014not a forecast of the next name or date.\n\nWhen you scan the calendar for new listings, what do you look at first\u2014deal size, sector, or where the stock prices versus the range?",
+        "body": "CNBC\u2019s Sept. 18 week-ahead piece puts $OKTA\u2019s analyst meeting at the top of its corporate calendar for the coming sessions.\n\nThe same write-up says investors may see a relatively quiet week as September trading continues.\n\nAn analyst meeting is where a company often updates its business model, product roadmap, and financial framework for the Street \u2014 not a quarterly earnings print with a single EPS line.\n\nNo EPS estimate or meeting time for $OKTA appears in this feed.\n\nWhat do you usually watch first after an analyst day \u2014 product roadmap, margin targets, or customer metrics?",
         "skip_reason": "",
         "supporting_data": [
-          "IPO proceeds: $240 million \u2014 [source: FMP news / Reuters]",
-          "Pricing: below the marketed range \u2014 [source: FMP news / Reuters]"
+          "Corporate event highlighted: Okta analyst meeting \u2014 [source: FMP news, CNBC \u201cCramer's week ahead\u201d]",
+          "Session reference date: 2026-09-18 \u2014 [source: FMP session_date]",
+          "Publisher/date on item: 2026-09-18 18:17:16 \u2014 [source: FMP news publishedDate]"
         ],
-        "source_url": "https://www.reuters.com/legal/litigation/orion180-insurance-prices-us-ipo-below-range-raises-240-million-2026-09-18/",
-        "source_notes": "https://www.reuters.com/legal/litigation/orion180-insurance-prices-us-ipo-below-range-raises-240-million-2026-09-18/"
+        "source_url": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html",
+        "source_notes": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html"
       },
       {
-        "title": "AAII bearish share hits 53.3%",
+        "title": "Six earnings names CNBC names",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The latest AAII Sentiment Survey read shows how individual investors label their six-month outlook\u2014not a market forecast.\n\nBearish responses rose 14.0 percentage points to 53.3%.\n\nBullish responses fell 9.2 percentage points to 28.8%.\n\nNeutral responses fell 4.8 percentage points to 17.9%.\n\nThe survey resolves weekly; the next print will show whether those splits hold or shift.\n\nWhich line do you track first when this survey drops\u2014bearish, bullish, or the gap between them?",
+        "body": "CNBC\u2019s Sept. 18 week-ahead roundup lists six earnings reports for the coming week.\n\n- $KBH\n- $CTAS\n- $PAYX\n- $GIS\n- $DRI\n- $COST\n\nEach report is a quarterly scorecard: revenue, costs, and per-share profit versus what analysts had modeled before the release.\n\nThis FMP earnings calendar slice only shows already-reported names ($LEN on 2026-09-16, $FPS on 2026-09-15) \u2014 no forward dates or EPS estimates for the six tickers above.\n\nWhich of these six is usually the first one you open on report day?",
         "skip_reason": "",
         "supporting_data": [
-          "Bearish sentiment: 53.3% \u2014 [source: FMP news / Seeking Alpha]",
-          "Bearish change: +14.0 percentage points \u2014 [source: FMP news / Seeking Alpha]",
-          "Bullish sentiment: 28.8% \u2014 [source: FMP news / Seeking Alpha]",
-          "Bullish change: -9.2 percentage points \u2014 [source: FMP news / Seeking Alpha]",
-          "Neutral sentiment: 17.9% \u2014 [source: FMP news / Seeking Alpha]",
-          "Neutral change: -4.8 percentage points \u2014 [source: FMP news / Seeking Alpha]"
+          "Earnings names listed: KB Home, Cintas, Paychex, General Mills, Darden, Costco \u2014 [source: FMP news, CNBC week-ahead text]",
+          "$LEN reported 2026-09-16: EPS actual 1.23 vs estimate 1.28 \u2014 [source: FMP earnings_calendar]",
+          "$FPS reported 2026-09-15: EPS actual 0.25 vs estimate 0.24 \u2014 [source: FMP earnings_calendar]"
         ],
-        "source_url": "https://seekingalpha.com/article/4947673-aaii-sentiment-survey-pessimism-spikes",
-        "source_notes": "https://seekingalpha.com/article/4947673-aaii-sentiment-survey-pessimism-spikes"
+        "source_url": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html",
+        "source_notes": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html"
       },
       {
-        "title": "August permits 1.39M, starts 1.28M",
+        "title": "S&P EPS estimate at $100",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August U.S. housing permits came in at a 1.394 million annual rate.\n\nThe consensus estimate in the calendar was 1.41 million.\n\nPermits fell 2.7% month over month; the estimate was -1.6%.\n\nAugust housing starts printed at a 1.275 million annual rate versus a 1.31 million estimate.\n\nStarts fell 2.6% month over month; the estimate was +9.0%.\n\nThose releases measure approved projects and ground broken\u2014inputs that feed later construction and jobs data as revisions roll in.\n\nAfter a housing print, do you focus on the level, the month-over-month change, or the distance from the estimate?",
+        "body": "Seeking Alpha\u2019s Sept. 18 piece puts the quarterly S&P 500 EPS estimate at $100 per share.\n\nThe same article says about 2 weeks remain in Q2 \u201926 reporting for the index.\n\nIt also frames Q3 \u201926 earnings releases as about 4 weeks from their start.\n\nThat clock matters because index-level EPS is the yardstick many use for how expensive the market looks relative to profits \u2014 without needing to pick a single stock.\n\nThe feed\u2019s last U.S. index close before this post: S&P 500 at 7,646.04, up 0.1% on 2026-09-18.\n\nWhich do you track more closely \u2014 index EPS revisions or individual company reports?",
         "skip_reason": "",
         "supporting_data": [
-          "Building permits (Aug): 1.394M \u2014 [source: FMP economic_calendar]",
-          "Building permits estimate: 1.41M \u2014 [source: FMP economic_calendar]",
-          "Building permits previous: 1.433M \u2014 [source: FMP economic_calendar]",
-          "Building permits MoM (Aug): -2.7% \u2014 [source: FMP economic_calendar]",
-          "Building permits MoM estimate: -1.6% \u2014 [source: FMP economic_calendar]",
-          "Housing starts (Aug): 1.275M \u2014 [source: FMP economic_calendar]",
-          "Housing starts estimate: 1.31M \u2014 [source: FMP economic_calendar]",
-          "Housing starts previous: 1.309M \u2014 [source: FMP economic_calendar]",
-          "Housing starts MoM (Aug): -2.6% \u2014 [source: FMP economic_calendar]",
-          "Housing starts MoM estimate: 9.0% \u2014 [source: FMP economic_calendar]",
-          "Release timing: 2026-09-17 12:30:00 US \u2014 [source: FMP economic_calendar]"
+          "S&P 500 EPS estimate cited: $100 per share \u2014 [source: FMP news, Seeking Alpha title/text]",
+          "Q2 \u201926 reporting time left: ~2 weeks \u2014 [source: FMP news, Seeking Alpha text]",
+          "Q3 \u201926 release window: ~4 weeks from start \u2014 [source: FMP news, Seeking Alpha text]",
+          "S&P 500 (^GSPC) close: 7,646.04 \u2014 [source: FMP indexes ^GSPC price]",
+          "S&P 500 day change: +0.1% \u2014 [source: FMP indexes ^GSPC changesPercentage]",
+          "Session date for index: 2026-09-18 \u2014 [source: FMP session_date]"
         ],
-        "source_url": "https://www.wsj.com/economy/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-5b201bb5",
-        "source_notes": "https://www.wsj.com/economy/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-5b201bb5"
+        "source_url": "https://seekingalpha.com/article/4947994-s-p-500-earnings-quarterly-s-and-p-500-eps-estimate-hits-100-per-share",
+        "source_notes": "https://seekingalpha.com/article/4947994-s-p-500-earnings-quarterly-s-and-p-500-eps-estimate-hits-100-per-share"
       }
     ]
   }

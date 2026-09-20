@@ -1,202 +1,212 @@
 {
-  "updated_at": "2026-09-18T23:10:05-04:00",
+  "updated_at": "2026-09-19T23:25:42-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-18",
-    "generated_at": "2026-09-18T23:08:34-04:00",
-    "draft_path": "drafts/2026-09-18-am.md",
+    "session_date": "2026-09-19",
+    "generated_at": "2026-09-19T23:24:49-04:00",
+    "draft_path": "drafts/2026-09-19-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "August factory output flat, missed 0.3% gain",
+        "title": "Trump plans federal \u201cAI Force\u201d and AI czar",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August industrial production: 0.0% month over month.\n\nThe consensus had been +0.3%; July was +0.2%.\n\nManufacturing production fell 0.3% in August vs a +0.3% estimate.\n\nCapacity use held at 76.3% (estimate 76.4%).\n\nThe report measures physical output at factories, mines, and utilities \u2014 a read on goods-side demand before retail sales.\n\nWhich part of the economy do you watch first when production prints flat?",
+        "body": "Trump said Saturday he is creating an \u201cAI Force\u201d for federal oversight of artificial intelligence and will announce an AI \u201cczar\u201d in the near future.\n\nReuters and WSJ reported the move the same day, alongside stories about industry alarm and voter pushback on AI.\n\nSky News tied the announcement to a lawsuit claiming companies illegally agreed to slow AI development.\n\nNo major U.S. equity index level in the feed is tied to this headline alone; the prior session had the S&P 500 at 7,650.50, up 0.2%.\n\nWhat part of AI policy do you think gets the most airtime next \u2014 safety, competition, or federal structure?",
         "skip_reason": "",
         "supporting_data": [
-          "Industrial Production MoM (Aug): 0% \u2014 source: FMP economic_calendar",
-          "Industrial Production MoM estimate: 0.3% \u2014 source: FMP economic_calendar",
-          "Industrial Production MoM previous: 0.2% \u2014 source: FMP economic_calendar",
-          "Manufacturing Production MoM (Aug): -0.3% \u2014 source: FMP economic_calendar",
-          "Manufacturing Production MoM estimate: 0.3% \u2014 source: FMP economic_calendar",
-          "Capacity Utilization (Aug): 76.3% \u2014 source: FMP economic_calendar",
-          "Capacity Utilization estimate: 76.4% \u2014 source: FMP economic_calendar"
+          "S&P 500 close: 7,650.50 \u2014 [source: FMP indexes ^GSPC]",
+          "S&P 500 session change: +0.2% \u2014 [source: FMP indexes ^GSPC changesPercentage]",
+          "Headline/event: AI Force and AI czar \u2014 [source: FMP news Reuters 2026-09-19]"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs#economics-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs#economics-calendar"
+        "source_url": "https://www.reuters.com/world/us/trump-says-he-will-create-ai-force-name-ai-czar-2026-09-19/",
+        "source_notes": "https://www.reuters.com/world/us/trump-says-he-will-create-ai-force-name-ai-czar-2026-09-19/"
       },
       {
-        "title": "Leading index \u22120.1% vs +0.1% expected",
+        "title": "10-year Treasury yield at 4.9% after Fed hike talk",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August leading index: \u22120.1% month over month.\n\nEconomists had expected +0.1%.\n\nJuly\u2019s revision in the series was +0.2%.\n\nThe index bundles forward-looking inputs (orders, job market signals, credit) meant to flag turns in the business cycle months ahead.\n\nIt printed the same session as flat industrial production and a manufacturing decline.\n\nDo you treat one month of negative leading-index data as noise or signal?",
+        "body": "The 10-year Treasury yield sat at 4.9% on the latest FMP treasury snapshot (dated 2026-09-17).\n\nThe 2-year vs 10-year spread was 0.27 percentage points on that same date.\n\nBloomberg weekend coverage cited a unanimous quarter-point increase in the Fed\u2019s benchmark rate as policymakers face inflation still above target.\n\nThe same segment flagged elevated diesel prices as a pressure point for businesses and markets.\n\nPrior session: S&P 500 7,650.50 (+0.2%), Nasdaq 26,522.54 (+0.4%), VIX 14.81 (\u22124.1%).\n\nWhich number do you watch first when rates move \u2014 the 10-year yield or the VIX?",
         "skip_reason": "",
         "supporting_data": [
-          "Leading Index MoM (Aug): -0.1% \u2014 source: FMP economic_calendar",
-          "Leading Index MoM estimate: 0.1% \u2014 source: FMP economic_calendar",
-          "Leading Index MoM previous: 0.2% \u2014 source: FMP economic_calendar"
+          "10-year Treasury yield: 4.9% \u2014 [source: FMP treasury year10]",
+          "2s10s spread: 0.27 \u2014 [source: FMP treasury spread_2s10s]",
+          "Treasury snapshot date: 2026-09-17 \u2014 [source: FMP treasury date]",
+          "S&P 500: 7,650.50, +0.2% \u2014 [source: FMP indexes ^GSPC]",
+          "Nasdaq Composite: 26,522.54, +0.4% \u2014 [source: FMP indexes ^IXIC]",
+          "VIX: 14.81, \u22124.1% \u2014 [source: FMP indexes ^VIX]"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs#economics-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs#economics-calendar"
+        "source_url": "https://www.youtube.com/watch?v=JhIsq0-xuaE",
+        "source_notes": "https://www.youtube.com/watch?v=JhIsq0-xuaE"
       },
       {
-        "title": "S&P 500 spec net shorts at \u2212100.5K",
+        "title": "VIX 14.81, down 4.1%, as indexes split",
         "status": "ready",
         "kind": "x_idea",
-        "body": "CFTC positioning (week of Sep 18):\n\n- S&P 500 speculative net: \u2212100.5K (prior \u221276.0K)\n- Nasdaq 100 speculative net: 33.7K (prior 20.9K)\n\nThe S&P figure is net futures positioning among reportable speculators \u2014 not cash stock ownership.\n\nIt landed after a session where the S&P 500 closed +0.1% at 7,646.04 and the Nasdaq Composite +0.4% at 26,522.55.\n\nCrude oil speculative net: 135.9K (prior 136.6K).\n\nGold speculative net: 230.3K (prior 232.0K).\n\nHow much weight do you put on weekly futures positioning vs the economic prints the same day?",
+        "body": "The VIX finished at 14.81, down 0.63 points (\u22124.1%) on the prior U.S. session.\n\n- $SPY proxy ^GSPC +0.2% to 7,650.50  \n- Nasdaq ^IXIC +0.4% to 26,522.54  \n- Dow ^DJI \u22120.2% to 51,682.64  \n- Russell 2000 ^RUT \u22120.5% to 2,860.40\n\nSeeking Alpha\u2019s Sept. 19 note said that despite Fed rate hikes and rising Treasury yields, the S&P 500 was down about 0.1% for the week, with resilience linked to Nasdaq and large-cap growth.\n\nGold futures in the feed were up 0.6% to 4,424.90; Brent crude was down 0.9% to 103.87.\n\nWhen the Dow and Nasdaq diverge like this, do you look at small caps (^RUT) or volatility first?",
         "skip_reason": "",
         "supporting_data": [
-          "CFTC S&P 500 speculative net positions: -100.5K \u2014 source: FMP economic_calendar",
-          "CFTC S&P 500 previous: -76K \u2014 source: FMP economic_calendar",
-          "CFTC Nasdaq 100 speculative net positions: 33.7K \u2014 source: FMP economic_calendar",
-          "CFTC Nasdaq 100 previous: 20.9K \u2014 source: FMP economic_calendar",
-          "^GSPC close: 7,646.04 (+0.1%) \u2014 source: FMP indexes",
-          "^IXIC close: 26,522.55 (+0.4%) \u2014 source: FMP indexes",
-          "CFTC Crude Oil speculative net: 135.9K \u2014 source: FMP economic_calendar",
-          "CFTC Gold speculative net: 230.3K \u2014 source: FMP economic_calendar"
+          "VIX: 14.81, change \u22120.63, \u22124.1% \u2014 [source: FMP indexes ^VIX]",
+          "S&P 500: 7,650.50, +0.2% \u2014 [source: FMP indexes ^GSPC]",
+          "Nasdaq Composite: 26,522.54, +0.4% \u2014 [source: FMP indexes ^IXIC]",
+          "Dow Jones: 51,682.64, \u22120.2% \u2014 [source: FMP indexes ^DJI]",
+          "Russell 2000: 2,860.40, \u22120.5% \u2014 [source: FMP indexes ^RUT]",
+          "Gold (GCUSD): 4,424.90, +0.6% \u2014 [source: FMP cross_asset gold]",
+          "Brent (BZUSD): 103.87, \u22120.9% \u2014 [source: FMP cross_asset brent]",
+          "Weekly S&P context: ~\u22120.1% for the week \u2014 [source: FMP news Seeking Alpha 2026-09-19]"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs#economics-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs#economics-calendar"
+        "source_url": "https://seekingalpha.com/article/4948091-the-1-minute-market-report-september-19-2026",
+        "source_notes": "https://seekingalpha.com/article/4948091-the-1-minute-market-report-september-19-2026"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-18",
-    "generated_at": "2026-09-18T23:09:20-04:00",
-    "draft_path": "drafts/2026-09-18.md",
+    "session_date": "2026-09-19",
+    "generated_at": "2026-09-19T23:25:27-04:00",
+    "draft_path": "drafts/2026-09-19.md",
     "errors": [],
     "slots": [
       {
-        "title": "Netflix falls 4.7% on options expiry day",
+        "title": "Alibaba ADR closes up 4.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$NFLX closed \u22124.7% at $71.79, from a prior close of $75.31.\n\nThe stock\u2019s day range ran $70.11\u2013$72.38 on volume above 113.6M shares.\n\nCommunication services averaged \u22122.3% among Nasdaq sectors, the deepest drop in that group.\n\nThe Nasdaq still finished +0.4% at 26,522.55 while the Dow slipped \u22120.2%.\n\nBarron\u2019s framed the session around triple witching \u2014 quarterly options and futures expiry \u2014 on a week already marked by volatile trading.\n\nWhich megacap name surprised you most at the bell?",
+        "body": "$BABA closed +4.3% at 113.26 on Sept. 19, 2026.\n\nThe session high was 113.77 versus a prior close of 108.54.\n\nThat move stood out against a Nasdaq Composite that finished only +0.4% at 26,522.54.\n\nWhich overseas-linked name are you tracking into next week?",
         "skip_reason": "",
         "supporting_data": [
-          "NFLX change: \u22124.7% \u2014 FMP mega_caps EOD 2026-09-18",
-          "NFLX price: 71.79 \u2014 FMP mega_caps EOD 2026-09-18",
-          "NFLX previous close: 75.31 \u2014 FMP mega_caps EOD 2026-09-18",
-          "Communication Services sector average: \u22122.3% \u2014 FMP sectors NASDAQ 2026-09-18",
-          "^IXIC: +0.4% to 26,522.55 \u2014 FMP indexes EOD 2026-09-18",
-          "^DJI: \u22120.2% to 51,682.64 \u2014 FMP indexes EOD 2026-09-18"
+          "BABA changesPercentage: 4.3% \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "BABA price: 113.26 \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "BABA change: 4.72 \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "BABA previousClose: 108.54 \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "BABA dayHigh: 113.77 \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "^IXIC changesPercentage: 0.4% \u2014 FMP indexes close quote, session_date 2026-09-19",
+          "^IXIC price: 26,522.54 \u2014 FMP indexes close quote, session_date 2026-09-19"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-dow-falls-triple-witching-890b5795",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-dow-falls-triple-witching-890b5795"
+        "source_url": "https://seekingalpha.com/article/4948091-the-1-minute-market-report-september-19-2026",
+        "source_notes": "https://seekingalpha.com/article/4948091-the-1-minute-market-report-september-19-2026"
       },
       {
-        "title": "Broadcom and ASML each up about 3%",
+        "title": "AMD up 2.7% in chip group",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Technology averaged +1.5% among Nasdaq sectors, the strongest group on the board.\n\nChip and platform names at the close:\n\n- $AVGO +3.0% to 357.61\n- $ASML +3.1% to 1,679.92\n- $NVDA +1.3% to 222.27\n- $TSM +1.0% to 434.67\n\nThe Nasdaq Composite added +0.4% to 26,522.55; the S&P 500 rose +0.1% to 7,646.04.\n\nThe Wall Street Journal said U.S. stocks were mixed as inflation and Middle East war concerns sat alongside optimism about the artificial-intelligence build-out.\n\nDoes your watchlist lean more toward semis or megacap software after this close?",
+        "body": "Chip-linked megacaps mixed higher into the Sept. 19 close.\n\n- $AMD +2.7% to 559.82\n- $AVGO +3.0% to 357.61\n- $ASML +3.1% to 1,679.92\n- $TSM +1.0% to 434.67\n- $NVDA +1.3% to 222.27\n\nThe Nasdaq Composite finished +0.4% at 26,522.54 while the Dow Jones Industrial Average was \u22120.2% at 51,682.64.\n\nAre you watching semis or software for the next leg of the AI buildout story?",
         "skip_reason": "",
         "supporting_data": [
-          "Technology sector average: +1.5% \u2014 FMP sectors NASDAQ 2026-09-18",
-          "AVGO: +3.0%, price 357.61 \u2014 FMP mega_caps EOD 2026-09-18",
-          "ASML: +3.1%, price 1,679.92 \u2014 FMP mega_caps EOD 2026-09-18",
-          "NVDA: +1.3%, price 222.27 \u2014 FMP mega_caps EOD 2026-09-18",
-          "TSM: +1.0%, price 434.67 \u2014 FMP mega_caps EOD 2026-09-18",
-          "^IXIC: +0.4% to 26,522.55 \u2014 FMP indexes EOD 2026-09-18",
-          "^GSPC: +0.1% to 7,646.04 \u2014 FMP indexes EOD 2026-09-18"
+          "AMD changesPercentage: 2.7% \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "AMD price: 559.82 \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "AVGO changesPercentage: 3.0% \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "AVGO price: 357.61 \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "ASML changesPercentage: 3.1% \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "ASML price: 1,679.92 \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "TSM changesPercentage: 1.0% \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "TSM price: 434.67 \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "NVDA changesPercentage: 1.3% \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "NVDA price: 222.27 \u2014 FMP mega_caps / actives close quote, session_date 2026-09-19",
+          "^IXIC changesPercentage: 0.4% \u2014 FMP indexes close quote, session_date 2026-09-19",
+          "^DJI changesPercentage: \u22120.2% \u2014 FMP indexes close quote, session_date 2026-09-19"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-inflation-trepidation-offsets-ai-optimism-36053264",
-        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-inflation-trepidation-offsets-ai-optimism-36053264"
+        "source_url": "https://www.zacks.com/commentary/2992380/unpacking-the-stock-market-s-coiled-spring-set-up?cid=CS-STOCKNEWSAPI-FT-investment_ideas-2992380",
+        "source_notes": "https://www.zacks.com/commentary/2992380/unpacking-the-stock-market-s-coiled-spring-set-up?cid=CS-STOCKNEWSAPI-FT-investment_ideas-2992380"
       },
       {
-        "title": "PepsiCo \u22122.9% at its 52-week low",
+        "title": "Chevron \u22121.0% as crude slips",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$PEP closed \u22122.9% at $129.75.\n\nThe session low was $129.55 \u2014 the same figure as the 52-week low in the profile data.\n\nPrior close was $133.66; the day high was $132.26.\n\nConsumer defensive averaged +0.1% among Nasdaq sectors, so the name moved against a slightly positive group backdrop.\n\nThe Dow finished \u22120.2% at 51,682.64; the Russell 2000 was \u22120.5% at 2,860.40.\n\nWhat consumer staple are you tracking into next week?",
+        "body": "Energy prices eased into the Sept. 19 close.\n\nBrent crude (BZUSD) was \u22120.9% at 103.87.\n\nUnited States Oil Fund ($USO) was \u22121.0% at 153.82.\n\n- $CVX \u22121.0% to 209.51\n- $XOM \u22120.1% to 163.18\n\nGold futures (GCUSD) were +0.6% at 4,424.90 on the same session.\n\nDoes diesel and refinery capacity show up in how you read energy stocks?",
         "skip_reason": "",
         "supporting_data": [
-          "PEP change: \u22122.9% \u2014 FMP mega_caps EOD 2026-09-18",
-          "PEP price: 129.75 \u2014 FMP mega_caps EOD 2026-09-18",
-          "PEP day low / year low: 129.55 \u2014 FMP mega_caps EOD 2026-09-18",
-          "PEP previous close: 133.66 \u2014 FMP mega_caps EOD 2026-09-18",
-          "Consumer Defensive sector average: +0.1% \u2014 FMP sectors NASDAQ 2026-09-18",
-          "^DJI: \u22120.2% to 51,682.64 \u2014 FMP indexes EOD 2026-09-18",
-          "^RUT: \u22120.5% to 2,860.40 \u2014 FMP indexes EOD 2026-09-18"
+          "BZUSD changesPercentage: \u22120.9% \u2014 FMP cross_asset close quote, session_date 2026-09-19",
+          "BZUSD price: 103.87 \u2014 FMP cross_asset close quote, session_date 2026-09-19",
+          "USO changesPercentage: \u22121.0% \u2014 FMP cross_asset (wti) close quote, session_date 2026-09-19",
+          "USO price: 153.82 \u2014 FMP cross_asset (wti) close quote, session_date 2026-09-19",
+          "CVX changesPercentage: \u22121.0% \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "CVX price: 209.51 \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "XOM changesPercentage: \u22120.1% \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "XOM price: 163.18 \u2014 FMP mega_caps close quote, session_date 2026-09-19",
+          "GCUSD changesPercentage: 0.6% \u2014 FMP cross_asset close quote, session_date 2026-09-19",
+          "GCUSD price: 4,424.90 \u2014 FMP cross_asset close quote, session_date 2026-09-19"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/wall-street-ends-volatile-week-with-quiet-finish-8aa4d4f2",
-        "source_notes": "https://www.wsj.com/finance/stocks/wall-street-ends-volatile-week-with-quiet-finish-8aa4d4f2"
+        "source_url": "https://www.wsj.com/business/energy-oil/refineries-are-now-the-main-chokepoint-for-global-energy-supplies-f923e1ba",
+        "source_notes": "https://www.wsj.com/business/energy-oil/refineries-are-now-the-main-chokepoint-for-global-energy-supplies-f923e1ba"
       },
       {
-        "title": "U.S. session recap \u2014 Sept. 18, 2026",
+        "title": "U.S. session recap \u2014 Sept. 19, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "U.S. indexes split on Sept. 18.\nThe S&P 500 rose +0.1% to 7,646.04 (+8.28 pts).\nThe Nasdaq Composite gained +0.4% to 26,522.55 (+104.25 pts).\nThe Dow Jones Industrial Average fell \u22120.2% to 51,682.64 (\u221295.40 pts).\nThe Russell 2000 lost \u22120.5% to 2,860.40.\n\nThe CBOE Volatility Index fell \u22124.1% to 14.81, with an intraday range of 14.80\u201315.63.\nCoverage tied the calendar to triple witching \u2014 simultaneous expiry of index options and futures \u2014 after a choppy week; the Wall Street Journal described a quiet finish to that stretch.\n\nSector performance on Nasdaq sorted cleanly.\nTechnology led at +1.5% average change.\nFinancial services followed at +1.2%.\nCommunication services was weakest at \u22122.3%.\nUtilities averaged \u22121.5%, energy \u22121.6%, and industrials \u22120.9%.\n\nMegacap and liquid large-cap moves carried the narrative.\nNetflix fell \u22124.7% to $71.79.\nPepsiCo dropped \u22122.9% to $129.75, with a session low at its 52-week low of $129.55 in the data.\nMicrosoft slipped \u22120.8% to $493.78.\nOn the upside, Broadcom rose +3.0% to $357.61, ASML +3.1% to $1,679.92, NVIDIA +1.3% to $222.27, and Taiwan Semiconductor +1.0% to $434.67.\n\nThe earnings calendar in the feed carried no major after-the-bell reports for this recap.\nThe economic diary included Baker Hughes U.S. oil rig count at 452 versus 450 prior and 451 estimated, plus late CFTC positioning releases (including S&P 500 speculative net positions at \u2212100.5K vs \u221276.0K prior).\n\nEnergy equities softened with the sector average \u22121.6%.\nBrent crude settled at $103.87 (\u22120.9%).\nThe United States Oil Fund (USO proxy in the tape) closed at $153.82 (\u22121.0%).\n\nGold futures (GCUSD) rose +0.6% to $4,424.90.\nThe dollar proxy UUP was flat at $28.39 (0.0%).\nEUR/USD held near 1.15 (+0.1% in the feed).\nBitcoin (BTCUSD) added +0.5% to $81,295.73.\n\nTreasury snapshot dated Sept. 16 in the data showed the 10-year yield at 5.0% and the 2s10s spread at 0.27 percentage point.\n\nOverseas benchmarks from the same bundle: Japan\u2019s Nikkei 225 +1.4% to 65,018.95; FTSE 100 \u22120.3%; Hang Seng +0.1%.\nThe session headline mix \u2014 inflation and geopolitical worry versus AI-related strength in tech \u2014 matched the index split at the U.S. close.",
+        "body": "The S&P 500 finished +0.2% at 7,650.50, up 12.74 points from a prior close of 7,637.76, with an intraday range of 7,610.52 to 7,657.17.\n\nThe Nasdaq Composite outpaced the other U.S. benchmarks at +0.4%, closing at 26,522.54 after a 104.25-point gain; the session low was 26,333.98 and the high 26,544.93.\n\nThe Dow Jones Industrial Average closed \u22120.2% at 51,682.64, a 95.40-point drop, while the Russell 2000 was \u22120.5% at 2,860.40.\n\nThe CBOE Volatility Index ($VIX) fell \u22124.1% to 14.81, down from a prior close of 15.44, with an intraday low of 14.80.\n\nLarge semiconductor and hardware names closed higher:\n- $AMD +2.7% to 559.82\n- $AVGO +3.0% to 357.61\n- $ASML +3.1% to 1,679.92\n- $TSM +1.0% to 434.67\n- $NVDA +1.3% to 222.27\n\n$NVDA also appeared among the most active symbols in the injected actives list.\n\nSeveral megacap consumer and platform names lagged: $NFLX \u22124.7% to 71.79, $META \u22122.4% to 665.75, $PEP \u22122.9% to 129.75 with a session low matching its 52-week low of 129.55 in the quote data, $ORCL \u22122.0% to 147.60, $HD \u22120.8% to 299.98, and $PG \u22120.8% to 146.34.\n\n$BABA stood out among ADR-sized moves at +4.3% to 113.26; $GOOGL was +0.6% to 349.54 and $GOOG +0.2% to 344.41.\n\nEnergy equities softened with oil benchmarks lower: $CVX \u22121.0% to 209.51 and $XOM \u22120.1% to 163.18 alongside Brent (BZUSD) \u22120.9% at 103.87 and $USO \u22121.0% at 153.82; gold futures (GCUSD) were +0.6% at 4,424.90.\n\nBitcoin (BTCUSD) was \u22121.0% at 80,429.16; the Invesco DB US Dollar Index Bullish Fund ($UUP) was flat at 28.39 (0.0%), and EUR/USD was +0.1% at 1.15 in the injected forex quote.\n\nThe latest U.S. Treasury snapshot in the data (dated 2026-09-17) showed a 10-year yield of 4.9% and a 2s10s spread of 0.27 percentage points.\n\nOverseas indexes in the bundle included the Nikkei 225 at +1.4% (65,018.95), the FTSE 100 at \u22120.3% (10,659.13), the Hang Seng at +0.1% (24,750.78), and the iShares MSCI Germany ETF ($EWG), labeled DAX proxy, at \u22121.3% (42.15).\n\nThe injected economic and earnings calendars for this run were empty; headline flow included Reuters and WSJ reports on Sept. 19 that President Donald Trump said he would create an \u201cAI Force\u201d and name an AI \u201cczar,\u201d and WSJ coverage of crypto and global refinery supply chains, without symbol-specific earnings actuals in the payload.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: +0.1%, 7,646.04 \u2014 FMP indexes 2026-09-18",
-          "^IXIC: +0.4%, 26,522.55 \u2014 FMP indexes 2026-09-18",
-          "^DJI: \u22120.2%, 51,682.64 \u2014 FMP indexes 2026-09-18",
-          "^RUT: \u22120.5%, 2,860.40 \u2014 FMP indexes 2026-09-18",
-          "^VIX: \u22124.1%, 14.81 \u2014 FMP indexes 2026-09-18",
-          "Technology sector: +1.5% \u2014 FMP sectors 2026-09-18",
-          "Communication Services: \u22122.3% \u2014 FMP sectors 2026-09-18",
-          "NFLX: \u22124.7%, 71.79 \u2014 FMP mega_caps 2026-09-18",
-          "AVGO: +3.0%, 357.61 \u2014 FMP mega_caps 2026-09-18",
-          "Baker Hughes rig count: 452 \u2014 FMP economic_calendar 2026-09-18",
-          "BZUSD: 103.87, \u22120.9% \u2014 FMP cross_asset 2026-09-18",
-          "GCUSD: 4,424.90, +0.6% \u2014 FMP cross_asset 2026-09-18",
-          "year10 Treasury: 5.0% \u2014 FMP treasury 2026-09-16"
+          "^GSPC: +0.2%, 7,650.50 \u2014 FMP indexes, session_date 2026-09-19",
+          "^IXIC: +0.4%, 26,522.54 \u2014 FMP indexes, session_date 2026-09-19",
+          "^DJI: \u22120.2%, 51,682.64 \u2014 FMP indexes, session_date 2026-09-19",
+          "^RUT: \u22120.5%, 2,860.40 \u2014 FMP indexes, session_date 2026-09-19",
+          "^VIX: \u22124.1%, 14.81 \u2014 FMP indexes, session_date 2026-09-19",
+          "AMD, AVGO, ASML, TSM, NVDA, NFLX, META, PEP, ORCL, BABA, CVX, XOM \u2014 FMP mega_caps, session_date 2026-09-19",
+          "BZUSD, USO, GCUSD, BTCUSD, UUP, EURUSD \u2014 FMP cross_asset, session_date 2026-09-19",
+          "Treasury year10: 4.9%, spread_2s10s: 0.27 \u2014 FMP treasury, date 2026-09-17",
+          "^N225, ^FTSE, ^HSI, EWG \u2014 FMP overseas, session_date 2026-09-19"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/wall-street-ends-volatile-week-with-quiet-finish-8aa4d4f2",
-        "source_notes": "https://www.wsj.com/finance/stocks/wall-street-ends-volatile-week-with-quiet-finish-8aa4d4f2"
+        "source_url": "https://seekingalpha.com/article/4948091-the-1-minute-market-report-september-19-2026",
+        "source_notes": "https://seekingalpha.com/article/4948091-the-1-minute-market-report-september-19-2026"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-18",
-    "generated_at": "2026-09-18T23:10:05-04:00",
-    "draft_path": "drafts/2026-09-18-week-ahead.md",
+    "session_date": "2026-09-19",
+    "generated_at": "2026-09-19T23:25:42-04:00",
+    "draft_path": "drafts/2026-09-19-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Okta analyst meeting on CNBC\u2019s list",
+        "title": "AutoZone reports Tuesday, EPS est. $54.08",
         "status": "ready",
         "kind": "x_idea",
-        "body": "CNBC\u2019s Sept. 18 week-ahead piece puts $OKTA\u2019s analyst meeting at the top of its corporate calendar for the coming sessions.\n\nThe same write-up says investors may see a relatively quiet week as September trading continues.\n\nAn analyst meeting is where a company often updates its business model, product roadmap, and financial framework for the Street \u2014 not a quarterly earnings print with a single EPS line.\n\nNo EPS estimate or meeting time for $OKTA appears in this feed.\n\nWhat do you usually watch first after an analyst day \u2014 product roadmap, margin targets, or customer metrics?",
+        "body": "$AZO reports for the quarter ending late August on Tuesday, Sept. 22.\n\nAnalyst models in the calendar show EPS estimate $54.08 and revenue estimate about $6.70B.\n\nAuto parts and repair demand show up in same-store sales and gross margin; the print resolves after the close for a name on the NYSE.\n\nWhich line item do you watch first on AZO\u2014comps, margin, or inventory?",
         "skip_reason": "",
         "supporting_data": [
-          "Corporate event highlighted: Okta analyst meeting \u2014 [source: FMP news, CNBC \u201cCramer's week ahead\u201d]",
-          "Session reference date: 2026-09-18 \u2014 [source: FMP session_date]",
-          "Publisher/date on item: 2026-09-18 18:17:16 \u2014 [source: FMP news publishedDate]"
+          "EPS estimate: 54.08 \u2014 source: FMP earnings calendar",
+          "Revenue estimate: $6.70B (6,702,067,000) \u2014 source: FMP earnings calendar",
+          "Report date: 2026-09-22 \u2014 source: FMP earnings calendar",
+          "Exchange: NYSE \u2014 source: FMP earnings calendar"
         ],
-        "source_url": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html",
-        "source_notes": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html"
+        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       },
       {
-        "title": "Six earnings names CNBC names",
+        "title": "Sept. PMI trio lands Wednesday at 1:45 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "CNBC\u2019s Sept. 18 week-ahead roundup lists six earnings reports for the coming week.\n\n- $KBH\n- $CTAS\n- $PAYX\n- $GIS\n- $DRI\n- $COST\n\nEach report is a quarterly scorecard: revenue, costs, and per-share profit versus what analysts had modeled before the release.\n\nThis FMP earnings calendar slice only shows already-reported names ($LEN on 2026-09-16, $FPS on 2026-09-15) \u2014 no forward dates or EPS estimates for the six tickers above.\n\nWhich of these six is usually the first one you open on report day?",
+        "body": "Wednesday, Sept. 23, 1:45 p.m.\nET: three U.S. S&P Global PMI prints for September.\n\nManufacturing PMI: estimate 53.6 points (prior 53.9).\n\nServices PMI: estimate 56.0 points (prior 56.5).\n\nComposite PMI: estimate 55.2 points (prior 56.0).\n\nThese surveys ask managers whether activity is up or down versus the prior month; readings above 50 mean more firms reporting expansion than contraction.\n\nAll three resolve in one release window midweek.\n\nDo you treat manufacturing or services as the better pulse for your sector?",
         "skip_reason": "",
         "supporting_data": [
-          "Earnings names listed: KB Home, Cintas, Paychex, General Mills, Darden, Costco \u2014 [source: FMP news, CNBC week-ahead text]",
-          "$LEN reported 2026-09-16: EPS actual 1.23 vs estimate 1.28 \u2014 [source: FMP earnings_calendar]",
-          "$FPS reported 2026-09-15: EPS actual 0.25 vs estimate 0.24 \u2014 [source: FMP earnings_calendar]"
+          "S&P Global Manufacturing PMI (Sep) estimate: 53.6 points \u2014 source: FMP economic calendar",
+          "S&P Global Manufacturing PMI (Sep) previous: 53.9 points \u2014 source: FMP economic calendar",
+          "S&P Global Services PMI (Sep) estimate: 56.0 points \u2014 source: FMP economic calendar",
+          "S&P Global Services PMI (Sep) previous: 56.5 points \u2014 source: FMP economic calendar",
+          "S&P Global Composite PMI (Sep) estimate: 55.2 points \u2014 source: FMP economic calendar",
+          "S&P Global Composite PMI (Sep) previous: 56.0 points \u2014 source: FMP economic calendar",
+          "Release time: 2026-09-23 13:45:00 ET \u2014 source: FMP economic calendar"
         ],
-        "source_url": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html",
-        "source_notes": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html"
+        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       },
       {
-        "title": "S&P EPS estimate at $100",
+        "title": "Aug. durable goods Friday, est. \u22120.5% MoM",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Seeking Alpha\u2019s Sept. 18 piece puts the quarterly S&P 500 EPS estimate at $100 per share.\n\nThe same article says about 2 weeks remain in Q2 \u201926 reporting for the index.\n\nIt also frames Q3 \u201926 earnings releases as about 4 weeks from their start.\n\nThat clock matters because index-level EPS is the yardstick many use for how expensive the market looks relative to profits \u2014 without needing to pick a single stock.\n\nThe feed\u2019s last U.S. index close before this post: S&P 500 at 7,646.04, up 0.1% on 2026-09-18.\n\nWhich do you track more closely \u2014 index EPS revisions or individual company reports?",
+        "body": "Friday, Sept. 25, 12:30 p.m.\nET: August durable goods orders (month-over-month).\n\nHeadline orders MoM: estimate \u22120.5% (prior +1.1%).\n\nEx defense MoM: estimate \u22120.6% (prior +1.3%).\n\nEx transportation MoM: estimate +0.5% (prior +0.4%).\n\nThe report measures new orders for goods meant to last three years or more\u2014useful for capex and industrial demand, with transportation often moving the headline.\n\nThree related series print at the same timestamp.\n\nWhich slice\u2014headline, ex defense, or ex transport\u2014do you use as your core read?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 EPS estimate cited: $100 per share \u2014 [source: FMP news, Seeking Alpha title/text]",
-          "Q2 \u201926 reporting time left: ~2 weeks \u2014 [source: FMP news, Seeking Alpha text]",
-          "Q3 \u201926 release window: ~4 weeks from start \u2014 [source: FMP news, Seeking Alpha text]",
-          "S&P 500 (^GSPC) close: 7,646.04 \u2014 [source: FMP indexes ^GSPC price]",
-          "S&P 500 day change: +0.1% \u2014 [source: FMP indexes ^GSPC changesPercentage]",
-          "Session date for index: 2026-09-18 \u2014 [source: FMP session_date]"
+          "Durable Goods Orders MoM (Aug) estimate: \u22120.5% \u2014 source: FMP economic calendar",
+          "Durable Goods Orders MoM (Aug) previous: +1.1% \u2014 source: FMP economic calendar",
+          "Durable Goods Orders Ex Defense MoM (Aug) estimate: \u22120.6% \u2014 source: FMP economic calendar",
+          "Durable Goods Orders Ex Defense MoM (Aug) previous: +1.3% \u2014 source: FMP economic calendar",
+          "Durable Goods Orders Ex Transp MoM (Aug) estimate: +0.5% \u2014 source: FMP economic calendar",
+          "Durable Goods Orders Ex Transp MoM (Aug) previous: +0.4% \u2014 source: FMP economic calendar",
+          "Release date/time: 2026-09-25 12:30:00 ET \u2014 source: FMP economic calendar"
         ],
-        "source_url": "https://seekingalpha.com/article/4947994-s-p-500-earnings-quarterly-s-and-p-500-eps-estimate-hits-100-per-share",
-        "source_notes": "https://seekingalpha.com/article/4947994-s-p-500-earnings-quarterly-s-and-p-500-eps-estimate-hits-100-per-share"
+        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       }
     ]
   }

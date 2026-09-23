@@ -1,191 +1,206 @@
 {
-  "updated_at": "2026-09-21T23:19:53-04:00",
+  "updated_at": "2026-09-22T23:21:21-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-21",
-    "generated_at": "2026-09-21T23:19:04-04:00",
-    "draft_path": "drafts/2026-09-21-am.md",
+    "session_date": "2026-09-22",
+    "generated_at": "2026-09-22T23:20:23-04:00",
+    "draft_path": "drafts/2026-09-22-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Chicago Fed index \u22120.04 vs +0.2 expected",
+        "title": "Oil slips after hours-long U.S.\u2013Iran UN meeting",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Chicago Fed National Activity Index (August): **\u22120.04**.\n\nConsensus was **+0.2**.\n\nPrior month: **+0.08**.\n\nThe index rolls together production, income, employment, and sales into one monthly read on economic momentum.\n\nRelease date on the calendar: **2026-09-21**.\n\nWhat do you watch after a miss this wide on a national activity gauge?",
+        "body": "$USO closed down 2.8% at 144.08.\n\nBrent crude futures finished at 98.80, down 0.5% on the day.\n\nCNBC tied the move to Tuesday\u2019s U.S.\u2013Iran talks at the UN, where Trump said he faces a big decision on a deal with Tehran versus further escalation.\n\nWhat would you watch first if those talks stay on the calendar?",
         "skip_reason": "",
         "supporting_data": [
-          "Chicago Fed National Activity Index (Aug) actual: \u22120.04 \u2014 [source: FMP economic_calendar]",
-          "Chicago Fed National Activity Index (Aug) estimate: 0.2 \u2014 [source: FMP economic_calendar]",
-          "Chicago Fed National Activity Index (Aug) previous: 0.08 \u2014 [source: FMP economic_calendar]"
+          "USO change: -2.8% \u2014 FMP cross_asset (USO)",
+          "USO price: 144.08 \u2014 FMP cross_asset (USO)",
+          "Brent (BZUSD) price: 98.80 \u2014 FMP cross_asset (brent)",
+          "Brent change: -0.5% \u2014 FMP cross_asset (brent changesPercentage)"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs/economic-calendar-api",
-        "source_notes": "https://financialmodelingprep.com/developer/docs/economic-calendar-api"
+        "source_url": "https://www.cnbc.com/2026/09/23/iran-us-talks-crude-oil-un-wti.html",
+        "source_notes": "https://www.cnbc.com/2026/09/23/iran-us-talks-crude-oil-un-wti.html"
       },
       {
-        "title": "Brent +1.1% as U.S.\u2013Iran talk hopes fade",
+        "title": "Fed still fighting inflation above 2% target",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude: **+1.1%** to **101.48** (prior close **100.34**).\n\nHeadline: oil prices gained as hopes faded for U.S.\u2013Iran talks at the UN gathering this week.\n\nAsian equities were also higher, tracking prior Wall Street gains.\n\n- Brent **101.48**\n- Day range **99.85**\u2013**101.53**\n\nHow much do you tie oil moves to diplomacy headlines vs inventory data?",
+        "body": "The 10-year Treasury yield sat at 5.0% in the latest FMP snapshot dated 2026-09-18.\n\nThe gap between 2-year (4.8%) and 10-year (5.0%) yields was 0.25 percentage points on that same date \u2014 a relatively flat shape between those two points on the curve.\n\nFox Business framed the backdrop as inflation still above the Fed\u2019s 2% goal, with the central bank having raised rates and traders weighing additional increases through year-end.\n\nHow do you read \u201cnot declaring victory\u201d against where the 10-year yield is sitting?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude price: 101.48 \u2014 [source: FMP cross_asset / BZUSD]",
-          "Brent change: +1.14 \u2014 [source: FMP cross_asset / BZUSD]",
-          "Brent changesPercentage: +1.1% \u2014 [source: FMP cross_asset / BZUSD]",
-          "Brent previousClose: 100.34 \u2014 [source: FMP cross_asset / BZUSD]"
+          "10-year Treasury yield: 5.0% \u2014 FMP treasury (year10)",
+          "2-year Treasury yield: 4.8% \u2014 FMP treasury (year2)",
+          "2s10s spread: 0.25 \u2014 FMP treasury (spread_2s10s)",
+          "Treasury snapshot date: 2026-09-18 \u2014 FMP treasury (date)"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/oil-prices-gain-as-hopes-fade-for-u-s-iran-talks-42bc5a49",
-        "source_notes": "https://www.wsj.com/finance/stocks/oil-prices-gain-as-hopes-fade-for-u-s-iran-talks-42bc5a49"
+        "source_url": "https://www.foxbusiness.com/economy/why-fed-isnt-ready-declare-victory-inflation",
+        "source_notes": "https://www.foxbusiness.com/economy/why-fed-isnt-ready-declare-victory-inflation"
       },
       {
-        "title": "3-month bill auction 4.0% vs 3.9% est.",
+        "title": "Financials under pressure, yield curve in focus",
         "status": "ready",
         "kind": "x_idea",
-        "body": "U.S. 3-Month Bill Auction (2026-09-21):\n\n**4.0%** high yield.\n\nEstimate: **3.9%**.\n\nPrevious auction: **4.0%**.\n\nSame session, the 6-month bill printed **4.2%** vs **4.1%** prior.\n\nShort-dated Treasury auctions show what cash investors accept to lend to the U.S. government for a few months.\n\nDo you track bill yields as a check on near-term rate expectations?",
+        "body": "Reuters said the S&P 500 Financial index and the benchmark\u2019s bank group were under pressure in Tuesday\u2019s session.\n\nThe story linked that weakness to worries about artificial intelligence competing with traditional finance, uncertainty around AI-related IPOs, and moves in the bond market.\n\nOn the FMP treasury snapshot from 2026-09-18, the 2-year yield was 4.8% and the 10-year was 5.0%, for a 2s10s spread of 0.25.\n\nWhich part of that mix \u2014 AI, IPOs, or rates \u2014 do you think showed up most in the price action you saw?",
         "skip_reason": "",
         "supporting_data": [
-          "3-Month Bill Auction actual: 4.0% \u2014 [source: FMP economic_calendar]",
-          "3-Month Bill Auction estimate: 3.9% \u2014 [source: FMP economic_calendar]",
-          "3-Month Bill Auction previous: 4.0% \u2014 [source: FMP economic_calendar]",
-          "6-Month Bill Auction actual: 4.2% \u2014 [source: FMP economic_calendar]",
-          "6-Month Bill Auction previous: 4.1% \u2014 [source: FMP economic_calendar]"
+          "2-year Treasury yield: 4.8% \u2014 FMP treasury (year2)",
+          "10-year Treasury yield: 5.0% \u2014 FMP treasury (year10)",
+          "2s10s spread: 0.25 \u2014 FMP treasury (spread_2s10s)"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs/economic-calendar-api",
-        "source_notes": "https://financialmodelingprep.com/developer/docs/economic-calendar-api"
+        "source_url": "https://www.reuters.com/business/finance/financial-stocks-fall-with-ai-flattening-yield-curve-focus-2026-09-22/",
+        "source_notes": "https://www.reuters.com/business/finance/financial-stocks-fall-with-ai-flattening-yield-curve-focus-2026-09-22/"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-21",
-    "generated_at": "2026-09-21T23:19:28-04:00",
-    "draft_path": "drafts/2026-09-21.md",
+    "session_date": "2026-09-22",
+    "generated_at": "2026-09-22T23:20:57-04:00",
+    "draft_path": "drafts/2026-09-22.md",
     "errors": [],
     "slots": [
       {
-        "title": "Meta closes up 11.3% at 741.25",
+        "title": "Banks slide 3% on AI, bond-spread worries",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$META +11.3% to 741.25 (+75.50).\n\nDay range 679.60\u2013750.69 on 48.5M shares.\n\nNasdaq Communication Services averaged +4.8% for the session \u2014 top sector in the snapshot.\n\nBarron\u2019s tied the broader lift to geopolitical headlines ahead of the U.S.\u2013China meeting, with AI-related names among the standouts on the day.\n\n$WBD +10.8% to 30.80 moved in the same sector bucket.\n\nWhich megacap ad name had the bigger impact on your feed today \u2014 $META or the chip complex?",
+        "body": "$BAC closed down 3.0% at 56.20.\n\nPayment names moved with the group:\n- $MA -2.1% to 555.89\n- $V -2.1% to 362.04\n\nThe Nasdaq-listed financial services group averaged about -1.7% for the session.\n\nCoverage linked the drop to concern that AI could reshape lending and payments, and to moves in the bond market where the gap between 2-year and 10-year yields sat at 0.25 percentage points on the latest Treasury snapshot (10-year at 5.0%, 2-year at 4.8%).\n\nWhich part of the financials complex stood out most to you today \u2014 banks or card networks?",
         "skip_reason": "",
         "supporting_data": [
-          "META close: 741.25 \u2014 mega_caps / FMP quote, session 2026-09-21",
-          "META change: +11.3% \u2014 mega_caps changesPercentage",
-          "META dollar change: +75.50 \u2014 mega_caps change field (rounded)",
-          "Communication Services sector average: +4.8% \u2014 sectors (from \u22120.755\u2026 no, Communication is 4.751\u2026 \u2192 4.8%)",
-          "WBD: +10.8%, 30.80 \u2014 actives",
-          "Nasdaq Composite: +2.3%, 27,122.09 \u2014 indexes ^IXIC"
+          "BAC change: -3.0% \u2014 mega_caps / FMP quote",
+          "BAC close: 56.20 \u2014 mega_caps",
+          "MA change: -2.1% \u2014 mega_caps",
+          "MA close: 555.89 \u2014 mega_caps",
+          "V change: -2.1% \u2014 mega_caps",
+          "V close: 362.04 \u2014 mega_caps",
+          "Financial Services sector averageChange: -1.7% \u2014 sectors",
+          "year10: 5.0% \u2014 treasury",
+          "year2: 4.8% \u2014 treasury",
+          "spread_2s10s: 0.25 \u2014 treasury"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-ai-stocks-rise-before-china-meeting-6e7ba318",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-stocks-rise-before-china-meeting-6e7ba318"
+        "source_url": "https://www.reuters.com/business/finance/financial-stocks-fall-with-ai-flattening-yield-curve-focus-2026-09-22/",
+        "source_notes": "https://www.reuters.com/business/finance/financial-stocks-fall-with-ai-flattening-yield-curve-focus-2026-09-22/"
       },
       {
-        "title": "AMD up 9.9%, tags session high",
+        "title": "Nasdaq +0.5%, second record close",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AMD +9.9% to 615.52 (+55.70).\n\nSession high 616.63 vs 52-week high 616.68 in the quote snapshot.\n\nOther liquid chip-linked prints from the same close set:\n\n- $NVDA +2.3% to 227.38\n- $TSM +2.4% to 445.14\n- $INTC +12.1% to 121.78\n\nNasdaq Technology averaged +1.3% for the date.\n\nDefiance\u2019s 2x short AMD ETF ($DAMD) closed \u221219.7% to 8.87 on the same session.\n\nDid you track this as a single-name move or part of the wider semis day?",
+        "body": "The Nasdaq Composite closed up 0.5% at 27,244.28.\n\nThe session high was 27,288.79 \u2014 the same level as the index\u2019s 52-week high in the injected data.\n\nThe Dow Jones Industrial Average finished down 0.4% at 51,863.69.\n\nThe S&P 500 closed at 7,764.27, flat versus the prior close on a rounded basis (0.0%).\n\nThe Russell 2000 rose 0.5% to 2,889.92.\n\nSame-day commentary noted a second straight record finish for the Nasdaq while broader indexes split.\n\nDoes a record tech-heavy index with a flat S&P feel like the same market to you?",
         "skip_reason": "",
         "supporting_data": [
-          "AMD: 615.52, +9.9%, change +55.70 \u2014 mega_caps",
-          "AMD day high: 616.63 \u2014 mega_caps dayHigh",
-          "AMD year high: 616.68 \u2014 mega_caps yearHigh",
-          "NVDA: 227.38, +2.3% \u2014 mega_caps",
-          "TSM: 445.14, +2.4% \u2014 mega_caps",
-          "INTC: 121.78, +12.1% \u2014 actives",
-          "Technology sector average: +1.3% \u2014 sectors",
-          "DAMD: 8.87, \u221219.7% \u2014 liquid_losers"
+          "^IXIC changesPercentage: 0.5% \u2014 indexes",
+          "^IXIC price: 27,244.28 \u2014 indexes",
+          "^IXIC dayHigh: 27,288.79 \u2014 indexes",
+          "^IXIC yearHigh: 27,288.79 \u2014 indexes",
+          "^DJI changesPercentage: -0.4% \u2014 indexes",
+          "^DJI price: 51,863.69 \u2014 indexes",
+          "^GSPC price: 7,764.27 \u2014 indexes",
+          "^GSPC changesPercentage: 0.0% \u2014 indexes",
+          "^RUT changesPercentage: 0.5% \u2014 indexes",
+          "^RUT price: 2,889.92 \u2014 indexes"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-ai-stocks-rise-before-china-meeting-6e7ba318",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-stocks-rise-before-china-meeting-6e7ba318"
+        "source_url": "https://www.barrons.com/articles/nasdaq-record-meta-muse-inflation-fed-b394ab3e",
+        "source_notes": "https://www.barrons.com/articles/nasdaq-record-meta-muse-inflation-fed-b394ab3e"
       },
       {
-        "title": "Nasdaq +2.3%, S&P +1.5% at close",
+        "title": "Oil fund \u22122.8% after US\u2013Iran UN talks",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$^IXIC +2.3% to 27,122.09 (+599.55).\n\n$^GSPC +1.5% to 7,764.22 (+113.72).\n\n$^DJI +0.7% to 52,048.83.\n\n$^RUT +0.5% to 2,875.36.\n\n$^VIX 14.80 (\u22120.1%) \u2014 session range 14.60\u201315.13.\n\nThe Chicago Fed National Activity Index for August printed \u22120.04 vs 0.20 expected (medium-impact release on the calendar).\n\nWhere did the index gap feel widest to you \u2014 megacap tech vs the Dow?",
+        "body": "The United States Oil Fund ($USO) closed down 2.8% at 144.08.\n\nBrent crude finished at 98.75, down 0.5% in the commodity print.\n\nChevron ($CVX) closed down 0.6% at 202.43.\n\nThe Nasdaq energy group averaged about -0.5% for the day.\n\nHeadlines tied the move to U.S.\u2013Iran discussions at the UN, including remarks that officials met for roughly three hours.\n\nHow much do you usually tie day-to-day oil moves to headline diplomacy versus inventory data?",
         "skip_reason": "",
         "supporting_data": [
-          "Nasdaq ^IXIC: 27,122.09, +2.3%, +599.55 \u2014 indexes",
-          "S&P 500 ^GSPC: 7,764.22, +1.5%, +113.72 \u2014 indexes",
-          "Dow ^DJI: 52,048.83, +0.7% \u2014 indexes",
-          "Russell 2000 ^RUT: 2,875.36, +0.5% \u2014 indexes",
-          "VIX: 14.80, \u22120.1% \u2014 indexes ^VIX",
-          "Chicago Fed NACI Aug actual: \u22120.04 \u2014 economic_calendar",
-          "Chicago Fed NACI Aug estimate: 0.20 \u2014 economic_calendar"
+          "USO changesPercentage: -2.8% \u2014 cross_asset (wti proxy)",
+          "USO price: 144.08 \u2014 cross_asset",
+          "BZUSD price: 98.75 \u2014 cross_asset",
+          "BZUSD changesPercentage: -0.5% \u2014 cross_asset",
+          "CVX changesPercentage: -0.6% \u2014 mega_caps",
+          "CVX price: 202.43 \u2014 mega_caps",
+          "Energy sector averageChange: -0.5% \u2014 sectors"
         ],
-        "source_url": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html",
-        "source_notes": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html"
+        "source_url": "https://www.cnbc.com/2026/09/23/iran-us-talks-crude-oil-un-wti.html",
+        "source_notes": "https://www.cnbc.com/2026/09/23/iran-us-talks-crude-oil-un-wti.html"
       },
       {
-        "title": "U.S. session recap \u2014 Sept. 21, 2026",
+        "title": "US close \u2014 Sept. 22, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Nasdaq Composite led the U.S. cash close on 2026-09-21, up 2.3% to 27,122.09, while the S&P 500 rose 1.5% to 7,764.22 and the Dow added 0.7% to 52,048.83.\nThe Russell 2000 finished up 0.5% at 2,875.36.\nHeadlines in the injected feed emphasized summit diplomacy and sector rotation into growth-heavy areas rather than a single macro shock.\n\nMeta Platforms was the standout megacap percentage move:\n- $META +11.3% to 741.25\n- $WBD +10.8% to 30.80\n\n) also printed a double-digit gain among active names.\n\nSemiconductors and foundry exposure moved together in the mega-cap set.:\n- $AMD +9.9% to 615.52\n- $NVDA +2.3% to 227.38\n- $TSM +2.4% to 445.14\n- $INTC +12.1% to 121.78\n\nrounded out the chip tape for the session.\nNasdaq Technology averaged +1.3%.\n\nOther large tech and platform names participated without matching Meta\u2019s magnitude:\n- $MSFT +1.6% to 501.61\n- $GOOGL +1.6% to 354.97\n\nand $NVDA volume remained heavy at 109.3M shares in the quote block.\nReal Estate (+1.7%) and Utilities (+1.4%) also showed positive sector averages on Nasdaq, while Basic Materials (\u22120.8%) and Industrials (\u22120.6%) lagged.\n\nEnergy equities diverged from one crude proxy.\n$CVX \u22122.7% to 203.78 sat among mega-cap decliners as the United States Oil Fund ($USO) closed \u22123.7% at 148.16.\nBrent crude in the cross-asset set was up 1.1% to 101.48 in the same bundle, illustrating mixed oil markers in the injected close data.\n\nThe economic calendar included a Chicago Fed National Activity Index reading for August at \u22120.04, below the 0.20 estimate and down from 0.08 prior.\nBill auctions also printed (3-month 4.0%, 6-month 4.2%).\nThe 10-year Treasury yield in the treasury snapshot dated 2026-09-18 was 5.0%, with a 2s10s spread of 0.25 percentage points.\n\nCross-asset moves were subdued relative to equities.\nGold futures ($GCUSD) \u22120.1% to 4,378.40.\nThe dollar proxy $UUP +0.3% to 28.48.\nBitcoin \u22121.2% to 85,521.99.\nThe VIX settled at 14.80, essentially flat (\u22120.1%) with an intraday band of 14.60\u201315.13.\n\nOverseas indexes in the package were mixed to higher around the U.S. close context: Nikkei 225 +1.4%, FTSE 100 +0.7%, Hang Seng +0.4%, and the Germany ETF proxy $EWG +1.1% to 42.60.\n\nThe earnings calendar in the injection carried no reported results for this session.\nNews flow centered on UN-week diplomacy, U.S.\u2013China meeting expectations, and oil headlines tied to Iran talk prospects \u2014 without replacing the hard close figures above.\n\nLiquid gainers outside the mega-cap core included critical-minerals and thematic ETFs with large percentage moves; liquid losers included heavily short-beta products such as $DAMD (\u221219.7%) on the same day $AMD rallied nearly 10%.",
+        "body": "The Nasdaq Composite led the major U.S. indexes, closing up 0.5% at 27,244.28 with a session high of 27,288.79 matching the 52-week high in the data.\nThat made a second consecutive record close a central story in the day\u2019s market coverage.\n\nThe S&P 500 ended essentially flat at 7,764.27 (0.0% on a rounded basis).\nThe Dow Jones Industrial Average fell 0.4% to 51,863.69.\nThe Russell 2000 rose 0.5% to 2,889.92, so smaller caps tracked the Nasdaq more than the Dow.\n\nFinancial stocks were among the heaviest weights on the benchmark narrative.\nBank of America ($BAC) closed down 3.0% at 56.20, and Mastercard ($MA) and Visa ($V) each lost 2.1%, to 555.89 and 362.04.\nThe Nasdaq financial services sector averaged about -1.7%, aligning with reports that cited AI-related competition worries and bond-market structure.\n\nTechnology was the strongest sector in the injected sector table, up about 1.8% on average.\nNVIDIA ($NVDA) gained 0.7% to 228.87, Taiwan Semiconductor ($TSM) rose 1.5% to 452.00, and Intel ($INTC) added 1.7% to 123.86.\nMicrosoft ($MSFT) and Alphabet ($GOOGL) were modest decliners, at -0.7% (498.00) and -1.1% (351.16).\n\nConsumer and healthcare names showed selective strength.\nWalmart ($WMT) rose 2.5% to 110.12.\nEli Lilly ($LLY) gained 0.5% to 1,170.48.\nPepsiCo ($PEP) was up 1.2% to 131.19.\nTesla ($TSLA) closed up 1.0% at 378.90.\n\nAutoZone ($AZO) reported results on the calendar: EPS of about 0.56 versus an estimate near 0.54, on revenue of about $6.59 billion versus an estimate near $6.70 billion.\nThe share price finished up 3.3% at 2,894.73.\n\nEnergy and shipping names reflected softer crude.\n$USO fell 2.8% to 144.08 and Brent was down 0.5% to 98.75 after U.S.\u2013Iran meeting headlines.\nEuroDry ($EDRY) fell 20.4% to 54.08, and the Breakwave Tanker Shipping ETF ($BWET) lost 18.2% to 682.01.\n\nOn the economic calendar, Richmond Fed manufacturing index printed -2 versus a +5 estimate, and manufacturing shipments were -5 versus +9 expected.\nServices index was 0 versus -6 expected.\nRedbook year-over-year sales growth was 7.6% versus 8.5% prior.\nAPI crude oil stocks rose 1.786 million barrels versus a -0.5 million estimate.\nThe 2-year note auction cleared at 4.8%.\nAugust M2 money supply was reported at 23.34 trillion.\nSeveral Fed speakers were scheduled (Williams, Jefferson, Barkin).\n\nCross-asset, the VIX fell 4.4% to 14.21.\nGold futures were down 0.1% at 4,372.40.\nThe dollar proxy ($UUP) was unchanged at 28.48.\nBitcoin rose 0.4% to 86,576.60.\nThe latest Treasury snapshot in the data (dated 2026-09-18) showed the 10-year at 5.0% and the 2s10s spread at 0.25.\n\nOverseas, the Nikkei 225 rose 1.4% to 65,018.95.\nThe Hang Seng fell 0.9% to 24,860.50.\nThe FTSE 100 slipped 0.3% to 10,708.33.",
         "skip_reason": "",
         "supporting_data": [
-          "All index, sector, mega_cap, cross_asset, treasury, economic_calendar, and actives figures cited above \u2014 FMP_DATA injection, session_date 2026-09-21",
-          "Barron\u2019s / CNBC / WSJ headlines \u2014 news array in FMP_DATA"
+          "session_date: 2026-09-22 \u2014 FMP_DATA",
+          "^IXIC: 27,244.28, +0.5% \u2014 indexes",
+          "^GSPC: 7,764.27, 0.0% \u2014 indexes",
+          "^DJI: 51,863.69, -0.4% \u2014 indexes",
+          "^RUT: 2,889.92, +0.5% \u2014 indexes",
+          "^VIX: 14.21, -4.4% \u2014 indexes",
+          "Technology sector: +1.8% \u2014 sectors",
+          "Financial Services sector: -1.7% \u2014 sectors",
+          "BAC / MA / V / WMT / AZO / USO / BZUSD / GCUSD / BTCUSD / UUP \u2014 mega_caps & cross_asset",
+          "Richmond Fed Manufacturing Index actual: -2 \u2014 economic_calendar",
+          "API Crude Oil Stock Change actual: 1.786 \u2014 economic_calendar",
+          "year10: 5.0%, spread_2s10s: 0.25 \u2014 treasury",
+          "^N225 / ^HSI / ^FTSE \u2014 overseas",
+          "AZO epsActual 0.56, revenueActual 6594879000 \u2014 earnings_calendar"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-ai-stocks-rise-before-china-meeting-6e7ba318",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-stocks-rise-before-china-meeting-6e7ba318"
+        "source_url": "https://www.reuters.com/business/finance/financial-stocks-fall-with-ai-flattening-yield-curve-focus-2026-09-22/",
+        "source_notes": "https://www.reuters.com/business/finance/financial-stocks-fall-with-ai-flattening-yield-curve-focus-2026-09-22/"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-21",
-    "generated_at": "2026-09-21T23:19:53-04:00",
-    "draft_path": "drafts/2026-09-21-week-ahead.md",
+    "session_date": "2026-09-22",
+    "generated_at": "2026-09-22T23:21:21-04:00",
+    "draft_path": "drafts/2026-09-22-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Costco reports Thursday, EPS est. $6.53",
+        "title": "Darden reports Thursday, EPS $2.05 est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$COST reports Sept. 24.\n\nConsensus EPS: $6.53.\n\nRevenue estimate: about $94.86 billion.\n\nThat print is a check on warehouse demand and how shoppers are behaving on big-ticket and everyday items.\n\nResults typically drop after the close; the date in the calendar is Sept. 24.\n\nWhich line do you watch first \u2014 comp sales, membership, or margins?",
+        "body": "$DRI reports Thursday, Sept. 24.\n\nThe consensus EPS estimate is $2.05.\n\nRevenue is modeled near $3.21 billion.\n\nThat print covers Olive Garden, LongHorn, and Darden\u2019s other sit-down brands \u2014 a read on U.S. dining demand and menu pricing.\n\nResults land with other large-cap names still on the calendar this week.\n\nWhich restaurant name are you tracking into the print?",
         "skip_reason": "",
         "supporting_data": [
-          "COST EPS estimate: 6.53 \u2014 [source: FMP earnings_calendar (injected)]",
-          "COST revenue estimate: 94,863,660,000 USD \u2014 [source: FMP earnings_calendar (injected)]",
-          "COST report date: 2026-09-24 \u2014 [source: FMP earnings_calendar (injected)]",
-          "COST market cap: 398,457,011,920 \u2014 [source: FMP earnings_calendar (injected)]"
+          "DRI EPS estimate: 2.05 \u2014 source: FMP earnings_calendar",
+          "DRI revenue estimate: 3206406000 (~$3.21B) \u2014 source: FMP earnings_calendar",
+          "DRI report date: 2026-09-24 \u2014 source: FMP earnings_calendar",
+          "DRI market cap: 398,869,447,390.00 (~$398.87B wait that's wrong - 24,436,042,890.00 for DRI)",
+          "Let me fix - DRI marketCap: 24,436,042,890.00"
         ],
-        "source_url": "https://site.financialmodelingprep.com/developer/docs#earnings-calendar",
-        "source_notes": "https://site.financialmodelingprep.com/developer/docs#earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "Three earnings prints land Wednesday",
+        "title": "Darden reports Thursday, EPS $2.05 est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Wednesday Sept. 23 \u2014 three names with scheduled results:\n\n- $CTAS \u2014 EPS estimate $1.35, revenue about $2.98 billion\n- $PAYX \u2014 EPS estimate $1.32, revenue about $1.63 billion\n- $GIS \u2014 EPS estimate $0.72, revenue about $4.35 billion\n\n$Cintas tracks uniform and facility services demand.\n\n$Paychex is a payroll and HR software read for small and mid-sized employers.\n\n$General Mills is packaged food \u2014 pricing and volume in grocery aisles.\n\nAll three are dated Sept. 23 on the earnings calendar.\n\nDo you treat this as a labor-and-staples day, or watch each name on its own?",
+        "body": "$DRI earnings are on the calendar for Thursday, Sept. 24.\n\nThe EPS estimate is $2.05.\n\nRevenue is estimated at $3.21 billion.\n\nDarden runs sit-down chains including Olive Garden and LongHorn \u2014 the print is a snapshot of U.S. restaurant traffic and ticket sizes.\n\nThe report falls midweek alongside other scheduled corporate results.\n\nWhich line item do you watch first on restaurant earnings \u2014 same-store sales or margins?",
         "skip_reason": "",
         "supporting_data": [
-          "CTAS EPS estimate: 1.35 \u2014 [source: FMP earnings_calendar (injected)]",
-          "CTAS revenue estimate: 2,977,671,000 \u2014 [source: FMP earnings_calendar (injected)]",
-          "PAYX EPS estimate: 1.32 \u2014 [source: FMP earnings_calendar (injected)]",
-          "PAYX revenue estimate: 1,626,551,000 \u2014 [source: FMP earnings_calendar (injected)]",
-          "GIS EPS estimate: 0.717 (shown as 0.72 in post) \u2014 [source: FMP earnings_calendar (injected)]",
-          "GIS revenue estimate: 4,351,353,000 \u2014 [source: FMP earnings_calendar (injected)]",
-          "Report date (CTAS, PAYX, GIS): 2026-09-23 \u2014 [source: FMP earnings_calendar (injected)]"
+          "DRI EPS estimate: 2.05 \u2014 source: FMP earnings_calendar",
+          "DRI revenue estimate: 3206406000 ($3.21B rounded) \u2014 source: FMP earnings_calendar",
+          "Report date: 2026-09-24 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://site.financialmodelingprep.com/developer/docs#earnings-calendar",
-        "source_notes": "https://site.financialmodelingprep.com/developer/docs#earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "August durable goods Friday, est. \u22120.3%",
+        "title": "Three PMI surveys Wednesday at 1:45 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Friday Sept. 25, 12:30 p.m.\nET \u2014 Durable Goods Orders, August, month over month.\n\nEstimate: \u22120.3%.\n\nPrior reading in the calendar: +1.1%.\n\n\u201cDurable goods\u201d means orders for items meant to last years \u2014 think appliances, computers, and industrial equipment.\n\nThe release is flagged high impact on the U.S. economic calendar.\n\nIt closes the week\u2019s data slate for Sept. 21\u2013Sept. 25.\n\nWhat category do you map to capex \u2014 transportation, core capital goods, or the headline only?",
+        "body": "Wednesday, Sept. 23, 1:45 p.m.\nET \u2014 three S&P Global PMI releases for September.\n\nS&P Global Manufacturing PMI: estimate 53.6 points, prior 53.9.\n\nS&P Global Services PMI: estimate 56.0, prior 56.5.\n\nS&P Global Composite PMI: estimate 55.2, prior 56.0.\n\nEach index scores survey replies from businesses; above 50 means more companies see activity expanding than shrinking.\n\nThe trio lands the same day as several scheduled earnings reports.\n\nDo you lean on the factory survey or the services survey for a read on the U.S. economy?",
         "skip_reason": "",
         "supporting_data": [
-          "Event: Durable Goods Orders MoM (Aug) \u2014 [source: FMP economic_calendar (injected)]",
-          "Date/time: 2026-09-25 12:30:00 \u2014 [source: FMP economic_calendar (injected)]",
-          "Estimate: \u22120.3% \u2014 [source: FMP economic_calendar (injected)]",
-          "Previous: 1.1% \u2014 [source: FMP economic_calendar (injected)]",
-          "Impact: High \u2014 [source: FMP economic_calendar (injected)]",
-          "Week window: 2026-09-21 to 2026-09-25 \u2014 [source: FMP_DATA week_start / week_end]"
+          "Manufacturing PMI estimate: 53.6 points \u2014 source: FMP economic_calendar",
+          "Manufacturing PMI previous: 53.9 \u2014 source: FMP economic_calendar",
+          "Services PMI estimate: 56.0 \u2014 source: FMP economic_calendar",
+          "Services PMI previous: 56.5 \u2014 source: FMP economic_calendar",
+          "Composite PMI estimate: 55.2 \u2014 source: FMP economic_calendar",
+          "Composite PMI previous: 56.0 \u2014 source: FMP economic_calendar",
+          "Release time: 2026-09-23 13:45:00 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://site.financialmodelingprep.com/developer/docs#economic-calendar",
-        "source_notes": "https://site.financialmodelingprep.com/developer/docs#economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       }
     ]
   }

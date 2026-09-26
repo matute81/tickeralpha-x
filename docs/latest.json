@@ -1,207 +1,207 @@
 {
-  "updated_at": "2026-09-24T23:27:01-04:00",
+  "updated_at": "2026-09-25T23:32:25-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-24",
-    "generated_at": "2026-09-24T23:26:07-04:00",
-    "draft_path": "drafts/2026-09-24-am.md",
+    "session_date": "2026-09-25",
+    "generated_at": "2026-09-25T23:31:36-04:00",
+    "draft_path": "drafts/2026-09-25-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "August new home sales 0.68M beat 0.62M est.",
+        "title": "Michigan sentiment 48.1 beats estimate, still below August",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August new home sales ran at a 0.68M annual pace \u2014 above the 0.62M estimate and July\u2019s 0.64M.\n\nThat print landed the same week the 30-year fixed mortgage rate was reported at 7.5%, described as the highest since April 2024 as long-term bond yields moved up.\n\nHousing demand in the data still moved up month over month even with those borrowing costs in the headlines.\n\nWhat housing release do you watch first when rates and sales both shift?",
+        "body": "September Michigan consumer sentiment: **48.1** vs **47.6** expected.\n\nPrior month: **51.7**.\n\nThe index measures how households feel about jobs, prices, and spending \u2014 a read on whether people are willing to open their wallets.\n\nRelease time: **2:00 p.m.\nET**, **2026-09-25**.\n\nU.S. equities finished higher the same session \u2014 $^GSPC **+0.5%** to **7,742.09**, $^DJI **+0.9%** to **51,828.62**.\n\nWhich part of the survey \u2014 inflation expectations or jobs \u2014 do you watch first when the print lands?",
         "skip_reason": "",
         "supporting_data": [
-          "New Home Sales (Aug) actual: 0.684M \u2014 source: FMP economic_calendar",
-          "New Home Sales (Aug) estimate: 0.62M \u2014 source: FMP economic_calendar",
-          "New Home Sales (Aug) previous: 0.643M \u2014 source: FMP economic_calendar",
-          "30-year fixed mortgage rate: 7.5% \u2014 source: CNBC news (injected FMP_DATA)"
+          "Michigan Consumer Sentiment (Sep) actual: 48.1 \u2014 source: FMP economic_calendar",
+          "Michigan Consumer Sentiment (Sep) estimate: 47.6 \u2014 source: FMP economic_calendar",
+          "Michigan Consumer Sentiment previous: 51.7 \u2014 source: FMP economic_calendar",
+          "S&P 500 changesPercentage: 0.5% \u2014 source: FMP indexes ^GSPC",
+          "S&P 500 price: 7,742.09 \u2014 source: FMP indexes ^GSPC",
+          "Dow Jones changesPercentage: 0.9% \u2014 source: FMP indexes ^DJI",
+          "Dow Jones price: 51,828.62 \u2014 source: FMP indexes ^DJI"
         ],
-        "source_url": "https://www.youtube.com/watch?v=nSSEwzBosSg",
-        "source_notes": "https://www.youtube.com/watch?v=nSSEwzBosSg"
+        "source_url": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89",
+        "source_notes": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89"
       },
       {
-        "title": "Initial jobless claims 197K vs 201K est.",
+        "title": "August durable goods flat; beat \u22120.4% forecast",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Initial jobless claims: 197K vs 201K expected (prior week 198K).\n\nContinuing claims: 1,719K vs 1,750K expected (prior 1,717K).\n\nFour-week average: 202.3K vs 203K expected (prior 204K).\n\nThe batch measures how many people are newly filing for unemployment benefits and how many remain on ongoing aid \u2014 a read on layoffs and hiring churn.\n\nCoverage the same session also pointed to growth holding up while long-term Treasury yields stayed elevated.\n\nWhich of the three prints do you treat as the cleanest weekly signal?",
+        "body": "August durable goods orders **MoM: 0%** vs **\u22120.4%** expected.\n\nPrior month: **+0.9%**.\n\nEx-defense: **+0.1%** vs **\u22120.6%** expected (prior **+1.4%**).\n\nEx-transportation: **+0.3%** vs **+0.6%** expected (prior **+0.7%**).\n\nThe report tracks big-ticket factory orders \u2014 planes, machinery, and similar items \u2014 a gauge of business investment demand.\n\nPrint time: **12:30 p.m.\nET**, **2026-09-25**.\n\nAtlanta Fed GDPNow for Q3 was revised to **5.0%** the same day vs **5.1%** estimate (prior **5.1%**).\n\nDo you lean on the headline durable goods line or the ex-transport series when the report hits?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial Jobless Claims (Sep/19) actual: 197K \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims estimate: 201K \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims previous: 198K \u2014 source: FMP economic_calendar",
-          "Continuing Jobless Claims actual: 1,719K \u2014 source: FMP economic_calendar",
-          "Continuing Jobless Claims estimate: 1,750K \u2014 source: FMP economic_calendar",
-          "Jobless Claims 4-Week Average actual: 202.25K (202.3K rounded) \u2014 source: FMP economic_calendar",
-          "Jobless Claims 4-Week Average estimate: 203K \u2014 source: FMP economic_calendar"
+          "Durable Goods Orders MoM (Aug) actual: 0% \u2014 source: FMP economic_calendar",
+          "Durable Goods Orders MoM (Aug) estimate: -0.4% \u2014 source: FMP economic_calendar",
+          "Durable Goods Orders MoM previous: 0.9% \u2014 source: FMP economic_calendar",
+          "Durable Goods Orders Ex Defense MoM actual: 0.1% \u2014 source: FMP economic_calendar",
+          "Durable Goods Orders Ex Defense MoM estimate: -0.6% \u2014 source: FMP economic_calendar",
+          "Durable Goods Orders Ex Transp MoM actual: 0.3% \u2014 source: FMP economic_calendar",
+          "Durable Goods Orders Ex Transp MoM estimate: 0.6% \u2014 source: FMP economic_calendar",
+          "Atlanta Fed GDPNow (Q3) actual: 5% \u2014 source: FMP economic_calendar",
+          "Atlanta Fed GDPNow (Q3) estimate: 5.1% \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.wsj.com/finance/investing/us-economy-bond-market-0bfda8b3",
-        "source_notes": "https://www.wsj.com/finance/investing/us-economy-bond-market-0bfda8b3"
+        "source_url": "https://www.barrons.com/articles/stocks-today-dow-and-p-500-snap-losing-streak-8cdc42f2",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-dow-and-p-500-snap-losing-streak-8cdc42f2"
       },
       {
-        "title": "10-year Treasury yield 5.0% as VIX 15.67",
+        "title": "Xi\u2013Trump summit ends as Hang Seng \u22121.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "10-year Treasury yield: 5.0% (2-year: 4.7%; 2s10s spread: 0.25 pt).\n\nPrior session:\n- $^DJI -0.3% to 51,349.98\n- $^VIX +3.2% to 15.67\n\nCNBC reported the 30-year fixed mortgage rate at 7.5% Thursday, tied in that coverage to bond selling and rising yields.\n\nBarron\u2019s framed the U.S. equity session as bond-yield moves dominating the day\u2019s narrative.\n\nWhen yields and the VIX move together, what do you check first \u2014 rates, credit spreads, or equities?",
+        "body": "Barron\u2019s: China\u2019s President **Xi Jinping** wrapped a **three-day U.S. visit** with President **Donald Trump** on **Friday**, with the focus on what was achieved in the bilateral summit.\n\nFormer U.S. Ambassador to China **Gary Locke** discussed **\u201cgrave concerns\u201d** on the U.S.\u2013China relationship in Fox Business coverage the same day.\n\nRegional equity read from the data:\n\n- $^HSI **\u22121.3%** to **24,510.10**\n\nU.S. large caps closed up despite a volatile week for yields and oil:\n\n- $^GSPC **+0.5%** to **7,742.09**\n- $^IXIC **+0.5%** to **27,068.72**\n\nWhat headline from the summit do you think markets will reference first next week?",
         "skip_reason": "",
         "supporting_data": [
-          "10-year Treasury (year10): 5.0% \u2014 source: FMP treasury",
-          "2-year Treasury (year2): 4.7% \u2014 source: FMP treasury",
-          "2s10s spread: 0.25 \u2014 source: FMP treasury",
-          "Dow Jones (^DJI) changesPercentage: -0.3% \u2014 source: FMP indexes",
-          "Dow Jones (^DJI) price: 51,349.98 \u2014 source: FMP indexes",
-          "VIX changesPercentage: +3.2% \u2014 source: FMP indexes",
-          "VIX price: 15.67 \u2014 source: FMP indexes",
-          "30-year fixed mortgage rate: 7.5% \u2014 source: CNBC news (injected FMP_DATA)"
+          "Hang Seng changesPercentage: -1.3% \u2014 source: FMP overseas ^HSI",
+          "Hang Seng price: 24,510.10 \u2014 source: FMP overseas ^HSI",
+          "S&P 500 changesPercentage: 0.5% \u2014 source: FMP indexes ^GSPC",
+          "S&P 500 price: 7,742.09 \u2014 source: FMP indexes ^GSPC",
+          "Nasdaq Composite changesPercentage: 0.5% \u2014 source: FMP indexes ^IXIC",
+          "Nasdaq Composite price: 27,068.72 \u2014 source: FMP indexes ^IXIC"
         ],
-        "source_url": "https://www.cnbc.com/2026/09/24/30-year-fixed-mortgage-rate-spikes-thursday-to-7point45percent.html",
-        "source_notes": "https://www.cnbc.com/2026/09/24/30-year-fixed-mortgage-rate-spikes-thursday-to-7point45percent.html"
+        "source_url": "https://www.barrons.com/articles/trump-us-china-summit-kevin-rudd-f1abb6b7",
+        "source_notes": "https://www.barrons.com/articles/trump-us-china-summit-kevin-rudd-f1abb6b7"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-24",
-    "generated_at": "2026-09-24T23:26:35-04:00",
-    "draft_path": "drafts/2026-09-24.md",
+    "session_date": "2026-09-25",
+    "generated_at": "2026-09-25T23:31:59-04:00",
+    "draft_path": "drafts/2026-09-25.md",
     "errors": [],
     "slots": [
       {
-        "title": "Meta closes at a new 52-week high",
+        "title": "Microsoft closes up 3.7% at 516.17",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$META +4.5% to 777.59.\n\nSession high: 779.82 \u2014 the same level as its 52-week high in the data.\n\nNasdaq Communication Services averaged about +3.1% on the session.\n\nOther large communication and platform names also finished green:\n- $GOOGL +1.3% to 342.36\n- $GOOG +1.2% to 339.01\n\nThe Nasdaq Composite closed essentially flat at 26,939.37 (0.0%).\n\nWhich megacap name stood out most on your watchlist Thursday?",
+        "body": "$MSFT closed up 3.7% at 516.17, a gain of 18.24 points from the prior close of 497.93.\n\nThe session range ran from 497.30 to 519.40 on about 38.0M shares.\n\nThe S&P 500 finished at 7,742.09 (+0.5%).\n\nThe Nasdaq Composite finished at 27,068.72 (+0.5%).\n\nWhich large-cap name stood out most in your watchlist on Friday?",
         "skip_reason": "",
         "supporting_data": [
-          "META change: +4.5% \u2014 mega_caps / FMP close",
-          "META close: 777.59 \u2014 mega_caps",
-          "META day high / year high: 779.82 \u2014 mega_caps",
-          "Communication Services averageChange: +3.1% \u2014 sectors",
-          "GOOGL: +1.3% to 342.36 \u2014 mega_caps",
-          "GOOG: +1.2% to 339.01 \u2014 mega_caps",
-          "^IXIC: 26,939.37, 0.0% \u2014 indexes"
+          "MSFT change: +3.7% \u2014 source: FMP mega_caps / EOD",
+          "MSFT price: 516.17 \u2014 source: FMP mega_caps",
+          "MSFT prior close: 497.93 \u2014 source: FMP mega_caps",
+          "^GSPC: 7,742.09 (+0.5%) \u2014 source: FMP indexes",
+          "^IXIC: 27,068.72 (+0.5%) \u2014 source: FMP indexes"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/META",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/META"
+        "source_url": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89",
+        "source_notes": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89"
       },
       {
-        "title": "TD Synnex down 9.9% after EPS beat",
+        "title": "Michigan sentiment 48.1 vs 47.6 expected",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$SNX \u22129.9% to 259.47.\n\nThursday earnings vs estimates:\n- EPS: $5.68 actual vs $4.70 estimated\n- Revenue: $21.56B actual vs $18.91B estimated\n\nThe stock ranged from 243.03 to 266.42 on the session.\n\nPrior close was 287.89.\n\nHow often do you see a double-digit drop after estimates are cleared?",
+        "body": "US consumer sentiment (September) printed at 48.1.\n\nThe consensus estimate in the calendar was 47.6.\n\nThe prior reading was 51.7.\n\nThe release was scheduled for 14:00 ET on 2026-09-25.\n\nDespite the headline number, major US indexes still closed higher on the day.\n\n- ^GSPC +0.5% to 7,742.09\n- ^DJI +0.9% to 51,828.62\n\nHow do you usually read sentiment prints against same-day index moves?",
         "skip_reason": "",
         "supporting_data": [
-          "SNX changesPercentage: \u22129.9% \u2014 mega_caps",
-          "SNX close: 259.47 \u2014 mega_caps",
-          "SNX day low / day high: 243.03 / 266.42 \u2014 mega_caps",
-          "SNX previous close: 287.89 \u2014 mega_caps",
-          "EPS actual / estimated: 5.68 / 4.70 \u2014 earnings_calendar",
-          "Revenue actual / estimated: 21558410000 / 18911350000 \u2014 earnings_calendar"
+          "Michigan Consumer Sentiment (Sep) actual: 48.1 \u2014 source: FMP economic_calendar",
+          "Estimate: 47.6 \u2014 source: FMP economic_calendar",
+          "Previous: 51.7 \u2014 source: FMP economic_calendar",
+          "^GSPC: 7,742.09 (+0.5%) \u2014 source: FMP indexes",
+          "^DJI: 51,828.62 (+0.9%) \u2014 source: FMP indexes"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar/SNX",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar/SNX"
+        "source_url": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89",
+        "source_notes": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89"
       },
       {
-        "title": "Costco EPS beat, revenue short of est.",
+        "title": "Consumer staples up 3.1%, real estate down 2.6%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$COST \u22120.9% to 896.48 after results.\n\nVersus estimates:\n- EPS: $6.75 vs $6.54\n- Revenue: $93.87B vs $94.97B\n\nSession range: 895.38\u2013909.43.\n\nConsumer Defensive was among the weaker Nasdaq groups, averaging about \u22121.7%.\n\nLarge consumer names also finished lower:\n- $WMT \u22122.7% to 107.59\n- $PEP \u22121.6% to 128.15\n\nWhen revenue misses but EPS beats, which line do you read first?",
+        "body": "Nasdaq sector averages for the session showed a wide gap between defensives and real estate.\n\nConsumer Defensive: +3.1% (sector average).\n\nReal Estate: -2.6% (sector average).\n\nNamed large caps in the consumer and staples complex from the feed:\n\n- $COST +2.9% to 922.76\n- $PEP +0.4% to 128.63\n- $PG +0.4% to 146.22\n- $WMT +0.4% to 107.98\n\nConsumer Cyclical averaged -0.9% on the same Nasdaq sector screen.\n\nWhich sector label in your platform matched what you saw in individual names?",
         "skip_reason": "",
         "supporting_data": [
-          "COST changesPercentage: \u22120.9% \u2014 mega_caps",
-          "COST close: 896.48 \u2014 mega_caps",
-          "COST day low / day high: 895.38 / 909.43 \u2014 mega_caps",
-          "EPS actual / estimated: 6.75 / 6.54 \u2014 earnings_calendar",
-          "Revenue actual / estimated: 93873000000 / 94966660000 \u2014 earnings_calendar",
-          "Consumer Defensive averageChange: \u22121.7% \u2014 sectors",
-          "WMT: \u22122.7% to 107.59 \u2014 mega_caps",
-          "PEP: \u22121.6% to 128.15 \u2014 mega_caps"
+          "Consumer Defensive averageChange: +3.1% (rounded from 3.14) \u2014 source: FMP sectors",
+          "Real Estate averageChange: -2.6% (rounded from -2.59) \u2014 source: FMP sectors",
+          "Consumer Cyclical averageChange: -0.9% (rounded from -0.87) \u2014 source: FMP sectors",
+          "COST: 922.76 (+2.9%) \u2014 source: FMP mega_caps",
+          "PEP: 128.63 (+0.4%) \u2014 source: FMP mega_caps",
+          "PG: 146.22 (+0.4%) \u2014 source: FMP mega_caps",
+          "WMT: 107.98 (+0.4%) \u2014 source: FMP mega_caps"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar/COST",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar/COST"
+        "source_url": "https://www.barrons.com/articles/stocks-today-dow-and-p-500-snap-losing-streak-8cdc42f2",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-dow-and-p-500-snap-losing-streak-8cdc42f2"
       },
       {
-        "title": "US close \u2014 Sept. 24, 2026",
+        "title": "US close \u2014 Sept. 25, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 finished at 7,703.83, down 2.20 points (\u22120.0%) after trading between 7,662.57 and 7,719.01.\n\nThe Dow Jones Industrial Average lost 161.61 points (\u22120.3%) to 51,349.98.\n\nThe Nasdaq Composite rose 3.34 points (0.0%) to 26,939.37, with a session low of 26,706.14.\n\nThe Russell 2000 slipped \u22120.1% to 2,835.57.\n\nThe VIX rose +3.2% to 15.67, up from a 15.18 prior close and as high as 16.57 intraday.\n\nAt 12:30 p.m.\nET, initial jobless claims for the week of Sep/19 printed 197K vs a 201K estimate (prior 198K).\nContinuing claims were 1719K vs a 1750K estimate.\nThe four-week average was 202.25K.\n\nAt 2:00 p.m.\nET, August new home sales came in at 0.684M units vs a 0.620M estimate (previous 0.643M).\n\nCommunication Services led Nasdaq sectors at about +3.1%, paced by $META +4.5% to 777.59 (session high 779.82, matching the 52-week high in the data) and gains in $GOOGL (+1.3%) and $GOOG (+1.2%).\n\nHealthcare averaged about +1.1%; $LLY rose +2.9% to 1,183.86.\nTechnology averaged about +0.9% while $NVDA ended \u22120.4% at 224.58 and $AVGO \u22121.3% at 350.36.\n\nConsumer Defensive averaged about \u22121.7%: $WMT \u22122.7%, $PEP \u22121.6%, and $COST \u22120.9% after EPS of $6.75 vs $6.54 estimated and revenue of $93.87B vs $94.97B estimated.\n\n$ORCL fell \u22123.5% to 139.53.\n$SNX dropped \u22129.9% to 259.47 despite EPS of $5.68 vs $4.70 estimated and revenue above the estimate.\n$DRI reported EPS of $2.05 on revenue of $3.20B vs $3.21B estimated and finished \u22122.9% at 207.44.\n\nEnergy lagged at about \u22121.3% on the Nasdaq sector read.\n$XOM still closed +0.5% at 162.05.\n\nIn cross-assets, gold futures rose +0.5% to 4,319.10.\nThe United States Oil Fund ($USO proxy in the data) gained +2.9% to 153.09 while Brent crude was \u22121.1% at 105.47.\nCNBC tied softer Brent to reporting on a potential diplomatic path related to Iran and navigation in the Strait of Hormuz.\n\nThe Invesco DB US Dollar Index Bullish Fund ($UUP) ticked +0.1% to 28.69.\nBitcoin ($BTCUSD) was \u22120.2% at 84,208.74.\n\nThe latest Treasury snapshot in the feed (dated 2026-09-22) shows the 10-year at 5.0% and the 2s10s spread at 0.25 percentage points.",
+        "body": "The Dow Jones Industrial Average led the major US benchmarks, up 0.9% to 51,828.62 (+478.64 points), while the S&P 500 rose 0.5% to 7,742.09 and the Nasdaq Composite rose 0.5% to 27,068.72.\n\nThe Russell 2000 barely moved, up 0.1% to 2,837.55.\n\nThe CBOE Volatility Index fell 5.1% to 14.87, from a prior close of 15.67, with an intraday range of 14.68 to 15.92.\n\nAt 12:30 ET, durable goods orders for August showed 0.0% month-over-month versus a -0.4% estimate; ex-defense orders rose 0.1% versus a -0.6% estimate; ex-transportation orders rose 0.3% versus a +0.6% estimate.\n\nAt 14:00 ET, Michigan consumer sentiment for September printed at 48.1 versus a 47.6 estimate and a prior 51.7.\n\nThe Atlanta Fed GDPNow reading for Q3 was updated to 5.0% versus a 5.1% estimate and a 5.1% prior, in a medium-impact release at 14:20 ET.\n\nAmong megacaps, Microsoft stood out with a +3.7% close at 516.17; Costco rose 2.9% to 922.76; Tesla fell 1.5% to 372.11; Oracle fell 1.8% to 137.08; Intel, among the most active names in the feed, fell 3.4% to 123.00.\n\nNasdaq sector averages split sharply: Consumer Defensive led at +3.1%, Technology averaged +0.6%, Energy +0.5%, while Communication Services averaged -0.8%, Consumer Cyclical -0.9%, and Real Estate -2.6%.\n\nOverseas indexes in the feed were mixed versus the US gain: Japan\u2019s Nikkei 225 rose 1.3% to 66,364.20; Hong Kong\u2019s Hang Seng fell 1.3% to 24,510.10; the FTSE 100 rose 0.1% to 10,695.25.\n\nOil-linked quotes weakened: Brent crude fell 2.1% to 104.32; the United States Oil Fund (USO) fell 3.1% to 148.33.\n\nGold futures rose 0.5% to 4,321.20; the Invesco DB US Dollar Index Bullish Fund (UUP) slipped 0.2% to 28.62; Bitcoin USD was roughly flat at 84,036.48 (-0.1%).\n\nThe latest Treasury snapshot in the feed (dated 2026-09-23) showed the 10-year yield at 5.1% and a 2s10s spread of 0.26 percentage points.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,703.83, \u22120.0%, change \u22122.20 \u2014 indexes",
-          "^DJI: 51,349.98, \u22120.3% \u2014 indexes",
-          "^IXIC: 26,939.37, 0.0% \u2014 indexes",
-          "^RUT: 2,835.57, \u22120.1% \u2014 indexes",
-          "^VIX: 15.67, +3.2% \u2014 indexes",
-          "Initial jobless claims: 197K actual, 201K est \u2014 economic_calendar",
-          "Continuing claims: 1719K actual, 1750K est \u2014 economic_calendar",
-          "New home sales Aug: 0.684M actual, 0.62M est \u2014 economic_calendar",
-          "Communication Services: +3.1% \u2014 sectors",
-          "META, LLY, ORCL, SNX, COST, WMT, XOM \u2014 mega_caps / earnings_calendar",
-          "GCUSD: +0.5%, 4,319.10 \u2014 cross_asset",
-          "USO: +2.9%, 153.09 \u2014 cross_asset",
-          "BZUSD: \u22121.1%, 105.47 \u2014 cross_asset",
-          "UUP: +0.1%, 28.69 \u2014 cross_asset",
-          "BTCUSD: \u22120.2%, 84,208.74 \u2014 cross_asset",
-          "Treasury 10y: 5.0%, spread_2s10s: 0.25 \u2014 treasury"
+          "^DJI: 51,828.62 (+0.9%) \u2014 source: FMP indexes",
+          "^GSPC: 7,742.09 (+0.5%) \u2014 source: FMP indexes",
+          "^IXIC: 27,068.72 (+0.5%) \u2014 source: FMP indexes",
+          "^RUT: 2,837.55 (+0.1%) \u2014 source: FMP indexes",
+          "^VIX: 14.87 (-5.1%) \u2014 source: FMP indexes",
+          "Durable Goods Orders MoM actual: 0% \u2014 source: FMP economic_calendar",
+          "Michigan Sentiment actual: 48.1 \u2014 source: FMP economic_calendar",
+          "GDPNow Q3 actual: 5.0% \u2014 source: FMP economic_calendar",
+          "MSFT: 516.17 (+3.7%) \u2014 source: FMP mega_caps",
+          "INTC: 123.00 (-3.4%) \u2014 source: FMP actives",
+          "Consumer Defensive sector: +3.1% \u2014 source: FMP sectors",
+          "Real Estate sector: -2.6% \u2014 source: FMP sectors",
+          "^N225: 66,364.20 (+1.3%) \u2014 source: FMP overseas",
+          "^HSI: 24,510.10 (-1.3%) \u2014 source: FMP overseas",
+          "BZUSD (Brent): 104.32 (-2.1%) \u2014 source: FMP cross_asset",
+          "USO: 148.33 (-3.1%) \u2014 source: FMP cross_asset",
+          "GCUSD (gold): 4,321.20 (+0.5%) \u2014 source: FMP cross_asset",
+          "UUP: 28.62 (-0.2%) \u2014 source: FMP cross_asset",
+          "year10 Treasury: 5.1% \u2014 source: FMP treasury"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-s-and-p-500-flat-dow-falls-bond-fears-01ff8cbd",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-s-and-p-500-flat-dow-falls-bond-fears-01ff8cbd"
+        "source_url": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89",
+        "source_notes": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-24",
-    "generated_at": "2026-09-24T23:27:01-04:00",
-    "draft_path": "drafts/2026-09-24-week-ahead.md",
+    "session_date": "2026-09-25",
+    "generated_at": "2026-09-25T23:32:25-04:00",
+    "draft_path": "drafts/2026-09-25-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "August durable goods print lands Friday at 12:30",
+        "title": "Two sizable IPOs on next week\u2019s slate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August durable goods orders (month over month) post Friday at 12:30 p.m.\nET.\n\nThe headline gauge tracks new orders for long-lasting factory goods \u2014 everything from machinery to appliances.\n\nConsensus: -0.4% for August.\n\nJuly was +1.1%.\n\nThat is one of three related prints at the same timestamp (headline, ex-defense, ex-transportation).\n\nWhich slice of factory demand do you watch first \u2014 headline or ex-transportation?",
+        "body": "Two sizable IPOs are scheduled for the week ahead, per the latest U.S. IPO weekly recap.\n\nThat follows a light week at the offer window: one IPO and two SPACs actually priced, while more deals than planned were postponed.\n\nWhen issuers set terms and pick a pricing date, the filing shows expected size, use of proceeds, and the first day of trading \u2014 the moment the stock gets a ticker and a public quote.\n\nNo names or dates beyond \u201cthe week ahead\u201d appear in this recap; the watch item is which of the two sizable deals publish a final prospectus and land on the calendar.\n\nWhich part of an IPO filing do you read first \u2014 business overview, financials, or the risk factors?",
         "skip_reason": "",
         "supporting_data": [
-          "Durable Goods Orders MoM (Aug) estimate: -0.4% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders MoM (Aug) previous: +1.1% \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-09-25 12:30:00 US \u2014 source: FMP economic_calendar",
-          "Impact: High \u2014 source: FMP economic_calendar"
+          "IPOs priced this week: 1 \u2014 source: Seeking Alpha / FMP news feed",
+          "SPACs priced this week: 2 \u2014 source: Seeking Alpha / FMP news feed",
+          "Sizable IPOs scheduled for the week ahead: 2 \u2014 source: Seeking Alpha / FMP news feed"
         ],
-        "source_url": "https://financialmodelingprep.com/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/economic-calendar"
+        "source_url": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market",
+        "source_notes": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market"
       },
       {
-        "title": "Ex-defense durable goods: -0.6% est. Friday",
+        "title": "Five IPO filings, three SPAC filings",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Durable goods orders excluding defense (month over month) \u2014 August \u2014 Friday 12:30 p.m.\nET.\n\nThis version strips out Pentagon-related orders so the number reflects more typical business and industrial demand.\n\nEstimate: -0.6%.\n\nPrior month: +1.3%.\n\nSame release window as the headline and ex-transportation durable goods lines.\n\nDo you treat ex-defense as a cleaner read on capex, or still prefer the headline?",
+        "body": "Five IPOs and three SPACs submitted initial filings this week, in the U.S. IPO weekly recap.\n\nAn initial filing is the step before a roadshow: it lays out financials and risks, but the listing date and offer price usually come later.\n\nThat pipeline sits alongside a fall market where postponed deals have trimmed what actually reached investors recently.\n\nFilings do not mean an immediate debut \u2014 they mean more companies entered the queue for SEC review and eventual scheduling.\n\nWhen a filing drops, what do you scan first \u2014 revenue trend, ownership, or planned share count?",
         "skip_reason": "",
         "supporting_data": [
-          "Durable Goods Orders Ex Defense MoM (Aug) estimate: -0.6% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders Ex Defense MoM (Aug) previous: +1.3% \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-09-25 12:30:00 US \u2014 source: FMP economic_calendar",
-          "Impact: High \u2014 source: FMP economic_calendar"
+          "IPOs with initial filings this week: 5 \u2014 source: Seeking Alpha / FMP news feed",
+          "SPACs with initial filings this week: 3 \u2014 source: Seeking Alpha / FMP news feed"
         ],
-        "source_url": "https://financialmodelingprep.com/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/economic-calendar"
+        "source_url": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market",
+        "source_notes": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market"
       },
       {
-        "title": "Ex-transport durable goods: +0.6% est. Friday",
+        "title": "Fall IPO calendar vs postponements",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Durable goods orders excluding transportation (month over month) \u2014 August \u2014 resolves Friday at 12:30 p.m.\nET.\n\nTransportation \u2014 especially aircraft \u2014 can dominate the headline; this line isolates the rest of factory bookings.\n\nEstimate: +0.6%.\n\nJuly: +0.4%.\n\nHigh-impact US release, bundled with headline and ex-defense orders at the same time.\n\nWhen all three drop together, which line do you check first?",
+        "body": "More IPO and SPAC deals were originally on the calendar this week than actually priced, according to the U.S. IPO weekly recap.\n\nWhat cleared the market:\n- 1 IPO\n- 2 SPACs\n\nPostponements are the other side of that ledger \u2014 fewer fall debuts than planners had penciled in.\n\nStill on the forward calendar in the same piece: two sizable IPOs for the week ahead.\n\nThat split matters for anyone tracking supply: postponements shrink near-term supply, while new filings (five IPOs, three SPACs in the same recap) refill the queue farther out.\n\nDo you treat a postponement as a pause on fundamentals, or mainly a market-timing call?",
         "skip_reason": "",
         "supporting_data": [
-          "Durable Goods Orders Ex Transp MoM (Aug) estimate: +0.6% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders Ex Transp MoM (Aug) previous: +0.4% \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-09-25 12:30:00 US \u2014 source: FMP economic_calendar",
-          "Impact: High \u2014 source: FMP economic_calendar"
+          "IPOs debuted this week: 1 \u2014 source: Seeking Alpha / FMP news feed",
+          "SPACs debuted this week: 2 \u2014 source: Seeking Alpha / FMP news feed",
+          "Sizable IPOs scheduled for the week ahead: 2 \u2014 source: Seeking Alpha / FMP news feed",
+          "IPOs with initial filings this week: 5 \u2014 source: Seeking Alpha / FMP news feed",
+          "SPACs with initial filings this week: 3 \u2014 source: Seeking Alpha / FMP news feed"
         ],
-        "source_url": "https://financialmodelingprep.com/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/economic-calendar"
+        "source_url": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market",
+        "source_notes": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market"
       }
     ]
   }

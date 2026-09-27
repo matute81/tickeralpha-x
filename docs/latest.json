@@ -1,207 +1,208 @@
 {
-  "updated_at": "2026-09-25T23:32:25-04:00",
+  "updated_at": "2026-09-26T23:41:41-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-25",
-    "generated_at": "2026-09-25T23:31:36-04:00",
-    "draft_path": "drafts/2026-09-25-am.md",
+    "session_date": "2026-09-26",
+    "generated_at": "2026-09-26T23:40:54-04:00",
+    "draft_path": "drafts/2026-09-26-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Michigan sentiment 48.1 beats estimate, still below August",
+        "title": "Trump approves fuel rules ending Biden EV mandate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "September Michigan consumer sentiment: **48.1** vs **47.6** expected.\n\nPrior month: **51.7**.\n\nThe index measures how households feel about jobs, prices, and spending \u2014 a read on whether people are willing to open their wallets.\n\nRelease time: **2:00 p.m.\nET**, **2026-09-25**.\n\nU.S. equities finished higher the same session \u2014 $^GSPC **+0.5%** to **7,742.09**, $^DJI **+0.9%** to **51,828.62**.\n\nWhich part of the survey \u2014 inflation expectations or jobs \u2014 do you watch first when the print lands?",
+        "body": "Trump posted Saturday that he approved new fuel-economy standards.\n\nReuters and CNBC report the move ends the Biden administration\u2019s EV-linked mandate and reverses policies aimed at tighter fleet efficiency.\n\nThe story is policy, not a same-day economic print \u2014 it sets the frame for auto and energy regulation after the prior administration\u2019s rules.\n\nWhat part of the rollback \u2014 fleet averages, timelines, or state rules \u2014 do you think gets clarified first?",
         "skip_reason": "",
         "supporting_data": [
-          "Michigan Consumer Sentiment (Sep) actual: 48.1 \u2014 source: FMP economic_calendar",
-          "Michigan Consumer Sentiment (Sep) estimate: 47.6 \u2014 source: FMP economic_calendar",
-          "Michigan Consumer Sentiment previous: 51.7 \u2014 source: FMP economic_calendar",
-          "S&P 500 changesPercentage: 0.5% \u2014 source: FMP indexes ^GSPC",
-          "S&P 500 price: 7,742.09 \u2014 source: FMP indexes ^GSPC",
-          "Dow Jones changesPercentage: 0.9% \u2014 source: FMP indexes ^DJI",
-          "Dow Jones price: 51,828.62 \u2014 source: FMP indexes ^DJI"
+          "Headline: Trump says he approved fuel economy standards ending Biden EV mandate \u2014 source: FMP news / Reuters",
+          "Headline: Trump says he approved new fuel economy standards rolling back Biden-era rules \u2014 source: FMP news / CNBC"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89",
-        "source_notes": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89"
+        "source_url": "https://www.reuters.com/world/trump-says-he-approved-fuel-economy-standards-ending-biden-ev-mandate-2026-09-26/",
+        "source_notes": "https://www.reuters.com/world/trump-says-he-approved-fuel-economy-standards-ending-biden-ev-mandate-2026-09-26/"
       },
       {
-        "title": "August durable goods flat; beat \u22120.4% forecast",
+        "title": "10-year Treasury at 5.2% with 0.3% 2s\u201310s spread",
         "status": "ready",
         "kind": "x_idea",
-        "body": "August durable goods orders **MoM: 0%** vs **\u22120.4%** expected.\n\nPrior month: **+0.9%**.\n\nEx-defense: **+0.1%** vs **\u22120.6%** expected (prior **+1.4%**).\n\nEx-transportation: **+0.3%** vs **+0.6%** expected (prior **+0.7%**).\n\nThe report tracks big-ticket factory orders \u2014 planes, machinery, and similar items \u2014 a gauge of business investment demand.\n\nPrint time: **12:30 p.m.\nET**, **2026-09-25**.\n\nAtlanta Fed GDPNow for Q3 was revised to **5.0%** the same day vs **5.1%** estimate (prior **5.1%**).\n\nDo you lean on the headline durable goods line or the ex-transport series when the report hits?",
+        "body": "The 10-year U.S. Treasury yield is 5.2% in the Sept. 24 Treasury snapshot in the data.\n\nThe 2-year is 4.9%.\n\nThe 2s\u201310s spread is 0.31 percentage point \u2014 the gap between short- and long-term government borrowing costs.\n\nCNBC on Sept. 26 walks through how the 10-year reached its highest level in nearly two decades, citing sticky inflation, rate expectations, and heavy government and corporate bond supply.\n\nOn the Sept. 26 session close, the CBOE Volatility Index ($VIX) finished at 14.87, down 5.1% from the prior close.\n\nWhich matters more to you right now: the level of the 10-year or how much bond issuance is in the pipeline?",
         "skip_reason": "",
         "supporting_data": [
-          "Durable Goods Orders MoM (Aug) actual: 0% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders MoM (Aug) estimate: -0.4% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders MoM previous: 0.9% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders Ex Defense MoM actual: 0.1% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders Ex Defense MoM estimate: -0.6% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders Ex Transp MoM actual: 0.3% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders Ex Transp MoM estimate: 0.6% \u2014 source: FMP economic_calendar",
-          "Atlanta Fed GDPNow (Q3) actual: 5% \u2014 source: FMP economic_calendar",
-          "Atlanta Fed GDPNow (Q3) estimate: 5.1% \u2014 source: FMP economic_calendar"
+          "10-year Treasury yield: 5.2% \u2014 source: FMP treasury (date 2026-09-24)",
+          "2-year Treasury yield: 4.9% \u2014 source: FMP treasury (date 2026-09-24)",
+          "2s\u201310s spread: 0.31 \u2014 source: FMP treasury (date 2026-09-24)",
+          "VIX: 14.87 (\u22125.1%) \u2014 source: FMP indexes ^VIX",
+          "VIX previous close: 15.67 \u2014 source: FMP indexes ^VIX"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-dow-and-p-500-snap-losing-streak-8cdc42f2",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-dow-and-p-500-snap-losing-streak-8cdc42f2"
+        "source_url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
+        "source_notes": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html"
       },
       {
-        "title": "Xi\u2013Trump summit ends as Hang Seng \u22121.3%",
+        "title": "Oil slips as Russia\u2013Ukraine hits energy infrastructure",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Barron\u2019s: China\u2019s President **Xi Jinping** wrapped a **three-day U.S. visit** with President **Donald Trump** on **Friday**, with the focus on what was achieved in the bilateral summit.\n\nFormer U.S. Ambassador to China **Gary Locke** discussed **\u201cgrave concerns\u201d** on the U.S.\u2013China relationship in Fox Business coverage the same day.\n\nRegional equity read from the data:\n\n- $^HSI **\u22121.3%** to **24,510.10**\n\nU.S. large caps closed up despite a volatile week for yields and oil:\n\n- $^GSPC **+0.5%** to **7,742.09**\n- $^IXIC **+0.5%** to **27,068.72**\n\nWhat headline from the summit do you think markets will reference first next week?",
+        "body": "Brent crude settled at 104.32, down 2.1% on the session in the feed.\n\nThe United States Oil Fund ($USO) closed at 148.33, down 3.1%.\n\nBoth readings are prior-session closes, not live quotes.\n\nBloomberg This Weekend cites New York Times reporting that Russia and Ukraine are increasingly targeting each other\u2019s economies, including energy and export infrastructure, as the conflict evolves.\n\nThat headline sits alongside the day\u2019s oil price move \u2014 the data shows the move; the story names the geopolitical thread markets were reading.\n\nWhere do you look first when oil moves like this \u2014 inventory data, freight, or headlines out of the region?",
         "skip_reason": "",
         "supporting_data": [
-          "Hang Seng changesPercentage: -1.3% \u2014 source: FMP overseas ^HSI",
-          "Hang Seng price: 24,510.10 \u2014 source: FMP overseas ^HSI",
-          "S&P 500 changesPercentage: 0.5% \u2014 source: FMP indexes ^GSPC",
-          "S&P 500 price: 7,742.09 \u2014 source: FMP indexes ^GSPC",
-          "Nasdaq Composite changesPercentage: 0.5% \u2014 source: FMP indexes ^IXIC",
-          "Nasdaq Composite price: 27,068.72 \u2014 source: FMP indexes ^IXIC"
+          "Brent crude: 104.32 (\u22122.1%) \u2014 source: FMP cross_asset brent (BZUSD)",
+          "Brent previous close: 106.60 \u2014 source: FMP cross_asset brent",
+          "USO: 148.33 (\u22123.1%) \u2014 source: FMP cross_asset wti (USO)",
+          "USO previous close: 153.09 \u2014 source: FMP cross_asset wti"
         ],
-        "source_url": "https://www.barrons.com/articles/trump-us-china-summit-kevin-rudd-f1abb6b7",
-        "source_notes": "https://www.barrons.com/articles/trump-us-china-summit-kevin-rudd-f1abb6b7"
+        "source_url": "https://www.youtube.com/watch?v=EvGjQszqXn8",
+        "source_notes": "https://www.youtube.com/watch?v=EvGjQszqXn8"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-25",
-    "generated_at": "2026-09-25T23:31:59-04:00",
-    "draft_path": "drafts/2026-09-25.md",
+    "session_date": "2026-09-26",
+    "generated_at": "2026-09-26T23:41:22-04:00",
+    "draft_path": "drafts/2026-09-26.md",
     "errors": [],
     "slots": [
       {
         "title": "Microsoft closes up 3.7% at 516.17",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$MSFT closed up 3.7% at 516.17, a gain of 18.24 points from the prior close of 497.93.\n\nThe session range ran from 497.30 to 519.40 on about 38.0M shares.\n\nThe S&P 500 finished at 7,742.09 (+0.5%).\n\nThe Nasdaq Composite finished at 27,068.72 (+0.5%).\n\nWhich large-cap name stood out most in your watchlist on Friday?",
+        "body": "$MSFT closed up 3.7% at 516.17.\n\nThe session range ran from 497.30 to 519.40 on about 38.0M shares.\n\nLarge-cap growth carried the tape in Friday\u2019s wrap-up commentary on index leadership.\n\n- $GOOGL +0.5% to 343.92\n- $AAPL +1.5% to 341.07\n- $NVDA +0.2% to 225.07\n\nWhich megacap name stood out most in your watchlist today?",
         "skip_reason": "",
         "supporting_data": [
-          "MSFT change: +3.7% \u2014 source: FMP mega_caps / EOD",
-          "MSFT price: 516.17 \u2014 source: FMP mega_caps",
-          "MSFT prior close: 497.93 \u2014 source: FMP mega_caps",
-          "^GSPC: 7,742.09 (+0.5%) \u2014 source: FMP indexes",
-          "^IXIC: 27,068.72 (+0.5%) \u2014 source: FMP indexes"
+          "MSFT close: 516.17 \u2014 FMP mega_caps / quote",
+          "MSFT change: +3.7% \u2014 FMP mega_caps changesPercentage",
+          "MSFT day range: 497.30\u2013519.40 \u2014 FMP mega_caps dayLow/dayHigh",
+          "MSFT volume: 37,985,485 \u2014 FMP mega_caps volume",
+          "GOOGL: 343.92, +0.5% \u2014 FMP mega_caps",
+          "AAPL: 341.07, +1.5% \u2014 FMP mega_caps",
+          "NVDA: 225.07, +0.2% \u2014 FMP mega_caps"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89",
-        "source_notes": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89"
+        "source_url": "https://seekingalpha.com/article/4949989-the-1-minute-market-report-september-26-2026",
+        "source_notes": "https://seekingalpha.com/article/4949989-the-1-minute-market-report-september-26-2026"
       },
       {
-        "title": "Michigan sentiment 48.1 vs 47.6 expected",
+        "title": "Intel down 3.4% to 123.00",
         "status": "ready",
         "kind": "x_idea",
-        "body": "US consumer sentiment (September) printed at 48.1.\n\nThe consensus estimate in the calendar was 47.6.\n\nThe prior reading was 51.7.\n\nThe release was scheduled for 14:00 ET on 2026-09-25.\n\nDespite the headline number, major US indexes still closed higher on the day.\n\n- ^GSPC +0.5% to 7,742.09\n- ^DJI +0.9% to 51,828.62\n\nHow do you usually read sentiment prints against same-day index moves?",
+        "body": "$INTC closed down 3.4% at 123.00.\n\nIt showed up in the session\u2019s most-active list alongside other high-volume Nasdaq prints.\n\nChip equipment peer $ASML still finished higher on the day.\n\n- $ASML +1.2% to 1,743.94\n- $AMD +0.2% to 630.63\n\nHow are you tracking semis versus equipment makers this week?",
         "skip_reason": "",
         "supporting_data": [
-          "Michigan Consumer Sentiment (Sep) actual: 48.1 \u2014 source: FMP economic_calendar",
-          "Estimate: 47.6 \u2014 source: FMP economic_calendar",
-          "Previous: 51.7 \u2014 source: FMP economic_calendar",
-          "^GSPC: 7,742.09 (+0.5%) \u2014 source: FMP indexes",
-          "^DJI: 51,828.62 (+0.9%) \u2014 source: FMP indexes"
+          "INTC close: 123.00 \u2014 FMP actives",
+          "INTC change: -3.4% \u2014 FMP actives changesPercentage",
+          "ASML close: 1,743.94, +1.2% \u2014 FMP mega_caps",
+          "AMD close: 630.63, +0.2% \u2014 FMP mega_caps"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89",
-        "source_notes": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89"
+        "source_url": "https://seekingalpha.com/article/4949973-china-wont-move-chip-stocks-anymore",
+        "source_notes": "https://seekingalpha.com/article/4949973-china-wont-move-chip-stocks-anymore"
       },
       {
-        "title": "Consumer staples up 3.1%, real estate down 2.6%",
+        "title": "Oil proxy USO down 3.1% on the day",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Nasdaq sector averages for the session showed a wide gap between defensives and real estate.\n\nConsumer Defensive: +3.1% (sector average).\n\nReal Estate: -2.6% (sector average).\n\nNamed large caps in the consumer and staples complex from the feed:\n\n- $COST +2.9% to 922.76\n- $PEP +0.4% to 128.63\n- $PG +0.4% to 146.22\n- $WMT +0.4% to 107.98\n\nConsumer Cyclical averaged -0.9% on the same Nasdaq sector screen.\n\nWhich sector label in your platform matched what you saw in individual names?",
+        "body": "$USO closed down 3.1% at 148.33.\n\nBrent crude in the data finished at 104.32, down 2.1%.\n\nExxon Mobil slipped with the complex.\n\n- $XOM -1.0% to 160.56\n\nPresident Trump said he approved new fuel-economy standards that roll back the prior administration\u2019s tighter rules, per CNBC\u2019s report on the announcement.\n\nWhat energy print are you watching alongside equity indexes?",
         "skip_reason": "",
         "supporting_data": [
-          "Consumer Defensive averageChange: +3.1% (rounded from 3.14) \u2014 source: FMP sectors",
-          "Real Estate averageChange: -2.6% (rounded from -2.59) \u2014 source: FMP sectors",
-          "Consumer Cyclical averageChange: -0.9% (rounded from -0.87) \u2014 source: FMP sectors",
-          "COST: 922.76 (+2.9%) \u2014 source: FMP mega_caps",
-          "PEP: 128.63 (+0.4%) \u2014 source: FMP mega_caps",
-          "PG: 146.22 (+0.4%) \u2014 source: FMP mega_caps",
-          "WMT: 107.98 (+0.4%) \u2014 source: FMP mega_caps"
+          "USO close: 148.33 \u2014 FMP cross_asset wti (USO)",
+          "USO change: -3.1% \u2014 FMP cross_asset changesPercentage",
+          "Brent (BZUSD) close: 104.32, -2.1% \u2014 FMP cross_asset brent",
+          "XOM close: 160.56, -1.0% \u2014 FMP mega_caps"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-dow-and-p-500-snap-losing-streak-8cdc42f2",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-dow-and-p-500-snap-losing-streak-8cdc42f2"
+        "source_url": "https://www.cnbc.com/2026/09/26/trump-fuel-economy-cafe-standards.html",
+        "source_notes": "https://www.cnbc.com/2026/09/26/trump-fuel-economy-cafe-standards.html"
       },
       {
-        "title": "US close \u2014 Sept. 25, 2026",
+        "title": "US close \u2014 Sept. 26, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Dow Jones Industrial Average led the major US benchmarks, up 0.9% to 51,828.62 (+478.64 points), while the S&P 500 rose 0.5% to 7,742.09 and the Nasdaq Composite rose 0.5% to 27,068.72.\n\nThe Russell 2000 barely moved, up 0.1% to 2,837.55.\n\nThe CBOE Volatility Index fell 5.1% to 14.87, from a prior close of 15.67, with an intraday range of 14.68 to 15.92.\n\nAt 12:30 ET, durable goods orders for August showed 0.0% month-over-month versus a -0.4% estimate; ex-defense orders rose 0.1% versus a -0.6% estimate; ex-transportation orders rose 0.3% versus a +0.6% estimate.\n\nAt 14:00 ET, Michigan consumer sentiment for September printed at 48.1 versus a 47.6 estimate and a prior 51.7.\n\nThe Atlanta Fed GDPNow reading for Q3 was updated to 5.0% versus a 5.1% estimate and a 5.1% prior, in a medium-impact release at 14:20 ET.\n\nAmong megacaps, Microsoft stood out with a +3.7% close at 516.17; Costco rose 2.9% to 922.76; Tesla fell 1.5% to 372.11; Oracle fell 1.8% to 137.08; Intel, among the most active names in the feed, fell 3.4% to 123.00.\n\nNasdaq sector averages split sharply: Consumer Defensive led at +3.1%, Technology averaged +0.6%, Energy +0.5%, while Communication Services averaged -0.8%, Consumer Cyclical -0.9%, and Real Estate -2.6%.\n\nOverseas indexes in the feed were mixed versus the US gain: Japan\u2019s Nikkei 225 rose 1.3% to 66,364.20; Hong Kong\u2019s Hang Seng fell 1.3% to 24,510.10; the FTSE 100 rose 0.1% to 10,695.25.\n\nOil-linked quotes weakened: Brent crude fell 2.1% to 104.32; the United States Oil Fund (USO) fell 3.1% to 148.33.\n\nGold futures rose 0.5% to 4,321.20; the Invesco DB US Dollar Index Bullish Fund (UUP) slipped 0.2% to 28.62; Bitcoin USD was roughly flat at 84,036.48 (-0.1%).\n\nThe latest Treasury snapshot in the feed (dated 2026-09-23) showed the 10-year yield at 5.1% and a 2s10s spread of 0.26 percentage points.",
+        "body": "The Dow Jones Industrial Average led the U.S. index set, closing up 0.9% at 51,828.62, a 478.64-point gain on the session.\n\nThe S&P 500 finished up 0.5% at 7,743.41, and the Nasdaq Composite also rose 0.5% to 27,068.72.\n\nThe Russell 2000 barely moved, up 0.1% to 2,837.55, so the day\u2019s strength skewed toward the large-cap benchmarks in the data.\n\nThe VIX fell 5.1% to 14.87, down 0.80 point from the prior close of 15.67.\n\nMicrosoft closed up 3.7% at 516.17, the largest percentage move among the injected megacaps; Apple rose 1.5% to 341.07, and Oracle slipped 1.8% to 137.08.\n\nIntel, flagged among active names, closed down 3.4% at 123.00; NVIDIA edged up 0.2% to 225.07, and AMD added 0.2% to 630.63 with a year high in the file at 639.00.\n\nASML gained 1.2% to 1,743.94 in the equipment group, while Broadcom ticked up 0.7% to 352.81.\n\nEnergy equities and oil proxies weakened: Exxon Mobil fell 1.0% to 160.56, the USO oil fund closed down 3.1% at 148.33, and Brent crude was down 2.1% at 104.32 in the cross-asset block.\n\nGold futures rose 0.5% to 4,321.20; the dollar proxy UUP slipped 0.2% to 28.62, and bitcoin was roughly flat at 84,388.20 in the injected crypto quote.\n\nThe Treasury snapshot dated 2026-09-24 in the data showed the 10-year yield at 5.2% and the 2s10s spread at 0.31 percentage point.\n\nOverseas indexes in the file were mixed: Japan\u2019s Nikkei 225 rose 1.3% to 66,364.20, while Hong Kong\u2019s Hang Seng fell 1.3% to 24,510.10; the FTSE 100 added 0.1% to 10,695.25.\n\nNo sector ETF performance array was populated in this payload, and the earnings calendar block was empty for the session.\n\nHeadlines in the feed included Trump\u2019s statement on new fuel-economy standards and weekend pieces on Treasury yields and chip demand; those stories sat alongside the price moves above rather than replacing them.",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI: 51,828.62 (+0.9%) \u2014 source: FMP indexes",
-          "^GSPC: 7,742.09 (+0.5%) \u2014 source: FMP indexes",
-          "^IXIC: 27,068.72 (+0.5%) \u2014 source: FMP indexes",
-          "^RUT: 2,837.55 (+0.1%) \u2014 source: FMP indexes",
-          "^VIX: 14.87 (-5.1%) \u2014 source: FMP indexes",
-          "Durable Goods Orders MoM actual: 0% \u2014 source: FMP economic_calendar",
-          "Michigan Sentiment actual: 48.1 \u2014 source: FMP economic_calendar",
-          "GDPNow Q3 actual: 5.0% \u2014 source: FMP economic_calendar",
-          "MSFT: 516.17 (+3.7%) \u2014 source: FMP mega_caps",
-          "INTC: 123.00 (-3.4%) \u2014 source: FMP actives",
-          "Consumer Defensive sector: +3.1% \u2014 source: FMP sectors",
-          "Real Estate sector: -2.6% \u2014 source: FMP sectors",
-          "^N225: 66,364.20 (+1.3%) \u2014 source: FMP overseas",
-          "^HSI: 24,510.10 (-1.3%) \u2014 source: FMP overseas",
-          "BZUSD (Brent): 104.32 (-2.1%) \u2014 source: FMP cross_asset",
-          "USO: 148.33 (-3.1%) \u2014 source: FMP cross_asset",
-          "GCUSD (gold): 4,321.20 (+0.5%) \u2014 source: FMP cross_asset",
-          "UUP: 28.62 (-0.2%) \u2014 source: FMP cross_asset",
-          "year10 Treasury: 5.1% \u2014 source: FMP treasury"
+          "^DJI: 51,828.62, +0.9% \u2014 FMP indexes",
+          "^GSPC: 7,743.41, +0.5% \u2014 FMP indexes",
+          "^IXIC: 27,068.72, +0.5% \u2014 FMP indexes",
+          "^RUT: 2,837.55, +0.1% \u2014 FMP indexes",
+          "^VIX: 14.87, -5.1% \u2014 FMP indexes",
+          "MSFT, AAPL, ORCL, INTC, NVDA, AMD, ASML, AVGO, XOM \u2014 FMP mega_caps / actives",
+          "USO, BZUSD, GCUSD, UUP, BTCUSD \u2014 FMP cross_asset",
+          "year10: 5.2%, spread_2s10s: 0.31 \u2014 FMP treasury",
+          "^N225, ^HSI, ^FTSE \u2014 FMP overseas"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89",
-        "source_notes": "https://www.wsj.com/finance/stocks/stocks-rise-to-cap-week-of-increasing-yields-volatile-oil-prices-de1cba89"
+        "source_url": "https://seekingalpha.com/article/4949989-the-1-minute-market-report-september-26-2026",
+        "source_notes": "https://seekingalpha.com/article/4949989-the-1-minute-market-report-september-26-2026"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-25",
-    "generated_at": "2026-09-25T23:32:25-04:00",
-    "draft_path": "drafts/2026-09-25-week-ahead.md",
+    "session_date": "2026-09-26",
+    "generated_at": "2026-09-26T23:41:41-04:00",
+    "draft_path": "drafts/2026-09-26-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Two sizable IPOs on next week\u2019s slate",
+        "title": "September jobs print due Friday at 12:30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Two sizable IPOs are scheduled for the week ahead, per the latest U.S. IPO weekly recap.\n\nThat follows a light week at the offer window: one IPO and two SPACs actually priced, while more deals than planned were postponed.\n\nWhen issuers set terms and pick a pricing date, the filing shows expected size, use of proceeds, and the first day of trading \u2014 the moment the stock gets a ticker and a public quote.\n\nNo names or dates beyond \u201cthe week ahead\u201d appear in this recap; the watch item is which of the two sizable deals publish a final prospectus and land on the calendar.\n\nWhich part of an IPO filing do you read first \u2014 business overview, financials, or the risk factors?",
+        "body": "Friday, Oct. 2, 12:30 p.m.\nET: September nonfarm payrolls.\n\nConsensus: +100K jobs (prior +162K).\n\nSame release: unemployment rate est. 4.2% (prior 4.1%).\n\nPrivate payrolls component est. +85K (prior +127K).\n\nAverage hourly earnings YoY est. 3.1% (unchanged from prior print).\n\nThe report counts hiring and pay growth for the month and updates the headline jobless rate.\n\nWhat part of the release do you track first \u2014 the headline job count or the unemployment rate?",
         "skip_reason": "",
         "supporting_data": [
-          "IPOs priced this week: 1 \u2014 source: Seeking Alpha / FMP news feed",
-          "SPACs priced this week: 2 \u2014 source: Seeking Alpha / FMP news feed",
-          "Sizable IPOs scheduled for the week ahead: 2 \u2014 source: Seeking Alpha / FMP news feed"
+          "Non Farm Payrolls (Sep) estimate: 100K \u2014 source: FMP economic_calendar",
+          "Non Farm Payrolls (Sep) previous: 162K \u2014 source: FMP economic_calendar",
+          "Unemployment Rate (Sep) estimate: 4.2% \u2014 source: FMP economic_calendar",
+          "Unemployment Rate (Sep) previous: 4.1% \u2014 source: FMP economic_calendar",
+          "Nonfarm Payrolls Private (Sep) estimate: 85K \u2014 source: FMP economic_calendar",
+          "Nonfarm Payrolls Private (Sep) previous: 127K \u2014 source: FMP economic_calendar",
+          "Average Hourly Earnings YoY (Sep) estimate: 3.1% \u2014 source: FMP economic_calendar",
+          "Average Hourly Earnings YoY (Sep) previous: 3.1% \u2014 source: FMP economic_calendar",
+          "Release date/time: 2026-10-02 12:30:00 US \u2014 source: FMP economic_calendar",
+          "Week window: 2026-09-28 to 2026-10-02 \u2014 source: FMP_DATA mode week-ahead"
         ],
-        "source_url": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market",
-        "source_notes": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market"
+        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       },
       {
-        "title": "Five IPO filings, three SPAC filings",
+        "title": "ISM factory survey Thursday at 2 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Five IPOs and three SPACs submitted initial filings this week, in the U.S. IPO weekly recap.\n\nAn initial filing is the step before a roadshow: it lays out financials and risks, but the listing date and offer price usually come later.\n\nThat pipeline sits alongside a fall market where postponed deals have trimmed what actually reached investors recently.\n\nFilings do not mean an immediate debut \u2014 they mean more companies entered the queue for SEC review and eventual scheduling.\n\nWhen a filing drops, what do you scan first \u2014 revenue trend, ownership, or planned share count?",
+        "body": "Thursday, Oct. 1, 2:00 p.m.\nET: ISM Manufacturing PMI for September.\n\nConsensus: 54.8 (prior 54.6).\n\nSame release: manufacturing employment sub-index est. 51.5 (prior 51.2).\n\nNew orders sub-index est. 53.9 (prior 53.7).\n\nPrices paid sub-index est. 72.0 (prior 71.1).\n\nThe PMI summarizes orders, production, and hiring from purchasing managers nationwide.\n\nEarlier that day, 12:30 p.m.\nET: weekly initial jobless claims est. 199K (prior 197K) and the four-week average est. 199K (prior 202.25K).\n\nWhich do you use more for the factory story \u2014 the ISM headline or the prices-paid line?",
         "skip_reason": "",
         "supporting_data": [
-          "IPOs with initial filings this week: 5 \u2014 source: Seeking Alpha / FMP news feed",
-          "SPACs with initial filings this week: 3 \u2014 source: Seeking Alpha / FMP news feed"
+          "ISM Manufacturing PMI (Sep) estimate: 54.8 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing PMI (Sep) previous: 54.6 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing Employment (Sep) estimate: 51.5 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing Employment (Sep) previous: 51.2 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing New Orders (Sep) estimate: 53.9 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing New Orders (Sep) previous: 53.7 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing Prices (Sep) estimate: 72 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing Prices (Sep) previous: 71.1 \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims (Sep/26) estimate: 199K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims (Sep/26) previous: 197K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average (Sep/26) estimate: 199K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average (Sep/26) previous: 202.25K \u2014 source: FMP economic_calendar",
+          "ISM release time: 2026-10-01 14:00:00 US \u2014 source: FMP economic_calendar",
+          "Claims release time: 2026-10-01 12:30:00 US \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market",
-        "source_notes": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market"
+        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       },
       {
-        "title": "Fall IPO calendar vs postponements",
+        "title": "Micron reports Tuesday, Nike Wednesday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "More IPO and SPAC deals were originally on the calendar this week than actually priced, according to the U.S. IPO weekly recap.\n\nWhat cleared the market:\n- 1 IPO\n- 2 SPACs\n\nPostponements are the other side of that ledger \u2014 fewer fall debuts than planners had penciled in.\n\nStill on the forward calendar in the same piece: two sizable IPOs for the week ahead.\n\nThat split matters for anyone tracking supply: postponements shrink near-term supply, while new filings (five IPOs, three SPACs in the same recap) refill the queue farther out.\n\nDo you treat a postponement as a pause on fundamentals, or mainly a market-timing call?",
+        "body": "Earnings on the calendar for the week of Sep. 28\u2013Oct. 2:\n\n- $MU \u2014 Sep. 30 \u2014 EPS est. $31.52 (rev. est. ~$51.07B)\n- $NKE \u2014 Oct. 1 \u2014 EPS est. $0.44 (rev. est. ~$11.33B)\n\nMicron\u2019s print covers memory-chip demand and pricing in its fiscal quarter.\n\nNike\u2019s covers footwear and apparel sales and margins.\n\nAlso scheduled:\n\n- $JEF \u2014 Sep. 28 \u2014 EPS est. $1.00\n- $CCL \u2014 Sep. 29 \u2014 EPS est. $1.35\n- $JBL \u2014 Sep. 30 \u2014 EPS est. $4.06\n\nWhich name on this list is on your calendar for the actual numbers?",
         "skip_reason": "",
         "supporting_data": [
-          "IPOs debuted this week: 1 \u2014 source: Seeking Alpha / FMP news feed",
-          "SPACs debuted this week: 2 \u2014 source: Seeking Alpha / FMP news feed",
-          "Sizable IPOs scheduled for the week ahead: 2 \u2014 source: Seeking Alpha / FMP news feed",
-          "IPOs with initial filings this week: 5 \u2014 source: Seeking Alpha / FMP news feed",
-          "SPACs with initial filings this week: 3 \u2014 source: Seeking Alpha / FMP news feed"
+          "$MU date: 2026-09-30 \u2014 source: FMP earnings_calendar",
+          "$MU epsEstimated: 31.52 \u2014 source: FMP earnings_calendar",
+          "$MU revenueEstimated: 51073820000 (~$51.07B) \u2014 source: FMP earnings_calendar",
+          "$NKE date: 2026-10-01 \u2014 source: FMP earnings_calendar",
+          "$NKE epsEstimated: 0.44 (rounded $0.44 in post) \u2014 source: FMP earnings_calendar",
+          "$NKE revenueEstimated: 11325820000 (~$11.33B) \u2014 source: FMP earnings_calendar",
+          "$JEF epsEstimated: 1 \u2014 source: FMP earnings_calendar",
+          "$CCL epsEstimated: 1.35 \u2014 source: FMP earnings_calendar",
+          "$JBL epsEstimated: 4.06 \u2014 source: FMP earnings_calendar",
+          "week_start / week_end: 2026-09-28 / 2026-10-02 \u2014 source: FMP_DATA"
         ],
-        "source_url": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market",
-        "source_notes": "https://seekingalpha.com/article/4949897-us-ipo-postponed-deals-put-damper-on-fall-ipo-market"
+        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       }
     ]
   }

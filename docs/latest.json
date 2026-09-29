@@ -1,203 +1,210 @@
 {
-  "updated_at": "2026-09-27T23:40:17-04:00",
+  "updated_at": "2026-09-29T00:14:55-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-09-27",
-    "generated_at": "2026-09-27T23:39:18-04:00",
-    "draft_path": "drafts/2026-09-27-am.md",
+    "session_date": "2026-09-29",
+    "generated_at": "2026-09-29T00:14:13-04:00",
+    "draft_path": "drafts/2026-09-29-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Brent up 1.7% after Iran deal rejected",
+        "title": "Brent down 5.4% with US\u2013Iran talks in focus",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude: +1.7% to 106.14.\n\nReuters reported oil rebounding after the U.S. rejected a peace deal from Iran aimed at ending the conflict and reopening the Strait of Hormuz.\n\nOn the prior U.S. close (Sept. 26 session in the feed):\n\n- $SPY proxy ^GSPC +0.5% to 7,743.41\n- ^DJI +0.9% to 51,828.62\n- ^VIX \u22125.1% to 14.87\n\nGold futures in the same snapshot: \u22122.1% to 4,229.80.\n\nWhich energy headline are you tracking first this week \u2014 export rules or Middle East diplomacy?",
+        "body": "Brent crude finished at $99.62, down 5.4% ($5.66) from the prior session.\n\nCNBC reported US and Iranian officials met separately with mediators Monday, with Middle Eastern crude exports rebounding toward their highest levels since the war began in February.\n\nThe US oil ETF $USO closed up 1.1% at $150.01 \u2014 a different benchmark than Brent futures.\n\nWhat headline are you tracking on energy and the Strait of Hormuz?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude price: 106.14 \u2014 FMP cross_asset brent (BZUSD)",
-          "Brent change percentage: +1.7% \u2014 FMP cross_asset brent changesPercentage",
-          "S&P 500 close: 7,743.41 \u2014 FMP indexes ^GSPC",
-          "S&P 500 change percentage: +0.5% \u2014 FMP indexes ^GSPC changesPercentage",
-          "Dow Jones close: 51,828.62 \u2014 FMP indexes ^DJI",
-          "Dow Jones change percentage: +0.9% \u2014 FMP indexes ^DJI",
-          "VIX close: 14.87 \u2014 FMP indexes ^VIX",
-          "VIX change percentage: \u22125.1% \u2014 FMP indexes ^VIX changesPercentage",
-          "Gold futures price: 4,229.80 \u2014 FMP cross_asset gold (GCUSD)",
-          "Gold change percentage: \u22122.1% \u2014 FMP cross_asset gold changesPercentage"
+          "Brent crude price: 99.62 \u2014 [source: FMP cross_asset brent]",
+          "Brent change: -5.66 \u2014 [source: FMP cross_asset brent]",
+          "Brent changesPercentage: -5.4% \u2014 [source: FMP cross_asset brent]",
+          "USO price: 150.01 \u2014 [source: FMP cross_asset wti/USO]",
+          "USO changesPercentage: +1.1% \u2014 [source: FMP cross_asset wti/USO]"
         ],
-        "source_url": "https://www.reuters.com/business/energy/oil-rebounds-after-trump-rejects-iran-peace-deal-2026-09-27/",
-        "source_notes": "https://www.reuters.com/business/energy/oil-rebounds-after-trump-rejects-iran-peace-deal-2026-09-27/"
+        "source_url": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html",
+        "source_notes": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html"
       },
       {
-        "title": "China cites two-month U.S. trade truce",
+        "title": "JOLTs and confidence print at 2 p.m. ET",
         "status": "ready",
         "kind": "x_idea",
-        "body": "China\u2019s commerce ministry framed a two-month extension of the U.S. trade truce as room to assess implementation and plan next steps on economic and trade issues.\n\nThat headline landed as regional markets showed mixed index moves in the feed:\n\n- Hang Seng +0.7% to 24,675.68\n- Nikkei 225 \u22120.0% to 66,333.53\n\nEUR/USD in the snapshot: 1.14 (\u22120.1% in the feed).\n\nSeparate coverage noted the recent U.S.\u2013China summit produced limited deliverables, with both sides agreeing to discuss AI risks in formal talks in coming weeks.\n\nWhat part of the truce timeline matters most to you \u2014 goods, tech, or diplomacy?",
+        "body": "At 2:00 p.m.\nET today, the Labor Department is set to publish JOLTs for August.\n\nJob openings: consensus 7.24 million vs 7.27 million previously.\n\nQuits: consensus 3.00 million vs 3.06 million previously.\n\nThe Conference Board\u2019s September consumer confidence reading is due at the same time: consensus 90.0 vs 89.4 in August.\n\nJOLTs counts vacant jobs employers want to fill; quits tracks workers leaving voluntarily.\n\nWhich of the three prints matters most for how you read the labor market?",
         "skip_reason": "",
         "supporting_data": [
-          "Hang Seng close: 24,675.68 \u2014 FMP overseas ^HSI",
-          "Hang Seng change percentage: +0.7% \u2014 FMP overseas ^HSI changesPercentage",
-          "Nikkei 225 close: 66,333.53 \u2014 FMP overseas ^N225",
-          "Nikkei 225 change percentage: \u22120.0% \u2014 FMP overseas ^N225 changesPercentage",
-          "EUR/USD: 1.14 \u2014 FMP cross_asset eurusd",
-          "EUR/USD change percentage: \u22120.1% \u2014 FMP cross_asset eurusd changesPercentage"
+          "JOLTs Job Openings (Aug) estimate: 7.24 M \u2014 [source: FMP economic_calendar]",
+          "JOLTs Job Openings (Aug) previous: 7.271 M \u2014 [source: FMP economic_calendar]",
+          "JOLTs Job Quits (Aug) estimate: 3 M \u2014 [source: FMP economic_calendar]",
+          "JOLTs Job Quits (Aug) previous: 3.056 M \u2014 [source: FMP economic_calendar]",
+          "CB Consumer Confidence (Sep) estimate: 90 \u2014 [source: FMP economic_calendar]",
+          "CB Consumer Confidence (Sep) previous: 89.4 \u2014 [source: FMP economic_calendar]",
+          "Event time: 2026-09-29 14:00:00 US \u2014 [source: FMP economic_calendar]"
         ],
-        "source_url": "https://www.reuters.com/business/aerospace-defense/china-says-us-trade-truce-extension-creates-space-advance-talks-2026-09-28/",
-        "source_notes": "https://www.reuters.com/business/aerospace-defense/china-says-us-trade-truce-extension-creates-space-advance-talks-2026-09-28/"
+        "source_url": "https://www.marketwatch.com/story/bond-yields-move-relentlessly-higher-as-wall-street-wonders-how-much-more-tech-stocks-can-take-dd050c39",
+        "source_notes": "https://www.marketwatch.com/story/bond-yields-move-relentlessly-higher-as-wall-street-wonders-how-much-more-tech-stocks-can-take-dd050c39"
       },
       {
-        "title": "China industrial profits up 4.2% in August",
+        "title": "Core PCE due tomorrow at 8:30 a.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "China\u2019s industrial profits rose 4.2% in August \u2014 the slowest growth rate reported for the year in CNBC\u2019s coverage.\n\nThe same report noted economists expect Beijing to rely more on stimulus to support corporate profitability, with consolidation picking up in sectors facing weak demand and heavy competition.\n\nIn the cross-asset snapshot alongside that story:\n\n- Hang Seng +0.7% to 24,675.68\n- Bitcoin \u22121.2% to 83,423.13\n\nMonday\u2019s U.S. calendar includes Dallas Fed Manufacturing Index (Sep) at 2:30 p.m.\nET \u2014 prior reading 11.6, consensus estimate 1.0 in the economic calendar feed.\n\nDo you watch China profit data mainly for policy signals or for global demand read-through?",
+        "body": "Tomorrow at 12:30 p.m.\nET (8:30 a.m. in many calendars), the BEA releases August personal income and spending plus PCE inflation.\n\nCore PCE price index (year over year): consensus 3.4% vs 3.3% prior.\n\nCore PCE (month over month): consensus 0.3% vs 0.2% prior.\n\nPersonal spending (month over month): consensus 0.8% vs 0.2% prior.\n\nPersonal income (month over month): consensus 0.4% vs 0.4% prior.\n\nCore PCE strips out food and energy\u2014the measure the Fed cites when it talks about inflation targets.\n\nWhat threshold on core PCE would you treat as \u201cin line\u201d with consensus?",
         "skip_reason": "",
         "supporting_data": [
-          "China industrial profit growth (August): 4.2% \u2014 CNBC/Reuters news text in FMP news feed",
-          "Hang Seng close: 24,675.68 \u2014 FMP overseas ^HSI",
-          "Hang Seng change percentage: +0.7% \u2014 FMP overseas ^HSI changesPercentage",
-          "Bitcoin price: 83,423.13 \u2014 FMP cross_asset btc (BTCUSD)",
-          "Bitcoin change percentage: \u22121.2% \u2014 FMP cross_asset btc changesPercentage",
-          "Dallas Fed Manufacturing Index (Sep) estimate: 1.0 \u2014 FMP economic_calendar",
-          "Dallas Fed Manufacturing Index (Sep) previous: 11.6 \u2014 FMP economic_calendar"
+          "Core PCE Price Index YoY (Aug) estimate: 3.4% \u2014 [source: FMP economic_calendar]",
+          "Core PCE Price Index YoY (Aug) previous: 3.3% \u2014 [source: FMP economic_calendar]",
+          "Core PCE Price Index MoM (Aug) estimate: 0.3% \u2014 [source: FMP economic_calendar]",
+          "Core PCE Price Index MoM (Aug) previous: 0.2% \u2014 [source: FMP economic_calendar]",
+          "Personal Spending MoM (Aug) estimate: 0.8% \u2014 [source: FMP economic_calendar]",
+          "Personal Spending MoM (Aug) previous: 0.2% \u2014 [source: FMP economic_calendar]",
+          "Personal Income MoM (Aug) estimate: 0.4% \u2014 [source: FMP economic_calendar]",
+          "Event date: 2026-09-30 12:30:00 US \u2014 [source: FMP economic_calendar]"
         ],
-        "source_url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
-        "source_notes": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html"
+        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-treasury-selloff-deepens-5bfbd7de",
+        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-treasury-selloff-deepens-5bfbd7de"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-09-27",
-    "generated_at": "2026-09-27T23:39:54-04:00",
-    "draft_path": "drafts/2026-09-27.md",
+    "session_date": "2026-09-29",
+    "generated_at": "2026-09-29T00:14:39-04:00",
+    "draft_path": "drafts/2026-09-29.md",
     "errors": [],
     "slots": [
       {
-        "title": "Meta down 3.3% at the close",
+        "title": "Software slide: Oracle down 3.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$META closed down 3.3% at 751.66.\n\nThe session range ran from 746.54 to 769.57, versus a prior close of 777.59.\n\nAmong the large-cap tech names in the dataset, that was the steepest one-day percentage move.\n\nWhat stood out to you in megacap tech on this close?",
+        "body": "$ORCL closed down 3.3% at 132.63, off 4.47 from the prior session.\n\n$MSFT fell 1.3% to 509.22.\n\n$NFLX lost 2.7% to 69.23.\n\nCoverage framed the session as a \u201csoftware stumble\u201d driven by AI disruption fears hitting the sector.\n\nWhich name in your watchlist moved the most on that narrative?",
         "skip_reason": "",
         "supporting_data": [
-          "META change: -3.3% \u2014 FMP mega_caps / quote",
-          "META price: 751.66 \u2014 FMP mega_caps",
-          "META previous close: 777.59 \u2014 FMP mega_caps",
-          "META day low / day high: 746.54 / 769.57 \u2014 FMP mega_caps"
+          "ORCL change: -3.3% \u2014 FMP mega_caps / EOD",
+          "ORCL price: 132.63 \u2014 FMP mega_caps",
+          "MSFT change: -1.3% \u2014 FMP mega_caps",
+          "MSFT price: 509.22 \u2014 FMP mega_caps",
+          "NFLX change: -2.7% \u2014 FMP mega_caps",
+          "NFLX price: 69.23 \u2014 FMP mega_caps"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/META",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/META"
+        "source_url": "https://www.youtube.com/watch?v=mE-X_E0Bjnw",
+        "source_notes": "https://www.youtube.com/watch?v=mE-X_E0Bjnw"
       },
       {
-        "title": "Dow up 0.9% as banks gained",
+        "title": "S&P 500 down 0.8% at 7683.69",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Dow closed up 0.9% at 51,828.62, a 478.64-point gain on the session.\n\nThe S&P 500 rose 0.5% to 7,743.41.\n\nThe Nasdaq Composite rose 0.5% to 27,068.72.\n\nLarge banks in the snapshot moved with the tape:\n\n- $JPM +1.3% to 343.06\n- $BAC +1.2% to 56.70\n\nDoes a stronger Dow than the S&P usually match how you read risk appetite?",
+        "body": "The S&P 500 fell 0.8% to 7,683.69, a 59.72-point drop from 7,743.41.\n\nThe Nasdaq Composite slid 0.9% to 26,820.38.\n\nThe Dow Jones Industrial Average lost 0.7%, closing at 51,481.51.\n\nThe CBOE Volatility Index rose 8.1% to 16.07.\n\nMarket coverage linked the equity weakness to Treasury yields moving higher and questions about how much more pressure rate moves could put on tech stocks.\n\nDid you track the session off the indexes or individual names?",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI: +0.9%, 51,828.62, change +478.64 \u2014 FMP indexes",
-          "^GSPC: +0.5%, 7,743.41 \u2014 FMP indexes",
-          "^IXIC: +0.5%, 27,068.72 \u2014 FMP indexes",
-          "JPM: +1.3%, 343.06 \u2014 FMP mega_caps",
-          "BAC: +1.2%, 56.70 \u2014 FMP mega_caps"
+          "^GSPC changesPercentage: -0.8% \u2014 FMP indexes",
+          "^GSPC price: 7,683.69 \u2014 FMP indexes",
+          "^GSPC change: -59.72 \u2014 FMP indexes",
+          "^IXIC changesPercentage: -0.9% \u2014 FMP indexes",
+          "^IXIC price: 26,820.38 \u2014 FMP indexes",
+          "^DJI changesPercentage: -0.7% \u2014 FMP indexes",
+          "^DJI price: 51,481.51 \u2014 FMP indexes",
+          "^VIX changesPercentage: 8.1% \u2014 FMP indexes",
+          "^VIX price: 16.07 \u2014 FMP indexes"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/%5EDJI",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/%5EDJI"
+        "source_url": "https://www.marketwatch.com/story/bond-yields-move-relentlessly-higher-as-wall-street-wonders-how-much-more-tech-stocks-can-take-dd050c39",
+        "source_notes": "https://www.marketwatch.com/story/bond-yields-move-relentlessly-higher-as-wall-street-wonders-how-much-more-tech-stocks-can-take-dd050c39"
       },
       {
-        "title": "VIX down 5.1% with indexes green",
+        "title": "Brent crude down 5.4% to 99.62",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The VIX closed at 14.87, down 5.1% on the day.\n\nIt traded between 14.68 and 15.94 versus a prior close of 15.67.\n\nOn the same close, US equity benchmarks finished in the green:\n\n- S&P 500 +0.5% to 7,743.41\n- Nasdaq Composite +0.5% to 27,068.72\n- Dow Jones +0.9% to 51,828.62\n\nHow do you weigh a lower fear gauge when the headline indexes are up?",
+        "body": "Brent crude fell 5.4% to 99.62, down 5.66 from 105.28.\n\nThe Nasdaq-listed Energy sector average change was -2.5% for the session.\n\nAmong large energy names in the dataset:\n\n- $XOM +1.2% to 162.53\n\nCNBC reported separate U.S.\u2013Iran mediator talks as Middle Eastern oil exports hit a war-period high.\n\nHow much of your read on the tape came from oil versus rates Monday?",
         "skip_reason": "",
         "supporting_data": [
-          "^VIX: -5.1%, 14.87, change -0.80 \u2014 FMP indexes",
-          "^VIX day low / day high: 14.68 / 15.94 \u2014 FMP indexes",
-          "^GSPC: +0.5%, 7,743.41 \u2014 FMP indexes",
-          "^IXIC: +0.5%, 27,068.72 \u2014 FMP indexes",
-          "^DJI: +0.9%, 51,828.62 \u2014 FMP indexes"
+          "Brent changesPercentage: -5.4% \u2014 FMP cross_asset (BZUSD)",
+          "Brent price: 99.62 \u2014 FMP cross_asset",
+          "Brent change: -5.66 \u2014 FMP cross_asset",
+          "Energy sector averageChange: -2.5% (rounded from -2.46) \u2014 FMP sectors",
+          "XOM changesPercentage: +1.2% \u2014 FMP mega_caps",
+          "XOM price: 162.53 \u2014 FMP mega_caps"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/%5EVIX",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/%5EVIX"
+        "source_url": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html",
+        "source_notes": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html"
       },
       {
-        "title": "US close \u2014 Sept. 27, 2026",
+        "title": "US cash session \u2014 2026-09-29 close",
         "status": "ready",
         "kind": "x_recap",
-        "body": "US equity indexes closed higher in the 2026-09-27 snapshot.\nThe Dow Jones Industrial Average led with a 0.9% gain to 51,828.62, up 478.64 points.\nThe S&P 500 rose 0.5% to 7,743.41 and the Nasdaq Composite rose 0.5% to 27,068.72.\nThe Russell 2000 was nearly flat, up 0.1% to 2,837.55.\n\nThe CBOE Volatility Index fell 5.1% to 14.87, from a prior close of 15.67, while the major benchmarks finished in positive territory.\n\nMicrosoft was among the strongest megacaps in the dataset, up 3.7% to 516.17.\nApple rose 1.5% to 341.07, with a session high of 341.67 against a 52-week high of 345.34 in the quote fields.\n\nMeta Platforms fell 3.3% to 751.66, the largest percentage decline among the listed megacaps.\nTesla slipped 1.5% to 372.11.\nNVIDIA edged up 0.2% to 225.07 on heavy volume in the actives list.\n\nIntel closed down 3.4% to 123.00 and appeared among the most active symbols.\nAlibaba was down 0.8% to 109.74; Reuters reported that China could allow some domestic companies including Alibaba to buy a new Nvidia chip built for high-end professional computers.\n\nLarge US banks posted solid gains: JPMorgan Chase rose 1.3% to 343.06 and Bank of America rose 1.2% to 56.70.\nChevron and Exxon Mobil were lower, with $CVX down 0.6% to 204.44 and $XOM down 1.0% to 160.56.\n\nGold futures in the cross-asset block fell 2.1% to 4,229.60.\nThe United States Oil Fund proxy was down 3.1% to 148.33, while Brent crude in the commodity fields rose 1.7% to 106.14.\n\nBitcoin USD was down 1.2% to 83,420.10 in the same snapshot.\nThe Invesco DB US Dollar Index Bullish Fund proxy slipped 0.2% to 28.62.\n\nTreasury yield levels in the injected curve (dated 2026-09-25) showed the 10-year at 5.2% and a 2s\u201310s spread of 0.36 percentage points.\nNo sector performance breakdown or US economic release was included in this payload, and the earnings calendar array was empty.\n\nOverseas index fields in the file included the Hang Seng up 0.7% to 24,679.00 and the FTSE 100 up 0.1% to 10,695.25; the Nikkei 225 quote showed a flat 0.0% change to 66,333.53.\n\nWeekend headlines in the news feed included China describing a two-month extension of a US trade truce as room to advance talks, and coverage of the Trump\u2013Xi summit noting limited deliverables and planned formal discussion of AI risks.",
+        "body": "U.S. stocks closed lower on 2026-09-29.\nThe S&P 500 finished at 7,683.69, down 0.8% (59.72 points) after a session range of 7,666.60 to 7,724.15.\nThe Nasdaq Composite ended at 26,820.38, down 0.9%, and the Dow Jones Industrial Average at 51,481.51, down 0.7%.\nThe Russell 2000 closed at 2,817.91, down 0.7%.\n\nThe CBOE Volatility Index rose 8.1% to 16.07 from 14.87, with an intraday high of 16.58.\nCoverage ahead of and through the close pointed to a continuing Treasury selloff narrative and equity pressure alongside those rate moves; the injected treasury snapshot (dated 2026-09-25) shows the 10-year yield at 5.2% and a 2s10s spread of 0.36.\n\nSector performance on NASDAQ was led higher by Healthcare, up about 1.1% on average, and Basic Materials, up about 0.8%.\nEnergy was the weakest group at about -2.5%, followed by Communication Services at about -2.0% and Industrials at about -1.1%.\nTechnology averaged about -0.3%.\n\nSoftware and platform names were among the notable meg-cap decliners: Oracle fell 3.3% to 132.63, Microsoft 1.3% to 509.22, and Netflix 2.7% to 69.23, in line with headlines about AI-related disruption fears in software.\nAmazon declined 1.4% to 246.15; Alphabet Class A shares fell 0.3% to 342.75 and Class C 0.6% to 339.16.\nApple closed down 0.8% at 338.40.\n\nNVIDIA bucked the broader tech softness, rising 1.7% to 228.86 on heavy activity in the most-actives list.\nTaiwan Semiconductor gained 0.5% to 452.88 and ASML rose 1.6% to 1,771.41, while Broadcom slipped 0.9% to 349.57.\nIntel, also among the day\u2019s actives, fell 5.7% to 116.03.\n\nFinancials showed pressure among large banks: Bank of America declined 2.2% to 55.47.\nVisa and Mastercard were roughly flat, up 0.1% to 367.74 and 568.26 respectively.\nJohnson & Johnson rose 0.3% to 271.95 and AbbVie gained 0.8% to 266.40, consistent with healthcare\u2019s sector lead.\n\nIn energy equities versus crude, Brent crude fell 5.4% to 99.62 while Exxon Mobil rose 1.2% to 162.53.\nThe United States Oil Fund (USO) closed up 1.1% at 150.01.\nHeadlines tied the oil complex to U.S.\u2013Iran mediation efforts and export flows from the Middle East.\n\nCross-asset moves included gold futures roughly unchanged, down 0.1% at 4,163.40.\nThe dollar-proxy UUP rose 0.3% to 28.70.\nBitcoin slipped 0.4% to 83,130.84.\nEUR/USD was about flat at 1.14.\n\nOverseas indexes in the dataset also closed lower: the Nikkei 225 fell 1.2% to 65,098.27 and the Hang Seng fell 1.0% to 24,395.00.\nThe FTSE 100 edged down 0.1% to 10,684.88.\n\nThe economic calendar listed high-impact JOLTs job openings for August, JOLTs quits, and September consumer confidence for release at 14:00 ET on 2026-09-29; the injected bundle does not include those actual prints.\nEarnings on the calendar for the date included Carnival and CarMax with estimates only\u2014no reported actuals in the data.",
         "skip_reason": "",
         "supporting_data": [
-          "Session date: 2026-09-27 \u2014 FMP_DATA session_date",
-          "^GSPC: +0.5%, 7,743.41 \u2014 FMP indexes",
-          "^DJI: +0.9%, 51,828.62 \u2014 FMP indexes",
-          "^IXIC: +0.5%, 27,068.72 \u2014 FMP indexes",
-          "^RUT: +0.1%, 2,837.55 \u2014 FMP indexes",
-          "^VIX: -5.1%, 14.87 \u2014 FMP indexes",
-          "MSFT: +3.7%, 516.17 \u2014 FMP mega_caps",
-          "META: -3.3%, 751.66 \u2014 FMP mega_caps",
-          "AAPL: +1.5%, 341.07 \u2014 FMP mega_caps",
-          "INTC: -3.4%, 123.00 \u2014 FMP actives / mega_caps context",
-          "GCUSD gold: -2.1%, 4,229.60 \u2014 FMP cross_asset",
-          "USO: -3.1%, 148.33 \u2014 FMP cross_asset",
-          "year10 / spread_2s10s: 5.2% / 0.36 \u2014 FMP treasury"
+          "^GSPC: 7,683.69, -0.8% \u2014 FMP indexes",
+          "^IXIC: 26,820.38, -0.9% \u2014 FMP indexes",
+          "^DJI: 51,481.51, -0.7% \u2014 FMP indexes",
+          "^RUT: 2,817.91, -0.7% \u2014 FMP indexes",
+          "^VIX: 16.07, +8.1% \u2014 FMP indexes",
+          "year10: 5.2%, spread_2s10s: 0.36 \u2014 FMP treasury",
+          "Sector averages: Healthcare +1.1%, Energy -2.5%, Communication Services -2.0% \u2014 FMP sectors",
+          "ORCL, MSFT, NFLX, NVDA, INTC, BAC, XOM prices and % \u2014 FMP mega_caps / actives",
+          "BZUSD: 99.62, -5.4% \u2014 FMP cross_asset",
+          "GCUSD, UUP, BTCUSD \u2014 FMP cross_asset",
+          "^N225, ^HSI, ^FTSE \u2014 FMP overseas"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quotes/index",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quotes/index"
+        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-treasury-selloff-deepens-5bfbd7de",
+        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-treasury-selloff-deepens-5bfbd7de"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-09-27",
-    "generated_at": "2026-09-27T23:40:17-04:00",
-    "draft_path": "drafts/2026-09-27-week-ahead.md",
+    "session_date": "2026-09-29",
+    "generated_at": "2026-09-29T00:14:55-04:00",
+    "draft_path": "drafts/2026-09-29-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "ADP Sep 30: 70K jobs expected",
+        "title": "Friday: September jobs, 84K expected",
         "status": "ready",
         "kind": "x_idea",
-        "body": "ADP Employment Change (Sep) \u2014 Wed 9/30, 12:15 p.m.\nET.\n\nEstimate: +70K private payroll jobs.\n\nPrior ADP reading: +38K.\n\nThe report tracks hiring outside government and farms, often read as a warm-up to Friday\u2019s nonfarm payrolls.\n\nWhat do you watch first \u2014 ADP or the official jobs number?",
+        "body": "Friday, Oct. 2, 12:30 p.m.\nET: September U.S. jobs report.\n\nHeadline number to watch: Nonfarm Payrolls \u2014 estimate 84K jobs added.\n\nPrior print: 162K (August).\n\nSame release batch:\n- Unemployment Rate (Sep): estimate 4.1% (unchanged vs prior 4.1%)\n- Average Hourly Earnings YoY: estimate 3.1%\n- Private payrolls: estimate 85K vs prior 127K\n\nThe report counts hiring across the economy and is one of the main monthly checks on labor demand.\n\nIt lands after ADP (Wed.) and weekly jobless claims (Thu.) in the same week.\n\nWhich line in the report do you track first \u2014 payrolls, unemployment, or wages?",
         "skip_reason": "",
         "supporting_data": [
-          "ADP Employment Change (Sep) estimate: 70K \u2014 source: FMP economic_calendar",
-          "ADP Employment Change (Sep) previous: 38K \u2014 source: FMP economic_calendar",
-          "Release datetime: 2026-09-30 12:15:00 US \u2014 source: FMP economic_calendar"
+          "Non Farm Payrolls (Sep) estimate: 84K \u2014 source: FMP economic_calendar",
+          "Non Farm Payrolls (Sep) previous: 162K \u2014 source: FMP economic_calendar",
+          "Unemployment Rate (Sep) estimate: 4.1% \u2014 source: FMP economic_calendar",
+          "Average Hourly Earnings YoY (Sep) estimate: 3.1% \u2014 source: FMP economic_calendar",
+          "Nonfarm Payrolls Private (Sep) estimate: 85K \u2014 source: FMP economic_calendar",
+          "Release datetime: 2026-10-02 12:30:00 US \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs#economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs#economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "JOLTs 7.23M openings due Tuesday",
+        "title": "Wednesday: Core PCE at 3.4% est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "JOLTs Job Openings (Aug) \u2014 Tue 9/29, 2:00 p.m.\nET.\n\nEstimate: 7.23M unfilled jobs.\n\nPrevious: 7.27M.\n\nThe survey counts posted roles employers have not filled yet \u2014 a read on labor demand separate from the unemployment rate.\n\nSame release window: Conference Board Consumer Confidence (Sep), estimate 90.0 vs prior 89.4.\n\nWhich labor print do you pair with payrolls \u2014 openings or the unemployment rate?",
+        "body": "Tuesday, Sept. 30, 12:30 p.m.\nET: inflation and growth data block.\n\nCore PCE Price Index YoY (Aug): estimate 3.4% (prior 3.3%).\n\nCore PCE MoM: estimate 0.3%.\n\nPersonal Spending MoM (Aug): estimate 0.8% vs prior 0.2%.\n\nPersonal Income MoM: estimate 0.4%.\n\nAlso in the same window:\n- GDP Growth Rate QoQ (Q2): estimate 1.5% (prior 2.1%)\n- Goods Trade Balance (Aug): estimate -113.5B USD\n\nCore PCE strips out food and energy to show underlying price pressure in what households buy.\n\nNumbers are for August activity and Q2 GDP revisions\u2014not a forecast of next month.\n\nDo you watch the year-over-year Core PCE print or the month-over-month move?",
         "skip_reason": "",
         "supporting_data": [
-          "JOLTs Job Openings (Aug) estimate: 7.23M \u2014 source: FMP economic_calendar",
-          "JOLTs Job Openings (Aug) previous: 7.271M (7.27M rounded) \u2014 source: FMP economic_calendar",
-          "CB Consumer Confidence (Sep) estimate: 90 \u2014 source: FMP economic_calendar",
-          "CB Consumer Confidence (Sep) previous: 89.4 \u2014 source: FMP economic_calendar"
+          "Core PCE Price Index YoY (Aug) estimate: 3.4% \u2014 source: FMP economic_calendar",
+          "Core PCE Price Index YoY (Aug) previous: 3.3% \u2014 source: FMP economic_calendar",
+          "Core PCE Price Index MoM (Aug) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Personal Spending MoM (Aug) estimate: 0.8% \u2014 source: FMP economic_calendar",
+          "Personal Spending MoM (Aug) previous: 0.2% \u2014 source: FMP economic_calendar",
+          "GDP Growth Rate QoQ (Q2) estimate: 1.5% \u2014 source: FMP economic_calendar",
+          "Release datetime: 2026-09-30 12:30:00 US \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs#economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs#economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "Jobless claims Thu before payrolls",
+        "title": "Micron reports; Nike follows Thursday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Initial Jobless Claims (week ended 9/26) \u2014 Thu 10/1, 12:30 p.m.\nET.\n\nEstimate: 199K new filings.\n\nPrevious: 197K.\n\nContinuing claims (9/19): estimate 1,720K vs prior 1,719K.\n\nFour-week average: estimate 199K vs prior 202.3K.\n\nWeekly filings measure layoffs in near real time, two days before September nonfarm payrolls and the unemployment rate (Fri 10/2, same time).\n\nNonfarm payrolls (Sep) consensus: +100K vs +162K prior.\n\nUnemployment rate (Sep) estimate: 4.2% vs 4.1% prior.\n\nDo you treat claims as the lead indicator for the monthly jobs report?",
+        "body": "Earnings on the calendar this week (estimates from consensus):\n\nTuesday, Sept. 30\n- $MU \u2014 Micron Technology\n- EPS estimate: $31.62\n- Revenue estimate: ~$51.19B\n\nWednesday, Oct. 1\n- $NKE \u2014 NIKE\n- EPS estimate: $0.44\n- Revenue estimate: ~$11.34B\n\nSame day, Oct. 1 (not apparel):\n- $JBL \u2014 Jabil (EPS est. $4.07)\n- $FDS \u2014 FactSet (EPS est. $4.35, Sept. 30 in calendar)\n\nMicron\u2019s report covers memory and storage demand; Nike\u2019s covers consumer spending and global sales.\n\nBoth resolve when companies post numbers\u2014no timing given in the calendar beyond the report dates.\n\nWhich report are you watching for demand signals\u2014chips or consumer brands?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial Jobless Claims (Sep/26) estimate: 199K \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims (Sep/26) previous: 197K \u2014 source: FMP economic_calendar",
-          "Continuing Jobless Claims (Sep/19) estimate: 1720K \u2014 source: FMP economic_calendar",
-          "Jobless Claims 4-Week Average estimate: 199K (prior 202.25K \u2192 202.3K) \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Sep) estimate: 100K \u2014 source: FMP economic_calendar",
-          "Unemployment Rate (Sep) estimate: 4.2% \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Sep) date: 2026-10-02 12:30:00 \u2014 source: FMP economic_calendar"
+          "$MU report date: 2026-09-30 \u2014 source: FMP earnings_calendar",
+          "$MU epsEstimated: 31.62 \u2014 source: FMP earnings_calendar",
+          "$MU revenueEstimated: 51192760000 (~$51.19B) \u2014 source: FMP earnings_calendar",
+          "$NKE report date: 2026-10-01 \u2014 source: FMP earnings_calendar",
+          "$NKE epsEstimated: 0.436 (~$0.44 rounded) \u2014 source: FMP earnings_calendar",
+          "$NKE revenueEstimated: 11337820000 (~$11.34B) \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs#economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs#economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       }
     ]
   }

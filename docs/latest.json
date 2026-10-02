@@ -1,213 +1,201 @@
 {
-  "updated_at": "2026-10-01T00:10:47-04:00",
+  "updated_at": "2026-10-02T00:05:12-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-01",
-    "generated_at": "2026-10-01T00:09:43-04:00",
-    "draft_path": "drafts/2026-10-01-am.md",
+    "session_date": "2026-10-02",
+    "generated_at": "2026-10-02T00:04:04-04:00",
+    "draft_path": "drafts/2026-10-02-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "S&P closed 7651.54 after PCE reaction",
+        "title": "Public-sector hiring estimate cuts vs August",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$SPY proxy: S&P 500 at 7,651.54, down 0.3% (-19.30 pts) from the prior close of 7,670.84.\n\nCoverage tied the pullback to bond yields staying firm even as core PCE was described around 3.0% in the same narrative.\n\n10-year Treasury yield: 5.3% (FMP treasury snapshot dated 2026-09-29).\n\nNasdaq Composite closed up 0.2% at 26,861.06; Dow Jones Industrial Average down 0.9% at 50,906.05.\n\nWhat part of the inflation print do you watch first\u2014headline PCE or the core number?",
+        "body": "September U.S. jobs data is due at 12:30 p.m.\nET.\n\nConsensus for total nonfarm payrolls: 90K (August: 162K).\n\nGovernment payrolls estimate: 15K.\n\nAugust government payrolls: 35K.\n\nUnemployment rate estimate: 4.1% (unchanged from 4.1% in August).\n\nAverage hourly earnings YoY estimate: 3.2% (August: 3.1%).\n\nThe release also includes private payrolls (85K est vs 127K prior) and U-6 unemployment (7.7% est, unchanged).\n\nWhat part of the report are you watching first \u2014 the headline count or wages?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 close: 7,651.54 \u2014 indexes ^GSPC",
-          "S&P 500 change: -0.3% \u2014 indexes ^GSPC changesPercentage",
-          "S&P 500 point change: -19.30 \u2014 indexes ^GSPC change",
-          "Prior S&P close: 7,670.84 \u2014 indexes ^GSPC previousClose",
-          "Nasdaq Composite: 26,861.06, +0.2% \u2014 indexes ^IXIC",
-          "Dow Jones: 50,906.05, -0.9% \u2014 indexes ^DJI",
-          "10-year Treasury: 5.3% \u2014 treasury year10",
-          "Core PCE 3.0% (as cited in coverage) \u2014 news Seeking Alpha article text"
+          "Non Farm Payrolls (Sep) estimate: 90K \u2014 FMP economic calendar",
+          "Non Farm Payrolls (Sep) previous: 162K \u2014 FMP economic calendar",
+          "Government Payrolls (Sep) estimate: 15K \u2014 FMP economic calendar",
+          "Government Payrolls (Sep) previous: 35K \u2014 FMP economic calendar",
+          "Unemployment Rate (Sep) estimate: 4.1% \u2014 FMP economic calendar",
+          "Unemployment Rate (Sep) previous: 4.1% \u2014 FMP economic calendar",
+          "Average Hourly Earnings YoY (Sep) estimate: 3.2% \u2014 FMP economic calendar",
+          "Average Hourly Earnings YoY (Sep) previous: 3.1% \u2014 FMP economic calendar",
+          "Release time: 2026-10-02 12:30:00 ET \u2014 FMP economic calendar"
         ],
-        "source_url": "https://seekingalpha.com/article/4951219-lower-than-expected-pce-data-failed-to-help-markets",
-        "source_notes": "https://seekingalpha.com/article/4951219-lower-than-expected-pce-data-failed-to-help-markets"
+        "source_url": "https://financialmodelingprep.com/developer/docs/economic-calendar-api",
+        "source_notes": "https://financialmodelingprep.com/developer/docs/economic-calendar-api"
       },
       {
-        "title": "Trump still weighing diesel export ban",
+        "title": "SEC proposes easier crypto custody for funds",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Reuters reported Trump said he still considers a diesel export ban and talks about it \u201cevery day\u201d as the White House focuses on energy prices.\n\nCNBC quoted him as still \u201cthinking about\u201d the ban while flagging a possible \u201cnegative impact\u201d on gasoline.\n\nBrent crude settled at 96.99, down 1.1% on the session; the U.S. oil fund $USO was up 1.6% to 145.66 in the cross-asset snapshot.\n\nNo ban was announced in the coverage\u2014only that the option remains on the table.\n\nWhich energy price do you track when policy headlines hit\u2014diesel at the pump or crude on the screen?",
+        "body": "The SEC put out a proposal on crypto custody for regulated money managers.\n\nIt would ease how investment advisers and regulated funds hold digital assets.\n\nSelf-custody would be allowed in some cases.\n\nState trust companies could serve as custodians.\n\nBitcoin was at 85,576.43, up 0.9% in the cross-asset snapshot.\n\nThe rule change is a process step \u2014 not yet final.\n\nDoes this change how you think about crypto inside traditional fund structures?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude: 96.99, -1.1% \u2014 cross_asset brent",
-          "USO (oil fund): 145.66, +1.6% \u2014 cross_asset wti/USO entry",
-          "Headline/theme \u2014 news Reuters 2026-09-30",
-          "Secondary quote context \u2014 news CNBC 2026-09-30"
+          "BTCUSD price: 85,576.43 \u2014 FMP cross_asset btc",
+          "BTCUSD change: +726.5 \u2014 FMP cross_asset btc",
+          "BTCUSD changesPercentage: 0.9% \u2014 FMP cross_asset btc"
         ],
-        "source_url": "https://www.reuters.com/business/energy/trump-says-he-is-still-considering-diesel-export-ban-2026-09-30/",
-        "source_notes": "https://www.reuters.com/business/energy/trump-says-he-is-still-considering-diesel-export-ban-2026-09-30/"
+        "source_url": "https://www.cnbc.com/2026/10/02/sec-bitcoin-crypto-proposal.html",
+        "source_notes": "https://www.cnbc.com/2026/10/02/sec-bitcoin-crypto-proposal.html"
       },
       {
-        "title": "September jobs: 90K jobs consensus",
+        "title": "U.S.\u2013India trade deal not imminent, Greer says",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Non Farm Payrolls (Sep) \u2014 scheduled 2026-10-02, 12:30 p.m.\nET (economic calendar).\n\nConsensus: +90K jobs (unit: thousands).\n\nPrior print: +162K.\n\nUnemployment Rate (Sep): estimate 4.1%, previous 4.1%.\n\nAverage Hourly Earnings YoY (Sep): estimate 3.1%, previous 3.1%.\n\nPrivate payrolls (Sep): estimate +82K, previous +127K.\n\nThe report measures hiring and wage growth\u2014the inputs many use to gauge labor slack versus wage pressure.\n\nWhich line item do you read first on jobs day\u2014payrolls, unemployment, or hourly earnings?",
+        "body": "USTR Jamieson Greer said a U.S.\u2013India trade deal is not \u201cimminent.\u201d\n\nNegotiations are still on.\n\nThat follows a phone call between Prime Minister Narendra Modi and President Donald Trump.\n\nSeparately, Goldman Sachs flagged Latin America as the region most exposed if the U.S. restricted diesel exports.\n\nOil-linked $USO closed at 150.02, up 3.0% in the prior session snapshot.\n\nTrade and fuel policy have been overlapping themes in recent headlines.\n\nWhich headline matters more for your macro read \u2014 bilateral trade or fuel export rules?",
         "skip_reason": "",
         "supporting_data": [
-          "NFP estimate: 90K \u2014 economic_calendar Non Farm Payrolls (Sep)",
-          "NFP previous: 162K \u2014 economic_calendar",
-          "Release time: 2026-10-02 12:30:00 US \u2014 economic_calendar",
-          "Unemployment estimate: 4.1% \u2014 economic_calendar Unemployment Rate (Sep)",
-          "Unemployment previous: 4.1% \u2014 economic_calendar",
-          "AHE YoY estimate: 3.1% \u2014 economic_calendar Average Hourly Earnings YoY (Sep)",
-          "Private payrolls estimate: 82K \u2014 economic_calendar Nonfarm Payrolls Private (Sep)"
+          "USO price: 150.02 \u2014 FMP cross_asset wti (USO)",
+          "USO changesPercentage: 3.0% \u2014 FMP cross_asset wti (USO)",
+          "USO change: +4.36 \u2014 FMP cross_asset wti (USO)"
         ],
-        "source_url": "https://financialmodelingprep.com/",
-        "source_notes": "https://financialmodelingprep.com/"
+        "source_url": "https://www.cnbc.com/2026/10/02/us-india-trade-modi-trump-russia-oil.html",
+        "source_notes": "https://www.cnbc.com/2026/10/02/us-india-trade-modi-trump-russia-oil.html"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-01",
-    "generated_at": "2026-10-01T00:10:15-04:00",
-    "draft_path": "drafts/2026-10-01.md",
+    "session_date": "2026-10-02",
+    "generated_at": "2026-10-02T00:04:44-04:00",
+    "draft_path": "drafts/2026-10-02.md",
     "errors": [],
     "slots": [
       {
-        "title": "Dow down 0.9% as Nasdaq edges up",
+        "title": "Chips up while the S&P barely budged",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Dow closed at 50,906.05, down 0.9% (-443.87) from the prior session.\n\nThe Nasdaq Composite finished at 26,861.06, up 0.2% (+63.52).\n\nThe S&P 500 ended at 7,651.54, down 0.3% (-19.30), after trading as high as 7,722.88.\n\nThat split put more weight on blue-chip declines than on the tech-heavy benchmark.\n\nWhich index are you tracking closest this week?",
+        "body": "$NVDA +1.1% to 230.86.\n\n$AMD +0.6% to 615.73.\n\n$TSM +0.7% to 459.20.\n\nThe S&P 500 closed at 7,666.45, up 0.2% (+14.91 points).\n\nThe Nasdaq Composite finished at 26,871.60, flat on the day.\n\nBarron\u2019s noted the Dow and S&P broke a three-day losing streak into this session.\n\nWhich megacap chip name stood out to you on the tape?",
         "skip_reason": "",
         "supporting_data": [
-          "Dow close: 50,906.05 \u2014 FMP index quote ^DJI",
-          "Dow change: -0.9% (-443.87) \u2014 FMP index quote ^DJI",
-          "Nasdaq close: 26,861.06 \u2014 FMP index quote ^IXIC",
-          "Nasdaq change: +0.2% (+63.52) \u2014 FMP index quote ^IXIC",
-          "S&P 500 close: 7,651.54 \u2014 FMP index quote ^GSPC",
-          "S&P 500 change: -0.3% (-19.30) \u2014 FMP index quote ^GSPC",
-          "S&P 500 day high: 7,722.88 \u2014 FMP index quote ^GSPC"
+          "NVDA change: +1.1% \u2014 FMP mega_caps / EOD 2026-10-02",
+          "NVDA price: 230.86 \u2014 FMP mega_caps",
+          "AMD change: +0.6% \u2014 FMP mega_caps",
+          "AMD price: 615.73 \u2014 FMP mega_caps",
+          "TSM change: +0.7% \u2014 FMP mega_caps",
+          "TSM price: 459.20 \u2014 FMP mega_caps",
+          "^GSPC: 7,666.45 (+0.2%) \u2014 FMP indexes",
+          "^IXIC: 26,871.60 (0.0%) \u2014 FMP indexes"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/%5EGSPC",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/%5EGSPC"
+        "source_url": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938",
+        "source_notes": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938"
       },
       {
-        "title": "Meta closes down 1.8% at 725.18",
+        "title": "Netflix closed down 2.5%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$META closed at 725.18, down 1.8% (-13.61).\n\nSession range: 721.30 low to 738.25 high.\n\nSame session, other large tech names finished green:\n:\n- $MSFT +0.8% to 512.90\n- $GOOGL +0.9% to 344.08\n- $AAPL +1.1% to 333.02\n\n$NVDA +0.5% to 228.38.\n\nDoes megacap leadership still feel narrow to you after this close?",
+        "body": "$NFLX -2.5% to 67.85.\n\nDay range: 67.79 low to 69.66 high.\n\nVolume: 40.5M shares.\n\nThe stock\u2019s 52-week range in the data runs from 65.08 to 124.86.\n\nThe Nasdaq Composite ended unchanged at 26,871.60 while the S&P still posted a small gain.\n\nWhat streaming or media names were you tracking at the close?",
         "skip_reason": "",
         "supporting_data": [
-          "META price: 725.18 \u2014 FMP quote META",
-          "META change: -1.8% (-13.61) \u2014 FMP quote META",
-          "META day low / high: 721.30 / 738.25 \u2014 FMP quote META",
-          "MSFT: 512.90, +0.8% \u2014 FMP mega_caps MSFT",
-          "GOOGL: 344.08, +0.9% \u2014 FMP mega_caps GOOGL",
-          "AAPL: 333.02, +1.1% \u2014 FMP mega_caps AAPL",
-          "NVDA: 228.38, +0.5% \u2014 FMP mega_caps NVDA"
+          "NFLX change: -2.5% \u2014 FMP mega_caps",
+          "NFLX price: 67.85 \u2014 FMP mega_caps",
+          "NFLX day low: 67.79 \u2014 FMP mega_caps",
+          "NFLX day high: 69.66 \u2014 FMP mega_caps",
+          "NFLX volume: 40467844 \u2014 FMP mega_caps",
+          "NFLX year low: 65.08 \u2014 FMP mega_caps",
+          "NFLX year high: 124.86 \u2014 FMP mega_caps",
+          "^IXIC: 26,871.60 (0.0%) \u2014 FMP indexes"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/META",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/META"
+        "source_url": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938",
+        "source_notes": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938"
       },
       {
-        "title": "Financials sector down 2.0% on average",
+        "title": "Oil ETF up 3.0% at the close",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Financial Services averaged -2.0% among Nasdaq sectors for 2026-10-01.\n\nUtilities averaged -2.2%.\nConsumer Defensive averaged -1.8%.\n\nNamed large banks and insurers in the session data:\n- $BAC -1.0% to 54.43\n- $UNH -2.1% to 367.08\n\nThe Dow\u2019s -0.9% finish (50,906.05) overlapped with those financial and healthcare weights.\n\nWhich sector print surprised you most at the close?",
+        "body": "$USO +3.0% to 150.02.\n\n$XOM +0.7% to 163.87.\n\nBrent crude ($BZUSD proxy in data): 102.16, -0.1%.\n\nReuters cited Goldman Sachs on Latin America\u2019s exposure if the U.S. restricts diesel exports \u2014 part of the broader fuel-policy headlines in the news feed.\n\nThe dollar proxy $UUP +0.7% to 28.96 on the same session.\n\nDid energy or the dollar move matter more for your watchlist?",
         "skip_reason": "",
         "supporting_data": [
-          "Financial Services averageChange: -2.0% \u2014 FMP sectors",
-          "Utilities averageChange: -2.2% \u2014 FMP sectors",
-          "Consumer Defensive averageChange: -1.8% \u2014 FMP sectors",
-          "BAC: 54.43, -1.0% \u2014 FMP mega_caps BAC",
-          "UNH: 367.08, -2.1% \u2014 FMP mega_caps UNH",
-          "Dow: 50,906.05, -0.9% \u2014 FMP index ^DJI"
+          "USO change: +3.0% \u2014 FMP cross_asset (wti)",
+          "USO price: 150.02 \u2014 FMP cross_asset",
+          "XOM change: +0.7% \u2014 FMP mega_caps",
+          "XOM price: 163.87 \u2014 FMP mega_caps",
+          "Brent price: 102.16 (-0.1%) \u2014 FMP cross_asset (brent)",
+          "UUP change: +0.7% \u2014 FMP cross_asset (dxy)",
+          "UUP price: 28.96 \u2014 FMP cross_asset"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/sector-performance",
-        "source_notes": "https://financialmodelingprep.com/api/v3/sector-performance"
+        "source_url": "https://www.reuters.com/business/energy/latin-america-most-exposed-any-us-ban-diesel-exports-goldman-sachs-says-2026-10-02/",
+        "source_notes": "https://www.reuters.com/business/energy/latin-america-most-exposed-any-us-ban-diesel-exports-goldman-sachs-says-2026-10-02/"
       },
       {
-        "title": "US session recap \u2014 Oct. 1, 2026",
+        "title": "US session recap \u2014 Oct. 2, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 settled at 7,651.54, down 0.3% (-19.30), after an intraday high of 7,722.88.\nThe index did not hold the morning-side of the range into the close.\n\nThe Dow Jones Industrial Average lost 443.87 points, closing at 50,906.05 (-0.9%).\nThat was the weakest major US benchmark in the set, with a session low matching the final print at 50,906.05.\n\nThe Nasdaq Composite finished at 26,861.06, up 0.2% (+63.52), so tech-heavy exposure ended slightly green even as the broad large-cap index slipped.\n\nThe Russell 2000 closed at 2,796.86, down 0.4% (-11.06), a modest small-cap decline in line with the S&P\u2019s direction.\n\nThe VIX rose to 16.34, up 1.9% (+0.30), with an intraday band of 15.62 to 16.61.\n\nSector averages on Nasdaq for the date showed Consumer Cyclical up 0.7%, the only clear positive among the eleven groups.\nFinancial Services led declines at -2.0%, Utilities at -2.2%, Consumer Defensive at -1.8%, Energy at -1.1%, and Real Estate at -1.2%.\nTechnology averaged -0.1%, essentially flat.\n\nMegacap tech was mixed.\nApple closed at 333.02 (+1.1%), Amazon at 249.15 (+1.0%), Microsoft at 512.90 (+0.8%), and Alphabet Class A at 344.08 (+0.9%).\nMeta Platforms fell to 725.18 (-1.8%).\nNVIDIA finished at 228.38 (+0.5%).\nTesla closed at 354.81 (+0.6%).\n\nFinancial and healthcare heavyweights weighed on the Dow tape: UnitedHealth at 367.08 (-2.1%), Bank of America at 54.43 (-1.0%), and Johnson & Johnson at 264.74 (-1.1%).\nBroadcom closed at 351.19 (-1.1%).\n\nSeveral names on the earnings calendar for 2026-10-01 moved sharply by the close.\nMcCormick Class A ($MKC) finished at 46.40 (-4.1%).\nMcCormick Class V ($MKC-V) at 47.94 (-4.2%).\nNike ($NKE) at 35.40 (-1.2%), with a session low of 35.16 against a 52-week low of 35.16 in the profile data.\nAcuity Brands ($AYI) closed at 310.71 (+0.6%).\n\nIntel was among the most active liquid names, up 3.7% to 120.23.\nOverseas, Japan\u2019s Nikkei 225 rose 2.7% to 68,556.69 in the injected overseas set.\n\nTreasury snapshot dated 2026-09-29 in the data showed the 10-year at 5.3% and the 2s10s spread at 0.37.\nGold futures (GCUSD) settled at 4,205.10 (+0.4%).\nThe US Oil Fund (USO proxy in cross_asset) closed at 145.66 (+1.6%), while Brent crude (BZUSD) was at 96.98 (-1.1%).\nThe dollar fund proxy UUP finished at 28.77 (+0.1%).\nBitcoin (BTCUSD) was at 83,748.20 (+0.2%).\n\nThe economic calendar in the feed scheduled US initial jobless claims, continuing claims, and September ISM manufacturing readings for 2026-10-01; the injected bundle did not include released actuals for those prints.",
+        "body": "The S&P 500 closed at 7,666.45, up 0.2% (+14.91 points), with an intraday span of 7,616.78 to 7,684.75.\n\nThe Dow Jones Industrial Average finished at 50,926.56, effectively unchanged (0.0%, +20.51 points).\n\nThe Nasdaq Composite ended at 26,871.60, flat (0.0%) after trading between 26,733.90 and 27,014.47.\n\nThe Russell 2000 outpaced the large-cap indexes at 2,806.62, +0.3%.\n\nBarron\u2019s framed the session as the Dow and S&P breaking a three-day losing streak; the index levels above are from the prior U.S. cash close.\n\nSeptember labor figures were scheduled for 12:30 ET on the calendar: nonfarm payrolls consensus 90K (prior 162K), unemployment rate estimate 4.1%, and average hourly earnings YoY estimate 3.2%.\n\nThe injected dataset lists those estimates and priors; it does not include released actuals for that print.\n\nSemiconductor-linked megacaps closed green:\n- $NVDA +1.1% to 230.86\n- $AMD +0.6% to 615.73\n- $TSM +0.7% to 459.20\n\n$NFLX -2.5% to 67.85 was a standout megacap decliner; $AAPL -0.8% to 330.32 also finished lower.\n\nConsumer staples names softened:\n- $PG -0.9% to 143.95\n- $PEP -0.9% to 125.60\n\nwith PEP\u2019s session low matching its 52-week low of 125.53 in the profile data.\n\n$JPM +0.7% to 333.18 contrasted with $BAC -1.3% to 53.73 among large banks in the mega-cap set.\n\nEnergy equities and the oil ETF diverged from Brent:\n- $USO +3.0% to 150.02\n- $XOM +0.7% to 163.87\n\nwhile Brent crude closed at 102.16 (-0.1%).\n\nTreasury yields in the snapshot dated 2026-09-30 show the 10-year at 5.3% and the 2s10s spread at 0.41 percentage points.\n\nThe VIX rose 0.3% to 16.39; gold futures were flat at 4,202.40 (0.0%), and Bitcoin closed at 85,574.36 (+0.9%).\n\nThe dollar fund proxy $UUP gained 0.7% to 28.96; EUR/USD was 1.13 (+0.1% in the data).\n\nOverseas indexes in the feed were lower: Nikkei 225 -1.1%, FTSE 100 -1.7%, Hang Seng -2.8%.\n\nAmong liquid movers,:\n- $MAT +18.8% to 15.04\n- $NKTR -22.4% to 46.99\n\nheaded liquid losers.",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500: 7,651.54, -0.3% \u2014 FMP ^GSPC",
-          "Dow: 50,906.05, -0.9% \u2014 FMP ^DJI",
-          "Nasdaq: 26,861.06, +0.2% \u2014 FMP ^IXIC",
-          "Russell 2000: 2,796.86, -0.4% \u2014 FMP ^RUT",
-          "VIX: 16.34, +1.9% \u2014 FMP ^VIX",
-          "Sector averages \u2014 FMP sectors array 2026-10-01",
-          "Mega_cap and earnings-day closes \u2014 FMP mega_caps / earnings_calendar",
-          "INTC: 120.23, +3.7% \u2014 FMP actives",
-          "^N225: 68,556.69, +2.7% \u2014 FMP overseas",
-          "Treasury 10y: 5.26, spread_2s10s: 0.37 \u2014 FMP treasury",
-          "Gold: 4,205.10, +0.4% \u2014 FMP cross_asset gold",
-          "USO: 145.66, +1.6% \u2014 FMP cross_asset wti",
-          "Brent: 96.98, -1.1% \u2014 FMP cross_asset brent",
-          "UUP: 28.77, +0.1% \u2014 FMP cross_asset dxy",
-          "BTC: 83,748.20, +0.2% \u2014 FMP cross_asset btc"
+          "^GSPC: 7,666.45 (+0.2%) \u2014 FMP indexes",
+          "^DJI: 50,926.56 (0.0%) \u2014 FMP indexes",
+          "^IXIC: 26,871.60 (0.0%) \u2014 FMP indexes",
+          "^RUT: 2,806.62 (+0.3%) \u2014 FMP indexes",
+          "NFP estimate: 90K \u2014 FMP economic_calendar",
+          "^VIX: 16.39 (+0.3%) \u2014 FMP indexes",
+          "year10: 5.3% \u2014 FMP treasury",
+          "spread_2s10s: 0.41 \u2014 FMP treasury",
+          "USO: 150.02 (+3.0%) \u2014 FMP cross_asset",
+          "GCUSD: 4,202.40 (0.0%) \u2014 FMP cross_asset",
+          "BTCUSD: 85,574.36 (+0.9%) \u2014 FMP cross_asset"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/%5EGSPC",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/%5EGSPC"
+        "source_url": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938",
+        "source_notes": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-01",
-    "generated_at": "2026-10-01T00:10:47-04:00",
-    "draft_path": "drafts/2026-10-01-week-ahead.md",
+    "session_date": "2026-10-02",
+    "generated_at": "2026-10-02T00:05:12-04:00",
+    "draft_path": "drafts/2026-10-02-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "September payrolls print due Friday at 12:30 ET",
+        "title": "September jobless rate due at 12:30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Friday, Oct. 2, 12:30 p.m.\nET: Non Farm Payrolls (Sep).\n\nConsensus: 90K jobs added.\n\nPrior month: 162K.\n\nUnemployment Rate (Sep): estimate 4.1% (unchanged from 4.1% prior).\n\nU-6 Unemployment Rate: estimate 7.7% (prior 7.7%) \u2014 a wider measure that includes part-time workers who want full-time work and people who stopped looking.\n\nThe release bundles hiring, joblessness, and pay in one print.\n\nWhich line do you watch first \u2014 headline jobs, unemployment, or wages?",
+        "body": "The headline unemployment rate for September prints Friday at 12:30 p.m.\nET.\n\nThe consensus estimate is 4.1%, the same as the 4.1% reading in August.\n\nThat figure counts people actively looking for work as a share of the labor force \u2014 a single number many use to gauge how tight hiring is.\n\nIt lands in the same release as payrolls and wage data, so all of it hits at once.\n\nWhich part of the jobs report do you usually read first?",
         "skip_reason": "",
         "supporting_data": [
-          "Non Farm Payrolls (Sep) estimate: 90K \u2014 source: FMP economic calendar",
-          "Non Farm Payrolls (Sep) previous: 162K \u2014 source: FMP economic calendar",
-          "Unemployment Rate (Sep) estimate: 4.1% \u2014 source: FMP economic calendar",
-          "Unemployment Rate (Sep) previous: 4.1% \u2014 source: FMP economic calendar",
-          "U-6 Unemployment Rate (Sep) estimate: 7.7% \u2014 source: FMP economic calendar",
-          "U-6 Unemployment Rate (Sep) previous: 7.7% \u2014 source: FMP economic calendar",
-          "Release time: 2026-10-02 12:30:00 US \u2014 source: FMP economic calendar"
+          "Unemployment Rate (Sep) estimate: 4.1% \u2014 economic_calendar, FMP_DATA",
+          "Unemployment Rate (Sep) previous: 4.1% \u2014 economic_calendar, FMP_DATA",
+          "Release time: 2026-10-02 12:30:00 US \u2014 economic_calendar, FMP_DATA",
+          "Impact: High \u2014 economic_calendar, FMP_DATA"
         ],
-        "source_url": "https://www.wsj.com/economy/central-banking/feds-kashkari-says-inflation-still-too-high-latest-data-didnt-change-view-e729d071",
-        "source_notes": "https://www.wsj.com/economy/central-banking/feds-kashkari-says-inflation-still-too-high-latest-data-didnt-change-view-e729d071"
+        "source_url": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938",
+        "source_notes": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938"
       },
       {
-        "title": "Private payrolls estimate 82K vs 127K in August",
+        "title": "U-6 underemployment gauge on Friday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Friday, Oct. 2, 12:30 p.m.\nET \u2014 inside the September jobs report:\n\nNonfarm Payrolls Private (Sep): estimate 82K.\n\nPrevious: 127K.\n\nGovernment Payrolls (Sep): estimate 15K (prior 35K).\n\nManufacturing Payrolls (Sep): estimate 10K (prior 16K).\n\nPrivate hiring is the slice that strips out federal, state, and local payroll changes.\n\nDoes factory hiring or total private jobs matter more for your read of the report?",
+        "body": "Alongside the headline jobless rate, the September U-6 unemployment rate is due Friday at 12:30 p.m.\nET.\n\nEconomists expect 7.7%, unchanged from 7.7% in the prior report.\n\nU-6 adds discouraged workers and people stuck in part-time jobs who want full-time work \u2014 a broader read on how much spare capacity remains in the job market.\n\nIt is flagged as high-impact in the calendar and resolves with the rest of the September labor data.\n\nDo you track U-6, or mostly the headline unemployment rate?",
         "skip_reason": "",
         "supporting_data": [
-          "Nonfarm Payrolls Private (Sep) estimate: 82K \u2014 source: FMP economic calendar",
-          "Nonfarm Payrolls Private (Sep) previous: 127K \u2014 source: FMP economic calendar",
-          "Government Payrolls (Sep) estimate: 15K \u2014 source: FMP economic calendar",
-          "Government Payrolls (Sep) previous: 35K \u2014 source: FMP economic calendar",
-          "Manufacturing Payrolls (Sep) estimate: 10K \u2014 source: FMP economic calendar",
-          "Manufacturing Payrolls (Sep) previous: 16K \u2014 source: FMP economic calendar"
+          "U-6 Unemployment Rate (Sep) estimate: 7.7% \u2014 economic_calendar, FMP_DATA",
+          "U-6 Unemployment Rate (Sep) previous: 7.7% \u2014 economic_calendar, FMP_DATA",
+          "Release time: 2026-10-02 12:30:00 US \u2014 economic_calendar, FMP_DATA",
+          "Impact: High \u2014 economic_calendar, FMP_DATA"
         ],
-        "source_url": "https://www.barrons.com/articles/fed-kashkari-rate-increase-this-year-and-2027-987eb458",
-        "source_notes": "https://www.barrons.com/articles/fed-kashkari-rate-increase-this-year-and-2027-987eb458"
+        "source_url": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938",
+        "source_notes": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938"
       },
       {
-        "title": "Hourly pay estimates 0.3% MoM, 3.1% YoY",
+        "title": "Factory hiring slice: 10K jobs expected",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Friday, Oct. 2, 12:30 p.m.\nET \u2014 wage lines in the jobs report:\n\nAverage Hourly Earnings MoM (Sep): estimate 0.3% (prior 0.3%).\n\nAverage Hourly Earnings YoY (Sep): estimate 3.1% (prior 3.1%).\n\nADP Employment Change (Sep), already out: 90K actual vs 70K estimate (prior 36K).\n\nADP is a separate private payroll survey; the BLS headline Friday uses a different methodology and revision path.\n\nWhen ADP and the official print both cluster near 90K, what do you compare \u2014 level, revision, or the wage lines?",
+        "body": "Manufacturing payrolls for September are on the calendar for Friday at 12:30 p.m.\nET.\n\nThe estimate is 10K jobs added, down from 16K in the previous report.\n\nThat line item isolates factory hiring within the broader payrolls report \u2014 useful for tracking goods-producing employers separately from services.\n\nGovernment payrolls in the same release carry a separate estimate of 15K, versus 35K previously.\n\nWhich industry breakdown in the jobs report matters most for how you follow the data?",
         "skip_reason": "",
         "supporting_data": [
-          "Average Hourly Earnings MoM (Sep) estimate: 0.3% \u2014 source: FMP economic calendar",
-          "Average Hourly Earnings MoM (Sep) previous: 0.3% \u2014 source: FMP economic calendar",
-          "Average Hourly Earnings YoY (Sep) estimate: 3.1% \u2014 source: FMP economic calendar",
-          "Average Hourly Earnings YoY (Sep) previous: 3.1% \u2014 source: FMP economic calendar",
-          "ADP Employment Change (Sep) actual: 90K \u2014 source: FMP economic calendar",
-          "ADP Employment Change (Sep) estimate: 70K \u2014 source: FMP economic calendar",
-          "ADP Employment Change (Sep) previous: 36K \u2014 source: FMP economic calendar"
+          "Manufacturing Payrolls (Sep) estimate: 10K \u2014 economic_calendar, FMP_DATA",
+          "Manufacturing Payrolls (Sep) previous: 16K \u2014 economic_calendar, FMP_DATA",
+          "Government Payrolls (Sep) estimate: 15K \u2014 economic_calendar, FMP_DATA",
+          "Government Payrolls (Sep) previous: 35K \u2014 economic_calendar, FMP_DATA",
+          "Release time: 2026-10-02 12:30:00 US \u2014 economic_calendar, FMP_DATA"
         ],
-        "source_url": "https://seekingalpha.com/article/4951219-lower-than-expected-pce-data-failed-to-help-markets",
-        "source_notes": "https://seekingalpha.com/article/4951219-lower-than-expected-pce-data-failed-to-help-markets"
+        "source_url": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938",
+        "source_notes": "https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938"
       }
     ]
   }

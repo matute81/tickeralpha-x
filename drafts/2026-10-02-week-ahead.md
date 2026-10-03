@@ -5,94 +5,98 @@ FMP brief: `data/2026-10-02-week-ahead.json`
 
 ---
 
-## September jobless rate due at 12:30
+## Weekly jobless claims after September payrolls
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** The Labor Department is set to publish the September unemployment rate on Friday at 12:30 p.m. ET, with economists looking for 4.1%, unchanged from August.
+**Short Summary:** September’s payroll report printed on Friday; the next routinely scheduled US labor update in the data set is the weekly initial jobless claims release that follows the Sep/26 week’s 197K reading.
 
 ### Post Body
 
-The headline unemployment rate for September prints Friday at 12:30 p.m.
-ET.
+The Sep/26 week’s initial jobless claims came in at 197K versus a 200K consensus and 198K prior, in a release dated Oct 1 at 12:30 ET.
 
-The consensus estimate is 4.1%, the same as the 4.1% reading in August.
+Continuing claims for the Sep/19 week were 1701K versus a 1730K estimate and 1712K prior, in the same calendar block.
 
-That figure counts people actively looking for work as a share of the labor force — a single number many use to gauge how tight hiring is.
+Friday’s September payrolls report (separate release) showed 29K jobs added versus a 90K estimate and 133K prior, with unemployment at 4.2% versus a 4.1% estimate.
 
-It lands in the same release as payrolls and wage data, so all of it hits at once.
+That payroll print is fixed; the next labor filing to watch in the weekly series is the initial claims update after the 197K Sep/26 reading.
 
-Which part of the jobs report do you usually read first?
+Which labor number do you track first after a payrolls week — claims or unemployment?
 
 ### Supporting Data
 
-- Unemployment Rate (Sep) estimate: 4.1% — economic_calendar, FMP_DATA
-- Unemployment Rate (Sep) previous: 4.1% — economic_calendar, FMP_DATA
-- Release time: 2026-10-02 12:30:00 US — economic_calendar, FMP_DATA
-- Impact: High — economic_calendar, FMP_DATA
+- Initial Jobless Claims (Sep/26) actual: 197K — source: FMP economic_calendar
+- Initial Jobless Claims (Sep/26) estimate: 200K — source: FMP economic_calendar
+- Initial Jobless Claims prior: 198K — source: FMP economic_calendar
+- Continuing Jobless Claims (Sep/19) actual: 1701K — source: FMP economic_calendar
+- Continuing Jobless Claims (Sep/19) estimate: 1730K — source: FMP economic_calendar
+- Non Farm Payrolls (Sep) actual: 29K — source: FMP economic_calendar
+- Non Farm Payrolls (Sep) estimate: 90K — source: FMP economic_calendar
+- Unemployment Rate (Sep) actual: 4.2% — source: FMP economic_calendar
+- Unemployment Rate (Sep) estimate: 4.1% — source: FMP economic_calendar
 
-**Source URL:** https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938
+**Source URL:** https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-jobs-report-tempers-rate-outlook-fde051d1
 
 ---
 
-## U-6 underemployment gauge on Friday
+## Micron reported $33.42 EPS on Sep 30
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** Friday’s jobs bundle also includes the U-6 rate, a wider measure of labor slack; the estimate is 7.7%, matching the prior month.
+**Short Summary:** Micron Technology’s Sep 30 earnings entry shows actual EPS and revenue above the listed estimates, a report investors may still be parsing in the sessions ahead.
 
 ### Post Body
 
-Alongside the headline jobless rate, the September U-6 unemployment rate is due Friday at 12:30 p.m.
-ET.
+$MU — Micron Technology, Inc. — shows a Sep 30 earnings date in the calendar.
 
-Economists expect 7.7%, unchanged from 7.7% in the prior report.
+EPS actual: 33.42 versus EPS estimate: 31.77.
 
-U-6 adds discouraged workers and people stuck in part-time jobs who want full-time work — a broader read on how much spare capacity remains in the job market.
+Revenue actual: $54.23B (54229000000) versus revenue estimate: $51.33B (51334270000).
 
-It is flagged as high-impact in the calendar and resolves with the rest of the September labor data.
+Exchange listed: NASDAQ.
 
-Do you track U-6, or mostly the headline unemployment rate?
+The calendar does not list another Micron report date beyond Sep 30 in this pull.
+
+What part of an earnings entry do you read first — EPS, revenue, or the estimate gap?
 
 ### Supporting Data
 
-- U-6 Unemployment Rate (Sep) estimate: 7.7% — economic_calendar, FMP_DATA
-- U-6 Unemployment Rate (Sep) previous: 7.7% — economic_calendar, FMP_DATA
-- Release time: 2026-10-02 12:30:00 US — economic_calendar, FMP_DATA
-- Impact: High — economic_calendar, FMP_DATA
+- MU earnings date: 2026-09-30 — source: FMP earnings_calendar
+- MU EPS actual: 33.42 — source: FMP earnings_calendar
+- MU EPS estimated: 31.77 — source: FMP earnings_calendar
+- MU revenue actual: 54229000000 USD — source: FMP earnings_calendar
+- MU revenue estimated: 51334270000 USD — source: FMP earnings_calendar
+- MU exchange: NASDAQ — source: FMP earnings_calendar
 
-**Source URL:** https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938
+**Source URL:** https://www.wsj.com/finance/investing/ai-is-squeezing-out-the-rest-of-the-stock-market-60928dd3
 
 ---
 
-## Factory hiring slice: 10K jobs expected
+## G7 reserves and US diesel export stance
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** Manufacturing payrolls for September are scheduled for Friday at 12:30 p.m. ET, with a 10K jobs estimate versus 16K added in the prior month.
+**Short Summary:** Reuters reported G7 agreement on emergency diesel and crude releases the same day President Trump said he would not authorize a US diesel export ban, a policy pairing energy markets may watch for follow-through.
 
 ### Post Body
 
-Manufacturing payrolls for September are on the calendar for Friday at 12:30 p.m.
-ET.
+Reuters (Oct 2) reported G7 countries agreed to release diesel and crude from emergency reserves.
 
-The estimate is 10K jobs added, down from 16K in the previous report.
+Hours later, the same Reuters item quotes President Trump saying he will not authorize a US diesel export ban.
 
-That line item isolates factory hiring within the broader payrolls report — useful for tracking goods-producing employers separately from services.
+The story is dated 2026-10-02; it does not list a single future timestamp for reserve flows in the injected data.
 
-Government payrolls in the same release carry a separate estimate of 15K, versus 35K previously.
+Energy headlines this week also included US stocks finishing higher after the September jobs data on Oct 2.
 
-Which industry breakdown in the jobs report matters most for how you follow the data?
+What do you watch first on energy weeks — policy statements or inventory-style data prints?
 
 ### Supporting Data
 
-- Manufacturing Payrolls (Sep) estimate: 10K — economic_calendar, FMP_DATA
-- Manufacturing Payrolls (Sep) previous: 16K — economic_calendar, FMP_DATA
-- Government Payrolls (Sep) estimate: 15K — economic_calendar, FMP_DATA
-- Government Payrolls (Sep) previous: 35K — economic_calendar, FMP_DATA
-- Release time: 2026-10-02 12:30:00 US — economic_calendar, FMP_DATA
+- News publishedDate: 2026-10-02 — source: FMP news
+- S&P 500 close: 7,723.49 (+0.7%) — source: FMP indexes ^GSPC
+- Session date: 2026-10-02 — source: FMP_DATA session_date
 
-**Source URL:** https://www.barrons.com/articles/review-preview-jobs-stocks-today-053d5938
+**Source URL:** https://www.reuters.com/business/energy/trump-not-going-be-doing-diesel-export-ban-2026-10-02/

@@ -1,198 +1,200 @@
 {
-  "updated_at": "2026-10-04T00:20:12-04:00",
+  "updated_at": "2026-10-05T00:04:19-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-04",
-    "generated_at": "2026-10-04T00:19:12-04:00",
-    "draft_path": "drafts/2026-10-04-am.md",
+    "session_date": "2026-10-05",
+    "generated_at": "2026-10-05T00:03:31-04:00",
+    "draft_path": "drafts/2026-10-05-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Jobless claims at 197,000, lowest since 1969",
+        "title": "September payrolls: 29,000 vs 90,000 expected",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Initial jobless claims: **197,000** for the week ended Sept. 26.\n\nThat is the lowest level cited in coverage going back to **1969**, per Labor Department figures summarized in the press.\n\nThe same reporting contrasts that with a soft September payrolls picture: fewer people losing jobs quickly, but companies still not adding many workers.\n\nTreasury yields in the latest FMP snapshot (Oct. 2): **10-year at 5.3%**, **2s10s spread at 0.45** \u2014 the gap between short- and long-term government borrowing costs.\n\nHow are you weighing \u201cfew layoffs\u201d against \u201cslow hiring\u201d in your read of the labor market?",
+        "body": "September nonfarm payrolls: about **29,000** jobs added.\n\nReuters-survey consensus had been near **90,000**.\n\nCoverage tied the miss to questions about whether the Fed\u2019s recent rate increase arrived as labor demand was already cooling.\n\nOverseas, Japan\u2019s Nikkei 225 closed up **2.3%** at **69,880.60** \u2014 reports linked the move to softer U.S. hiring and lower odds of further near-term Fed tightening.\n\nU.S. equity benchmarks finished the prior session higher before this week opened:\n- $^GSPC +0.7% to 7,722.72\n- $^IXIC +1.2% to 27,190.86\n\nWhat labor print are you tracking next on the calendar?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial jobless claims: 197,000 (week ended Sept. 26) \u2014 source: 247wallst.com / Labor Department (FMP news feed)",
-          "10-year Treasury yield: 5.3% \u2014 source: FMP treasury (date 2026-10-02)",
-          "2s10s spread: 0.45 \u2014 source: FMP treasury (date 2026-10-02)"
+          "September payrolls (reported): 29,000 \u2014 [source: 247wallst.com news, FMP news feed]",
+          "Payrolls consensus (reported): ~90,000 \u2014 [source: 247wallst.com news, FMP news feed]",
+          "Nikkei 225 close: 69,880.60 (+2.3%) \u2014 [source: FMP overseas ^N225]",
+          "S&P 500 prior close: 7,722.72 (+0.7%) \u2014 [source: FMP indexes ^GSPC]",
+          "Nasdaq Composite prior close: 27,190.86 (+1.2%) \u2014 [source: FMP indexes ^IXIC]"
         ],
-        "source_url": "https://247wallst.com/investing/2026/10/03/jobless-claims-near-a-57-year-low-but-companies-still-arent-hiring/",
-        "source_notes": "https://247wallst.com/investing/2026/10/03/jobless-claims-near-a-57-year-low-but-companies-still-arent-hiring/"
+        "source_url": "https://247wallst.com/investing/2026/10/04/america-added-just-29000-jobs-in-september-did-the-fed-just-get-its-first-warning-that-it-went-too-far/",
+        "source_notes": "https://247wallst.com/investing/2026/10/04/america-added-just-29000-jobs-in-september-did-the-fed-just-get-its-first-warning-that-it-went-too-far/"
       },
       {
-        "title": "Factory input costs gauge up to 77.9",
+        "title": "Saudi Arabia cuts November crude prices for Asia",
         "status": "ready",
         "kind": "x_idea",
-        "body": "ISM Manufacturing **Prices Paid**: **77.9** in September, from **71.1** in August.\n\nThat is roughly a **9%** one-month increase in the survey of what U.S. factories paid for inputs.\n\nThe index measures price pressure in the supply chain \u2014 not consumer inflation (CPI), but what producers say they are paying now.\n\nGold futures in the session snapshot: **$4,162.30**, **-1.0%** on the day.\n\nWTI proxy $USO: **$147.37**, **-1.8%**.\n\nDoes a jump in factory input prices change how you read the next inflation reports?",
+        "body": "Saudi Arabia **cut** November crude prices for **Asia** and **raised** them for northwest Europe and the Mediterranean, per Reuters pricing documents.\n\nBrent crude: **101.41**, down **0.8%** in the latest FMP commodity quote.\n\nThe U.S. oil ETF $USO finished the prior session at **147.37**, down **1.8%**.\n\nEnergy headlines also noted Oklahoma City operators moving headquarters toward Texas as large mergers concentrate activity in Houston \u2014 a separate industry footprint story, not a price print.\n\nWhich region\u2019s crude pricing moves matter most for the names you follow?",
         "skip_reason": "",
         "supporting_data": [
-          "ISM Manufacturing Prices Paid (Sep): 77.9 \u2014 source: FMP news feed (247wallst.com citing ISM)",
-          "ISM Manufacturing Prices Paid (Aug prior): 71.1 \u2014 source: FMP news feed (247wallst.com citing ISM)",
-          "Gold (GCUSD): 4,162.30, changesPercentage -1.0 \u2014 source: FMP cross_asset",
-          "USO: 147.37, changesPercentage -1.8 \u2014 source: FMP cross_asset"
+          "Brent crude: 101.41 (-0.8%) \u2014 [source: FMP cross_asset brent BZUSD]",
+          "USO prior close: 147.37 (-1.8%) \u2014 [source: FMP cross_asset wti proxy USO]",
+          "News: Saudi November OSP cuts to Asia \u2014 [source: FMP news / reuters.com]"
         ],
-        "source_url": "https://247wallst.com/investing/2026/10/03/inflations-next-wave-a-critical-u-s-manufacturing-gauge-just-surged-10-higher/",
-        "source_notes": "https://247wallst.com/investing/2026/10/03/inflations-next-wave-a-critical-u-s-manufacturing-gauge-just-surged-10-higher/"
+        "source_url": "https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/",
+        "source_notes": "https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/"
       },
       {
-        "title": "G7 may release up to 100M barrels",
+        "title": "10-year Treasury yield at 5.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "G7 members are discussed as coordinating a release of **up to 100 million barrels** of oil and fuel.\n\nBloomberg Economics commentary in the clip frames that as **near-term** relief for record diesel prices.\n\nThe same segment notes limits: supply constraints linked to the **Iran war** and **attacks on Russian refining capacity** are not fully solved by stock releases.\n\nBrent in the data: **$102.25**, **-0.1%**.\n\nBrent day range: **$98.43** low to **$103.05** high.\n\nSeparately, Reuters reported **fire and smoke** near an **Aramco** facility in **Riyadh** on Saturday, per a witness account.\n\nWhat do you watch first on energy \u2014 strategic releases or headlines from producing regions?",
+        "body": "10-year U.S. Treasury yield (FMP snapshot dated **2026-10-02**): **5.3%**.\n\n2-year: **4.8%**.\n\n2s\u201310s spread: **0.45** percentage point.\n\nCNBC coverage framed yields above **5%** as fueling \u201cdebt spiral\u201d fears, while citing analysts who said a fiscal crisis is **not** described as imminent \u2014 with higher rates feeding debt-service costs gradually rather than overnight.\n\nDollar proxy $UUP: **28.89**, down **0.2%** on the prior session close in FMP data.\n\nDoes your read start with the 10-year level or the 2s\u201310s spread?",
         "skip_reason": "",
         "supporting_data": [
-          "G7 coordinated release (upper bound): up to 100 million barrels \u2014 source: FMP news feed (Bloomberg Markets and Finance)",
-          "Brent (BZUSD): 102.25, changesPercentage -0.1 \u2014 source: FMP cross_asset",
-          "Brent dayLow: 98.43 \u2014 source: FMP cross_asset",
-          "Brent dayHigh: 103.05 \u2014 source: FMP cross_asset"
+          "10-year Treasury yield: 5.3% \u2014 [source: FMP treasury, date 2026-10-02]",
+          "2-year Treasury yield: 4.8% \u2014 [source: FMP treasury]",
+          "2s\u201310s spread: 0.45 \u2014 [source: FMP treasury spread_2s10s]",
+          "UUP prior close: 28.89 (-0.2%) \u2014 [source: FMP cross_asset dxy UUP]"
         ],
-        "source_url": "https://www.youtube.com/watch?v=7KKkVnpzePo",
-        "source_notes": "https://www.youtube.com/watch?v=7KKkVnpzePo"
+        "source_url": "https://www.cnbc.com/2026/10/05/treasury-yields-fiscal-concerns-not-crisis-yet.html",
+        "source_notes": "https://www.cnbc.com/2026/10/05/treasury-yields-fiscal-concerns-not-crisis-yet.html"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-04",
-    "generated_at": "2026-10-04T00:19:51-04:00",
-    "draft_path": "drafts/2026-10-04.md",
+    "session_date": "2026-10-05",
+    "generated_at": "2026-10-05T00:03:59-04:00",
+    "draft_path": "drafts/2026-10-05.md",
     "errors": [],
     "slots": [
       {
-        "title": "Nasdaq up 1.2% at the year high",
+        "title": "SpaceX-linked name up 7.4% on rename headline",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Nasdaq Composite closed up 1.2% at 27,190.86, after an intraday high of 27,353.68 \u2014 the same level as its year high in the data.\n\nThe S&P 500 finished up 0.7% at 7,722.72 (+56.27 points).\n\nThe Dow added 0.5% to 51,176.96.\n\nThe Russell 2000 rose 0.9% to 2,832.89.\n\nLarge-cap tech and chip names carried much of the gain; the volatility index fell on the session (see below).\n\nWhich index level are you tracking against your year-high mark?",
+        "body": "$SPCX closed up 7.4% at 158.96 (+10.89).\n\nReuters reported Musk said he will rename SpaceXAI to SpaceXSI, in line with Donald Trump\u2019s push for the term \u201csuper intelligence\u201d instead of \u201cartificial intelligence.\u201d\n\nThe name also showed up among the day\u2019s most active issues by volume.\n\nWhich headline-driven mover are you tracking after the close?",
         "skip_reason": "",
         "supporting_data": [
-          "Nasdaq close: 27,190.86 \u2014 FMP index ^IXIC",
-          "Nasdaq change: +1.2% \u2014 FMP ^IXIC changesPercentage",
-          "Nasdaq day/year high: 27,353.68 \u2014 FMP ^IXIC dayHigh / yearHigh",
-          "S&P 500 close: 7,722.72 (+0.7%) \u2014 FMP ^GSPC",
-          "Dow close: 51,176.96 (+0.5%) \u2014 FMP ^DJI",
-          "Russell 2000 close: 2,832.89 (+0.9%) \u2014 FMP ^RUT"
+          "$SPCX change: +7.4% \u2014 FMP actives / quote",
+          "$SPCX price: 158.96 \u2014 FMP actives / quote",
+          "$SPCX point change: +10.89 \u2014 FMP actives / quote"
         ],
-        "source_url": "https://seekingalpha.com/article/4951749-one-trade-two-markets-one-hidden-correction",
-        "source_notes": "https://seekingalpha.com/article/4951749-one-trade-two-markets-one-hidden-correction"
+        "source_url": "https://www.reuters.com/business/media-telecom/musk-says-he-will-rename-spacexai-spacexsi-2026-10-04/",
+        "source_notes": "https://www.reuters.com/business/media-telecom/musk-says-he-will-rename-spacexai-spacexsi-2026-10-04/"
       },
       {
-        "title": "Broadcom up 3.3% in chip session",
+        "title": "Brent slips 0.8% after Saudi Asia price cut",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AVGO closed up 3.3% at $355.14 (session range $347.42\u2013$357.35).\n\nOther large names in the same tape:\n\n- $ASML +3.3% to 1,867.31\n- $ORCL +3.1% to 142.30\n- $AMD +3.0% to 633.91 (session high 645.46, equal to its year high in the data)\n- $NVDA +1.3% to 233.95\n\nRecent headlines discussed chipmakers\u2019 role in AI-related capital spending; the session move is the print above, not a forecast.\n\nWhich of these names had the widest range versus its close?",
+        "body": "Brent settled at 101.40, down 0.8% (-0.85).\n\nReuters said Saudi Arabia unexpectedly cut November crude oil prices for Asia in its pricing document, while raising levels for northwest Europe and the Mediterranean.\n\nIn U.S.-listed oil exposure, $USO fell 1.8% to 147.37 (-2.65).\n\nGold futures were little changed, up 0.2% to 4,172.30 (+10.00).\n\nHow are you reading the Asia price cut against the flat-to-lower U.S. oil ETF print?",
         "skip_reason": "",
         "supporting_data": [
-          "AVGO: 355.14, +3.3% \u2014 FMP mega_caps AVGO",
-          "ASML: 1,867.31, +3.3% \u2014 FMP mega_caps ASML",
-          "ORCL: 142.30, +3.1% \u2014 FMP mega_caps ORCL",
-          "AMD: 633.91, +3.0%; dayHigh/yearHigh 645.46 \u2014 FMP mega_caps AMD",
-          "NVDA: 233.95, +1.3% \u2014 FMP mega_caps NVDA"
+          "Brent (BZUSD) price: 101.40 \u2014 FMP cross_asset",
+          "Brent change: -0.8% \u2014 FMP cross_asset (changesPercentage)",
+          "Brent point change: -0.85 \u2014 FMP cross_asset",
+          "$USO price: 147.37 \u2014 FMP cross_asset (wti proxy)",
+          "$USO change: -1.8% \u2014 FMP cross_asset",
+          "$USO point change: -2.65 \u2014 FMP cross_asset",
+          "Gold (GCUSD) price: 4,172.30 \u2014 FMP cross_asset",
+          "Gold change: +0.2% \u2014 FMP cross_asset"
         ],
-        "source_url": "https://seekingalpha.com/article/4951599-beware-bears-chipmakers-are-still-lubricating-the-ai-financing-wheel",
-        "source_notes": "https://seekingalpha.com/article/4951599-beware-bears-chipmakers-are-still-lubricating-the-ai-financing-wheel"
+        "source_url": "https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/",
+        "source_notes": "https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/"
       },
       {
-        "title": "VIX down 6.6% to 15.31",
+        "title": "Russell 2000 up 0.9% on a green tape",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$VIX (volatility index) closed at 15.31, down 1.08 points (-6.6%) from the prior close of 16.39.\n\nSession low: 15.30.\n\nOn the same U.S. cash close:\n\n- S&P 500 +0.7% to 7,722.72\n- Nasdaq +1.2% to 27,190.86\n- Dow +0.5% to 51,176.96\n\nThe 10-year Treasury yield in the injected curve snapshot (dated 2026-10-02) was 5.3%; the 2s10s spread was 0.45 percentage points.\n\nDo you treat VIX below 16 as \u201cquiet tape\u201d or just one day\u2019s reading?",
+        "body": "The Russell 2000 rose 0.9% to 2,832.89 (+26.27).\n\nThe Dow added 0.5% to 51,176.96 (+250.40).\n\nThe S&P 500 gained 0.7% to 7,722.72 (+56.27).\n\nThe Nasdaq Composite rose 1.2% to 27,190.86 (+319.27).\n\nThe VIX fell 6.6% to 15.31 (-1.08).\n\nDoes the Russell\u2019s 0.9% gain match what you saw in your watchlist?",
         "skip_reason": "",
         "supporting_data": [
-          "VIX close: 15.31 \u2014 FMP indexes ^VIX",
-          "VIX change: -6.6% (-1.08) \u2014 FMP ^VIX",
-          "VIX day low: 15.30 \u2014 FMP ^VIX",
-          "S&P 500: 7,722.72, +0.7% \u2014 FMP ^GSPC",
-          "10-year Treasury: 5.3% \u2014 FMP treasury year10",
-          "2s10s spread: 0.45 \u2014 FMP treasury spread_2s10s"
+          "^RUT price: 2,832.89 \u2014 FMP indexes",
+          "^RUT change: +0.9% \u2014 FMP indexes",
+          "^RUT point change: +26.27 \u2014 FMP indexes",
+          "^DJI change: +0.5% \u2014 FMP indexes",
+          "^GSPC change: +0.7% \u2014 FMP indexes",
+          "^IXIC change: +1.2% \u2014 FMP indexes",
+          "^VIX price: 15.31 \u2014 FMP indexes",
+          "^VIX change: -6.6% \u2014 FMP indexes"
         ],
-        "source_url": "https://seekingalpha.com/article/4951791-5-reasons-yields-could-stay-high-the-bull-market-isnt-over",
-        "source_notes": "https://seekingalpha.com/article/4951791-5-reasons-yields-could-stay-high-the-bull-market-isnt-over"
+        "source_url": "https://financialmodelingprep.com/api/v3/quote/%5ERUT",
+        "source_notes": "https://financialmodelingprep.com/api/v3/quote/%5ERUT"
       },
       {
-        "title": "U.S. session recap \u2014 Oct. 3, 2026 close",
+        "title": "U.S. cash session recap \u2014 Oct. 5, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 rose 0.7% to 7,722.72, a gain of 56.27 points, with an intraday range of 7,700.51 to 7,754.67.\n\nThe Nasdaq Composite led the major benchmarks, up 1.2% to 27,190.86; it touched 27,353.68, which matches the year high shown in the data.\n\nThe Dow Jones Industrial Average added 0.5%, closing at 51,176.96 (+250.40 points).\n\nThe Russell 2000 gained 0.9% to 2,832.89.\n\nThe VIX fell 6.6% to 15.31, down from 16.39, with a session low of 15.30 \u2014 a softer reading on a day when equities closed green.\n\nSemiconductor and AI-adjacent megacaps were among the standouts:\n- $AVGO +3.3% to 355.14\n- $ASML +3.3% to 1,867.31\n- $ORCL +3.1% to 142.30\n- $AMD +3.0% to 633.91\n\nwith AMD\u2019s high of 645.46 equal to its year high in the feed.\n$NVDA rose 1.3% to 233.95; $MSFT gained 0.9% to 517.53; $AMZN rose 1.3% to 251.52.\n\nOutside tech, $UNH closed up 1.8% at 371.90;:\n- $ABBV +1.1% to 262.82\n- $COST +0.6% to 920.65\n\n$JPM slipped 0.2% to 332.38.\n$NKE, among active names, fell 3.6% to 33.87.\n$BABA lost 1.5% to 105.85.\n\nSector ETF detail in the payload was empty; price action still clustered in large-cap growth and chips versus modest moves in defensives such as $PEP (+0.2%) and flat $WMT (104.26).\n\nGold futures (GC) fell about 1.0% to 4,162.30 (\u221240.00).\nThe United States Oil Fund ($USO proxy) declined 1.8% to 147.37.\nBrent crude in the data was roughly flat, \u22120.1% at 102.25.\nThe dollar proxy ($UUP) ticked down 0.2% to 28.89.\nBitcoin was little changed, +0.1% near 84,799.\n\nThe Treasury snapshot (2026-10-02) showed a 10-year yield of 5.3% and a 2-year at 4.8%, for a 2s10s spread of 0.45.\nNo new earnings entries appeared in the injected earnings calendar for this bundle.\n\nOverseas indexes in the feed: Japan\u2019s Nikkei \u22120.9% to 68,309.46; Hang Seng \u22122.6% to 23,972.30; FTSE 100 +0.3% to 10,461.95; Germany proxy (EWG) +1.2% to 41.30.\n\nNews flow around the date included discussion of September labor-market data and hiring conditions, manufacturing input prices, oil supply and G7 reserve releases, and chip-sector AI spending \u2014 background headlines only; the recap numbers are session closes from the injected quotes.\n\nThe economic calendar listed a U.S.-timed OPEC meeting on 2026-10-04 (medium impact in the feed), scheduled after this cash close.",
+        "body": "The S&P 500 finished up 0.7% at 7,722.72, a gain of 56.27 points from the prior close, with an intraday range between 7,700.51 and 7,754.67.\n\nThe Nasdaq Composite outpaced the other main U.S. benchmarks, up 1.2% at 27,190.86 (+319.27), with a session high of 27,353.68.\n\nThe Dow Jones Industrial Average rose 0.5% to 51,176.96 (+250.40), while the Russell 2000 added 0.9% to 2,832.89 (+26.27).\n\nThe CBOE Volatility Index fell 6.6% to 15.31 (-1.08), from a prior close of 16.39.\n\nAmong megacap tech, $AMD rose 3.0% to 633.91 and tagged a session high of 645.46, matching its 52-week high in the quote data.\n$AVGO gained 3.3% to 355.14 (+11.50).\n$ORCL gained 3.1% to 142.30 (+4.23).\n\n$NVDA closed up 1.3% at 233.95 (+3.09).\n$MSFT added 0.9% to 517.53 (+4.73).\n$AMZN rose 1.3% to 251.52 (+3.29).\n$AAPL gained 1.0% to 333.69 (+3.37).\n\n$NKE was down 3.6% at 33.87 (-1.28) among active issues.\n$NFLX slipped 1.2% to 67.06 (-0.79).\n$CRM fell 0.8% to 234.69 (-2.00).\n$BABA lost 1.5% to 105.85 (-1.60).\n\nOn the cross-asset tape, Brent crude (BZUSD) settled at 101.40, down 0.8%.\nThe United States Oil Fund ($USO) fell 1.8% to 147.37.\nGold futures (GCUSD) rose 0.2% to 4,172.30.\n\nThe Invesco DB US Dollar Index Bullish Fund ($UUP) slipped 0.2% to 28.89.\nBitcoin (BTCUSD) was down 0.6% at 86,029.77 (-483.61).\n\nLatest Treasury snapshot in the feed (dated 2026-10-02) showed the 10-year yield at 5.3% and the 2s10s spread at 0.45 percentage points.\n\nThe economic calendar lists U.S. ISM Services PMI (Sep) and related services gauges for 2026-10-05 at 14:00 ET with a 55.7 estimate versus 55.4 prior; no actual print values were included in this close bundle.\nThe earnings calendar for this payload was empty.",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500: 7,722.72, +0.7%, +56.27 \u2014 FMP ^GSPC",
-          "Nasdaq: 27,190.86, +1.2%; high 27,353.68 \u2014 FMP ^IXIC",
-          "Dow: 51,176.96, +0.5% \u2014 FMP ^DJI",
-          "Russell 2000: 2,832.89, +0.9% \u2014 FMP ^RUT",
-          "VIX: 15.31, \u22126.6% \u2014 FMP ^VIX",
-          "AVGO/ORCL/AMD/NVDA/MSFT/AMZN/UNH/NKE/BABA closes \u2014 FMP mega_caps & actives",
-          "Gold GCUSD: 4,162.30, \u22121.0% \u2014 FMP cross_asset gold",
-          "USO: 147.37, \u22121.8% \u2014 FMP cross_asset wti",
-          "Brent BZUSD: 102.25, \u22120.1% \u2014 FMP cross_asset brent",
-          "UUP: 28.89, \u22120.2% \u2014 FMP cross_asset dxy",
-          "BTCUSD: 84,799, +0.1% \u2014 FMP cross_asset btc",
-          "Treasury 10y 5.3%, 2s10s 0.45 \u2014 FMP treasury",
-          "^N225, ^HSI, ^FTSE, EWG \u2014 FMP overseas",
-          "OPEC meeting 2026-10-04 \u2014 FMP economic_calendar"
+          "^GSPC: 7,722.72, +0.7% \u2014 FMP indexes",
+          "^IXIC: 27,190.86, +1.2% \u2014 FMP indexes",
+          "^DJI: 51,176.96, +0.5% \u2014 FMP indexes",
+          "^RUT: 2,832.89, +0.9% \u2014 FMP indexes",
+          "^VIX: 15.31, -6.6% \u2014 FMP indexes",
+          "$AMD: 633.91, +3.0%, yearHigh 645.46 \u2014 FMP mega_caps",
+          "$AVGO: 355.14, +3.3% \u2014 FMP mega_caps",
+          "$ORCL: 142.30, +3.1% \u2014 FMP mega_caps",
+          "$NVDA: 233.95, +1.3% \u2014 FMP actives",
+          "$NKE: 33.87, -3.6% \u2014 FMP actives",
+          "Brent: 101.40, -0.8% \u2014 FMP cross_asset",
+          "$USO: 147.37, -1.8% \u2014 FMP cross_asset",
+          "10-year Treasury: 5.3% (2026-10-02) \u2014 FMP treasury",
+          "ISM Services PMI estimate: 55.7 \u2014 FMP economic_calendar"
         ],
-        "source_url": "https://www.marketwatch.com/story/the-u-s-jobs-market-just-took-a-turn-for-the-worse-or-did-it-c44c371b",
-        "source_notes": "https://www.marketwatch.com/story/the-u-s-jobs-market-just-took-a-turn-for-the-worse-or-did-it-c44c371b"
+        "source_url": "https://tickeralpha.ai/docs/latest.json",
+        "source_notes": "https://tickeralpha.ai/docs/latest.json"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-04",
-    "generated_at": "2026-10-04T00:20:12-04:00",
-    "draft_path": "drafts/2026-10-04-week-ahead.md",
+    "session_date": "2026-10-05",
+    "generated_at": "2026-10-05T00:04:19-04:00",
+    "draft_path": "drafts/2026-10-05-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "ISM services PMI lands Monday at 55.7 est.",
+        "title": "Michigan sentiment Friday at 48.1 est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "ISM Services PMI (Sep) \u2014 Monday, Oct 5, 2:00 p.m.\nET.\n\nConsensus: 55.7.\nPrior: 55.4.\n\nThe index tracks orders, employment, and prices in industries like retail, healthcare, and logistics \u2014 not factories.\n\nSame release batch includes services new orders (est. 60.3), employment (est. 48.0), and a prices-paid sub-index (est. 72.9).\n\nThat prices line measures what service firms report paying suppliers; it does not replace the government\u2019s inflation reports.\n\nWhich sub-index do you watch first when the report hits?",
+        "body": "Michigan Consumer Sentiment (October) prints Friday, Oct. 9, at 2:00 p.m.\nET.\n\nConsensus: 48.1.\n\nPrior reading: 48.1.\n\nThe survey tracks how U.S. households feel about the economy and their own financial situation\u2014often cited alongside spending and confidence data.\n\nHigh-impact release on the U.S. calendar for the week of Oct. 5\u20139.\n\nWhat do you watch first when sentiment prints\u2014headline index or inflation expectations?",
         "skip_reason": "",
         "supporting_data": [
-          "ISM Services PMI (Sep) estimate: 55.7 \u2014 source: FMP economic calendar",
-          "ISM Services PMI (Sep) previous: 55.4 \u2014 source: FMP economic calendar",
-          "Release date/time: 2026-10-05 14:00:00 \u2014 source: FMP economic calendar",
-          "ISM Services New Orders estimate: 60.3 \u2014 source: FMP economic calendar",
-          "ISM Services Employment estimate: 48.0 \u2014 source: FMP economic calendar",
-          "ISM Services Prices estimate: 72.9 \u2014 source: FMP economic calendar"
+          "Michigan Consumer Sentiment (Oct) estimate: 48.1 \u2014 source: FMP economic_calendar",
+          "Michigan Consumer Sentiment (Oct) previous: 48.1 \u2014 source: FMP economic_calendar",
+          "Release date/time: 2026-10-09 14:00:00 US \u2014 source: FMP economic_calendar",
+          "Impact: High \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://site.financialmodelingprep.com/developer/docs#economics-calendar",
+        "source_notes": "https://site.financialmodelingprep.com/developer/docs#economics-calendar"
       },
       {
-        "title": "FOMC minutes drop Wednesday at 6 p.m.",
+        "title": "Jobless claims Thursday near 195K est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "FOMC Minutes \u2014 Wednesday, Oct 7, 6:00 p.m.\nET.\n\nThis is the detailed account of the most recent Federal Open Market Committee meeting, not a live rate decision.\n\nMarkets use it to see how committee members framed inflation, jobs, and financial conditions in their discussion.\n\nNo consensus \u201cestimate\u201d applies; the document either publishes on schedule or it does not.\n\nWeek window: Oct 5\u2013Oct 9.\n\nDo you read the minutes or wait for the summary headlines?",
+        "body": "Initial Jobless Claims (week of Oct. 3) land Thursday, Oct. 8, at 8:30 a.m.\nET.\n\nEstimate: 195K.\n\nPrevious: 197K.\n\nSame window: 4-week average est. 198K (prior 200K).\n\nContinuing claims (Sep. 26) est. 1,710K vs. prior 1,701K.\n\nThese counts measure how many people filed for unemployment benefits\u2014 a weekly read on layoffs and hiring friction.\n\nWhich print do you pair with claims\u2014the 4-week average or continuing claims?",
         "skip_reason": "",
         "supporting_data": [
-          "Event: FOMC Minutes \u2014 source: FMP economic calendar",
-          "Release date/time: 2026-10-07 18:00:00 \u2014 source: FMP economic calendar",
-          "Impact flag: High \u2014 source: FMP economic calendar",
-          "Week start: 2026-10-05 \u2014 source: FMP_DATA week-ahead",
-          "Week end: 2026-10-09 \u2014 source: FMP_DATA week-ahead"
+          "Initial Jobless Claims (Oct/03) estimate: 195K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims (Oct/03) previous: 197K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 198K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average previous: 200K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims (Sep/26) estimate: 1,710K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims (Sep/26) previous: 1,701K \u2014 source: FMP economic_calendar",
+          "Release date/time: 2026-10-08 12:30:00 US \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://site.financialmodelingprep.com/developer/docs#economics-calendar",
+        "source_notes": "https://site.financialmodelingprep.com/developer/docs#economics-calendar"
       },
       {
-        "title": "$PEP reports Thursday on $2.30 EPS est.",
+        "title": "Levi reports Tuesday on $0.36 EPS est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$PEP \u2014 PepsiCo, Inc.\nEarnings date: Thursday, Oct 8, 2026.\n\nEPS estimate: $2.30.\nRevenue estimate: ~$25.0B (24.97B in the calendar).\n\nThe report covers how price, volume, and mix translated into profit for global drinks and packaged foods.\n\nSame week also has consumer and industrial names on the calendar, including $STZ and $RPM on Oct 6 and $DAL on Oct 9 ($1.88 EPS est.).\n\nWhich line item matters most to you on a staples report \u2014 volume, margin, or guidance?",
+        "body": "$LEVI reports Tuesday, Oct. 7.\n\nEPS estimate: $0.36.\n\nRevenue estimate: ~$1.62B.\n\nLevi Strauss & Co. (NYSE)\u2014apparel and denim\u2014closes the print with the usual income statement and segment detail.\n\nOther names on the earnings slate this week include $LW and $RPM (Oct. 6), $APLD (Oct. 7), $PEP (Oct. 8), and $DAL (Oct. 9).\n\nDo you focus on wholesale vs. direct-to-consumer when denim names report?",
         "skip_reason": "",
         "supporting_data": [
-          "$PEP EPS estimate: 2.3 \u2014 source: FMP earnings calendar",
-          "$PEP revenue estimate: 24965630000 (~$25.0B) \u2014 source: FMP earnings calendar",
-          "$PEP earnings date: 2026-10-08 \u2014 source: FMP earnings calendar",
-          "$PEP market cap: 171,965,740,000.00 \u2014 source: FMP earnings calendar",
-          "$DAL EPS estimate: 1.88 \u2014 source: FMP earnings calendar",
-          "$DAL earnings date: 2026-10-09 \u2014 source: FMP earnings calendar"
+          "$LEVI earnings date: 2026-10-07 \u2014 source: FMP earnings_calendar",
+          "$LEVI EPS estimated: 0.36 \u2192 $0.36 \u2014 source: FMP earnings_calendar",
+          "$LEVI revenue estimated: 1,616,632,000 \u2192 ~$1.62B \u2014 source: FMP earnings_calendar",
+          "$LEVI exchange: NYSE \u2014 source: FMP earnings_calendar",
+          "$LEVI market cap: $7,774,609,293 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://site.financialmodelingprep.com/developer/docs#earnings-calendar",
+        "source_notes": "https://site.financialmodelingprep.com/developer/docs#earnings-calendar"
       }
     ]
   }

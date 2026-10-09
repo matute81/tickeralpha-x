@@ -1,202 +1,215 @@
 {
-  "updated_at": "2026-10-08T00:31:42-04:00",
+  "updated_at": "2026-10-09T00:36:15-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-08",
-    "generated_at": "2026-10-08T00:30:51-04:00",
-    "draft_path": "drafts/2026-10-08-am.md",
+    "session_date": "2026-10-09",
+    "generated_at": "2026-10-09T00:34:43-04:00",
+    "draft_path": "drafts/2026-10-09-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Fed minutes: unanimous September rate hike",
+        "title": "France\u2013Germany bond gap tops 140 basis points",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The September Fed meeting minutes describe a unanimous vote to raise interest rates among all nineteen committee participants.\n\nBloomberg reported that non-voting members joined voting members in backing the hike \u2014 a detail markets often watch for splits on how tight policy should stay.\n\nThe 10-year Treasury yield sat at 5.3% on the latest daily snapshot in the data (Oct. 6).\n\nPrior session, the S&P 500 closed down 0.2% at 7,801.77.\n\nWhat part of the minutes are you reading first \u2014 labor, inflation, or the path for rates?",
+        "body": "The gap between French and German government borrowing costs is above 140 basis points, per Federated Herm\u00e8s via WSJ.\n\nMoney is shifting from French OATs into German Bunds as that spread widens.\n\nThat puts France in the spotlight of the European bond sell-off narrative in the feed.\n\nGermany exposure in the data: $EWG \u22120.6% to 40.67.\n\nWhat are you tracking in European sovereign spreads this week?",
         "skip_reason": "",
         "supporting_data": [
-          "FOMC unanimity (19 participants): reported in minutes coverage \u2014 source: Bloomberg Markets and Finance (FMP news feed)",
-          "10-year Treasury yield: 5.3% \u2014 source: FMP treasury (date 2026-10-06)",
-          "S&P 500 close: 7,801.77, -0.2% \u2014 source: FMP indexes ^GSPC"
+          "OAT\u2013Bund spread: above 140 basis points \u2014 [source: WSJ news in FMP_DATA]",
+          "$EWG price: 40.67 \u2014 [source: FMP indexes/overseas ^GDAXI mapped to EWG]",
+          "$EWG change: \u22120.6% \u2014 [source: FMP overseas ^GDAXI]"
         ],
-        "source_url": "https://www.youtube.com/watch?v=bmyhGiroueM",
-        "source_notes": "https://www.youtube.com/watch?v=bmyhGiroueM"
+        "source_url": "https://www.wsj.com/finance/investing/investors-abandoning-french-government-bonds-for-german-bunds-70ea8a67",
+        "source_notes": "https://www.wsj.com/finance/investing/investors-abandoning-french-government-bonds-for-german-bunds-70ea8a67"
       },
       {
-        "title": "Trump cool on Iran deal; Brent +2.1%",
+        "title": "10-year Treasury yield at 5.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude closed up 2.1% at $102.35 in the cross-asset snapshot.\n\nCNBC reported Trump said he is not keen on a deal with Iran, with NBC News citing discussion of possibly resuming large-scale U.S. military operations in the coming weeks.\n\nThe same report tied public concern over gasoline and diesel costs to his approval ratings in the data\u2019s summary.\n\nGold futures were up 0.5% at $4,159.60 in the same window.\n\nOverseas indexes were lower ahead of the U.S. open:\n- Nikkei 225 -1.0% to 69,325.85\n- Hang Seng -0.9% to 23,910.00\n- FTSE 100 -0.8% to 10,458.50\n\nWhich headline are you tracking alongside oil \u2014 policy, shipping lanes, or fuel prices at the pump?",
+        "body": "10-year Treasury yield: 5.3% (Oct. 7 snapshot in the feed).\n\n2-year: 4.8%.\n\n2s10s spread: 0.51 pt.\n\n30-year: 5.7%.\n\n5-year: 5.0%.\n\nCoverage in the feed ties fast moves in yields to how the Fed may react to volatility\u2014not only how high rates go.\n\nWhich maturity on the curve are you watching?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude: $102.35, +2.1% \u2014 source: FMP cross_asset BZUSD",
-          "Gold futures: $4,159.60, +0.5% \u2014 source: FMP cross_asset GCUSD",
-          "Nikkei 225: 69,325.85, -1.0% \u2014 source: FMP overseas ^N225",
-          "Hang Seng: 23,910.00, -0.9% \u2014 source: FMP overseas ^HSI",
-          "FTSE 100: 10,458.50, -0.8% \u2014 source: FMP overseas ^FTSE"
+          "10-year yield: 5.3% \u2014 [source: FMP treasury]",
+          "2-year yield: 4.8% \u2014 [source: FMP treasury]",
+          "2s10s spread: 0.51 \u2014 [source: FMP treasury spread_2s10s]",
+          "30-year yield: 5.7% \u2014 [source: FMP treasury]",
+          "5-year yield: 5.0% \u2014 [source: FMP treasury]",
+          "Treasury date: 2026-10-07 \u2014 [source: FMP treasury]"
         ],
-        "source_url": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html",
-        "source_notes": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html"
+        "source_url": "https://www.youtube.com/watch?v=9MsplAiPh4Q",
+        "source_notes": "https://www.youtube.com/watch?v=9MsplAiPh4Q"
       },
       {
-        "title": "Three jobless prints at 12:30 p.m. ET",
+        "title": "Michigan sentiment due at 2 p.m. ET",
         "status": "ready",
         "kind": "x_idea",
-        "body": "At 12:30 p.m.\nET today, the U.S. publishes three weekly unemployment insurance figures.\n\nInitial jobless claims (week of Oct. 3):\n- Estimate: 200K\n- Prior: 197K\n\nFour-week average:\n- Estimate: 198K\n- Prior: 200K\n\nContinuing claims (week of Sep. 26):\n- Estimate: 1,710K\n- Prior: 1,701K\n\nAll three are flagged high impact in the economic calendar.\n\nFriday brings Michigan consumer sentiment for October \u2014 estimate 47.6 vs prior 48.1 at 2:00 p.m.\nET.\n\nWhich print in the trio do you treat as the cleanest read on layoffs right now?",
+        "body": "Michigan Consumer Sentiment (October) prints today at 2:00 p.m.\nET.\n\nConsensus: 47.6.\n\nPrior reading: 48.1.\n\nImpact flag in the calendar: High.\n\nWSJ noted Asian currencies mostly consolidating ahead of U.S. data in the morning session.\n\nPrior U.S. close in the feed:\n- $^GSPC \u22120.5% to 7,765.36\n- $^IXIC \u22121.3% to 27,193.34\n\nWhat would a print above or below 47.6 tell you about the consumer mood number?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial jobless claims estimate: 200K \u2014 source: FMP economic_calendar",
-          "Initial jobless claims previous: 197K \u2014 source: FMP economic_calendar",
-          "4-week average estimate: 198K \u2014 source: FMP economic_calendar",
-          "4-week average previous: 200K \u2014 source: FMP economic_calendar",
-          "Continuing claims estimate: 1,710K \u2014 source: FMP economic_calendar",
-          "Continuing claims previous: 1,701K \u2014 source: FMP economic_calendar",
-          "Michigan sentiment (Oct 9) estimate: 47.6, previous: 48.1 \u2014 source: FMP economic_calendar"
+          "Michigan estimate: 47.6 \u2014 [source: FMP economic_calendar]",
+          "Michigan previous: 48.1 \u2014 [source: FMP economic_calendar]",
+          "Release time: 2026-10-09 14:00:00 \u2014 [source: FMP economic_calendar]",
+          "S&P 500: 7,765.36, \u22120.5% \u2014 [source: FMP indexes ^GSPC]",
+          "Nasdaq Composite: 27,193.34, \u22121.3% \u2014 [source: FMP indexes ^IXIC]"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://www.wsj.com/finance/currencies/asian-currencies-mostly-consolidate-focus-on-u-s-data-fe613e38",
+        "source_notes": "https://www.wsj.com/finance/currencies/asian-currencies-mostly-consolidate-focus-on-u-s-data-fe613e38"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-08",
-    "generated_at": "2026-10-08T00:31:19-04:00",
-    "draft_path": "drafts/2026-10-08.md",
+    "session_date": "2026-10-09",
+    "generated_at": "2026-10-09T00:35:36-04:00",
+    "draft_path": "drafts/2026-10-09.md",
     "errors": [],
     "slots": [
       {
-        "title": "Meta down 2.4% at 721.31",
+        "title": "Nasdaq \u22121.3% on AI revenue report",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$META closed -2.4% at $721.31.\n\nThe stock\u2019s prior close was $738.88; the session range ran from $720.15 to $738.00.\n\nThe Nasdaq Composite finished -0.2% at 27,538.69 on the same session.\n\nAmong other large tech names in the tape, $GOOGL was +0.8% at $350.50 and $NVDA was -0.7% at $237.47.\n\nWhat stood out to you in megacap tech versus the broader Nasdaq close?",
+        "body": "$^IXIC \u22121.3% to 27,193.34 (\u2212345.35 pts).\n\n$^GSPC \u22120.5% to 7,765.36.\n\nBarron\u2019s linked the tech weakness to a report that OpenAI\u2019s annualized recurring revenue was lower than previously indicated.\n\nNamed megacap software and chips in the red:\n\n- $ORCL \u22125.6% to 135.56\n- $AMD \u22123.9% to 620.68\n- $MSFT \u22121.3% to 522.61\n- $NVDA \u22122.9% to 230.48\n\n$^VIX +2.2% to 15.41.\n\nWhich large-cap tech name moved most on your screen today?",
         "skip_reason": "",
         "supporting_data": [
-          "META changesPercentage: -2.4% \u2014 mega_caps / FMP EOD",
-          "META price: 721.31 \u2014 mega_caps",
-          "META previousClose: 738.88 \u2014 mega_caps",
-          "Nasdaq (^IXIC) changesPercentage: -0.2% \u2014 indexes",
-          "Nasdaq (^IXIC) price: 27,538.69 \u2014 indexes",
-          "GOOGL changesPercentage: +0.8% \u2014 mega_caps",
-          "GOOGL price: 350.50 \u2014 mega_caps",
-          "NVDA changesPercentage: -0.7% \u2014 mega_caps",
-          "NVDA price: 237.47 \u2014 mega_caps"
+          "Nasdaq Composite change: \u22121.3% \u2014 indexes.^IXIC",
+          "Nasdaq Composite close: 27,193.34 \u2014 indexes.^IXIC",
+          "S&P 500 change: \u22120.5% \u2014 indexes.^GSPC",
+          "S&P 500 close: 7,765.36 \u2014 indexes.^GSPC",
+          "ORCL change: \u22125.6% \u2014 mega_caps.ORCL",
+          "ORCL price: 135.56 \u2014 mega_caps.ORCL",
+          "AMD change: \u22123.9% \u2014 mega_caps.AMD",
+          "AMD price: 620.68 \u2014 mega_caps.AMD",
+          "MSFT change: \u22121.3% \u2014 mega_caps.MSFT",
+          "MSFT price: 522.61 \u2014 mega_caps.MSFT",
+          "NVDA change: \u22122.9% \u2014 actives.NVDA",
+          "NVDA price: 230.48 \u2014 actives.NVDA",
+          "VIX change: +2.2% \u2014 indexes.^VIX",
+          "VIX level: 15.41 \u2014 indexes.^VIX"
         ],
-        "source_url": "https://financialmodelingprep.com/",
-        "source_notes": "https://financialmodelingprep.com/"
+        "source_url": "https://www.barrons.com/articles/stocks-today-ai-report-hurts-tech-sector-ef58a52d",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-report-hurts-tech-sector-ef58a52d"
       },
       {
-        "title": "Lilly up 2.7% at 1,188.72",
+        "title": "Oracle down 5.6% at $135.56",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$LLY closed +2.7% at $1,188.72.\n\nThe session printed a high of $1,206.37 and a low of $1,166.00.\n\nHealthcare was the second-strongest sector in the Nasdaq grouping at +0.9% average change for 2026-10-08.\n\nUtilities led sectors at +2.3%; Technology was +1.1% on average despite mixed megacap single names.\n\nDoes Lilly\u2019s move change how you read healthcare versus utilities on this close?",
+        "body": "$ORCL \u22125.6% to 135.56 (\u22128.01).\n\nDay range: 134.80\u2013142.78.\n\nVolume: 41,276,815 shares.\n\nSame session, other large software and platform names:\n\n- $MSFT \u22121.3% to 522.61\n- $CRM +1.4% to 227.80\n- $META \u22120.1% to 720.89\n\n$^IXIC \u22121.3% to 27,193.34.\n\nDid you track $ORCL against the rest of your software watchlist today?",
         "skip_reason": "",
         "supporting_data": [
-          "LLY changesPercentage: +2.7% \u2014 mega_caps",
-          "LLY price: 1,188.72 \u2014 mega_caps",
-          "LLY dayHigh: 1,206.37 \u2014 mega_caps",
-          "LLY dayLow: 1,166.00 \u2014 mega_caps",
-          "Healthcare sector averageChange: +0.9% (rounded from 0.93) \u2014 sectors",
-          "Utilities sector averageChange: +2.3% (rounded from 2.26) \u2014 sectors",
-          "Technology sector averageChange: +1.1% (rounded from 1.14) \u2014 sectors"
+          "ORCL change: \u22125.6% \u2014 mega_caps.ORCL",
+          "ORCL price: 135.56 \u2014 mega_caps.ORCL",
+          "ORCL point change: \u22128.01 \u2014 mega_caps.ORCL",
+          "ORCL day low: 134.80 \u2014 mega_caps.ORCL",
+          "ORCL day high: 142.78 \u2014 mega_caps.ORCL",
+          "ORCL volume: 41,276,815 \u2014 mega_caps.ORCL",
+          "MSFT change: \u22121.3% \u2014 mega_caps.MSFT",
+          "MSFT price: 522.61 \u2014 mega_caps.MSFT",
+          "CRM change: +1.4% \u2014 mega_caps.CRM",
+          "CRM price: 227.80 \u2014 mega_caps.CRM",
+          "META change: \u22120.1% \u2014 mega_caps.META",
+          "META price: 720.89 \u2014 mega_caps.META",
+          "Nasdaq Composite change: \u22121.3% \u2014 indexes.^IXIC",
+          "Nasdaq Composite close: 27,193.34 \u2014 indexes.^IXIC"
         ],
-        "source_url": "https://financialmodelingprep.com/",
-        "source_notes": "https://financialmodelingprep.com/"
+        "source_url": "https://www.barrons.com/articles/stocks-today-ai-report-hurts-tech-sector-ef58a52d",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-report-hurts-tech-sector-ef58a52d"
       },
       {
-        "title": "Brent up 2.1% near 102.35",
+        "title": "Energy sector +1.2% led gainers",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude closed +2.1% at $102.35 in the commodity quote.\n\nReporting tied the tape to U.S. policy toward Iran and discussion of possible large-scale military operations in the coming weeks.\n\nU.S. oil fund $USO was -0.7% at $143.91 on the equity side of the feed.\n\nAmong energy megacaps in the same session:\n\n- $CVX -1.2% to $205.19\n- $XOM -0.3% to $164.06\n\nThe Energy sector\u2019s Nasdaq-grouped average was -0.9% for 2026-10-08.\n\nHow do you reconcile Brent\u2019s move with those equity energy prints on this close?",
+        "body": "Energy (NASDAQ sector basket): +1.2% average.\n\nMegacap oils:\n\n- $CVX +3.1% to 211.60\n- $XOM +2.7% to 168.56\n\nUtilities averaged \u22122.7% \u2014 weakest sector in the set.\n\nTechnology averaged \u22121.5%.\n\n$^DJI +0.1% to 51,231.64 while $^IXIC \u22121.3%.\n\nWhich sector divergence stood out to you \u2014 energy vs tech, or something else?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent (BZUSD) changesPercentage: +2.1% \u2014 cross_asset",
-          "Brent price: 102.35 \u2014 cross_asset",
-          "USO changesPercentage: -0.7% \u2014 cross_asset",
-          "USO price: 143.91 \u2014 cross_asset",
-          "CVX changesPercentage: -1.2% \u2014 mega_caps",
-          "CVX price: 205.19 \u2014 mega_caps",
-          "XOM changesPercentage: -0.3% \u2014 mega_caps",
-          "XOM price: 164.06 \u2014 mega_caps",
-          "Energy sector averageChange: -0.9% (rounded from -0.94) \u2014 sectors"
+          "Energy sector average change: +1.2% \u2014 sectors (Energy)",
+          "Utilities sector average change: \u22122.7% \u2014 sectors (Utilities)",
+          "Technology sector average change: \u22121.5% \u2014 sectors (Technology)",
+          "CVX change: +3.1% \u2014 mega_caps.CVX",
+          "CVX price: 211.60 \u2014 mega_caps.CVX",
+          "XOM change: +2.7% \u2014 mega_caps.XOM",
+          "XOM price: 168.56 \u2014 mega_caps.XOM",
+          "Dow Jones change: +0.1% \u2014 indexes.^DJI",
+          "Dow Jones close: 51,231.64 \u2014 indexes.^DJI",
+          "Nasdaq Composite change: \u22121.3% \u2014 indexes.^IXIC"
         ],
-        "source_url": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html",
-        "source_notes": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html"
+        "source_url": "https://www.wsj.com/finance/stocks/nikkei-falls-1-1-dragged-by-chip-metals-stocks-c8be4ccd",
+        "source_notes": "https://www.wsj.com/finance/stocks/nikkei-falls-1-1-dragged-by-chip-metals-stocks-c8be4ccd"
       },
       {
-        "title": "U.S. cash session \u2014 Oct. 8, 2026",
+        "title": "U.S. cash session \u2014 Oct. 9, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 finished -0.2% at 7,801.77, off 17.16 points from a prior close of 7,818.93.\nThe session range was 7,763.34 to 7,807.02.\n\nThe Nasdaq Composite matched the S&P\u2019s -0.2% tone, closing at 27,538.69 after a 61.20-point decline.\nThe intraday band ran 27,341.31 to 27,547.20.\n\nThe Dow Jones Industrial Average was the weakest major U.S. benchmark in the feed at -0.7%, closing 51,179.87, down 341.41 points.\nThe Russell 2000 fell -1.3% to 2,793.20, a 37.10-point drop from 2,830.30.\n\nThe CBOE Volatility Index rose +0.5% to 15.08, with an intraday high of 16.01 and low of 14.97.\n\nThree high-impact U.S. labor releases were on the calendar for 2026-10-08 at 12:30 p.m.\nET: Initial Jobless Claims (Oct/03), Continuing Jobless Claims (Sep/26), and the four-week average \u2014 each listed with prior figures and estimates in the feed, without session actuals in this payload.\n\nSector averages for Nasdaq-grouped industries on 2026-10-08 put Utilities up +2.3% and Technology up +1.1%.\nHealthcare averaged +0.9% and Consumer Cyclical +1.1%.\nReal Estate (-1.1%), Basic Materials (-1.0%), Energy (-0.9%), and Industrials (-0.7%) were among the weaker groups.\n\nMeta Platforms closed -2.4% at $721.31, the standout megcap decline in the set.\nEli Lilly rose +2.7% to $1,188.72.\nAlphabet Class A shares gained +0.8% to $350.50; Netflix +1.5% to $69.70; Walmart +0.9% to $108.16.\n\nPepsiCo was on the earnings calendar for 2026-10-08 with a listed EPS estimate of $2.29 and revenue estimate near $24.95B; the stock closed -1.6% at $123.73, with a session low of $123.47 matching the year low field in the quote.\n\nEnergy equities diverged from Brent: Brent crude was +2.1% at $102.35 while the U.S. Oil Fund ETF was -0.7% at $143.91.\nChevron -1.2% to $205.19 and Exxon Mobil -0.3% to $164.06 rounded out the large-cap energy read in the feed.\n\nGold futures rose +0.4% to $4,158.90.\nThe dollar-bullish fund proxy $UUP was +0.5% at $29.04.\nBitcoin USD quoted -0.5% at $82,859.72.\n\nOverseas indexes in the same snapshot showed the Nikkei 225 -1.0% at 69,301.84, FTSE 100 -0.8% at 10,458.50, and Hang Seng -0.9% at 23,911.00.\n\nThe latest Treasury snapshot in the feed (dated 2026-10-06) showed the 10-year yield at 5.3% and the 2s10s spread at 0.48 percentage points.",
+        "body": "The S&P 500 closed at 7,765.36, down 0.5% (\u221236.41 pts), with an intraday span of 7,731.26 to 7,797.79.\n\nThe Nasdaq Composite finished at 27,193.34, down 1.3% (\u2212345.35 pts), underperforming the S&P by roughly 0.8 percentage point on the injected percentage fields.\n\nThe Dow Jones Industrial Average rose 0.1% to 51,231.64 (+51.77 pts), while the Russell 2000 was flat at 2,794.13 (0.0%).\n\nThe CBOE Volatility Index ($^VIX) rose 2.2% to 15.41, with a session high of 16.46.\n\nOn the economic calendar for the session, U.S. Michigan Consumer Sentiment (October) was scheduled at 2:00 p.m.\nET with a consensus estimate of 47.6 vs a prior reading of 48.1 in the injected calendar; no actual print appears in the dataset.\n\nSector averages on NASDAQ showed Energy up 1.2% and Financial Services up 0.7%, while Utilities fell 2.7%, Industrials fell 1.8%, and Technology fell 1.5%.\n\nMegacap tech and software weakness included $ORCL \u22125.6% to 135.56, $AMD \u22123.9% to 620.68, $TSM \u22123.0% to 457.99, $MSFT \u22121.3% to 522.61, and $GOOGL \u22120.6% to 348.29; $NFLX bucked the group at +2.7% to 71.57.\n\nEnergy-linked megacaps closed higher:\n- $CVX +3.1% to 211.60\n- $XOM +2.7% to 168.56\n\naligned with the strongest sector average in the file.\n\nDefensive consumer names in the set included:\n- $PEP +3.7% to 128.34\n- $KO +2.3% to 87.77\n\n$LLY \u22121.6% to 1,169.93 among large healthcare.\n\n$DAL was on the earnings calendar for Oct. 9 with an EPS estimate of 1.77 and revenue estimate of about $17.65B; the stock closed \u22121.0% at 82.14 in the injected quote set, with no reported actuals in the payload.\n\nGold futures ($GCUSD) rose 1.2% to 4,206.60; the United States Oil Fund ($USO) rose 2.6% to 147.58 while Brent crude ($BZUSD) fell 1.5% to 102.75 in the cross-asset block.\n\nThe Invesco DB US Dollar Index Bullish Fund ($UUP) slipped 0.2% to 28.98; Bitcoin ($BTCUSD) rose 0.8% to 82,368.43.\n\nOverseas indexes in the file: Hang Seng +1.0% to 24,021.00; Nikkei 225 \u22120.3% to 68,806.94; FTSE 100 \u22120.2% to 10,441.60.\n\nTreasury yields in the injected snapshot (dated 2026-10-07) show the 10-year at 5.3% and the 2s10s spread at 0.51 percentage point.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: -0.2%, 7,801.77 \u2014 indexes",
-          "^IXIC: -0.2%, 27,538.69 \u2014 indexes",
-          "^DJI: -0.7%, 51,179.87 \u2014 indexes",
-          "^RUT: -1.3%, 2,793.20 \u2014 indexes",
-          "^VIX: +0.5%, 15.08 \u2014 indexes",
-          "Sector averages \u2014 sectors (2026-10-08)",
-          "META, LLY, GOOGL, NFLX, WMT, PEP \u2014 mega_caps / earnings_calendar",
-          "Brent, USO, gold, UUP, BTCUSD \u2014 cross_asset",
-          "^N225, ^FTSE, ^HSI \u2014 overseas",
-          "Treasury year10: 5.27, spread_2s10s: 0.48 \u2014 treasury"
+          "S&P 500 close / change: 7,765.36 / \u22120.5% \u2014 indexes.^GSPC",
+          "Nasdaq Composite close / change: 27,193.34 / \u22121.3% \u2014 indexes.^IXIC",
+          "Dow Jones close / change: 51,231.64 / +0.1% \u2014 indexes.^DJI",
+          "Russell 2000 close / change: 2,794.13 / 0.0% \u2014 indexes.^RUT",
+          "VIX close / change: 15.41 / +2.2% \u2014 indexes.^VIX",
+          "Michigan sentiment estimate / previous: 47.6 / 48.1 \u2014 economic_calendar",
+          "Sector averages: Energy +1.2%, Utilities \u22122.7%, Technology \u22121.5% \u2014 sectors",
+          "ORCL, AMD, CVX, XOM, DAL closes and changes \u2014 mega_caps / actives",
+          "Gold / USO / Brent / UUP / BTC \u2014 cross_asset",
+          "Hang Seng, Nikkei, FTSE \u2014 overseas",
+          "10-year yield / 2s10s spread: 5.3% / 0.51 \u2014 treasury"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-close-lower-still-near-record-highs-a20b7f43",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-close-lower-still-near-record-highs-a20b7f43"
+        "source_url": "https://www.cnbc.com/2026/10/08/jim-cramer-diversification-ai-selloff.html",
+        "source_notes": "https://www.cnbc.com/2026/10/08/jim-cramer-diversification-ai-selloff.html"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-08",
-    "generated_at": "2026-10-08T00:31:42-04:00",
-    "draft_path": "drafts/2026-10-08-week-ahead.md",
+    "session_date": "2026-10-09",
+    "generated_at": "2026-10-09T00:36:15-04:00",
+    "draft_path": "drafts/2026-10-09-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Delta reports Friday on $1.81 EPS est.",
+        "title": "Refresco IPO talks at $10B-plus",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$DAL reports Oct. 9.\n\nConsensus EPS: $1.81.\n\nRevenue estimate: about $17.65B.\n\nThe print is a snapshot of ticket demand, fuel and labor costs, and management\u2019s outlook for travel volumes.\n\nResults typically land before the U.S. cash open on report day.\n\nWhich line item do you watch first on airline earnings \u2014 revenue, unit costs, or guidance?",
+        "body": "Refresco, one of the world\u2019s largest independent beverage manufacturers, is weighing a potential U.S. listing.\n\nReuters says the company and KKR have taken pitches from investment banks in recent weeks for roles on an IPO.\n\nThe report cites people familiar with the matter and mentions a $10 billion-plus valuation figure \u2014 not a finalized price or timetable.\n\nAn offering would mark how public markets size contract manufacturing and private-label drinks demand.\n\nNo date or share count appears in the report; the next step is whether banks are formally hired.\n\nWhat other corporate actions on your radar this month?",
         "skip_reason": "",
         "supporting_data": [
-          "EPS estimate: $1.81 \u2014 [source: FMP earnings_calendar]",
-          "Revenue estimate: $17,651,850,000 (~$17.65B) \u2014 [source: FMP earnings_calendar]",
-          "Report date: 2026-10-09 \u2014 [source: FMP earnings_calendar]",
-          "Company: Delta Air Lines, Inc. ($DAL) \u2014 [source: FMP earnings_calendar]"
+          "Valuation cited in report: $10 billion-plus \u2014 [source: Reuters news in FMP_DATA]",
+          "Owner: KKR \u2014 [source: Reuters news in FMP_DATA]",
+          "Company: Refresco (Netherlands-based) \u2014 [source: Reuters news in FMP_DATA]"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://www.reuters.com/business/finance/refresco-plots-potential-ipo-10-billion-plus-valuation-sources-say-2026-10-08/",
+        "source_notes": "https://www.reuters.com/business/finance/refresco-plots-potential-ipo-10-billion-plus-valuation-sources-say-2026-10-08/"
       },
       {
-        "title": "PepsiCo Thursday: $2.29 EPS, ~$25B revenue",
+        "title": "Lycia Therapeutics files U.S. IPO",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$PEP reports Oct. 8.\n\nConsensus EPS: $2.29.\n\nRevenue estimate: about $24.95B.\n\nThe release covers how consumers are responding to prices across beverages and packaged foods, and what management says about input costs.\n\nThat mix makes it a consumer-spending datapoint, not just a single brand story.\n\nWhat do you look for in food-and-drink earnings \u2014 volume, price, or margin?",
+        "body": "Lycia Therapeutics ($LYCA) is in the market with a U.S. IPO for its autoimmune and inflammatory pipeline.\n\nSeeking Alpha notes the company is clinical-stage, with lead candidate LCA-0061 in Phase 1 for food allergy \u2014 the piece describes IgE reduction in early trials.\n\nProceeds are framed for advancing multiple programs, including Graves\u2019 disease work.\n\nThe syndicate and management track record are part of the filing story; terms and pricing are not set until the book builds.\n\nFood allergy is a growing treatment category; the filing is the public checkpoint on trial funding and timeline.\n\nWhich biotech IPO filings are you reading this quarter?",
         "skip_reason": "",
         "supporting_data": [
-          "EPS estimate: $2.29 \u2014 [source: FMP earnings_calendar]",
-          "Revenue estimate: $24,952,870,000 (~$24.95B) \u2014 [source: FMP earnings_calendar]",
-          "Report date: 2026-10-08 \u2014 [source: FMP earnings_calendar]",
-          "Company: PepsiCo, Inc. ($PEP) \u2014 [source: FMP earnings_calendar]"
+          "Lead candidate: LCA-0061 (Phase 1, food allergy) \u2014 [source: Seeking Alpha news in FMP_DATA]",
+          "Company: Lycia Therapeutics \u2014 [source: Seeking Alpha news in FMP_DATA]",
+          "Offering type: U.S. IPO \u2014 [source: Seeking Alpha news in FMP_DATA]"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://seekingalpha.com/article/4952923-lycia-therapeutics-launches-us-ipo-for-food-allergy-graves-disease-pipeline",
+        "source_notes": "https://seekingalpha.com/article/4952923-lycia-therapeutics-launches-us-ipo-for-food-allergy-graves-disease-pipeline"
       },
       {
-        "title": "Michigan sentiment Friday: 47.6 est. vs 48.1",
+        "title": "PepsiCo prints $2.34 EPS Oct. 8",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Oct. 9, 2:00 p.m.\nET: Michigan Consumer Sentiment (October).\n\nEstimate: 47.6.\n\nPrior reading: 48.1.\n\nThe index summarizes household views on personal finances and the economy \u2014 often cited alongside spending and inflation data.\n\nIt is flagged high-impact on the U.S. economic calendar for the week.\n\nDo you treat sentiment surveys as a leading signal or background noise?",
+        "body": "$PEP reported Oct. 8 \u2014 the print is in before the next full trading week.\n\nEPS came in at $2.34 vs a $2.29 estimate.\n\nRevenue was about $25.27B vs roughly $24.95B expected.\n\nThat pairing is the read on price, mix, and volume for snacks and beverages in the quarter.\n\nPepsiCo\u2019s market cap in the release data sits near $175.3B on NASDAQ.\n\nWith this name done, the calendar in the feed still had $DAL on Oct. 9 with a $1.77 EPS estimate and about $17.65B revenue estimate \u2014 check Friday\u2019s wire for that resolution.\n\nWhich staples or transport report do you treat as a demand thermometer?",
         "skip_reason": "",
         "supporting_data": [
-          "Event: Michigan Consumer Sentiment (Oct) \u2014 [source: FMP economic_calendar]",
-          "Date/time: 2026-10-09 14:00:00 (ET) \u2014 [source: FMP economic_calendar]",
-          "Estimate: 47.6 \u2014 [source: FMP economic_calendar]",
-          "Previous: 48.1 \u2014 [source: FMP economic_calendar]",
-          "Impact: High \u2014 [source: FMP economic_calendar]"
+          "$PEP EPS actual: 2.34 \u2014 [source: FMP earnings_calendar]",
+          "$PEP EPS estimate: 2.29 \u2014 [source: FMP earnings_calendar]",
+          "$PEP revenue actual: $25.27B (25,274,000,000) \u2014 [source: FMP earnings_calendar]",
+          "$PEP revenue estimate: $24.95B (24,952,870,000) \u2014 [source: FMP earnings_calendar]",
+          "$PEP market cap: $175.31B \u2014 [source: FMP earnings_calendar]",
+          "$DAL EPS estimate (Oct. 9): 1.77 \u2014 [source: FMP earnings_calendar]",
+          "$DAL revenue estimate (Oct. 9): $17.65B (17,651,850,000) \u2014 [source: FMP earnings_calendar]"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://site.financialmodelingprep.com/developer/docs/stable/earnings-calendar",
+        "source_notes": "https://site.financialmodelingprep.com/developer/docs/stable/earnings-calendar"
       }
     ]
   }

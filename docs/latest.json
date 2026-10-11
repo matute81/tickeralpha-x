@@ -1,208 +1,219 @@
 {
-  "updated_at": "2026-10-10T00:21:42-04:00",
+  "updated_at": "2026-10-11T00:01:06-04:00",
   "morning": {
     "mode": "morning",
     "session_date": "2026-10-10",
-    "generated_at": "2026-10-10T00:20:31-04:00",
+    "generated_at": "2026-10-11T00:00:02-04:00",
     "draft_path": "drafts/2026-10-10-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Trump says Putin will send diesel to global markets",
+        "title": "Bessent answers Warren on 10-year yield",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude settled at $104.72, up 0.4% on the session.\n\nThe headline is a U.S.\u2013Russia diesel supply arrangement framed as relief for fuel costs before the midterm elections.\n\nOil exposure in ETFs also ticked higher \u2014 the United States Oil Fund closed at $148.20, up 0.4%.\n\nWhat part of the diesel story \u2014 domestic pump prices, shipping, or geopolitics \u2014 are you tracking closest?",
+        "body": "The 10-year U.S. Treasury yield sits at 5.2% in the Oct. 8 treasury snapshot.\n\nThe gap between 2-year and 10-year yields is 0.47 percentage points on that same date.\n\nFox Business reports Scott Bessent responded to Elizabeth Warren\u2019s letter asking for information on the rise in the 10-year Treasury yield.\n\nWarren\u2019s letter and Bessent\u2019s reply put Washington\u2019s attention on bond yields at a time when stocks finished higher on Oct. 10.\n\n- $^GSPC +0.6% to 7,811.54\n- $^VIX -3.7% to 14.84\n\nWhat part of the yield story matters most to you \u2014 the level, the curve, or the politics?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude (BZUSD): 104.72, +0.4% \u2014 FMP cross_asset / Brent Crude Oil",
-          "USO (United States Oil Fund): 148.20, +0.4% \u2014 FMP cross_asset / wti proxy USO"
+          "10-year Treasury yield: 5.2% \u2014 FMP treasury (date 2026-10-08)",
+          "2s10s spread: 0.47 \u2014 FMP treasury (date 2026-10-08)",
+          "S&P 500 change: +0.6% \u2014 FMP indexes ^GSPC",
+          "S&P 500 level: 7,811.54 \u2014 FMP indexes ^GSPC",
+          "VIX change: -3.7% \u2014 FMP indexes ^VIX",
+          "VIX level: 14.84 \u2014 FMP indexes ^VIX"
         ],
-        "source_url": "https://www.wsj.com/politics/policy/trump-strikes-deal-with-putin-for-russian-diesel-15751436",
-        "source_notes": "https://www.wsj.com/politics/policy/trump-strikes-deal-with-putin-for-russian-diesel-15751436"
+        "source_url": "https://www.foxbusiness.com/politics/scott-bessent-responds-elizabeth-warren-letter-requesting-information-rise-10-year-treasury-yield",
+        "source_notes": "https://www.foxbusiness.com/politics/scott-bessent-responds-elizabeth-warren-letter-requesting-information-rise-10-year-treasury-yield"
       },
       {
-        "title": "S&P 500 up 0.6% after Iran strike timing comment",
+        "title": "Kremlin says Putin passed Iran view to Trump",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The S&P 500 finished at 7,811.54, up 0.6% (+46.18 points).\n\nThe Dow Jones Industrial Average rose 0.8% to 51,654.95.\n\nThe Nasdaq Composite gained 0.6% to 27,366.17.\n\nThe CBOE Volatility Index \u2014 a gauge of expected stock swings \u2014 fell 3.7% to 14.84 as the session risk tone eased.\n\nWhich index move surprised you more relative to the headlines \u2014 large caps or the volatility read?",
+        "body": "CNBC cites Kremlin reporting that Vladimir Putin relayed Iran\u2019s view on a possible resolution of the Iran conflict to U.S. President Donald Trump.\n\nThat headline landed alongside modest moves in energy and U.S. equity benchmarks after the Oct. 10 close.\n\n- Brent crude ($BZUSD): +0.4% to 104.72\n- United States Oil Fund ($USO): +0.4% to 148.20\n- $^GSPC: +0.6% to 7,811.54\n\nWhen energy headlines hit the tape, do you watch oil prices first or the major indexes?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 (^GSPC): 7,811.54, +0.6%, change +46.18 \u2014 FMP indexes",
-          "Dow (^DJI): 51,654.95, +0.8% \u2014 FMP indexes",
-          "Nasdaq (^IXIC): 27,366.17, +0.6% \u2014 FMP indexes",
-          "VIX (^VIX): 14.84, -3.7% \u2014 FMP indexes"
+          "Brent crude change: +0.4% \u2014 FMP cross_asset brent (BZUSD)",
+          "Brent crude price: 104.72 \u2014 FMP cross_asset brent (BZUSD)",
+          "USO change: +0.4% \u2014 FMP cross_asset wti (USO)",
+          "USO price: 148.20 \u2014 FMP cross_asset wti (USO)",
+          "S&P 500 change: +0.6% \u2014 FMP indexes ^GSPC",
+          "S&P 500 level: 7,811.54 \u2014 FMP indexes ^GSPC"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-iran-escalation-fears-subside-2ad4f362",
-        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-iran-escalation-fears-subside-2ad4f362"
+        "source_url": "https://www.cnbc.com/2026/10/10/putin-trump-iran-war-russia-diesel.html",
+        "source_notes": "https://www.cnbc.com/2026/10/10/putin-trump-iran-war-russia-diesel.html"
       },
       {
-        "title": "Russell 2000 up 0.5% amid 5.2% 10-year yield",
+        "title": "Supreme Court hears 401(k) private-fund case",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Russell 2000 closed at 2,806.98, up 0.5% on the day.\n\nCoverage tied the small-cap index to pressure from rising yields \u2014 borrowing costs that affect debt-heavy smaller firms.\n\nThe 10-year U.S. Treasury yield was 5.2% in the latest FMP snapshot (dated 2026-10-08).\n\nThe 2-year yield was 4.8%; the gap between 2-year and 10-year yields (2s10s spread) was 0.47 percentage points.\n\nWhen you look at rates versus size \u2014 do you watch the Russell 2000, the 10-year yield, or both?",
+        "body": "CNBC reports the Supreme Court heard a major 401(k) case this week.\n\nA former Intel employee argued plan fiduciaries breached their duty by investing in hedge funds and private equity, pointing in part to underperformance.\n\nLower courts had already rejected the claims, ruling underperformance alone is not enough without showing a meaningful benchmark for courts to judge performance.\n\nThe case sits at the intersection of retirement policy and how large employers allocate default savings \u2014 separate from where the S&P 500 closed Oct. 10.\n\n- $^GSPC +0.6% to 7,811.54\n- $^DJI +0.8% to 51,654.95\n\nDo you track Supreme Court cases that could change how workplace retirement plans are run?",
         "skip_reason": "",
         "supporting_data": [
-          "Russell 2000 (^RUT): 2,806.98, +0.5% \u2014 FMP indexes",
-          "10-year Treasury (year10): 5.2% \u2014 FMP treasury",
-          "2-year Treasury (year2): 4.8% \u2014 FMP treasury",
-          "2s10s spread (spread_2s10s): 0.47 \u2014 FMP treasury"
+          "S&P 500 change: +0.6% \u2014 FMP indexes ^GSPC",
+          "S&P 500 level: 7,811.54 \u2014 FMP indexes ^GSPC",
+          "Dow Jones change: +0.8% \u2014 FMP indexes ^DJI",
+          "Dow Jones level: 51,654.95 \u2014 FMP indexes ^DJI"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/as-yields-surged-small-cap-stocks-were-hit-hard-7470f7e4",
-        "source_notes": "https://www.wsj.com/finance/stocks/as-yields-surged-small-cap-stocks-were-hit-hard-7470f7e4"
+        "source_url": "https://www.cnbc.com/2026/10/10/supreme-court-case-401k-private-funds-intel.html",
+        "source_notes": "https://www.cnbc.com/2026/10/10/supreme-court-case-401k-private-funds-intel.html"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-10",
-    "generated_at": "2026-10-10T00:21:13-04:00",
-    "draft_path": "drafts/2026-10-10.md",
+    "session_date": "2026-10-11",
+    "generated_at": "2026-10-11T00:00:41-04:00",
+    "draft_path": "drafts/2026-10-11.md",
     "errors": [],
     "slots": [
       {
-        "title": "Amazon closed up 3.3% at 262.43",
+        "title": "Dow up 0.8% as VIX slips 3.7%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AMZN +3.3% to 262.43.\n\nPrior close was 254.06.\nDay range: 256.00\u2013262.77.\n\nVolume: 33.5M shares.\n\nAmong the largest U.S. tech weights in the feed, that was one of the largest percentage moves on the day.\n\nWhich megacap name stood out most in your watchlist Friday?\n\n#stocks",
+        "body": "The Dow Jones Industrial Average finished at 51,654.95, up 423.31 points (+0.8%).\n\nThe S&P 500 rose +0.6% to 7,811.54.\n\nThe Nasdaq Composite gained +0.6% to 27,366.17.\n\nThe Russell 2000 added +0.5% to 2,806.98.\n\nThe VIX closed at 14.84, down 0.57 points (-3.7%) from the prior session.\n\nWhich index\u2019s move stood out most to you on the close?",
         "skip_reason": "",
         "supporting_data": [
-          "AMZN change: +8.37 \u2014 mega_caps / FMP quote",
-          "AMZN price: 262.43 \u2014 mega_caps",
-          "AMZN changesPercentage: +3.3% \u2014 mega_caps",
-          "AMZN previousClose: 254.06 \u2014 mega_caps",
-          "AMZN dayLow: 256.00 \u2014 mega_caps",
-          "AMZN dayHigh: 262.77 \u2014 mega_caps",
-          "AMZN volume: 33,510,286 \u2014 mega_caps"
+          "Dow close: 51,654.95 \u2014 [source: FMP index quote ^DJI]",
+          "Dow change: +423.31 (+0.8%) \u2014 [source: FMP index quote ^DJI]",
+          "S&P 500 close: 7,811.54 (+0.6%) \u2014 [source: FMP index quote ^GSPC]",
+          "Nasdaq Composite close: 27,366.17 (+0.6%) \u2014 [source: FMP index quote ^IXIC]",
+          "Russell 2000 close: 2,806.98 (+0.5%) \u2014 [source: FMP index quote ^RUT]",
+          "VIX close: 14.84 (-3.7%) \u2014 [source: FMP index quote ^VIX]"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/AMZN",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/AMZN"
+        "source_url": "https://financialmodelingprep.com/stable/quote?symbol=^GSPC",
+        "source_notes": "https://financialmodelingprep.com/stable/quote?symbol=^GSPC"
       },
       {
-        "title": "AT&T and Verizon down 9.8% and 8.7%",
+        "title": "Mastercard up 2.7% with Visa",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Two household-name carriers led the downside in telecom:\n\n- $T \u22129.8% to 22.18\n- $VZ \u22128.7% to 41.65\n\n$T fell 2.41 from a 24.59 prior close.\n\n$VZ fell 3.99 from 45.64.\n\nBoth symbols showed up on the most-active screen alongside much smaller names.\n\nDid you track this as a sector move or stock-specific?\n\n#telecom",
+        "body": "$MA closed at 589.14, up 15.25 (+2.7%).\n\n$V finished at 385.45, up 10.35 (+2.8%).\n\n$V\u2019s session high was 386.84 \u2014 the same level as its 52-week high in the data.\n\nBoth names traded on heavier NYSE volume versus many megacap peers in the same snapshot.\n\nDid you track spending or travel names alongside the card networks today?",
         "skip_reason": "",
         "supporting_data": [
-          "T changesPercentage: \u22129.8% \u2014 actives",
-          "T price: 22.18 \u2014 actives",
-          "T change: \u22122.41 \u2014 actives (derived from price vs prior if needed; actives has change -2.41)",
-          "VZ changesPercentage: \u22128.7% \u2014 actives",
-          "VZ price: 41.65 \u2014 actives",
-          "VZ change: \u22123.99 \u2014 actives"
+          "MA close: 589.14 (+2.7%) \u2014 [source: FMP quote MA]",
+          "MA change: +15.25 \u2014 [source: FMP quote MA]",
+          "V close: 385.45 (+2.8%) \u2014 [source: FMP quote V]",
+          "V day high / year high: 386.84 \u2014 [source: FMP quote V]",
+          "V volume: 5,826,430 \u2014 [source: FMP quote V]"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/stock_market/actives",
-        "source_notes": "https://financialmodelingprep.com/api/v3/stock_market/actives"
+        "source_url": "https://financialmodelingprep.com/stable/quote?symbol=MA",
+        "source_notes": "https://financialmodelingprep.com/stable/quote?symbol=MA"
       },
       {
-        "title": "Visa up 2.8%; high touched 386.84",
+        "title": "Apple down 1.1% on green tape",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$V +2.8% to 385.45.\n\nThe stock added 10.35 on the day.\n\nIntraday high: 386.84 \u2014 the same level as its 52-week high in the feed.\n\nPrior close: 375.10.\n\nHow often do you watch 52-week highs versus daily percent moves?",
+        "body": "$AAPL closed at 336.64, down 3.78 (-1.1%).\n\nThe stock\u2019s low was 330.70 versus a high of 338.60 on the session.\n\nMeanwhile the S&P 500 and Nasdaq Composite each finished +0.6% in the same data snapshot.\n\nVolume on $AAPL was 37,821,157 shares.\n\nWhat megacap name diverged most from the index move for you?",
         "skip_reason": "",
         "supporting_data": [
-          "V changesPercentage: +2.8% \u2014 mega_caps",
-          "V price: 385.45 \u2014 mega_caps",
-          "V change: +10.35 \u2014 mega_caps",
-          "V dayHigh: 386.84 \u2014 mega_caps",
-          "V yearHigh: 386.84 \u2014 mega_caps",
-          "V previousClose: 375.10 \u2014 mega_caps"
+          "AAPL close: 336.64 (-1.1%) \u2014 [source: FMP quote AAPL]",
+          "AAPL previous close: 340.42 \u2014 [source: FMP quote AAPL]",
+          "AAPL day range: 330.70\u2013338.60 \u2014 [source: FMP quote AAPL]",
+          "AAPL volume: 37,821,157 \u2014 [source: FMP quote AAPL]",
+          "S&P 500 changesPercentage: +0.6% \u2014 [source: FMP index quote ^GSPC]",
+          "Nasdaq changesPercentage: +0.6% \u2014 [source: FMP index quote ^IXIC]"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/V",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/V"
+        "source_url": "https://financialmodelingprep.com/stable/quote?symbol=AAPL",
+        "source_notes": "https://financialmodelingprep.com/stable/quote?symbol=AAPL"
       },
       {
-        "title": "U.S. cash session \u2014 Oct. 10, 2026",
+        "title": "U.S. cash session \u2014 Oct. 11, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "U.S. equities finished higher across the major benchmarks, with coverage tying the tone to easing concern after remarks that the U.S. would not strike Iran before the midterm elections, reducing fear of a wider Middle East conflict and related energy disruption.\n\nThe S&P 500 rose 0.6% to 7,811.54, up 46.18 points from 7,765.36, with an intraday span of 7,779.34 to 7,820.57.\n\nThe Nasdaq Composite matched that 0.6% gain, closing at 27,366.17 (+172.83), while the Dow Jones Industrial Average led among the big three at +0.8%, finishing at 51,654.95 (+423.31).\n\nThe Russell 2000 added 0.5% to 2,806.98, and the CBOE Volatility Index fell 3.7% to 14.84 (\u22120.57 from 15.41), the lowest close level in that cross-asset set for the day.\n\nMegacap leadership included:\n- $AMZN +3.3% to 262.43\n- $MSFT +2.4% to 535.07\n- $V +2.8% to 385.45\n- $TSLA +2.1% to 382.70\n\n$JNJ rose 1.9% to 261.44 and $LLY added 0.8% to 1,179.27.\n\nMegacap decliners included $AAPL \u22121.1% to 336.64, $HD \u22121.6% to 290.74, $NFLX \u22121.8% to 70.30, and $TSM \u22121.0% to 453.31; $NVDA slipped 0.5% to 229.28 on very heavy volume (84.3M shares in the feed).\n\nTelecom stood out on the downside among liquid actives: $T \u22129.8% to 22.18 and $VZ \u22128.7% to 41.65, far wider moves than most other large-cap names in the dataset.\n\nGold futures (GCUSD) rose 1.4% to 4,216.30 (+59.30), Brent crude (BZUSD) added 0.4% to 104.72, and the UUP dollar proxy ticked up 0.1% to 29.02; Bitcoin (BTCUSD) was roughly flat at 82,616.42 (+0.1%).\n\nThe latest Treasury snapshot in the feed (dated 2026-10-08) showed the 10-year yield at 5.2% and the 2s10s spread at 0.47 percentage points; no new U.S. economic releases were listed in the session economic calendar block.\n\nOverseas indexes in the bundle included the FTSE 100 +1.1% at 10,552.05 and the Hang Seng +0.3% at 24,211.30; the Nikkei 225 was essentially unchanged at 69,030.92.\n\nSector ETF performance was not populated in the injected sector array for this close, and the earnings calendar block carried no reported actuals for the session.\n\nCommentary in the news set noted stocks \u201cback in rally mode\u201d after a brief AI-related selloff and flagged bank and chipmaker reports plus inflation data as items on the calendar for the week ahead\u2014describing scheduled events, not outcomes.",
+        "body": "The Dow led the major U.S. indexes, closing at 51,654.95 (+0.8%, +423.31 points).\nThe S&P 500 finished at 7,811.54 (+0.6%) and the Nasdaq Composite at 27,366.17 (+0.6%).\nThe Russell 2000 rose to 2,806.98 (+0.5%).\n\nThe CBOE Volatility Index fell to 14.84, down 0.57 points (-3.7%), with an intraday range of 14.77 to 15.34 in the injected data.\n\nPayment networks stood out among megacaps: Visa closed at 385.45 (+2.8%) with a session high of 386.84, and Mastercard at 589.14 (+2.7%).\n\nHealth-care heavyweights also closed higher: UnitedHealth at 379.30 (+2.3%), Johnson & Johnson at 261.44 (+1.9%), and AbbVie at 276.47 (+1.5%), with AbbVie\u2019s session high at 277.60 matching its 52-week high in the quote file.\n\nTesla finished at 382.70 (+2.1%) on volume of 38,834,397 shares.\nAlphabet Class A closed at 351.66 (+1.0%) and Class C at 347.86 (+0.9%).\n\nApple bucked the broader index tone, closing at 336.64 (-1.1%) after trading between 330.70 and 338.60.\nHome Depot fell to 290.74 (-1.6%) and PepsiCo to 125.97 (-1.8%).\n\nTelecom saw large percentage declines in the active-volume list: AT&T at 22.18 (-9.8%) and Verizon at 41.65 (-8.7%), both on the session\u2019s most-active screen in the injected data.\n\nFinancials mixed with the tape: JPMorgan Chase at 332.99 (+0.5%) and Bank of America at 54.32 (+1.3%).\nMeta Platforms closed at 718.67 (-0.3%).\n\nGold futures (GCUSD) settled at 4,216.30, up 59.30 (+1.4%).\nBrent crude (BZUSD) was at 104.72 (+0.4%); the United States Oil Fund (USO) closed at 148.20 (+0.4%).\n\nThe Invesco DB US Dollar Index Bullish Fund (UUP) ticked to 29.02 (+0.1%).\nBitcoin (BTCUSD) was at 82,733.16 (-0.2%) in the cross-asset block.\n\nTreasury yields in the injected snapshot (dated 2026-10-09) showed the 10-year at 5.2% and the 2s10s spread at 0.44 percentage points.\nNo sector ETF performance array was included in this payload, and the earnings calendar block was empty.\n\nOverseas indexes in the same file included the FTSE 100 at 10,552.05 (+1.1%) and the Hang Seng at 24,211.30 (+0.3%), while the Nikkei 225 was essentially flat at 69,030.92.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,811.54, +0.6%, +46.18 \u2014 indexes",
-          "^IXIC: 27,366.17, +0.6%, +172.83 \u2014 indexes",
-          "^DJI: 51,654.95, +0.8%, +423.31 \u2014 indexes",
-          "^RUT: 2,806.98, +0.5% \u2014 indexes",
-          "^VIX: 14.84, \u22123.7%, \u22120.57 \u2014 indexes",
-          "AMZN, MSFT, V, TSLA, JNJ, LLY, AAPL, HD, NFLX, TSM, NVDA \u2014 mega_caps (as cited)",
-          "T, VZ \u2014 actives",
-          "GCUSD: 4,216.30, +1.4% \u2014 cross_asset.gold",
-          "BZUSD: 104.72, +0.4% \u2014 cross_asset.brent",
-          "UUP: 29.02, +0.1% \u2014 cross_asset.dxy",
-          "BTCUSD: 82,616.42, +0.1% \u2014 cross_asset.btc",
-          "year10: 5.2%, spread_2s10s: 0.47 \u2014 treasury (date 2026-10-08)",
-          "^FTSE, ^HSI, ^N225 \u2014 overseas",
-          "Iran escalation / stocks rise narrative \u2014 news WSJ 2026-10-09"
+          "^DJI: 51,654.95 (+0.8%) \u2014 [source: FMP index quote ^DJI]",
+          "^GSPC: 7,811.54 (+0.6%) \u2014 [source: FMP index quote ^GSPC]",
+          "^IXIC: 27,366.17 (+0.6%) \u2014 [source: FMP index quote ^IXIC]",
+          "^RUT: 2,806.98 (+0.5%) \u2014 [source: FMP index quote ^RUT]",
+          "^VIX: 14.84 (-3.7%) \u2014 [source: FMP index quote ^VIX]",
+          "V: 385.45 (+2.8%); MA: 589.14 (+2.7%) \u2014 [source: FMP mega_caps]",
+          "UNH/JNJ/ABBV: +2.3% / +1.9% / +1.5% \u2014 [source: FMP mega_caps]",
+          "TSLA: 382.70 (+2.1%) \u2014 [source: FMP mega_caps]",
+          "AAPL: 336.64 (-1.1%); HD: 290.74 (-1.6%); PEP: 125.97 (-1.8%) \u2014 [source: FMP mega_caps]",
+          "T: 22.18 (-9.8%); VZ: 41.65 (-8.7%) \u2014 [source: FMP actives]",
+          "GCUSD: 4,216.30 (+1.4%); BZUSD: 104.72 (+0.4%); USO: 148.20 (+0.4%) \u2014 [source: FMP cross_asset]",
+          "UUP: 29.02 (+0.1%); BTCUSD: 82,733.16 (-0.2%) \u2014 [source: FMP cross_asset]",
+          "year10: 5.2%; spread_2s10s: 0.44 \u2014 [source: FMP treasury]"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-iran-escalation-fears-subside-2ad4f362",
-        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-iran-escalation-fears-subside-2ad4f362"
+        "source_url": "https://financialmodelingprep.com/stable/quote?symbol=^GSPC",
+        "source_notes": "https://financialmodelingprep.com/stable/quote?symbol=^GSPC"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-10",
-    "generated_at": "2026-10-10T00:21:42-04:00",
-    "draft_path": "drafts/2026-10-10-week-ahead.md",
+    "session_date": "2026-10-11",
+    "generated_at": "2026-10-11T00:01:06-04:00",
+    "draft_path": "drafts/2026-10-11-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Six Wall Street banks report Monday",
+        "title": "BAC, MS, BLK earnings Tuesday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Monday, Oct. 13, opens a heavy bank and financials earnings stretch for the week of Oct. 12\u201316.\n\nAnalysts have $JPM at about $5.93 EPS on roughly $51.2B in revenue.\n\nSame day, estimates sit at $12.86 EPS for $GS and $1.85 for $WFC.\n\n$C is pegged at $2.65 EPS; $UNH at $4.15; $JNJ at $2.50.\n\nThose prints cover lending activity, trading revenue, and\u2014for $UNH and $JNJ\u2014health spending trends in the quarter.\n\nResults land when each company releases; there is no single shared release time in the calendar.\n\nWhich line item do you watch first on a big-bank report\u2014net interest income or investment banking fees?",
+        "body": "Tuesday, Oct. 14: more financials on the calendar.\n\n- $BAC \u2014 EPS estimate $1.10; revenue estimate about $30.58B\n- $MS \u2014 EPS estimate $2.93; revenue estimate about $19.93B\n- $BLK \u2014 EPS estimate $14.33; revenue estimate about $7.43B\n\nSame session also includes $STT (EPS est.\n$3.63), $PGR (EPS est.\n$4.30), and $FAST (EPS est.\n$0.34).\n\nReports land as Q3 earnings season continues; the prints show loan activity, trading revenue, and fee income for the quarter.\n\nWhich line item do you watch first on a big-bank report \u2014 net interest income or investment banking fees?",
         "skip_reason": "",
         "supporting_data": [
-          "JPM EPS estimate: 5.93 \u2014 source: FMP earnings_calendar",
-          "JPM revenue estimate: 51233790000 (~$51.2B rounded for reader) \u2014 source: FMP earnings_calendar",
-          "GS EPS estimate: 12.86 \u2014 source: FMP earnings_calendar",
-          "WFC EPS estimate: 1.85 \u2014 source: FMP earnings_calendar",
-          "C EPS estimate: 2.65 \u2014 source: FMP earnings_calendar",
-          "UNH EPS estimate: 4.15 \u2014 source: FMP earnings_calendar",
-          "JNJ EPS estimate: 2.50 \u2014 source: FMP earnings_calendar",
-          "Earnings dates: 2026-10-13 \u2014 source: FMP earnings_calendar"
+          "BAC EPS estimate: 1.10 \u2014 source: FMP earnings_calendar",
+          "BAC revenue estimate: 30582100000 \u2014 source: FMP earnings_calendar",
+          "MS EPS estimate: 2.93 \u2014 source: FMP earnings_calendar",
+          "MS revenue estimate: 19927270000 \u2014 source: FMP earnings_calendar",
+          "BLK EPS estimate: 14.33 \u2014 source: FMP earnings_calendar",
+          "BLK revenue estimate: 7431096000 \u2014 source: FMP earnings_calendar",
+          "STT EPS estimate: 3.63 \u2014 source: FMP earnings_calendar",
+          "PGR EPS estimate: 4.3 \u2014 source: FMP earnings_calendar",
+          "FAST EPS estimate: 0.34 \u2014 source: FMP earnings_calendar",
+          "Report date: 2026-10-14 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/",
+        "source_notes": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/"
       },
       {
-        "title": "September CPI prints Tuesday 12:30 p.m.",
+        "title": "PPI and jobless claims Wednesday 12:30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Tuesday, Oct. 14, at 12:30 p.m.\nET, September U.S. inflation data is scheduled.\n\nHeadline inflation is expected up 3.6% from a year ago; August was 3.4%.\n\nMonth-over-month headline CPI carries a 0.6% estimate versus 0.4% prior.\n\n\u201cCore\u201d inflation, which strips out volatile food and energy prices, is estimated at 2.5% year-over-year after 2.4%.\n\nCore month-over-month is estimated at 0.2% after 0.3%.\n\nThe release resolves how the September price level compares with what economists modeled before the print.\n\nDo you track headline CPI or core CPI more closely month to month?",
+        "body": "Wednesday, Oct. 15, 12:30 p.m.\nET \u2014 a stacked release window.\n\nJobless claims (week ended Oct. 10):\n- Initial claims estimate: 197K (prior 197K)\n- 4-week average estimate: 199K (prior 198K)\n\nProducer Price Index (September) \u2014 prices businesses charge before goods reach store shelves:\n- PPI MoM estimate: +0.5% (prior +0.4%)\n- Core PPI MoM estimate: +0.3% (prior +0.2%)\n- PPI YoY estimate: +5.9% (prior +5.4%)\n\nSame time slot also includes NY Empire State manufacturing (Oct.) estimate 3.2 (prior 7.6).\n\nThe numbers update hiring friction and pipeline inflation ahead of consumer-facing data later that morning.\n\nDo you treat PPI as a leading signal for consumer inflation, or mostly noise?",
         "skip_reason": "",
         "supporting_data": [
-          "Event date/time: 2026-10-14 12:30:00 \u2014 source: FMP economic_calendar",
-          "Inflation Rate YoY (Sep) estimate: 3.6% \u2014 source: FMP economic_calendar",
-          "Inflation Rate YoY (Sep) previous: 3.4% \u2014 source: FMP economic_calendar",
-          "Inflation Rate MoM (Sep) estimate: 0.6% \u2014 source: FMP economic_calendar",
-          "Inflation Rate MoM (Sep) previous: 0.4% \u2014 source: FMP economic_calendar",
-          "Core Inflation Rate YoY (Sep) estimate: 2.5% \u2014 source: FMP economic_calendar",
-          "Core Inflation Rate YoY (Sep) previous: 2.4% \u2014 source: FMP economic_calendar",
-          "Core Inflation Rate MoM (Sep) estimate: 0.2% \u2014 source: FMP economic_calendar",
-          "Core Inflation Rate MoM (Sep) previous: 0.3% \u2014 source: FMP economic_calendar"
+          "Initial Jobless Claims estimate: 197K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims previous: 197K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 199K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average previous: 198K \u2014 source: FMP economic_calendar",
+          "PPI MoM (Sep) estimate: 0.5% \u2014 source: FMP economic_calendar",
+          "PPI MoM (Sep) previous: 0.4% \u2014 source: FMP economic_calendar",
+          "Core PPI MoM (Sep) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Core PPI MoM (Sep) previous: 0.2% \u2014 source: FMP economic_calendar",
+          "PPI YoY (Sep) estimate: 5.9% \u2014 source: FMP economic_calendar",
+          "PPI YoY (Sep) previous: 5.4% \u2014 source: FMP economic_calendar",
+          "NY Empire State Manufacturing Index (Oct) estimate: 3.2 \u2014 source: FMP economic_calendar",
+          "NY Empire State Manufacturing Index (Oct) previous: 7.6 \u2014 source: FMP economic_calendar",
+          "Release datetime: 2026-10-15 12:30:00 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/",
+        "source_notes": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/"
       },
       {
-        "title": "September retail sales due Wednesday",
+        "title": "Regional banks report Thursday Oct. 16",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Wednesday, Oct. 15, the Census Bureau\u2019s September retail sales report is on the calendar.\n\nHeadline retail sales month-over-month are estimated at 0.2%; August was 1.4%.\n\nRetail sales excluding autos are estimated up 0.5% month-over-month; August was 1.4%.\n\nA separate 1:30 p.m.\nET line shows retail sales ex gas and autos estimated at 0.2% month-over-month after 1.2%.\n\nYear-over-year retail sales carry a 5.2% estimate versus 6.0% prior.\n\nThe same morning also schedules producer prices (PPI) and weekly jobless claims at 12:30 p.m.\nET\u2014wholesale inflation and layoff filings in one window.\n\nWhich September spending slice matters more to you\u2014headline retail or ex-autos?",
+        "body": "Thursday, Oct. 16 \u2014 regional lenders and a major insurer on the earnings slate.\n\n- $TFC \u2014 EPS estimate $1.14; revenue estimate about $5.35B\n- $MTB \u2014 EPS estimate $4.93; revenue estimate about $2.53B\n- $CFG \u2014 EPS estimate $1.39; revenue estimate about $2.34B\n- $RF \u2014 EPS estimate $0.66; revenue estimate about $1.99B\n- $TRV \u2014 EPS estimate $7.29; revenue estimate about $11.34B\n\nThese names sit below the money-center banks in size; their Q3 prints spell out credit trends and regional loan demand after a week of larger bank reports.\n\nWhich regional name is on your calendar this week?",
         "skip_reason": "",
         "supporting_data": [
-          "Retail Sales MoM (Sep) date: 2026-10-15 12:30:00 \u2014 source: FMP economic_calendar",
-          "Retail Sales MoM (Sep) estimate: 0.2% \u2014 source: FMP economic_calendar",
-          "Retail Sales MoM (Sep) previous: 1.4% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Autos MoM (Sep) estimate: 0.5% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Autos MoM (Sep) previous: 1.4% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Gas/Autos MoM (Sep) estimate: 0.2% \u2014 source: FMP economic_calendar",
-          "Retail Sales Ex Gas/Autos MoM (Sep) previous: 1.2% \u2014 source: FMP economic_calendar",
-          "Retail Sales YoY (Sep) estimate: 5.2% \u2014 source: FMP economic_calendar",
-          "Retail Sales YoY (Sep) previous: 6.0% \u2014 source: FMP economic_calendar"
+          "TFC EPS estimate: 1.14 \u2014 source: FMP earnings_calendar",
+          "TFC revenue estimate: 5349878000 \u2014 source: FMP earnings_calendar",
+          "MTB EPS estimate: 4.93 \u2014 source: FMP earnings_calendar",
+          "MTB revenue estimate: 2530742000 \u2014 source: FMP earnings_calendar",
+          "CFG EPS estimate: 1.39 \u2014 source: FMP earnings_calendar",
+          "CFG revenue estimate: 2339381000 \u2014 source: FMP earnings_calendar",
+          "RF EPS estimate: 0.663 \u2014 source: FMP earnings_calendar",
+          "RF revenue estimate: 1986262000 \u2014 source: FMP earnings_calendar",
+          "TRV EPS estimate: 7.29 \u2014 source: FMP earnings_calendar",
+          "TRV revenue estimate: 11338440000 \u2014 source: FMP earnings_calendar",
+          "Report date: 2026-10-16 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/",
+        "source_notes": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/"
       }
     ]
   }

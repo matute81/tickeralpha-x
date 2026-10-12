@@ -1,219 +1,196 @@
 {
-  "updated_at": "2026-10-11T00:01:06-04:00",
+  "updated_at": "2026-10-12T00:21:26-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-10",
-    "generated_at": "2026-10-11T00:00:02-04:00",
-    "draft_path": "drafts/2026-10-10-am.md",
+    "session_date": "2026-10-12",
+    "generated_at": "2026-10-12T00:20:24-04:00",
+    "draft_path": "drafts/2026-10-12-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Bessent answers Warren on 10-year yield",
+        "title": "Brent down 1.3% after energy ceasefire headline",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The 10-year U.S. Treasury yield sits at 5.2% in the Oct. 8 treasury snapshot.\n\nThe gap between 2-year and 10-year yields is 0.47 percentage points on that same date.\n\nFox Business reports Scott Bessent responded to Elizabeth Warren\u2019s letter asking for information on the rise in the 10-year Treasury yield.\n\nWarren\u2019s letter and Bessent\u2019s reply put Washington\u2019s attention on bond yields at a time when stocks finished higher on Oct. 10.\n\n- $^GSPC +0.6% to 7,811.54\n- $^VIX -3.7% to 14.84\n\nWhat part of the yield story matters most to you \u2014 the level, the curve, or the politics?",
+        "body": "Brent crude (BZUSD) finished at 103.31, down 1.3% (-1.41) from the prior close of 104.72.\n\nCNBC tied the move to Trump\u2019s statement that Russia and Ukraine will not target each other\u2019s energy facilities.\n\nThe U.S. oil ETF $USO closed up 0.4% at 148.20 \u2014 a smaller move than Brent in the cross-asset snapshot.\n\nWhat energy headlines are you tracking this week?",
         "skip_reason": "",
         "supporting_data": [
-          "10-year Treasury yield: 5.2% \u2014 FMP treasury (date 2026-10-08)",
-          "2s10s spread: 0.47 \u2014 FMP treasury (date 2026-10-08)",
-          "S&P 500 change: +0.6% \u2014 FMP indexes ^GSPC",
-          "S&P 500 level: 7,811.54 \u2014 FMP indexes ^GSPC",
-          "VIX change: -3.7% \u2014 FMP indexes ^VIX",
-          "VIX level: 14.84 \u2014 FMP indexes ^VIX"
+          "Brent (BZUSD) price: 103.31 \u2014 FMP cross_asset.brent",
+          "Brent change: -1.41 \u2014 FMP cross_asset.brent",
+          "Brent changesPercentage: -1.3% \u2014 FMP cross_asset.brent",
+          "Brent previousClose: 104.72 \u2014 FMP cross_asset.brent",
+          "USO price: 148.20 \u2014 FMP cross_asset.wti (USO)",
+          "USO changesPercentage: 0.4% \u2014 FMP cross_asset.wti"
         ],
-        "source_url": "https://www.foxbusiness.com/politics/scott-bessent-responds-elizabeth-warren-letter-requesting-information-rise-10-year-treasury-yield",
-        "source_notes": "https://www.foxbusiness.com/politics/scott-bessent-responds-elizabeth-warren-letter-requesting-information-rise-10-year-treasury-yield"
+        "source_url": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html",
+        "source_notes": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html"
       },
       {
-        "title": "Kremlin says Putin passed Iran view to Trump",
+        "title": "September existing home sales due Monday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "CNBC cites Kremlin reporting that Vladimir Putin relayed Iran\u2019s view on a possible resolution of the Iran conflict to U.S. President Donald Trump.\n\nThat headline landed alongside modest moves in energy and U.S. equity benchmarks after the Oct. 10 close.\n\n- Brent crude ($BZUSD): +0.4% to 104.72\n- United States Oil Fund ($USO): +0.4% to 148.20\n- $^GSPC: +0.6% to 7,811.54\n\nWhen energy headlines hit the tape, do you watch oil prices first or the major indexes?",
+        "body": "Existing Home Sales (Sep) is on the U.S. calendar for 2026-10-13 at 2:00 p.m.\nET \u2014 high impact in the FMP economic calendar.\n\nConsensus estimate: 3.96 million units (annual rate).\n\nPrior reading: 3.98 million.\n\nMonth-over-month change (Sep): estimate -0.3% vs previous -2.0%.\n\nThe release measures closed sales of previously owned homes \u2014 a read on mortgage rates, inventory, and household demand.\n\nWhich housing datapoint do you watch first \u2014 level or MoM?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude change: +0.4% \u2014 FMP cross_asset brent (BZUSD)",
-          "Brent crude price: 104.72 \u2014 FMP cross_asset brent (BZUSD)",
-          "USO change: +0.4% \u2014 FMP cross_asset wti (USO)",
-          "USO price: 148.20 \u2014 FMP cross_asset wti (USO)",
-          "S&P 500 change: +0.6% \u2014 FMP indexes ^GSPC",
-          "S&P 500 level: 7,811.54 \u2014 FMP indexes ^GSPC"
+          "Existing Home Sales (Sep) estimate: 3.96 M \u2014 FMP economic_calendar",
+          "Existing Home Sales (Sep) previous: 3.98 M \u2014 FMP economic_calendar",
+          "Existing Home Sales MoM (Sep) estimate: -0.3% \u2014 FMP economic_calendar",
+          "Existing Home Sales MoM (Sep) previous: -2% \u2014 FMP economic_calendar",
+          "Event date/time: 2026-10-13 14:00:00 US \u2014 FMP economic_calendar"
         ],
-        "source_url": "https://www.cnbc.com/2026/10/10/putin-trump-iran-war-russia-diesel.html",
-        "source_notes": "https://www.cnbc.com/2026/10/10/putin-trump-iran-war-russia-diesel.html"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "Supreme Court hears 401(k) private-fund case",
+        "title": "10-year Treasury at 5.2% as Fed voices linger",
         "status": "ready",
         "kind": "x_idea",
-        "body": "CNBC reports the Supreme Court heard a major 401(k) case this week.\n\nA former Intel employee argued plan fiduciaries breached their duty by investing in hedge funds and private equity, pointing in part to underperformance.\n\nLower courts had already rejected the claims, ruling underperformance alone is not enough without showing a meaningful benchmark for courts to judge performance.\n\nThe case sits at the intersection of retirement policy and how large employers allocate default savings \u2014 separate from where the S&P 500 closed Oct. 10.\n\n- $^GSPC +0.6% to 7,811.54\n- $^DJI +0.8% to 51,654.95\n\nDo you track Supreme Court cases that could change how workplace retirement plans are run?",
+        "body": "U.S. Treasury yields in the FMP set dated 2026-10-09:\n\n- 2-year: 4.8%\n- 10-year: 5.2%\n- 2s10s spread: 0.44\n\nThe 30-year printed at 5.6%; the 20-year at 5.7%.\n\nThe Wall Street Journal reported Cleveland Fed President Beth Hammack saying that when companies still have pricing power, she worries rates are not yet high enough to tame inflation \u2014 the Fed\u2019s job is to keep prices stable over time.\n\nSeeking Alpha\u2019s weekend piece flagged upcoming CPI and PPI as near-term catalysts for rates and valuations; those prints are not in today\u2019s FMP calendar block.\n\nWhere do you look first \u2014 the 10-year level or the 2s10s spread?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 change: +0.6% \u2014 FMP indexes ^GSPC",
-          "S&P 500 level: 7,811.54 \u2014 FMP indexes ^GSPC",
-          "Dow Jones change: +0.8% \u2014 FMP indexes ^DJI",
-          "Dow Jones level: 51,654.95 \u2014 FMP indexes ^DJI"
+          "Treasury date: 2026-10-09 \u2014 FMP treasury",
+          "year2: 4.8% \u2014 FMP treasury",
+          "year10: 5.2% \u2014 FMP treasury",
+          "year30: 5.6% \u2014 FMP treasury",
+          "year20: 5.7% \u2014 FMP treasury",
+          "spread_2s10s: 0.44 \u2014 FMP treasury"
         ],
-        "source_url": "https://www.cnbc.com/2026/10/10/supreme-court-case-401k-private-funds-intel.html",
-        "source_notes": "https://www.cnbc.com/2026/10/10/supreme-court-case-401k-private-funds-intel.html"
+        "source_url": "https://www.wsj.com/finance/investing/beth-hammack-cleveland-fed-inflation-7751c731",
+        "source_notes": "https://www.wsj.com/finance/investing/beth-hammack-cleveland-fed-inflation-7751c731"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-11",
-    "generated_at": "2026-10-11T00:00:41-04:00",
-    "draft_path": "drafts/2026-10-11.md",
+    "session_date": "2026-10-12",
+    "generated_at": "2026-10-12T00:20:56-04:00",
+    "draft_path": "drafts/2026-10-12.md",
     "errors": [],
     "slots": [
       {
-        "title": "Dow up 0.8% as VIX slips 3.7%",
+        "title": "Oracle closes up 4.7% at 141.53",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Dow Jones Industrial Average finished at 51,654.95, up 423.31 points (+0.8%).\n\nThe S&P 500 rose +0.6% to 7,811.54.\n\nThe Nasdaq Composite gained +0.6% to 27,366.17.\n\nThe Russell 2000 added +0.5% to 2,806.98.\n\nThe VIX closed at 14.84, down 0.57 points (-3.7%) from the prior session.\n\nWhich index\u2019s move stood out most to you on the close?",
+        "body": "$ORCL closed up 4.7% at 141.53.\n\nThe session range ran from 136.50 to 142.90 on about 25.4M shares traded.\n\nThe Nasdaq technology sector average change was -0.6% on the same date, so Oracle moved against that group trend in the injected sector table.\n\nWhich megacap software name stood out most in your watchlist on this tape?",
         "skip_reason": "",
         "supporting_data": [
-          "Dow close: 51,654.95 \u2014 [source: FMP index quote ^DJI]",
-          "Dow change: +423.31 (+0.8%) \u2014 [source: FMP index quote ^DJI]",
-          "S&P 500 close: 7,811.54 (+0.6%) \u2014 [source: FMP index quote ^GSPC]",
-          "Nasdaq Composite close: 27,366.17 (+0.6%) \u2014 [source: FMP index quote ^IXIC]",
-          "Russell 2000 close: 2,806.98 (+0.5%) \u2014 [source: FMP index quote ^RUT]",
-          "VIX close: 14.84 (-3.7%) \u2014 [source: FMP index quote ^VIX]"
+          "ORCL change: +4.7% \u2014 FMP mega_caps / EOD",
+          "ORCL price: 141.53 \u2014 FMP mega_caps",
+          "ORCL day low / high: 136.50 / 142.90 \u2014 FMP mega_caps",
+          "ORCL volume: 25,432,782 \u2014 FMP mega_caps",
+          "Technology sector averageChange: -0.6% \u2014 FMP sectors (NASDAQ, 2026-10-12)"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/quote?symbol=^GSPC",
-        "source_notes": "https://financialmodelingprep.com/stable/quote?symbol=^GSPC"
+        "source_url": "https://www.barrons.com/articles/stock-futures-sunday-trading-ff4907b5",
+        "source_notes": "https://www.barrons.com/articles/stock-futures-sunday-trading-ff4907b5"
       },
       {
-        "title": "Mastercard up 2.7% with Visa",
+        "title": "Healthcare sector average up 2.1%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$MA closed at 589.14, up 15.25 (+2.7%).\n\n$V finished at 385.45, up 10.35 (+2.8%).\n\n$V\u2019s session high was 386.84 \u2014 the same level as its 52-week high in the data.\n\nBoth names traded on heavier NYSE volume versus many megacap peers in the same snapshot.\n\nDid you track spending or travel names alongside the card networks today?",
+        "body": "On the injected Nasdaq sector snapshot for 2026-10-12, Healthcare averaged +2.1%, the second-largest sector gain after Utilities (+2.8%).\n\nNamed large-cap moves in the same data:\n\n- $UNH +2.3% to 379.30\n- $JNJ +1.9% to 261.44\n- $ABBV +1.5% to 276.47\n\n$ABBV\u2019s session high was 277.60, matching its 52-week high field in the injected profile.\n\nDid you track this group against the flat-to-down tech average (-0.6%) on the same tape?",
         "skip_reason": "",
         "supporting_data": [
-          "MA close: 589.14 (+2.7%) \u2014 [source: FMP quote MA]",
-          "MA change: +15.25 \u2014 [source: FMP quote MA]",
-          "V close: 385.45 (+2.8%) \u2014 [source: FMP quote V]",
-          "V day high / year high: 386.84 \u2014 [source: FMP quote V]",
-          "V volume: 5,826,430 \u2014 [source: FMP quote V]"
+          "Healthcare sector averageChange: +2.1% \u2014 FMP sectors (2026-10-12)",
+          "Utilities sector averageChange: +2.8% \u2014 FMP sectors (2026-10-12)",
+          "Technology sector averageChange: -0.6% \u2014 FMP sectors (2026-10-12)",
+          "UNH: +2.3%, 379.30 \u2014 FMP mega_caps",
+          "JNJ: +1.9%, 261.44 \u2014 FMP mega_caps",
+          "ABBV: +1.5%, 276.47, yearHigh 277.60, dayHigh 277.60 \u2014 FMP mega_caps"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/quote?symbol=MA",
-        "source_notes": "https://financialmodelingprep.com/stable/quote?symbol=MA"
+        "source_url": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b",
+        "source_notes": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b"
       },
       {
-        "title": "Apple down 1.1% on green tape",
+        "title": "Brent crude down 1.3% to 103.33",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AAPL closed at 336.64, down 3.78 (-1.1%).\n\nThe stock\u2019s low was 330.70 versus a high of 338.60 on the session.\n\nMeanwhile the S&P 500 and Nasdaq Composite each finished +0.6% in the same data snapshot.\n\nVolume on $AAPL was 37,821,157 shares.\n\nWhat megacap name diverged most from the index move for you?",
+        "body": "Brent crude ($BZUSD) finished down 1.3% at 103.33 in the injected cross-asset table.\n\nThe session span in that data was 102.39 to 105.63.\n\nCNBC tied the move to President Donald Trump saying Russia and Ukraine would not target each other\u2019s energy facilities.\n\nIn the same snapshot, the United States Oil Fund ($USO) was up 0.4% at 148.20, while the injected Energy sector average on Nasdaq was -0.2%.\n\nWhat oil price level are you using to gauge risk appetite this week?",
         "skip_reason": "",
         "supporting_data": [
-          "AAPL close: 336.64 (-1.1%) \u2014 [source: FMP quote AAPL]",
-          "AAPL previous close: 340.42 \u2014 [source: FMP quote AAPL]",
-          "AAPL day range: 330.70\u2013338.60 \u2014 [source: FMP quote AAPL]",
-          "AAPL volume: 37,821,157 \u2014 [source: FMP quote AAPL]",
-          "S&P 500 changesPercentage: +0.6% \u2014 [source: FMP index quote ^GSPC]",
-          "Nasdaq changesPercentage: +0.6% \u2014 [source: FMP index quote ^IXIC]"
+          "BZUSD (Brent): -1.3%, 103.33 \u2014 FMP cross_asset",
+          "BZUSD day range: 102.39\u2013105.63 \u2014 FMP cross_asset",
+          "USO: +0.4%, 148.20 \u2014 FMP cross_asset",
+          "Energy sector averageChange: -0.2% \u2014 FMP sectors (2026-10-12)"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/quote?symbol=AAPL",
-        "source_notes": "https://financialmodelingprep.com/stable/quote?symbol=AAPL"
+        "source_url": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html",
+        "source_notes": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html"
       },
       {
-        "title": "U.S. cash session \u2014 Oct. 11, 2026",
+        "title": "U.S. cash session \u2014 Oct. 12, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Dow led the major U.S. indexes, closing at 51,654.95 (+0.8%, +423.31 points).\nThe S&P 500 finished at 7,811.54 (+0.6%) and the Nasdaq Composite at 27,366.17 (+0.6%).\nThe Russell 2000 rose to 2,806.98 (+0.5%).\n\nThe CBOE Volatility Index fell to 14.84, down 0.57 points (-3.7%), with an intraday range of 14.77 to 15.34 in the injected data.\n\nPayment networks stood out among megacaps: Visa closed at 385.45 (+2.8%) with a session high of 386.84, and Mastercard at 589.14 (+2.7%).\n\nHealth-care heavyweights also closed higher: UnitedHealth at 379.30 (+2.3%), Johnson & Johnson at 261.44 (+1.9%), and AbbVie at 276.47 (+1.5%), with AbbVie\u2019s session high at 277.60 matching its 52-week high in the quote file.\n\nTesla finished at 382.70 (+2.1%) on volume of 38,834,397 shares.\nAlphabet Class A closed at 351.66 (+1.0%) and Class C at 347.86 (+0.9%).\n\nApple bucked the broader index tone, closing at 336.64 (-1.1%) after trading between 330.70 and 338.60.\nHome Depot fell to 290.74 (-1.6%) and PepsiCo to 125.97 (-1.8%).\n\nTelecom saw large percentage declines in the active-volume list: AT&T at 22.18 (-9.8%) and Verizon at 41.65 (-8.7%), both on the session\u2019s most-active screen in the injected data.\n\nFinancials mixed with the tape: JPMorgan Chase at 332.99 (+0.5%) and Bank of America at 54.32 (+1.3%).\nMeta Platforms closed at 718.67 (-0.3%).\n\nGold futures (GCUSD) settled at 4,216.30, up 59.30 (+1.4%).\nBrent crude (BZUSD) was at 104.72 (+0.4%); the United States Oil Fund (USO) closed at 148.20 (+0.4%).\n\nThe Invesco DB US Dollar Index Bullish Fund (UUP) ticked to 29.02 (+0.1%).\nBitcoin (BTCUSD) was at 82,733.16 (-0.2%) in the cross-asset block.\n\nTreasury yields in the injected snapshot (dated 2026-10-09) showed the 10-year at 5.2% and the 2s10s spread at 0.44 percentage points.\nNo sector ETF performance array was included in this payload, and the earnings calendar block was empty.\n\nOverseas indexes in the same file included the FTSE 100 at 10,552.05 (+1.1%) and the Hang Seng at 24,211.30 (+0.3%), while the Nikkei 225 was essentially flat at 69,030.92.",
+        "body": "The S&P 500 closed up 0.6% at 7,811.54 (+46.18 points), with a session range of 7,779.34 to 7,820.57 in the injected index feed.\n\nThe Nasdaq Composite rose 0.6% to 27,366.17 (+172.83), and the Dow Jones Industrial Average gained 0.8% to 51,654.95 (+423.31).\n\nThe Russell 2000 added 0.5% to 2,806.98, while the CBOE Volatility Index ($VIX) fell 3.7% to 14.84 (session low 14.77).\n\nSector averages on the injected Nasdaq table for 2026-10-12 put Utilities up 2.8% and Healthcare up 2.1%, with Consumer Cyclical +1.3% and Real Estate +1.0%; Industrials averaged -0.9% and Technology -0.6%, Communication Services -0.5%, and Energy -0.2%.\n\nAmong megacaps in the same snapshot, $MSFT rose 2.4% to 535.07, $ORCL gained 4.7% to 141.53, and $AMZN added 3.3% to 262.43; $TSLA was up 2.1% to 382.70.\n\n$AAPL slipped 1.1% to 336.64 (day low 330.70), and $NVDA edged down 0.5% to 229.28; $META was off 0.3% to 718.67.\n\nHealthcare names in the injected set included:\n- $UNH +2.3% to 379.30\n- $JNJ +1.9% to 261.44\n- $ABBV +1.5% to 276.47\n\nwith $ABBV\u2019s printed high at 277.60.\n\nThe most active list in the data showed $T down 9.8% to 22.18 and $VZ down 8.7% to 41.65 on heavy attention names alongside smaller-cap actives.\n\nTreasury yields in the injected curve dated 2026-10-09 showed the 10-year at 5.2%, the 2-year at 4.8%, and a 2s10s spread of 0.44 percentage points.\n\nGold futures in the cross-asset block rose 0.2% to 4,223.50; Bitcoin ($BTCUSD) was down 0.3% to 83,391.57, and the dollar proxy $UUP ticked up 0.1% to 29.02.\n\nOverseas indexes in the package included FTSE 100 +1.1% to 10,552.05 and the Hang Seng flat at 24,217.00; Brent crude finished down 1.3% at 103.33 after weekend headlines on energy-facility targeting.\n\nThe injected U.S. calendar for the date listed Columbus Day (impact none), an IMF meeting, and a scheduled Fed Hammack speech; the earnings calendar array was empty and no macro print fields were attached to this close bundle.",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI: 51,654.95 (+0.8%) \u2014 [source: FMP index quote ^DJI]",
-          "^GSPC: 7,811.54 (+0.6%) \u2014 [source: FMP index quote ^GSPC]",
-          "^IXIC: 27,366.17 (+0.6%) \u2014 [source: FMP index quote ^IXIC]",
-          "^RUT: 2,806.98 (+0.5%) \u2014 [source: FMP index quote ^RUT]",
-          "^VIX: 14.84 (-3.7%) \u2014 [source: FMP index quote ^VIX]",
-          "V: 385.45 (+2.8%); MA: 589.14 (+2.7%) \u2014 [source: FMP mega_caps]",
-          "UNH/JNJ/ABBV: +2.3% / +1.9% / +1.5% \u2014 [source: FMP mega_caps]",
-          "TSLA: 382.70 (+2.1%) \u2014 [source: FMP mega_caps]",
-          "AAPL: 336.64 (-1.1%); HD: 290.74 (-1.6%); PEP: 125.97 (-1.8%) \u2014 [source: FMP mega_caps]",
-          "T: 22.18 (-9.8%); VZ: 41.65 (-8.7%) \u2014 [source: FMP actives]",
-          "GCUSD: 4,216.30 (+1.4%); BZUSD: 104.72 (+0.4%); USO: 148.20 (+0.4%) \u2014 [source: FMP cross_asset]",
-          "UUP: 29.02 (+0.1%); BTCUSD: 82,733.16 (-0.2%) \u2014 [source: FMP cross_asset]",
-          "year10: 5.2%; spread_2s10s: 0.44 \u2014 [source: FMP treasury]"
+          "^GSPC: +0.6%, 7,811.54 \u2014 FMP indexes",
+          "^IXIC: +0.6%, 27,366.17 \u2014 FMP indexes",
+          "^DJI: +0.8%, 51,654.95 \u2014 FMP indexes",
+          "^RUT: +0.5%, 2,806.98 \u2014 FMP indexes",
+          "^VIX: -3.7%, 14.84 \u2014 FMP indexes",
+          "Sector averages (Utilities 2.8%, Healthcare 2.1%, Technology -0.6%, etc.) \u2014 FMP sectors",
+          "Mega_cap and actives figures as cited \u2014 FMP mega_caps / actives",
+          "Treasury 10y 5.2%, 2y 4.8%, spread_2s10s 0.44 \u2014 FMP treasury (2026-10-09)",
+          "GCUSD +0.2% 4,223.50; BZUSD -1.3% 103.33; BTCUSD -0.3% 83,391.57; UUP +0.1% 29.02 \u2014 FMP cross_asset",
+          "^FTSE +1.1% 10,552.05; ^HSI 0.0% 24,217.00 \u2014 FMP overseas"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/quote?symbol=^GSPC",
-        "source_notes": "https://financialmodelingprep.com/stable/quote?symbol=^GSPC"
+        "source_url": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html",
+        "source_notes": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-11",
-    "generated_at": "2026-10-11T00:01:06-04:00",
-    "draft_path": "drafts/2026-10-11-week-ahead.md",
+    "session_date": "2026-10-12",
+    "generated_at": "2026-10-12T00:21:26-04:00",
+    "draft_path": "drafts/2026-10-12-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "BAC, MS, BLK earnings Tuesday",
+        "title": "September home resales print Monday at 2 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Tuesday, Oct. 14: more financials on the calendar.\n\n- $BAC \u2014 EPS estimate $1.10; revenue estimate about $30.58B\n- $MS \u2014 EPS estimate $2.93; revenue estimate about $19.93B\n- $BLK \u2014 EPS estimate $14.33; revenue estimate about $7.43B\n\nSame session also includes $STT (EPS est.\n$3.63), $PGR (EPS est.\n$4.30), and $FAST (EPS est.\n$0.34).\n\nReports land as Q3 earnings season continues; the prints show loan activity, trading revenue, and fee income for the quarter.\n\nWhich line item do you watch first on a big-bank report \u2014 net interest income or investment banking fees?",
+        "body": "September existing home sales \u2014 closed deals on previously owned homes \u2014 release Monday, Oct. 13, at 2:00 p.m.\nET.\n\nThe level estimate is 3.96 million (annualized pace).\n\nThe month-over-month change estimate is -0.3%.\n\nPrior reading: 3.98 million; prior MoM was -2.0%.\n\nThe print summarizes how many resale transactions finished in September, a direct read on mortgage rates and inventory versus new construction.\n\nWhat do you watch first on a housing print \u2014 the level or the monthly change?\n\n#Economy #Housing",
         "skip_reason": "",
         "supporting_data": [
-          "BAC EPS estimate: 1.10 \u2014 source: FMP earnings_calendar",
-          "BAC revenue estimate: 30582100000 \u2014 source: FMP earnings_calendar",
-          "MS EPS estimate: 2.93 \u2014 source: FMP earnings_calendar",
-          "MS revenue estimate: 19927270000 \u2014 source: FMP earnings_calendar",
-          "BLK EPS estimate: 14.33 \u2014 source: FMP earnings_calendar",
-          "BLK revenue estimate: 7431096000 \u2014 source: FMP earnings_calendar",
-          "STT EPS estimate: 3.63 \u2014 source: FMP earnings_calendar",
-          "PGR EPS estimate: 4.3 \u2014 source: FMP earnings_calendar",
-          "FAST EPS estimate: 0.34 \u2014 source: FMP earnings_calendar",
-          "Report date: 2026-10-14 \u2014 source: FMP earnings_calendar"
+          "Existing Home Sales (Sep) estimate: 3.96 M \u2014 [source: FMP economic_calendar]",
+          "Existing Home Sales MoM (Sep) estimate: -0.3% \u2014 [source: FMP economic_calendar]",
+          "Existing Home Sales (Sep) previous: 3.98 M \u2014 [source: FMP economic_calendar]",
+          "Existing Home Sales MoM (Sep) previous: -2.0% \u2014 [source: FMP economic_calendar]",
+          "Release time: 2026-10-13 14:00:00 US \u2014 [source: FMP economic_calendar]"
         ],
-        "source_url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/",
-        "source_notes": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/"
+        "source_url": "https://www.barrons.com/articles/stock-futures-sunday-trading-ff4907b5",
+        "source_notes": "https://www.barrons.com/articles/stock-futures-sunday-trading-ff4907b5"
       },
       {
-        "title": "PPI and jobless claims Wednesday 12:30",
+        "title": "Fastenal reports Tuesday with $0.34 EPS est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Wednesday, Oct. 15, 12:30 p.m.\nET \u2014 a stacked release window.\n\nJobless claims (week ended Oct. 10):\n- Initial claims estimate: 197K (prior 197K)\n- 4-week average estimate: 199K (prior 198K)\n\nProducer Price Index (September) \u2014 prices businesses charge before goods reach store shelves:\n- PPI MoM estimate: +0.5% (prior +0.4%)\n- Core PPI MoM estimate: +0.3% (prior +0.2%)\n- PPI YoY estimate: +5.9% (prior +5.4%)\n\nSame time slot also includes NY Empire State manufacturing (Oct.) estimate 3.2 (prior 7.6).\n\nThe numbers update hiring friction and pipeline inflation ahead of consumer-facing data later that morning.\n\nDo you treat PPI as a leading signal for consumer inflation, or mostly noise?",
+        "body": "$FAST reports Tuesday, Oct. 14.\n\nEPS estimate: $0.34.\n\nRevenue estimate: about $2.44 billion.\n\nFastenal sells fasteners and MRO supplies into factories and job sites, so the line items often track capex and construction activity before broader industrials report.\n\nResults land in the same week as large bank and inflation prints, but the customer mix is manufacturing and onsite consumption, not trading desks.\n\nWhich single-name industrial report do you treat as the earliest demand thermometer?\n\n#Earnings",
         "skip_reason": "",
         "supporting_data": [
-          "Initial Jobless Claims estimate: 197K \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims previous: 197K \u2014 source: FMP economic_calendar",
-          "Jobless Claims 4-Week Average estimate: 199K \u2014 source: FMP economic_calendar",
-          "Jobless Claims 4-Week Average previous: 198K \u2014 source: FMP economic_calendar",
-          "PPI MoM (Sep) estimate: 0.5% \u2014 source: FMP economic_calendar",
-          "PPI MoM (Sep) previous: 0.4% \u2014 source: FMP economic_calendar",
-          "Core PPI MoM (Sep) estimate: 0.3% \u2014 source: FMP economic_calendar",
-          "Core PPI MoM (Sep) previous: 0.2% \u2014 source: FMP economic_calendar",
-          "PPI YoY (Sep) estimate: 5.9% \u2014 source: FMP economic_calendar",
-          "PPI YoY (Sep) previous: 5.4% \u2014 source: FMP economic_calendar",
-          "NY Empire State Manufacturing Index (Oct) estimate: 3.2 \u2014 source: FMP economic_calendar",
-          "NY Empire State Manufacturing Index (Oct) previous: 7.6 \u2014 source: FMP economic_calendar",
-          "Release datetime: 2026-10-15 12:30:00 \u2014 source: FMP economic_calendar"
+          "$FAST earnings date: 2026-10-14 \u2014 [source: FMP earnings_calendar]",
+          "$FAST EPS estimate: 0.34 (from 0.34) \u2014 [source: FMP earnings_calendar]",
+          "$FAST revenue estimate: $2,440,289,000 \u2014 [source: FMP earnings_calendar]",
+          "$FAST exchange: NASDAQ \u2014 [source: FMP earnings_calendar]"
         ],
-        "source_url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/",
-        "source_notes": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/"
+        "source_url": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b",
+        "source_notes": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b"
       },
       {
-        "title": "Regional banks report Thursday Oct. 16",
+        "title": "Schwab and Interactive Brokers report Wednesday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Thursday, Oct. 16 \u2014 regional lenders and a major insurer on the earnings slate.\n\n- $TFC \u2014 EPS estimate $1.14; revenue estimate about $5.35B\n- $MTB \u2014 EPS estimate $4.93; revenue estimate about $2.53B\n- $CFG \u2014 EPS estimate $1.39; revenue estimate about $2.34B\n- $RF \u2014 EPS estimate $0.66; revenue estimate about $1.99B\n- $TRV \u2014 EPS estimate $7.29; revenue estimate about $11.34B\n\nThese names sit below the money-center banks in size; their Q3 prints spell out credit trends and regional loan demand after a week of larger bank reports.\n\nWhich regional name is on your calendar this week?",
+        "body": "Two large public brokers report Wednesday, Oct. 15.\n\n- $SCHW \u2014 EPS estimate $1.66; revenue estimate about $7.20 billion\n- $IBKR \u2014 EPS estimate $0.67; revenue estimate about $1.86 billion\n\nSchwab skews toward mass-market investing and advice; Interactive Brokers skews toward active and international traders.\n\nBoth filings break out interest earned on client cash versus fees and commissions \u2014 the split that moves when short-term rates and client behavior shift.\n\nSame calendar day also carries wholesale inflation and retail sales at 12:30\u20131:30 p.m.\nET, so the session stacks macro prints with brokerage P&amp;L detail.\n\nWhen you read a broker quarter, do you start with net interest income or with client asset flows?\n\n#Earnings",
         "skip_reason": "",
         "supporting_data": [
-          "TFC EPS estimate: 1.14 \u2014 source: FMP earnings_calendar",
-          "TFC revenue estimate: 5349878000 \u2014 source: FMP earnings_calendar",
-          "MTB EPS estimate: 4.93 \u2014 source: FMP earnings_calendar",
-          "MTB revenue estimate: 2530742000 \u2014 source: FMP earnings_calendar",
-          "CFG EPS estimate: 1.39 \u2014 source: FMP earnings_calendar",
-          "CFG revenue estimate: 2339381000 \u2014 source: FMP earnings_calendar",
-          "RF EPS estimate: 0.663 \u2014 source: FMP earnings_calendar",
-          "RF revenue estimate: 1986262000 \u2014 source: FMP earnings_calendar",
-          "TRV EPS estimate: 7.29 \u2014 source: FMP earnings_calendar",
-          "TRV revenue estimate: 11338440000 \u2014 source: FMP earnings_calendar",
-          "Report date: 2026-10-16 \u2014 source: FMP earnings_calendar"
+          "$SCHW earnings date: 2026-10-15 \u2014 [source: FMP earnings_calendar]",
+          "$SCHW EPS estimate: 1.66 \u2014 [source: FMP earnings_calendar]",
+          "$SCHW revenue estimate: $7,204,554,000 \u2014 [source: FMP earnings_calendar]",
+          "$IBKR earnings date: 2026-10-15 \u2014 [source: FMP earnings_calendar]",
+          "$IBKR EPS estimate: 0.67 (from 0.668) \u2014 [source: FMP earnings_calendar]",
+          "$IBKR revenue estimate: $1,861,523,000 \u2014 [source: FMP earnings_calendar]"
         ],
-        "source_url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/",
-        "source_notes": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-gathering-election-earnings-momentum/"
+        "source_url": "https://www.youtube.com/watch?v=wkse5q1QOPU",
+        "source_notes": "https://www.youtube.com/watch?v=wkse5q1QOPU"
       }
     ]
   }

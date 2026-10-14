@@ -1,228 +1,236 @@
 {
-  "updated_at": "2026-10-13T01:30:07-04:00",
+  "updated_at": "2026-10-13T23:37:05-04:00",
   "morning": {
     "mode": "morning",
     "session_date": "2026-10-13",
-    "generated_at": "2026-10-13T01:29:08-04:00",
+    "generated_at": "2026-10-13T23:32:33-04:00",
     "draft_path": "drafts/2026-10-13-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "September CPI due Tuesday with 3.7% YoY est.",
+        "title": "September CPI due at 12:30 p.m. ET",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Headline CPI for September is expected at 3.7% year over year, up from 3.4% in the prior month.\n\nCore inflation\u2014the slice that strips out volatile food and energy\u2014is estimated at 2.5% YoY vs 2.4% previously, with a 0.2% month-over-month core read vs 0.3% last time.\n\nThe release is scheduled for Tuesday, Oct. 14, at 12:30 p.m.\nET alongside CPI n.s.a and Cleveland CPI readings.\n\nWhat part of the CPI report do you watch first\u2014headline, core, or shelter?",
+        "body": "Headline CPI for September is on the calendar for Oct. 14 at 12:30 p.m.\nET.\n\nEconomists\u2019 median calls in the data feed point to year-over-year inflation at 3.6%, up from 3.4% in the prior reading.\n\nMonth-over-month headline inflation is estimated at 0.6%, versus 0.4% last time.\n\n\u201cCore\u201d inflation \u2014 prices excluding food and energy \u2014 is estimated at 2.5% year-over-year (prior 2.4%) and 0.2% month-over-month (prior 0.3%).\n\nAsian markets were positioning ahead of the print; the Nikkei 225 finished up 0.6% at 68,193.13 in the latest overseas snapshot in the feed.\n\nWhat number would you treat as the line-in-the-sand for the core year-over-year read?",
         "skip_reason": "",
         "supporting_data": [
-          "Inflation Rate YoY (Sep) estimate: 3.7% \u2014 [source: FMP economic_calendar]",
-          "Inflation Rate YoY (Sep) previous: 3.4% \u2014 [source: FMP economic_calendar]",
-          "Core Inflation Rate YoY (Sep) estimate: 2.5% \u2014 [source: FMP economic_calendar]",
-          "Core Inflation Rate YoY (Sep) previous: 2.4% \u2014 [source: FMP economic_calendar]",
-          "Core Inflation Rate MoM (Sep) estimate: 0.2% \u2014 [source: FMP economic_calendar]",
-          "Core Inflation Rate MoM (Sep) previous: 0.3% \u2014 [source: FMP economic_calendar]",
-          "Inflation Rate MoM (Sep) estimate: 0.6% \u2014 [source: FMP economic_calendar]",
-          "Release date/time: 2026-10-14 12:30:00 US \u2014 [source: FMP economic_calendar]"
+          "CPI YoY (Sep) estimate: 3.6% \u2014 economic_calendar, FMP",
+          "CPI YoY (Sep) previous: 3.4% \u2014 economic_calendar, FMP",
+          "CPI MoM (Sep) estimate: 0.6% \u2014 economic_calendar, FMP",
+          "CPI MoM (Sep) previous: 0.4% \u2014 economic_calendar, FMP",
+          "Core inflation YoY (Sep) estimate: 2.5% \u2014 economic_calendar, FMP",
+          "Core inflation YoY (Sep) previous: 2.4% \u2014 economic_calendar, FMP",
+          "Core inflation MoM (Sep) estimate: 0.2% \u2014 economic_calendar, FMP",
+          "Core inflation MoM (Sep) previous: 0.3% \u2014 economic_calendar, FMP",
+          "^N225 price: 68,193.13 \u2014 indexes/overseas, FMP",
+          "^N225 changesPercentage: 0.6% \u2014 indexes/overseas, FMP"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-ahead-of-u-s-cpi-data-993f6e8d",
+        "source_notes": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-ahead-of-u-s-cpi-data-993f6e8d"
       },
       {
-        "title": "IMF sees 3.1% global growth in 2026",
+        "title": "Existing home sales up 1.5% in September",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The IMF\u2019s updated outlook puts 2026 global growth at 3.1%, down from 3.5% but above the 3.0% figure it had in July.\n\nThe fund cited AI-related investment and fiscal support as offsets to war-related drag.\n\nIt also expects inflation at 4.7% this year with energy costs still elevated, then 4.1% in 2027.\n\nWhich line matters more for your read on rates\u2014inflation at 4.7% or growth holding above the July estimate?",
+        "body": "Existing home resales for September printed at 2 p.m.\nET on Oct. 13.\n\nMonth-over-month change: +1.5%.\n\nThat compares with a -0.3% median estimate and a -3.2% reading the month before.\n\nThe annualized pace: 3.99 million units.\n\nEstimate in the feed: 3.95 million.\n\nPrior month: 3.93 million.\n\nThe S&P 500 closed essentially flat on the session at 7,805.37 (0.0%).\n\nDoes a positive MoM print change how you read housing versus rates at a 5.2% 10-year yield in the latest Treasury snapshot?",
         "skip_reason": "",
         "supporting_data": [
-          "Global growth 2026: 3.1% (from 3.5%) \u2014 [source: CNBC / IMF coverage in FMP news]",
-          "Prior IMF July estimate: 3.0% \u2014 [source: FMP news]",
-          "Global inflation expected 2026: 4.7% \u2014 [source: FMP news]",
-          "Global inflation expected 2027: 4.1% \u2014 [source: FMP news]"
+          "Existing Home Sales MoM (Sep) actual: 1.5% \u2014 economic_calendar, FMP",
+          "Existing Home Sales MoM (Sep) estimate: -0.3% \u2014 economic_calendar, FMP",
+          "Existing Home Sales MoM (Sep) previous: -3.2% \u2014 economic_calendar, FMP",
+          "Existing Home Sales (Sep) actual: 3.99 M \u2014 economic_calendar, FMP",
+          "Existing Home Sales (Sep) estimate: 3.95 M \u2014 economic_calendar, FMP",
+          "Existing Home Sales (Sep) previous: 3.93 M \u2014 economic_calendar, FMP",
+          "^GSPC price: 7,805.37 \u2014 indexes, FMP",
+          "^GSPC changesPercentage: 0.0% \u2014 indexes, FMP",
+          "Treasury year10: 5.2% \u2014 treasury, FMP"
         ],
-        "source_url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
-        "source_notes": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html"
+        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-fall-after-big-bank-earnings-19858d97",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-fall-after-big-bank-earnings-19858d97"
       },
       {
-        "title": "Nikkei down 1.9% amid tension headlines",
+        "title": "Oil up as Mideast tensions headline",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Nikkei 225 closed down 1.9% at 67,689.74.\n\nThat session low was 67,058.56 against a high of 68,710.99.\n\nReports framed the drop around geopolitical tension weighing on risk appetite in Asia.\n\nU.S. indexes from the prior close were mixed: the Dow was up 0.4% at 51,850.55 while the Nasdaq was down 0.4% at 27,245.90.\n\nDo you treat moves like this as a read on Asia risk, or mostly noise until U.S. data prints?",
+        "body": "Brent crude in the feed: $106.48, +0.7% on the session.\n\nThe United States Oil Fund ($USO) closed at $153.09, +1.4%.\n\nReuters reported the Trump administration plans to expand a Delek Texas refinery using the Defense Production Act \u2014 a separate energy-policy headline from the same window.\n\nCNBC linked the oil move to growing Middle East tensions between Iran-backed Houthis and Saudi Arabia, including reports of coalition strikes on energy terminals and fuel reserves in Yemen.\n\nWhich headline do you weight more for near-term energy prices \u2014 refinery policy or the Yemen\u2013Saudi story?",
         "skip_reason": "",
         "supporting_data": [
-          "^N225 price: 67,689.74 \u2014 [source: FMP overseas indexes]",
-          "^N225 change: -1,341.18 \u2014 [source: FMP overseas indexes]",
-          "^N225 changesPercentage: -1.9% \u2014 [source: FMP overseas indexes]",
-          "^DJI changesPercentage: 0.4% \u2014 [source: FMP indexes]",
-          "^DJI price: 51,850.55 \u2014 [source: FMP indexes]",
-          "^IXIC changesPercentage: -0.4% \u2014 [source: FMP indexes]",
-          "^IXIC price: 27,245.90 \u2014 [source: FMP indexes]"
+          "Brent (BZUSD) price: 106.48 \u2014 cross_asset, FMP",
+          "Brent changesPercentage: 0.7% \u2014 cross_asset, FMP",
+          "USO price: 153.09 \u2014 cross_asset, FMP",
+          "USO changesPercentage: 1.4% \u2014 cross_asset, FMP"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/nikkei-falls-2-0-amid-geopolitical-tensions-d5b509de",
-        "source_notes": "https://www.wsj.com/finance/stocks/nikkei-falls-2-0-amid-geopolitical-tensions-d5b509de"
+        "source_url": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
+        "source_notes": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html"
       }
     ]
   },
   "close": {
     "mode": "close",
     "session_date": "2026-10-13",
-    "generated_at": "2026-10-13T01:29:40-04:00",
+    "generated_at": "2026-10-13T23:36:45-04:00",
     "draft_path": "drafts/2026-10-13.md",
     "errors": [],
     "slots": [
       {
-        "title": "Meta closes up 3.4% at 742.96",
+        "title": "J&J down 5.7% after earnings beat",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$META +3.4% to 742.96.\n\nThe stock added $24.29 on the day; session range ran 727.78\u2013752.24.\n\nThe Nasdaq Composite closed at 27,245.90, down 0.4% (\u2212120.27 points).\n\nCommunication Services was among the stronger sector groups on Nasdaq, with an average change of about +1.0%.\n\nWhich megacap name stood out most on your board today?",
+        "body": "$JNJ closed down 5.7% at 248.61, off 15.12 from the prior close of 263.73.\n\nThe company reported EPS of 2.59 versus a 2.52 estimate and revenue of about $25.4B versus roughly $25.4B expected.\n\nThe session low was 245.19; the high was 256.18.\n\nHealthcare was among the weaker groups on Nasdaq, with the sector average down about 1.7%.\n\nWhich line item do you watch first on a J&J print \u2014 pharma, medtech, or guidance?",
         "skip_reason": "",
         "supporting_data": [
-          "META close: 742.96 \u2014 mega_caps",
-          "META change: +3.4% \u2014 mega_caps (changesPercentage)",
-          "META price change: +24.29 \u2014 mega_caps",
-          "META day range: 727.78\u2013752.24 \u2014 mega_caps",
-          "Nasdaq Composite close: 27,245.90 \u2014 indexes (^IXIC)",
-          "Nasdaq Composite change: \u22120.4% \u2014 indexes (^IXIC)",
-          "Communication Services average change: +1.0% \u2014 sectors (rounded from 1.037)"
+          "JNJ change: -5.7% \u2014 FMP mega_caps / EOD",
+          "JNJ price: 248.61 \u2014 FMP mega_caps",
+          "JNJ previous close: 263.73 \u2014 FMP mega_caps",
+          "EPS actual: 2.59 \u2014 FMP earnings_calendar",
+          "EPS estimate: 2.52 \u2014 FMP earnings_calendar",
+          "Revenue actual: 25,399,000,000 \u2014 FMP earnings_calendar",
+          "Revenue estimate: 25,382,730,000 \u2014 FMP earnings_calendar",
+          "Healthcare sector averageChange: -1.7% (rounded from -1.73) \u2014 FMP sectors"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-mixed-bull-market-birthday-83f38025",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-mixed-bull-market-birthday-83f38025"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "Nvidia \u22121.3% on China AI-chip report",
+        "title": "Citi drops 5.6% on bank earnings day",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Reuters reported Nvidia\u2019s China AI-chip share is falling as Huawei closes the gap.\n\n$NVDA \u22121.3% to 226.32.\n\nOther large semiconductor names also finished lower:\n\n- $AMD \u22122.3% to 594.24\n- $TSM \u22122.0% to 444.35\n- $AVGO \u22121.9% to 354.73\n\nThe Technology sector\u2019s Nasdaq average was about \u22120.8% for the session.\n\nDid the headline change how you read today\u2019s chip tape?",
+        "body": "$C closed down 5.6% at 124.53.\n\nEPS came in at 2.85 versus a 2.65 estimate; revenue was about $23.8B versus roughly $23.7B expected.\n\nOther big-bank moves on the same session:\n\n- $WFC -3.1% to 80.74\n- $JPM -0.9% to 331.43\n- $GS -0.2% to 891.91\n\n$JPM reported EPS of 5.75 versus a 5.93 estimate and revenue below the estimate.\n\n$GS reported EPS of 17.01 versus a 12.86 estimate.\n\nCoverage after the bell framed the day as muted despite solid bank numbers.\n\nDo you treat bank earnings as a read on credit, or mainly on trading and fees?",
         "skip_reason": "",
         "supporting_data": [
-          "NVDA close: 226.32 \u2014 mega_caps",
-          "NVDA change: \u22121.3% \u2014 mega_caps",
-          "AMD change: \u22122.3% to 594.24 \u2014 mega_caps",
-          "TSM change: \u22122.0% to 444.35 \u2014 mega_caps",
-          "AVGO change: \u22121.9% to 354.73 \u2014 mega_caps",
-          "Technology sector average change: \u22120.8% \u2014 sectors (rounded from \u22120.831)"
+          "C changesPercentage: -5.6% \u2014 FMP mega_caps",
+          "C price: 124.53 \u2014 FMP mega_caps",
+          "C epsActual: 2.85 \u2014 FMP earnings_calendar",
+          "C epsEstimated: 2.65 \u2014 FMP earnings_calendar",
+          "WFC changesPercentage: -3.1% \u2014 FMP mega_caps",
+          "WFC price: 80.74 \u2014 FMP mega_caps",
+          "JPM changesPercentage: -0.9% \u2014 FMP mega_caps",
+          "JPM epsActual: 5.75 \u2014 FMP earnings_calendar",
+          "JPM epsEstimated: 5.93 \u2014 FMP earnings_calendar",
+          "GS epsActual: 17.01 \u2014 FMP earnings_calendar",
+          "GS epsEstimated: 12.86 \u2014 FMP earnings_calendar"
         ],
-        "source_url": "https://www.reuters.com/business/retail-consumer/nvidias-china-ai-chip-share-falls-huawei-closes-gap-report-finds-2026-10-13/",
-        "source_notes": "https://www.reuters.com/business/retail-consumer/nvidias-china-ai-chip-share-falls-huawei-closes-gap-report-finds-2026-10-13/"
+        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-fall-after-big-bank-earnings-19858d97",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-fall-after-big-bank-earnings-19858d97"
       },
       {
-        "title": "Dow +0.4% while Nasdaq \u22120.4%",
+        "title": "Energy leads Nasdaq sectors as oil firms rise",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Dow Jones Industrial Average closed at 51,850.55, up +0.4% (+195.60 points).\n\nThe S&P 500 finished at 7,807.24, down \u22120.1% (\u22124.30 points).\n\nThe Nasdaq Composite closed at 27,245.90, down \u22120.4% (\u2212120.27 points).\n\nLarge names that helped the Dow side of the tape:\n\n- $MSFT +1.1% to 541.15\n- $AAPL +1.3% to 340.97\n- $JPM +0.4% to 334.30\n\nLarge tech names that weighed on the growth index:\n\n- $AMZN \u22121.1% to 259.53\n- $TSLA \u22121.2% to 378.03\n- $ORCL \u22122.8% to 137.40\n\nWhen the Dow and Nasdaq split like this, which index do you watch first?",
+        "body": "Energy was the top-performing Nasdaq sector in the injected data, up about 1.8% on average.\n\nOil-related coverage cited growing Mideast tensions between Iran-backed Houthis and Saudi Arabia.\n\nNamed large-cap energy moves:\n\n- $CVX +1.3% to 217.84\n- $XOM +1.2% to 174.13\n\nOil-linked proxies in the cross-asset block:\n\n- Brent crude +0.7% to 106.45\n- $USO +1.4% to 153.09\n\nUtilities also closed higher in the sector table, up about 1.8% on average.\n\nWhen oil moves on headlines, do you look at majors, refiners, or the commodity first?",
         "skip_reason": "",
         "supporting_data": [
-          "Dow close: 51,850.55 \u2014 indexes (^DJI)",
-          "Dow change: +0.4% \u2014 indexes (^DJI)",
-          "S&P 500 close: 7,807.24 \u2014 indexes (^GSPC)",
-          "S&P 500 change: \u22120.1% \u2014 indexes (^GSPC)",
-          "Nasdaq close: 27,245.90 \u2014 indexes (^IXIC)",
-          "Nasdaq change: \u22120.4% \u2014 indexes (^IXIC)",
-          "MSFT: +1.1% to 541.15 \u2014 mega_caps",
-          "AAPL: +1.3% to 340.97 \u2014 mega_caps",
-          "JPM: +0.4% to 334.30 \u2014 mega_caps",
-          "AMZN: \u22121.1% to 259.53 \u2014 mega_caps",
-          "TSLA: \u22121.2% to 378.03 \u2014 mega_caps",
-          "ORCL: \u22122.8% to 137.40 \u2014 mega_caps"
+          "Energy sector averageChange: 1.8% (rounded from 1.80) \u2014 FMP sectors",
+          "CVX changesPercentage: 1.3% \u2014 FMP mega_caps",
+          "CVX price: 217.84 \u2014 FMP mega_caps",
+          "XOM changesPercentage: 1.2% \u2014 FMP mega_caps",
+          "XOM price: 174.13 \u2014 FMP mega_caps",
+          "Brent changesPercentage: 0.7% \u2014 FMP cross_asset",
+          "Brent price: 106.45 \u2014 FMP cross_asset",
+          "USO changesPercentage: 1.4% \u2014 FMP cross_asset",
+          "USO price: 153.09 \u2014 FMP cross_asset",
+          "Utilities sector averageChange: 1.8% (rounded from 1.75) \u2014 FMP sectors"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/nikkei-falls-2-0-amid-geopolitical-tensions-d5b509de",
-        "source_notes": "https://www.wsj.com/finance/stocks/nikkei-falls-2-0-amid-geopolitical-tensions-d5b509de"
+        "source_url": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
+        "source_notes": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html"
       },
       {
         "title": "U.S. cash session \u2014 Oct. 13, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Dow Jones Industrial Average closed at 51,850.55, up +0.4% (+195.60 points), while the S&P 500 ended at 7,807.24, down \u22120.1% (\u22124.30 points).\n\nThe Nasdaq Composite finished at 27,245.90, down \u22120.4% (\u2212120.27 points); the Russell 2000 closed at 2,794.48, down \u22120.4% (\u221212.50 points).\n\nThe CBOE Volatility Index rose to 15.21, up +2.5% (+0.37 point), from a prior close of 14.84.\n\nOn the calendar for the session, the U.S. had high-impact housing releases scheduled for 2:00 p.m.\nET: Existing Home Sales (Sep), estimated at 3.96M with a prior reading of 3.98M, and Existing Home Sales month-over-month (Sep), estimated at \u22120.3% with a prior reading of \u22122.0%.\n\nEarnings were scheduled the same day for several large financial and consumer names, including $JPM, $GS, $WFC, $C, $JNJ, $UNH, $DPZ, and $ACI; the injected data lists estimates only, not reported results.\n\n$META led among highlighted megacaps, closing at 742.96, up +3.4% (+24.29); $MSFT rose +1.1% to 541.15 and $AAPL gained +1.3% to 340.97.\n\nSemiconductor and software heavies were weaker: $NVDA \u22121.3% to 226.32, $AMD \u22122.3% to 594.24, $TSM \u22122.0% to 444.35, $AVGO \u22121.9% to 354.73, and $ORCL \u22122.8% to 137.40.\n\nConsumer and internet megacaps also slipped: $AMZN \u22121.1% to 259.53 and $TSLA \u22121.2% to 378.03.\n\nEnergy majors finished higher: $XOM +1.9% to 172.15 and $CVX +1.4% to 215.00.\n\nAmong banks on the earnings slate, $C closed +1.8% at 131.93, $JPM +0.4% at 334.30, $GS \u22120.2% at 893.95, and $WFC \u22120.3% at 83.30.\n\nSector averages on Nasdaq showed Real Estate up about +1.6%, Communication Services about +1.0%, and Consumer Defensive about +1.0%, while Technology averaged about \u22120.8% and Utilities about \u22121.1%.\n\nOverseas, Japan\u2019s Nikkei 225 closed at 67,637.77, down \u22122.0% (\u22121,393.15 points); the FTSE 100 rose +1.0% to 10,656.28.\n\nGold futures settled at 4,224.00, up +0.8% (+33.40).\nThe United States Oil Fund (USO) closed at 151.03, up +1.9% (+2.83), while Brent crude (BZUSD) was at 105.31, down \u22121.3% (\u22121.34).\n\nThe Invesco DB US Dollar Index Bullish Fund (UUP) closed at 29.13, up +0.4% (+0.11).\nBitcoin (BTCUSD) was at 83,697.86, up +2.4% (+1,943.38).\n\nThe latest Treasury snapshot in the data (dated 2026-10-09) showed the 10-year yield at 5.2% and the 2s10s spread at 0.44 percentage point.",
+        "body": "The S&P 500 ended essentially flat, down less than 0.1% at 7,805.37.\nThe Nasdaq Composite slipped 0.2% to 27,204.38.\nThe Dow Jones Industrial Average lost 0.3%, closing at 51,670.10.\nThe Russell 2000 was off 0.4% at 2,783.37.\n\nAt 2 p.m.\nET the Census release showed September existing home sales at 3.99 million units annualized, above the 3.95 million estimate and up 1.5% month over month versus a -0.3% estimate.\nThe prior month was -3.2%.\n\nLarge banks reported throughout the day.\nJPMorgan posted EPS of 5.75 versus 5.93 expected and revenue below the estimate; the stock closed down 0.9% at 331.43.\nCitigroup beat on EPS and revenue but fell 5.6% to 124.53.\nWells Fargo beat EPS at 1.87 versus 1.85 but revenue missed; shares lost 3.1% at 80.74.\nGoldman Sachs reported EPS of 17.01 versus 12.86 expected and finished down 0.2% at 891.91.\n\nJohnson & Johnson beat on EPS and revenue yet dropped 5.7% to 248.61.\nUnitedHealth beat with EPS of 4.69 versus 4.14 expected and closed down 0.2% at 377.76.\nAbbVie lost 2.4% to 274.31; Eli Lilly slipped 1.4% to 1,166.51.\nThe Nasdaq healthcare sector average was down about 1.7%.\n\nOn the upside in megacaps, Oracle rose 4.2% to 143.22.\nAdvanced Micro Devices gained 1.9% to 605.53.\nSalesforce added 1.7% to 238.01.\nMicrosoft ticked up 0.4% to 543.45.\nCommunication services was the strongest Nasdaq sector in the table, up about 1.3% on average; technology averaged about 1.1% higher.\n\nEnergy names moved with firmer oil.\nChevron rose 1.3% to 217.84 and Exxon Mobil 1.2% to 174.13 while the energy sector average gained about 1.8%.\nBrent crude settled up 0.7% at 106.45; the USO ETF rose 1.4% to 153.09.\nIndustrials averaged about 1.8% lower on Nasdaq; real estate about 1.6% lower.\n\nDomino\u2019s Pizza reported EPS of 4.60 versus 4.36 expected and revenue above estimate, but the stock still fell 4.8% to 296.10.\nAlbertsons beat on EPS and revenue and closed up 1.4% at 12.72.\n\nThe VIX edged up 0.4% to 15.27.\nGold futures rose 0.3% to 4,190.80.\nThe UUP dollar proxy slipped 0.4% to 29.02.\nBitcoin was up 0.8% at 83,767.70.\nTreasury yields in the injected snapshot (dated 2026-10-09) showed the 10-year at 5.2% and the 2s10s spread at 0.44 percentage points.\n\nOverseas indexes in the bundle included the Nikkei 225 up 0.6% at 68,193.13 and the Hang Seng up 0.2% at 24,397.00; the FTSE 100 was down 0.1% at 10,650.33.",
         "skip_reason": "",
         "supporting_data": [
-          "Dow: 51,850.55, +0.4% \u2014 indexes (^DJI)",
-          "S&P 500: 7,807.24, \u22120.1% \u2014 indexes (^GSPC)",
-          "Nasdaq: 27,245.90, \u22120.4% \u2014 indexes (^IXIC)",
-          "Russell 2000: 2,794.48, \u22120.4% \u2014 indexes (^RUT)",
-          "VIX: 15.21, +2.5% \u2014 indexes (^VIX)",
-          "Existing Home Sales (Sep) estimate: 3.96M \u2014 economic_calendar",
-          "Existing Home Sales MoM (Sep) estimate: \u22120.3% \u2014 economic_calendar",
-          "META: 742.96, +3.4% \u2014 mega_caps",
-          "NVDA: 226.32, \u22121.3% \u2014 mega_caps",
-          "XOM: 172.15, +1.9% \u2014 mega_caps",
-          "Nikkei: 67,637.77, \u22122.0% \u2014 overseas (^N225)",
-          "Gold: 4,224.00, +0.8% \u2014 cross_asset (gold)",
-          "Brent: 105.31, \u22121.3% \u2014 cross_asset (brent)",
-          "USO: 151.03, +1.9% \u2014 cross_asset (wti)",
-          "UUP: 29.13, +0.4% \u2014 cross_asset (dxy)",
-          "BTCUSD: 83,697.86, +2.4% \u2014 cross_asset (btc)",
-          "10-year yield: 5.2% \u2014 treasury",
-          "2s10s spread: 0.44 \u2014 treasury"
+          "^GSPC: 7,805.37, changesPercentage 0.0% \u2014 FMP indexes",
+          "^IXIC: 27,204.38, -0.2% \u2014 FMP indexes",
+          "^DJI: 51,670.10, -0.3% \u2014 FMP indexes",
+          "^RUT: 2,783.37, -0.4% \u2014 FMP indexes",
+          "Existing Home Sales actual: 3.99 M \u2014 FMP economic_calendar",
+          "Existing Home Sales MoM actual: 1.5% \u2014 FMP economic_calendar",
+          "^VIX: 15.27, +0.4% \u2014 FMP indexes",
+          "GCUSD: 4,190.80, +0.3% \u2014 FMP cross_asset",
+          "UUP: 29.02, -0.4% \u2014 FMP cross_asset",
+          "BTCUSD: 83,767.70, +0.8% \u2014 FMP cross_asset",
+          "year10: 5.24 \u2014 FMP treasury",
+          "spread_2s10s: 0.44 \u2014 FMP treasury"
         ],
-        "source_url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
-        "source_notes": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html"
+        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-fall-after-big-bank-earnings-19858d97",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-fall-after-big-bank-earnings-19858d97"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
     "session_date": "2026-10-13",
-    "generated_at": "2026-10-13T01:30:07-04:00",
+    "generated_at": "2026-10-13T23:37:05-04:00",
     "draft_path": "drafts/2026-10-13-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Six Wall Street banks report Monday",
+        "title": "September CPI lands Thursday at 12:30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Monday, Oct. 13: big-bank earnings start the week.\n\nEach line is what analysts have penciled in for EPS (profit per share):\n\n- $JPM \u2014 $5.93 EPS est.\n- $GS \u2014 $12.86 EPS est.\n- $WFC \u2014 $1.85 EPS est.\n- $C \u2014 $2.65 EPS est.\n\nSame session:\n\n- $UNH \u2014 $4.14 EPS est.\n- $JNJ \u2014 $2.52 EPS est.\n\nReports land during the day; numbers show lending, trading, and health-plan demand for the quarter just ended.\n\nWhich name on that list are you tracking first?",
+        "body": "September U.S. CPI prints **Tuesday, Oct. 14 at 12:30 p.m.\nET**.\n\nHeadline inflation (all items) \u2014 **estimate 3.6% YoY** vs **3.4% prior**.\n\nMonth-over-month headline \u2014 **estimate 0.6%** vs **0.4% prior**.\n\nCore inflation (excluding food and energy) \u2014 **estimate 2.5% YoY** vs **2.4% prior**; **0.2% MoM** vs **0.3% prior**.\n\nThe release covers what households paid in September and updates the Fed\u2019s inflation read before more bank and retail data later in the week.\n\nWhich line do you watch first \u2014 headline YoY or core MoM?",
         "skip_reason": "",
         "supporting_data": [
-          "JPM EPS estimate: 5.93 \u2014 earnings_calendar",
-          "GS EPS estimate: 12.86 \u2014 earnings_calendar",
-          "WFC EPS estimate: 1.85 \u2014 earnings_calendar",
-          "C EPS estimate: 2.65 \u2014 earnings_calendar",
-          "UNH EPS estimate: 4.14 \u2014 earnings_calendar",
-          "JNJ EPS estimate: 2.52 \u2014 earnings_calendar",
-          "Report date: 2026-10-13 \u2014 earnings_calendar"
+          "Inflation Rate YoY (Sep) estimate: 3.6% \u2014 FMP economic calendar",
+          "Inflation Rate YoY (Sep) previous: 3.4% \u2014 FMP economic calendar",
+          "Inflation Rate MoM (Sep) estimate: 0.6% \u2014 FMP economic calendar",
+          "Inflation Rate MoM (Sep) previous: 0.4% \u2014 FMP economic calendar",
+          "Core Inflation Rate YoY (Sep) estimate: 2.5% \u2014 FMP economic calendar",
+          "Core Inflation Rate YoY (Sep) previous: 2.4% \u2014 FMP economic calendar",
+          "Core Inflation Rate MoM (Sep) estimate: 0.2% \u2014 FMP economic calendar",
+          "Core Inflation Rate MoM (Sep) previous: 0.3% \u2014 FMP economic calendar",
+          "Release date/time: 2026-10-14 12:30:00 \u2014 FMP economic calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "September CPI due Tuesday at 12:30",
+        "title": "September retail sales due Wednesday 12:30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Tuesday, Oct. 14, 12:30 p.m.\nET: September CPI (Consumer Price Index \u2014 the main U.S. inflation gauge for what households pay).\n\nConsensus vs last print:\n\n- Headline inflation MoM: est. 0.6% (prior 0.4%)\n- Headline inflation YoY: est. 3.7% (prior 3.4%)\n- Core inflation YoY (ex food and energy): est. 2.5% (prior 2.4%)\n- Core inflation MoM: est. 0.2% (prior 0.3%)\n\nSame release window also carries the CPI index level (est. 336.67 vs prior 334.98).\n\nThat\u2019s the first hard September inflation read of the week.\n\nWhich slice do you watch first \u2014 headline or core?",
+        "body": "September **retail sales** drop **Wednesday, Oct. 15 at 12:30 p.m.\nET**.\n\nHeadline sales vs the prior month \u2014 **estimate +0.3% MoM** vs **+1.4% prior**.\n\nEx autos \u2014 **estimate +0.5% MoM** vs **+1.4% prior**.\n\nEx gas and autos \u2014 **estimate +0.2% MoM** vs **+1.2% prior**.\n\nYear-over-year headline \u2014 **estimate +5.2%** vs **+6.0% prior**.\n\nSame window: **producer prices (PPI)** for September \u2014 **+0.5% MoM** est vs **+0.4% prior**; **NY Empire State** factory survey for October \u2014 **10.3** est vs **7.6** prior.\n\nWhat does \u201cex autos\u201d tell you that headline retail sales does not?",
         "skip_reason": "",
         "supporting_data": [
-          "Release datetime: 2026-10-14 12:30:00 \u2014 economic_calendar",
-          "Inflation Rate MoM estimate: 0.6% \u2014 economic_calendar",
-          "Inflation Rate MoM previous: 0.4% \u2014 economic_calendar",
-          "Inflation Rate YoY estimate: 3.7% \u2014 economic_calendar",
-          "Inflation Rate YoY previous: 3.4% \u2014 economic_calendar",
-          "Core Inflation Rate YoY estimate: 2.5% \u2014 economic_calendar",
-          "Core Inflation Rate YoY previous: 2.4% \u2014 economic_calendar",
-          "Core Inflation Rate MoM estimate: 0.2% \u2014 economic_calendar",
-          "Core Inflation Rate MoM previous: 0.3% \u2014 economic_calendar",
-          "Inflation Rate (index) estimate: 336.67 \u2014 economic_calendar",
-          "Inflation Rate (index) previous: 334.98 \u2014 economic_calendar"
+          "Retail Sales MoM (Sep) estimate: 0.3% \u2014 FMP economic calendar",
+          "Retail Sales MoM (Sep) previous: 1.4% \u2014 FMP economic calendar",
+          "Retail Sales Ex Autos MoM (Sep) estimate: 0.5% \u2014 FMP economic calendar",
+          "Retail Sales Ex Autos MoM (Sep) previous: 1.4% \u2014 FMP economic calendar",
+          "Retail Sales Ex Gas/Autos MoM (Sep) estimate: 0.2% \u2014 FMP economic calendar",
+          "Retail Sales Ex Gas/Autos MoM (Sep) previous: 1.2% \u2014 FMP economic calendar",
+          "Retail Sales YoY (Sep) estimate: 5.2% \u2014 FMP economic calendar",
+          "Retail Sales YoY (Sep) previous: 6.0% \u2014 FMP economic calendar",
+          "Producer Price Index MoM (Sep) estimate: 0.5% \u2014 FMP economic calendar",
+          "Producer Price Index MoM (Sep) previous: 0.4% \u2014 FMP economic calendar",
+          "NY Empire State Manufacturing Index (Oct) estimate: 10.3 \u2014 FMP economic calendar",
+          "NY Empire State Manufacturing Index (Oct) previous: 7.6 \u2014 FMP economic calendar",
+          "Release date/time: 2026-10-15 12:30:00 \u2014 FMP economic calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "September retail sales print Wednesday",
+        "title": "Three large banks report Wednesday earnings",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Wednesday, Oct. 15, 12:30 p.m.\nET: how much Americans spent at stores and online in September (retail sales).\n\nWhat the calendar shows:\n\n- Retail Sales MoM: est. 0.3% (prior 1.4%)\n- Retail Sales YoY: est. 5.2% (prior 6.0%)\n- Retail Sales Ex Autos MoM: est. 0.5% (prior 1.4%)\n- Retail Sales Ex Gas/Autos MoM: est. 0.2% (prior 1.2%)\n\nThe report tracks checkout totals \u2014 a read on consumer spending after a strong August.\n\nDo you focus on the headline number or the ex-auto line?",
+        "body": "Midweek bank earnings \u2014 **Wednesday, Oct. 15**:\n\n- **$USB** \u2014 EPS estimate **$1.32**; revenue estimate **$8.00B** ($7,996,450,000)\n\n- **$PNC** \u2014 EPS estimate **$4.91**; revenue estimate **$6.61B** ($6,609,513,000)\n\n- **$BNY** \u2014 EPS estimate **$2.27**; revenue estimate **$5.55B** ($5,545,775,000)\n\nReports land after several money-center banks already posted results this week; these three focus on regional/national banking and custody services.\n\nAlso on **Oct. 15**: **$PLD** (EPS est. **$0.78**), **$JBHT** (EPS est. **$1.81**).\n\nWhich report are you opening first \u2014 USB, PNC, or BNY?",
         "skip_reason": "",
         "supporting_data": [
-          "Release datetime: 2026-10-15 12:30:00 \u2014 economic_calendar",
-          "Retail Sales MoM estimate: 0.3% \u2014 economic_calendar",
-          "Retail Sales MoM previous: 1.4% \u2014 economic_calendar",
-          "Retail Sales YoY estimate: 5.2% \u2014 economic_calendar",
-          "Retail Sales YoY previous: 6.0% \u2014 economic_calendar",
-          "Retail Sales Ex Autos MoM estimate: 0.5% \u2014 economic_calendar",
-          "Retail Sales Ex Autos MoM previous: 1.4% \u2014 economic_calendar",
-          "Retail Sales Ex Gas/Autos MoM estimate: 0.2% \u2014 economic_calendar",
-          "Retail Sales Ex Gas/Autos MoM previous: 1.2% \u2014 economic_calendar"
+          "USB date: 2026-10-15 \u2014 FMP earnings calendar",
+          "USB epsEstimated: 1.32 \u2014 FMP earnings calendar",
+          "USB revenueEstimated: 7996450000 \u2014 FMP earnings calendar",
+          "PNC date: 2026-10-15 \u2014 FMP earnings calendar",
+          "PNC epsEstimated: 4.91 \u2014 FMP earnings calendar",
+          "PNC revenueEstimated: 6609513000 \u2014 FMP earnings calendar",
+          "BNY date: 2026-10-15 \u2014 FMP earnings calendar",
+          "BNY epsEstimated: 2.27 \u2014 FMP earnings calendar",
+          "BNY revenueEstimated: 5545775000 \u2014 FMP earnings calendar",
+          "PLD epsEstimated: 0.777 \u2014 FMP earnings calendar",
+          "JBHT epsEstimated: 1.81 \u2014 FMP earnings calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       }
     ]
   }

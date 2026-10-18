@@ -1,223 +1,216 @@
 {
-  "updated_at": "2026-10-16T23:00:22-04:00",
+  "updated_at": "2026-10-17T23:02:25-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-16",
-    "generated_at": "2026-10-16T22:59:32-04:00",
-    "draft_path": "drafts/2026-10-16-am.md",
+    "session_date": "2026-10-17",
+    "generated_at": "2026-10-17T23:01:37-04:00",
+    "draft_path": "drafts/2026-10-17-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "August TIC flows $279.2B vs $75.2B est.",
+        "title": "Trump waives Graham Act Russia sanctions",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Net long-term TIC flows (foreign money into long-term U.S. assets like bonds and stocks): **$279.2B** in August.\n\nConsensus estimate: **$75.2B**.\n\nPrior month (revised): **\u2212$27.9B**.\n\nOverall net capital flows for August: **$199.8B**, up from **$87.4B** the month before.\n\nThe print hit the calendar **Oct. 16** after the cash close \u2014 it tracks how much offshore capital is parking in U.S. markets.\n\nWhat part of the capital-flow stack do you watch first \u2014 TIC, or the broader net-capital-flow total?",
+        "body": "The White House invoked a national-interest waiver under the Graham Act to hold off new Russia-related sanctions and tariffs before they were scheduled to bite.\n\nCNBC reports the move covers duties on Russian goods, steps aimed at major Russian energy buyers, and other restrictions\u2014two days ahead of the law\u2019s implementation deadline.\n\nSame session, Brent crude settled up 3.7% at 109.86.\n\nU.S. equity benchmarks finished lower: the S&P 500 down 1.1% to 7,659.44 and the Nasdaq Composite down 2.1% to 26,140.03.\n\nWhich part of the waiver\u2014energy buyers vs. broader goods\u2014matters most for your read on supply chains?\n\n#economy #geopolitics",
         "skip_reason": "",
         "supporting_data": [
-          "Net Long-Term TIC Flows (Aug) actual: 279.2B \u2014 source: FMP economic_calendar",
-          "Net Long-Term TIC Flows (Aug) estimate: 75.2B \u2014 source: FMP economic_calendar",
-          "Net Long-Term TIC Flows (Aug) previous: -27.9B \u2014 source: FMP economic_calendar",
-          "Overall Net Capital Flows (Aug) actual: 199.8B \u2014 source: FMP economic_calendar",
-          "Overall Net Capital Flows (Aug) previous: 87.4B \u2014 source: FMP economic_calendar"
+          "Brent crude price: 109.86 \u2014 FMP cross_asset / BZUSD",
+          "Brent change: +3.7% \u2014 FMP cross_asset / BZUSD",
+          "S&P 500 (^GSPC): 7,659.44 \u2014 FMP indexes / ^GSPC",
+          "S&P 500 change: -1.1% \u2014 FMP indexes / ^GSPC",
+          "Nasdaq Composite (^IXIC): 26,140.03 \u2014 FMP indexes / ^IXIC",
+          "Nasdaq Composite change: -2.1% \u2014 FMP indexes / ^IXIC"
         ],
-        "source_url": "https://tickeralpha.ai/economic-calendar",
-        "source_notes": "https://tickeralpha.ai/economic-calendar"
+        "source_url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
+        "source_notes": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
       },
       {
-        "title": "Factory output up 2.2% year over year",
+        "title": "Warsh silent on October Fed rates",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Industrial production \u2014 total factory, mine, and utility output \u2014 rose **2.2%** in September from a year ago.\n\nEconomists\u2019 median forecast: **1.0%**.\n\nAugust\u2019s pace: **1.6%**.\n\nManufacturing alone: **+0.3%** month over month, matching the **0.3%** estimate after **\u22120.2%** in August.\n\nCapacity utilization \u2014 how much of U.S. industrial capacity is in use \u2014 **76.9%**, vs **76.5%** expected and **76.4%** prior.\n\nRelease time: **Oct. 16, 1:15 p.m.\nET**.\n\nDo you treat this as a read on goods demand, or mainly as an input to inflation debates?",
+        "body": "Fed Chair Kevin Warsh said Friday he will not prejudge rate decisions at the upcoming October and December meetings.\n\nThe comment lands as the U.S. economic calendar lists a 10:00 a.m.\nET IMF meeting entry for Oct. 17.\n\nThe 10-year Treasury yield in the latest FMP snapshot (Oct. 15) stood at 5.1%.\n\nThe 2-year minus 10-year spread was 0.33 percentage point\u2014short rates still below the 10-year by that margin.\n\nMarketWatch separately framed this month\u2019s Fed decision as a closer call than pricing implies; Warsh did not tip either way in the Fast Company report.\n\nWhat would you need to see in the next data print to map October vs. December?\n\n#Fed #rates",
         "skip_reason": "",
         "supporting_data": [
-          "Industrial Production YoY (Sep) actual: 2.2% \u2014 source: FMP economic_calendar",
-          "Industrial Production YoY (Sep) estimate: 1.0% \u2014 source: FMP economic_calendar",
-          "Industrial Production YoY (Sep) previous: 1.6% \u2014 source: FMP economic_calendar",
-          "Manufacturing Production MoM (Sep) actual: 0.3% \u2014 source: FMP economic_calendar",
-          "Manufacturing Production MoM (Sep) estimate: 0.3% \u2014 source: FMP economic_calendar",
-          "Manufacturing Production MoM (Sep) previous: -0.2% \u2014 source: FMP economic_calendar",
-          "Capacity Utilization (Sep) actual: 76.9% \u2014 source: FMP economic_calendar",
-          "Capacity Utilization (Sep) estimate: 76.5% \u2014 source: FMP economic_calendar",
-          "Capacity Utilization (Sep) previous: 76.4% \u2014 source: FMP economic_calendar"
+          "10-year Treasury yield: 5.1% \u2014 FMP treasury / year10 (date 2026-10-15)",
+          "2s10s spread: 0.33 \u2014 FMP treasury / spread_2s10s",
+          "IMF Meeting (US): 2026-10-17 10:00:00, impact Low \u2014 FMP economic_calendar"
         ],
-        "source_url": "https://tickeralpha.ai/economic-calendar",
-        "source_notes": "https://tickeralpha.ai/economic-calendar"
+        "source_url": "https://www.fastcompany.com/91625196/us-economy-warsh-fed-ai-imf",
+        "source_notes": "https://www.fastcompany.com/91625196/us-economy-warsh-fed-ai-imf"
       },
       {
-        "title": "VIX +21.4% as Nasdaq \u22122.1%",
+        "title": "Fed call \u201ccloser\u201d than markets price",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$^IXIC **\u22122.1%** to **26,140.03** (\u2212572.99 pts).\n\n$^GSPC **\u22121.1%** to **7,661.22** (\u221282.84 pts).\n\n$^DJI **\u22120.3%** to **52,002.41**.\n\n$^VIX **+21.4%** to **19.99** (+3.53 pts).\n\nCoverage framed the session around cracks in the AI-heavy trade and voices saying markets are weighing a firmer Fed path \u2014 e.g. commentary that the Fed is \u201ctaking the punch bowl away\u201d and that the odds assigned to additional hikes deserve weight.\n\nSame session, cross-asset: Brent **+3.7%** to **109.86**; gold **+0.3%** to **4,181.10**.\n\nWhere did you see the stress show up first \u2014 megacap tech, software, or the vol index?",
+        "body": "MarketWatch on Oct. 17: this month\u2019s Fed interest-rate decision is a closer call than markets think.\n\nThe piece lays out arguments against a rate hike and where some economists push back\u2014without resolving the split.\n\nLatest Treasury snapshot in the feed (Oct. 15): 1-year at 4.5%, 2-year at 4.8%, 10-year at 5.1%.\n\nThe S&P 500 closed Oct. 17 at 7,659.44, down 1.1% on the session.\n\nThe CBOE Volatility Index finished at 19.99, up 21.4% from the prior close of 16.46.\n\nSeeking Alpha\u2019s week-in-review note also cited hotter-than-expected CPI still in the rearview alongside bank earnings\u2014context readers were already weighing into the weekend.\n\nWhere do you land: hike, hold, or cut\u2014and what single input drives that view?\n\n#macro #Fed",
         "skip_reason": "",
         "supporting_data": [
-          "Nasdaq Composite (^IXIC) changesPercentage: -2.1% \u2014 source: FMP indexes",
-          "Nasdaq Composite price: 26,140.03 \u2014 source: FMP indexes",
-          "Nasdaq Composite change: -572.99 \u2014 source: FMP indexes",
-          "S&P 500 (^GSPC) changesPercentage: -1.1% \u2014 source: FMP indexes",
-          "S&P 500 price: 7,661.22 \u2014 source: FMP indexes",
-          "S&P 500 change: -82.84 \u2014 source: FMP indexes",
-          "Dow Jones (^DJI) changesPercentage: -0.3% \u2014 source: FMP indexes",
-          "Dow Jones price: 52,002.41 \u2014 source: FMP indexes",
-          "VIX changesPercentage: 21.4% \u2014 source: FMP indexes",
-          "VIX price: 19.99 \u2014 source: FMP indexes",
-          "VIX change: 3.53 \u2014 source: FMP indexes",
-          "Brent Crude changesPercentage: 3.7% \u2014 source: FMP cross_asset",
-          "Brent Crude price: 109.86 \u2014 source: FMP cross_asset",
-          "Gold Futures changesPercentage: 0.3% \u2014 source: FMP cross_asset",
-          "Gold Futures price: 4,181.10 \u2014 source: FMP cross_asset"
+          "1-year Treasury: 4.5% \u2014 FMP treasury / year1 (date 2026-10-15)",
+          "2-year Treasury: 4.8% \u2014 FMP treasury / year2 (date 2026-10-15)",
+          "10-year Treasury: 5.1% \u2014 FMP treasury / year10 (date 2026-10-15)",
+          "S&P 500 (^GSPC): 7,659.44 \u2014 FMP indexes / ^GSPC",
+          "S&P 500 change: -1.1% \u2014 FMP indexes / ^GSPC",
+          "VIX (^VIX): 19.99 \u2014 FMP indexes / ^VIX",
+          "VIX change: +21.4% \u2014 FMP indexes / ^VIX",
+          "VIX previous close: 16.46 \u2014 FMP indexes / ^VIX"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427",
-        "source_notes": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427"
+        "source_url": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95",
+        "source_notes": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-16",
-    "generated_at": "2026-10-16T22:59:51-04:00",
-    "draft_path": "drafts/2026-10-16.md",
+    "session_date": "2026-10-17",
+    "generated_at": "2026-10-17T23:02:09-04:00",
+    "draft_path": "drafts/2026-10-17.md",
     "errors": [],
     "slots": [
       {
-        "title": "Nasdaq \u22122.1% as AI trade cracks widen",
+        "title": "Nasdaq \u22122.1% in tech\u2019s roughest week in 18 months",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Nasdaq Composite closed at 26,140.03, down 572.99 points (\u22122.1%).\n\nThe S&P 500 finished at 7,661.22 (\u22121.1%).\nThe Dow Jones Industrial Average held up better at 52,002.41 (\u22120.3%).\n\nCoverage framed the session as a deepening pullback in the AI-linked trade, with software and semiconductors moving lower in the same day.\n\nAmong large tech names in the data:\n\n- $META \u22123.7% to 709.33\n- $AVGO \u22124.5% to 328.75\n- $GOOG \u22122.3% to 336.91\n- $MSFT \u22121.9% to 529.05\n- $TSM \u22122.3% to 412.61\n\nThe CBOE Volatility Index rose to 19.99 (+21.4%).\n\nWhich part of the stack\u2014chips, software, or megacap platforms\u2014moved most in your watchlist Friday?",
+        "body": "The Nasdaq Composite closed at 26,140.03, down 572.99 points (\u22122.1%) on Oct. 17.\n\nThe S&P 500 finished at 7,659.44, down 84.62 points (\u22121.1%).\n\nMarketWatch reported the S&P 500\u2019s tech sector just logged its worst week in a year and a half, while an equal-weight version of the index posted a second straight weekly gain \u2014 a shift in which names are carrying the index.\n\nLarge tech weighed on the growth-heavy benchmark:\n\n- $GOOGL \u22122.5% to 340.59\n- $MSFT \u22121.9% to 529.05\n- $AMZN \u22121.9% to 250.00\n- $META \u22123.7% to 709.33\n\nWhich part of the index divergence are you tracking \u2014 cap-weight tech or the broader average?",
         "skip_reason": "",
         "supporting_data": [
-          "Nasdaq Composite close: 26,140.03 (\u22122.1%) \u2014 FMP indexes ^IXIC",
-          "S&P 500 close: 7,661.22 (\u22121.1%) \u2014 FMP indexes ^GSPC",
-          "Dow close: 52,002.41 (\u22120.3%) \u2014 FMP indexes ^DJI",
-          "$META: 709.33 (\u22123.7%) \u2014 FMP mega_caps",
-          "$AVGO: 328.75 (\u22124.5%) \u2014 FMP mega_caps",
-          "$GOOG: 336.91 (\u22122.3%) \u2014 FMP mega_caps",
-          "$MSFT: 529.05 (\u22121.9%) \u2014 FMP mega_caps",
-          "$TSM: 412.61 (\u22122.3%) \u2014 FMP mega_caps",
-          "VIX: 19.99 (+21.4%) \u2014 FMP indexes ^VIX"
+          "Nasdaq Composite close: 26,140.03 \u2014 FMP indexes ^IXIC",
+          "Nasdaq change: \u2212572.99 \u2014 FMP indexes ^IXIC",
+          "Nasdaq changesPercentage: \u22122.1% \u2014 FMP indexes ^IXIC",
+          "S&P 500 close: 7,659.44 \u2014 FMP indexes ^GSPC",
+          "S&P 500 change: \u221284.62 \u2014 FMP indexes ^GSPC",
+          "S&P 500 changesPercentage: \u22121.1% \u2014 FMP indexes ^GSPC",
+          "GOOGL: \u22122.5% to 340.59 \u2014 FMP mega_caps GOOGL",
+          "MSFT: \u22121.9% to 529.05 \u2014 FMP mega_caps MSFT",
+          "AMZN: \u22121.9% to 250.00 \u2014 FMP mega_caps AMZN",
+          "META: \u22123.7% to 709.33 \u2014 FMP mega_caps META"
         ],
-        "source_url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c",
-        "source_notes": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c"
+        "source_url": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da",
+        "source_notes": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da"
       },
       {
-        "title": "Brent crude +3.7% lifts energy megacaps",
+        "title": "Oracle \u22124.6% as AI names sell off",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude settled at 109.86 (+3.7%).\n\nThe United States Oil Fund (USO) closed at 161.76 (+2.8%).\n\nNasdaq-listed Energy averaged +1.6% for the session\u2014the only sector up more than 1% besides Basic Materials (+1.0%).\n\nLarge integrated names:\n\n- $XOM +2.5% to 178.98 (session high 179.14 matched the 52-week high in the data)\n- $CVX +2.6% to 224.98 (52-week high in the data: 225.30)\n\nGold futures (GC) finished at 4,181.10 (+0.3%).\n\nDid you track the oil move against the tech decline, or separately?",
+        "body": "$ORCL closed at 128.22, down 6.25 (\u22124.6%) on Oct. 17.\n\nFXEmpire described the Nasdaq breaking lower as chip supply concerns and CoreWeave debt pressure hit AI-linked stocks.\n\nOracle\u2019s session range ran from a high of 133.80 to a low of 127.36.\n\nOther large software and platform names moved lower the same session:\n\n- $META \u22123.7% to 709.33\n- $NFLX \u22122.9% to 70.53\n- $MSFT \u22121.9% to 529.05\n\nAre you separating infrastructure spend stories from single-name credit headlines in this tape?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent (BZUSD): 109.86 (+3.7%) \u2014 FMP cross_asset brent",
-          "USO: 161.76 (+2.8%) \u2014 FMP cross_asset wti",
-          "Energy sector average: +1.6% \u2014 FMP sectors",
-          "$XOM: 178.98 (+2.5%), yearHigh 179.14 \u2014 FMP mega_caps",
-          "$CVX: 224.98 (+2.6%), yearHigh 225.30 \u2014 FMP mega_caps",
-          "Gold GCUSD: 4,181.10 (+0.3%) \u2014 FMP cross_asset gold"
+          "ORCL close: 128.22 \u2014 FMP mega_caps ORCL",
+          "ORCL change: \u22126.25 \u2014 FMP mega_caps ORCL",
+          "ORCL changesPercentage: \u22124.6% \u2014 FMP mega_caps ORCL",
+          "ORCL dayHigh: 133.80 \u2014 FMP mega_caps ORCL",
+          "ORCL dayLow: 127.36 \u2014 FMP mega_caps ORCL",
+          "META: \u22123.7% to 709.33 \u2014 FMP mega_caps META",
+          "NFLX: \u22122.9% to 70.53 \u2014 FMP mega_caps NFLX",
+          "MSFT: \u22121.9% to 529.05 \u2014 FMP mega_caps MSFT"
         ],
-        "source_url": "https://seekingalpha.com/article/4954916-tough-trading-leaves-indices-in-red",
-        "source_notes": "https://seekingalpha.com/article/4954916-tough-trading-leaves-indices-in-red"
+        "source_url": "https://www.fxempire.com/forecasts/article/nasdaq-index-ai-selloff-deepens-as-chips-and-coreweave-break-1638753",
+        "source_notes": "https://www.fxempire.com/forecasts/article/nasdaq-index-ai-selloff-deepens-as-chips-and-coreweave-break-1638753"
       },
       {
-        "title": "Travelers EPS $9.18 vs $7.39 estimate",
+        "title": "Broadcom \u22124.5%, Intel \u22125.8% in chip slide",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$TRV reported Q3 EPS of $9.18 versus an estimate of $7.39 in the earnings calendar.\n\nRevenue was $12.41B versus a $11.36B estimate.\n\nThe stock closed at 389.54 (+1.5%), with a session range of 368.63\u2013390.91.\n\nOther financials that reported the same session:\n\n- $RF +0.5% to 27.45 (EPS $0.73 vs $0.662 est.)\n- $TFC +1.1% to 47.07 (EPS $1.16 vs $1.14 est.)\n- $CFG \u22120.1% to 63.36 (EPS $1.41 vs $1.39 est.)\n- $MTB \u22121.6% to 215.16 (EPS $5.08 vs $4.93 est.)\n\n$JPM closed at 339.72 (+1.2%) without a same-day earnings line in this file.\n\nWhen you read bank and insurer prints, do you start with EPS, revenue, or the first-hour stock reaction?",
+        "body": "$AVGO closed at 328.75, down 15.58 (\u22124.5%) on Oct. 17.\n\n$INTC finished at 89.85, down 5.52 (\u22125.8%) \u2014 among the most active Nasdaq names by volume in the injected screen.\n\n$TSM closed at 412.61, down 9.64 (\u22122.3%).\n\n$NVDA ended at 214.13, down 3.10 (\u22121.4%).\n\nCNBC carried South Korea\u2019s finance minister saying the semiconductor market should stay solid at least through next year, citing demand still ahead of supply \u2014 the same day the U.S. chip complex printed wide red numbers at the close.\n\nWhich chip name\u2019s move stood out to you on the Oct. 17 close?",
         "skip_reason": "",
         "supporting_data": [
-          "$TRV EPS actual: 9.18, estimate: 7.39 \u2014 FMP earnings_calendar",
-          "$TRV revenue actual: 12,412,000,000, estimate: 11,361,230,000 \u2014 FMP earnings_calendar",
-          "$TRV close: 389.54 (+1.5%) \u2014 FMP mega_caps / earnings_calendar",
-          "$RF EPS: 0.73 vs 0.662 est.; close 27.45 (+0.5%) \u2014 FMP earnings_calendar, mega_caps",
-          "$TFC EPS: 1.16 vs 1.14 est.; close 47.07 (+1.1%) \u2014 FMP earnings_calendar, mega_caps",
-          "$MTB EPS: 5.08 vs 4.93 est.; close 215.16 (\u22121.6%) \u2014 FMP earnings_calendar, mega_caps",
-          "$CFG EPS: 1.41 vs 1.39 est.; close 63.36 (\u22120.1%) \u2014 FMP earnings_calendar, mega_caps"
+          "AVGO close: 328.75 \u2014 FMP mega_caps AVGO",
+          "AVGO change: \u221215.58 \u2014 FMP mega_caps AVGO",
+          "AVGO changesPercentage: \u22124.5% \u2014 FMP mega_caps AVGO",
+          "INTC close: 89.85 \u2014 FMP actives INTC",
+          "INTC change: \u22125.52 \u2014 FMP actives INTC",
+          "INTC changesPercentage: \u22125.8% \u2014 FMP actives INTC",
+          "TSM close: 412.61 \u2014 FMP mega_caps TSM",
+          "TSM changesPercentage: \u22122.3% \u2014 FMP mega_caps TSM",
+          "NVDA close: 214.13 \u2014 FMP actives NVDA",
+          "NVDA changesPercentage: \u22121.4% \u2014 FMP actives NVDA"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+        "source_url": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html",
+        "source_notes": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html"
       },
       {
-        "title": "U.S. cash session \u2014 Oct. 16, 2026",
+        "title": "U.S. cash session \u2014 Oct. 17, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Nasdaq Composite led U.S. indexes lower, closing at 26,140.03 (\u2212572.99, \u22122.1%) after an intraday high of 26,674.66 and a low of 26,023.10.\nMarket coverage tied the decline to a broad tech selloff affecting software and chip names and to narrative around AI-related capital spending.\n\nThe S&P 500 finished at 7,661.22 (\u221282.84, \u22121.1%), with a session range of 7,631.77 to 7,756.84.\nThe Russell 2000 lost 1.7% to 2,721.37.\nThe Dow Jones Industrial Average was comparatively steady at 52,002.41 (\u2212175.28, \u22120.3%).\n\nThe VIX jumped 21.4% to 19.99 (high 22.31), the largest percentage move among the major index quotes in the file for the session.\n\nCommunication Services (\u22122.8%), Technology (\u22122.2%), and Consumer Cyclical (\u22122.4%) were the weakest Nasdaq sectors by average change.\nHealthcare (\u22121.8%), Industrials (\u22121.2%), and Real Estate (\u22121.2%) also finished red.\nEnergy (+1.6%) and Basic Materials (+1.0%) were positive, with Consumer Defensive up 0.7%.\n\nLarge technology and communication names posted wide declines: $AVGO \u22124.5% to 328.75, $META \u22123.7% to 709.33, $NFLX \u22122.9% to 70.53, $CRM \u22122.4% to 240.70, $GOOG \u22122.3% to 336.91, $TSM \u22122.3% to 412.61, and $MSFT \u22121.9% to 529.05.\n$NVDA was \u22121.4% to 214.13; $INTC was among active names at \u22125.8% to 89.85.\n\nOil and energy equities moved with crude.\nBrent crude (BZUSD) closed at 109.86 (+3.7%).\nUSO finished at 161.76 (+2.8%).\n$XOM rose 2.5% to 178.98 with a session high of 179.14 matching the 52-week high field; $CVX gained 2.6% to 224.98.\n\nDefensive consumer staples showed green ticks:\n- $PEP +2.4% to 131.49\n- $KO +2.1% to 93.90\n- $PG +1.4% to 159.31\n- $JNJ +0.9% to 255.56\n\n$UNH closed at 401.43 (\u22121.3%).\n\nEarnings released Oct. 16 included $TRV (EPS $9.18 vs $7.39 estimate; revenue $12.41B vs $11.36B estimate; stock +1.5%), $TFC (EPS $1.16 vs $1.14; +1.1%), $RF (EPS $0.73 vs $0.662; +0.5%), $CFG (EPS $1.41 vs $1.39; \u22120.1%), and $MTB (EPS $5.08 vs $4.93; \u22121.6%).\n$JPM closed +1.2% at 339.72.\n\nAfter the cash close, U.S. data included Net Long-Term TIC Flows for August at $279.2B (estimate $75.2B, previous \u2212$27.9B).\nTreasury yield snapshots in the file are dated 2026-10-14 (10-year 5.2%, 2s10s spread 0.37).\n\nCross-asset closes: gold futures 4,181.10 (+0.3%), Invesco U.S. dollar bull fund UUP 28.92 (\u22120.3%), EUR/USD 1.12 (+0.2%), Bitcoin 81,412.75 (\u22120.1%).\nOverseas references in the file: Nikkei 225 +1.4%, FTSE 100 +0.4%, Hang Seng \u22120.5%.",
+        "body": "The S&P 500 closed at 7,659.44, down 84.62 points (\u22121.1%), after trading between 7,631.77 and 7,756.84.\n\nThe Nasdaq Composite finished at 26,140.03, down 572.99 (\u22122.1%), with a session low of 26,023.10.\n\nThe Dow Jones Industrial Average ended at 52,002.41, down 175.28 (\u22120.3%) \u2014 a milder decline than the growth benchmarks.\n\nThe Russell 2000 closed at 2,721.37, down 45.90 (\u22121.7%).\n\nThe CBOE Volatility Index settled at 19.99, up 3.53 (+21.4%), with an intraday high of 22.31.\n\nHeadlines around the close described an AI-linked selloff on the Nasdaq and chip pressure; MarketWatch noted the S&P 500 tech sector\u2019s worst week in about a year and a half while broader average-stock measures fared relatively better over the week.\n\nMega-cap tech and platforms closed lower: $META \u22123.7% to 709.33, $GOOGL \u22122.5% to 340.59, $GOOG \u22122.3% to 336.91, $TSLA \u22122.1% to 354.72, $MSFT \u22121.9% to 529.05, and $AMZN \u22121.9% to 250.00.\n\nSoftware and media also weakened: $ORCL \u22124.6% to 128.22 and $NFLX \u22122.9% to 70.53.\n\nSemiconductor and chip-adjacent names declined: $AVGO \u22124.5% to 328.75, $INTC \u22125.8% to 89.85, $TSM \u22122.3% to 412.61, and $NVDA \u22121.4% to 214.13.\n\n$AAPL bucked the megacap tech trend, up 0.4% to 343.46, with a day high of 347.82 against a 52-week high of 348.15 in the quote data.\n\nDefensive and consumer staples names were firmer:\n- $PEP +2.4% to 131.49\n- $KO +2.1% to 93.90\n- $JNJ +0.9% to 255.56\n\nFinancials showed mixed large-cap results: $JPM +1.2% to 339.72 while $UNH \u22121.3% to 401.43.\n\nEnergy equities rose with oil: $XOM +2.5% to 178.98 as Brent crude settled at 109.86 (+3.7%) and gold futures at 4,181.10 (+0.3%).\n\nThe injected Treasury snapshot (dated 2026-10-15) showed the 10-year yield at 5.1% and a 2s10s spread of 0.33 percentage points.\n\nCross-asset moves at the close included the U.S. dollar proxy $UUP \u22120.3% to 28.92, Bitcoin at 81,722.58 (+0.4%), and overseas indexes mixed earlier in the cycle (Nikkei 225 +1.4%, FTSE 100 +0.4%, Hang Seng \u22120.5%).\n\nThe U.S. economic calendar listed a low-impact IMF Meeting on Oct. 17; no earnings entries appeared in the injected earnings calendar for this bundle.",
         "skip_reason": "",
         "supporting_data": [
-          "^IXIC: 26,140.03, \u22122.1% \u2014 FMP indexes",
-          "^GSPC: 7,661.22, \u22121.1% \u2014 FMP indexes",
-          "^DJI: 52,002.41, \u22120.3% \u2014 FMP indexes",
-          "^RUT: 2,721.37, \u22121.7% \u2014 FMP indexes",
-          "^VIX: 19.99, +21.4% \u2014 FMP indexes",
-          "Sector averages \u2014 FMP sectors 2026-10-16",
-          "Brent 109.86 (+3.7%), USO 161.76 (+2.8%), GC 4,181.10 (+0.3%) \u2014 FMP cross_asset",
-          "Earnings actuals \u2014 FMP earnings_calendar",
-          "TIC Flows Aug actual 279.2B \u2014 FMP economic_calendar",
-          "Treasury 2026-10-14 year10 5.19, spread_2s10s 0.37 \u2014 FMP treasury"
+          "S&P 500: 7,659.44, \u22121.1% \u2014 FMP indexes ^GSPC",
+          "Nasdaq: 26,140.03, \u22122.1% \u2014 FMP indexes ^IXIC",
+          "Dow: 52,002.41, \u22120.3% \u2014 FMP indexes ^DJI",
+          "Russell 2000: 2,721.37, \u22121.7% \u2014 FMP indexes ^RUT",
+          "VIX: 19.99, +21.4% \u2014 FMP indexes ^VIX",
+          "Brent: 109.86, +3.7% \u2014 FMP cross_asset brent",
+          "Gold: 4,181.10, +0.3% \u2014 FMP cross_asset gold",
+          "10-year yield: 5.1% \u2014 FMP treasury",
+          "2s10s spread: 0.33 \u2014 FMP treasury",
+          "Mega-cap and active tickers as cited \u2014 FMP mega_caps / actives"
         ],
-        "source_url": "https://www.investors.com/market-trend/the-big-picture/stock-market-ends-week-software-sell-off-nasdaq-dives/",
-        "source_notes": "https://www.investors.com/market-trend/the-big-picture/stock-market-ends-week-software-sell-off-nasdaq-dives/"
+        "source_url": "https://seekingalpha.com/article/4954971-what-moved-markets-this-week",
+        "source_notes": "https://seekingalpha.com/article/4954971-what-moved-markets-this-week"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-16",
-    "generated_at": "2026-10-16T23:00:22-04:00",
-    "draft_path": "drafts/2026-10-16-week-ahead.md",
+    "session_date": "2026-10-17",
+    "generated_at": "2026-10-17T23:02:25-04:00",
+    "draft_path": "drafts/2026-10-17-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Travelers Q3 EPS 9.18 vs 7.39 est.",
+        "title": "Meta and Tesla report Tuesday with EPS on file",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$TRV Q3 EPS came in at 9.18 vs a 7.39 estimate on Oct. 16.\n\nRevenue was about $12.41B vs roughly $11.36B expected.\n\nSame day, other financials also reported vs estimates on file:\n\n- $TFC \u2014 EPS 1.16 vs 1.14 est.\n- $MTB \u2014 EPS 5.08 vs 4.93 est.\n- $CFG \u2014 EPS 1.41 vs 1.39 est.\n- $RF \u2014 EPS 0.73 vs 0.662 est.\n\nThose numbers measure Q3 profit per share against what analysts had modeled before the release.\n\nWhen U.S. stocks reopen for the new week, that batch is the fresh earnings set on the calendar that just cleared.\n\nWhich of these prints are you tracking first?",
+        "body": "$META and $TSLA report Tuesday, Oct. 21.\n\nAnalysts have $6.58 EPS penciled in for Meta on about $63.3B in revenue.\n\nTesla\u2019s file shows a $0.45 EPS estimate on about $27.9B in revenue.\n\nBoth prints land after Friday\u2019s session, when the Nasdaq Composite closed down 2.1% at 26,140.03 and the VIX finished at 19.99, up 21.4%.\n\nThose numbers are the setup for what each company reports for the latest quarter\u2014not a read on the stocks themselves.\n\nWhich line item do you watch first on a megacap earnings day\u2014EPS, revenue, or guidance?",
         "skip_reason": "",
         "supporting_data": [
-          "TRV EPS actual: 9.18 \u2014 source: FMP earnings_calendar",
-          "TRV EPS estimate: 7.39 \u2014 source: FMP earnings_calendar",
-          "TRV revenue actual: 12,412,000,000 \u2014 source: FMP earnings_calendar",
-          "TRV revenue estimate: 11,361,230,000 \u2014 source: FMP earnings_calendar",
-          "TRV report date: 2026-10-16 \u2014 source: FMP earnings_calendar",
-          "TFC EPS actual: 1.16 \u2014 source: FMP earnings_calendar",
-          "TFC EPS estimate: 1.14 \u2014 source: FMP earnings_calendar",
-          "MTB EPS actual: 5.08 \u2014 source: FMP earnings_calendar",
-          "MTB EPS estimate: 4.93 \u2014 source: FMP earnings_calendar",
-          "CFG EPS actual: 1.41 \u2014 source: FMP earnings_calendar",
-          "CFG EPS estimate: 1.39 \u2014 source: FMP earnings_calendar",
-          "RF EPS actual: 0.73 \u2014 source: FMP earnings_calendar",
-          "RF EPS estimate: 0.662 \u2014 source: FMP earnings_calendar"
+          "META EPS estimate: $6.58 \u2014 source: FMP earnings_calendar",
+          "META revenue estimate: $63,337,790,000 (~$63.3B) \u2014 source: FMP earnings_calendar",
+          "TSLA EPS estimate: $0.45 (from 0.45) \u2014 source: FMP earnings_calendar",
+          "TSLA revenue estimate: $27,935,200,000 (~$27.9B) \u2014 source: FMP earnings_calendar",
+          "^IXIC close: 26,140.03, -2.1% \u2014 source: FMP indexes",
+          "^VIX: 19.99, +21.4% \u2014 source: FMP indexes",
+          "Week window: 2026-10-19 to 2026-10-23 \u2014 source: FMP_DATA week_start/week_end"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "Alcoa Q3 EPS 1.82 vs 1.51 est.",
+        "title": "September housing starts due Monday 12:30 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AA Q3 EPS was 1.82 vs a 1.51 estimate on Oct. 15.\n\nRevenue landed near $3.70B vs about $3.77B expected.\n\nThat pairing is the company\u2019s profit-per-share scorecard vs what analysts had modeled, plus the top-line comparison for the same quarter.\n\nThe report date on the earnings calendar is Oct. 15, so the next U.S. sessions are when that print is still the newest $AA fundamental update on the schedule.\n\nAre you watching the EPS line or the revenue line more closely here?",
+        "body": "Monday, Oct. 20, 12:30 p.m.\nET: September housing data.\n\nHousing starts (new home construction begun) \u2014 estimate 1.3M units.\n\nMonth-over-month change in starts \u2014 estimate +1.9%.\n\nPrior month-on-month reading: -2.6%.\n\nBuilding permits (government approval to build) \u2014 estimate 1.4M.\n\nPermits month-over-month \u2014 estimate -0.7%; prior was -2.1%.\n\nThe release measures how much new residential construction the economy is adding, not stock prices.\n\nDo you treat housing starts as a lead indicator for builders and suppliers, or mostly as a read on rates and affordability?",
         "skip_reason": "",
         "supporting_data": [
-          "AA EPS actual: 1.82 \u2014 source: FMP earnings_calendar",
-          "AA EPS estimate: 1.51 \u2014 source: FMP earnings_calendar",
-          "AA revenue actual: 3,704,000,000 \u2014 source: FMP earnings_calendar",
-          "AA revenue estimate: 3,768,544,000 \u2014 source: FMP earnings_calendar",
-          "AA report date: 2026-10-15 \u2014 source: FMP earnings_calendar"
+          "Event date/time: 2026-10-20 12:30:00 \u2014 source: FMP economic_calendar",
+          "Housing Starts (Sep): estimate 1.3M (from 1.3) \u2014 source: FMP economic_calendar",
+          "Housing Starts MoM (Sep): estimate +1.9% \u2014 source: FMP economic_calendar",
+          "Housing Starts MoM previous: -2.6% \u2014 source: FMP economic_calendar",
+          "Building Permits (Sep): estimate 1.4M \u2014 source: FMP economic_calendar",
+          "Building Permits MoM (Sep): estimate -0.7% \u2014 source: FMP economic_calendar",
+          "Building Permits MoM previous: -2.1% \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "J.B. Hunt Q3 EPS 1.82 vs 1.81 est.",
+        "title": "Jobless claims Thursday; PMI trio Friday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$JBHT Q3 EPS was 1.82 vs a 1.81 estimate on Oct. 15.\n\nRevenue was about $3.68B vs roughly $3.59B expected.\n\nThe report tracks trucking and intermodal demand through profit per share and sales versus what was modeled ahead of the call.\n\nOct. 15 is the dated earnings event in the feed, so the coming U.S. sessions are when that $JBHT update is still the latest scheduled fundamental read for the name.\n\nDo you treat freight earnings as a read on goods demand or on margins first?",
+        "body": "Thursday, Oct. 22, 12:30 p.m.\nET \u2014 weekly layoff and unemployment-insurance data.\n\nInitial jobless claims (new filings for unemployment benefits) \u2014 estimate 200K; prior 199K.\n\nContinuing claims \u2014 estimate 1,712K; prior 1,710K.\n\nFour-week average for initial claims \u2014 estimate 200K; prior 198.5K.\n\nFriday, Oct. 23, 1:45 p.m.\nET \u2014 S&P Global PMI for October (survey of purchasing managers; above 50 usually means expansion).\n\nManufacturing PMI \u2014 estimate 55.6; prior 55.9.\n\nServices PMI \u2014 estimate 57.9; prior 58.8.\n\nComposite PMI \u2014 estimate 57.6; prior 58.4.\n\nTogether they show hiring stress in real time and broader business activity into late October.\n\nWhich do you check first on a busy data week \u2014 the jobs filings or the PMI bundle?",
         "skip_reason": "",
         "supporting_data": [
-          "JBHT EPS actual: 1.82 \u2014 source: FMP earnings_calendar",
-          "JBHT EPS estimate: 1.81 \u2014 source: FMP earnings_calendar",
-          "JBHT revenue actual: 3,676,807,000 \u2014 source: FMP earnings_calendar",
-          "JBHT revenue estimate: 3,594,193,000 \u2014 source: FMP earnings_calendar",
-          "JBHT report date: 2026-10-15 \u2014 source: FMP earnings_calendar"
+          "Initial Jobless Claims (Oct/17): estimate 200K, previous 199K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims (Oct/10): estimate 1,712K, previous 1,710K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average: estimate 200K, previous 198.5K \u2014 source: FMP economic_calendar",
+          "Claims release: 2026-10-22 12:30:00 \u2014 source: FMP economic_calendar",
+          "S&P Global Manufacturing PMI (Oct): estimate 55.6, previous 55.9 \u2014 source: FMP economic_calendar",
+          "S&P Global Services PMI (Oct): estimate 57.9, previous 58.8 \u2014 source: FMP economic_calendar",
+          "S&P Global Composite PMI (Oct): estimate 57.6, previous 58.4 \u2014 source: FMP economic_calendar",
+          "PMI release: 2026-10-23 13:45:00 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/developer/docs/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       }
     ]
   }

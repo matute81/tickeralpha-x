@@ -1,214 +1,205 @@
 {
-  "updated_at": "2026-10-21T23:18:48-04:00",
+  "updated_at": "2026-10-22T23:24:16-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-21",
-    "generated_at": "2026-10-21T23:17:53-04:00",
-    "draft_path": "drafts/2026-10-21-am.md",
+    "session_date": "2026-10-22",
+    "generated_at": "2026-10-22T23:23:34-04:00",
+    "draft_path": "drafts/2026-10-22-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Meta EPS $3.83 vs $6.54 estimate",
+        "title": "Initial jobless claims 194K vs 200K est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$META reported Q3 EPS of $3.83 vs a $6.54 estimate.\n\nRevenue landed near $64.6B vs about $63.3B expected \u2014 profit per share missed by a wide margin even as sales topped the forecast.\n\nThe print hit the same session the Nasdaq Composite closed up 1.1% at 26,702.86 and the S&P 500 rose 0.6% to 7,757.85.\n\nWhich part of the release \u2014 the EPS gap or the revenue line \u2014 are you reading first?",
+        "body": "Initial U.S. jobless claims: **194K** actual vs **200K** estimate (prior **200K**).\n\nThat is the headline layoff-filing print for the week of Oct. 17 \u2014 a lower number means fewer new filings than economists expected.\n\nContinuing claims (people already on unemployment): **1,728K** vs **1,720K** est. (prior **1,703K**).\n\nThe four-week average in new claims: **197.8K** vs **200K** est. (prior **198.8K**).\n\nAll three releases hit at **12:30 p.m.\nET** on **Oct. 22**.\n\nWhich line matters more to you right now \u2014 the beat on new filings or the rise in continuing claims?",
         "skip_reason": "",
         "supporting_data": [
-          "META EPS actual: 3.83 \u2014 FMP earnings calendar",
-          "META EPS estimate: 6.54 \u2014 FMP earnings calendar",
-          "META revenue actual: $64.6B (64,601,000,000) \u2014 FMP earnings calendar",
-          "META revenue estimate: $63.3B (63,343,010,000) \u2014 FMP earnings calendar",
-          "Nasdaq Composite close: 26,702.86 (+1.1%) \u2014 FMP indexes ^IXIC",
-          "S&P 500 close: 7,757.85 (+0.6%) \u2014 FMP indexes ^GSPC"
+          "Initial Jobless Claims actual: 194K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims estimate: 200K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims previous: 200K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims actual: 1,728K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims estimate: 1,720K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims previous: 1,703K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average actual: 197.75K (197.8K rounded) \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 200K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average previous: 198.75K (198.8K rounded) \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://seekingalpha.com/article/4956109-technology-stocks-pop-lead-nasdaq-higher",
-        "source_notes": "https://seekingalpha.com/article/4956109-technology-stocks-pop-lead-nasdaq-higher"
+        "source_url": "https://invezz.com/news/2026/10/22/nasdaq-falls-2-6-as-ai-spending-fears-hit-tech-stocks-oil-prices-jump/",
+        "source_notes": "https://invezz.com/news/2026/10/22/nasdaq-falls-2-6-as-ai-spending-fears-hit-tech-stocks-oil-prices-jump/"
       },
       {
-        "title": "Brent crude at $110.53 on Gulf tension",
+        "title": "Brent near $114 as Gulf supply risks linger",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent settled near $110.53, up 1.6% on the day.\n\nReuters linked the move to the U.S. ordering diplomats to leave Saudi Arabia as Middle East tension escalated.\n\nThe U.S. oil fund proxy $USO closed at $159.80, down 0.5%, while Brent \u2014 the international benchmark \u2014 led the energy read in the cross-asset data.\n\nTreasury yields in the snapshot showed the 10-year at 5.2% (dated 2026-10-19), with the 2s10s spread at 0.38 percentage points.\n\nWhen energy headlines move Brent, do you watch crude first or bond yields?",
+        "body": "Brent crude: **$113.84**, **+0.6%** on the session.\n\nWTI exposure via $USO: **$162.51**, **+1.7%**.\n\nReuters headline: oil **little changed** overall, with **supply concern** still in focus amid **Houthi attacks on Saudi Arabia**.\n\nThat ties the energy complex to Middle East shipping and production risk rather than a single U.S. data print.\n\nHow are you tracking Gulf headlines against these price levels?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude price: 110.53 \u2014 FMP cross_asset brent",
-          "Brent change: +1.6% \u2014 FMP cross_asset brent (changesPercentage)",
-          "USO price: 159.80 (-0.5%) \u2014 FMP cross_asset wti (USO)",
-          "10-year Treasury yield: 5.2% \u2014 FMP treasury",
-          "2s10s spread: 0.38 \u2014 FMP treasury spread_2s10s"
+          "Brent Crude (BZUSD) price: 113.84 \u2014 source: FMP cross_asset",
+          "Brent changesPercentage: 0.6% \u2014 source: FMP cross_asset",
+          "USO price: 162.51 \u2014 source: FMP cross_asset",
+          "USO changesPercentage: 1.7% \u2014 source: FMP cross_asset"
         ],
-        "source_url": "https://www.reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/",
-        "source_notes": "https://www.reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/"
+        "source_url": "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
+        "source_notes": "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/"
       },
       {
-        "title": "Jobless claims due at 12:30 ET Thursday",
+        "title": "Three U.S. PMI prints due Oct. 23",
         "status": "ready",
         "kind": "x_idea",
-        "body": "At 12:30 p.m.\nET on 2026-10-22, the Labor Department schedule includes initial jobless claims, continuing claims, and the four-week average for claims.\n\nInitial claims: estimate 200K, previous 199K.\n\nContinuing claims: estimate 1,720K, previous 1,710K.\n\nFour-week average: estimate 200K, previous 198.5K.\n\nThese are weekly counts of people filing for unemployment benefits \u2014 a read on how fast layoffs are showing up in the data.\n\nThe prior U.S. cash session ended with the Dow Jones Industrial Average up 0.7% at 52,856.09 and the CBOE Volatility Index at 16.68, down 3.6%.\n\nWhat threshold on the initial claims print would you treat as a clear break from the recent 199K\u2013200K band?",
+        "body": "On **Oct. 23 at 1:45 p.m.\nET**, three U.S. PMI releases drop together \u2014 PMI scores above 50 mean expansion, below 50 mean contraction.\n\nS&P Global **Manufacturing** PMI (Oct): est. **55.5** (prior **55.9**).\n\nS&P Global **Services** PMI (Oct): est. **58.0** (prior **58.8**).\n\nS&P Global **Composite** PMI (Oct): est. **57.6** (prior **58.4**).\n\nAll three are tagged **Medium** impact in the calendar; they summarize survey-based activity across factories and services.\n\nWhich of the three do you watch first when they land together?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial jobless claims estimate: 200K \u2014 FMP economic_calendar",
-          "Initial jobless claims previous: 199K \u2014 FMP economic_calendar",
-          "Continuing claims estimate: 1,720K \u2014 FMP economic_calendar",
-          "Continuing claims previous: 1,710K \u2014 FMP economic_calendar",
-          "Jobless claims 4-week average estimate: 200K \u2014 FMP economic_calendar",
-          "Jobless claims 4-week average previous: 198.5K \u2014 FMP economic_calendar",
-          "Dow Jones close: 52,856.09 (+0.7%) \u2014 FMP indexes ^DJI",
-          "VIX: 16.68 (-3.6%) \u2014 FMP indexes ^VIX"
+          "S&P Global Manufacturing PMI estimate: 55.5 \u2014 source: FMP economic_calendar",
+          "S&P Global Manufacturing PMI previous: 55.9 \u2014 source: FMP economic_calendar",
+          "S&P Global Services PMI estimate: 58 \u2014 source: FMP economic_calendar",
+          "S&P Global Services PMI previous: 58.8 \u2014 source: FMP economic_calendar",
+          "S&P Global Composite PMI estimate: 57.6 \u2014 source: FMP economic_calendar",
+          "S&P Global Composite PMI previous: 58.4 \u2014 source: FMP economic_calendar",
+          "Release time: 2026-10-23 13:45:00 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.youtube.com/watch?v=4fVthA85pPM",
-        "source_notes": "https://www.youtube.com/watch?v=4fVthA85pPM"
+        "source_url": "https://www.wsj.com/economy/japan-consumer-inflation-uptick-offers-tailwind-for-boj-rate-hike-95d29b74",
+        "source_notes": "https://www.wsj.com/economy/japan-consumer-inflation-uptick-offers-tailwind-for-boj-rate-hike-95d29b74"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-21",
-    "generated_at": "2026-10-21T23:18:25-04:00",
-    "draft_path": "drafts/2026-10-21.md",
+    "session_date": "2026-10-22",
+    "generated_at": "2026-10-22T23:24:03-04:00",
+    "draft_path": "drafts/2026-10-22.md",
     "errors": [],
     "slots": [
       {
-        "title": "Tesla closes up 3.4% after Q3 print",
+        "title": "Nasdaq down 2.6% on AI spend worries",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$TSLA closed up 3.4% at 386.47, a 12.76-point gain on the session.\n\nThe company reported Q3 EPS of $0.48 versus a $0.45 estimate and revenue of about $28.05 billion versus roughly $28.06 billion expected.\n\nVolume was 44.8 million shares.\n\nEarnings coverage framed the quarter as profit beating expectations even as revenue tracked near the forecast.\n\nWhich line in the Tesla report stood out most to you \u2014 EPS, revenue, or something in the release?",
+        "body": "The Nasdaq Composite closed at 26,008.86, down 694.00 points (-2.6%).\n\nThe S&P 500 finished at 7,662.54, down 94.63 points (-1.2%).\n\nThe Dow Jones Industrial Average was nearly flat at 52,867.98 (0.0%).\n\nCoverage linked the tech-heavy decline to renewed worry about how much companies are spending on AI and whether those outlays line up with near-term profits.\n\nThe CBOE Volatility Index (VIX) rose to 19.03 (+14.1%).\n\nWhich large-cap tech name moved the most in your watchlist today?",
         "skip_reason": "",
         "supporting_data": [
-          "TSLA change: +3.4% \u2014 mega_caps / FMP quote",
-          "TSLA price: 386.47 \u2014 mega_caps",
-          "TSLA point change: +12.76 \u2014 mega_caps",
-          "TSLA volume: 44,779,790 \u2014 mega_caps",
-          "TSLA EPS actual: 0.48 \u2014 earnings_calendar",
-          "TSLA EPS estimate: 0.45 \u2014 earnings_calendar",
-          "TSLA revenue actual: $28,046,000,000 \u2014 earnings_calendar",
-          "TSLA revenue estimate: $28,056,790,000 \u2014 earnings_calendar"
+          "Nasdaq Composite close: 26,008.86 \u2014 FMP indexes ^IXIC",
+          "Nasdaq change: -694.00 (-2.6%) \u2014 FMP indexes ^IXIC",
+          "S&P 500 close: 7,662.54 \u2014 FMP indexes ^GSPC",
+          "S&P 500 change: -94.63 (-1.2%) \u2014 FMP indexes ^GSPC",
+          "Dow close: 52,867.98 \u2014 FMP indexes ^DJI",
+          "Dow change: +11.89 (0.0%) \u2014 FMP indexes ^DJI",
+          "VIX: 19.03 (+14.1%) \u2014 FMP indexes ^VIX"
         ],
-        "source_url": "https://seekingalpha.com/article/4956109-technology-stocks-pop-lead-nasdaq-higher",
-        "source_notes": "https://seekingalpha.com/article/4956109-technology-stocks-pop-lead-nasdaq-higher"
+        "source_url": "https://invezz.com/news/2026/10/22/nasdaq-falls-2-6-as-ai-spending-fears-hit-tech-stocks-oil-prices-jump/",
+        "source_notes": "https://invezz.com/news/2026/10/22/nasdaq-falls-2-6-as-ai-spending-fears-hit-tech-stocks-oil-prices-jump/"
       },
       {
-        "title": "Meta EPS $3.83 vs $6.54 estimate",
+        "title": "AMD \u22128.1% leads chip pullback",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$META closed up 0.5% at 697.52 after reporting Q3 results.\n\nEPS came in at $3.83 versus a $6.54 estimate.\n\nRevenue was about $64.60 billion versus about $63.34 billion expected.\n\nThe session range ran from 690.10 to 713.22.\n\nSeparate reporting the same day discussed CEO Mark Zuckerberg and a proposed California wealth tax tied to voting control and share-sale concerns.\n\nWhen EPS misses that wide but revenue beats, what do you read first in the filing?",
+        "body": "Chip and AI-hardware names led the downside in megacaps.\n\n- $AMD \u22128.1% to 507.93\n- $ASML \u22126.9% to 1,560.54\n- $NVDA \u22124.4% to 212.21\n- $AVGO \u22124.3% to 323.24\n- $WDC \u22126.4% to 354.19\n\nThe Nasdaq Technology sector average change was \u22121.9% for the session.\n\nSame-day commentary described a broader semiconductor selloff and rotation toward more defensive parts of the market.\n\nAre you tracking semis as a group or name-by-name right now?",
         "skip_reason": "",
         "supporting_data": [
-          "META change: +0.5% \u2014 mega_caps",
-          "META price: 697.52 \u2014 mega_caps",
-          "META day low: 690.10 \u2014 mega_caps",
-          "META day high: 713.22 \u2014 mega_caps",
-          "META EPS actual: 3.83 \u2014 earnings_calendar",
-          "META EPS estimate: 6.54 \u2014 earnings_calendar",
-          "META revenue actual: $64,601,000,000 \u2014 earnings_calendar",
-          "META revenue estimate: $63,343,010,000 \u2014 earnings_calendar"
+          "AMD: 507.93, \u221244.79 (\u22128.1%) \u2014 FMP mega_caps AMD",
+          "ASML: 1,560.54, \u2212116.15 (\u22126.9%) \u2014 FMP mega_caps ASML",
+          "NVDA: 212.21, \u22129.76 (\u22124.4%) \u2014 FMP mega_caps NVDA",
+          "AVGO: 323.24, \u221214.56 (\u22124.3%) \u2014 FMP mega_caps AVGO",
+          "WDC: 354.19, \u221224.32 (\u22126.4%) \u2014 FMP mega_caps WDC",
+          "Technology sector average change: \u22121.9% \u2014 FMP sectors"
         ],
-        "source_url": "https://www.wsj.com/business/mark-zuckerberg-discussed-leaving-california-over-wealth-tax-21b0b522",
-        "source_notes": "https://www.wsj.com/business/mark-zuckerberg-discussed-leaving-california-over-wealth-tax-21b0b522"
+        "source_url": "https://seekingalpha.com/article/4956738-flight-to-quality-has-just-begun",
+        "source_notes": "https://seekingalpha.com/article/4956738-flight-to-quality-has-just-begun"
       },
       {
-        "title": "AT&T down 6.4% after results",
+        "title": "P&G up 5.6% after EPS beat",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$T closed down 6.4% at 21.91.\n\nThat was a 1.51-point drop on volume of about 83.7 million shares.\n\nQ3 EPS printed at $0.65 versus a $0.60 estimate.\n\nRevenue was about $32.30 billion versus about $31.69 billion expected.\n\nThe stock\u2019s session low was 21.80 and the prior close was 23.42.\n\nWhat part of the AT&T report do you think the market reacted to?",
+        "body": "$PG closed at 165.59, up 8.75 (+5.6%).\n\nQ1 EPS came in at $2.00 vs a $1.88 estimate.\n\nRevenue was $23.28B vs a $22.80B estimate.\n\nOther defensive large caps also finished green:\n\n- $KO +2.9% to 95.34\n- $PEP +3.1% to 138.83\n- $JNJ +3.8% to 267.61\n\nThe Nasdaq Consumer Defensive sector average change was +1.3% for the day.\n\nDid the staples move stand out against tech for you today?",
         "skip_reason": "",
         "supporting_data": [
-          "T change: -6.4% \u2014 mega_caps",
-          "T price: 21.91 \u2014 mega_caps",
-          "T point change: -1.51 \u2014 mega_caps",
-          "T volume: 83,684,667 \u2014 mega_caps",
-          "T day low: 21.80 \u2014 mega_caps",
-          "T previous close: 23.42 \u2014 mega_caps",
-          "T EPS actual: 0.65 \u2014 earnings_calendar",
-          "T EPS estimate: 0.602 \u2014 earnings_calendar",
-          "T revenue actual: $32,300,000,000 \u2014 earnings_calendar",
-          "T revenue estimate: $31,689,210,000 \u2014 earnings_calendar"
+          "PG price: 165.59 (+5.6%) \u2014 FMP mega_caps PG",
+          "PG EPS actual: 2.00 \u2014 FMP earnings_calendar PG",
+          "PG EPS estimate: 1.88 \u2014 FMP earnings_calendar PG",
+          "PG revenue actual: 23,276,000,000 \u2014 FMP earnings_calendar PG",
+          "PG revenue estimate: 22,795,440,000 \u2014 FMP earnings_calendar PG",
+          "KO: 95.34 (+2.9%) \u2014 FMP mega_caps KO",
+          "PEP: 138.83 (+3.1%) \u2014 FMP mega_caps PEP",
+          "JNJ: 267.61 (+3.8%) \u2014 FMP mega_caps JNJ",
+          "Consumer Defensive sector average: +1.3% \u2014 FMP sectors"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/T",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/T"
+        "source_url": "https://seekingalpha.com/article/4956736-tech-sell-off-leads-uptick-defensive-stocks",
+        "source_notes": "https://seekingalpha.com/article/4956736-tech-sell-off-leads-uptick-defensive-stocks"
       },
       {
-        "title": "U.S. cash session \u2014 Oct. 21, 2026",
+        "title": "U.S. session recap \u2014 Oct. 22, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 rose 0.6% to 7,757.85 (+45.28 points).\nThe Nasdaq Composite gained 1.1% to 26,702.86 (+278.04).\nThe Dow added 0.7% to 52,856.09 (+360.21).\nThe Russell 2000 edged up 0.2% to 2,781.02.\n\nThe CBOE Volatility Index fell 3.6% to 16.68, down 0.63 point from the prior close.\n\nHealthcare led Nasdaq sector averages, up about 1.3% on the day.\nReal estate lagged, down about 1.1%.\nUtilities rose about 0.7%; consumer defensive about 0.8%.\nTechnology averaged about +0.4%; communication services about -0.4%; energy about -0.2%.\n\nEarnings dominated the narrative.\nTesla ($TSLA) finished up 3.4% at 386.47 after Q3 EPS of $0.48 versus a $0.45 estimate.\nMeta ($META) closed up 0.5% at 697.52 despite EPS of $3.83 versus a $6.54 estimate, with revenue near $64.6 billion above the roughly $63.3 billion forecast.\nIBM ($IBM) gained 3.9% to 251.46 on EPS $2.95 versus $2.85 expected and revenue above estimate.\nDanaher ($DHR) rose 4.4% to 234.09; Texas Instruments ($TXN) +2.5% to 284.65; Thermo Fisher ($TMO) +1.0% to 694.02.\n\nAT&T ($T) fell 6.4% to 21.91 even with EPS $0.65 versus $0.60 expected and revenue above estimate, on volume near 83.7 million shares.\nAlphabet ($GOOGL) lost 1.6% to 334.76.\nOracle ($ORCL) -1.6% to 129.10.\nLam Research ($LRCX) reported EPS $2.20 versus $2.18 expected but closed down 1.0% at 260.81.\nApple ($AAPL) rose 1.3% to 343.99 with a session high of 345.22 against a 52-week high of 348.15 in the quote data.\n\nTaiwan Semiconductor ($TSM) gained 1.6% to 431.89.\nAlibaba ($BABA) declined 3.9% to 104.40.\nProcter & Gamble ($PG) and AbbVie ($ABBV) each closed about -1.5%.\n\nThe Energy Information Administration reported a 3.061 million-barrel draw in U.S. crude oil stocks for the week of Oct. 16, compared with a -0.8 million-barrel estimate, and a 2.952 million-barrel drop in gasoline stocks versus a -0.4 million estimate.\n\nBrent crude rose 1.6% to 110.52.\nGold futures slipped 0.5% to 4,128.00.\nThe United States Oil Fund ($USO proxy in tape) closed down 0.5% at 159.80.\nBitcoin ($BTCUSD) fell 1.5% to 82,730.23.\n\nOverseas indexes were softer: Hang Seng -2.6% to 23,041.00; Nikkei 225 -1.1% to 63,917.43.\nFTSE 100 +0.2% to 10,752.88.\n\nLatest Treasury snapshot in the feed (dated 2026-10-19) showed the 10-year at 5.2% and the 2s10s spread at 0.38 percentage point.\nThe dollar-tracking fund in the cross-asset set ($UUP) ticked up 0.1% to 28.92.",
+        "body": "The Nasdaq Composite closed at 26,008.86, down 2.6%, its steepest daily drop reflected in session coverage tied to AI spending concerns.\nThe S&P 500 lost 1.2% to 7,662.54, while the Dow Jones Industrial Average barely moved, finishing at 52,867.98 (0.0%).\nThe Russell 2000 edged up 0.1% to 2,784.03.\n\nThe VIX rose 14.1% to 19.03, matching a session where equity volatility picked up alongside the tech decline.\n\nAt 12:30 p.m.\nET the Labor Department release showed initial jobless claims at 194K vs a 200K estimate, with continuing claims at 1,728K vs a 1,720K estimate and the four-week average at 197.75K.\n\nSector averages on Nasdaq showed Real Estate down 3.1%, Communication Services down 2.7%, Industrials down 2.7%, Utilities down 2.5%, Technology down 1.9%, and Energy down 2.0%.\nFinancial Services rose 1.6%, Basic Materials 1.6%, Consumer Defensive 1.3%, and Healthcare 0.8%.\n\nMegacap tech sold off: $AMZN \u22124.6% to 250.38, $NVDA \u22124.4% to 212.21, $MSFT \u22122.2% to 521.08, and $GOOGL \u22123.1% to 324.22.\n$AAPL bucked the group, up 1.2% to 348.22.\n\nSemiconductors and related hardware were among the hardest-hit large names: $AMD \u22128.1%, $ASML \u22126.9%, $WDC \u22126.4%, and $AVGO \u22124.3%.\n$WDC reported EPS of $4.64 vs a $4.11 estimate and revenue of $4.38B vs a $4.14B estimate.\n\nProcter & Gamble ($PG) rose 5.6% to 165.59 after EPS of $2.00 vs $1.88 estimated and revenue of $23.28B vs $22.80B estimated.\nLockheed Martin ($LMT) gained 7.0% to 589.91 on EPS of $7.97 vs $7.52 estimated and revenue of $20.71B vs $20.48B estimated.\nBlackstone ($BX) closed up 8.4% to 118.75 (EPS $1.32 vs $1.26 est.).\nRoper Technologies ($ROP) was up 9.7% to 436.23 (EPS $5.89 vs $5.79 est.).\nNasdaq, Inc. ($NDAQ) rose 7.5% to 103.30 (EPS $1.04 vs $1.02 est.).\n\nCross-asset moves included Brent crude at 113.85 (+0.6%), the United States Oil Fund ($USO) at 162.51 (+1.7%), gold futures at 4,029.70 (\u22120.8%), the Invesco dollar fund ($UUP) at 28.90 (\u22120.1%), and Bitcoin at 81,642.09 (+0.4%).\n\nOverseas indexes in the feed included the Nikkei 225 at 61,825.26 (\u22121.7%), the FTSE 100 at 10,725.03 (\u22120.3%), and the Hang Seng at 23,020.68 (+0.4%).\n\nTreasury yield levels in the injected snapshot (dated 2026-10-20) showed the 10-year at 5.1% and the 2s10s spread at 0.33 percentage points.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: +0.6%, 7,757.85 \u2014 indexes",
-          "^IXIC: +1.1%, 26,702.86 \u2014 indexes",
-          "^DJI: +0.7%, 52,856.09 \u2014 indexes",
-          "^RUT: +0.2%, 2,781.02 \u2014 indexes",
-          "^VIX: -3.6%, 16.68 \u2014 indexes",
-          "Healthcare sector average: +1.3% \u2014 sectors",
-          "Real Estate sector average: -1.1% \u2014 sectors",
-          "EIA crude stocks change: -3.061M (est. -0.8M) \u2014 economic_calendar",
-          "EIA gasoline stocks change: -2.952M (est. -0.4M) \u2014 economic_calendar",
-          "Brent (BZUSD): +1.6%, 110.52 \u2014 cross_asset",
-          "Gold (GCUSD): -0.5%, 4,128.00 \u2014 cross_asset",
-          "USO: -0.5%, 159.80 \u2014 cross_asset",
-          "BTCUSD: -1.5%, 82,730.23 \u2014 cross_asset",
-          "^HSI: -2.6%, 23,041.00 \u2014 overseas",
-          "^N225: -1.1%, 63,917.43 \u2014 overseas",
-          "Treasury 10y: 5.2%; spread_2s10s: 0.38 \u2014 treasury",
-          "UUP: +0.1%, 28.92 \u2014 cross_asset"
+          "^IXIC: 26,008.86 (\u22122.6%) \u2014 FMP indexes",
+          "^GSPC: 7,662.54 (\u22121.2%) \u2014 FMP indexes",
+          "^DJI: 52,867.98 (0.0%) \u2014 FMP indexes",
+          "^RUT: 2,784.03 (+0.1%) \u2014 FMP indexes",
+          "^VIX: 19.03 (+14.1%) \u2014 FMP indexes",
+          "Jobless claims initial: 194K actual, 200K estimate \u2014 FMP economic_calendar",
+          "PG/LMT/BX/ROP/NDAQ prices and EPS \u2014 FMP mega_caps & earnings_calendar",
+          "Brent 113.85 (+0.6%), USO 162.51 (+1.7%), GCUSD 4,029.70 (\u22120.8%) \u2014 FMP cross_asset",
+          "Sector averages \u2014 FMP sectors",
+          "Treasury year10 5.12, spread_2s10s 0.33 \u2014 FMP treasury"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://www.wsj.com/finance/stocks/u-s-tech-stocks-drop-on-ai-spending-concerns-05400b55",
+        "source_notes": "https://www.wsj.com/finance/stocks/u-s-tech-stocks-drop-on-ai-spending-concerns-05400b55"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-21",
-    "generated_at": "2026-10-21T23:18:48-04:00",
-    "draft_path": "drafts/2026-10-21-week-ahead.md",
+    "session_date": "2026-10-22",
+    "generated_at": "2026-10-22T23:24:16-04:00",
+    "draft_path": "drafts/2026-10-22-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "P&G reports Thursday on $1.88 EPS estimate",
+        "title": "American Express reports on $4.50 EPS estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$PG reports Oct. 22.\n\nAnalysts estimate EPS of $1.88 on revenue near $22.80B.\n\nThe print is a check on how households are spending on staples when prices and borrowing costs are still part of the backdrop.\n\nResults land with other large names still on the Oct. 22 calendar.\n\nWhich consumer name on Thursday\u2019s slate are you tracking first?",
+        "body": "$AXP reports Oct. 23 with a $4.50 EPS estimate.\n\nRevenue is estimated at about $20.12 billion.\n\nThe release is a read on consumer and business payment volumes, not a live quote.\n\nResults settle when the company files and the call finishes.\n\nWhich line item do you watch first on card lenders \u2014 loan growth or spend volume?",
         "skip_reason": "",
         "supporting_data": [
-          "PG earnings date: 2026-10-22 \u2014 source: FMP earnings_calendar",
-          "PG EPS estimate: 1.88 \u2014 source: FMP earnings_calendar",
-          "PG revenue estimate: $22.80B (22,795,440,000) \u2014 source: FMP earnings_calendar"
+          "AXP EPS estimate: 4.5 \u2014 source: FMP earnings_calendar",
+          "AXP revenue estimate: 20120410000 (~$20.12B) \u2014 source: FMP earnings_calendar",
+          "AXP report date: 2026-10-23 \u2014 source: FMP earnings_calendar",
+          "AXP name: American Express Company \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+        "source_url": "https://tickeralpha.ai/calendar/earnings",
+        "source_notes": "https://tickeralpha.ai/calendar/earnings"
       },
       {
-        "title": "Lockheed Martin earnings due Oct. 22",
+        "title": "SLB earnings due with $0.62 EPS estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$LMT reports Oct. 22.\n\nThe estimate is EPS of $7.52 on revenue near $20.48B.\n\nThe release covers government contract work and aerospace/defense programs\u2014demand tied to budgets and delivery schedules, not retail foot traffic.\n\nOct. 22 also has other industrial and transport names reporting the same session.\n\nWhat line item matters most to you in defense earnings\u2014backlog, margins, or cash flow?",
+        "body": "$SLB reports Oct. 23.\n\nEPS estimate: $0.62.\n\nRevenue estimate: about $9.27 billion.\n\nThe numbers describe drilling and production services activity for the quarter.\n\nThe report resolves when SLB publishes results.\n\nDo you treat oilfield services earnings as a lead on capex, or only after the majors report?",
         "skip_reason": "",
         "supporting_data": [
-          "LMT earnings date: 2026-10-22 \u2014 source: FMP earnings_calendar",
-          "LMT EPS estimate: 7.52 \u2014 source: FMP earnings_calendar",
-          "LMT revenue estimate: $20.48B (20,476,200,000) \u2014 source: FMP earnings_calendar"
+          "SLB EPS estimate: 0.617 (rounded $0.62) \u2014 source: FMP earnings_calendar",
+          "SLB revenue estimate: 9271835000 (~$9.27B) \u2014 source: FMP earnings_calendar",
+          "SLB report date: 2026-10-23 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+        "source_url": "https://tickeralpha.ai/calendar/earnings",
+        "source_notes": "https://tickeralpha.ai/calendar/earnings"
       },
       {
-        "title": "Manufacturing PMI estimate 55.5 Friday",
+        "title": "Three PMI prints Friday at 1:45 p.m. ET",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Three U.S. S&P Global PMI releases are set for Oct. 23 at 1:45 p.m.\nET.\n\nManufacturing (Oct): estimate 55.5, previous 55.9.\n\nServices (Oct): estimate 58.0, previous 58.8.\n\nComposite (Oct): estimate 57.6, previous 58.4.\n\nEach index is a diffusion score\u2014above 50 points to expansion, below 50 to contraction\u2014in factory activity, services, and the blended economy.\n\nThe bundle prints the same day as several late-week corporate reports.\n\nWhich PMI slice do you watch closest\u2014factories or services?",
+        "body": "Friday Oct. 23, 1:45 p.m.\nET: three U.S. S&P Global PMI releases for October.\n\nS&P Global Composite PMI \u2014 estimate 57.6, prior 58.4.\n\nS&P Global Manufacturing PMI \u2014 estimate 55.5, prior 55.9.\n\nS&P Global Services PMI \u2014 estimate 58.0, prior 58.8.\n\nEach figure is a survey index of purchasing managers; above 50 points to expansion, below 50 to contraction.\n\nAll three drop in the same release window.\n\nWhich of the three do you treat as the best same-day read on the economy \u2014 manufacturing, services, or the composite?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P Global Manufacturing PMI (Oct) date/time: 2026-10-23 13:45:00 ET \u2014 source: FMP economic_calendar",
+          "Composite PMI estimate: 57.6 \u2014 source: FMP economic_calendar",
+          "Composite PMI previous: 58.4 \u2014 source: FMP economic_calendar",
           "Manufacturing PMI estimate: 55.5 \u2014 source: FMP economic_calendar",
           "Manufacturing PMI previous: 55.9 \u2014 source: FMP economic_calendar",
-          "Services PMI estimate: 58.0 \u2014 source: FMP economic_calendar",
+          "Services PMI estimate: 58 \u2014 source: FMP economic_calendar",
           "Services PMI previous: 58.8 \u2014 source: FMP economic_calendar",
-          "Composite PMI estimate: 57.6 \u2014 source: FMP economic_calendar",
-          "Composite PMI previous: 58.4 \u2014 source: FMP economic_calendar"
+          "Release time: 2026-10-23 13:45:00 (America/New_York) \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://tickeralpha.ai/calendar/economic",
+        "source_notes": "https://tickeralpha.ai/calendar/economic"
       }
     ]
   }

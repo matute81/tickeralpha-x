@@ -1,229 +1,208 @@
 {
-  "updated_at": "2026-10-23T23:18:00-04:00",
+  "updated_at": "2026-10-24T23:13:14-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-23",
-    "generated_at": "2026-10-23T23:17:10-04:00",
-    "draft_path": "drafts/2026-10-23-am.md",
+    "session_date": "2026-10-24",
+    "generated_at": "2026-10-24T23:12:24-04:00",
+    "draft_path": "drafts/2026-10-24-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Michigan sentiment 48 tops 46.3 estimate",
+        "title": "Audi\u2019s first U.S. plant lands in Georgia",
         "status": "ready",
         "kind": "x_idea",
-        "body": "October Michigan consumer sentiment: **48** vs **46.3** expected (prior **48.1**).\n\nThat gauge tracks how households feel about jobs, prices, and spending \u2014 not the same as today\u2019s factory and services activity surveys.\n\nSame session, the S&P 500 finished **-0.5%** at **7,622.86**; the Dow was **-1.2%** at **52,215.16**.\n\nHow much weight do you put on sentiment prints vs. the PMI numbers released the same afternoon?",
+        "body": "Audi is planning its first U.S. assembly plant in Georgia.\n\nThe WSJ ties the move to stalled sales elsewhere and tariff pressure on imported autos.\n\nIt is a policy-and-trade story, not a single earnings print.\n\nWhich part matters more to you: jobs on the ground in Georgia, or how tariffs reshape where cars get built?",
         "skip_reason": "",
         "supporting_data": [
-          "Michigan Consumer Sentiment (Oct) actual: 48 \u2014 economic_calendar (FMP)",
-          "Michigan estimate: 46.3 \u2014 economic_calendar (FMP)",
-          "Michigan previous: 48.1 \u2014 economic_calendar (FMP)",
-          "S&P 500 change: -0.5% \u2014 indexes ^GSPC (FMP)",
-          "S&P 500 close: 7,622.86 \u2014 indexes ^GSPC (FMP)",
-          "Dow change: -1.2% \u2014 indexes ^DJI (FMP)",
-          "Dow close: 52,215.16 \u2014 indexes ^DJI (FMP)"
+          "Headline: Trump Announces Audi's First-Ever U.S. Factory in Georgia as Tariffs Bite \u2014 source: FMP news feed (WSJ)",
+          "Published: 2026-10-24 20:40:00 \u2014 source: FMP news feed"
         ],
-        "source_url": "https://www.marketwatch.com/story/the-u-s-economy-is-great-by-this-measure-and-the-good-times-arent-over-so-why-are-americans-so-sour-4be897db",
-        "source_notes": "https://www.marketwatch.com/story/the-u-s-economy-is-great-by-this-measure-and-the-good-times-arent-over-so-why-are-americans-so-sour-4be897db"
+        "source_url": "https://www.wsj.com/business/autos/trump-announces-audis-first-ever-u-s-factory-in-georgia-ss-tariffs-bite-7e3220fe",
+        "source_notes": "https://www.wsj.com/business/autos/trump-announces-audis-first-ever-u-s-factory-in-georgia-ss-tariffs-bite-7e3220fe"
       },
       {
-        "title": "October manufacturing PMI 56 beats 55.5",
+        "title": "Russian diesel tanker bound for New York",
         "status": "ready",
         "kind": "x_idea",
-        "body": "October S&P Global U.S. manufacturing PMI: **56** vs **55.5** expected (prior **55.9**).\n\nReadings above 50 mean more managers reporting expansion than contraction.\n\nSame release window:\n\n- Services PMI **57.9** vs **58.0** expected (prior **58.8**)\n- Composite PMI **57.6** vs **57.6** expected (prior **58.4**)\n\nNasdaq Composite closed **-0.2%** at **25,955.34** on the session.\n\nWhich of the three October PMI lines stood out to you?",
+        "body": "Fox Business says a Russian diesel tanker is en route to New York.\n\nThe cargo is about 40,000 tons.\n\nThe piece links the shipment to a Trump deal with Putin framed around easing fuel prices.\n\nA retired general quoted in the story says that volume covers only a couple of hours of U.S. diesel demand.\n\nBrent crude settled at 116.72, up 3.1% on the session in the injected cross-asset data.\n\nDoes a one-off cargo change how you read U.S.\u2013Russia energy politics, or is scale the whole story?",
         "skip_reason": "",
         "supporting_data": [
-          "Manufacturing PMI actual: 56 \u2014 economic_calendar (FMP)",
-          "Manufacturing PMI estimate: 55.5 \u2014 economic_calendar (FMP)",
-          "Manufacturing PMI previous: 55.9 \u2014 economic_calendar (FMP)",
-          "Services PMI actual: 57.9 \u2014 economic_calendar (FMP)",
-          "Services PMI estimate: 58 \u2014 economic_calendar (FMP)",
-          "Services PMI previous: 58.8 \u2014 economic_calendar (FMP)",
-          "Composite PMI actual: 57.6 \u2014 economic_calendar (FMP)",
-          "Composite PMI estimate: 57.6 \u2014 economic_calendar (FMP)",
-          "Composite PMI previous: 58.4 \u2014 economic_calendar (FMP)",
-          "Nasdaq change: -0.2% \u2014 indexes ^IXIC (FMP)",
-          "Nasdaq close: 25,955.34 \u2014 indexes ^IXIC (FMP)"
+          "Diesel cargo: 40,000 tons \u2014 source: FMP news feed (Fox Business article text)",
+          "Brent crude: 116.72 \u2014 source: FMP cross_asset brent",
+          "Brent session change: +3.1% \u2014 source: FMP cross_asset brent changesPercentage"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8",
-        "source_notes": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8"
+        "source_url": "https://www.foxbusiness.com/politics/first-russian-diesel-tanker-heads-new-york-after-trumps-deal-putin-lower-fuel-prices",
+        "source_notes": "https://www.foxbusiness.com/politics/first-russian-diesel-tanker-heads-new-york-after-trumps-deal-putin-lower-fuel-prices"
       },
       {
-        "title": "Brent +3.1% with Gulf supply in focus",
+        "title": "Ten names drive two-thirds of profit growth",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude **+3.1%** to **116.72** (prior close **113.17**).\n\nOil-linked fund $USO **+4.3%** to **169.53** on the same U.S. session.\n\nCoverage pointed to strike threats around Iranian supply and discussion of the Defense Production Act in the context of U.S. domestic production.\n\nThe CBOE Volatility Index rose **+2.2%** to **19.45** as equities slipped \u2014 S&P 500 **-0.5%**, Russell 2000 **-0.3%** to **2,775.90**.\n\nWhat energy or policy headline are you tracking into next week?",
+        "body": "The WSJ says ten companies account for roughly two-thirds of corporate profit growth.\n\nNvidia and Micron are among the names cited as AI-linked giants in that group.\n\nThat is a concentration statistic about profits, not a screen ranking.\n\nThe S&P 500 closed at 7,623.68, down 0.5% on the session.\n\nThe Nasdaq Composite closed at 25,955.34, down 0.2%.\n\nWhen profit growth clusters that tightly, do you treat it as a macro risk or as a sector story?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent price: 116.72 \u2014 cross_asset brent (FMP)",
-          "Brent change: +3.1% \u2014 cross_asset brent (FMP)",
-          "Brent previous close: 113.17 \u2014 cross_asset brent (FMP)",
-          "USO price: 169.53 \u2014 cross_asset wti/USO (FMP)",
-          "USO change: +4.3% \u2014 cross_asset wti/USO (FMP)",
-          "VIX: 19.45 \u2014 indexes ^VIX (FMP)",
-          "VIX change: +2.2% \u2014 indexes ^VIX (FMP)",
-          "S&P 500 change: -0.5% \u2014 indexes ^GSPC (FMP)",
-          "Russell 2000 close: 2,775.90 \u2014 indexes ^RUT (FMP)",
-          "Russell 2000 change: -0.3% \u2014 indexes ^RUT (FMP)"
+          "S&P 500 close: 7,623.68 \u2014 source: FMP indexes ^GSPC",
+          "S&P 500 session change: -0.5% \u2014 source: FMP indexes ^GSPC changesPercentage",
+          "Nasdaq Composite close: 25,955.34 \u2014 source: FMP indexes ^IXIC",
+          "Nasdaq session change: -0.2% \u2014 source: FMP indexes ^IXIC changesPercentage",
+          "Profit growth share: roughly two-thirds from ten companies \u2014 source: FMP news feed (WSJ article text)"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/stock-selloff-continues-as-oil-surges-a6d20245",
-        "source_notes": "https://www.wsj.com/finance/stocks/stock-selloff-continues-as-oil-surges-a6d20245"
+        "source_url": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53",
+        "source_notes": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-23",
-    "generated_at": "2026-10-23T23:17:31-04:00",
-    "draft_path": "drafts/2026-10-23.md",
+    "session_date": "2026-10-24",
+    "generated_at": "2026-10-24T23:12:53-04:00",
+    "draft_path": "drafts/2026-10-24.md",
     "errors": [],
     "slots": [
       {
-        "title": "AmEx \u22123.7% after EPS beat, revenue light",
+        "title": "Brent +3.1% as energy majors hit highs",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AXP \u22123.7% to 313.03.\n\nEPS $4.68 vs $4.50 estimate.\n\nRevenue about $20.06B vs about $20.12B estimate.\n\nThe stock fell despite the EPS beat; session coverage linked the name to a 5% headcount cut alongside broader index weakness.\n\nWhich line matters more to you on a beat-and-miss print \u2014 EPS or revenue?",
+        "body": "Brent crude finished up 3.1% at 116.72.\n\nWTI-linked $USO rose 4.3% to 169.53 on the session.\n\nEnergy majors moved with the tape:\n\n- $XOM +2.8% to 183.21 (day high 183.75)\n- $CVX +2.9% to 233.21 (day high 233.74)\n\nCoverage tied the oil move to shipping and policy headlines around diesel supply and Middle East risk.\n\nThe Dow closed down 1.2% while those two names were among the stronger large caps in the data.\n\nWhich part of the energy complex are you tracking first \u2014 majors, crude, or refiners?",
         "skip_reason": "",
         "supporting_data": [
-          "AXP change: \u22123.7% \u2014 mega_caps / earnings_calendar",
-          "AXP price: 313.03 \u2014 mega_caps",
-          "AXP EPS actual: 4.68 \u2014 earnings_calendar",
-          "AXP EPS estimate: 4.50 \u2014 earnings_calendar",
-          "AXP revenue actual: 20,062,000,000 \u2014 earnings_calendar",
-          "AXP revenue estimate: 20,120,410,000 \u2014 earnings_calendar"
+          "Brent crude: +3.1%, 116.72 \u2014 cross_asset BZUSD, session 2026-10-24",
+          "USO: +4.3%, 169.53 \u2014 cross_asset USO",
+          "XOM: +2.8%, 183.21; day high 183.75 \u2014 mega_caps XOM",
+          "CVX: +2.9%, 233.21; day high 233.74 \u2014 mega_caps CVX",
+          "Dow (^DJI): -1.2%, 52,215.16 \u2014 indexes ^DJI"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/stock-selloff-continues-as-oil-surges-a6d20245",
-        "source_notes": "https://www.wsj.com/finance/stocks/stock-selloff-continues-as-oil-surges-a6d20245"
+        "source_url": "https://www.foxbusiness.com/politics/first-russian-diesel-tanker-heads-new-york-after-trumps-deal-putin-lower-fuel-prices",
+        "source_notes": "https://www.foxbusiness.com/politics/first-russian-diesel-tanker-heads-new-york-after-trumps-deal-putin-lower-fuel-prices"
       },
       {
-        "title": "SLB +7.1% as energy leads Nasdaq",
+        "title": "Staples fell 2% across the board",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$SLB +7.1% to 53.06.\n\nEPS $0.64 vs $0.617 estimate.\n\nRevenue about $9.45B vs about $9.27B estimate.\n\nNasdaq Energy sector average: about +3.1%.\n\nOil-linked benchmarks also firmed:\n\n- Brent +3.1% to 116.72\n- $USO +4.3% to 169.53\n\nSession headlines tied the tape to a continuing stock pullback alongside a surge in oil.\n\nDo you watch energy stocks or the commodity first when days look like this?",
+        "body": "The S&P 500 closed down 0.5% at 7,623.68.\n\nLarge staples and related names logged similar drops:\n\n- $KO -2.8% to 92.71\n- $HD -2.4% to 319.83\n- $PEP -2.2% to 135.77\n- $PG -2.1% to 161.02\n\n$WMT was down 1.0% to 119.89 in the same dataset.\n\nThe Nasdaq Composite was off 0.2% at 25,955.34 \u2014 a smaller index move than those single-name declines.\n\nNo single headline in the injected feed was tied to each of these tickers on this date.\n\nDo you group these as one \u201cdefensive\u201d bucket or watch them separately?",
         "skip_reason": "",
         "supporting_data": [
-          "SLB changesPercentage: +7.1% \u2014 mega_caps",
-          "SLB price: 53.06 \u2014 mega_caps",
-          "SLB epsActual: 0.64 \u2014 earnings_calendar",
-          "SLB epsEstimated: 0.617 \u2014 earnings_calendar",
-          "SLB revenueActual: 9,449,000,000 \u2014 earnings_calendar",
-          "Energy sector averageChange: +3.1% (from 3.09) \u2014 sectors",
-          "Brent changesPercentage: +3.1% \u2014 cross_asset",
-          "Brent price: 116.72 \u2014 cross_asset",
-          "USO changesPercentage: +4.3% \u2014 cross_asset",
-          "USO price: 169.53 \u2014 cross_asset"
+          "S&P 500 (^GSPC): -0.5%, 7,623.68 \u2014 indexes ^GSPC",
+          "KO: -2.8%, 92.71 \u2014 mega_caps KO",
+          "HD: -2.4%, 319.83 \u2014 mega_caps HD",
+          "PEP: -2.2%, 135.77 \u2014 mega_caps PEP",
+          "PG: -2.1%, 161.02 \u2014 mega_caps PG",
+          "WMT: -1.0%, 119.89 \u2014 mega_caps WMT",
+          "Nasdaq (^IXIC): -0.2%, 25,955.34 \u2014 indexes ^IXIC"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/stock-selloff-continues-as-oil-surges-a6d20245",
-        "source_notes": "https://www.wsj.com/finance/stocks/stock-selloff-continues-as-oil-surges-a6d20245"
+        "source_url": "https://seekingalpha.com/article/4957192-theres-more-behind-this-week-market-nerves",
+        "source_notes": "https://seekingalpha.com/article/4957192-theres-more-behind-this-week-market-nerves"
       },
       {
-        "title": "Dow \u22121.2% (\u2212653 pts) vs Nasdaq \u22120.2%",
+        "title": "AMD +1.7% as Nvidia slipped 0.6%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$^DJI \u22121.2% to 52,215.16 (\u2212652.82 pts).\n\n$^IXIC \u22120.2% to 25,955.34.\n\n$^GSPC \u22120.5% to 7,622.86.\n\nTechnology (Nasdaq) sector average: about +0.8%.\n\nSelected megacap semis / tech:\n\n- $AMD +1.7% to 516.79\n- $TSM +1.5% to 418.51\n- $NVDA \u22120.6% to 210.96\n\nCoverage described trading as quieter among AI-linked shares after the prior session\u2019s slump.\n\nWhen the Dow leads the decline and Nasdaq holds up, what do you check first \u2014 sector weights or single-name earnings?",
+        "body": "$AMD closed up 1.7% at 516.79 (session range 508.36\u2013523.92).\n\n$TSM rose 1.5% to 418.51.\n\n$ASML added 0.7% to 1,571.80 in the same chip supply-chain set.\n\nMeanwhile:\n\n- $NVDA -0.6% to 210.96\n- $AVGO -0.5% to 321.68\n\nDiscussion in the injected news flow highlighted how advanced chipmaking depends on a global network of firms including ASML and TSMC.\n\n$META was down 1.0% to 642.62; $GOOGL down 1.2% to 320.21.\n\nHow do you read a green AMD/TSM day against a red NVDA print \u2014 noise or a rotation tell?",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI changesPercentage: \u22121.2% \u2014 indexes",
-          "^DJI price: 52,215.16 \u2014 indexes",
-          "^DJI change: \u2212652.82 \u2014 indexes",
-          "^IXIC changesPercentage: \u22120.2% \u2014 indexes",
-          "^IXIC price: 25,955.34 \u2014 indexes",
-          "^GSPC changesPercentage: \u22120.5% \u2014 indexes",
-          "^GSPC price: 7,622.86 \u2014 indexes",
-          "Technology sector averageChange: +0.8% (from 0.76) \u2014 sectors",
-          "AMD changesPercentage: +1.7% \u2014 mega_caps",
-          "TSM changesPercentage: +1.5% \u2014 mega_caps",
-          "NVDA changesPercentage: \u22120.6% \u2014 mega_caps"
+          "AMD: +1.7%, 516.79 \u2014 mega_caps AMD",
+          "TSM: +1.5%, 418.51 \u2014 mega_caps TSM",
+          "ASML: +0.7%, 1,571.80 \u2014 mega_caps ASML",
+          "NVDA: -0.6%, 210.96 \u2014 mega_caps NVDA",
+          "AVGO: -0.5%, 321.68 \u2014 mega_caps AVGO",
+          "META: -1.0%, 642.62 \u2014 mega_caps META",
+          "GOOGL: -1.2%, 320.21 \u2014 mega_caps GOOGL"
         ],
-        "source_url": "https://www.reuters.com/business/after-previous-days-slump-trading-is-quieter-among-ai-shares-2026-10-23/",
-        "source_notes": "https://www.reuters.com/business/after-previous-days-slump-trading-is-quieter-among-ai-shares-2026-10-23/"
+        "source_url": "https://www.youtube.com/watch?v=tSzX9FlhkiM",
+        "source_notes": "https://www.youtube.com/watch?v=tSzX9FlhkiM"
       },
       {
-        "title": "U.S. cash session \u2014 Oct. 23, 2026",
+        "title": "U.S. cash session \u2014 Oct. 24, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Dow Jones Industrial Average finished at 52,215.16, down 652.82 points (\u22121.2%), the largest index decline among the major U.S. benchmarks in the injected close data.\nThe S&P 500 closed at 7,622.86 (\u22120.5%) and the Nasdaq Composite at 25,955.34 (\u22120.2%).\nThe Russell 2000 ended at 2,775.90 (\u22120.3%).\n\nTwo U.S. activity and sentiment releases printed during the session window in the calendar data.\nMichigan Consumer Sentiment (Oct) came in at 48.0 vs a 46.3 estimate and 48.1 prior.\nS&P Global Manufacturing PMI (Oct) was 56.0 vs 55.5 estimate and 55.9 prior; Composite PMI 57.6 vs 57.6 estimate; Services PMI 57.9 vs 58.0 estimate.\n\nSector averages on Nasdaq split cleanly: Energy led at about +3.1%, Financial Services about +1.0%, and Technology about +0.8%.\nConsumer Defensive lagged at about \u22121.3%, with Consumer Cyclical about \u22120.3% and Healthcare about \u22120.3%.\n\nOil and energy equities stood out.\nBrent crude closed at 116.72 (+3.1%).\nThe USO ETF finished at 169.53 (+4.3%).\nSLB rose 7.1% to 53.06 after EPS of $0.64 vs a $0.617 estimate and revenue of about $9.45B vs about $9.27B estimated.\n\nFinancials and select banks mixed to lower on the day while some report-driven names jumped.\nAmerican Express fell 3.7% to 313.03 despite EPS of $4.68 vs $4.50 estimate and revenue of about $20.06B vs about $20.12B estimated; coverage in the injected headlines also noted a 5% headcount reduction.\nFirst Citizens BancShares (FCNCA) surged 8.2% to 2,375.84 on EPS of $55.37 vs $46.18 estimate.\nRithm Capital (RITM) gained 8.2% to 9.39 on EPS of $0.55 vs $0.499 estimate.\n\nMegacap technology was mixed but several chip-linked names closed green after quieter AI-related trading was flagged in session coverage.\nAMD +1.7% to 516.79, TSM +1.5% to 418.51, ASML +0.7% to 1,571.80, NVDA \u22120.6% to 210.96.\nAlphabet (GOOGL) \u22121.2% to 320.21.\n\nConsumer staples and related defensives were among the weaker megacap pockets: Coca-Cola \u22122.8% to 92.71, PepsiCo \u22122.2% to 135.77, Procter & Gamble \u22122.1% to 161.02, Costco \u22121.5% to 1,003.32.\nAT&T, among actives, closed \u22128.0% at 20.93 in the injected actives list.\n\nOther earnings in the bundle: Booz Allen Hamilton EPS $1.76 vs $1.48 estimate with revenue about $2.78B vs about $2.81B estimated (BAH \u22120.3% to 78.32).\nMarketAxess EPS $1.86 vs $1.95 estimate (MKTX flat at 164.67).\nBalchem EPS $1.57 vs $1.43 estimate (BCPC +2.2% to 177.00).\n\nCross-asset and risk gauges: gold futures (GCUSD) \u22121.3% to 4,007.90; the UUP dollar proxy +0.2% to 28.96; EUR/USD about 1.12 (\u22120.2% on the injected changes field); Bitcoin \u22120.2% to 80,916.76.\nThe VIX rose 2.2% to 19.45 (day range 18.87\u201320.66 in the index feed).\n\nTreasury yields in the injected snapshot (dated 2026-10-21 in the bundle) showed the 10-year at 5.1% and the 2s10s spread at 0.32 percentage points.\nOverseas indexes in the feed were mixed: Hang Seng +0.7%, Nikkei \u22120.3%, FTSE 100 \u22120.3%, with the Germany proxy (EWG) \u22121.0%.",
+        "body": "The Dow Jones Industrial Average led the decline among major U.S. indexes, closing down 1.2% (652.82 points) at 52,215.16 after trading between 52,055.10 and 52,696.70.\n\nThe S&P 500 finished down 0.5% at 7,623.68, with an intraday band of 7,612.07 to 7,660.15 and reported volume of about 2.75 billion shares in the injected figure.\n\nThe Nasdaq Composite slipped 0.2% to 25,955.34; the Russell 2000 was down 0.3% at 2,775.90.\n\nOil was a standout on the cross-asset tape: Brent crude rose 3.1% to 116.72, and the United States Oil Fund ($USO) closed up 4.3% at 169.53 with a session high of 169.96 in the data.\n\nExxon ($XOM) and Chevron ($CVX) rose 2.8% and 2.9% to 183.21 and 233.21 respectively, each printing a day high that matched the injected 52-week high fields (183.75 for XOM, 233.74 for CVX).\n\nGold futures (GCUSD in the feed) fell 1.3% to 4,007.90, off as much as 52.50 from the prior close in the bundle.\n\nThe VIX, the market\u2019s volatility gauge, rose 2.2% to 19.45 after touching 20.66 intraday.\n\nSeveral large consumer and household names closed lower by about 2%: Coca-Cola ($KO) -2.8% to 92.71, Home Depot ($HD) -2.4% to 319.83, PepsiCo ($PEP) -2.2% to 135.77, and Procter & Gamble ($PG) -2.1% to 161.02.\n\nSemiconductor-related megacaps split: AMD ($AMD) +1.7% to 516.79, Taiwan Semiconductor ($TSM) +1.5% to 418.51, and ASML ($ASML) +0.7% to 1,571.80, while NVIDIA ($NVDA) closed down 0.6% at 210.96 on heavy reported volume of about 79.7 million shares.\n\nAlphabet ($GOOGL) lost 1.2% to 320.21, Meta ($META) -1.0% to 642.62, Netflix ($NFLX) -1.8% to 65.85, and Apple ($AAPL) was nearly flat at -0.1% to 347.73.\n\nAmong active names in the injected list, AT&T ($T) stood out at -8.0% to 20.93; Robert Half ($RHI) rose 21.7% to 45.87 in the liquid-gainers screen.\n\nThe injected economic and earnings calendars for this bundle were empty, so no new macro print or corporate actuals were listed for this close.\n\nTreasury yields in the feed carried a 2026-10-22 stamp: the 10-year at 5.0% and the 2s10s spread at 0.31 percentage points in that snapshot.\n\nBitcoin (BTCUSD) was up 0.1% to 80,856.23; the dollar-proxy ETF $UUP ticked up 0.2% to 28.96, and EUR/USD was down 0.2% at 1.12 in the cross-asset block.\n\nOverseas indexes in the same payload were mixed ahead of or outside U.S. hours: Hang Seng +0.7% to 23,093.40, while the Nikkei 225, FTSE 100, and Germany proxy (EWG) posted modest losses of 0.3% to 1.0% in the injected overseas section.",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI: 52,215.16, \u22121.2%, \u2212652.82 \u2014 indexes",
-          "^GSPC: 7,622.86, \u22120.5% \u2014 indexes",
-          "^IXIC: 25,955.34, \u22120.2% \u2014 indexes",
-          "^RUT: 2,775.90, \u22120.3% \u2014 indexes",
-          "Michigan sentiment: 48 actual, 46.3 estimate \u2014 economic_calendar",
-          "Manufacturing PMI: 56.0 actual, 55.5 estimate \u2014 economic_calendar",
-          "Energy sector: +3.1% \u2014 sectors",
-          "Consumer Defensive sector: \u22121.3% \u2014 sectors",
-          "Brent: 116.72, +3.1% \u2014 cross_asset",
-          "USO: 169.53, +4.3% \u2014 cross_asset",
-          "SLB: 53.06, +7.1% \u2014 mega_caps",
-          "AXP: 313.03, \u22123.7% \u2014 mega_caps",
-          "FCNCA: 2,375.84, +8.2% \u2014 mega_caps",
-          "VIX: 19.45, +2.2% \u2014 indexes",
-          "Gold GCUSD: 4,007.90, \u22121.3% \u2014 cross_asset",
-          "year10: 5.13, spread_2s10s: 0.32 \u2014 treasury"
+          "^DJI: -1.2%, 52,215.16, change -652.82 \u2014 indexes",
+          "^GSPC: -0.5%, 7,623.68 \u2014 indexes",
+          "^IXIC: -0.2%, 25,955.34 \u2014 indexes",
+          "^RUT: -0.3%, 2,775.90 \u2014 indexes",
+          "Brent: +3.1%, 116.72 \u2014 cross_asset",
+          "USO: +4.3%, 169.53 \u2014 cross_asset",
+          "XOM/CVX: as above \u2014 mega_caps",
+          "Gold GCUSD: -1.3%, 4,007.90 \u2014 cross_asset",
+          "^VIX: +2.2%, 19.45 \u2014 indexes",
+          "KO, HD, PEP, PG, AMD, TSM, ASML, NVDA, GOOGL, META, NFLX, AAPL, T, RHI \u2014 mega_caps / actives / liquid_gainers",
+          "Treasury 10y 5.0%, spread_2s10s 0.31 \u2014 treasury block (date 2026-10-22)",
+          "BTCUSD, UUP, EURUSD \u2014 cross_asset",
+          "^N225, ^FTSE, ^HSI, EWG \u2014 overseas"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8",
-        "source_notes": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8"
+        "source_url": "https://seekingalpha.com/article/4957279-the-1-minute-market-report-october-24-2026",
+        "source_notes": "https://seekingalpha.com/article/4957279-the-1-minute-market-report-october-24-2026"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-23",
-    "generated_at": "2026-10-23T23:18:00-04:00",
-    "draft_path": "drafts/2026-10-23-week-ahead.md",
+    "session_date": "2026-10-24",
+    "generated_at": "2026-10-24T23:13:14-04:00",
+    "draft_path": "drafts/2026-10-24-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Michigan sentiment 48.0 vs 46.3 estimate",
+        "title": "Fed rate call lands Wednesday at 4%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "October Michigan Consumer Sentiment: **48.0**\n\nConsensus was **46.3**.\n\nPrior month: **48.1**.\n\nThe survey asks households how they view their finances and the economy \u2014 a soft read can show up in spending data over time, not always in one day of trading.\n\nRelease time in the calendar: **Friday, Oct. 23, 2:00 p.m.\nET**.\n\nU.S. indexes closed lower that session \u2014 S&P 500 **\u22120.5%** to **7,622.86**, Dow **\u22121.2%** to **52,215.16**.\n\nWhich consumer-facing name do you watch first after a sentiment print like this?",
+        "body": "Oct. 28, 6:00 p.m.\nET: U.S. Fed interest-rate decision.\n\nConsensus estimate: 4% \u2014 same as the prior 4% setting.\n\nSame day, 6:00 p.m.\nET: FOMC economic projections (growth, unemployment, and rate path the committee sketches for markets).\n\n6:30 p.m.\nET: Fed press conference \u2014 officials explain the decision in plain terms after the statement drops.\n\nThat trio is the fixed calendar for the week; it sets the baseline for how borrowing costs are described until the next meeting.\n\nWhich part do you usually read first \u2014 the statement, the dot plot, or the Q&A?",
         "skip_reason": "",
         "supporting_data": [
-          "Michigan Consumer Sentiment (Oct) actual: 48.0 \u2014 source: FMP economic_calendar",
-          "Michigan Consumer Sentiment (Oct) estimate: 46.3 \u2014 source: FMP economic_calendar",
-          "Michigan Consumer Sentiment prior: 48.1 \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-10-23 14:00:00 US \u2014 source: FMP economic_calendar",
-          "S&P 500 close: 7,622.86 (\u22120.5%) \u2014 source: FMP indexes ^GSPC",
-          "Dow close: 52,215.16 (\u22121.2%) \u2014 source: FMP indexes ^DJI"
+          "Fed interest rate estimate: 4% \u2014 source: FMP economic_calendar",
+          "Fed interest rate previous: 4% \u2014 source: FMP economic_calendar",
+          "Fed Interest Rate Decision date/time: 2026-10-28 18:00:00 ET \u2014 source: FMP economic_calendar",
+          "FOMC Economic Projections: 2026-10-28 18:00:00 ET \u2014 source: FMP economic_calendar",
+          "Press Conference: 2026-10-28 18:30:00 ET \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       },
       {
-        "title": "October manufacturing PMI 56.0 beats 55.5",
+        "title": "MSFT, GOOG, AMZN earnings stack midweek",
         "status": "ready",
         "kind": "x_idea",
-        "body": "S&P Global U.S. Manufacturing PMI (October): **56.0**\n\nEstimate: **55.5**\n\nPrevious: **55.9**\n\nA PMI above **50** means more managers reported growth than contraction \u2014 it is a monthly snapshot of orders, output, and hiring in manufacturing.\n\nReleased **Friday, Oct. 23, 1:45 p.m.\nET**, alongside services and composite PMI prints the same minute.\n\nSame release batch:\n- Services PMI **57.9** vs **58.0** est. (prior **58.8**)\n- Composite PMI **57.6** vs **57.6** est. (prior **58.4**)\n\nNext week\u2019s data calendar in this feed starts after that Friday cluster \u2014 these three are the latest U.S. PMI set on the tape.\n\nDo you weight the manufacturing or services line more for your macro checklist?",
+        "body": "Oct. 28 \u2014 $MSFT (Microsoft): EPS estimate $4.71; revenue estimate about $90.63B.\n\nOct. 28 \u2014 $GOOG (Alphabet): EPS estimate $3.03; revenue estimate about $127.91B.\n\nOct. 29 \u2014 $AMZN (Amazon): EPS estimate $1.96; revenue estimate about $202.16B.\n\nEach print is the formal scorecard for last quarter\u2019s profit and sales; numbers arrive on those dates, not before.\n\nSame week also includes other large-cap reports, but these three sit at the top of the calendar by revenue scale in the feed.\n\nAre you tracking one name for cloud spend, one for ads, or all three for the batch?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P Global Manufacturing PMI (Oct) actual: 56.0 \u2014 source: FMP economic_calendar",
-          "S&P Global Manufacturing PMI (Oct) estimate: 55.5 \u2014 source: FMP economic_calendar",
-          "S&P Global Manufacturing PMI (Oct) previous: 55.9 \u2014 source: FMP economic_calendar",
-          "S&P Global Services PMI (Oct) actual: 57.9 \u2014 source: FMP economic_calendar",
-          "S&P Global Services PMI (Oct) estimate: 58.0 \u2014 source: FMP economic_calendar",
-          "S&P Global Composite PMI (Oct) actual: 57.6 \u2014 source: FMP economic_calendar",
-          "Release time: 2026-10-23 13:45:00 US \u2014 source: FMP economic_calendar"
+          "$MSFT EPS estimate: 4.71 \u2014 source: FMP earnings_calendar",
+          "$MSFT revenue estimate: 90630470000 (~$90.63B) \u2014 source: FMP earnings_calendar",
+          "$MSFT report date: 2026-10-28 \u2014 source: FMP earnings_calendar",
+          "$GOOG EPS estimate: 3.03 \u2014 source: FMP earnings_calendar",
+          "$GOOG revenue estimate: 127911500000 (~$127.91B) \u2014 source: FMP earnings_calendar",
+          "$GOOG report date: 2026-10-28 \u2014 source: FMP earnings_calendar",
+          "$AMZN EPS estimate: 1.96 \u2014 source: FMP earnings_calendar",
+          "$AMZN revenue estimate: 202163700000 (~$202.16B) \u2014 source: FMP earnings_calendar",
+          "$AMZN report date: 2026-10-29 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       },
       {
-        "title": "First Citizens EPS $55.37 vs $46.18 est.",
+        "title": "Q3 GDP and September PCE both Oct. 29",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$FCNCA \u2014 First Citizens BancShares \u2014 earnings dated **Oct. 23, 2026**\n\nEPS: **$55.37**\n\nStreet estimate: **$46.18**\n\nRevenue: **$2.43B** (actual **2434000000**)\n\nRevenue estimate: **~$2.23B** (**2231460000**)\n\nMarket cap in the feed: **~$26.8B**\n\nThe report is in the Oct. 19\u201323 earnings batch alongside other Friday names such as $AXP, $SLB, and $BAH \u2014 regional banks are often read for credit trends and deposit costs.\n\nNo new EPS estimate is listed in this feed for a later date; the Oct. 23 line is the resolved print to reconcile when you rebuild the week\u2019s bank screen.\n\nWhich Oct. 23 bank or payments name is still on your post-earnings list for the next session?",
+        "body": "Oct. 29, 8:30 a.m.\nET \u2014 one batch of prints:\n\nGDP growth rate (Q3, quarter-over-quarter): estimate 3.2%; prior quarter 2.2%.\n\nThat GDP figure is the broad \u201chow fast the economy grew last quarter\u201d number.\n\nSame timestamp \u2014 personal spending (Sep, month-over-month): estimate 0.3%; prior 0.9%.\n\nPersonal income (Sep, month-over-month): estimate 0.3%; prior 0.2%.\n\nCore PCE price index (Sep, month-over-month): estimate 0.3%; prior 0.2% \u2014 \u201ccore PCE\u201d means inflation in consumer prices with food and energy stripped out, a gauge the Fed references often.\n\nCore PCE (Sep, year-over-year): estimate 3.1%; prior 3.0%.\n\nAlso in the release: initial jobless claims (Oct. 24 week) estimate 196K vs. prior 194K \u2014 weekly count of new unemployment filings.\n\nEverything above resolves Thursday morning; no single headline number tells the whole story.\n\nWhich line in that bundle do you treat as the main read \u2014 growth, spending, or core PCE?",
         "skip_reason": "",
         "supporting_data": [
-          "FCNCA EPS actual: 55.37 \u2014 source: FMP earnings_calendar",
-          "FCNCA EPS estimated: 46.18 \u2014 source: FMP earnings_calendar",
-          "FCNCA revenue actual: 2434000000 \u2014 source: FMP earnings_calendar",
-          "FCNCA revenue estimated: 2231460000 \u2014 source: FMP earnings_calendar",
-          "FCNCA report date: 2026-10-23 \u2014 source: FMP earnings_calendar",
-          "FCNCA marketCap: 26,830,646,221.00 \u2014 source: FMP earnings_calendar"
+          "GDP Growth Rate QoQ (Q3) estimate: 3.2% \u2014 source: FMP economic_calendar",
+          "GDP Growth Rate QoQ (Q3) previous: 2.2% \u2014 source: FMP economic_calendar",
+          "Release time: 2026-10-29 12:30:00 (8:30 a.m.\nET) \u2014 source: FMP economic_calendar",
+          "Personal Spending MoM (Sep) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Personal Spending MoM (Sep) previous: 0.9% \u2014 source: FMP economic_calendar",
+          "Personal Income MoM (Sep) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Personal Income MoM (Sep) previous: 0.2% \u2014 source: FMP economic_calendar",
+          "Core PCE Price Index MoM (Sep) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Core PCE Price Index MoM (Sep) previous: 0.2% \u2014 source: FMP economic_calendar",
+          "Core PCE Price Index YoY (Sep) estimate: 3.1% \u2014 source: FMP economic_calendar",
+          "Core PCE Price Index YoY (Sep) previous: 3.0% \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims (Oct/24) estimate: 196K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims (Oct/24) previous: 194K \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       }
     ]
   }

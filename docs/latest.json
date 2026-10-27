@@ -1,197 +1,209 @@
 {
-  "updated_at": "2026-10-25T23:14:14-04:00",
+  "updated_at": "2026-10-26T23:44:10-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-25",
-    "generated_at": "2026-10-25T23:13:04-04:00",
-    "draft_path": "drafts/2026-10-25-am.md",
+    "session_date": "2026-10-26",
+    "generated_at": "2026-10-26T23:43:09-04:00",
+    "draft_path": "drafts/2026-10-26-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Fed meeting this week with rates on hold",
+        "title": "Gapen expects Fed to hold Wednesday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The 10-year Treasury yield sat at 5.0% in the latest FMP snapshot (Oct. 23), with the gap between 2-year and 10-year yields at 0.31 percentage points.\n\nBarron\u2019s reported traders expect no change at this week\u2019s Fed meeting after the September hike \u2014 the first increase since 2023.\n\nBloomberg\u2019s weekend preview noted inflation still above target and that investors will parse the chair\u2019s wording for how long a pause might last.\n\nPrior U.S. session: $^GSPC \u22120.5% to 7,623.68; $^DJI \u22121.2% to 52,215.16.\n\nWhat language from the Fed would you treat as the headline \u2014 inflation, growth, or something else?",
+        "body": "Michael Gapen, Morgan Stanley chief US economist, said on CNBC he expects the Fed to hold rates at this week\u2019s meeting.\n\nThe WSJ reported Asian currencies trading in a narrow range with attention on that Wednesday decision.\n\nPrior US session:\n- S&P 500 +0.7% to 7,677.33\n- Nasdaq Composite +0.8% to 26,169.38\n- VIX -5.4% to 18.39\n\nWhat do you think matters more for your week \u2014 the Fed statement or the tone in the press conference?",
         "skip_reason": "",
         "supporting_data": [
-          "10-year Treasury yield: 5.0% \u2014 [source: FMP treasury]",
-          "2s10s spread: 0.31 \u2014 [source: FMP treasury]",
-          "S&P 500: 7,623.68 (\u22120.5%) \u2014 [source: FMP indexes ^GSPC]",
-          "Dow Jones: 52,215.16 (\u22121.2%) \u2014 [source: FMP indexes ^DJI]"
+          "S&P 500 close: 7,677.33 (+0.7%) \u2014 FMP indexes ^GSPC",
+          "Nasdaq Composite close: 26,169.38 (+0.8%) \u2014 FMP indexes ^IXIC",
+          "VIX close: 18.39 (-5.4%) \u2014 FMP indexes ^VIX"
         ],
-        "source_url": "https://www.barrons.com/articles/stock-futures-trade-sunday-345bccac",
-        "source_notes": "https://www.barrons.com/articles/stock-futures-trade-sunday-345bccac"
+        "source_url": "https://www.youtube.com/watch?v=MkYI8wrjHNU",
+        "source_notes": "https://www.youtube.com/watch?v=MkYI8wrjHNU"
       },
       {
-        "title": "Brent crude down 2.0% as Iran stays in headlines",
+        "title": "September durable goods est. +1.5% Tuesday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude: 114.33, \u22122.0% (\u22122.39 vs prior close 116.72).\n\nWSJ reported Japanese stocks lower as Iran conflict and higher energy costs stayed in focus; chip and electronics names dragged the Nikkei.\n\nNikkei 225: 62,214.66, \u22120.8% (\u2212478.5).\n\nReuters flagged oil concerns and the Fed meeting for Asian markets opening the week.\n\nHang Seng: 23,127.76, +0.1% \u2014 modest gain vs softer Japan.\n\nWhich cross-asset print are you watching first this week \u2014 oil, rates, or equities?",
+        "body": "Tuesday 12:30 ET \u2014 US durable goods orders for September.\n\nConsensus: +1.5% month over month (prior flat at 0.0%).\n\nSame window \u2014 durable goods excluding transportation: +0.6% est. vs +0.3% prior.\n\nEx-defense orders: 0.0% est. vs +0.1% prior.\n\nTuesday 14:00 ET \u2014 new home sales for September.\n\nConsensus: 0.65 million units (prior 0.684 million).\n\nMonth-over-month change est.: -3.5% (prior +6.4%).\n\nAlso 14:00 ET \u2014 CB consumer confidence (Oct): 81.0 est. vs 81.9 prior.\n\nWhich of these three prints do you watch first when they hit the wire?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude: 114.33 (\u22122.0%) \u2014 [source: FMP cross_asset brent]",
-          "Nikkei 225: 62,214.66 (\u22120.8%) \u2014 [source: FMP overseas ^N225]",
-          "Hang Seng: 23,127.76 (+0.1%) \u2014 [source: FMP overseas ^HSI]"
-        ],
-        "source_url": "https://www.wsj.com/finance/stocks/nikkei-falls-0-5-dragged-by-chip-electronics-stocks-eed519a4",
-        "source_notes": "https://www.wsj.com/finance/stocks/nikkei-falls-0-5-dragged-by-chip-electronics-stocks-eed519a4"
-      },
-      {
-        "title": "Two regional Fed gauges land Monday",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "Monday\u2019s U.S. data slate (medium impact on the FMP calendar):\n\nChicago Fed National Activity Index (Sep) \u2014 estimate \u22120.1; previous \u22120.04 (release window 12:30 ET).\n\nDallas Fed Manufacturing Index (Oct) \u2014 estimate 7; previous 9.8 (14:30 ET).\n\nBoth are broad reads on whether factory and overall activity is speeding up or slowing down \u2014 useful context ahead of the Fed\u2019s rate decision later in the week.\n\nVIX closed at 19.45, +2.2%, on the prior U.S. session.\n\nWhich print do you weight more for a single-day read \u2014 Chicago national activity or Dallas manufacturing?",
-        "skip_reason": "",
-        "supporting_data": [
-          "Chicago Fed NACI (Sep) estimate: \u22120.1 \u2014 [source: FMP economic_calendar]",
-          "Chicago Fed NACI (Sep) previous: \u22120.04 \u2014 [source: FMP economic_calendar]",
-          "Dallas Fed Manufacturing (Oct) estimate: 7 \u2014 [source: FMP economic_calendar]",
-          "Dallas Fed Manufacturing (Oct) previous: 9.8 \u2014 [source: FMP economic_calendar]",
-          "VIX: 19.45 (+2.2%) \u2014 [source: FMP indexes ^VIX]"
+          "Durable Goods Orders MoM (Sep) estimate: +1.5% \u2014 FMP economic_calendar",
+          "Durable Goods Orders MoM (Sep) previous: 0.0% \u2014 FMP economic_calendar",
+          "Durable Goods Orders Ex Transp MoM estimate: +0.6% \u2014 FMP economic_calendar",
+          "Durable Goods Orders Ex Transp MoM previous: +0.3% \u2014 FMP economic_calendar",
+          "Durable Goods Orders Ex Defense MoM estimate: 0.0% \u2014 FMP economic_calendar",
+          "Durable Goods Orders Ex Defense MoM previous: +0.1% \u2014 FMP economic_calendar",
+          "New Home Sales (Sep) estimate: 0.65M \u2014 FMP economic_calendar",
+          "New Home Sales (Sep) previous: 0.684M \u2014 FMP economic_calendar",
+          "New Home Sales MoM (Sep) estimate: -3.5% \u2014 FMP economic_calendar",
+          "New Home Sales MoM (Sep) previous: +6.4% \u2014 FMP economic_calendar",
+          "CB Consumer Confidence (Oct) estimate: 81.0 \u2014 FMP economic_calendar",
+          "CB Consumer Confidence (Oct) previous: 81.9 \u2014 FMP economic_calendar"
         ],
         "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
         "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+      },
+      {
+        "title": "Brent -1.0% as diplomacy headlines circulate",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "Brent crude: 114.64 (-1.0%).\n\nReuters reported oil easing on Middle East diplomacy hopes, with Saudi-led attacks still cited as a supply worry.\n\nThe WSJ reported oil falling in early Asian trade as traders weighed diplomatic efforts to ease US\u2013Iran hostilities.\n\nOil-linked ETF $USO closed -1.9% at 166.23 in the prior US session.\n\nWhich headline are you tracking more closely \u2014 diplomacy or shipping/security near Hormuz?",
+        "skip_reason": "",
+        "supporting_data": [
+          "Brent crude price: 114.64 \u2014 FMP cross_asset BZUSD",
+          "Brent crude change: -1.0% \u2014 FMP cross_asset BZUSD changesPercentage",
+          "USO close: 166.23 (-1.9%) \u2014 FMP cross_asset USO"
+        ],
+        "source_url": "https://www.reuters.com/business/energy/oil-eases-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-2026-10-27/",
+        "source_notes": "https://www.reuters.com/business/energy/oil-eases-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-2026-10-27/"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-25",
-    "generated_at": "2026-10-25T23:13:42-04:00",
-    "draft_path": "drafts/2026-10-25.md",
+    "session_date": "2026-10-26",
+    "generated_at": "2026-10-26T23:43:42-04:00",
+    "draft_path": "drafts/2026-10-26.md",
     "errors": [],
     "slots": [
       {
-        "title": "AT&T drops 8.0% in one session",
+        "title": "Meta down 1.9% on AI spend talk",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$T closed \u22128.0% at $20.93 on Oct. 25.\n\nThe stock was among the most active names by volume in the session snapshot.\n\nThat move stands apart from the megacap group, where most large caps were down less than 3%.\n\nWhich large-cap move caught your eye Friday?",
+        "body": "$META closed at 630.56, down 1.9% (\u221212.06) from the prior session.\n\nCoverage after the bell linked the move to Meta\u2019s described need for about $95 billion to fund AI and core operations \u2014 the same narrative that showed up as Anthropic\u2019s IPO filing drew attention to AI names.\n\nThe Nasdaq Composite still rose 0.8% to 26,169.38; Communication Services was the weakest Nasdaq sector in the injected screen, about \u22121.2% on average.\n\nWhich megacap AI spend headline are you tracking into Big Tech earnings this week?",
         "skip_reason": "",
         "supporting_data": [
-          "T change: \u22128.0% \u2014 actives / FMP close data",
-          "T price: $20.93 \u2014 actives / FMP close data",
-          "Session date: 2026-10-25 \u2014 FMP_DATA session_date"
+          "META close: 630.56 \u2014 mega_caps / FMP quote, session 2026-10-26",
+          "META change: \u22121.9% \u2014 mega_caps changesPercentage",
+          "Nasdaq Composite: 26,169.38 (+0.8%) \u2014 indexes ^IXIC",
+          "Communication Services sector avg: \u22121.2% \u2014 sectors (rounded from \u22121.2%)"
         ],
-        "source_url": "https://www.barrons.com/articles/stock-futures-trade-sunday-345bccac",
-        "source_notes": "https://www.barrons.com/articles/stock-futures-trade-sunday-345bccac"
+        "source_url": "https://seekingalpha.com/article/4957711-anthropic-s-1-registration-dominates-leads-nasdaq-higher",
+        "source_notes": "https://seekingalpha.com/article/4957711-anthropic-s-1-registration-dominates-leads-nasdaq-higher"
       },
       {
-        "title": "Eli Lilly down 2.5% at $1,273",
+        "title": "Verizon \u22123.5% after revenue miss",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$LLY closed \u22122.5% at $1,273.46.\n\nThe session range ran from a high of $1,307.92 to a low of $1,257.62.\n\nThat is roughly a $33 move versus the prior close of $1,306.69.\n\nThe broader S&P 500 was down 0.5% on the same day.\n\nDo you track LLY mainly as a drug pipeline story or as an index-weight name?",
+        "body": "$VZ closed at 43.10, down 3.5% (\u22121.56).\n\nEPS came in at $1.31 vs a $1.27 estimate.\n\nRevenue was about $34.31B vs roughly $34.77B expected \u2014 a shortfall on the top line despite the beat on per-share profit.\n\nThat made Verizon one of the larger megcap decliners in the injected close set for 2026-10-26.\n\nHow much weight do you put on revenue vs EPS when a telco prints?",
         "skip_reason": "",
         "supporting_data": [
-          "LLY changesPercentage: \u22122.5% \u2014 mega_caps / FMP",
-          "LLY price: $1,273.46 \u2014 mega_caps / FMP",
-          "LLY change: \u2212$33.23 \u2014 mega_caps / FMP",
-          "^GSPC changesPercentage: \u22120.5% \u2014 indexes / FMP"
+          "VZ close: 43.10 \u2014 mega_caps",
+          "VZ change: \u22123.5% \u2014 mega_caps changesPercentage",
+          "EPS actual: 1.31 \u2014 earnings_calendar",
+          "EPS estimated: 1.27 \u2014 earnings_calendar",
+          "Revenue actual: $34.31B \u2014 earnings_calendar (34,313,000,000)",
+          "Revenue estimated: $34.77B \u2014 earnings_calendar (34,768,500,000)"
         ],
-        "source_url": "https://www.invezz.com/news/2026/10/25/dow-jones-and-nasdaq-100-outlook-top-stock-market-news-for-this-week/",
-        "source_notes": "https://www.invezz.com/news/2026/10/25/dow-jones-and-nasdaq-100-outlook-top-stock-market-news-for-this-week/"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "Visa and Mastercard both \u22121.5%",
+        "title": "Brazil ETFs \u221220% in one session",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Payment networks slipped together on Oct. 25.\n\n- $V \u22121.5% to $407.92\n- $MA \u22121.5% to $623.60\n\nThe Dow closed \u22121.2% (\u2212652.82 pts to 52,215.16).\n\nThe Nasdaq Composite was \u22120.2% to 25,955.34 on the same close.\n\nAre you reading that as a consumer-spending read or purely index weighting?",
+        "body": "U.S. benchmarks closed up \u2014 S&P 500 +0.7% to 7,677.33 \u2014 while Brazil-linked listings showed much larger one-day drops in the injected data:\n\n- $EWZ \u221219.8% to 34.15  \n- $XP \u221248.4% to 15.71  \n- $BBD \u221228.0% to 2.93  \n- $ITUB \u221220.4% to 7.70  \n- $NU \u221217.0% to 12.59\n\nLeveraged Brazil products moved in the opposite direction on the same theme (e.g. inverse Brazil ETF $BZQ +39.7% in the gainer screen).\n\nThe injected feed does not attach a single headline to those tickers for this session; the size of the moves is what the tape shows.\n\nAre you treating this as an isolated EM day or watching spillover into Monday\u2019s U.S. open?",
         "skip_reason": "",
         "supporting_data": [
-          "V changesPercentage: \u22121.5% \u2014 mega_caps / FMP",
-          "V price: $407.92 \u2014 mega_caps / FMP",
-          "MA changesPercentage: \u22121.5% \u2014 mega_caps / FMP",
-          "MA price: $623.60 \u2014 mega_caps / FMP",
-          "^DJI changesPercentage: \u22121.2% \u2014 indexes / FMP",
-          "^DJI change: \u2212652.82 \u2014 indexes / FMP",
-          "^IXIC changesPercentage: \u22120.2% \u2014 indexes / FMP"
+          "^GSPC: 7,677.33 (+0.7%) \u2014 indexes",
+          "EWZ: 34.15 (\u221219.8%) \u2014 actives",
+          "XP: 15.71 (\u221248.4%) \u2014 actives",
+          "BBD: 2.93 (\u221228.0%) \u2014 actives",
+          "ITUB: 7.70 (\u221220.4%) \u2014 actives",
+          "NU: 12.59 (\u221217.0%) \u2014 actives",
+          "BZQ: 19.26 (+39.7%) \u2014 liquid_gainers"
         ],
-        "source_url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-fed-meet-in-focus-c2958e7e",
-        "source_notes": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-fed-meet-in-focus-c2958e7e"
+        "source_url": "https://financialmodelingprep.com/api/v3/stock_market/actives",
+        "source_notes": "https://financialmodelingprep.com/api/v3/stock_market/actives"
       },
       {
-        "title": "U.S. cash session \u2014 Oct. 25, 2026",
+        "title": "U.S. cash session \u2014 Oct. 26, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Dow Jones Industrial Average finished down 1.2%, a 652.82-point drop to 52,215.16, after trading between 52,055.10 and 52,696.70.\nThat was the heaviest index decline in the injected U.S. close set for the session.\n\nThe S&P 500 lost 0.5%, closing at 7,623.68 (\u221239.75 pts), with an intraday band of 7,612.07 to 7,660.15.\nThe Nasdaq Composite was comparatively steadier at \u22120.2%, ending at 25,955.34, while the Russell 2000 slipped 0.3% to 2,775.90.\n\nThe VIX rose 2.2% to 19.45, up from 19.03, with an intraday high of 20.66.\nThat move came alongside lower equity index closes rather than a calm, flat tape.\n\nIn commodities and FX proxies, gold futures (GCUSD) added 0.3% to $4,021.70.\nThe United States Oil Fund ($USO) rose 4.3% to $169.53, with a session high of $169.96 matching its 52-week high in the data.\nBrent crude (BZUSD) was quoted down 2.0% at $114.33.\nThe dollar proxy UUP ticked up 0.2% to $28.96, and bitcoin (BTCUSD) was off 0.5% at $79,656.96.\n\nTreasury yields in the injected snapshot (dated 2026-10-23) showed the 10-year at 5.0% and the 2s10s spread at 0.31 percentage points.\nNo new U.S. economic releases appeared in the session calendar block for Oct. 25.\n\nSemiconductor-related megacaps split:\n- $AMD +1.7%\n- $TSM +1.5%\n\nto $418.51, while $NVDA \u22120.6% to $210.96 and $AVGO \u22120.5% to $321.68.\n$MSFT was up 0.7% to $524.51; $GOOGL \u22121.2% to $320.21.\n\nConsumer and staples names were weak across the board in the mega-cap list: $KO \u22122.8% to $92.71, $PEP \u22122.2% to $135.77, $HD \u22122.4% to $319.83, and $WMT \u22121.0% to $119.89.\n$COST \u22121.5% to $1,003.32.\n\n$LLY \u22122.5% to $1,273.46 stood out among health megacaps.\n$NFLX \u22121.8% to $65.85 closed near the lower end of its 52-week range (low $64.10 in the data).\n$T \u22128.0% to $20.93 was the standout percentage move among active, widely recognized tickers in the session list.\n\nOverseas indexes in the same payload were mixed to lower into the U.S. weekend: Nikkei 225 \u22120.8% to 62,214.66, FTSE 100 \u22120.3%, Hang Seng +0.1%, and the Germany proxy EWG \u22121.0%.\n\nNews flow in the feed pointed to the upcoming Federal Reserve rate decision and persistent oil-market attention ahead of Asian opens; those were narrative backdrops in headlines, not separate prints in the Oct. 25 U.S. close numbers.\n\nSector-level performance tags were empty in the injected sector block, so index and single-name moves above are the primary session map in the data.",
+        "body": "The S&P 500 finished at 7,677.33, up 53.65 points (+0.7%), with an intraday range of 7,639.70 to 7,702.13.\nThe Nasdaq Composite outpaced the Dow, rising 0.8% to 26,169.38 vs the Dow Jones Industrial Average at 52,361.58 (+0.3%).\nThe Russell 2000 added 0.4% to 2,786.42.\n\nThe VIX fell 5.4% to 18.39 (prior close 19.45), the largest percentage move among the injected U.S. index set \u2014 a lower reading on a day when broad equities still advanced.\n\nTwo U.S. activity gauges printed on the calendar: the Chicago Fed National Activity Index for September at 0.07 (estimate \u22120.10; prior \u22120.08), and the Dallas Fed Manufacturing Index for October at 13.4 (estimate 7.0; prior 9.8).\nTreasury snapshot in the feed (dated 2026-10-23) showed the 10-year at 5.0% and the 2s10s spread at 0.31 percentage points.\n\nNasdaq sector averages favored Real Estate (+1.3%), Consumer Cyclical (+1.1%), and Technology (+1.0%).\nCommunication Services lagged at about \u22121.2%; Basic Materials was slightly negative.\nThat split fits a day when large tech and semis were firmer while some megcap communication names sold off.\n\nChip and AI-adjacent megacaps in the injected close included:\n- $MSFT +1.5% to 532.60\n- $AMD +2.8% to 531.28\n- $AVGO +2.3% to 329.17\n- $TSM +1.4% to 424.37\n- $ASML +1.2% to 1,590.90\n\n$META bucked that group at \u22121.9% to 630.56 amid post-close coverage on AI financing needs.\n$GOOGL / $GOOG were down about \u22121.1% / \u22121.0%.\n\nBrazil risk dominated the extreme movers: $EWZ \u221219.8%, $XP \u221248.4%, $BBD \u221228.0%, and $ITUB \u221220.4% among actives, while U.S. mega energy was mixed \u2014 $XOM +0.7% to 184.54 (session high equal to 52-week high in the quote) and $CVX \u22120.5% to 232.01.\n\n$VZ \u22123.5% followed results with EPS $1.31 vs $1.27 estimated and revenue about $34.31B vs $34.77B expected.\n$CDNS +1.8% after EPS $2.11 vs $2.05 est and revenue beat; $RMBS +5.5% on EPS $0.84 vs $0.789 est.\n$AMKR \u22126.3% with revenue about $1.99B vs $2.04B expected.\n$PSA reported EPS $1.69 vs $2.49 est; the stock closed \u22120.9% to 306.97.\n$WELL rose 1.4% with revenue above the estimate though EPS $0.54 trailed the $0.64 consensus in the calendar.\n\nOil-linked quotes softened: Brent crude futures \u22121.0% to 114.64; the injected USO proxy \u22121.9% to 166.23.\nGold futures \u22120.3% to 4,026.60.\nThe dollar proxy UUP +0.2% to 29.01; EUR/USD roughly flat at 1.12 (\u22120.1%).\nBitcoin \u22120.2% to 79,814.03.\n\nOverseas indexes in the bundle included Nikkei 225 +1.9% to 63,381.29, FTSE 100 +0.7%, and Hang Seng \u22120.2%.\nHeadlines in the feed pointed to chip strength in Japan and oil easing on Middle East diplomacy talk, with attention on the upcoming Fed decision \u2014 descriptive context only, not a forecast for U.S. rates.",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI: 52,215.16, \u22121.2%, \u2212652.82 \u2014 indexes / FMP",
-          "^GSPC: 7,623.68, \u22120.5% \u2014 indexes / FMP",
-          "^IXIC: 25,955.34, \u22120.2% \u2014 indexes / FMP",
-          "^RUT: 2,775.90, \u22120.3% \u2014 indexes / FMP",
-          "^VIX: 19.45, +2.2% \u2014 indexes / FMP",
-          "GCUSD: $4,021.70, +0.3% \u2014 cross_asset / FMP",
-          "USO: $169.53, +4.3% \u2014 cross_asset / FMP",
-          "BZUSD: $114.33, \u22122.0% \u2014 cross_asset / FMP",
-          "UUP: $28.96, +0.2% \u2014 cross_asset / FMP",
-          "BTCUSD: $79,656.96, \u22120.5% \u2014 cross_asset / FMP",
-          "Treasury year10: 5.0%, spread_2s10s: 0.31 \u2014 treasury / FMP",
-          "AMD, TSM, NVDA, MSFT, GOOGL, KO, PEP, HD, LLY, NFLX, T: per mega_caps/actives \u2014 FMP"
+          "^GSPC: 7,677.33 (+0.7%) \u2014 indexes",
+          "^IXIC: 26,169.38 (+0.8%) \u2014 indexes",
+          "^DJI: 52,361.58 (+0.3%) \u2014 indexes",
+          "^RUT: 2,786.42 (+0.4%) \u2014 indexes",
+          "^VIX: 18.39 (\u22125.4%) \u2014 indexes",
+          "Chicago Fed NACI (Sep): 0.07 \u2014 economic_calendar",
+          "Dallas Fed Mfg (Oct): 13.4 \u2014 economic_calendar",
+          "year10 / spread_2s10s: 5.0% / 0.31 \u2014 treasury",
+          "Sector leaders/laggards \u2014 sectors array, 2026-10-26",
+          "Mega cap and earnings figures \u2014 mega_caps, earnings_calendar, actives",
+          "GCUSD, BZUSD, USO, UUP, EURUSD, BTCUSD \u2014 cross_asset",
+          "^N225, ^FTSE, ^HSI \u2014 overseas"
         ],
-        "source_url": "https://www.reuters.com/business/energy/indian-shares-track-muted-open-oil-concerns-persist-fed-focus-2026-10-26/",
-        "source_notes": "https://www.reuters.com/business/energy/indian-shares-track-muted-open-oil-concerns-persist-fed-focus-2026-10-26/"
+        "source_url": "https://tickeralpha.ai",
+        "source_notes": "https://tickeralpha.ai"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-25",
-    "generated_at": "2026-10-25T23:14:14-04:00",
-    "draft_path": "drafts/2026-10-25-week-ahead.md",
+    "session_date": "2026-10-26",
+    "generated_at": "2026-10-26T23:44:10-04:00",
+    "draft_path": "drafts/2026-10-26-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Tuesday: durable goods, home sales, confidence",
+        "title": "Monday: Boeing, Visa, and factory orders",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Three U.S. releases land Tuesday, Oct. 27.\n\nAt 12:30 p.m.\nET: durable goods orders for September \u2014 consensus +0.6% month over month, prior \u22120.1%.\n\nSame time: orders excluding transportation +0.6% (prior +0.3%); excluding defense 0.0% (prior +0.1%).\n\nAt 2:00 p.m.\nET: new home sales for September \u2014 0.66 million units expected, prior 0.684 million; month-over-month change estimated \u22123.5%, prior +6.4%.\n\nAlso at 2:00 p.m.\nET: Conference Board consumer confidence for October \u2014 estimate 80.5, prior 81.9.\n\nThose reads cover factory demand, new housing, and household mood before midweek Fed and earnings.\n\nWhich of the three do you watch first on Tuesday?",
+        "body": "Monday Oct. 27 opens the week with earnings and two high-impact data sets.\n\nBefore the open:\n- $V \u2014 EPS estimate $3.44\n- $BA \u2014 EPS estimate \u2212$0.25\n- $KO \u2014 EPS estimate $0.88\n\n12:30 p.m.\nET: Durable goods orders for September \u2014 estimate +1.5% month over month (prior 0%).\n\n2:00 p.m.\nET: New home sales for September \u2014 estimate 0.65 million units (prior 0.68 million).\n\nSame time: Conference Board consumer confidence for October \u2014 estimate 81 (prior 81.9).\n\nDurable goods track factory demand for big-ticket items; new-home sales measure signed contracts on newly built houses.\n\nWhich Monday print are you tracking first?",
         "skip_reason": "",
         "supporting_data": [
-          "Durable Goods Orders MoM (Sep) estimate: 0.6% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders MoM (Sep) previous: \u22120.1% \u2014 source: FMP economic_calendar",
-          "New Home Sales (Sep) estimate: 0.66 M \u2014 source: FMP economic_calendar",
-          "New Home Sales MoM (Sep) estimate: \u22123.5% \u2014 source: FMP economic_calendar",
-          "CB Consumer Confidence (Oct) estimate: 80.5 \u2014 source: FMP economic_calendar",
-          "CB Consumer Confidence (Oct) previous: 81.9 \u2014 source: FMP economic_calendar"
+          "V EPS estimate: 3.44 \u2014 FMP earnings_calendar",
+          "BA EPS estimate: \u22120.25 \u2014 FMP earnings_calendar",
+          "KO EPS estimate: 0.88 \u2014 FMP earnings_calendar",
+          "Durable Goods Orders MoM (Sep) estimate: 1.5% \u2014 FMP economic_calendar",
+          "Durable Goods Orders MoM (Sep) previous: 0% \u2014 FMP economic_calendar",
+          "New Home Sales (Sep) estimate: 0.65 M \u2014 FMP economic_calendar",
+          "New Home Sales (Sep) previous: 0.684 M \u2014 FMP economic_calendar",
+          "CB Consumer Confidence (Oct) estimate: 81 \u2014 FMP economic_calendar",
+          "CB Consumer Confidence (Oct) previous: 81.9 \u2014 FMP economic_calendar"
         ],
-        "source_url": "https://site.financialmodelingprep.com/developer/docs/economic-calendar-api",
-        "source_notes": "https://site.financialmodelingprep.com/developer/docs/economic-calendar-api"
+        "source_url": "https://www.barrons.com/articles/stocks-today-ai-rises-before-big-tech-earnings-8c7d4468",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-rises-before-big-tech-earnings-8c7d4468"
       },
       {
-        "title": "FedEx and ServiceNow report Oct. 28",
+        "title": "Wednesday 6 p.m.: Fed decision and briefing",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Wednesday, Oct. 28, two large-cap names report ahead of the afternoon Fed window.\n\n- $FDX \u2014 EPS estimate $3.33; revenue estimate about $22.73 billion\n\n- $NOW \u2014 EPS estimate $1.02; revenue estimate about $4.09 billion\n\nSame calendar day, after the close of the regular session: Fed interest rate decision (consensus 4.0%, unchanged from 4.0%), FOMC economic projections at 6:00 p.m.\nET, and a press conference at 6:30 p.m.\nET.\n\nThe earnings pair is a read on shipping volumes and enterprise software demand; the Fed items set the rate and guidance picture for the rest of the week.\n\nDo you treat logistics earnings as a lead indicator for the quarter?",
+        "body": "Wednesday Oct. 28, the Fed\u2019s October meeting wraps up with three public steps.\n\n6:00 p.m.\nET: Fed interest rate decision \u2014 estimate 4.0% (unchanged from 4.0%).\n\n6:00 p.m.\nET: FOMC statement (text release with the decision).\n\n6:30 p.m.\nET: Press conference.\n\nThat sequence sets the official stance on borrowing costs and how the committee describes inflation and growth.\n\nIt lands the same session as several large earnings reports scheduled earlier in the week.\n\nWhat do you watch first after a Fed day \u2014 the statement or the briefing?",
         "skip_reason": "",
         "supporting_data": [
-          "FDX EPS estimate: 3.33 \u2014 source: FMP earnings_calendar",
-          "FDX revenue estimate: 22732940000 (~$22.73B) \u2014 source: FMP earnings_calendar",
-          "NOW EPS estimate: 1.02 \u2014 source: FMP earnings_calendar",
-          "NOW revenue estimate: 4094689000 (~$4.09B) \u2014 source: FMP earnings_calendar",
-          "Fed Interest Rate Decision estimate: 4% \u2014 source: FMP economic_calendar",
-          "Fed Interest Rate Decision previous: 4% \u2014 source: FMP economic_calendar"
+          "Fed Interest Rate Decision estimate: 4% \u2014 FMP economic_calendar",
+          "Fed Interest Rate Decision previous: 4% \u2014 FMP economic_calendar",
+          "FOMC Statement date/time: 2026-10-28 18:00 ET \u2014 FMP economic_calendar",
+          "Press Conference date/time: 2026-10-28 18:30 ET \u2014 FMP economic_calendar"
         ],
-        "source_url": "https://site.financialmodelingprep.com/developer/docs/earnings-calendar-api",
-        "source_notes": "https://site.financialmodelingprep.com/developer/docs/earnings-calendar-api"
+        "source_url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-as-focus-turns-to-fed-decision-0d81a31b",
+        "source_notes": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-as-focus-turns-to-fed-decision-0d81a31b"
       },
       {
-        "title": "Thursday 12:30: GDP, PCE, jobless claims",
+        "title": "Friday: Exxon and Chevron earnings",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Thursday, Oct. 29, 12:30 p.m.\nET stacks growth, inflation, labor, and spending in one print.\n\n- GDP growth rate Q3 quarter over quarter \u2014 estimate 3.2%, prior 2.2%\n\n- Core PCE price index year over year (Sep) \u2014 estimate 3.1%, prior 3.0%\n\n- Core PCE price index month over month (Sep) \u2014 estimate 0.3%, prior 0.2%\n\n- PCE price index year over year (Sep) \u2014 estimate 3.6%, prior 3.4%\n\n- Initial jobless claims (Oct. 24 week) \u2014 estimate 196K, prior 194K\n\n- Personal spending month over month (Sep) \u2014 estimate 0.3%, prior 0.9%\n\nCore PCE is the inflation gauge the Fed emphasizes; GDP and spending describe how fast the economy ran in Q3 and into September.\n\nLater that day: Atlanta Fed GDPNow (Q4) at 3:00 p.m.\nET (no estimate in the feed).\n\nWhich line in that 12:30 bundle matters most for your week?",
+        "body": "Friday Oct. 30 closes the week with major oil company results.\n\n$XOM (Exxon Mobil) \u2014 EPS estimate $4.10; revenue estimate about $105.4 billion.\n\n$CVX (Chevron) \u2014 EPS estimate $4.86; revenue estimate about $61.3 billion.\n\nSame day, AbbVie ($ABBV) is also on the calendar \u2014 EPS estimate $3.73.\n\nThose reports show how the largest U.S. integrated producers fared in the quarter that just ended.\n\nChicago-area factory activity for October (Chicago PMI) is scheduled Thursday Oct. 30 at 1:45 p.m.\nET \u2014 estimate 55.5 (prior 58.8).\n\nAre you following the energy names or the PMI this week?",
         "skip_reason": "",
         "supporting_data": [
-          "GDP Growth Rate QoQ (Q3) estimate: 3.2% \u2014 source: FMP economic_calendar",
-          "GDP Growth Rate QoQ (Q3) previous: 2.2% \u2014 source: FMP economic_calendar",
-          "Core PCE Price Index YoY (Sep) estimate: 3.1% \u2014 source: FMP economic_calendar",
-          "Core PCE Price Index YoY (Sep) previous: 3.0% \u2014 source: FMP economic_calendar",
-          "Core PCE Price Index MoM (Sep) estimate: 0.3% \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims (Oct/24) estimate: 196 K \u2014 source: FMP economic_calendar",
-          "Personal Spending MoM (Sep) estimate: 0.3% \u2014 source: FMP economic_calendar",
-          "Personal Spending MoM (Sep) previous: 0.9% \u2014 source: FMP economic_calendar"
+          "XOM report date: 2026-10-30 \u2014 FMP earnings_calendar",
+          "XOM EPS estimate: 4.10 \u2014 FMP earnings_calendar",
+          "XOM revenue estimate: 105429700000 \u2014 FMP earnings_calendar",
+          "CVX report date: 2026-10-30 \u2014 FMP earnings_calendar",
+          "CVX EPS estimate: 4.86 \u2014 FMP earnings_calendar",
+          "CVX revenue estimate: 61326020000 \u2014 FMP earnings_calendar",
+          "ABBV EPS estimate: 3.73 \u2014 FMP earnings_calendar",
+          "Chicago PMI (Oct) estimate: 55.5 \u2014 FMP economic_calendar",
+          "Chicago PMI (Oct) previous: 58.8 \u2014 FMP economic_calendar",
+          "Chicago PMI date/time: 2026-10-30 13:45 ET \u2014 FMP economic_calendar"
         ],
-        "source_url": "https://site.financialmodelingprep.com/developer/docs/economic-calendar-api",
-        "source_notes": "https://site.financialmodelingprep.com/developer/docs/economic-calendar-api"
+        "source_url": "https://www.reuters.com/business/energy/oil-eases-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-2026-10-27/",
+        "source_notes": "https://www.reuters.com/business/energy/oil-eases-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-2026-10-27/"
       }
     ]
   }

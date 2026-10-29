@@ -1,213 +1,214 @@
 {
-  "updated_at": "2026-10-28T00:00:13-04:00",
+  "updated_at": "2026-10-29T00:24:34-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-27",
-    "generated_at": "2026-10-27T23:59:22-04:00",
-    "draft_path": "drafts/2026-10-27-am.md",
+    "session_date": "2026-10-29",
+    "generated_at": "2026-10-29T00:23:20-04:00",
+    "draft_path": "drafts/2026-10-29-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Consumer confidence 91.7, well above 81 forecast",
+        "title": "Jobless claims at 12:30: 199K in view",
         "status": "ready",
         "kind": "x_idea",
-        "body": "October U.S. consumer confidence: **91.7**.\n\nConsensus was **81.0**.\n\nPrior month: **84.2**.\n\nThe survey asks households how they feel about jobs and spending\u2014it printed **10.7 points** above what economists expected.\n\nRelease time on the calendar: **Oct. 27, 2:00 p.m.\nET**.\n\nWhat do you watch first when confidence jumps this far above forecast?",
+        "body": "Initial jobless claims (new filings for unemployment benefits) are on the calendar for 12:30 p.m.\nET today.\n\nConsensus: 199K.\n\nPrior week: 194K.\n\nFour-week average \u2014 estimate 197K, prior 197.75K.\n\nContinuing claims \u2014 estimate 1,720K, prior 1,728K.\n\nSame release window: Q3 GDP growth (estimate +3.2% quarter-over-quarter, prior +2.2%) and September core PCE (the Fed\u2019s preferred inflation gauge \u2014 core YoY estimate 3.1%, prior 3.0%).\n\nWhich print are you watching first at 12:30?",
         "skip_reason": "",
         "supporting_data": [
-          "CB Consumer Confidence (Oct) actual: 91.7 \u2014 source: FMP economic_calendar",
-          "Estimate: 81.0 \u2014 source: FMP economic_calendar",
-          "Previous: 84.2 \u2014 source: FMP economic_calendar"
+          "Initial Jobless Claims estimate: 199K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims previous: 194K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 197K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average previous: 197.75K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims estimate: 1,720K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims previous: 1,728K \u2014 source: FMP economic_calendar",
+          "GDP Growth Rate QoQ (Q3) estimate: 3.2% \u2014 source: FMP economic_calendar",
+          "GDP Growth Rate QoQ (Q3) previous: 2.2% \u2014 source: FMP economic_calendar",
+          "Core PCE Price Index YoY (Sep) estimate: 3.1% \u2014 source: FMP economic_calendar",
+          "Core PCE Price Index YoY (Sep) previous: 3.0% \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "September durable goods orders up 1.8% vs 1.5% est.",
+        "title": "Warsh: rates vs the AI spend wave",
         "status": "ready",
         "kind": "x_idea",
-        "body": "September durable goods orders (month over month): **+1.8%**.\n\nEconomists expected **+1.5%**.\n\nAugust was revised context at **+0.1%**.\n\nExcluding transportation, the gain was **+0.5%** (estimate **+0.6%**).\n\nExcluding defense, orders rose **+2.2%** (estimate **0%**).\n\nThe report measures bookings for items meant to last years\u2014factories, planes, machinery.\n\nPrinted **Oct. 27, 12:30 p.m.\nET**.\n\nWhich slice of the report\u2014headline, ex-transport, or ex-defense\u2014do you treat as the cleanest read?",
+        "body": "Fed Chair Kevin Warsh said higher interest rates are reaching the investment surge, and that growth is broadening beyond it.\n\nThat framing lands the day before a heavy data morning: Q3 GDP (estimate +3.2% QoQ vs +2.2% prior) and September PCE inflation at 12:30 p.m.\nET.\n\nThe 10-year Treasury yield sat at 5.0% on the latest FMP snapshot (Oct. 27).\n\nThe 2-year/10-year spread was 0.29 percentage point.\n\nDoes policy follow the capex-heavy growth story or the broader economy \u2014 where do you draw the line?",
         "skip_reason": "",
         "supporting_data": [
-          "Durable Goods Orders MoM (Sep) actual: 1.8% \u2014 source: FMP economic_calendar",
-          "Estimate: 1.5% \u2014 source: FMP economic_calendar",
-          "Previous: 0.1% \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders Ex Transp MoM: 0.5% actual vs 0.6% estimate \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders Ex Defense MoM: 2.2% actual vs 0% estimate \u2014 source: FMP economic_calendar"
+          "GDP Growth Rate QoQ (Q3) estimate: 3.2% \u2014 source: FMP economic_calendar",
+          "GDP Growth Rate QoQ (Q3) previous: 2.2% \u2014 source: FMP economic_calendar",
+          "10-year Treasury yield: 5.0% \u2014 source: FMP treasury",
+          "2s10s spread: 0.29 \u2014 source: FMP treasury (spread_2s10s)"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://www.wsj.com/economy/central-banking/the-feds-ai-puzzle-will-high-rates-slow-the-boom-c9c43ce2",
+        "source_notes": "https://www.wsj.com/economy/central-banking/the-feds-ai-puzzle-will-high-rates-slow-the-boom-c9c43ce2"
       },
       {
-        "title": "Fed decision day: 4% on the calendar",
+        "title": "Brent \u22124.4% as EU meets on fuel",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Oct. 28** U.S. macro lineup (ET):\n\n**12:30 p.m.** \u2014 Goods trade balance (Sep).\nPrior **-$132.1B**.\nEstimate **-$130B**.\n\n**6:00 p.m.** \u2014 Fed interest rate decision.\nPrior **4%**.\nEstimate **4%**.\n\nSame window: **FOMC statement**.\n\n**6:30 p.m.** \u2014 Fed **press conference**.\n\nAfter **Oct. 27** data\u2014confidence **91.7** vs **81** est., durable goods **+1.8%** vs **+1.5%**\u2014the day\u2019s releases sit ahead of the evening policy bundle.\n\nThe dollar was described as steady into the decision window in overnight FX coverage.\n\nWhich print today do you read before the statement drops\u2014trade balance or something else on your list?",
+        "body": "Brent crude: \u22124.4% to $110.20.\n\nPrior close: $115.32.\n\nReuters: EU energy ministers scheduled to discuss fuel prices as winter approaches.\n\nU.S. oil exposure in the data: $USO +1.6% to $166.57 (oil fund, not spot WTI).\n\nSame calendar week: Chicago PMI (Oct) prints Oct. 30 \u2014 estimate 56.1, prior 58.8.\n\nHow much do energy prices factor into your read of today\u2019s spending and PCE data?",
         "skip_reason": "",
         "supporting_data": [
-          "Fed Interest Rate Decision estimate: 4% \u2014 source: FMP economic_calendar",
-          "Fed Interest Rate Decision previous: 4% \u2014 source: FMP economic_calendar",
-          "Goods Trade Balance (Sep) estimate: -130B \u2014 source: FMP economic_calendar",
-          "Goods Trade Balance previous: -132.1B \u2014 source: FMP economic_calendar",
-          "CB Consumer Confidence (Oct) actual: 91.7 \u2014 source: FMP economic_calendar",
-          "Durable Goods Orders MoM (Sep) actual: 1.8% \u2014 source: FMP economic_calendar"
+          "Brent price: 110.20 \u2014 source: FMP cross_asset (BZUSD)",
+          "Brent changePercentage: -4.4% \u2014 source: FMP cross_asset (BZUSD)",
+          "Brent previousClose: 115.32 \u2014 source: FMP cross_asset (BZUSD)",
+          "USO price: 166.57 \u2014 source: FMP cross_asset (USO)",
+          "USO changesPercentage: +1.6% \u2014 source: FMP cross_asset (USO)",
+          "Chicago PMI (Oct) estimate: 56.1 \u2014 source: FMP economic_calendar",
+          "Chicago PMI (Oct) previous: 58.8 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.reuters.com/business/dollar-holds-gains-ahead-fed-policy-signal-rbnz-decision-2026-10-28/",
-        "source_notes": "https://www.reuters.com/business/dollar-holds-gains-ahead-fed-policy-signal-rbnz-decision-2026-10-28/"
+        "source_url": "https://www.reuters.com/business/energy/eu-energy-ministers-discuss-soaring-fuel-prices-winter-looms-2026-10-29/",
+        "source_notes": "https://www.reuters.com/business/energy/eu-energy-ministers-discuss-soaring-fuel-prices-winter-looms-2026-10-29/"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-27",
-    "generated_at": "2026-10-27T23:59:53-04:00",
-    "draft_path": "drafts/2026-10-27.md",
+    "session_date": "2026-10-29",
+    "generated_at": "2026-10-29T00:24:03-04:00",
+    "draft_path": "drafts/2026-10-29.md",
     "errors": [],
     "slots": [
       {
-        "title": "Boeing down 10.7% after earnings",
+        "title": "Oracle up 10.6% in one session",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$BBA fell 10.7% to 168.18.\n\nThe session low was 167.43, near the 52-week low of 167.41.\n\nReported EPS was -0.34 vs a -0.25 estimate; revenue was about $24.19B vs about $23.95B expected.\n\nVolume was 46.97M shares.\n\nWhich part of the report drew the most attention in your feed \u2014 the loss, cash flow, or guidance?",
+        "body": "$ORCL +10.6% to 144.34.\n\nVolume was 79.1 million shares, versus a prior close of 130.53.\n\nThe stock traded between 128.42 and 148.47 on the day.\n\nThat move stood apart from the broader tech complex, where several large chip and platform names finished mixed.\n\nWhich mega-cap move caught your eye after the close?",
         "skip_reason": "",
         "supporting_data": [
-          "$BA change: -10.7% \u2014 FMP mega_caps / EOD",
-          "$BA price: 168.18 \u2014 FMP mega_caps",
-          "$BA day low: 167.43 \u2014 FMP mega_caps",
-          "$BA year low: 167.41 \u2014 FMP mega_caps",
-          "$BA EPS actual: -0.34 \u2014 FMP earnings_calendar",
-          "$BA EPS estimate: -0.25 \u2014 FMP earnings_calendar (rounded from -0.25)",
-          "$BA revenue actual: $24.19B \u2014 FMP earnings_calendar (24188000000)",
-          "$BA revenue estimate: $23.95B \u2014 FMP earnings_calendar (23949690000)",
-          "$BA volume: 46,971,337 \u2014 FMP mega_caps"
+          "ORCL change: +10.6% \u2014 mega_caps / FMP quote",
+          "ORCL price: 144.34 \u2014 mega_caps",
+          "ORCL change (points): +13.81 \u2014 mega_caps",
+          "ORCL previous close: 130.53 \u2014 mega_caps",
+          "ORCL day range: 128.42\u2013148.47 \u2014 mega_caps",
+          "ORCL volume: 79,111,287 \u2014 mega_caps"
         ],
-        "source_url": "https://www.cnbc.com/2026/10/27/cramer-ge-aerospace-boeing-stock-selloff.html",
-        "source_notes": "https://www.cnbc.com/2026/10/27/cramer-ge-aerospace-boeing-stock-selloff.html"
+        "source_url": "https://site.financialmodelingprep.com/quote/ORCL",
+        "source_notes": "https://site.financialmodelingprep.com/quote/ORCL"
       },
       {
-        "title": "UPS up 5.8% on earnings beat",
+        "title": "Healthcare led sectors at +2.1%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$UPS gained 5.8% to 106.14.\n\nEPS was 1.69 vs 1.62 estimated.\n\nRevenue was about $22.9B vs about $22.27B estimated.\n\nThe stock traded between 99.61 and 106.58 on the day.\n\nDid you track this as a logistics read or a broader consumer-spending print?",
+        "body": "Healthcare averaged +2.1% among Nasdaq sectors for the session.\n\nUtilities averaged -1.0%.\n\nIndustrials averaged -0.7%.\n\nNamed healthcare-related movers in the session set included:\n\n- $GMAB +28.3% to 57.29\n- $LLY +0.5% to 1,288.78\n- $GILD +0.1% to 159.20\n\nBasic materials averaged +0.6%.\n\nTechnology averaged +0.3%, in line with the Nasdaq Composite\u2019s +0.3% finish.\n\nDid healthcare strength show up in names you follow?",
         "skip_reason": "",
         "supporting_data": [
-          "$UPS change: +5.8% \u2014 FMP mega_caps",
-          "$UPS price: 106.14 \u2014 FMP mega_caps",
-          "$UPS day high: 106.58 \u2014 FMP mega_caps",
-          "$UPS day low: 99.61 \u2014 FMP mega_caps",
-          "$UPS EPS actual: 1.69 \u2014 FMP earnings_calendar",
-          "$UPS EPS estimate: 1.62 \u2014 FMP earnings_calendar",
-          "$UPS revenue actual: $22.9B \u2014 FMP earnings_calendar (22900000000)",
-          "$UPS revenue estimate: $22.27B \u2014 FMP earnings_calendar (22272440000)"
+          "Healthcare sector averageChange: +2.1% \u2014 sectors (2026-10-29, NASDAQ)",
+          "Utilities sector averageChange: -1.0% \u2014 sectors",
+          "Industrials sector averageChange: -0.7% \u2014 sectors",
+          "GMAB changesPercentage: +28.3%, price 57.29 \u2014 liquid_gainers",
+          "LLY changesPercentage: +0.5%, price 1,288.78 \u2014 mega_caps",
+          "GILD changesPercentage: +0.1%, price 159.20 \u2014 mega_caps",
+          "Basic Materials averageChange: +0.6% \u2014 sectors",
+          "Technology averageChange: +0.3% \u2014 sectors",
+          "^IXIC changesPercentage: +0.3%, price 26,549.85 \u2014 indexes"
         ],
-        "source_url": "https://www.youtube.com/watch?v=WQSMt_9R9Wg",
-        "source_notes": "https://www.youtube.com/watch?v=WQSMt_9R9Wg"
+        "source_url": "https://site.financialmodelingprep.com/sector-performance",
+        "source_notes": "https://site.financialmodelingprep.com/sector-performance"
       },
       {
-        "title": "Nasdaq up 1.2% as chips lead",
+        "title": "Chips split: AMD up, NVDA down",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Nasdaq Composite closed up 1.2% at 26,477.81 (+308.43 pts).\n\nChip and tech names led among megacaps:\n\n- $AMD +5.5% to 560.26\n- $TSM +2.9% to 436.87\n- $ORCL +3.5% to 130.53\n- $NVDA +0.9% to 217.94\n\nThe VIX fell 4.7% to 17.52.\n\nCoverage tied the session to AI and semiconductor demand ahead of the Fed\u2019s policy meeting.\n\nWhich name on that list mattered most for how you read the day?",
+        "body": "$AMD +3.2% to 578.44.\n\n$NVDA -1.2% to 215.38.\n\n$INTC +1.9% to 95.53.\n\n$SNDK +7.7% to 1,404.77.\n\n$ASML +1.7% to 1,662.85.\n\nSeveral SK Hynix\u2013linked leveraged products also showed large percentage gains in the liquid-gainers list, including entries up roughly 26\u201327%.\n\nThe Nasdaq Composite still closed +0.3% at 26,549.85.\n\nHow did you read the chip tape versus the index?",
         "skip_reason": "",
         "supporting_data": [
-          "^IXIC change: +1.2% \u2014 FMP indexes",
-          "^IXIC close: 26,477.81 \u2014 FMP indexes",
-          "^IXIC point change: +308.43 \u2014 FMP indexes",
-          "$AMD: +5.5%, 560.26 \u2014 FMP mega_caps",
-          "$TSM: +2.9%, 436.87 \u2014 FMP mega_caps",
-          "$ORCL: +3.5%, 130.53 \u2014 FMP mega_caps",
-          "$NVDA: +0.9%, 217.94 \u2014 FMP mega_caps",
-          "^VIX: -4.7%, 17.52 \u2014 FMP indexes"
+          "AMD: +3.2%, 578.44 \u2014 mega_caps",
+          "NVDA: -1.2%, 215.38 \u2014 mega_caps",
+          "INTC: +1.9%, 95.53 \u2014 mega_caps",
+          "SNDK: +7.7%, 1,404.77 \u2014 mega_caps",
+          "ASML: +1.7%, 1,662.85 \u2014 mega_caps",
+          "^IXIC: +0.3%, 26,549.85 \u2014 indexes",
+          "SKHU: +27.0% \u2014 liquid_gainers",
+          "SKUU: +26.7% \u2014 liquid_gainers"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-chip-trade-boosts-indexes-ai-f35f27dd",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-chip-trade-boosts-indexes-ai-f35f27dd"
+        "source_url": "https://site.financialmodelingprep.com/quote/AMD",
+        "source_notes": "https://site.financialmodelingprep.com/quote/AMD"
       },
       {
-        "title": "U.S. session recap \u2014 Oct. 27, 2026",
+        "title": "US session recap \u2014 Oct. 29, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 rose 0.6% to 7,722.65 (+45.88 pts).\nThe Nasdaq Composite gained 1.2% to 26,477.81 (+308.43).\nThe Russell 2000 added 1.2% to 2,818.87 (+32.45).\nThe Dow Jones Industrial Average was essentially flat, up less than 0.1% to 52,377.57 (+15.99).\n\n$BBA was the standout megacap decliner, down 10.7% to 168.18 after EPS of -0.34 vs about -0.25 expected; revenue was about $24.19B vs about $23.95B expected.\nThe day low 167.43 sat almost on the 52-week low of 167.41.\n\nSemiconductor and large-cap tech names helped carry the Nasdaq.:\n- $AMD +5.5% to 560.26\n- $TSM +2.9% to 436.87\n- $ORCL +3.5% to 130.53\n- $NVDA +0.9% to 217.94\n\n$TSLA rose 4.0% to 407.46.\n$MSFT slipped 0.2% to 531.33.\n$AMZN gained 1.6% to 253.10.\n\nEarnings drove several large moves beyond Boeing.:\n- $UPS +5.8% to 106.14\n- $RCL +5.5% to 295.92\n- $CRM -2.7% to 240.89\n- $V -0.6% to 401.86\n- $KO -1.6% to 91.18\n\nafter EPS 0.91 vs 0.88 est and revenue above estimate.\n\nSector averages on Nasdaq showed Healthcare up about 1.3%, Consumer Cyclical about 1.2%, Real Estate about 1.2%, Technology about 0.9%, and Consumer Defensive down about 0.8%.\nFinancial Services averaged about -0.6%.\n\nEnergy-linked megacaps weakened: $XOM -2.5% to 179.88 and $CVX -1.6% to 228.23.\nThe USO ETF proxy closed down 1.4% at 163.88.\nBrent crude futures rose 1.3% to 115.40.\n\nData released during the session included September durable goods orders up 1.8% month over month (estimate 1.5%), ex-transportation up 0.5%, and ex-defense up 2.2%.\nSeptember new home sales were 0.676M with month-over-month change -0.6% (estimate -3.5%).\nOctober Conference Board consumer confidence printed 91.7 vs 81.0 expected (prior 84.2).\nAtlanta Fed GDPNow for Q3 was 3.4% vs 3.5% prior.\n\nThe CBOE VIX fell 4.7% to 17.52.\nGold futures (GC) were down 0.4% at 4,058.80.\nThe UUP dollar fund proxy rose 0.4% to 29.12.\nBitcoin traded about 0.2% higher around 80,990.56.\n\nOverseas references in the bundle included Nikkei 225 +1.5%, Hang Seng +0.4%, FTSE 100 -0.8%, and the Germany ETF proxy EWG +0.7%.\nLatest Treasury snapshot in the feed (dated 2026-10-23) showed the 10-year at 5.0% and the 2s10s spread at 0.31.",
+        "body": "The S&P 500 finished at 7,743.98, up 0.3% (+21.38 points), with an intraday range of 7,718.37 to 7,758.43.\n\nThe Nasdaq Composite closed at 26,549.85, up 0.3% (+72.04 points), while the Dow Jones Industrial Average rose 0.2% to 52,475.10.\n\nThe Russell 2000 gained 0.4% to 2,830.51, slightly ahead of the large-cap benchmarks in percentage terms.\n\nThe VIX fell 3.5% to 16.91, from a prior close of 17.52, with a session low of 16.47.\n\nAmong Nasdaq sector averages dated 2026-10-29, healthcare led at +2.1%, basic materials were +0.6%, and technology was +0.3%; utilities lagged at -1.0%, industrials at -0.7%, and financial services at -0.4%.\n\nOracle was the standout mega-cap percentage mover in the injected set: $ORCL +10.6% to 144.34 on volume above 79 million shares, with a day range of 128.42 to 148.47.\n\nMemory and processor names were active:\n- $SNDK +7.7% to 1,404.77\n- $AMD +3.2% to 578.44\n- $INTC +1.9% to 95.53\n- $AAPL -0.9%\n\nat 343.83.\n\n$GOOGL gained 1.3% to 324.89:\n- $AMZN +0.6% to 254.60\n- $TSLA -0.8%\n\nat 404.22.\n\nIn the earnings calendar for the date, Rivian reported actual results in the data: EPS -0.64 vs an estimated -0.65, and revenue about $1.97 billion vs an estimated ~$1.95 billion; $RIVN closed -1.3% at 11.67.\n\nLarge declines in the liquid-losers screen included:\n- $FFIV -20.4% to 365.53\n- $INBX -23.4% to 73.29\n- $OTLY -27.1% to 8.56\n\nThe economic calendar listed a heavy 12:30 ET US block for 2026-10-29, including Q3 GDP growth, PCE-related reads, and jobless claims; the injected bundle did not include released actuals for those prints.\n\nTreasury snapshot in the data is dated 2026-10-27, with the 10-year at 5.0% and the 2s10s spread at 0.29 percentage points.\n\nGold futures (GC) were -0.1% at 4,047.80; the US Oil Fund (USO) proxy was +1.6% at 166.57 while Brent crude (BZ) was -4.4% at 110.20.\n\nThe dollar proxy (UUP) slipped 0.2% to 29.06; bitcoin (BTCUSD) was -1.8% at 79,787.35.\n\nOverseas indexes in the set included the Nikkei 225 +0.2% at 64,099.24, FTSE 100 +0.1%, and Hang Seng -0.1% at 23,076.00.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: +0.6%, 7,722.65 \u2014 FMP indexes",
-          "^IXIC: +1.2%, 26,477.81 \u2014 FMP indexes",
-          "^DJI: 0.0%, 52,377.57 \u2014 FMP indexes",
-          "^RUT: +1.2%, 2,818.87 \u2014 FMP indexes",
-          "^VIX: -4.7%, 17.52 \u2014 FMP indexes",
-          "$BA: -10.7%, 168.18 \u2014 FMP mega_caps / earnings_calendar",
-          "$UPS: +5.8%, 106.14 \u2014 FMP mega_caps / earnings_calendar",
-          "Durable goods MoM: +1.8% \u2014 FMP economic_calendar",
-          "Consumer confidence: 91.7 \u2014 FMP economic_calendar",
-          "USO: -1.4%, 163.88 \u2014 FMP cross_asset",
-          "GCUSD: -0.4%, 4,058.80 \u2014 FMP cross_asset",
-          "Brent BZUSD: +1.3%, 115.40 \u2014 FMP cross_asset"
+          "^GSPC: 7,743.98, +0.3% \u2014 indexes",
+          "^IXIC: 26,549.85, +0.3% \u2014 indexes",
+          "^DJI: 52,475.10, +0.2% \u2014 indexes",
+          "^RUT: 2,830.51, +0.4% \u2014 indexes",
+          "^VIX: 16.91, -3.5% \u2014 indexes",
+          "Healthcare sector: +2.1% \u2014 sectors",
+          "ORCL: +10.6%, 144.34 \u2014 mega_caps",
+          "SNDK/AMD/INTC/NVDA/AAPL/GOOGL/AMZN/MSFT/TSLA: per mega_caps",
+          "RIVN earnings actuals and -1.3% close \u2014 earnings_calendar, mega_caps",
+          "FFIV/INBX/OTLY: liquid_losers",
+          "Treasury 10y 5.0%, spread_2s10s 0.29 \u2014 treasury (2026-10-27)",
+          "GCUSD, USO, BZUSD, UUP, BTCUSD \u2014 cross_asset",
+          "^N225, ^FTSE, ^HSI \u2014 overseas"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-add-to-gains-ahead-of-earnings-fed-statement-d996e176",
-        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-add-to-gains-ahead-of-earnings-fed-statement-d996e176"
+        "source_url": "https://tickeralpha.ai",
+        "source_notes": "https://tickeralpha.ai"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-27",
-    "generated_at": "2026-10-28T00:00:13-04:00",
-    "draft_path": "drafts/2026-10-27-week-ahead.md",
+    "session_date": "2026-10-29",
+    "generated_at": "2026-10-29T00:24:34-04:00",
+    "draft_path": "drafts/2026-10-29-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Microsoft and Alphabet report Oct. 28",
+        "title": "Exxon and Chevron report Oct. 30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$MSFT reports Oct. 28 with a $4.71 EPS estimate.\n\n$GOOG reports the same day with a $3.01 EPS estimate.\n\nRevenue estimates sit near $90.6B for Microsoft and $127.9B for Alphabet.\n\nBoth prints land after the Oct. 27 session, when the Nasdaq Composite closed up 1.2% at 26,477.81.\n\nWhich line item do you watch first on a megacap software report \u2014 cloud growth or total revenue?",
+        "body": "$XOM and $CVX report Thursday.\n\nExxon Mobil: EPS estimate $4.12.\nRevenue estimate about $105.43B.\n\nChevron: EPS estimate $4.86.\nRevenue estimate about $61.33B.\n\nBoth prints summarize how much oil and gas the majors produced and what they earned from refining and chemicals in Q3.\n\nResults typically land after the regular session close on Oct. 30.\n\nWhich line item do you watch first on big oil reports \u2014 production volumes or capital returned to shareholders?",
         "skip_reason": "",
         "supporting_data": [
-          "MSFT EPS estimate: 4.71 \u2014 source: FMP earnings_calendar",
-          "GOOG EPS estimate: 3.01 \u2014 source: FMP earnings_calendar",
-          "MSFT revenue estimate: 90,616,650,000 USD \u2014 source: FMP earnings_calendar",
-          "GOOG revenue estimate: 127,941,800,000 USD \u2014 source: FMP earnings_calendar",
-          "^IXIC close: 26,477.81 (+1.2%) \u2014 source: FMP indexes",
-          "MSFT earnings date: 2026-10-28 \u2014 source: FMP earnings_calendar",
-          "GOOG earnings date: 2026-10-28 \u2014 source: FMP earnings_calendar"
+          "XOM EPS estimate: 4.12 \u2014 source: FMP earnings_calendar",
+          "XOM revenue estimate: 105429700000 (~$105.43B) \u2014 source: FMP earnings_calendar",
+          "CVX EPS estimate: 4.86 \u2014 source: FMP earnings_calendar",
+          "CVX revenue estimate: 61326020000 (~$61.33B) \u2014 source: FMP earnings_calendar",
+          "XOM report date: 2026-10-30 \u2014 source: FMP earnings_calendar",
+          "CVX report date: 2026-10-30 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "Amazon and Lilly earnings Oct. 29",
+        "title": "Chicago PMI due Oct. 30 at 1:45 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AMZN reports Oct. 29.\n\nEPS estimate: $1.97.\n\nRevenue estimate: about $202.2B.\n\n$LLY reports the same day.\n\nEPS estimate: $5.68.\n\nRevenue estimate: about $22.6B.\n\nAmazon\u2019s print covers retail and cloud demand; Lilly\u2019s covers prescription-drug sales.\n\nDo you treat these two names as one \u201cconsumer health\u201d day or completely separate stories?",
+        "body": "Chicago PMI (Oct) posts Thursday at 1:45 p.m.\nET.\n\nConsensus: 56.1.\n\nPrior reading: 58.8.\n\nThe index tracks whether manufacturers in the Chicago area are expanding or contracting; readings above 50 point to expansion.\n\nMedium impact on the U.S. calendar for the week ending Oct. 30.\n\nDo you treat regional PMIs as a lead-in to the national factory surveys?",
         "skip_reason": "",
         "supporting_data": [
-          "AMZN EPS estimate: 1.97 \u2014 source: FMP earnings_calendar",
-          "AMZN revenue estimate: 202,222,200,000 USD \u2014 source: FMP earnings_calendar",
-          "LLY EPS estimate: 5.68 \u2014 source: FMP earnings_calendar",
-          "LLY revenue estimate: 22,582,710,000 USD \u2014 source: FMP earnings_calendar",
-          "AMZN earnings date: 2026-10-29 \u2014 source: FMP earnings_calendar",
-          "LLY earnings date: 2026-10-29 \u2014 source: FMP earnings_calendar"
+          "Event: Chicago PMI (Oct) \u2014 source: FMP economic_calendar",
+          "Date/time: 2026-10-30 13:45:00 \u2014 source: FMP economic_calendar",
+          "Estimate: 56.1 \u2014 source: FMP economic_calendar",
+          "Previous: 58.8 \u2014 source: FMP economic_calendar",
+          "Impact: Medium \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "Q3 GDP and Core PCE Oct. 29",
+        "title": "AbbVie, GD, Regeneron Oct. 30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Thursday Oct. 29, 12:30 p.m.\nET \u2014 a stacked U.S. data release.\n\nGDP growth (Q3, quarter-over-quarter): estimate 3.2%, prior 2.2%.\n\nCore PCE price index (Sep, year-over-year): estimate 3.1%, prior 3.0%.\n\nThat core PCE series strips out food and energy \u2014 the inflation gauge the Fed often cites.\n\nSame timestamp:\n\n- Initial jobless claims (Oct/24): estimate 199K, prior 194K  \n- Personal income (Sep, month-over-month): estimate 0.3%, prior 0.2%\n\nLater that day, Atlanta Fed GDPNow (Q4) is scheduled for 3:00 p.m.\nET.\n\nWhat release do you read first when GDP and PCE land together?",
+        "body": "Three Oct. 30 reports span health care and defense.\n\n- $ABBV \u2014 EPS estimate $3.73. Revenue estimate about $17.32B.\n- $GD \u2014 EPS estimate $4.12. Revenue estimate about $13.72B.\n- $REGN \u2014 EPS estimate $16.36. Revenue estimate about $4.56B.\n\nAbbVie covers branded drug sales and immunology portfolios.\n\nGeneral Dynamics summarizes defense orders and business-jet demand.\n\nRegeneron reports on its biologic medicines and collaboration revenue.\n\nAll three are scheduled for Oct. 30 on the earnings calendar.\n\nWhich sector print are you tracking Thursday \u2014 pharma, defense, or biotech?",
         "skip_reason": "",
         "supporting_data": [
-          "GDP Growth Rate QoQ (Q3) estimate: 3.2% \u2014 source: FMP economic_calendar",
-          "GDP Growth Rate QoQ (Q3) previous: 2.2% \u2014 source: FMP economic_calendar",
-          "Core PCE Price Index YoY (Sep) estimate: 3.1% \u2014 source: FMP economic_calendar",
-          "Core PCE Price Index YoY (Sep) previous: 3.0% \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims estimate: 199K \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims previous: 194K \u2014 source: FMP economic_calendar",
-          "Personal Income MoM (Sep) estimate: 0.3% \u2014 source: FMP economic_calendar",
-          "Personal Income MoM (Sep) previous: 0.2% \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-10-29 12:30:00 \u2014 source: FMP economic_calendar",
-          "Atlanta Fed GDPNow (Q4) date/time: 2026-10-29 15:00:00 \u2014 source: FMP economic_calendar"
+          "ABBV EPS estimate: 3.73 \u2014 source: FMP earnings_calendar",
+          "ABBV revenue estimate: 17318870000 (~$17.32B) \u2014 source: FMP earnings_calendar",
+          "GD EPS estimate: 4.12 \u2014 source: FMP earnings_calendar",
+          "GD revenue estimate: 13718350000 (~$13.72B) \u2014 source: FMP earnings_calendar",
+          "REGN EPS estimate: 16.36 \u2014 source: FMP earnings_calendar",
+          "REGN revenue estimate: 4561941000 (~$4.56B) \u2014 source: FMP earnings_calendar",
+          "Report date (all three): 2026-10-30 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       }
     ]
   }

@@ -1,214 +1,202 @@
 {
-  "updated_at": "2026-10-29T00:24:34-04:00",
+  "updated_at": "2026-10-30T00:23:47-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-29",
-    "generated_at": "2026-10-29T00:23:20-04:00",
-    "draft_path": "drafts/2026-10-29-am.md",
+    "session_date": "2026-10-30",
+    "generated_at": "2026-10-30T00:22:59-04:00",
+    "draft_path": "drafts/2026-10-30-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Jobless claims at 12:30: 199K in view",
+        "title": "Nikkei down 2.6% after BOJ holds rates",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Initial jobless claims (new filings for unemployment benefits) are on the calendar for 12:30 p.m.\nET today.\n\nConsensus: 199K.\n\nPrior week: 194K.\n\nFour-week average \u2014 estimate 197K, prior 197.75K.\n\nContinuing claims \u2014 estimate 1,720K, prior 1,728K.\n\nSame release window: Q3 GDP growth (estimate +3.2% quarter-over-quarter, prior +2.2%) and September core PCE (the Fed\u2019s preferred inflation gauge \u2014 core YoY estimate 3.1%, prior 3.0%).\n\nWhich print are you watching first at 12:30?",
+        "body": "Nikkei 225: -2.6% to 62,960.12 (-1,699.35 points).\n\nThe Bank of Japan kept policy unchanged and described room for future rate increases after inflation reached a long-sought milestone, per WSJ coverage ahead of the decision.\n\nHang Seng finished +1.7% at 23,338.00 in the same overnight window for Asia.\n\nHow are you reading Japan rate policy against what U.S. indexes did at the close?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial Jobless Claims estimate: 199K \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims previous: 194K \u2014 source: FMP economic_calendar",
-          "Jobless Claims 4-Week Average estimate: 197K \u2014 source: FMP economic_calendar",
-          "Jobless Claims 4-Week Average previous: 197.75K \u2014 source: FMP economic_calendar",
-          "Continuing Jobless Claims estimate: 1,720K \u2014 source: FMP economic_calendar",
-          "Continuing Jobless Claims previous: 1,728K \u2014 source: FMP economic_calendar",
-          "GDP Growth Rate QoQ (Q3) estimate: 3.2% \u2014 source: FMP economic_calendar",
-          "GDP Growth Rate QoQ (Q3) previous: 2.2% \u2014 source: FMP economic_calendar",
-          "Core PCE Price Index YoY (Sep) estimate: 3.1% \u2014 source: FMP economic_calendar",
-          "Core PCE Price Index YoY (Sep) previous: 3.0% \u2014 source: FMP economic_calendar"
+          "Nikkei 225 change: -2.6% \u2014 FMP overseas ^N225",
+          "Nikkei 225 level: 62,960.12 \u2014 FMP overseas ^N225",
+          "Nikkei point change: -1,699.35 \u2014 FMP overseas ^N225",
+          "Hang Seng change: +1.7% \u2014 FMP overseas ^HSI",
+          "Hang Seng level: 23,338.00 \u2014 FMP overseas ^HSI"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://www.wsj.com/economy/central-banking/bank-of-japan-holds-fire-while-signaling-rate-hikes-ahead-4bb8d423",
+        "source_notes": "https://www.wsj.com/economy/central-banking/bank-of-japan-holds-fire-while-signaling-rate-hikes-ahead-4bb8d423"
       },
       {
-        "title": "Warsh: rates vs the AI spend wave",
+        "title": "Brent crude up 1.1% on supply headlines",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Fed Chair Kevin Warsh said higher interest rates are reaching the investment surge, and that growth is broadening beyond it.\n\nThat framing lands the day before a heavy data morning: Q3 GDP (estimate +3.2% QoQ vs +2.2% prior) and September PCE inflation at 12:30 p.m.\nET.\n\nThe 10-year Treasury yield sat at 5.0% on the latest FMP snapshot (Oct. 27).\n\nThe 2-year/10-year spread was 0.29 percentage point.\n\nDoes policy follow the capex-heavy growth story or the broader economy \u2014 where do you draw the line?",
+        "body": "Brent crude: +1.1% to $112.07.\n\nReuters reported prices climbing on supply concerns after Yemen\u2019s Houthis stepped up attacks on Saudi Arabia.\n\nU.S. oil fund $USO: +1.0% to 168.19 in the same data set.\n\nWhat supply headlines are you tracking into today\u2019s U.S. session?",
         "skip_reason": "",
         "supporting_data": [
-          "GDP Growth Rate QoQ (Q3) estimate: 3.2% \u2014 source: FMP economic_calendar",
-          "GDP Growth Rate QoQ (Q3) previous: 2.2% \u2014 source: FMP economic_calendar",
-          "10-year Treasury yield: 5.0% \u2014 source: FMP treasury",
-          "2s10s spread: 0.29 \u2014 source: FMP treasury (spread_2s10s)"
+          "Brent price: $112.07 \u2014 FMP cross_asset brent (BZUSD)",
+          "Brent change: +1.1% \u2014 FMP cross_asset brent changesPercentage",
+          "USO price: 168.19 \u2014 FMP cross_asset wti (USO)",
+          "USO change: +1.0% \u2014 FMP cross_asset wti changesPercentage"
         ],
-        "source_url": "https://www.wsj.com/economy/central-banking/the-feds-ai-puzzle-will-high-rates-slow-the-boom-c9c43ce2",
-        "source_notes": "https://www.wsj.com/economy/central-banking/the-feds-ai-puzzle-will-high-rates-slow-the-boom-c9c43ce2"
+        "source_url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/",
+        "source_notes": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/"
       },
       {
-        "title": "Brent \u22124.4% as EU meets on fuel",
+        "title": "Nasdaq -1.4% while Russell 2000 +1.0%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude: \u22124.4% to $110.20.\n\nPrior close: $115.32.\n\nReuters: EU energy ministers scheduled to discuss fuel prices as winter approaches.\n\nU.S. oil exposure in the data: $USO +1.6% to $166.57 (oil fund, not spot WTI).\n\nSame calendar week: Chicago PMI (Oct) prints Oct. 30 \u2014 estimate 56.1, prior 58.8.\n\nHow much do energy prices factor into your read of today\u2019s spending and PCE data?",
+        "body": "Prior U.S. close:\n\n- $^IXIC (Nasdaq Composite): -1.4% to 26,184.72\n- $^RUT (Russell 2000): +1.0% to 2,859.22\n- $^GSPC (S&P 500): -0.3% to 7,720.39\n- $^DJI (Dow): -0.3% to 52,342.56\n\nBarron\u2019s noted Alphabet\u2019s large drop weighed on the Dow, S&P 500, and Nasdaq while many other stocks had a solid day beneath the surface.\n\nVIX: +1.7% to 17.20.\n\nDoes that large-cap vs. small-cap split match what you saw in your watchlist?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent price: 110.20 \u2014 source: FMP cross_asset (BZUSD)",
-          "Brent changePercentage: -4.4% \u2014 source: FMP cross_asset (BZUSD)",
-          "Brent previousClose: 115.32 \u2014 source: FMP cross_asset (BZUSD)",
-          "USO price: 166.57 \u2014 source: FMP cross_asset (USO)",
-          "USO changesPercentage: +1.6% \u2014 source: FMP cross_asset (USO)",
-          "Chicago PMI (Oct) estimate: 56.1 \u2014 source: FMP economic_calendar",
-          "Chicago PMI (Oct) previous: 58.8 \u2014 source: FMP economic_calendar"
+          "Nasdaq Composite: -1.4%, 26,184.72 \u2014 FMP indexes ^IXIC",
+          "Russell 2000: +1.0%, 2,859.22 \u2014 FMP indexes ^RUT",
+          "S&P 500: -0.3%, 7,720.39 \u2014 FMP indexes ^GSPC",
+          "Dow Jones: -0.3%, 52,342.56 \u2014 FMP indexes ^DJI",
+          "VIX: +1.7%, 17.20 \u2014 FMP indexes ^VIX"
         ],
-        "source_url": "https://www.reuters.com/business/energy/eu-energy-ministers-discuss-soaring-fuel-prices-winter-looms-2026-10-29/",
-        "source_notes": "https://www.reuters.com/business/energy/eu-energy-ministers-discuss-soaring-fuel-prices-winter-looms-2026-10-29/"
+        "source_url": "https://www.barrons.com/articles/stocks-today-ai-trade-dips-market-rotation-6f97cd66",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-trade-dips-market-rotation-6f97cd66"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-29",
-    "generated_at": "2026-10-29T00:24:03-04:00",
-    "draft_path": "drafts/2026-10-29.md",
+    "session_date": "2026-10-30",
+    "generated_at": "2026-10-30T00:23:26-04:00",
+    "draft_path": "drafts/2026-10-30.md",
     "errors": [],
     "slots": [
       {
-        "title": "Oracle up 10.6% in one session",
+        "title": "Alphabet closes down 12.6%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$ORCL +10.6% to 144.34.\n\nVolume was 79.1 million shares, versus a prior close of 130.53.\n\nThe stock traded between 128.42 and 148.47 on the day.\n\nThat move stood apart from the broader tech complex, where several large chip and platform names finished mixed.\n\nWhich mega-cap move caught your eye after the close?",
+        "body": "$GOOGL \u221212.6% to 283.82.\n\n$GOOG \u221212.3% to 282.32 on the same day.\n\nCoverage framed it as a sharp one-day slide in Alphabet and a pull on other tech names after results and competition in search.\n\nVolume on $GOOGL was 138.5M shares for the session close.\n\nWhich part of the read-through matters more to you: search revenue or the spill to the rest of mega-cap tech?",
         "skip_reason": "",
         "supporting_data": [
-          "ORCL change: +10.6% \u2014 mega_caps / FMP quote",
-          "ORCL price: 144.34 \u2014 mega_caps",
-          "ORCL change (points): +13.81 \u2014 mega_caps",
-          "ORCL previous close: 130.53 \u2014 mega_caps",
-          "ORCL day range: 128.42\u2013148.47 \u2014 mega_caps",
-          "ORCL volume: 79,111,287 \u2014 mega_caps"
+          "GOOGL price: 283.82 \u2014 FMP mega_caps / EOD",
+          "GOOGL change: \u221241.07 \u2014 FMP mega_caps",
+          "GOOGL changesPercentage: \u221212.6% \u2014 FMP mega_caps",
+          "GOOG price: 282.32 \u2014 FMP actives",
+          "GOOG changesPercentage: \u221212.3% \u2014 FMP actives",
+          "GOOGL volume: 138,462,344 \u2014 FMP mega_caps"
         ],
-        "source_url": "https://site.financialmodelingprep.com/quote/ORCL",
-        "source_notes": "https://site.financialmodelingprep.com/quote/ORCL"
+        "source_url": "https://seekingalpha.com/article/4959860-alphabet-suffers-record-drop-pulls-other-tech-stocks-lower",
+        "source_notes": "https://seekingalpha.com/article/4959860-alphabet-suffers-record-drop-pulls-other-tech-stocks-lower"
       },
       {
-        "title": "Healthcare led sectors at +2.1%",
+        "title": "Amazon down 4.2% after results",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Healthcare averaged +2.1% among Nasdaq sectors for the session.\n\nUtilities averaged -1.0%.\n\nIndustrials averaged -0.7%.\n\nNamed healthcare-related movers in the session set included:\n\n- $GMAB +28.3% to 57.29\n- $LLY +0.5% to 1,288.78\n- $GILD +0.1% to 159.20\n\nBasic materials averaged +0.6%.\n\nTechnology averaged +0.3%, in line with the Nasdaq Composite\u2019s +0.3% finish.\n\nDid healthcare strength show up in names you follow?",
+        "body": "$AMZN \u22124.2% to 243.79.\n\nThe session low was 241.24; the high was 249.14.\n\nReporting tied the move to earnings and to how much cash big tech is putting toward AI infrastructure, with Amazon in that group.\n\n$NVDA \u22120.8% to 213.66 and $AMD \u22122.1% to 566.42 moved in the same session, on smaller percentages but large market weights.\n\nAre you tracking the capex line in these prints more than the headline EPS number?",
         "skip_reason": "",
         "supporting_data": [
-          "Healthcare sector averageChange: +2.1% \u2014 sectors (2026-10-29, NASDAQ)",
-          "Utilities sector averageChange: -1.0% \u2014 sectors",
-          "Industrials sector averageChange: -0.7% \u2014 sectors",
-          "GMAB changesPercentage: +28.3%, price 57.29 \u2014 liquid_gainers",
-          "LLY changesPercentage: +0.5%, price 1,288.78 \u2014 mega_caps",
-          "GILD changesPercentage: +0.1%, price 159.20 \u2014 mega_caps",
-          "Basic Materials averageChange: +0.6% \u2014 sectors",
-          "Technology averageChange: +0.3% \u2014 sectors",
-          "^IXIC changesPercentage: +0.3%, price 26,549.85 \u2014 indexes"
+          "AMZN price: 243.79 \u2014 FMP mega_caps",
+          "AMZN changesPercentage: \u22124.2% \u2014 FMP mega_caps",
+          "AMZN dayLow: 241.24 \u2014 FMP mega_caps",
+          "AMZN dayHigh: 249.14 \u2014 FMP mega_caps",
+          "NVDA price: 213.66, changesPercentage: \u22120.8% \u2014 FMP mega_caps",
+          "AMD price: 566.42, changesPercentage: \u22122.1% \u2014 FMP mega_caps"
         ],
-        "source_url": "https://site.financialmodelingprep.com/sector-performance",
-        "source_notes": "https://site.financialmodelingprep.com/sector-performance"
+        "source_url": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
+        "source_notes": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html"
       },
       {
-        "title": "Chips split: AMD up, NVDA down",
+        "title": "ADT up 33.2% on deal headlines",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AMD +3.2% to 578.44.\n\n$NVDA -1.2% to 215.38.\n\n$INTC +1.9% to 95.53.\n\n$SNDK +7.7% to 1,404.77.\n\n$ASML +1.7% to 1,662.85.\n\nSeveral SK Hynix\u2013linked leveraged products also showed large percentage gains in the liquid-gainers list, including entries up roughly 26\u201327%.\n\nThe Nasdaq Composite still closed +0.3% at 26,549.85.\n\nHow did you read the chip tape versus the index?",
+        "body": "$ADT +33.2% to 9.87.\n\nThe stock was among the most active names by volume in the liquid-gainers set for the session.\n\nHeadlines described a Thrive Holdings acquisition of ADT, framed as a large bet on a long-established security business rather than a typical venture deal.\n\n- $MA +4.2% to 635.70\n- $V +2.5% to 410.54\n\nalso closed higher, while the Nasdaq financial-services group averaged +0.6% for the day.\n\nWhen a single headline drives a one-third move, do you treat the close as the full story or wait for the next filing?",
         "skip_reason": "",
         "supporting_data": [
-          "AMD: +3.2%, 578.44 \u2014 mega_caps",
-          "NVDA: -1.2%, 215.38 \u2014 mega_caps",
-          "INTC: +1.9%, 95.53 \u2014 mega_caps",
-          "SNDK: +7.7%, 1,404.77 \u2014 mega_caps",
-          "ASML: +1.7%, 1,662.85 \u2014 mega_caps",
-          "^IXIC: +0.3%, 26,549.85 \u2014 indexes",
-          "SKHU: +27.0% \u2014 liquid_gainers",
-          "SKUU: +26.7% \u2014 liquid_gainers"
+          "ADT price: 9.87 \u2014 FMP liquid_gainers / actives",
+          "ADT changesPercentage: +33.2% \u2014 FMP liquid_gainers",
+          "MA price: 635.70, changesPercentage: +4.2% \u2014 FMP mega_caps",
+          "V price: 410.54, changesPercentage: +2.5% \u2014 FMP mega_caps",
+          "Financial Services sector averageChange: +0.6% (rounded from \u22120.62...) \u2014 FMP sectors; wait, the data says 0.62 positive for Financial Services",
+          "Let me recheck sectors:",
+          "\"Financial Services\" averageChange: 0.62 \u2192 +0.6%"
         ],
-        "source_url": "https://site.financialmodelingprep.com/quote/AMD",
-        "source_notes": "https://site.financialmodelingprep.com/quote/AMD"
+        "source_url": "https://www.wsj.com/finance/investing/why-josh-kushners-firm-just-spent-7-6-billion-on-a-150-year-old-company-8bfdd9f8",
+        "source_notes": "https://www.wsj.com/finance/investing/why-josh-kushners-firm-just-spent-7-6-billion-on-a-150-year-old-company-8bfdd9f8"
       },
       {
-        "title": "US session recap \u2014 Oct. 29, 2026",
+        "title": "US session recap \u2014 Oct. 30, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 finished at 7,743.98, up 0.3% (+21.38 points), with an intraday range of 7,718.37 to 7,758.43.\n\nThe Nasdaq Composite closed at 26,549.85, up 0.3% (+72.04 points), while the Dow Jones Industrial Average rose 0.2% to 52,475.10.\n\nThe Russell 2000 gained 0.4% to 2,830.51, slightly ahead of the large-cap benchmarks in percentage terms.\n\nThe VIX fell 3.5% to 16.91, from a prior close of 17.52, with a session low of 16.47.\n\nAmong Nasdaq sector averages dated 2026-10-29, healthcare led at +2.1%, basic materials were +0.6%, and technology was +0.3%; utilities lagged at -1.0%, industrials at -0.7%, and financial services at -0.4%.\n\nOracle was the standout mega-cap percentage mover in the injected set: $ORCL +10.6% to 144.34 on volume above 79 million shares, with a day range of 128.42 to 148.47.\n\nMemory and processor names were active:\n- $SNDK +7.7% to 1,404.77\n- $AMD +3.2% to 578.44\n- $INTC +1.9% to 95.53\n- $AAPL -0.9%\n\nat 343.83.\n\n$GOOGL gained 1.3% to 324.89:\n- $AMZN +0.6% to 254.60\n- $TSLA -0.8%\n\nat 404.22.\n\nIn the earnings calendar for the date, Rivian reported actual results in the data: EPS -0.64 vs an estimated -0.65, and revenue about $1.97 billion vs an estimated ~$1.95 billion; $RIVN closed -1.3% at 11.67.\n\nLarge declines in the liquid-losers screen included:\n- $FFIV -20.4% to 365.53\n- $INBX -23.4% to 73.29\n- $OTLY -27.1% to 8.56\n\nThe economic calendar listed a heavy 12:30 ET US block for 2026-10-29, including Q3 GDP growth, PCE-related reads, and jobless claims; the injected bundle did not include released actuals for those prints.\n\nTreasury snapshot in the data is dated 2026-10-27, with the 10-year at 5.0% and the 2s10s spread at 0.29 percentage points.\n\nGold futures (GC) were -0.1% at 4,047.80; the US Oil Fund (USO) proxy was +1.6% at 166.57 while Brent crude (BZ) was -4.4% at 110.20.\n\nThe dollar proxy (UUP) slipped 0.2% to 29.06; bitcoin (BTCUSD) was -1.8% at 79,787.35.\n\nOverseas indexes in the set included the Nikkei 225 +0.2% at 64,099.24, FTSE 100 +0.1%, and Hang Seng -0.1% at 23,076.00.",
+        "body": "The Nasdaq Composite closed \u22121.4% at 26,184.72, off 365.13 points, while the S&P 500 was \u22120.3% at 7,720.39 and the Dow Jones Industrial Average \u22120.3% at 52,342.56.\n\nThe Russell 2000 went the other way, +1.0% to 2,859.22, so the headline index weakness did not match the small-cap benchmark for the session.\n\nAlphabet led the megacap story: $GOOGL \u221212.6% to 283.82 and $GOOG \u221212.3% to 282.32, with coverage linking the drop to search revenue and pressure across large tech.\n\nAmazon finished \u22124.2% at 243.79; chip-heavy names were softer but smaller in percentage terms\u2014$AMD \u22122.1% to 566.42, $NVDA \u22120.8% to 213.66, and $INTC \u22123.6% to 92.07 among active semiconductor-related prints.\n\nMeta bucked part of the tech weakness, closing +2.0% at 624.52; Taiwan Semi $TSM \u22121.8% to 431.81.\n\nPayment networks closed higher:\n- $MA +4.2% to 635.70\n- $V +2.5% to 410.54\n\nalongside a +0.6% average move in Nasdaq-listed financial services.\n\nConsumer and defensive staples showed green ticks:\n- $HD +3.6% to 328.98\n- $WMT +2.1% to 121.25\n- $PG +1.5% to 160.59\n- $KO +1.2% to 92.82\n\nUtilities led sector averages on the Nasdaq taxonomy at about +1.4%, with industrials about +1.2%; technology averaged about \u22120.5% and basic materials about \u22120.9%.\n\n- $ADT +33.2% to 9.87\n- $GKOS +33.6%\n- $CROX +25.5%\n\nwere other large percentage movers in that screen.\n\nChicago PMI for October was on the US calendar for 1:45 p.m.\nET with a 56.1 consensus and 58.8 prior reading; the injected close bundle did not include a released actual for that print.\n\nSeveral large caps on the Oct. 30 earnings calendar moved at the close without reported actuals in this dataset\u2014among them:\n- $GD +4.6% to 370.82\n- $XOM +0.7% to 183.29\n- $CVX +1.0% to 231.46\n- $ABBV +1.7% to 290.97\n\nOil-linked quotes firmed: Brent +1.2% to 112.08 and the USO ETF +1.0% to 168.19, after headlines on supply concerns and attacks on Saudi Arabia; gold futures \u22120.8% to 4,000.90.\n\nThe VIX rose +1.7% to 17.20; Bitcoin USD was +0.4% at 78,088.88 despite earlier crypto headlines around a Binance security incident.\n\nOverseas, the Nikkei 225 was \u22122.7% at 62,940.19; the Hang Seng +1.7% at 23,339.00; the FTSE 100 +0.3% at 10,722.07.\n\nTreasury snapshot dated Oct. 28 in the feed showed the 10-year at 5.0% and the 2s10s spread at 0.38 percentage points.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,743.98, +0.3% \u2014 indexes",
-          "^IXIC: 26,549.85, +0.3% \u2014 indexes",
-          "^DJI: 52,475.10, +0.2% \u2014 indexes",
-          "^RUT: 2,830.51, +0.4% \u2014 indexes",
-          "^VIX: 16.91, -3.5% \u2014 indexes",
-          "Healthcare sector: +2.1% \u2014 sectors",
-          "ORCL: +10.6%, 144.34 \u2014 mega_caps",
-          "SNDK/AMD/INTC/NVDA/AAPL/GOOGL/AMZN/MSFT/TSLA: per mega_caps",
-          "RIVN earnings actuals and -1.3% close \u2014 earnings_calendar, mega_caps",
-          "FFIV/INBX/OTLY: liquid_losers",
-          "Treasury 10y 5.0%, spread_2s10s 0.29 \u2014 treasury (2026-10-27)",
-          "GCUSD, USO, BZUSD, UUP, BTCUSD \u2014 cross_asset",
-          "^N225, ^FTSE, ^HSI \u2014 overseas"
+          "^IXIC: 26,184.72, \u22121.4% \u2014 FMP indexes",
+          "^GSPC: 7,720.39, \u22120.3% \u2014 FMP indexes",
+          "^DJI: 52,342.56, \u22120.3% \u2014 FMP indexes",
+          "^RUT: 2,859.22, +1.0% \u2014 FMP indexes",
+          "GOOGL: 283.82, \u221212.6% \u2014 FMP mega_caps",
+          "AMZN: 243.79, \u22124.2% \u2014 FMP mega_caps",
+          "^VIX: 17.20, +1.7% \u2014 FMP indexes",
+          "Brent (BZUSD): 112.08, +1.2% \u2014 FMP cross_asset",
+          "GCUSD: 4,000.90, \u22120.8% \u2014 FMP cross_asset",
+          "Treasury year10: 5.05, spread_2s10s: 0.38 \u2014 FMP treasury",
+          "Chicago PMI estimate 56.1, previous 58.8 \u2014 FMP economic_calendar"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://financialmodelingprep.com/",
+        "source_notes": "https://financialmodelingprep.com/"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-29",
-    "generated_at": "2026-10-29T00:24:34-04:00",
-    "draft_path": "drafts/2026-10-29-week-ahead.md",
+    "session_date": "2026-10-30",
+    "generated_at": "2026-10-30T00:23:47-04:00",
+    "draft_path": "drafts/2026-10-30-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Exxon and Chevron report Oct. 30",
+        "title": "Staples earnings land Oct. 30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$XOM and $CVX report Thursday.\n\nExxon Mobil: EPS estimate $4.12.\nRevenue estimate about $105.43B.\n\nChevron: EPS estimate $4.86.\nRevenue estimate about $61.33B.\n\nBoth prints summarize how much oil and gas the majors produced and what they earned from refining and chemicals in Q3.\n\nResults typically land after the regular session close on Oct. 30.\n\nWhich line item do you watch first on big oil reports \u2014 production volumes or capital returned to shareholders?",
+        "body": "Three large consumer staples names report Oct. 30.\n\n- $CL \u2014 EPS estimate $0.93; revenue estimate about $5.34B\n- $CHD \u2014 EPS estimate $0.90; revenue estimate about $1.58B\n- $KVUE \u2014 EPS estimate $0.29; revenue estimate about $3.86B\n\nEach print is a read on everyday product demand and pricing after a week that included fresh PCE inflation data (Sep headline PCE up 3.6% year over year in the prior release).\n\nWhich of these three do you track closest for \u201creal economy\u201d signal?",
         "skip_reason": "",
         "supporting_data": [
-          "XOM EPS estimate: 4.12 \u2014 source: FMP earnings_calendar",
-          "XOM revenue estimate: 105429700000 (~$105.43B) \u2014 source: FMP earnings_calendar",
-          "CVX EPS estimate: 4.86 \u2014 source: FMP earnings_calendar",
-          "CVX revenue estimate: 61326020000 (~$61.33B) \u2014 source: FMP earnings_calendar",
-          "XOM report date: 2026-10-30 \u2014 source: FMP earnings_calendar",
-          "CVX report date: 2026-10-30 \u2014 source: FMP earnings_calendar"
+          "CL EPS estimate: 0.926 \u2014 source: FMP earnings_calendar",
+          "CL revenue estimate: 5336202000 \u2014 source: FMP earnings_calendar",
+          "CHD EPS estimate: 0.9 \u2014 source: FMP earnings_calendar",
+          "CHD revenue estimate: 1579252000 \u2014 source: FMP earnings_calendar",
+          "KVUE EPS estimate: 0.29 \u2014 source: FMP earnings_calendar",
+          "KVUE revenue estimate: 3862226000 \u2014 source: FMP earnings_calendar",
+          "PCE Price Index YoY (Sep) actual: 3.6% \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       },
       {
-        "title": "Chicago PMI due Oct. 30 at 1:45 p.m.",
+        "title": "Two utilities report Oct. 30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Chicago PMI (Oct) posts Thursday at 1:45 p.m.\nET.\n\nConsensus: 56.1.\n\nPrior reading: 58.8.\n\nThe index tracks whether manufacturers in the Chicago area are expanding or contracting; readings above 50 point to expansion.\n\nMedium impact on the U.S. calendar for the week ending Oct. 30.\n\nDo you treat regional PMIs as a lead-in to the national factory surveys?",
+        "body": "Oct. 30 brings regulated-utility earnings for two large U.S. names.\n\n- $D \u2014 EPS estimate $1.21; revenue estimate about $4.90B\n- $EXC \u2014 EPS estimate $0.79; revenue estimate about $6.76B\n\nThe reports lay out power demand, fuel and grid costs, and capex plans\u2014often read alongside other Oct. 30 energy-sector prints already on the calendar this week.\n\nDo you treat utility earnings mainly as income stories or as capex/regulation reads?",
         "skip_reason": "",
         "supporting_data": [
-          "Event: Chicago PMI (Oct) \u2014 source: FMP economic_calendar",
-          "Date/time: 2026-10-30 13:45:00 \u2014 source: FMP economic_calendar",
-          "Estimate: 56.1 \u2014 source: FMP economic_calendar",
-          "Previous: 58.8 \u2014 source: FMP economic_calendar",
-          "Impact: Medium \u2014 source: FMP economic_calendar"
+          "D EPS estimate: 1.21 \u2014 source: FMP earnings_calendar",
+          "D revenue estimate: 4900431000 \u2014 source: FMP earnings_calendar",
+          "EXC EPS estimate: 0.788 \u2014 source: FMP earnings_calendar",
+          "EXC revenue estimate: 6758409000 \u2014 source: FMP earnings_calendar",
+          "D report date: 2026-10-30 \u2014 source: FMP earnings_calendar",
+          "EXC report date: 2026-10-30 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       },
       {
-        "title": "AbbVie, GD, Regeneron Oct. 30",
+        "title": "Auto suppliers, dealers Oct. 30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Three Oct. 30 reports span health care and defense.\n\n- $ABBV \u2014 EPS estimate $3.73. Revenue estimate about $17.32B.\n- $GD \u2014 EPS estimate $4.12. Revenue estimate about $13.72B.\n- $REGN \u2014 EPS estimate $16.36. Revenue estimate about $4.56B.\n\nAbbVie covers branded drug sales and immunology portfolios.\n\nGeneral Dynamics summarizes defense orders and business-jet demand.\n\nRegeneron reports on its biologic medicines and collaboration revenue.\n\nAll three are scheduled for Oct. 30 on the earnings calendar.\n\nWhich sector print are you tracking Thursday \u2014 pharma, defense, or biotech?",
+        "body": "Oct. 30 also clears auto-chain earnings.\n\n- $LEA \u2014 EPS estimate $3.32; revenue estimate about $5.81B\n- $AN \u2014 EPS estimate $5.08; revenue estimate about $6.93B\n\nLear\u2019s print reflects seating and electronics content per vehicle; AutoNation\u2019s reflects U.S. dealer sales and service\u2014two different lenses on the same end market.\n\nWhich line item do you watch first on dealer vs. supplier reports?",
         "skip_reason": "",
         "supporting_data": [
-          "ABBV EPS estimate: 3.73 \u2014 source: FMP earnings_calendar",
-          "ABBV revenue estimate: 17318870000 (~$17.32B) \u2014 source: FMP earnings_calendar",
-          "GD EPS estimate: 4.12 \u2014 source: FMP earnings_calendar",
-          "GD revenue estimate: 13718350000 (~$13.72B) \u2014 source: FMP earnings_calendar",
-          "REGN EPS estimate: 16.36 \u2014 source: FMP earnings_calendar",
-          "REGN revenue estimate: 4561941000 (~$4.56B) \u2014 source: FMP earnings_calendar",
-          "Report date (all three): 2026-10-30 \u2014 source: FMP earnings_calendar"
+          "LEA EPS estimate: 3.32 \u2014 source: FMP earnings_calendar",
+          "LEA revenue estimate: 5809121000 \u2014 source: FMP earnings_calendar",
+          "AN EPS estimate: 5.08 \u2014 source: FMP earnings_calendar",
+          "AN revenue estimate: 6934127000 \u2014 source: FMP earnings_calendar",
+          "LEA report date: 2026-10-30 \u2014 source: FMP earnings_calendar",
+          "AN report date: 2026-10-30 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       }
     ]
   }

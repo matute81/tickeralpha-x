@@ -1,202 +1,213 @@
 {
-  "updated_at": "2026-10-30T00:23:47-04:00",
+  "updated_at": "2026-10-31T00:03:31-04:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-10-30",
-    "generated_at": "2026-10-30T00:22:59-04:00",
-    "draft_path": "drafts/2026-10-30-am.md",
+    "session_date": "2026-10-31",
+    "generated_at": "2026-10-31T00:02:39-04:00",
+    "draft_path": "drafts/2026-10-31-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Nikkei down 2.6% after BOJ holds rates",
+        "title": "Nasdaq \u22122.9% as AI trade cracks",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Nikkei 225: -2.6% to 62,960.12 (-1,699.35 points).\n\nThe Bank of Japan kept policy unchanged and described room for future rate increases after inflation reached a long-sought milestone, per WSJ coverage ahead of the decision.\n\nHang Seng finished +1.7% at 23,338.00 in the same overnight window for Asia.\n\nHow are you reading Japan rate policy against what U.S. indexes did at the close?",
+        "body": "The Nasdaq Composite closed at 25,437.00, down 747.73 points (\u22122.9%).\n\nThe S&P 500 finished at 7,580.07 (\u22121.8%, \u2212140.32 points).\n\nThe CBOE Volatility Index (VIX) rose to 19.42 (+12.9%).\n\nCoverage described a sharp tech selloff and worries that AI-related spending is straining returns, with headlines pointing to earnings misses and a rough day for chip names.\n\nThe Dow Jones Industrial Average closed at 51,770.31 (\u22121.1%).\n\nWhat part of the AI-spend story are you tracking first \u2014 earnings, capex, or funding costs?",
         "skip_reason": "",
         "supporting_data": [
-          "Nikkei 225 change: -2.6% \u2014 FMP overseas ^N225",
-          "Nikkei 225 level: 62,960.12 \u2014 FMP overseas ^N225",
-          "Nikkei point change: -1,699.35 \u2014 FMP overseas ^N225",
-          "Hang Seng change: +1.7% \u2014 FMP overseas ^HSI",
-          "Hang Seng level: 23,338.00 \u2014 FMP overseas ^HSI"
+          "Nasdaq Composite close: 25,437.00 \u2014 FMP indexes ^IXIC",
+          "Nasdaq change: \u2212747.73 (\u22122.9%) \u2014 FMP indexes ^IXIC",
+          "S&P 500 close: 7,580.07 \u2014 FMP indexes ^GSPC",
+          "S&P 500 change: \u2212140.32 (\u22121.8%) \u2014 FMP indexes ^GSPC",
+          "VIX: 19.42 (+12.9%) \u2014 FMP indexes ^VIX",
+          "Dow close: 51,770.31 (\u22121.1%) \u2014 FMP indexes ^DJI"
         ],
-        "source_url": "https://www.wsj.com/economy/central-banking/bank-of-japan-holds-fire-while-signaling-rate-hikes-ahead-4bb8d423",
-        "source_notes": "https://www.wsj.com/economy/central-banking/bank-of-japan-holds-fire-while-signaling-rate-hikes-ahead-4bb8d423"
+        "source_url": "https://www.wsj.com/finance/stocks/cracks-in-ai-trade-power-sharp-tech-selloff-8e49471b",
+        "source_notes": "https://www.wsj.com/finance/stocks/cracks-in-ai-trade-power-sharp-tech-selloff-8e49471b"
       },
       {
-        "title": "Brent crude up 1.1% on supply headlines",
+        "title": "Equal-weight S&P beat cap-weight by 5.9 pp in October",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude: +1.1% to $112.07.\n\nReuters reported prices climbing on supply concerns after Yemen\u2019s Houthis stepped up attacks on Saudi Arabia.\n\nU.S. oil fund $USO: +1.0% to 168.19 in the same data set.\n\nWhat supply headlines are you tracking into today\u2019s U.S. session?",
+        "body": "In September, the cap-weighted S&P 500 beat the equal-weight index by 4.61 percentage points.\n\nIn October, the equal-weight index beat the cap-weight index by 5.85 percentage points.\n\nThat flip is described as one of the best equal-weight months since 1990, after a month when megacap leadership had pulled ahead.\n\nThe prior session still showed broad index declines \u2014 S&P 500 at 7,580.07 (\u22121.8%) and Russell 2000 at 2,811.84 (\u22121.7%) \u2014 so the October breadth story sits next to a late-month risk-off close.\n\nDo you watch equal-weight vs cap-weight as a breadth check?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent price: $112.07 \u2014 FMP cross_asset brent (BZUSD)",
-          "Brent change: +1.1% \u2014 FMP cross_asset brent changesPercentage",
-          "USO price: 168.19 \u2014 FMP cross_asset wti (USO)",
-          "USO change: +1.0% \u2014 FMP cross_asset wti changesPercentage"
+          "Cap-weight vs equal-weight gap (September): +4.61 pp for cap-weight \u2014 Seeking Alpha article text in FMP news",
+          "Cap-weight vs equal-weight gap (October): +5.85 pp for equal-weight \u2014 Seeking Alpha article text in FMP news",
+          "S&P 500 close: 7,580.07 (\u22121.8%) \u2014 FMP indexes ^GSPC",
+          "Russell 2000 close: 2,811.84 (\u22121.7%) \u2014 FMP indexes ^RUT"
         ],
-        "source_url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/",
-        "source_notes": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/"
+        "source_url": "https://seekingalpha.com/article/4960544-2nd-best-month-for-equal-weight-since-1990",
+        "source_notes": "https://seekingalpha.com/article/4960544-2nd-best-month-for-equal-weight-since-1990"
       },
       {
-        "title": "Nasdaq -1.4% while Russell 2000 +1.0%",
+        "title": "10-year Treasury at 5.0% amid AI funding debate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Prior U.S. close:\n\n- $^IXIC (Nasdaq Composite): -1.4% to 26,184.72\n- $^RUT (Russell 2000): +1.0% to 2,859.22\n- $^GSPC (S&P 500): -0.3% to 7,720.39\n- $^DJI (Dow): -0.3% to 52,342.56\n\nBarron\u2019s noted Alphabet\u2019s large drop weighed on the Dow, S&P 500, and Nasdaq while many other stocks had a solid day beneath the surface.\n\nVIX: +1.7% to 17.20.\n\nDoes that large-cap vs. small-cap split match what you saw in your watchlist?",
+        "body": "The 10-year Treasury yield is 5.0% in the latest FMP Treasury snapshot (dated 2026-10-29).\n\nThe 2-year yield is 4.6%.\n\nThe 2s10s spread is 0.37 percentage points.\n\nCoverage ties the AI infrastructure wave to stricter financing \u2014 lenders asking for tougher terms as spending scales.\n\nSeparate commentary argued a Fed rate hike was not \u201cappropriate\u201d in the current setup, alongside discussion of tech volatility.\n\nGold futures settled at 3,898.90 (\u22123.3%) in the same risk-off session that hit equities.\n\nWhich do you watch more for the macro picture \u2014 the 10-year yield or the 2s10s spread?",
         "skip_reason": "",
         "supporting_data": [
-          "Nasdaq Composite: -1.4%, 26,184.72 \u2014 FMP indexes ^IXIC",
-          "Russell 2000: +1.0%, 2,859.22 \u2014 FMP indexes ^RUT",
-          "S&P 500: -0.3%, 7,720.39 \u2014 FMP indexes ^GSPC",
-          "Dow Jones: -0.3%, 52,342.56 \u2014 FMP indexes ^DJI",
-          "VIX: +1.7%, 17.20 \u2014 FMP indexes ^VIX"
+          "10-year Treasury yield: 5.0% \u2014 FMP treasury",
+          "2-year Treasury yield: 4.6% \u2014 FMP treasury",
+          "2s10s spread: 0.37 \u2014 FMP treasury",
+          "Treasury snapshot date: 2026-10-29 \u2014 FMP treasury",
+          "Gold (GCUSD): 3,898.90 (\u22123.3%) \u2014 FMP cross_asset gold"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-ai-trade-dips-market-rotation-6f97cd66",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-trade-dips-market-rotation-6f97cd66"
+        "source_url": "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d",
+        "source_notes": "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-10-30",
-    "generated_at": "2026-10-30T00:23:26-04:00",
-    "draft_path": "drafts/2026-10-30.md",
+    "session_date": "2026-10-31",
+    "generated_at": "2026-10-31T00:03:09-04:00",
+    "draft_path": "drafts/2026-10-31.md",
     "errors": [],
     "slots": [
       {
-        "title": "Alphabet closes down 12.6%",
+        "title": "Intel down 28.6% in one session",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$GOOGL \u221212.6% to 283.82.\n\n$GOOG \u221212.3% to 282.32 on the same day.\n\nCoverage framed it as a sharp one-day slide in Alphabet and a pull on other tech names after results and competition in search.\n\nVolume on $GOOGL was 138.5M shares for the session close.\n\nWhich part of the read-through matters more to you: search revenue or the spill to the rest of mega-cap tech?",
+        "body": "$INTC \u221228.6% to 65.76.\n\nThat was among the steepest single-day percentage moves in the liquid names screen for the Oct. 31 US close.\n\nHeadlines on the tape described it as Intel\u2019s worst day since 1974 and linked the plunge to pressure across chip and AI-linked stocks.\n\nRelated chip names also finished lower:\n- $AMD \u221210.9% to 504.80\n- $ASML \u22126.6% to 1,565.90\n- $NVDA \u22124.2% to 204.64\n\nThe Nasdaq Composite closed \u22122.9% at 25,437.00 on the same session.\n\nWhich chip name\u2019s volume stood out to you on the close?",
         "skip_reason": "",
         "supporting_data": [
-          "GOOGL price: 283.82 \u2014 FMP mega_caps / EOD",
-          "GOOGL change: \u221241.07 \u2014 FMP mega_caps",
-          "GOOGL changesPercentage: \u221212.6% \u2014 FMP mega_caps",
-          "GOOG price: 282.32 \u2014 FMP actives",
-          "GOOG changesPercentage: \u221212.3% \u2014 FMP actives",
-          "GOOGL volume: 138,462,344 \u2014 FMP mega_caps"
+          "INTC change: \u221228.6% \u2014 FMP mega_caps / liquid_losers / actives",
+          "INTC price: 65.76 \u2014 FMP mega_caps",
+          "INTC change (points): \u221226.31 \u2014 FMP actives",
+          "AMD: \u221210.9%, 504.80 \u2014 FMP mega_caps",
+          "ASML: \u22126.6%, 1,565.90 \u2014 FMP mega_caps",
+          "NVDA: \u22124.2%, 204.64 \u2014 FMP actives / mega_caps",
+          "^IXIC: \u22122.9%, 25,437.00 \u2014 FMP indexes"
         ],
-        "source_url": "https://seekingalpha.com/article/4959860-alphabet-suffers-record-drop-pulls-other-tech-stocks-lower",
-        "source_notes": "https://seekingalpha.com/article/4959860-alphabet-suffers-record-drop-pulls-other-tech-stocks-lower"
+        "source_url": "https://seekingalpha.com/article/4960527-tech-selloff-wipes-out-1-trillion-in-value",
+        "source_notes": "https://seekingalpha.com/article/4960527-tech-selloff-wipes-out-1-trillion-in-value"
       },
       {
-        "title": "Amazon down 4.2% after results",
+        "title": "Nasdaq \u22122.9% as AI trade cracks",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AMZN \u22124.2% to 243.79.\n\nThe session low was 241.24; the high was 249.14.\n\nReporting tied the move to earnings and to how much cash big tech is putting toward AI infrastructure, with Amazon in that group.\n\n$NVDA \u22120.8% to 213.66 and $AMD \u22122.1% to 566.42 moved in the same session, on smaller percentages but large market weights.\n\nAre you tracking the capex line in these prints more than the headline EPS number?",
+        "body": "The Nasdaq Composite closed \u22122.9% (\u2212747.73 pts) at 25,437.00.\n\nThe S&P 500 finished \u22121.8% at 7,580.07.\n\nCoverage on the session described cracks in the AI trade and a sharp tech selloff after earnings misses among hyperscale and chip names.\n\nLarge tech closed lower:\n- $ORCL \u22126.4% to 130.68\n- $AVGO \u22125.5% to 326.08\n- $MSFT \u22121.6% to 521.91\n- $GOOGL \u22121.4% to 279.84\n- $AMZN \u22121.4% to 240.35\n\nThe CBOE Volatility Index rose +12.9% to 19.42 (session high 23.93).\n\nDoes a +12.9% VIX day change how you read index moves the next session?",
         "skip_reason": "",
         "supporting_data": [
-          "AMZN price: 243.79 \u2014 FMP mega_caps",
-          "AMZN changesPercentage: \u22124.2% \u2014 FMP mega_caps",
-          "AMZN dayLow: 241.24 \u2014 FMP mega_caps",
-          "AMZN dayHigh: 249.14 \u2014 FMP mega_caps",
-          "NVDA price: 213.66, changesPercentage: \u22120.8% \u2014 FMP mega_caps",
-          "AMD price: 566.42, changesPercentage: \u22122.1% \u2014 FMP mega_caps"
+          "^IXIC: \u22122.9%, 25,437.00, change \u2212747.73 \u2014 FMP indexes",
+          "^GSPC: \u22121.8%, 7,580.07 \u2014 FMP indexes",
+          "ORCL: \u22126.4%, 130.68 \u2014 FMP mega_caps",
+          "AVGO: \u22125.5%, 326.08 \u2014 FMP mega_caps",
+          "MSFT: \u22121.6%, 521.91 \u2014 FMP mega_caps",
+          "GOOGL: \u22121.4%, 279.84 \u2014 FMP mega_caps",
+          "AMZN: \u22121.4%, 240.35 \u2014 FMP mega_caps",
+          "^VIX: +12.9%, 19.42, dayHigh 23.93 \u2014 FMP indexes"
         ],
-        "source_url": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
-        "source_notes": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html"
+        "source_url": "https://www.wsj.com/finance/stocks/cracks-in-ai-trade-power-sharp-tech-selloff-8e49471b",
+        "source_notes": "https://www.wsj.com/finance/stocks/cracks-in-ai-trade-power-sharp-tech-selloff-8e49471b"
       },
       {
-        "title": "ADT up 33.2% on deal headlines",
+        "title": "Reddit \u221229.3% among liquid losers",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$ADT +33.2% to 9.87.\n\nThe stock was among the most active names by volume in the liquid-gainers set for the session.\n\nHeadlines described a Thrive Holdings acquisition of ADT, framed as a large bet on a long-established security business rather than a typical venture deal.\n\n- $MA +4.2% to 635.70\n- $V +2.5% to 410.54\n\nalso closed higher, while the Nasdaq financial-services group averaged +0.6% for the day.\n\nWhen a single headline drives a one-third move, do you treat the close as the full story or wait for the next filing?",
+        "body": "$RDDT \u221229.3% to 91.67 (\u221237.93 on the day).\n\nIt led the liquid losers screen by percentage at the Oct. 31 US close.\n\nThe same session saw heavy turnover in chip and leveraged tech products, including $SOXL \u221224.7% to 77.05 and $TQQQ \u221210.5% to 62.01.\n\nThe Russell 2000 closed \u22121.7% at 2,811.84.\n\nThe Dow Jones Industrial Average was \u22121.1% at 51,770.31.\n\nWhat stood out more on your screen \u2014 single-name drops or the index prints?",
         "skip_reason": "",
         "supporting_data": [
-          "ADT price: 9.87 \u2014 FMP liquid_gainers / actives",
-          "ADT changesPercentage: +33.2% \u2014 FMP liquid_gainers",
-          "MA price: 635.70, changesPercentage: +4.2% \u2014 FMP mega_caps",
-          "V price: 410.54, changesPercentage: +2.5% \u2014 FMP mega_caps",
-          "Financial Services sector averageChange: +0.6% (rounded from \u22120.62...) \u2014 FMP sectors; wait, the data says 0.62 positive for Financial Services",
-          "Let me recheck sectors:",
-          "\"Financial Services\" averageChange: 0.62 \u2192 +0.6%"
+          "RDDT: \u221229.3%, 91.67, change \u221237.93 \u2014 FMP liquid_losers",
+          "SOXL: \u221224.7%, 77.05 \u2014 FMP actives",
+          "TQQQ: \u221210.5%, 62.01 \u2014 FMP actives",
+          "^RUT: \u22121.7%, 2,811.84 \u2014 FMP indexes",
+          "^DJI: \u22121.1%, 51,770.31 \u2014 FMP indexes"
         ],
-        "source_url": "https://www.wsj.com/finance/investing/why-josh-kushners-firm-just-spent-7-6-billion-on-a-150-year-old-company-8bfdd9f8",
-        "source_notes": "https://www.wsj.com/finance/investing/why-josh-kushners-firm-just-spent-7-6-billion-on-a-150-year-old-company-8bfdd9f8"
+        "source_url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2",
+        "source_notes": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2"
       },
       {
-        "title": "US session recap \u2014 Oct. 30, 2026",
+        "title": "US session recap \u2014 Oct. 31, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Nasdaq Composite closed \u22121.4% at 26,184.72, off 365.13 points, while the S&P 500 was \u22120.3% at 7,720.39 and the Dow Jones Industrial Average \u22120.3% at 52,342.56.\n\nThe Russell 2000 went the other way, +1.0% to 2,859.22, so the headline index weakness did not match the small-cap benchmark for the session.\n\nAlphabet led the megacap story: $GOOGL \u221212.6% to 283.82 and $GOOG \u221212.3% to 282.32, with coverage linking the drop to search revenue and pressure across large tech.\n\nAmazon finished \u22124.2% at 243.79; chip-heavy names were softer but smaller in percentage terms\u2014$AMD \u22122.1% to 566.42, $NVDA \u22120.8% to 213.66, and $INTC \u22123.6% to 92.07 among active semiconductor-related prints.\n\nMeta bucked part of the tech weakness, closing +2.0% at 624.52; Taiwan Semi $TSM \u22121.8% to 431.81.\n\nPayment networks closed higher:\n- $MA +4.2% to 635.70\n- $V +2.5% to 410.54\n\nalongside a +0.6% average move in Nasdaq-listed financial services.\n\nConsumer and defensive staples showed green ticks:\n- $HD +3.6% to 328.98\n- $WMT +2.1% to 121.25\n- $PG +1.5% to 160.59\n- $KO +1.2% to 92.82\n\nUtilities led sector averages on the Nasdaq taxonomy at about +1.4%, with industrials about +1.2%; technology averaged about \u22120.5% and basic materials about \u22120.9%.\n\n- $ADT +33.2% to 9.87\n- $GKOS +33.6%\n- $CROX +25.5%\n\nwere other large percentage movers in that screen.\n\nChicago PMI for October was on the US calendar for 1:45 p.m.\nET with a 56.1 consensus and 58.8 prior reading; the injected close bundle did not include a released actual for that print.\n\nSeveral large caps on the Oct. 30 earnings calendar moved at the close without reported actuals in this dataset\u2014among them:\n- $GD +4.6% to 370.82\n- $XOM +0.7% to 183.29\n- $CVX +1.0% to 231.46\n- $ABBV +1.7% to 290.97\n\nOil-linked quotes firmed: Brent +1.2% to 112.08 and the USO ETF +1.0% to 168.19, after headlines on supply concerns and attacks on Saudi Arabia; gold futures \u22120.8% to 4,000.90.\n\nThe VIX rose +1.7% to 17.20; Bitcoin USD was +0.4% at 78,088.88 despite earlier crypto headlines around a Binance security incident.\n\nOverseas, the Nikkei 225 was \u22122.7% at 62,940.19; the Hang Seng +1.7% at 23,339.00; the FTSE 100 +0.3% at 10,722.07.\n\nTreasury snapshot dated Oct. 28 in the feed showed the 10-year at 5.0% and the 2s10s spread at 0.38 percentage points.",
+        "body": "The Nasdaq Composite led US indexes lower, closing at 25,437.00, down 747.73 points (\u22122.9%) for the session.\nThe S&P 500 finished at 7,580.07 (\u2212140.32, \u22121.8%).\nThe Dow Jones Industrial Average closed at 51,770.31 (\u2212572.25, \u22121.1%).\nThe Russell 2000 ended at 2,811.84 (\u221247.37, \u22121.7%).\n\nHeadlines and market coverage described a deep tech selloff tied to AI spending concerns and disappointing results among large technology companies, with references to roughly $1 trillion in market value erased across the sector narrative on the tape.\n\nIntel closed at 65.76, down 26.31 points (\u221228.6%), described in coverage as its worst day since 1974.\nAdvanced Micro Devices fell to 504.80 (\u221261.62, \u221210.9%).\nNVIDIA closed at 204.64 (\u22129.02, \u22124.2%).\nASML finished at 1,565.90 (\u2212109.80, \u22126.6%).\n\nOracle closed at 130.68 (\u22128.88, \u22126.4%).\nBroadcom ended at 326.08 (\u221218.92, \u22125.5%).\nMicrosoft closed at 521.91 (\u22128.23, \u22121.6%).\nAlphabet Class A shares finished at 279.84 (\u22123.98, \u22121.4%).\nAmazon closed at 240.35 (\u22123.44, \u22121.4%).\nApple ended at 344.63 (\u22124.28, \u22121.2%).\nMeta closed at 614.99 (\u22129.53, \u22121.5%).\n\nReddit closed at 91.67 (\u221237.93, \u221229.3%) on the liquid losers list.\nLeveraged semiconductor products moved with the chip drop: the Direxion Daily Semiconductor Bull 3X ETF ($SOXL) closed at 77.05 (\u221225.34, \u221224.7%), while the bear 3X semiconductor ETF ($SOXS) rose +25.0% to 52.08.\n\nOn the upside among large caps, Eli Lilly closed at 1,417.54 (+43.84, +3.2%), with an intraday high of 1,449.68 matching its 52-week high in the injected profile.\nCostco rose to 1,012.28 (+17.67, +1.8%).\nWalmart finished at 123.51 (+2.26, +1.9%).\nChevron closed at 235.52 (+4.06, +1.8%).\nMastercard edged up to 638.01 (+2.31, +0.4%).\n\nThe CBOE Volatility Index closed at 19.42, up 2.22 points (+12.9%), after an intraday high of 23.93.\nGold futures settled at 3,898.90, down 132.50 (\u22123.3%), with a session low of 3,879.30.\nBrent crude closed at 113.10 (+2.30, +2.1%).\nThe US Oil Fund proxy ($USO) finished at 168.83 (+0.64, +0.4%).\nBitcoin USD was at 77,082.25 (\u2212120.15, \u22120.2%).\nThe dollar proxy ($UUP) closed at 29.00 (\u22120.04, \u22120.1%).\n\nOverseas indexes ahead of or outside the US cash window included the Nikkei 225 at 63,290.11 (\u22121,369.36, \u22122.1%), the Hang Seng at 23,294.40 (+335.74, +1.5%), and the FTSE 100 at 10,729.78 (+7.71, +0.1%).\nLatest injected Treasury snapshot (dated 2026-10-29) showed the 10-year yield at 5.0% and the 2s10s spread at 0.37 percentage points.\n\nThe injected economic and earnings calendars for this bundle carried no new US macro releases or earnings actuals tied to the Oct. 31 close.\nSector performance breakdown was not populated in the session payload.",
         "skip_reason": "",
         "supporting_data": [
-          "^IXIC: 26,184.72, \u22121.4% \u2014 FMP indexes",
-          "^GSPC: 7,720.39, \u22120.3% \u2014 FMP indexes",
-          "^DJI: 52,342.56, \u22120.3% \u2014 FMP indexes",
-          "^RUT: 2,859.22, +1.0% \u2014 FMP indexes",
-          "GOOGL: 283.82, \u221212.6% \u2014 FMP mega_caps",
-          "AMZN: 243.79, \u22124.2% \u2014 FMP mega_caps",
-          "^VIX: 17.20, +1.7% \u2014 FMP indexes",
-          "Brent (BZUSD): 112.08, +1.2% \u2014 FMP cross_asset",
-          "GCUSD: 4,000.90, \u22120.8% \u2014 FMP cross_asset",
-          "Treasury year10: 5.05, spread_2s10s: 0.38 \u2014 FMP treasury",
-          "Chicago PMI estimate 56.1, previous 58.8 \u2014 FMP economic_calendar"
+          "^IXIC: 25,437.00, \u22122.9%, \u2212747.73 \u2014 FMP indexes",
+          "^GSPC: 7,580.07, \u22121.8%, \u2212140.32 \u2014 FMP indexes",
+          "^DJI: 51,770.31, \u22121.1%, \u2212572.25 \u2014 FMP indexes",
+          "^RUT: 2,811.84, \u22121.7% \u2014 FMP indexes",
+          "INTC: 65.76, \u221228.6% \u2014 FMP mega_caps / actives",
+          "AMD: 504.80, \u221210.9% \u2014 FMP mega_caps",
+          "NVDA: 204.64, \u22124.2% \u2014 FMP actives",
+          "ASML: 1,565.90, \u22126.6% \u2014 FMP mega_caps",
+          "ORCL: 130.68, \u22126.4% \u2014 FMP mega_caps",
+          "RDDT: 91.67, \u221229.3% \u2014 FMP liquid_losers",
+          "SOXL: 77.05, \u221224.7% \u2014 FMP actives",
+          "LLY: 1,417.54, +3.2%, dayHigh 1,449.68 \u2014 FMP mega_caps",
+          "^VIX: 19.42, +12.9% \u2014 FMP indexes",
+          "GCUSD (gold): 3,898.90, \u22123.3% \u2014 FMP cross_asset",
+          "BZUSD (brent): 113.10, +2.1% \u2014 FMP cross_asset",
+          "USO: 168.83, +0.4% \u2014 FMP cross_asset",
+          "BTCUSD: 77,082.25, \u22120.2% \u2014 FMP cross_asset",
+          "Treasury 10y: 5.0%, spread_2s10s: 0.37 \u2014 FMP treasury (2026-10-29)",
+          "^N225: \u22122.1% \u2014 FMP overseas",
+          "^HSI: +1.5% \u2014 FMP overseas"
         ],
-        "source_url": "https://financialmodelingprep.com/",
-        "source_notes": "https://financialmodelingprep.com/"
+        "source_url": "https://seekingalpha.com/article/4960527-tech-selloff-wipes-out-1-trillion-in-value",
+        "source_notes": "https://seekingalpha.com/article/4960527-tech-selloff-wipes-out-1-trillion-in-value"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-10-30",
-    "generated_at": "2026-10-30T00:23:47-04:00",
-    "draft_path": "drafts/2026-10-30-week-ahead.md",
+    "session_date": "2026-10-31",
+    "generated_at": "2026-10-31T00:03:31-04:00",
+    "draft_path": "drafts/2026-10-31-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Staples earnings land Oct. 30",
+        "title": "Oct jobs print due Nov. 6",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Three large consumer staples names report Oct. 30.\n\n- $CL \u2014 EPS estimate $0.93; revenue estimate about $5.34B\n- $CHD \u2014 EPS estimate $0.90; revenue estimate about $1.58B\n- $KVUE \u2014 EPS estimate $0.29; revenue estimate about $3.86B\n\nEach print is a read on everyday product demand and pricing after a week that included fresh PCE inflation data (Sep headline PCE up 3.6% year over year in the prior release).\n\nWhich of these three do you track closest for \u201creal economy\u201d signal?",
+        "body": "Nonfarm payrolls for October are scheduled for release Nov. 6.\n\nThe consensus is 65K jobs added, versus 29K in September.\n\nSame release batch includes:\n\n- Unemployment rate (Oct): est. 4.2% (prev. 4.2%)\n- Average hourly earnings MoM (Oct): est. 0.3% (prev. 0.1%)\n- Average hourly earnings YoY (Oct): est. 3.0% (prev. 3.0%)\n- Private payrolls (Oct): est. 60K (prev. 46K)\n\nThe report counts hiring across the economy and is one of the main monthly reads on labor demand and wage pressure.\n\nCalendar week: Nov. 2\u2013Nov. 6.\n\nWhich line in the jobs bundle do you watch first\u2014headline payrolls or the unemployment rate?\n\n#JobsReport #Economy",
         "skip_reason": "",
         "supporting_data": [
-          "CL EPS estimate: 0.926 \u2014 source: FMP earnings_calendar",
-          "CL revenue estimate: 5336202000 \u2014 source: FMP earnings_calendar",
-          "CHD EPS estimate: 0.9 \u2014 source: FMP earnings_calendar",
-          "CHD revenue estimate: 1579252000 \u2014 source: FMP earnings_calendar",
-          "KVUE EPS estimate: 0.29 \u2014 source: FMP earnings_calendar",
-          "KVUE revenue estimate: 3862226000 \u2014 source: FMP earnings_calendar",
-          "PCE Price Index YoY (Sep) actual: 3.6% \u2014 source: FMP economic_calendar"
+          "Non Farm Payrolls (Oct) estimate: 65K \u2014 source: FMP economic_calendar",
+          "Non Farm Payrolls (Oct) previous: 29K \u2014 source: FMP economic_calendar",
+          "Unemployment Rate (Oct) estimate: 4.2% \u2014 source: FMP economic_calendar",
+          "Average Hourly Earnings MoM (Oct) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Nonfarm Payrolls Private (Oct) estimate: 60K \u2014 source: FMP economic_calendar",
+          "Release date/time: 2026-11-06 13:30:00 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "Two utilities report Oct. 30",
+        "title": "Midterms Nov. 3 on the calendar",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Oct. 30 brings regulated-utility earnings for two large U.S. names.\n\n- $D \u2014 EPS estimate $1.21; revenue estimate about $4.90B\n- $EXC \u2014 EPS estimate $0.79; revenue estimate about $6.76B\n\nThe reports lay out power demand, fuel and grid costs, and capex plans\u2014often read alongside other Oct. 30 energy-sector prints already on the calendar this week.\n\nDo you treat utility earnings mainly as income stories or as capex/regulation reads?",
+        "body": "Midterm elections are listed for Nov. 3 (impact: high).\n\nThat day also has JOLTs job openings for September:\n\n- Openings: est. 7.1M (prev. 7.079M)\n- Time on calendar: 3:00 p.m. ET (Nov. 3)\n\nNov. 4 brings ADP\u2019s October private payroll estimate at 1:15 p.m.\nET:\n\n- ADP employment change (Oct): est. 65K (prev. 90K)\n\nJOLTs tracks unfilled jobs; ADP is a separate payroll survey often read ahead of the official jobs report.\n\nNov. 6 still holds the full October payroll release (65K est.).\n\nDo you treat election day as a macro event on its own, or mainly through the data around it?\n\n#Midterms #LaborMarket",
         "skip_reason": "",
         "supporting_data": [
-          "D EPS estimate: 1.21 \u2014 source: FMP earnings_calendar",
-          "D revenue estimate: 4900431000 \u2014 source: FMP earnings_calendar",
-          "EXC EPS estimate: 0.788 \u2014 source: FMP earnings_calendar",
-          "EXC revenue estimate: 6758409000 \u2014 source: FMP earnings_calendar",
-          "D report date: 2026-10-30 \u2014 source: FMP earnings_calendar",
-          "EXC report date: 2026-10-30 \u2014 source: FMP earnings_calendar"
+          "Midterm Elections date: 2026-11-03 \u2014 source: FMP economic_calendar",
+          "JOLTs Job Openings (Sep) estimate: 7.1M \u2014 source: FMP economic_calendar",
+          "JOLTs Job Openings (Sep) previous: 7.079M \u2014 source: FMP economic_calendar",
+          "ADP Employment Change (Oct) estimate: 65K \u2014 source: FMP economic_calendar",
+          "ADP Employment Change (Oct) previous: 90K \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "Auto suppliers, dealers Oct. 30",
+        "title": "Apple reports Nov. 2, EPS est. 1.99",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Oct. 30 also clears auto-chain earnings.\n\n- $LEA \u2014 EPS estimate $3.32; revenue estimate about $5.81B\n- $AN \u2014 EPS estimate $5.08; revenue estimate about $6.93B\n\nLear\u2019s print reflects seating and electronics content per vehicle; AutoNation\u2019s reflects U.S. dealer sales and service\u2014two different lenses on the same end market.\n\nWhich line item do you watch first on dealer vs. supplier reports?",
+        "body": "Week of Nov. 2\u2013Nov. 6: several large-cap results on the calendar.\n\nMonday Nov. 2:\n\n- $AAPL \u2014 EPS est. 1.99\n- $PLTR \u2014 EPS est. 0.41\n- $MAR \u2014 EPS est. 2.84\n\nTuesday Nov. 3:\n\n- $AMD \u2014 EPS est. 1.95\n- $PFE \u2014 EPS est. 0.73\n- $BKNG \u2014 EPS est. 4.49\n\nWednesday Nov. 4:\n\n- $MCD \u2014 EPS est. 3.38\n- $QCOM \u2014 EPS est. 2.17\n- $UBER \u2014 EPS est. 0.86\n\nThursday Nov. 5: ISM-style labor data includes initial jobless claims (est. 197K) at 1:30 p.m.\nET.\n\nFriday Nov. 6: October payrolls (65K est.) and Michigan consumer sentiment for November (est. 47.3, prev. 48.0) at 3:00 p.m.\nET.\n\nEstimates are what analysts expect before each company reports; results set when filings hit.\n\nWhich Nov. 2 name is on your calendar\u2014$AAPL, $PLTR, or something else that week?\n\n#Earnings #WeekAhead",
         "skip_reason": "",
         "supporting_data": [
-          "LEA EPS estimate: 3.32 \u2014 source: FMP earnings_calendar",
-          "LEA revenue estimate: 5809121000 \u2014 source: FMP earnings_calendar",
-          "AN EPS estimate: 5.08 \u2014 source: FMP earnings_calendar",
-          "AN revenue estimate: 6934127000 \u2014 source: FMP earnings_calendar",
-          "LEA report date: 2026-10-30 \u2014 source: FMP earnings_calendar",
-          "AN report date: 2026-10-30 \u2014 source: FMP earnings_calendar"
+          "$AAPL date: 2026-11-02, epsEstimated: 1.99 \u2014 source: FMP earnings_calendar",
+          "$PLTR date: 2026-11-02, epsEstimated: 0.41 (rounded 0.41 in post) \u2014 source: FMP earnings_calendar",
+          "$MAR date: 2026-11-02, epsEstimated: 2.84 \u2014 source: FMP earnings_calendar",
+          "$AMD date: 2026-11-03, epsEstimated: 1.95 \u2014 source: FMP earnings_calendar",
+          "$MCD date: 2026-11-04, epsEstimated: 3.38 \u2014 source: FMP earnings_calendar",
+          "$QCOM date: 2026-11-04, epsEstimated: 2.17 \u2014 source: FMP earnings_calendar",
+          "Michigan Consumer Sentiment (Nov) estimate: 47.3 \u2014 source: FMP economic_calendar",
+          "week_start: 2026-11-02, week_end: 2026-11-06 \u2014 source: FMP_DATA mode week-ahead"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       }
     ]
   }

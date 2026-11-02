@@ -1,211 +1,203 @@
 {
-  "updated_at": "2026-11-01T00:25:21-04:00",
+  "updated_at": "2026-11-01T23:27:12-05:00",
   "morning": {
     "mode": "morning",
     "session_date": "2026-11-01",
-    "generated_at": "2026-11-01T00:24:36-04:00",
+    "generated_at": "2026-11-01T23:26:22-05:00",
     "draft_path": "drafts/2026-11-01-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "ISM factory survey due Monday, est. 54.7",
+        "title": "ISM factory survey due at 3 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "U.S. ISM Manufacturing PMI for October lands Monday, Nov. 2, at 10:00 a.m.\nET.\n\nEconomists\u2019 median estimate: 54.7.\n\nPrior month: 54.5.\n\nA reading above 50 means more factories reporting growth than contraction\u2014the same plain-English scale used for this headline number.\n\nRelated October ISM sub-reads on the same release: prices paid (est. 77.5 vs. 77.9 prior), employment (est. 53.0 vs. 52.7), and new orders (est. 55.4 vs. 55.3).\n\nWhich ISM line\u2014headline PMI or prices\u2014do you watch first?",
+        "body": "October ISM Manufacturing PMI is on the calendar for 3:00 p.m.\nET.\n\nConsensus: 54.6.\nPrior month: 54.5.\nReadings above 50 mean more factories report expansion than contraction.\n\nAlso due at the same time:\n- Employment sub-index \u2014 est. 53.0, prior 52.7\n- Prices paid \u2014 est. 77.0, prior 77.9\n- New orders \u2014 est. 55.4, prior 55.3\n\nManufacturing employment carries a medium impact tag in the release schedule.\n\nWhat sub-index do you watch first on ISM day?",
         "skip_reason": "",
         "supporting_data": [
-          "ISM Manufacturing PMI (Oct) estimate: 54.7 \u2014 economic_calendar, FMP_DATA",
-          "ISM Manufacturing PMI (Oct) previous: 54.5 \u2014 economic_calendar, FMP_DATA",
-          "Release date/time: 2026-11-02 15:00:00 (calendar timestamp) \u2014 economic_calendar, FMP_DATA"
+          "ISM Manufacturing PMI (Oct) estimate: 54.6 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing PMI (Oct) previous: 54.5 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing Employment (Oct) estimate: 53 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing Employment (Oct) previous: 52.7 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing Prices (Oct) estimate: 77 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing Prices (Oct) previous: 77.9 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing New Orders (Oct) estimate: 55.4 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing New Orders (Oct) previous: 55.3 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/developer/docs/economic-calendar-api",
-        "source_notes": "https://financialmodelingprep.com/developer/docs/economic-calendar-api"
+        "source_url": "https://site.financialmodelingprep.com/developer/docs#economics-calendar",
+        "source_notes": "https://site.financialmodelingprep.com/developer/docs#economics-calendar"
       },
       {
-        "title": "Crypto PACs put $200M+ into midterms",
+        "title": "Brent down 3.0% amid Iran headlines",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Cryptocurrency industry groups have spent more than $200 million to influence 2026 midterm elections, according to CNBC reporting tied to Public Citizen.\n\nThat figure is described as the largest single-issue super PAC cohort in U.S. history.\n\nThe same reporting notes roughly $250 million spent ahead of the 2024 cycle to elect pro-crypto candidates.\n\nU.S. midterm Election Day is Tuesday, Nov. 3, 2026\u2014one day after Monday\u2019s ISM release and the same week as heavy tech earnings.\n\nDoes election-year ad spend change how you read macro headlines versus company earnings?",
+        "body": "Brent crude: 109.74.\nChange: -3.0%.\n\nReuters reported oil slipped more than 1% in early Asian trade as talks continued on ending the Iran war.\n\nSeparately, CNBC carried Secretary Rubio saying the administration has not decided on next steps even as both sides prepare for possible strikes.\n\nEnergy headlines and diplomacy are overlapping in the same news cycle.\n\nDoes oil price action or the headline flow matter more to you right now?",
         "skip_reason": "",
         "supporting_data": [
-          "Midterm election date (context from prior calendar coverage in FMP week-ahead): Nov. 3, 2026 \u2014 news/calendar context, FMP_DATA",
-          "Crypto industry midterm spending: more than $200 million \u2014 CNBC headline/body, FMP news feed",
-          "2024 cycle spend cited: about $250 million \u2014 CNBC news item, FMP_DATA"
+          "Brent crude (BZUSD) price: 109.74 \u2014 source: FMP cross_asset brent",
+          "Brent crude change percentage: -3.0% \u2014 source: FMP cross_asset brent",
+          "Brent previous close: 113.10 \u2014 source: FMP cross_asset brent"
         ],
-        "source_url": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html",
-        "source_notes": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html"
+        "source_url": "https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01/",
+        "source_notes": "https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01/"
       },
       {
-        "title": "OPEC+ seen holding December quotas",
+        "title": "Brazil assets hit after election",
         "status": "ready",
         "kind": "x_idea",
-        "body": "OPEC+ is set to keep production targets unchanged in December, Reuters reported Oct. 31, citing a source.\n\nIn the prior session\u2019s cross-asset snapshot:\n\n- Brent crude (BZUSD): +2.1% to 113.10\n\n- Gold futures (GCUSD): -3.3% to 3,898.90\n\n- U.S. oil fund proxy (USO): +0.4% to 168.83\n\nThe Schwab IMPACT segment same day discussed crude trading above $100 and pressure on Treasury yields and Fed rate expectations\u2014context from that headline, not a forecast.\n\nWhat energy headline do you treat as macro-first: OPEC guidance or the price print?",
+        "body": "Seeking Alpha: Brazilian assets sold off after the election.\n\nFrom that coverage:\n- Real: -8.2%\n- Ibovespa: -18.4%\n\nThe piece ties the move to fiscal and political uncertainty, including public debt projected to reach nearly 83% of GDP by 2026 and ongoing primary deficits.\n\nThat is an emerging-markets macro story, not a single U.S. print.\n\nU.S. cross-asset snapshot from the same data pull:\n- Gold futures: +0.4%\n- Bitcoin: +0.3% to 78,466.95\n\nWhich overseas macro story are you tracking this week?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude price: 113.10 \u2014 cross_asset.brent, FMP_DATA",
-          "Brent changesPercentage: +2.1% \u2014 cross_asset.brent, FMP_DATA",
-          "Gold price: 3,898.90 \u2014 cross_asset.gold, FMP_DATA",
-          "Gold changesPercentage: -3.3% \u2014 cross_asset.gold, FMP_DATA",
-          "USO price: 168.83 \u2014 cross_asset.wti (USO), FMP_DATA",
-          "USO changesPercentage: +0.4% \u2014 cross_asset.wti, FMP_DATA",
-          "10-year Treasury yield: 4.9% \u2014 treasury.year10, FMP_DATA"
+          "Brazilian real change (news text): -8.2% \u2014 source: FMP news, Seeking Alpha article text",
+          "Ibovespa change (news text): -18.4% \u2014 source: FMP news, Seeking Alpha article text",
+          "Public debt projection (news text): nearly 83% of GDP by 2026 \u2014 source: FMP news, Seeking Alpha article text",
+          "Gold futures (GCUSD) change percentage: +0.4% \u2014 source: FMP cross_asset gold",
+          "Bitcoin (BTCUSD) price: 78,466.95 \u2014 source: FMP cross_asset btc",
+          "Bitcoin (BTCUSD) change percentage: +0.3% \u2014 source: FMP cross_asset btc"
         ],
-        "source_url": "https://www.reuters.com/business/energy/opec-set-keep-production-targets-unchanged-december-source-says-2026-10-31/",
-        "source_notes": "https://www.reuters.com/business/energy/opec-set-keep-production-targets-unchanged-december-source-says-2026-10-31/"
+        "source_url": "https://seekingalpha.com/article/4960855-its-the-fiscal-lula",
+        "source_notes": "https://seekingalpha.com/article/4960855-its-the-fiscal-lula"
       }
     ]
   },
   "close": {
     "mode": "close",
     "session_date": "2026-11-01",
-    "generated_at": "2026-11-01T00:25:01-04:00",
+    "generated_at": "2026-11-01T23:26:51-05:00",
     "draft_path": "drafts/2026-11-01.md",
     "errors": [],
     "slots": [
       {
-        "title": "Gold futures down 3.3% on the session",
+        "title": "Chip megacaps down 4\u20137% in one session",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Gold futures closed down 3.3% at $3,898.90.\n\nThe session range ran from a high of $4,038.20 to a low of $3,879.30 \u2014 the low matches the year low in the quote data.\n\nThat move landed alongside a weaker US equity tape: the S&P 500 closed down 1.8% at 7,580.07.\n\nThe volatility index rose 12.9% to 19.42 on the same session.\n\nWhich cross-asset print are you tracking first after the close?",
+        "body": "The Nasdaq Composite closed down 2.9% at 25,437.00, off 747.73 points on the session.\n\nSeveral large semiconductor and AI-linked names led the decline:\n\n- $TSM -5.9% to 406.13\n- $ASML -6.6% to 1,565.90\n- $AVGO -5.5% to 326.08\n- $NVDA -4.2% to 204.64\n\nThe Wall Street Journal framed the backdrop as hyperscaler spending and who pays for the global AI build-out.\n\nThe inverse semiconductor ETF $SOXS rose 25.0% to 52.08; the 3x bull chip fund $SOXL fell 24.7% to 77.05.\n\nWhich name in your watchlist had the widest gap versus the prior close?",
         "skip_reason": "",
         "supporting_data": [
-          "Gold futures change: -3.3% \u2014 FMP quote GCUSD",
-          "Gold futures close: $3,898.90 \u2014 FMP quote GCUSD",
-          "Gold session high: $4,038.20 \u2014 FMP quote GCUSD",
-          "Gold session low: $3,879.30 \u2014 FMP quote GCUSD",
-          "S&P 500 change: -1.8% \u2014 FMP quote ^GSPC",
-          "S&P 500 close: 7,580.07 \u2014 FMP quote ^GSPC",
-          "VIX change: +12.9% \u2014 FMP quote ^VIX",
-          "VIX close: 19.42 \u2014 FMP quote ^VIX"
+          "Nasdaq Composite: 25,437.00, -2.9% \u2014 FMP_DATA indexes.^IXIC",
+          "TSM: 406.13, -5.9% \u2014 FMP_DATA mega_caps.TSM",
+          "ASML: 1,565.90, -6.6% \u2014 FMP_DATA mega_caps.ASML",
+          "AVGO: 326.08, -5.5% \u2014 FMP_DATA mega_caps.AVGO",
+          "NVDA: 204.64, -4.2% \u2014 FMP_DATA actives / mega_caps context",
+          "SOXS: 52.08, +25.0% \u2014 FMP_DATA liquid_gainers",
+          "SOXL: 77.05, -24.7% \u2014 FMP_DATA actives"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/GCUSD",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/GCUSD"
+        "source_url": "https://www.wsj.com/tech/ai/ai-spenders-get-spooked-80534757",
+        "source_notes": "https://www.wsj.com/tech/ai/ai-spenders-get-spooked-80534757"
       },
       {
-        "title": "Lilly up 3.2% into a new year high",
+        "title": "Lilly up 3.2% into a new high",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$LLY closed up 3.2% at $1,417.54.\n\nThe stock touched $1,449.68 intraday \u2014 that level is also the year high in the data.\n\nVolume on the session was 5.03 million shares.\n\nThe broader health-care megacap tape was mixed: $ABBV finished up 1.4% at $294.89 while $UNH closed down 1.0% at $406.97.\n\nDoes Lilly\u2019s print stand out against the rest of the session for you?",
+        "body": "$LLY closed up 3.2% at 1,417.54, a gain of 43.84 points from the prior close of 1,373.70.\n\nThe session range ran from 1,409.01 to 1,449.68.\n\nThat high equals the 52-week high of 1,449.68 in the same data set.\n\nThe S&P 500 finished down 1.8% at 7,580.07 on the same session, so Lilly moved against the broad index.\n\nDo you track Lilly mainly for the obesity-drug franchise or the broader pharma line?",
         "skip_reason": "",
         "supporting_data": [
-          "LLY change: +3.2% \u2014 FMP quote LLY",
-          "LLY close: $1,417.54 \u2014 FMP quote LLY",
-          "LLY day high: $1,449.68 \u2014 FMP quote LLY",
-          "LLY year high: $1,449.68 \u2014 FMP quote LLY",
-          "LLY volume: 5,032,743 \u2014 FMP quote LLY",
-          "ABBV change: +1.4% \u2014 FMP quote ABBV",
-          "UNH change: -1.0% \u2014 FMP quote UNH"
+          "LLY close: 1,417.54, +3.2% \u2014 FMP_DATA mega_caps.LLY",
+          "LLY day high / year high: 1,449.68 \u2014 FMP_DATA mega_caps.LLY",
+          "LLY prior close: 1,373.70 \u2014 FMP_DATA mega_caps.LLY",
+          "S&P 500: 7,580.07, -1.8% \u2014 FMP_DATA indexes.^GSPC"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/LLY",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/LLY"
+        "source_url": "https://www.barrons.com/articles/stock-futures-trading-sunday-74538f20",
+        "source_notes": "https://www.barrons.com/articles/stock-futures-trading-sunday-74538f20"
       },
       {
-        "title": "Brent up 2.1% as OPEC headlines circulate",
+        "title": "VIX up 12.9% with indexes lower",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Brent crude closed up 2.1% at $113.10.\n\nReuters reported OPEC+ was set to keep production targets unchanged in December, citing a source.\n\nUS-listed oil exposure moved with crude:\n\n- $XOM +2.2% to $187.25\n- $USO +0.4% to $168.83\n\nThe S&P 500 still finished down 1.8% at 7,580.07 on the same close.\n\nAre you watching crude and the majors together this weekend?",
+        "body": "The VIX closed at 19.42, up 12.9% (+2.22 points) from 17.20.\n\nIt traded between 18.03 and 23.93 during the session.\n\nMajor US indexes closed lower:\n\n- S&P 500 -1.8% to 7,580.07 (-140.32 pts)\n- Nasdaq Composite -2.9% to 25,437.00\n- Dow Jones -1.1% to 51,770.31\n- Russell 2000 -1.7% to 2,811.84\n\nThe ProShares UltraPro QQQ fund $TQQQ, which magnifies Nasdaq moves, fell 10.5% to 62.01.\n\nWhen VIX prints a double-digit percentage gain, what do you usually check first\u2014index levels or single-stock earnings?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent change: +2.1% \u2014 FMP quote BZUSD",
-          "Brent close: $113.10 \u2014 FMP quote BZUSD",
-          "XOM change: +2.2% \u2014 FMP quote XOM",
-          "XOM close: $187.25 \u2014 FMP quote XOM",
-          "USO change: +0.4% \u2014 FMP quote USO",
-          "USO close: $168.83 \u2014 FMP quote USO",
-          "S&P 500 change: -1.8% \u2014 FMP quote ^GSPC"
+          "VIX: 19.42, +12.9% \u2014 FMP_DATA indexes.^VIX",
+          "VIX day range: 18.03\u201323.93 \u2014 FMP_DATA indexes.^VIX",
+          "^GSPC: 7,580.07, -1.8% \u2014 FMP_DATA indexes.^GSPC",
+          "^IXIC: 25,437.00, -2.9% \u2014 FMP_DATA indexes.^IXIC",
+          "^DJI: 51,770.31, -1.1% \u2014 FMP_DATA indexes.^DJI",
+          "^RUT: 2,811.84, -1.7% \u2014 FMP_DATA indexes.^RUT",
+          "TQQQ: 62.01, -10.5% \u2014 FMP_DATA actives"
         ],
-        "source_url": "https://www.reuters.com/business/energy/opec-set-keep-production-targets-unchanged-december-source-says-2026-10-31/",
-        "source_notes": "https://www.reuters.com/business/energy/opec-set-keep-production-targets-unchanged-december-source-says-2026-10-31/"
+        "source_url": "https://seekingalpha.com/article/4960718-sp500-this-setup-is-19-0",
+        "source_notes": "https://seekingalpha.com/article/4960718-sp500-this-setup-is-19-0"
       },
       {
-        "title": "US session recap \u2014 Oct. 31, 2026",
+        "title": "US session recap \u2014 Nov. 1, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Nasdaq Composite led the major US indexes lower, closing down 2.9% at 25,437.00 after a session low of 25,177.33.\nThe S&P 500 fell 1.8% to 7,580.07, off 140.32 points from the prior close, with the day\u2019s range between 7,637.48 and 7,527.56.\n\nThe Dow Jones Industrial Average slipped 1.1% to 51,770.31.\nThe Russell 2000 lost 1.7% to 2,811.84.\nTogether, the cap-weight benchmarks showed a growth-heavy tilt to the downside versus the Dow\u2019s smaller decline.\n\nThe CBOE Volatility Index rose 12.9% to 19.42, with an intraday high of 23.93.\nThat reading sat well below the year high of 35.30 but marked a clear step up from the prior close of 17.20.\n\nAmong the deepest liquid declines, $INTC closed down 28.6% at $65.76 and $RDDT finished down 29.3% at $91.67.\nLeveraged semiconductor ETFs mirrored the stress: $SOXL was down 24.7% at $77.05 while the bear 3x semi fund $SOXS rose 25.0% to $52.08.\n\nMegacap semiconductors and equipment names sold off in bulk.\n$ASML fell 6.6% to $1,565.90, $TSM lost 5.9% to $406.13, $AVGO dropped 5.5% to $326.08, and $NVDA declined 4.2% to $204.64.\n$MSFT closed down 1.6% at $521.91 and $META down 1.5% at $614.99; $GOOGL and $GOOG each finished about 1.4\u20131.5% lower.\n\nNot everything tracked the decline.\n$LLY gained 3.2% to $1,417.54 with a session high of $1,449.68 matching its year high in the data.\n$PEP rose 2.7% to $137.34, $XOM added 2.2% to $187.25, and $V gained 0.7% to $413.59.\n\nGold futures fell 3.3% to $3,898.90, down $132.50 from the prior close, while Brent crude rose 2.1% to $113.10.\nBitcoin USD ticked up 0.3% to $77,695.06; the dollar proxy $UUP was roughly flat, down 0.1% at $29.00.\n\nTreasury yields in the injected snapshot (dated 2026-10-30) showed the 10-year at 4.9% and the 2s10s spread at 0.38 percentage points.\nOverseas, the Nikkei 225 fell 2.1% while the Hang Seng rose 1.5%; the FTSE 100 edged up 0.1%.\n\nHeadlines around the close included broad tech weakness framing the session, Binance coverage after a reported wallet incident, and energy news that OPEC+ was expected to hold December output targets unchanged.\nThe economic calendar flags a US OPEC Meeting entry for 2026-11-01 10:00:00 with medium impact.",
+        "body": "The S&P 500 closed at 7,580.07, down 140.32 points (-1.8%) from the prior close of 7,720.39, with an intraday range of 7,527.56 to 7,637.48.\n\nThe Nasdaq Composite took the largest major-index hit, finishing at 25,437.00 (-747.73 points, -2.9%) after trading between 25,177.33 and 25,673.00.\n\nThe Dow Jones Industrial Average ended at 51,770.31 (-572.25 points, -1.1%); the Russell 2000 closed at 2,811.84 (-47.37 points, -1.7%).\n\nThe VIX rose 12.9% to 19.42 from 17.20, with a session high of 23.93, alongside the equity decline.\n\nSemiconductor-linked megacaps were among the heaviest weights in the tape: Taiwan Semiconductor ($TSM) -5.9% to 406.13, ASML ($ASML) -6.6% to 1,565.90, Broadcom ($AVGO) -5.5% to 326.08, and NVIDIA ($NVDA) -4.2% to 204.64; leveraged chip ETFs showed the same split (:\n- $SOXL -24.7%\n- $SOXS +25.0%\n\n).\n\nOther large technology names closed lower: Microsoft ($MSFT) -1.6% to 521.91, Alphabet ($GOOG) -1.5% to 278.22, Meta ($META) -1.5% to 614.99, and Apple ($AAPL) -1.2% to 344.63.\n\nIntel ($INTC) was the most active liquid name in the data and closed -28.6% at 65.76; Reddit ($RDDT) finished -29.3% at 91.67 among the largest percentage decliners in the liquid screen.\n\nOn the upside, Eli Lilly ($LLY) gained 3.2% to 1,417.54 with a session high of 1,449.68; PepsiCo ($PEP) +2.7% to 137.34; Costco ($COST) +1.8% to 1,012.28; AbbVie ($ABBV) +1.4% to 294.89; Chevron ($CVX) +1.8% to 235.52.\n\nTreasury yields in the injected snapshot (dated 2026-10-30) showed the 10-year at 4.9% and the 2s10s spread at 0.38 percentage points.\n\nGold futures (GCUSD) closed up 0.4% at 3,916.40; Brent crude (BZUSD) was down 3.0% at 109.75; the USO oil fund ticked up 0.4% to 168.83; Bitcoin (BTCUSD) was up 0.3% at 78,460.55; the dollar proxy UUP was -0.1% at 29.00.\n\nOverseas indexes in the bundle were mixed versus the US drop: Hang Seng +0.6%, Nikkei +0.3%, FTSE +0.1%, while the Germany proxy EWG was -1.2%.\n\nThe economic calendar listed a US OPEC Meeting on 2026-11-01 at 10:00 with medium impact; the injected earnings calendar for the bundle was empty.",
         "skip_reason": "",
         "supporting_data": [
-          "Nasdaq Composite: -2.9%, 25,437.00 \u2014 FMP quote ^IXIC",
-          "S&P 500: -1.8%, 7,580.07 \u2014 FMP quote ^GSPC",
-          "Dow: -1.1%, 51,770.31 \u2014 FMP quote ^DJI",
-          "Russell 2000: -1.7%, 2,811.84 \u2014 FMP quote ^RUT",
-          "VIX: +12.9%, 19.42 \u2014 FMP quote ^VIX",
-          "INTC: -28.6%, $65.76 \u2014 FMP liquid losers",
-          "RDDT: -29.3%, $91.67 \u2014 FMP liquid losers",
-          "SOXL: -24.7%, $77.05 \u2014 FMP actives",
-          "SOXS: +25.0%, $52.08 \u2014 FMP liquid gainers",
-          "ASML: -6.6%, $1,565.90 \u2014 FMP mega_caps",
-          "TSM: -5.9%, $406.13 \u2014 FMP mega_caps",
-          "AVGO: -5.5%, $326.08 \u2014 FMP mega_caps",
-          "NVDA: -4.2%, $204.64 \u2014 FMP actives / mega_caps",
-          "LLY: +3.2%, $1,417.54 \u2014 FMP mega_caps",
-          "Gold: -3.3%, $3,898.90 \u2014 FMP cross_asset gold",
-          "Brent: +2.1%, $113.10 \u2014 FMP cross_asset brent",
-          "10-year Treasury: 4.9% \u2014 FMP treasury",
-          "Nikkei: -2.1% \u2014 FMP overseas ^N225"
+          "Session date: 2026-11-01 \u2014 FMP_DATA session_date",
+          "^GSPC: 7,580.07, -1.8% \u2014 FMP_DATA indexes",
+          "^IXIC: 25,437.00, -2.9% \u2014 FMP_DATA indexes",
+          "^DJI: 51,770.31, -1.1% \u2014 FMP_DATA indexes",
+          "^RUT: 2,811.84, -1.7% \u2014 FMP_DATA indexes",
+          "^VIX: 19.42, +12.9% \u2014 FMP_DATA indexes",
+          "TSM, ASML, AVGO, NVDA, MSFT, GOOG, META, AAPL, INTC, RDDT, LLY, PEP, COST, ABBV, CVX \u2014 FMP_DATA mega_caps / actives / liquid_losers",
+          "Treasury year10: 4.9%, spread_2s10s: 0.38 \u2014 FMP_DATA treasury",
+          "GCUSD, BZUSD, USO, BTCUSD, UUP \u2014 FMP_DATA cross_asset",
+          "^HSI, ^N225, ^FTSE, EWG \u2014 FMP_DATA overseas",
+          "OPEC Meeting 2026-11-01 \u2014 FMP_DATA economic_calendar"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://www.wsj.com/tech/ai/ai-spenders-get-spooked-80534757",
+        "source_notes": "https://www.wsj.com/tech/ai/ai-spenders-get-spooked-80534757"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
     "session_date": "2026-11-01",
-    "generated_at": "2026-11-01T00:25:21-04:00",
+    "generated_at": "2026-11-01T23:27:12-05:00",
     "draft_path": "drafts/2026-11-01-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Factory PMI due Nov. 2, est. 54.7",
+        "title": "ISM manufacturing Oct due Monday 3 p.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "ISM Manufacturing PMI (Oct) \u2014 consensus 54.7, prior 54.5.\n\nRelease: Sunday Nov. 2, 3:00 PM ET.\n\nSame window: manufacturing employment (est. 53.0), prices paid (est. 77.5), new orders (est. 55.4).\n\nThe index summarizes purchasing managers\u2019 orders, production, and hiring in goods-producing plants.\n\nWeek window in the calendar: Nov. 2\u2013Nov. 6.\n\nWhich sub-index do you track first \u2014 orders or employment?",
+        "body": "ISM Manufacturing PMI for October drops Monday at 3:00 p.m.\nET.\n\nConsensus estimate: 54.6.\nPrior reading: 54.5.\n\nThat index tracks orders, production, and employment at U.S. factories\u2014one of the first official activity prints of the week (Nov 2\u20136).\n\nSub-reads on the same release include new orders (est. 55.4), prices paid (est. 77.0), and factory employment (est. 53.0).\n\nWhat do you watch first on the ISM report\u2014headline PMI or the prices component?",
         "skip_reason": "",
         "supporting_data": [
-          "ISM Manufacturing PMI (Oct) estimate: 54.7 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing PMI (Oct) estimate: 54.6 \u2014 source: FMP economic_calendar",
           "ISM Manufacturing PMI (Oct) previous: 54.5 \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-11-02 15:00:00 \u2014 source: FMP economic_calendar",
-          "ISM Manufacturing Employment (Oct) estimate: 53 \u2014 source: FMP economic_calendar",
-          "ISM Manufacturing Prices (Oct) estimate: 77.5 \u2014 source: FMP economic_calendar"
+          "Release date/time: 2026-11-02 15:00:00 US \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing New Orders (Oct) estimate: 55.4 \u2014 source: FMP economic_calendar",
+          "ISM Manufacturing Employment (Oct) estimate: 53.0 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://seekingalpha.com/article/4960646-the-1-minute-market-report-october-31-2026",
-        "source_notes": "https://seekingalpha.com/article/4960646-the-1-minute-market-report-october-31-2026"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "ADP Nov. 3, then payrolls Nov. 6",
+        "title": "ADP and ISM services land Thursday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Nov. 3, 8:15 AM ET \u2014 ADP Employment Change (Oct).\n\nConsensus: +65K jobs.\n\nPrior print: +90K.\n\nNov. 3, 10:00 AM ET \u2014 JOLTS job openings (Sep), est. 7.1M (prior 7.079M).\n\nNov. 6, 8:30 AM ET \u2014 October labor bundle:\n\n- Non Farm Payrolls est. +65K (prior +29K)\n- Unemployment Rate est. 4.2% (prior 4.2%)\n- Average Hourly Earnings MoM est. +0.3% (prior +0.1%)\n\nADP is a private payroll estimate; Friday\u2019s report is the Bureau of Labor Statistics official count.\n\nNov. 5, 8:30 AM ET \u2014 Initial Jobless Claims (Oct/31), est. 197K (prior 194K).\n\nWhich release do you treat as the main setup for the jobs week \u2014 ADP or claims?",
+        "body": "Thursday, Nov 4, stacks two high-impact U.S. releases.\n\n8:15 a.m.\nET \u2014 ADP Employment Change (Oct).\nEstimate: 65K.\nPrevious: 90K.\n\n3:00 p.m.\nET \u2014 ISM Services PMI (Oct).\nEstimate: 54.8.\nPrevious: 54.9.\n\nADP is a private payroll tracker; ISM Services covers restaurants, hospitals, logistics, and other non-manufacturing firms\u2014also above 50 means expansion.\n\nSame day also includes ISM services new orders (est. 59.5) and business activity (est. 56.0).\n\nWhich Thursday print do you treat as the bigger setup for Friday\u2019s official jobs data\u2014ADP or ISM services?",
         "skip_reason": "",
         "supporting_data": [
-          "ADP Employment Change (Oct) estimate: 65K \u2014 source: FMP economic_calendar",
-          "ADP Employment Change (Oct) previous: 90K \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Oct) estimate: 65K \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Oct) previous: 29K \u2014 source: FMP economic_calendar",
-          "Unemployment Rate (Oct) estimate: 4.2% \u2014 source: FMP economic_calendar",
-          "JOLTs Job Openings (Sep) estimate: 7.1M \u2014 source: FMP economic_calendar",
-          "Initial Jobless Claims (Oct/31) estimate: 197K \u2014 source: FMP economic_calendar"
-        ],
-        "source_url": "https://seekingalpha.com/article/4960588-a-hot-labor-market-in-a-hot-economy-the-october-labor-market-preview",
-        "source_notes": "https://seekingalpha.com/article/4960588-a-hot-labor-market-in-a-hot-economy-the-october-labor-market-preview"
-      },
-      {
-        "title": "Services PMI Nov. 4, est. 54.8",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "ISM Services PMI (Oct) \u2014 consensus 54.8, prior 54.9.\n\nRelease: Tuesday Nov. 4, 3:00 PM ET.\n\nSame release set:\n\n- Business Activity est. 56.0 (prior 56.5)\n- New Orders est. 59.5 (prior 59.8)\n- Employment est. 50.0 (prior 50.1)\n- Prices est. 75.0 (prior 74.0)\n\nAbove 50 = more service firms expanding than shrinking.\n\nNov. 4 also has $MCD, $QCOM, $UBER, and $DDOG on the earnings calendar (EPS estimates in the week-ahead feed).\n\nDo you read services PMI or a single earnings print as the bigger Nov. 4 headline?",
-        "skip_reason": "",
-        "supporting_data": [
+          "ADP Employment Change (Oct) estimate: 65 K \u2014 source: FMP economic_calendar",
+          "ADP Employment Change (Oct) previous: 90 K \u2014 source: FMP economic_calendar",
+          "ADP release: 2026-11-04 13:15:00 US \u2014 source: FMP economic_calendar",
           "ISM Services PMI (Oct) estimate: 54.8 \u2014 source: FMP economic_calendar",
           "ISM Services PMI (Oct) previous: 54.9 \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-11-04 15:00:00 \u2014 source: FMP economic_calendar",
-          "ISM Services Business Activity (Oct) estimate: 56 \u2014 source: FMP economic_calendar",
-          "ISM Services New Orders (Oct) estimate: 59.5 \u2014 source: FMP economic_calendar",
-          "$MCD EPS estimate: 3.38 \u2014 source: FMP earnings_calendar",
-          "$QCOM EPS estimate: 2.17 \u2014 source: FMP earnings_calendar"
+          "ISM Services release: 2026-11-04 15:00:00 US \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb",
-        "source_notes": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+      },
+      {
+        "title": "COP, ABNB, NET earnings Wednesday",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "Wednesday, Nov 5, is a heavy earnings day for names outside the mega-cap \u201cMagnificent\u201d set.\n\n- $COP \u2014 EPS estimate $3.05 (ConocoPhillips)\n- $ABNB \u2014 EPS estimate $2.85 (Airbnb)\n- $NET \u2014 EPS estimate $0.34 (Cloudflare)\n\nEach release is when those companies publish quarterly profit and revenue versus Wall Street estimates\u2014COP on upstream oil and gas, ABNB on nights booked and take rates, NET on security and CDN subscriptions.\n\nSame week window: Nov 2\u2013Nov 6.\n\nWhich Nov 5 report are you opening first\u2014energy, travel, or cloud?",
+        "skip_reason": "",
+        "supporting_data": [
+          "$COP EPS estimate: 3.05 \u2014 source: FMP earning_calendar",
+          "$COP earnings date: 2026-11-05 \u2014 source: FMP earning_calendar",
+          "$ABNB EPS estimate: 2.85 \u2014 source: FMP earning_calendar",
+          "$ABNB earnings date: 2026-11-05 \u2014 source: FMP earning_calendar",
+          "$NET EPS estimate: 0.34 \u2014 source: FMP earning_calendar (0.34 rounded)",
+          "$NET earnings date: 2026-11-05 \u2014 source: FMP earning_calendar",
+          "Week range: 2026-11-02 to 2026-11-06 \u2014 source: FMP_DATA week_start / week_end"
+        ],
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       }
     ]
   }

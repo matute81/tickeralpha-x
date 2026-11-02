@@ -5,116 +5,108 @@ FMP brief: `data/2026-11-01-week-ahead.json`
 
 ---
 
-## Factory PMI due Nov. 2, est. 54.7
+## ISM manufacturing Oct due Monday 3 p.m.
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** The ISM Manufacturing PMI for October is scheduled for Nov. 2 at 3:00 PM ET; readings above 50 mean more factories report growth than contraction.
+**Short Summary:** The Institute for Supply Management’s October factory survey posts Monday afternoon with the headline PMI estimate at 54.6 versus 54.5 in September—readings above 50 mean manufacturing is still expanding, not contracting.
 
 ### Post Body
 
-ISM Manufacturing PMI (Oct) — consensus 54.7, prior 54.5.
+ISM Manufacturing PMI for October drops Monday at 3:00 p.m.
+ET.
 
-Release: Sunday Nov. 2, 3:00 PM ET.
+Consensus estimate: 54.6.
+Prior reading: 54.5.
 
-Same window: manufacturing employment (est. 53.0), prices paid (est. 77.5), new orders (est. 55.4).
+That index tracks orders, production, and employment at U.S. factories—one of the first official activity prints of the week (Nov 2–6).
 
-The index summarizes purchasing managers’ orders, production, and hiring in goods-producing plants.
+Sub-reads on the same release include new orders (est. 55.4), prices paid (est. 77.0), and factory employment (est. 53.0).
 
-Week window in the calendar: Nov. 2–Nov. 6.
-
-Which sub-index do you track first — orders or employment?
+What do you watch first on the ISM report—headline PMI or the prices component?
 
 ### Supporting Data
 
-- ISM Manufacturing PMI (Oct) estimate: 54.7 — source: FMP economic_calendar
+- ISM Manufacturing PMI (Oct) estimate: 54.6 — source: FMP economic_calendar
 - ISM Manufacturing PMI (Oct) previous: 54.5 — source: FMP economic_calendar
-- Release date/time: 2026-11-02 15:00:00 — source: FMP economic_calendar
-- ISM Manufacturing Employment (Oct) estimate: 53 — source: FMP economic_calendar
-- ISM Manufacturing Prices (Oct) estimate: 77.5 — source: FMP economic_calendar
+- Release date/time: 2026-11-02 15:00:00 US — source: FMP economic_calendar
+- ISM Manufacturing New Orders (Oct) estimate: 55.4 — source: FMP economic_calendar
+- ISM Manufacturing Employment (Oct) estimate: 53.0 — source: FMP economic_calendar
 
-**Source URL:** https://seekingalpha.com/article/4960646-the-1-minute-market-report-october-31-2026
+**Source URL:** https://financialmodelingprep.com/api/v3/economic_calendar
 
 ---
 
-## ADP Nov. 3, then payrolls Nov. 6
+## ADP and ISM services land Thursday
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** Private payroll tracker ADP prints Nov. 3; the official October jobs bundle, including nonfarm payrolls (est. 65K), lands Nov. 6 at 8:30 AM ET.
+**Short Summary:** Thursday brings ADP’s October private payroll estimate (65K jobs) in the morning and the ISM services PMI (est. 54.8) in the afternoon—two prints on hiring and non-factory business activity ahead of Friday’s government jobs report.
 
 ### Post Body
 
-Nov. 3, 8:15 AM ET — ADP Employment Change (Oct).
+Thursday, Nov 4, stacks two high-impact U.S. releases.
 
-Consensus: +65K jobs.
+8:15 a.m.
+ET — ADP Employment Change (Oct).
+Estimate: 65K.
+Previous: 90K.
 
-Prior print: +90K.
+3:00 p.m.
+ET — ISM Services PMI (Oct).
+Estimate: 54.8.
+Previous: 54.9.
 
-Nov. 3, 10:00 AM ET — JOLTS job openings (Sep), est. 7.1M (prior 7.079M).
+ADP is a private payroll tracker; ISM Services covers restaurants, hospitals, logistics, and other non-manufacturing firms—also above 50 means expansion.
 
-Nov. 6, 8:30 AM ET — October labor bundle:
+Same day also includes ISM services new orders (est. 59.5) and business activity (est. 56.0).
 
-- Non Farm Payrolls est. +65K (prior +29K)
-- Unemployment Rate est. 4.2% (prior 4.2%)
-- Average Hourly Earnings MoM est. +0.3% (prior +0.1%)
-
-ADP is a private payroll estimate; Friday’s report is the Bureau of Labor Statistics official count.
-
-Nov. 5, 8:30 AM ET — Initial Jobless Claims (Oct/31), est. 197K (prior 194K).
-
-Which release do you treat as the main setup for the jobs week — ADP or claims?
+Which Thursday print do you treat as the bigger setup for Friday’s official jobs data—ADP or ISM services?
 
 ### Supporting Data
 
-- ADP Employment Change (Oct) estimate: 65K — source: FMP economic_calendar
-- ADP Employment Change (Oct) previous: 90K — source: FMP economic_calendar
-- Non Farm Payrolls (Oct) estimate: 65K — source: FMP economic_calendar
-- Non Farm Payrolls (Oct) previous: 29K — source: FMP economic_calendar
-- Unemployment Rate (Oct) estimate: 4.2% — source: FMP economic_calendar
-- JOLTs Job Openings (Sep) estimate: 7.1M — source: FMP economic_calendar
-- Initial Jobless Claims (Oct/31) estimate: 197K — source: FMP economic_calendar
-
-**Source URL:** https://seekingalpha.com/article/4960588-a-hot-labor-market-in-a-hot-economy-the-october-labor-market-preview
-
----
-
-## Services PMI Nov. 4, est. 54.8
-
-**Status:** ready
-**Suggested window:** Stream 3 — Next week preview
-
-**Short Summary:** ISM Services PMI for October posts Nov. 4 at 3:00 PM ET; services make up most U.S. economic activity, and the consensus is 54.8 vs. 54.9 last month.
-
-### Post Body
-
-ISM Services PMI (Oct) — consensus 54.8, prior 54.9.
-
-Release: Tuesday Nov. 4, 3:00 PM ET.
-
-Same release set:
-
-- Business Activity est. 56.0 (prior 56.5)
-- New Orders est. 59.5 (prior 59.8)
-- Employment est. 50.0 (prior 50.1)
-- Prices est. 75.0 (prior 74.0)
-
-Above 50 = more service firms expanding than shrinking.
-
-Nov. 4 also has $MCD, $QCOM, $UBER, and $DDOG on the earnings calendar (EPS estimates in the week-ahead feed).
-
-Do you read services PMI or a single earnings print as the bigger Nov. 4 headline?
-
-### Supporting Data
-
+- ADP Employment Change (Oct) estimate: 65 K — source: FMP economic_calendar
+- ADP Employment Change (Oct) previous: 90 K — source: FMP economic_calendar
+- ADP release: 2026-11-04 13:15:00 US — source: FMP economic_calendar
 - ISM Services PMI (Oct) estimate: 54.8 — source: FMP economic_calendar
 - ISM Services PMI (Oct) previous: 54.9 — source: FMP economic_calendar
-- Release date/time: 2026-11-04 15:00:00 — source: FMP economic_calendar
-- ISM Services Business Activity (Oct) estimate: 56 — source: FMP economic_calendar
-- ISM Services New Orders (Oct) estimate: 59.5 — source: FMP economic_calendar
-- $MCD EPS estimate: 3.38 — source: FMP earnings_calendar
-- $QCOM EPS estimate: 2.17 — source: FMP earnings_calendar
+- ISM Services release: 2026-11-04 15:00:00 US — source: FMP economic_calendar
 
-**Source URL:** https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb
+**Source URL:** https://financialmodelingprep.com/api/v3/economic_calendar
+
+---
+
+## COP, ABNB, NET earnings Wednesday
+
+**Status:** ready
+**Suggested window:** Stream 3 — Next week preview
+
+**Short Summary:** Three large-cap names report on Nov 5 with EPS estimates of $3.05 for ConocoPhillips, $2.85 for Airbnb, and $0.34 for Cloudflare—oil production economics, travel demand, and enterprise software revenue on the same calendar day.
+
+### Post Body
+
+Wednesday, Nov 5, is a heavy earnings day for names outside the mega-cap “Magnificent” set.
+
+- $COP — EPS estimate $3.05 (ConocoPhillips)
+- $ABNB — EPS estimate $2.85 (Airbnb)
+- $NET — EPS estimate $0.34 (Cloudflare)
+
+Each release is when those companies publish quarterly profit and revenue versus Wall Street estimates—COP on upstream oil and gas, ABNB on nights booked and take rates, NET on security and CDN subscriptions.
+
+Same week window: Nov 2–Nov 6.
+
+Which Nov 5 report are you opening first—energy, travel, or cloud?
+
+### Supporting Data
+
+- $COP EPS estimate: 3.05 — source: FMP earning_calendar
+- $COP earnings date: 2026-11-05 — source: FMP earning_calendar
+- $ABNB EPS estimate: 2.85 — source: FMP earning_calendar
+- $ABNB earnings date: 2026-11-05 — source: FMP earning_calendar
+- $NET EPS estimate: 0.34 — source: FMP earning_calendar (0.34 rounded)
+- $NET earnings date: 2026-11-05 — source: FMP earning_calendar
+- Week range: 2026-11-02 to 2026-11-06 — source: FMP_DATA week_start / week_end
+
+**Source URL:** https://financialmodelingprep.com/api/v3/earning_calendar

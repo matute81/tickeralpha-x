@@ -1,207 +1,219 @@
 {
-  "updated_at": "2026-11-03T00:22:21-05:00",
+  "updated_at": "2026-11-03T23:51:30-05:00",
   "morning": {
     "mode": "morning",
     "session_date": "2026-11-03",
-    "generated_at": "2026-11-03T00:21:42-05:00",
+    "generated_at": "2026-11-03T23:50:49-05:00",
     "draft_path": "drafts/2026-11-03-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Midterm elections on the calendar today",
+        "title": "September job openings 7.5M beat 7.1M estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Nov. 3 is Election Day in the U.S. midterm cycle \u2014 listed as high impact on today\u2019s U.S. economic calendar.\n\nSame session, at 3 p.m.\nET: JOLTs job openings for September (consensus 7.13 million vs. 7.08 million prior) and the November Economic Optimism Index (consensus 46.2 vs. 46.8 prior).\n\nPrior close: S&P 500 at 7,541.40 (\u22120.5%), Nasdaq Composite at 25,164.36 (\u22121.1%), Dow at 51,983.98 (+0.4%).\n\nVIX finished at 21.15 (+8.9%).\n\nWhat release or headline are you watching first after the open?",
+        "body": "September U.S. job openings: 7.5M (JOLTS).\n\nConsensus: 7.1M.\n\nPrior month (August): 7.19M.\n\nThe print landed the same day voters cast midterm ballots, with coverage tying stronger postings to employers hiring into firmer growth \u2014 while many households still report pressure from higher prices.\n\nQuits also ran above forecast: 3.4M vs 3.05M expected (August: 3.04M).\n\nWhat part of the labor picture do you watch first \u2014 openings, quits, or tomorrow\u2019s ADP print?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 close: 7,541.40, change \u22120.5% \u2014 FMP indexes ^GSPC",
-          "Nasdaq Composite close: 25,164.36, change \u22121.1% \u2014 FMP indexes ^IXIC",
-          "Dow close: 51,983.98, change +0.4% \u2014 FMP indexes ^DJI",
-          "VIX close: 21.15, change +8.9% \u2014 FMP indexes ^VIX",
-          "Midterm Elections: 2026-11-03, impact High \u2014 FMP economic_calendar",
-          "JOLTs Job Openings (Sep) estimate: 7.13M, previous: 7.079M \u2014 FMP economic_calendar",
-          "Economic Optimism Index (Nov) estimate: 46.2, previous: 46.8 \u2014 FMP economic_calendar"
+          "JOLTs Job Openings (Sep) actual: 7.523M \u2014 FMP economic calendar",
+          "JOLTs Job Openings (Sep) estimate: 7.1M \u2014 FMP economic calendar",
+          "JOLTs Job Openings (Sep) previous: 7.19M \u2014 FMP economic calendar",
+          "JOLTs Job Quits (Sep) actual: 3.365M \u2014 FMP economic calendar",
+          "JOLTs Job Quits (Sep) estimate: 3.05M \u2014 FMP economic calendar",
+          "JOLTs Job Quits (Sep) previous: 3.044M \u2014 FMP economic calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://www.fastcompany.com/91635116/job-openings-economy-inflation-layoffs",
+        "source_notes": "https://www.fastcompany.com/91635116/job-openings-economy-inflation-layoffs"
       },
       {
-        "title": "JOLTs openings consensus 7.13 million",
+        "title": "Election Day split: Dow \u22120.4%, S&P +0.4%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "September JOLTs \u2014 unfilled jobs employers report \u2014 posts at 3 p.m.\nET today.\n\nConsensus: 7.13 million openings vs. 7.08 million last month.\n\nJob quits (people leaving voluntarily): consensus 3.05 million vs. 3.07 million prior.\n\nThe survey is a labor-demand gauge the Fed watches alongside payrolls; ADP private payrolls for October follow tomorrow (consensus +65,000 jobs vs. +90,000 prior).\n\nPrior session: Russell 2000 at 2,805.88 (\u22120.2%).\n\nWhich labor number matters more to you \u2014 openings or quits?",
+        "body": "U.S. midterm elections were on the calendar for Nov. 3 (high-impact macro event).\n\nPrior session index closes:\n\n- $^DJI \u22120.4% to 51,786.72\n- $^GSPC +0.4% to 7,568.71\n- $^IXIC +0.8% to 25,372.01\n\nHeadlines linked the Dow\u2019s drop to Democrats gaining early momentum in the midterms, while broader large-cap and tech-heavy benchmarks finished green.\n\n$^VIX \u22121.5% to 20.83 on the same close.\n\nHow much do you tie one-day index moves to election-night counts vs the data already on the calendar?",
         "skip_reason": "",
         "supporting_data": [
-          "JOLTs Job Openings (Sep) estimate: 7.13M, previous: 7.079M, impact High \u2014 FMP economic_calendar",
-          "JOLTs Job Quits (Sep) estimate: 3.05M, previous: 3.066M \u2014 FMP economic_calendar",
-          "ADP Employment Change (Oct) estimate: 65K, previous: 90K, date 2026-11-04 \u2014 FMP economic_calendar",
-          "Russell 2000 close: 2,805.88, change \u22120.2% \u2014 FMP indexes ^RUT"
+          "Dow Jones change: \u22120.4% \u2014 FMP indexes ^DJI",
+          "Dow Jones close: 51,786.72 \u2014 FMP indexes ^DJI",
+          "S&P 500 change: +0.4% \u2014 FMP indexes ^GSPC",
+          "S&P 500 close: 7,568.71 \u2014 FMP indexes ^GSPC",
+          "Nasdaq Composite change: +0.8% \u2014 FMP indexes ^IXIC",
+          "Nasdaq Composite close: 25,372.01 \u2014 FMP indexes ^IXIC",
+          "VIX change: \u22121.5% \u2014 FMP indexes ^VIX",
+          "VIX level: 20.83 \u2014 FMP indexes ^VIX"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://news.sky.com/story/us-midterms-markets-fall-on-wall-street-as-democrats-gain-early-momentum-13607737",
+        "source_notes": "https://news.sky.com/story/us-midterms-markets-fall-on-wall-street-as-democrats-gain-early-momentum-13607737"
       },
       {
-        "title": "Iran strike reports, oil moves split",
+        "title": "Core durable goods +0.5%; ex-defense +2.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Headlines Monday pointed to U.S. attacks on Iran\u2019s Qeshm Island and comments from Vice President JD Vance about a possible negotiated settlement with Tehran.\n\nPrior close in commodities:\n- Brent crude: 105.22 (+0.4%)\n- United States Oil Fund ($USO): 156.87 (\u22127.1%)\n\nGold futures: 3,937.50 (\u22120.8%).\n\n10-year Treasury yield (Oct. 30 snapshot): 4.9%; 2s10s spread: 0.38 percentage point.\n\nHow do you read oil when headline risk and session prices don\u2019t line up?",
+        "body": "September durable goods (ex transportation, MoM): +0.5%.\n\nEstimate: +0.5%.\n\nAugust (revised context in release): +0.3%.\n\nDefense-stripped orders moved faster:\n\nSeptember durable goods (ex defense, MoM): +2.3%.\n\nEstimate: +2.2%.\n\nPrior: +0.3%.\n\nThe prints posted at 3:00 p.m.\nET on Nov. 3 alongside JOLTS \u2014 both high-impact items on the U.S. calendar that day.\n\nNov. consumer sentiment proxy also beat: Economic Optimism Index 48.5 vs 46.2 expected (October reading: 46.8).\n\nWhich factory-demand line do you track closer \u2014 headline durables or the ex-transport slice?",
         "skip_reason": "",
         "supporting_data": [
-          "Brent crude price: 105.22, changesPercentage +0.4% \u2014 FMP cross_asset brent (BZUSD)",
-          "USO price: 156.87, changesPercentage \u22127.1% \u2014 FMP cross_asset wti (USO)",
-          "Gold futures price: 3,937.50, changesPercentage \u22120.8% \u2014 FMP cross_asset gold (GCUSD)",
-          "10-year Treasury yield: 4.9% \u2014 FMP treasury",
-          "2s10s spread: 0.38 \u2014 FMP treasury spread_2s10s"
+          "Durable Goods Orders Ex Transp MoM (Sep) actual: +0.5% \u2014 FMP economic calendar",
+          "Durable Goods Orders Ex Transp MoM (Sep) estimate: +0.5% \u2014 FMP economic calendar",
+          "Durable Goods Orders Ex Transp MoM (Sep) previous: +0.3% \u2014 FMP economic calendar",
+          "Durable Goods Orders Ex Defense MoM (Sep) actual: +2.3% \u2014 FMP economic calendar",
+          "Durable Goods Orders Ex Defense MoM (Sep) estimate: +2.2% \u2014 FMP economic calendar",
+          "Durable Goods Orders Ex Defense MoM (Sep) previous: +0.3% \u2014 FMP economic calendar",
+          "Economic Optimism Index (Nov) actual: 48.5 \u2014 FMP economic calendar",
+          "Economic Optimism Index (Nov) estimate: 46.2 \u2014 FMP economic calendar",
+          "Economic Optimism Index (Nov) previous: 46.8 \u2014 FMP economic calendar"
         ],
-        "source_url": "https://www.cnbc.com/2026/11/03/iran-us-vance-trump-strikes.html",
-        "source_notes": "https://www.cnbc.com/2026/11/03/iran-us-vance-trump-strikes.html"
+        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-divided-ai-rally-midterms-election-day-15e0a1e0",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-divided-ai-rally-midterms-election-day-15e0a1e0"
       }
     ]
   },
   "close": {
     "mode": "close",
     "session_date": "2026-11-03",
-    "generated_at": "2026-11-03T00:22:04-05:00",
+    "generated_at": "2026-11-03T23:51:13-05:00",
     "draft_path": "drafts/2026-11-03.md",
     "errors": [],
     "slots": [
       {
-        "title": "Oracle down 8.9% at the close",
+        "title": "AMD up 3.7% after earnings beat",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$ORCL closed down 8.9% at 119.10.\n\nThe stock traded between 118.43 and 126.50 after a prior close of 130.67.\n\nVolume was about 57.9 million shares.\n\nThe Nasdaq-listed technology sector averaged a 3.5% decline for the session.\n\nWhich large-cap software name moved most in your watchlist today?",
+        "body": "$AMD +3.7% to 483.90.\n\nEPS came in at 2.09 vs 1.95 estimated.\nRevenue was about $13.38B vs roughly $13.10B estimated.\n\nThe session high was 497.35 on heavy volume.\n\nSemiconductor earnings were a focal point the same day Nasdaq rose 0.8%.\n\nWhich chip name\u2019s print mattered most to you today?",
         "skip_reason": "",
         "supporting_data": [
-          "ORCL change: -8.9% \u2014 mega_caps / FMP quote",
-          "ORCL price: 119.10 \u2014 mega_caps",
-          "ORCL previous close: 130.67 \u2014 mega_caps",
-          "Technology sector averageChange: -3.5% (rounded from -3.45) \u2014 sectors",
-          "ORCL volume: 57,933,663 \u2014 mega_caps"
+          "AMD change: +3.7% \u2014 mega_caps / earnings_calendar",
+          "AMD price: 483.90 \u2014 mega_caps",
+          "AMD EPS actual: 2.09 \u2014 earnings_calendar",
+          "AMD EPS estimate: 1.95 \u2014 earnings_calendar",
+          "AMD revenue actual: 13,377,000,000 \u2014 earnings_calendar",
+          "AMD revenue estimate: 13,097,530,000 \u2014 earnings_calendar",
+          "AMD day high: 497.35 \u2014 mega_caps",
+          "Nasdaq Composite change: +0.8% \u2014 indexes ^IXIC"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/ORCL",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/ORCL"
+        "source_url": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html",
+        "source_notes": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html"
       },
       {
-        "title": "AMD falls 7.5% on earnings day",
+        "title": "Nasdaq +0.8% while Dow slips 0.4%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AMD closed down 7.5% at 466.84.\n\nThe session range was 466.07 to 512.82 after a prior close of 504.80.\n\nThe earnings calendar listed AMD for 2026-11-03 with an EPS estimate of 1.95 and revenue estimate of about $13.10 billion.\n\nSemiconductor leverage showed up in the tape: the Direxion Daily Semiconductor Bull 3X ETF ($SOXL) closed down 11.5% at 68.17.\n\nHow are you tracking post-close earnings versus the last print?",
+        "body": "Nasdaq Composite +0.8% to 25,372.01.\n\nS&P 500 +0.4% to 7,568.71.\n\nDow Jones Industrial Average -0.4% to 51,786.72.\n\nLarge tech names were among the Nasdaq contributors:\n:\n- $NVDA +2.3% to 206.69\n- $AMZN +2.1% to 250.69\n- $AMD +3.7% to 483.90\n\nCoverage tied early midterm momentum on Wall Street to a softer tone in parts of the session.\n\nDoes a green Nasdaq and red Dow match what you saw in your holdings?",
         "skip_reason": "",
         "supporting_data": [
-          "AMD changesPercentage: -7.5% \u2014 mega_caps",
-          "AMD price: 466.84 \u2014 mega_caps",
-          "AMD dayHigh: 512.82 \u2014 mega_caps",
-          "AMD epsEstimated: 1.95 \u2014 earnings_calendar",
-          "AMD revenueEstimated: 13097530000 \u2014 earnings_calendar",
-          "SOXL changesPercentage: -11.5% \u2014 actives",
-          "SOXL price: 68.17 \u2014 actives"
+          "^IXIC changesPercentage: 0.8% \u2014 indexes",
+          "^IXIC price: 25,372.01 \u2014 indexes",
+          "^GSPC changesPercentage: 0.4% \u2014 indexes",
+          "^GSPC price: 7,568.71 \u2014 indexes",
+          "^DJI changesPercentage: -0.4% \u2014 indexes",
+          "^DJI price: 51,786.72 \u2014 indexes",
+          "NVDA: +2.3%, 206.69 \u2014 mega_caps",
+          "AMZN: +2.1%, 250.69 \u2014 mega_caps",
+          "AMD: +3.7%, 483.90 \u2014 mega_caps"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/AMD",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/AMD"
+        "source_url": "https://news.sky.com/story/us-midterms-markets-fall-on-wall-street-as-democrats-gain-early-momentum-13607737",
+        "source_notes": "https://news.sky.com/story/us-midterms-markets-fall-on-wall-street-as-democrats-gain-early-momentum-13607737"
       },
       {
-        "title": "US oil proxy down 7.1% at close",
+        "title": "Apollo Global down 4.9% on revenue miss",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The United States Oil Fund ($USO) closed down 7.1% at 156.87.\n\nHeadlines tied the oil complex to US\u2013Iran developments and talk of a negotiated settlement.\n\nLarge integrated names moved with the group:\n\n- $XOM -4.0% to 179.67\n- $CVX -3.3% to 227.77\n- $MPC -3.2% to 430.39\n\nThe Nasdaq energy sector averaged a 2.4% decline for the session.\n\nBrent crude futures ($BZUSD) closed up 0.4% at 105.22, a different read than the USO session.\n\nWhat oil price do you watch first \u2014 WTI, Brent, or an ETF?",
+        "body": "$APO -4.9% to 113.55.\n\nEPS was 2.07 vs 2.19 estimated.\nRevenue was about $4.74B vs roughly $5.79B estimated.\n\nThe stock traded between 112.01 and 117.52.\n\nFinancials broadly lagged on Nasdaq, with the Financial Services sector average down about 0.7%.\n\nHow much do you weigh revenue vs EPS on asset-manager reports?",
         "skip_reason": "",
         "supporting_data": [
-          "USO changesPercentage: -7.1% \u2014 cross_asset wti",
-          "USO price: 156.87 \u2014 cross_asset",
-          "XOM changesPercentage: -4.0% \u2014 mega_caps",
-          "CVX changesPercentage: -3.3% \u2014 mega_caps",
-          "MPC changesPercentage: -3.2% \u2014 mega_caps",
-          "Energy sector averageChange: -2.4% (rounded from -2.36) \u2014 sectors",
-          "BZUSD price: 105.22, changesPercentage: 0.4% \u2014 cross_asset brent"
+          "APO changesPercentage: -4.9% \u2014 mega_caps",
+          "APO price: 113.55 \u2014 mega_caps",
+          "APO EPS actual: 2.07 \u2014 earnings_calendar",
+          "APO EPS estimate: 2.19 \u2014 earnings_calendar",
+          "APO revenue actual: 4,739,000,000 \u2014 earnings_calendar",
+          "APO revenue estimate: 5,790,567,000 \u2014 earnings_calendar",
+          "APO day low / high: 112.01 / 117.52 \u2014 mega_caps",
+          "Financial Services averageChange: -0.7% (rounded from -0.69) \u2014 sectors"
         ],
-        "source_url": "https://www.cnbc.com/2026/11/03/iran-us-vance-trump-strikes.html",
-        "source_notes": "https://www.cnbc.com/2026/11/03/iran-us-vance-trump-strikes.html"
+        "source_url": "https://financialmodelingprep.com/api/v3/quote/APO",
+        "source_notes": "https://financialmodelingprep.com/api/v3/quote/APO"
       },
       {
         "title": "US session recap \u2014 Nov. 3, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 closed down 0.5% at 7,541.40, off 38.67 points from the prior session, after trading between 7,539.38 and 7,662.23.\n\nThe Nasdaq Composite fell 1.1% to 25,164.36, a 272.63-point drop, with a session low of 25,145.95.\n\nThe Dow Jones Industrial Average bucked the broader decline, up 0.4% at 51,983.98, gaining 213.67 points.\n\nThe Russell 2000 slipped 0.2% to 2,805.88.\n\nThe VIX rose 8.9% to 21.15, up 1.73 points from a prior close of 19.42.\n\nTechnology was the weakest Nasdaq sector by average change, down about 3.5%.\nCommunication services averaged down 0.9%.\nEnergy averaged down 2.4%.\nConsumer defensive averaged up 2.4%, the strongest sector print in the set.\n\nOracle led software stress among large caps: $ORCL finished down 8.9% at 119.10.\n$AMD closed down 7.5% at 466.84 on a day it was on the earnings calendar with a 1.95 EPS estimate.\n$MSFT fell 2.8% to 507.12.\n$NVDA slipped 1.3% to 202.06.\n$INTC was down 8.8% at 59.97 on heavy activity.\n\nRegal Rexnord reported results in the earnings feed: EPS actual 3.74 versus estimate 2.65, with revenue actual about $524.6 million versus a much larger revenue estimate in the calendar line.\n\nConsumer and payment names stood out to the upside:\n- $WMT +3.4% to 127.69\n- $HD +3.6% to 341.15\n- $V +2.9% to 425.51\n- $MA +3.1% to 658.10\n- $PEP +2.2% to 140.42\n\nOil-linked products and majors weakened:\n- $USO -7.1% to 156.87\n- $XOM -4.0% to 179.67\n- $CVX -3.3% to 227.77\n\nGold futures ($GCUSD) fell 0.8% to 3,937.00.\nThe dollar proxy ($UUP) was down 0.1% at 28.96.\nBitcoin ($BTCUSD) was flat at 76,686.53.\n\nThe economic calendar flagged US midterm elections and a 3:00 p.m.\nEastern slot for JOLTs job openings (September), with a 7.13 million estimate versus 7.079 million previous, plus job quits and an economic optimism index.\n\nTreasury snapshot dated 2026-10-30 showed the 10-year at 4.9% and the 2s10s spread at 0.38 percentage points.\n\nOverseas indexes were mixed ahead of or alongside the US close: FTSE 100 +0.3%, Hang Seng +0.4%, Nikkei 225 -0.3%.",
+        "body": "The Nasdaq Composite led U.S. equity indexes, closing up 0.8% at 25,372.01.\nThe S&P 500 rose 0.4% to 7,568.71.\nThe Dow Jones Industrial Average finished down 0.4% at 51,786.72, and the Russell 2000 added 0.2% to 2,812.45.\n\nTuesday was U.S. midterm election day, and headlines described early political momentum alongside mixed index performance.\n\nAt 3 p.m.\nEastern, JOLTs job openings for September printed at 7.523 million, above the 7.1 million estimate and prior 7.19 million.\nDurable goods orders ex transportation rose 0.5% month over month, in line with the estimate.\n\nThe CBOE Volatility Index fell 1.5% to 20.83, with an intraday range of 20.29 to 21.91.\n\nOn Nasdaq sector averages, Industrials led at about +1.7%, followed by Real Estate about +1.5%, Utilities about +1.2%, and Technology about +0.8%.\nBasic Materials lagged at about -1.5%, and Consumer Defensive was about -1.2%.\n\nAdvanced Micro Devices rose 3.7% to 483.90 after EPS of 2.09 on revenue of about $13.38 billion, both above estimates.\nNVIDIA gained 2.3% to 206.69.\nAmazon.com rose 2.1% to 250.69.\nArista Networks added 3.5% to 169.91 after an earnings beat.\nASML gained 1.7% to 1,552.14.\n\nApollo Global Management fell 4.9% to 113.55 after revenue of about $4.74 billion missed a much higher estimate.\nKeurig Dr Pepper dropped 5.6% to 34.74 despite an EPS beat.\nPfizer declined 2.2% to 30.00 after beating on EPS and revenue.\n\nGold futures rose 0.3% to 3,953.30.\nThe United States Oil Fund (WTI proxy) gained 0.8% to 158.17, while Brent crude fell 0.7% to 102.87.\nThe dollar-bullish fund proxy (UUP) ticked up 0.2% to 29.01.\nBitcoin slipped 0.3% to 77,136.54.\n\nOverseas, Japan\u2019s Nikkei 225 fell 4.7% to 60,089.56.\nThe FTSE 100 lost 1.1% to 10,638.43.\n\nLatest Treasury snapshot in the feed (Oct. 30) showed the 10-year at 4.9% and the 2s10s spread at 0.38 percentage point.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,541.40, -0.5% \u2014 indexes",
-          "^IXIC: 25,164.36, -1.1% \u2014 indexes",
-          "^DJI: 51,983.98, +0.4% \u2014 indexes",
-          "^RUT: 2,805.88, -0.2% \u2014 indexes",
-          "^VIX: 21.15, +8.9% \u2014 indexes",
-          "Technology sector: -3.5% \u2014 sectors",
-          "Consumer Defensive sector: +2.4% \u2014 sectors",
-          "ORCL, AMD, MSFT, NVDA, INTC \u2014 mega_caps / actives",
-          "RRX epsActual 3.74, epsEstimated 2.65 \u2014 earnings_calendar",
-          "USO, XOM, CVX, GCUSD, UUP, BTCUSD \u2014 cross_asset / mega_caps",
-          "Treasury year10: 4.94, spread_2s10s: 0.38 \u2014 treasury",
-          "JOLTs Job Openings estimate 7.13, previous 7.079 \u2014 economic_calendar"
+          "^IXIC: +0.8%, 25,372.01 \u2014 indexes",
+          "^GSPC: +0.4%, 7,568.71 \u2014 indexes",
+          "^DJI: -0.4%, 51,786.72 \u2014 indexes",
+          "^RUT: +0.2%, 2,812.45 \u2014 indexes",
+          "^VIX: -1.5%, 20.83 \u2014 indexes",
+          "JOLTs actual: 7.523M \u2014 economic_calendar",
+          "JOLTs estimate: 7.1M \u2014 economic_calendar",
+          "AMD/NVDA/AMZN/ANET/APO/KDP/PFE \u2014 mega_caps and earnings_calendar",
+          "GCUSD, USO, BZUSD, UUP, BTCUSD \u2014 cross_asset",
+          "^N225, ^FTSE \u2014 overseas",
+          "treasury year10: 4.94, spread_2s10s: 0.38 \u2014 treasury",
+          "sectors averages \u2014 sectors"
         ],
-        "source_url": "https://seekingalpha.com/article/4961276-nasdaq-sp500-index-lose-momentum-pull-down-market",
-        "source_notes": "https://seekingalpha.com/article/4961276-nasdaq-sp500-index-lose-momentum-pull-down-market"
+        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-divided-ai-rally-midterms-election-day-15e0a1e0",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-divided-ai-rally-midterms-election-day-15e0a1e0"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
     "session_date": "2026-11-03",
-    "generated_at": "2026-11-03T00:22:21-05:00",
+    "generated_at": "2026-11-03T23:51:30-05:00",
     "draft_path": "drafts/2026-11-03-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "October jobs print due Friday at 8:30 a.m.",
+        "title": "October jobs report due Friday at 8:30 a.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Nonfarm payrolls for October are scheduled for Friday, Nov. 6, at 8:30 a.m.\nET (13:30 in the calendar feed).\n\nThe median estimate is 65,000 jobs added; the prior release showed 29,000.\n\nPrivate payrolls are estimated at 58,000 (prior 46,000).\n\nThe unemployment rate is estimated at 4.2%, unchanged from the prior 4.2%.\n\nAverage hourly earnings are estimated up 0.3% month over month and 2.9% year over year (prior 0.1% and 3.0%).\n\nThe report counts hiring across the economy and is the main monthly read on labor demand after a week of job-market surveys.\n\nWhich line do you watch first\u2014headline payrolls, unemployment, or wages?",
+        "body": "Nonfarm payrolls for October are scheduled for Friday, Nov. 6, at 8:30 a.m.\nET (13:30 in the calendar feed).\n\nThe median estimate is 65K jobs added, versus 29K in the prior month\u2019s print.\n\nThe unemployment rate is expected at 4.2%, unchanged from September.\n\nAverage hourly earnings are expected up 0.3% month over month and 2.9% year over year.\n\nPrivate payrolls are also pegged at 65K; the broader report includes government and manufacturing breakdowns in the same release.\n\nThat bundle is the main US labor read for the week and closes the window on October hiring.\n\nWhich line in the report do you usually read first\u2014headline jobs, unemployment, or wages?",
         "skip_reason": "",
         "supporting_data": [
-          "Non Farm Payrolls (Oct) estimate: 65 K \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Oct) previous: 29 K \u2014 source: FMP economic_calendar",
-          "Nonfarm Payrolls Private (Oct) estimate: 58 K \u2014 source: FMP economic_calendar",
+          "Non Farm Payrolls (Oct) estimate: 65K \u2014 source: FMP economic_calendar",
+          "Non Farm Payrolls (Oct) previous: 29K \u2014 source: FMP economic_calendar",
           "Unemployment Rate (Oct) estimate: 4.2% \u2014 source: FMP economic_calendar",
           "Average Hourly Earnings MoM (Oct) estimate: 0.3% \u2014 source: FMP economic_calendar",
           "Average Hourly Earnings YoY (Oct) estimate: 2.9% \u2014 source: FMP economic_calendar",
-          "Release datetime: 2026-11-06 13:30:00 \u2014 source: FMP economic_calendar"
+          "Release time: 2026-11-06 13:30:00 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       },
       {
-        "title": "Midterms Tuesday, JOLTs at 3 p.m.",
+        "title": "McDonald\u2019s, Qualcomm, Uber report Wednesday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Midterm Elections are listed for Tuesday, Nov. 3, with high impact in the U.S. calendar.\n\nThat session also brings JOLTs Job Openings for September at 3:00 p.m.\nET.\n\nJob openings are estimated at 7.13 million; the prior reading was 7.08 million.\n\nJOLTs measures unfilled positions and how tight the hiring market looks outside the monthly payrolls count.\n\nElection day and openings data land on the same afternoon window.\n\nDo you treat election day and JOLTs as one calendar block or two separate checks?",
+        "body": "Earnings for the week include a heavy Nov. 4 slate among large caps.\n\n$MCD \u2014 EPS estimate $3.38; revenue estimate about $7.28B.\n\n$QCOM \u2014 EPS estimate $2.16; revenue estimate about $10.12B.\n\n$UBER \u2014 EPS estimate $0.86; revenue estimate about $14.66B.\n\nEach release covers the latest quarter of sales and profit versus those consensus numbers.\n\nReports typically arrive before the open or after the close depending on company schedule.\n\nWhich of these three businesses do you follow closest for demand signals?",
         "skip_reason": "",
         "supporting_data": [
-          "Midterm Elections date: 2026-11-03 \u2014 source: FMP economic_calendar",
-          "Midterm Elections impact: High \u2014 source: FMP economic_calendar",
-          "JOLTs Job Openings (Sep) estimate: 7.13 M \u2014 source: FMP economic_calendar",
-          "JOLTs Job Openings (Sep) previous: 7.08 M \u2014 source: FMP economic_calendar",
-          "JOLTs release datetime: 2026-11-03 15:00:00 \u2014 source: FMP economic_calendar"
+          "$MCD EPS estimate: 3.38 \u2014 source: FMP earnings_calendar",
+          "$MCD revenue estimate: 7284338000 \u2014 source: FMP earnings_calendar",
+          "$QCOM EPS estimate: 2.16 \u2014 source: FMP earnings_calendar",
+          "$QCOM revenue estimate: 10117750000 \u2014 source: FMP earnings_calendar",
+          "$UBER EPS estimate: 0.864 \u2014 source: FMP earnings_calendar",
+          "$UBER revenue estimate: 14659410000 \u2014 source: FMP earnings_calendar",
+          "Report date: 2026-11-04 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "$AMD Monday, $QCOM and $UBER Thursday",
+        "title": "Jobless claims and productivity hit Thursday 8:30",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Earnings estimates for the week (EPS, consensus):\n\n- $AMD \u2014 Nov. 3 \u2014 $1.95\n- $QCOM \u2014 Nov. 4 \u2014 $2.16\n- $UBER \u2014 Nov. 4 \u2014 $0.86\n\n$AMD revenue is estimated at about $13.10 billion.\n\n$QCOM revenue is estimated at about $10.12 billion.\n\n$UBER revenue is estimated at about $14.66 billion.\n\nEach release is the quarterly scorecard for chips, mobile licensing and silicon, and rides and delivery.\n\nWhich of the three dates is on your calendar this week?",
+        "body": "Two labor-market prints share the Thursday, Nov. 5, 8:30 a.m.\nET slot.\n\nInitial jobless claims (Oct/31): estimate 196K, prior 194K.\n\nJobless claims 4-week average: estimate 196K, prior 196.75K.\n\nContinuing claims (Oct/24): estimate 1,710K, prior 1,701K.\n\nNonfarm productivity QoQ (Q3): estimate 2.5%, prior 1.4%.\n\nClaims track layoff pace near term; productivity measures output per hour and feeds into how firms are using labor.\n\nResults drop two days before the October payrolls report.\n\nDo you treat weekly claims as a leading hint for the monthly jobs number or as noise?",
         "skip_reason": "",
         "supporting_data": [
-          "AMD epsEstimated: 1.95 \u2014 source: FMP earnings_calendar",
-          "AMD date: 2026-11-03 \u2014 source: FMP earnings_calendar",
-          "AMD revenueEstimated: 13097530000 (~$13.10B) \u2014 source: FMP earnings_calendar",
-          "QCOM epsEstimated: 2.16 \u2014 source: FMP earnings_calendar",
-          "QCOM date: 2026-11-04 \u2014 source: FMP earnings_calendar",
-          "QCOM revenueEstimated: 10122190000 (~$10.12B) \u2014 source: FMP earnings_calendar",
-          "UBER epsEstimated: 0.864 (~$0.86) \u2014 source: FMP earnings_calendar",
-          "UBER date: 2026-11-04 \u2014 source: FMP earnings_calendar",
-          "UBER revenueEstimated: 14660190000 (~$14.66B) \u2014 source: FMP earnings_calendar"
+          "Initial Jobless Claims (Oct/31) estimate: 196K \u2014 source: FMP economic_calendar",
+          "Initial Jobless Claims previous: 194K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 196K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims (Oct/24) estimate: 1710K \u2014 source: FMP economic_calendar",
+          "Nonfarm Productivity QoQ (Q3) estimate: 2.5% \u2014 source: FMP economic_calendar",
+          "Nonfarm Productivity QoQ (Q3) previous: 1.4% \u2014 source: FMP economic_calendar",
+          "Release time: 2026-11-05 13:30:00 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       }
     ]
   }

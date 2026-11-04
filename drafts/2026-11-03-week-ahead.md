@@ -5,7 +5,7 @@ FMP brief: `data/2026-11-03-week-ahead.json`
 
 ---
 
-## October jobs print due Friday at 8:30 a.m.
+## October jobs report due Friday at 8:30 a.m.
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
@@ -17,101 +17,102 @@ FMP brief: `data/2026-11-03-week-ahead.json`
 Nonfarm payrolls for October are scheduled for Friday, Nov. 6, at 8:30 a.m.
 ET (13:30 in the calendar feed).
 
-The median estimate is 65,000 jobs added; the prior release showed 29,000.
+The median estimate is 65K jobs added, versus 29K in the prior month’s print.
 
-Private payrolls are estimated at 58,000 (prior 46,000).
+The unemployment rate is expected at 4.2%, unchanged from September.
 
-The unemployment rate is estimated at 4.2%, unchanged from the prior 4.2%.
+Average hourly earnings are expected up 0.3% month over month and 2.9% year over year.
 
-Average hourly earnings are estimated up 0.3% month over month and 2.9% year over year (prior 0.1% and 3.0%).
+Private payrolls are also pegged at 65K; the broader report includes government and manufacturing breakdowns in the same release.
 
-The report counts hiring across the economy and is the main monthly read on labor demand after a week of job-market surveys.
+That bundle is the main US labor read for the week and closes the window on October hiring.
 
-Which line do you watch first—headline payrolls, unemployment, or wages?
+Which line in the report do you usually read first—headline jobs, unemployment, or wages?
 
 ### Supporting Data
 
-- Non Farm Payrolls (Oct) estimate: 65 K — source: FMP economic_calendar
-- Non Farm Payrolls (Oct) previous: 29 K — source: FMP economic_calendar
-- Nonfarm Payrolls Private (Oct) estimate: 58 K — source: FMP economic_calendar
+- Non Farm Payrolls (Oct) estimate: 65K — source: FMP economic_calendar
+- Non Farm Payrolls (Oct) previous: 29K — source: FMP economic_calendar
 - Unemployment Rate (Oct) estimate: 4.2% — source: FMP economic_calendar
 - Average Hourly Earnings MoM (Oct) estimate: 0.3% — source: FMP economic_calendar
 - Average Hourly Earnings YoY (Oct) estimate: 2.9% — source: FMP economic_calendar
-- Release datetime: 2026-11-06 13:30:00 — source: FMP economic_calendar
+- Release time: 2026-11-06 13:30:00 — source: FMP economic_calendar
 
-**Source URL:** https://financialmodelingprep.com/stable/economic-calendar
+**Source URL:** https://financialmodelingprep.com/api/v3/economic_calendar
 
 ---
 
-## Midterms Tuesday, JOLTs at 3 p.m.
+## McDonald’s, Qualcomm, Uber report Wednesday
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** U.S. midterm elections are on the calendar for Tuesday, Nov. 3, the same day the September JOLTS report publishes estimated job openings of 7.13 million.
+**Short Summary:** Three large consumer and tech names report on Nov. 4 with Street EPS estimates of $3.38 for McDonald’s, $2.16 for Qualcomm, and $0.86 for Uber.
 
 ### Post Body
 
-Midterm Elections are listed for Tuesday, Nov. 3, with high impact in the U.S. calendar.
+Earnings for the week include a heavy Nov. 4 slate among large caps.
 
-That session also brings JOLTs Job Openings for September at 3:00 p.m.
-ET.
+$MCD — EPS estimate $3.38; revenue estimate about $7.28B.
 
-Job openings are estimated at 7.13 million; the prior reading was 7.08 million.
+$QCOM — EPS estimate $2.16; revenue estimate about $10.12B.
 
-JOLTs measures unfilled positions and how tight the hiring market looks outside the monthly payrolls count.
+$UBER — EPS estimate $0.86; revenue estimate about $14.66B.
 
-Election day and openings data land on the same afternoon window.
+Each release covers the latest quarter of sales and profit versus those consensus numbers.
 
-Do you treat election day and JOLTs as one calendar block or two separate checks?
+Reports typically arrive before the open or after the close depending on company schedule.
+
+Which of these three businesses do you follow closest for demand signals?
 
 ### Supporting Data
 
-- Midterm Elections date: 2026-11-03 — source: FMP economic_calendar
-- Midterm Elections impact: High — source: FMP economic_calendar
-- JOLTs Job Openings (Sep) estimate: 7.13 M — source: FMP economic_calendar
-- JOLTs Job Openings (Sep) previous: 7.08 M — source: FMP economic_calendar
-- JOLTs release datetime: 2026-11-03 15:00:00 — source: FMP economic_calendar
+- $MCD EPS estimate: 3.38 — source: FMP earnings_calendar
+- $MCD revenue estimate: 7284338000 — source: FMP earnings_calendar
+- $QCOM EPS estimate: 2.16 — source: FMP earnings_calendar
+- $QCOM revenue estimate: 10117750000 — source: FMP earnings_calendar
+- $UBER EPS estimate: 0.864 — source: FMP earnings_calendar
+- $UBER revenue estimate: 14659410000 — source: FMP earnings_calendar
+- Report date: 2026-11-04 — source: FMP earnings_calendar
 
-**Source URL:** https://financialmodelingprep.com/stable/economic-calendar
+**Source URL:** https://financialmodelingprep.com/api/v3/earning_calendar
 
 ---
 
-## $AMD Monday, $QCOM and $UBER Thursday
+## Jobless claims and productivity hit Thursday 8:30
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** Advanced Micro Devices reports Monday with a $1.95 EPS estimate; Qualcomm and Uber follow Thursday with $2.16 and $0.86 EPS estimates respectively.
+**Short Summary:** Thursday’s 8:30 a.m. ET data includes initial jobless claims for the week ended Oct. 31 (196K expected) and third-quarter nonfarm productivity (2.5% expected).
 
 ### Post Body
 
-Earnings estimates for the week (EPS, consensus):
+Two labor-market prints share the Thursday, Nov. 5, 8:30 a.m.
+ET slot.
 
-- $AMD — Nov. 3 — $1.95
-- $QCOM — Nov. 4 — $2.16
-- $UBER — Nov. 4 — $0.86
+Initial jobless claims (Oct/31): estimate 196K, prior 194K.
 
-$AMD revenue is estimated at about $13.10 billion.
+Jobless claims 4-week average: estimate 196K, prior 196.75K.
 
-$QCOM revenue is estimated at about $10.12 billion.
+Continuing claims (Oct/24): estimate 1,710K, prior 1,701K.
 
-$UBER revenue is estimated at about $14.66 billion.
+Nonfarm productivity QoQ (Q3): estimate 2.5%, prior 1.4%.
 
-Each release is the quarterly scorecard for chips, mobile licensing and silicon, and rides and delivery.
+Claims track layoff pace near term; productivity measures output per hour and feeds into how firms are using labor.
 
-Which of the three dates is on your calendar this week?
+Results drop two days before the October payrolls report.
+
+Do you treat weekly claims as a leading hint for the monthly jobs number or as noise?
 
 ### Supporting Data
 
-- AMD epsEstimated: 1.95 — source: FMP earnings_calendar
-- AMD date: 2026-11-03 — source: FMP earnings_calendar
-- AMD revenueEstimated: 13097530000 (~$13.10B) — source: FMP earnings_calendar
-- QCOM epsEstimated: 2.16 — source: FMP earnings_calendar
-- QCOM date: 2026-11-04 — source: FMP earnings_calendar
-- QCOM revenueEstimated: 10122190000 (~$10.12B) — source: FMP earnings_calendar
-- UBER epsEstimated: 0.864 (~$0.86) — source: FMP earnings_calendar
-- UBER date: 2026-11-04 — source: FMP earnings_calendar
-- UBER revenueEstimated: 14660190000 (~$14.66B) — source: FMP earnings_calendar
+- Initial Jobless Claims (Oct/31) estimate: 196K — source: FMP economic_calendar
+- Initial Jobless Claims previous: 194K — source: FMP economic_calendar
+- Jobless Claims 4-Week Average estimate: 196K — source: FMP economic_calendar
+- Continuing Jobless Claims (Oct/24) estimate: 1710K — source: FMP economic_calendar
+- Nonfarm Productivity QoQ (Q3) estimate: 2.5% — source: FMP economic_calendar
+- Nonfarm Productivity QoQ (Q3) previous: 1.4% — source: FMP economic_calendar
+- Release time: 2026-11-05 13:30:00 — source: FMP economic_calendar
 
-**Source URL:** https://financialmodelingprep.com/stable/earnings-calendar
+**Source URL:** https://financialmodelingprep.com/api/v3/economic_calendar

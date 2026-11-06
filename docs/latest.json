@@ -1,219 +1,201 @@
 {
-  "updated_at": "2026-11-05T00:08:03-05:00",
+  "updated_at": "2026-11-06T00:07:30-05:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-11-05",
-    "generated_at": "2026-11-05T00:07:05-05:00",
-    "draft_path": "drafts/2026-11-05-am.md",
+    "session_date": "2026-11-06",
+    "generated_at": "2026-11-06T00:06:36-05:00",
+    "draft_path": "drafts/2026-11-06-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Dow +3.0% after midterm sweep",
+        "title": "Nasdaq \u22125.5% as fear gauge jumps 69.7%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Dow Jones Industrial Average +3.0% to 53,356.12 (+1,569.40 points).\n\nS&P 500 +1.6% to 7,688.62.\n\nNasdaq Composite +1.4% to 25,736.51.\n\nRussell 2000 +1.6% to 2,856.95.\n\nCBOE Volatility Index (VIX) \u221220.3% to 16.61 \u2014 a gauge of expected near-term stock swings.\n\nCoverage tied the session to the congressional election outcome and a drop in oil prices that followed.\n\nUnited States Oil Fund ($USO) \u22128.1% to 145.41.\n\nBrent crude \u22120.9% to 93.80.\n\nWhich part of the move mattered more to you \u2014 the index jump or the oil slide?",
+        "body": "$^IXIC closed \u22125.5% at 24,315.00.\n\n$^GSPC \u22124.4% at 7,353.73.\n\n$^DJI \u22123.4% at 51,523.06.\n\nThe Cboe Volatility Index ($^VIX) rose 69.7% to 28.18 \u2014 a gauge of how much traders are paying for near-term protection against big moves.\n\nBarron\u2019s described a post-election rout in AI names that left the Nasdaq Composite in correction territory (typically a drop of 10% or more from a recent high).\n\nWhat part of yesterday\u2019s tape surprised you most \u2014 the index levels or the jump in $^VIX?",
         "skip_reason": "",
         "supporting_data": [
-          "Dow change: +3.0% \u2014 FMP indexes ^DJI",
-          "Dow level: 53,356.12 \u2014 FMP indexes ^DJI",
-          "S&P 500 change: +1.6% \u2014 FMP indexes ^GSPC",
-          "S&P 500 level: 7,688.62 \u2014 FMP indexes ^GSPC",
-          "Nasdaq change: +1.4% \u2014 FMP indexes ^IXIC",
-          "Nasdaq level: 25,736.51 \u2014 FMP indexes ^IXIC",
-          "Russell 2000 change: +1.6% \u2014 FMP indexes ^RUT",
-          "VIX change: \u221220.3% \u2014 FMP indexes ^VIX",
-          "VIX level: 16.61 \u2014 FMP indexes ^VIX",
-          "USO change: \u22128.1% \u2014 FMP cross_asset wti",
-          "USO price: 145.41 \u2014 FMP cross_asset wti",
-          "Brent change: \u22120.9% \u2014 FMP cross_asset brent",
-          "Brent price: 93.80 \u2014 FMP cross_asset brent"
+          "Nasdaq Composite change: \u22125.5% \u2014 source: FMP indexes (^IXIC)",
+          "Nasdaq Composite level: 24,315.00 \u2014 source: FMP indexes (^IXIC)",
+          "S&P 500 change: \u22124.4% \u2014 source: FMP indexes (^GSPC)",
+          "S&P 500 level: 7,353.73 \u2014 source: FMP indexes (^GSPC)",
+          "Dow Jones change: \u22123.4% \u2014 source: FMP indexes (^DJI)",
+          "Dow Jones level: 51,523.06 \u2014 source: FMP indexes (^DJI)",
+          "VIX change: +69.7% \u2014 source: FMP indexes (^VIX)",
+          "VIX level: 28.18 \u2014 source: FMP indexes (^VIX)"
         ],
-        "source_url": "https://seekingalpha.com/article/4962672-blue-wave-paints-market-green",
-        "source_notes": "https://seekingalpha.com/article/4962672-blue-wave-paints-market-green"
+        "source_url": "https://www.barrons.com/articles/stocks-today-ai-trade-plummets-indexes-lower-691a1a68",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-trade-plummets-indexes-lower-691a1a68"
       },
       {
-        "title": "Jobless claims, Q3 productivity due 8:30",
+        "title": "Brent crude near $99.60 on Hormuz headlines",
         "status": "ready",
         "kind": "x_idea",
-        "body": "At 8:30 a.m.\nET today (Nov. 5, 2026), the U.S. calendar includes high-impact labor prints.\n\nInitial jobless claims (week ended Oct. 31): consensus 196K vs prior 194K.\n\nJobless claims 4-week average: consensus 196K vs prior 196.75K.\n\nContinuing jobless claims (Oct. 24): consensus 1,710K vs prior 1,701K.\n\nNonfarm productivity (Q3, quarter-over-quarter): consensus +2.8% vs prior +1.4% \u2014 output per hour in the economy, not a jobs count.\n\nNo actual results were in the morning data feed ahead of the release window.\n\nTomorrow\u2019s calendar adds October payrolls and the unemployment rate at the same time.\n\nWhich print do you watch first \u2014 weekly claims or productivity?",
+        "body": "Brent crude (BZUSD) last at 99.60, up 1.3%.\n\nDay range in the feed: 98.90\u2013100.81.\n\nCNBC reported Rapidan Energy Group\u2019s Bob McNally flagging an elevated chance of renewed military conflict and discussing Brent and WTI futures moving above $100 in that scenario.\n\nReuters separately tied the Strait of Hormuz crisis to lower fossil-fuel use and a sharp drop in China\u2019s Q3 emissions versus prior periods in the pandemic era.\n\nWhen you read energy headlines, do you look at Brent first or at U.S. benchmark prices?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial jobless claims estimate: 196K \u2014 FMP economic_calendar",
-          "Initial jobless claims previous: 194K \u2014 FMP economic_calendar",
-          "4-week average estimate: 196K \u2014 FMP economic_calendar",
-          "4-week average previous: 196.75K \u2014 FMP economic_calendar",
-          "Continuing claims estimate: 1,710K \u2014 FMP economic_calendar",
-          "Continuing claims previous: 1,701K \u2014 FMP economic_calendar",
-          "Nonfarm productivity Q3 estimate: +2.8% \u2014 FMP economic_calendar",
-          "Nonfarm productivity Q3 previous: +1.4% \u2014 FMP economic_calendar"
+          "Brent crude price: 99.60 \u2014 source: FMP cross_asset (brent / BZUSD)",
+          "Brent crude change: +1.3% \u2014 source: FMP cross_asset (brent)",
+          "Brent day high: 100.81 \u2014 source: FMP cross_asset (brent)",
+          "Brent day low: 98.90 \u2014 source: FMP cross_asset (brent)"
         ],
-        "source_url": "https://www.cnbc.com/2026/11/04/cramer-midterms-ai-stocks.html",
-        "source_notes": "https://www.cnbc.com/2026/11/04/cramer-midterms-ai-stocks.html"
+        "source_url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
+        "source_notes": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html"
       },
       {
-        "title": "October jobs consensus: 65K vs 29K",
+        "title": "Nikkei \u22125.9% after U.S. tech selloff",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Non Farm Payrolls (October), Nov. 6, 8:30 a.m.\nET \u2014 high impact.\n\nConsensus: +65K jobs.\n\nPrior month: +29K.\n\nUnemployment rate (October): consensus 4.2% vs prior 4.2% \u2014 share of the labor force without work.\n\nAverage hourly earnings, month over month: consensus +0.3% vs prior +0.1%.\n\nAverage hourly earnings, year over year: consensus +2.9% vs prior +3.0%.\n\nPrivate payrolls: consensus +64K vs prior +46K.\n\nU-6 unemployment (includes discouraged and part-time for economic reasons): consensus 7.6% vs prior 7.6%.\n\nSame release window also includes government and manufacturing payroll breakdowns.\n\nPost-election coverage has also flagged fiscal deadlines, including debt-limit math near $41.1 trillion in federal debt.\n\nWhat number in the jobs report do you treat as the headline \u2014 payrolls, unemployment, or wages?",
+        "body": "$^N225 \u22125.9% at 57,480.52.\n\nThat session low in the feed: 56,745.81.\n\nThe Wall Street Journal reported Japanese stocks sharply lower in early trade, dragged by chip stocks after a U.S. technology selloff overnight.\n\nIn the same global snapshot, $^HSI \u22121.1% at 24,515.50.\n\n$^FTSE \u22120.4% at 10,782.66.\n\nDo you usually watch Asia first after a heavy U.S. tech day, or wait for Europe?",
         "skip_reason": "",
         "supporting_data": [
-          "Non Farm Payrolls estimate: 65K \u2014 FMP economic_calendar",
-          "Non Farm Payrolls previous: 29K \u2014 FMP economic_calendar",
-          "Unemployment rate estimate: 4.2% \u2014 FMP economic_calendar",
-          "Unemployment rate previous: 4.2% \u2014 FMP economic_calendar",
-          "Avg hourly earnings MoM estimate: +0.3% \u2014 FMP economic_calendar",
-          "Avg hourly earnings YoY estimate: +2.9% \u2014 FMP economic_calendar",
-          "Private payrolls estimate: 64K \u2014 FMP economic_calendar",
-          "U-6 estimate: 7.6% \u2014 FMP economic_calendar"
+          "Nikkei 225 change: \u22125.9% \u2014 source: FMP overseas (^N225)",
+          "Nikkei 225 level: 57,480.52 \u2014 source: FMP overseas (^N225)",
+          "Nikkei day low: 56,745.81 \u2014 source: FMP overseas (^N225)",
+          "Hang Seng change: \u22121.1% \u2014 source: FMP overseas (^HSI)",
+          "Hang Seng level: 24,515.50 \u2014 source: FMP overseas (^HSI)",
+          "FTSE 100 change: \u22120.4% \u2014 source: FMP overseas (^FTSE)",
+          "FTSE 100 level: 10,782.66 \u2014 source: FMP overseas (^FTSE)"
         ],
-        "source_url": "https://www.youtube.com/watch?v=IZ6a8_qaq-U",
-        "source_notes": "https://www.youtube.com/watch?v=IZ6a8_qaq-U"
+        "source_url": "https://www.wsj.com/finance/stocks/nikkei-falls-5-9-dragged-by-chip-stocks-d8937761",
+        "source_notes": "https://www.wsj.com/finance/stocks/nikkei-falls-5-9-dragged-by-chip-stocks-d8937761"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-11-05",
-    "generated_at": "2026-11-05T00:07:37-05:00",
-    "draft_path": "drafts/2026-11-05.md",
+    "session_date": "2026-11-06",
+    "generated_at": "2026-11-06T00:07:02-05:00",
+    "draft_path": "drafts/2026-11-06.md",
     "errors": [],
     "slots": [
       {
-        "title": "Apple closes up 5.3% in election-day rally",
+        "title": "Nasdaq down 5.5% into correction",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AAPL +5.3% to 349.51.\n\nThe session high was 354.47 \u2014 the same level as its 52-week high in the data.\n\nThe S&P 500 finished +1.6% at 7,688.62 and the Dow +3.0% at 53,356.12, while coverage tied the broad advance to the midterm outcome and falling oil.\n\nThe Cboe Volatility Index closed at 16.61, down 20.3% from the prior session.\n\nWhich large-cap name stood out most in your watchlist today?",
+        "body": "The Nasdaq Composite closed at 24,315.00, down 5.5% (-1,421.52 points) from the prior session.\n\nBarron\u2019s described a post-election rout in AI-related stocks that left the index in correction territory \u2014 meaning a drop of at least 10% from a recent peak.\n\nThe S&P 500 finished at 7,353.73 (-4.4%).\n\nThe Dow Jones Industrial Average closed at 51,523.06 (-3.4%).\n\nThe Russell 2000 ended at 2,729.89 (-4.4%).\n\nWhich index level are you tracking first after a session like this?",
         "skip_reason": "",
         "supporting_data": [
-          "AAPL change: +5.3% \u2014 mega_caps / FMP quote",
-          "AAPL price: 349.51 \u2014 mega_caps",
-          "AAPL dayHigh / yearHigh: 354.47 \u2014 mega_caps",
-          "^GSPC: +1.6%, 7,688.62 \u2014 indexes",
-          "^DJI: +3.0%, 53,356.12 \u2014 indexes",
-          "^VIX: 16.61, -20.3% \u2014 indexes"
+          "Nasdaq Composite close: 24,315.00 \u2014 FMP indexes ^IXIC",
+          "Nasdaq change: -5.5% \u2014 FMP indexes ^IXIC changesPercentage",
+          "Nasdaq point change: -1,421.52 \u2014 FMP indexes ^IXIC change",
+          "S&P 500 close: 7,353.73 (-4.4%) \u2014 FMP indexes ^GSPC",
+          "Dow close: 51,523.06 (-3.4%) \u2014 FMP indexes ^DJI",
+          "Russell 2000 close: 2,729.89 (-4.4%) \u2014 FMP indexes ^RUT"
         ],
-        "source_url": "https://seekingalpha.com/article/4962672-blue-wave-paints-market-green",
-        "source_notes": "https://seekingalpha.com/article/4962672-blue-wave-paints-market-green"
+        "source_url": "https://www.barrons.com/articles/stocks-today-ai-trade-plummets-indexes-lower-691a1a68",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-trade-plummets-indexes-lower-691a1a68"
       },
       {
-        "title": "Oil-linked names fall as crude slumps",
+        "title": "AMD down 17.3% in chip selloff",
         "status": "ready",
         "kind": "x_idea",
-        "body": "United States Oil Fund ($USO) closed -8.1% at 145.41.\n\nBrent crude ($BZUSD) was -0.9% at 93.80.\n\nLarge producers moved with the tape:\n\n- $XOM -4.5% to 169.44\n- $COP -5.2% to 136.94\n- $EOG -5.2% to 147.06\n\nBoth ConocoPhillips and EOG Resources were on the earnings calendar for 2026-11-05; the session move is in the same window as that oil price reset described in overnight commodity coverage.\n\nHow much do you weigh oil when you look at energy earnings weeks?",
+        "body": "$AMD closed at 404.40, down 17.3% (-84.38) on the session.\n\nThe day\u2019s range ran from a high of 456.20 to a low of 402.48.\n\nOther large chip-related names moved with the group:\n\n- $TSM -10.8% to 353.10\n- $AVGO -10.4% to 291.53\n- $ASML -9.3% to 1,356.65\n\nCNBC coverage pointed to uncertainty around data-center build-out and how investors are valuing AI infrastructure names after strong results but heavier risk debate.\n\nThe Direxion Daily Semiconductor Bull 3X ETF ($SOXL) closed at 40.87 (-38.7%).\n\nDoes a one-day move this large change how you read the group, or only the headline index?",
         "skip_reason": "",
         "supporting_data": [
-          "USO: -8.1%, 145.41 \u2014 cross_asset (wti proxy USO)",
-          "BZUSD: -0.9%, 93.80 \u2014 cross_asset brent",
-          "XOM: -4.5%, 169.44 \u2014 mega_caps",
-          "COP: -5.2%, 136.94 \u2014 mega_caps",
-          "EOG: -5.2%, 147.06 \u2014 mega_caps"
+          "AMD close: 404.40 \u2014 FMP mega_caps AMD",
+          "AMD change: -17.3% \u2014 FMP mega_caps AMD changesPercentage",
+          "TSM close: 353.10 (-10.8%) \u2014 FMP mega_caps TSM",
+          "AVGO close: 291.53 (-10.4%) \u2014 FMP mega_caps AVGO",
+          "ASML close: 1,356.65 (-9.3%) \u2014 FMP mega_caps ASML",
+          "SOXL close: 40.87 (-38.7%) \u2014 FMP liquid_losers"
         ],
-        "source_url": "https://www.wsj.com/finance/commodities-futures/oil-continues-to-fall-amid-rising-hopes-to-end-iran-war-7e9ba2fb",
-        "source_notes": "https://www.wsj.com/finance/commodities-futures/oil-continues-to-fall-amid-rising-hopes-to-end-iran-war-7e9ba2fb"
+        "source_url": "https://www.cnbc.com/2026/11/05/jim-cramer-ai-stocks-data-center-uncertainty.html",
+        "source_notes": "https://www.cnbc.com/2026/11/05/jim-cramer-ai-stocks-data-center-uncertainty.html"
       },
       {
-        "title": "Kimberly-Clark beats on 1.70 EPS",
+        "title": "VIX up 69.7% to 28.18",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$KMB +4.1% to 108.79.\n\nReported EPS: 1.70 vs estimate 1.65.\n\nRevenue: 4.13B actual vs 4.13B estimated (4,134,000,000 vs 4,126,464,000 in the release data).\n\nSeveral other consumer staples names also finished higher on the day:\n\n- $PG +3.3% to 167.40\n- $PEP +3.8% to 142.42\n- $KO +1.1% to 95.80\n\nDo you follow staples more for dividends or for how they behave when the broad market rips?",
+        "body": "The VIX closed at 28.18, up 69.7% (+11.57) from the prior close of 16.61.\n\nThe session high was 28.36; the low was 16.70.\n\nSeeking Alpha noted the volatility gauge rose sharply as the Nasdaq settled in correction territory after heavy selling.\n\nNamed megacaps also posted large down moves on the same session:\n\n- $TSLA -10.8% to 343.69\n- $META -4.0% to 605.08\n- $ORCL -7.0% to 115.06 (session low 111.66 matched the 52-week low in the tape)\n\nWhen the fear gauge moves this much in one close, what do you look at next \u2014 indexes or single names?",
         "skip_reason": "",
         "supporting_data": [
-          "KMB price: 108.79, +4.1% \u2014 mega_caps / earnings_calendar",
-          "KMB epsActual: 1.70 \u2014 earnings_calendar",
-          "KMB epsEstimated: 1.65 \u2014 earnings_calendar",
-          "KMB revenueActual: 4,134,000,000 \u2014 earnings_calendar",
-          "KMB revenueEstimated: 4,126,464,000 \u2014 earnings_calendar",
-          "PG: +3.3%, 167.40 \u2014 mega_caps",
-          "PEP: +3.8%, 142.42 \u2014 mega_caps",
-          "KO: +1.1%, 95.80 \u2014 mega_caps"
+          "VIX close: 28.18 \u2014 FMP indexes ^VIX",
+          "VIX change: +69.7% \u2014 FMP indexes ^VIX changesPercentage",
+          "VIX point change: +11.57 \u2014 FMP indexes ^VIX change",
+          "TSLA close: 343.69 (-10.8%) \u2014 FMP mega_caps TSLA",
+          "META close: 605.08 (-4.0%) \u2014 FMP mega_caps META",
+          "ORCL close: 115.06 (-7.0%), dayLow 111.66, yearLow 111.66 \u2014 FMP mega_caps ORCL"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+        "source_url": "https://seekingalpha.com/article/4963729-market-swims-sea-red",
+        "source_notes": "https://seekingalpha.com/article/4963729-market-swims-sea-red"
       },
       {
-        "title": "US cash session recap \u2014 Nov. 5, 2026",
+        "title": "US session recap \u2014 Nov. 6, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Dow Jones Industrial Average closed +3.0% (+1,569.40 points) at 53,356.12, the largest percentage gain among the major U.S. benchmarks in the injected close data.\n\nThe S&P 500 finished +1.6% at 7,688.62 and the Nasdaq Composite +1.4% at 25,736.51; the Russell 2000 was +1.6% at 2,856.95.\n\nThe VIX \u2014 a gauge of expected stock-market swings \u2014 fell 20.3% to 16.61, from a prior close of 20.83.\n\nCoverage after the midterm elections described a broad \u201crelief\u201d tone in equities, with lower oil prices cited alongside the move in stocks.\n\nGold futures rose 1.9% to 4,150.60; the U.S. dollar proxy ($UUP) was -0.4% at 28.90 and bitcoin was roughly flat at 80,354.50 (-0.1%).\n\nOil-related instruments were weak:\n- $USO -8.1%\n- $XOM -4.5%\n- $COP -5.2%\n- $EOG -5.2%\n\nApple ($AAPL) led megacap attention at +5.3% to 349.51, with a session high of 354.47 matching its 52-week high in the dataset.\n\nSemiconductor and AI-linked heavyweights were softer despite the index rally:\n- $NVDA -3.2% to 200.13\n- $AVGO -2.0% to 325.48\n- $SOXL -8.8% to 66.68\n\nAlphabet ($GOOGL) rose 3.2% to 288.93; payment networks and banks participated in the up tape:\n- $V +3.8% to 436.57\n- $MA +3.9% to 672.68\n- $BAC +4.0% to 51.63\n\nAirbnb ($ABNB) closed +5.6% to 176.37 ahead of its scheduled earnings date; Alibaba ($BABA) was +4.9% to 105.32.\n\nKimberly-Clark ($KMB) reported EPS of 1.70 vs 1.65 estimated and revenue of 4.13B vs 4.13B estimated, with the stock +4.1% at 108.79.\n\nNorthwestern Energy ($NWE) posted EPS of 0.58 vs 0.733 estimated and revenue of 423.8M vs 412.3M estimated, and still finished +2.6% at 82.00.\n\nThe economic calendar listed U.S. jobless claims and nonfarm productivity for 2026-11-05 at 13:30 ET; the injected bundle did not include released actuals for those prints.\n\nTreasury yields in the file were dated 2026-11-03, with the 10-year at 5.0% and the 2s10s spread at 0.34 percentage points.\n\nOverseas indexes in the snapshot were mixed versus the U.S. close: Hang Seng +2.9%, FTSE +1.8%, Germany ETF proxy +3.4%, and Nikkei -1.5%.",
+        "body": "The Nasdaq Composite led major U.S. benchmarks lower, closing at 24,315.00 (-5.5%, -1,421.52 points).\nCoverage framed the session as an AI- and technology-led selloff that left the Nasdaq in correction territory after the election.\n\nThe S&P 500 finished at 7,353.73 (-4.4%, -334.89 points), with an intraday range between 7,350.35 and 7,681.29.\n\nThe Dow Jones Industrial Average closed at 51,523.06 (-3.4%, -1,833.06 points).\n\nThe Russell 2000 ended at 2,729.89 (-4.4%).\n\nThe VIX rose to 28.18 (+69.7%, +11.57), from a prior close of 16.61 \u2014 the largest one-day percentage jump in the injected tape for that gauge.\n\nSemiconductor and AI-linked megacaps carried much of the equity story:\n- $AMD -17.3% to 404.40\n- $TSM -10.8% to 353.10\n- $TSLA -10.8% to 343.69\n- $AVGO -10.4% to 291.53\n- $ASML -9.3% to 1,356.65\n- $ORCL -7.0% to 115.06\n\nwith $ORCL\u2019s session low at 111.66 matching its 52-week low in the data.\n$NVDA, among the most active symbols in the feed, closed at 181.60 (-9.3%).\n\n$INTC closed at 52.25 (-10.3%).\nLeveraged semiconductor products reflected the same direction: $SOXL -38.7% to 40.87 while the bear 3x semiconductors ETF $SOXS +39.2% to 81.22.\n\nAmong megacaps outside chips,:\n- $AAPL -1.5% to 344.17\n- $AMZN -2.2% to 260.21\n- $META -4.0% to 605.08\n\n$BABA bucked the decline, +2.6% to 108.07.\n\n$APP stood out among liquid advancers, +31.0% to 356.10.\n$CHTR, on the earnings calendar for the date, closed +4.7% to 125.86; $MRNA, also scheduled to report, finished -6.5% to 241.46.\n\nOverseas indexes in the feed showed risk-off tone after the U.S. tech move: Japan\u2019s Nikkei 225 at 57,456.17 (-5.9%), with WSJ tying the drop to chip stocks after the U.S. technology selloff.\nHang Seng -1.2% to 24,494.00; FTSE 100 -0.4% to 10,782.66.\n\nOil-linked quotes firmed: Brent crude at 99.64 (+1.4%) and the USO ETF at 148.21 (+1.9%), while gold futures (GCUSD) settled at 4,055.20 (-1.4%).\nBitcoin (BTCUSD) was 75,477.26 (-0.7%).\nThe UUP dollar-bull ETF edged to 28.92 (+0.1%).\n\nTreasury snapshot dated 2026-11-04 in the data showed the 10-year at 4.9% and a 2s10s spread of 0.32.\n\nThe economic calendar in the feed listed high-impact U.S. releases for Nov. 6 including October nonfarm payrolls (estimate 65K, prior 29K), unemployment rate (estimate 4.2%), and Michigan consumer sentiment for November (estimate 48); actual print values were not included in the injected close bundle.",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI: +3.0%, 53,356.12, change +1,569.40 \u2014 indexes",
-          "^GSPC: +1.6%, 7,688.62 \u2014 indexes",
-          "^IXIC: +1.4%, 25,736.51 \u2014 indexes",
-          "^RUT: +1.6%, 2,856.95 \u2014 indexes",
-          "^VIX: -20.3%, 16.61 \u2014 indexes",
-          "GCUSD: +1.9%, 4,150.60 \u2014 cross_asset gold",
-          "UUP: -0.4%, 28.90 \u2014 cross_asset dxy",
-          "BTCUSD: -0.1%, 80,354.50 \u2014 cross_asset btc",
-          "USO: -8.1%, 145.41 \u2014 cross_asset wti",
-          "BZUSD: -0.9%, 93.80 \u2014 cross_asset brent",
-          "XOM/COP/EOG/NVDA/AVGO/AAPL/GOOGL/V/MA/BAC/ABNB/BABA/KMB/NWE \u2014 mega_caps and earnings_calendar as cited",
-          "treasury year10: 4.95, spread_2s10s: 0.34 \u2014 treasury",
-          "^HSI, ^FTSE, EWG, ^N225 \u2014 overseas"
+          "Session date: 2026-11-06 \u2014 FMP_DATA session_date",
+          "^IXIC: 24,315.00, -5.5% \u2014 FMP indexes",
+          "^GSPC: 7,353.73, -4.4% \u2014 FMP indexes",
+          "^DJI: 51,523.06, -3.4% \u2014 FMP indexes",
+          "^RUT: 2,729.89, -4.4% \u2014 FMP indexes",
+          "^VIX: 28.18, +69.7% \u2014 FMP indexes",
+          "AMD, TSM, TSLA, AVGO, ASML, ORCL, NVDA, INTC \u2014 FMP mega_caps / actives",
+          "SOXL / SOXS \u2014 FMP liquid_losers / liquid_gainers",
+          "^N225: 57,456.17, -5.9% \u2014 FMP overseas",
+          "BZUSD: 99.64, +1.4%; USO: 148.21, +1.9% \u2014 FMP cross_asset",
+          "GCUSD: 4,055.20, -1.4%; BTCUSD: 75,477.26, -0.7% \u2014 FMP cross_asset",
+          "Treasury year10: 4.9, spread_2s10s: 0.32 \u2014 FMP treasury"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://www.barrons.com/articles/stocks-today-ai-trade-plummets-indexes-lower-691a1a68",
+        "source_notes": "https://www.barrons.com/articles/stocks-today-ai-trade-plummets-indexes-lower-691a1a68"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-11-05",
-    "generated_at": "2026-11-05T00:08:03-05:00",
-    "draft_path": "drafts/2026-11-05-week-ahead.md",
+    "session_date": "2026-11-06",
+    "generated_at": "2026-11-06T00:07:30-05:00",
+    "draft_path": "drafts/2026-11-06-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "October jobs print: 65K jobs expected",
+        "title": "Fluor reports with $0.80 EPS on the slate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "October nonfarm payrolls are on the calendar for November 6.\n\nConsensus: 65,000 jobs added.\n\nPrior month: 29,000.\n\nPrivate payrolls estimate: 64,000 (prior 46,000).\n\nUnemployment rate estimate: 4.2% (unchanged from 4.2% prior).\n\nU-6 underemployment estimate: 7.6%.\n\nAverage hourly earnings MoM estimate: 0.3% (prior 0.1%).\n\nAverage hourly earnings YoY estimate: 2.9% (prior 3.0%).\n\nThe release bundles hiring, the jobless rate, and wage growth in one print.\n\nWhich line do you watch first \u2014 headline jobs or wages?",
+        "body": "$FLR reports November 6.\n\nConsensus EPS: $0.80.\n\nRevenue estimate: about $4.16 billion.\n\nThe release is the quarterly read on Fluor\u2019s project backlog, margins, and how much new work it is booking versus finishing.\n\nThat matters for anyone tracking construction and energy-services demand without leaning on a single headline number.\n\nWhich line item do you watch first on Fluor\u2014backlog, margin, or cash flow?",
         "skip_reason": "",
         "supporting_data": [
-          "Non Farm Payrolls (Oct) estimate: 65K \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Oct) previous: 29K \u2014 source: FMP economic_calendar",
-          "Unemployment Rate (Oct) estimate: 4.2% \u2014 source: FMP economic_calendar",
-          "Nonfarm Payrolls Private (Oct) estimate: 64K \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings MoM (Oct) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "FLR EPS estimate: 0.804 \u2014 source: FMP earnings_calendar",
+          "FLR revenue estimate: 4164197000 \u2014 source: FMP earnings_calendar",
+          "FLR report date: 2026-11-06 \u2014 source: FMP earnings_calendar",
+          "FLR market cap: 6023697658 \u2014 source: FMP earnings_calendar"
+        ],
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+      },
+      {
+        "title": "PPL\u2019s $0.53 EPS print lands November 6",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "$PPL is on the calendar for November 6.\n\nEPS estimate: $0.53.\n\nRevenue estimate: about $2.41 billion.\n\nThe report shows how much the utility earned after operating its power lines and plants\u2014the kind of steady, regulated business that often moves less on hype and more on allowed returns and fuel costs.\n\nNovember 6 resolves the quarter in one release.\n\nWhat do you use to compare utilities\u2014EPS alone or dividend coverage?",
+        "skip_reason": "",
+        "supporting_data": [
+          "PPL EPS estimate: 0.531 \u2014 source: FMP earnings_calendar",
+          "PPL revenue estimate: 2412534000 \u2014 source: FMP earnings_calendar",
+          "PPL report date: 2026-11-06 \u2014 source: FMP earnings_calendar",
+          "PPL market cap: 27091620000 \u2014 source: FMP earnings_calendar"
+        ],
+        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+      },
+      {
+        "title": "October wage growth: 2.9% YoY at 8:30",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "Average Hourly Earnings (YoY) for October prints November 6 at 8:30 a.m.\nET.\n\nEstimate: 2.9%.\n\nPrior reading: 3.0%.\n\nThe number tracks how much the typical hourly wage rose versus a year ago\u2014it rides in the same jobs report as payrolls and unemployment, but speaks to pay pressure rather than headcount alone.\n\nMonth-over-month earnings are also on the calendar that morning, estimate 0.3% versus 0.1% prior.\n\nWhen jobs and wages diverge, which do you read first?",
+        "skip_reason": "",
+        "supporting_data": [
           "Average Hourly Earnings YoY (Oct) estimate: 2.9% \u2014 source: FMP economic_calendar",
-          "U-6 Unemployment Rate (Oct) estimate: 7.6% \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-11-06 13:30:00 \u2014 source: FMP economic_calendar"
+          "Average Hourly Earnings YoY (Oct) previous: 3% \u2014 source: FMP economic_calendar",
+          "Average Hourly Earnings MoM (Oct) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Average Hourly Earnings MoM (Oct) previous: 0.1% \u2014 source: FMP economic_calendar",
+          "Release date/time: 2026-11-06 13:30:00 (8:30 a.m.\nET) \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://site.financialmodelingprep.com/economic-calendar",
-        "source_notes": "https://site.financialmodelingprep.com/economic-calendar"
-      },
-      {
-        "title": "Humana, Moderna, Charter report November 6",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "November 6 earnings include insurers, biotech, and cable.\n\n- $HUM \u2014 EPS estimate \u22121.00; revenue estimate $40.87B\n- $MRNA \u2014 EPS estimate \u22121.10; revenue estimate $890.3M\n- $CHTR \u2014 EPS estimate 8.90; revenue estimate $13.51B\n\nAlso on that date:\n\n- $VST \u2014 EPS estimate 2.98\n- $BAM \u2014 EPS estimate 0.46\n- $UI \u2014 EPS estimate 4.25\n\nResults set the tone for health coverage, vaccine demand, and broadband subs into year-end.\n\nWhich of the three headline names are you tracking?",
-        "skip_reason": "",
-        "supporting_data": [
-          "$HUM EPS estimate: \u22121.00 \u2014 source: FMP earnings_calendar",
-          "$HUM revenue estimate: $40,872,960,000 \u2014 source: FMP earnings_calendar",
-          "$MRNA EPS estimate: \u22121.10 \u2014 source: FMP earnings_calendar",
-          "$MRNA revenue estimate: $890,251,500 \u2014 source: FMP earnings_calendar",
-          "$CHTR EPS estimate: 8.90 \u2014 source: FMP earnings_calendar",
-          "$CHTR revenue estimate: $13,509,670,000 \u2014 source: FMP earnings_calendar",
-          "Earnings date: 2026-11-06 \u2014 source: FMP earnings_calendar"
-        ],
-        "source_url": "https://site.financialmodelingprep.com/earnings-calendar",
-        "source_notes": "https://site.financialmodelingprep.com/earnings-calendar"
-      },
-      {
-        "title": "Michigan sentiment November: 48 on the tape",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "Michigan Consumer Sentiment (November) posts November 6.\n\nEstimate: 48.\n\nPrevious (October reading): 48.\n\nThe survey tracks how households feel about finances and the economy \u2014 a plain read on consumer mood, not spending itself.\n\nIt lands the same day as the October jobs report, so two high-impact US releases share the session.\n\nDo you treat sentiment as a lagging echo of markets or its own signal?",
-        "skip_reason": "",
-        "supporting_data": [
-          "Michigan Consumer Sentiment (Nov) estimate: 48 \u2014 source: FMP economic_calendar",
-          "Michigan Consumer Sentiment (Nov) previous: 48 \u2014 source: FMP economic_calendar",
-          "Release date/time: 2026-11-06 15:00:00 \u2014 source: FMP economic_calendar",
-          "Impact: High \u2014 source: FMP economic_calendar"
-        ],
-        "source_url": "https://site.financialmodelingprep.com/economic-calendar",
-        "source_notes": "https://site.financialmodelingprep.com/economic-calendar"
+        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
+        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
       }
     ]
   }

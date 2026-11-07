@@ -5,99 +5,100 @@ FMP brief: `data/2026-11-06-week-ahead.json`
 
 ---
 
-## Fluor reports with $0.80 EPS on the slate
+## Silicon Labs: 0.85 EPS on the calendar
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** Fluor Corporation is scheduled to report results on November 6, with analysts looking for about $0.80 per share on roughly $4.16 billion in revenue—the print covers engineering and project work for energy and infrastructure clients.
+**Short Summary:** Silicon Laboratories ($SLAB) is on the earnings calendar for November 5, 2026, with the street at $0.85 EPS and about $242 million in revenue—numbers that spell out how chip and IoT demand looked last quarter.
 
 ### Post Body
 
-$FLR reports November 6.
+$SLAB — consensus $0.85 EPS and ~$242M revenue on the November 5, 2026 earnings calendar.
 
-Consensus EPS: $0.80.
+Silicon Labs makes connectivity chips used in smart-home and industrial gear; the release is the profit-and-sales read for that business.
 
-Revenue estimate: about $4.16 billion.
+Revenue estimate in the feed: $242.01M.
 
-The release is the quarterly read on Fluor’s project backlog, margins, and how much new work it is booking versus finishing.
+The print is when those estimates meet actual results—no scorecard in this dataset yet.
 
-That matters for anyone tracking construction and energy-services demand without leaning on a single headline number.
+#earnings
 
-Which line item do you watch first on Fluor—backlog, margin, or cash flow?
+What do you usually check first on a small-cap semi report—EPS, revenue, or guidance?
 
 ### Supporting Data
 
-- FLR EPS estimate: 0.804 — source: FMP earnings_calendar
-- FLR revenue estimate: 4164197000 — source: FMP earnings_calendar
-- FLR report date: 2026-11-06 — source: FMP earnings_calendar
-- FLR market cap: 6023697658 — source: FMP earnings_calendar
+- SLAB EPS estimate: 0.845 (rounded 0.85) — source: FMP earnings_calendar
+- SLAB revenue estimate: 242005300 ($242.01M) — source: FMP earnings_calendar
+- Report date: 2026-11-05 — source: FMP earnings_calendar
+- Company: Silicon Laboratories Inc. — source: FMP earnings_calendar
 
-**Source URL:** https://financialmodelingprep.com/api/v3/earning_calendar
+**Source URL:** https://financialmodelingprep.com/stable/earnings-calendar
 
 ---
 
-## PPL’s $0.53 EPS print lands November 6
+## QXO: $4.83B revenue estimate on deck
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** PPL Corporation has earnings on November 6, with the street at about $0.53 EPS and roughly $2.41 billion in revenue—a routine check on regulated utility earnings and customer bills.
+**Short Summary:** QXO, Inc. ($QXO) shows on the November 5, 2026 calendar with a $0.13 EPS estimate and roughly $4.83 billion in expected revenue—the scale of the read for this building-products distributor.
 
 ### Post Body
 
-$PPL is on the calendar for November 6.
+$QXO — calendar date November 5, 2026.
 
-EPS estimate: $0.53.
+Consensus in the feed: $0.13 EPS.
 
-Revenue estimate: about $2.41 billion.
+Revenue estimate: ~$4.83B ($4,825,018,000).
 
-The report shows how much the utility earned after operating its power lines and plants—the kind of steady, regulated business that often moves less on hype and more on allowed returns and fuel costs.
+That pairing is the full-quarter snapshot analysts had penciled in before the report.
 
-November 6 resolves the quarter in one release.
+This feed row carries the estimate, not a reported actual—so the calendar line is what to watch when results post.
 
-What do you use to compare utilities—EPS alone or dividend coverage?
+#earnings
+
+Do you track revenue more than EPS on big distributors?
 
 ### Supporting Data
 
-- PPL EPS estimate: 0.531 — source: FMP earnings_calendar
-- PPL revenue estimate: 2412534000 — source: FMP earnings_calendar
-- PPL report date: 2026-11-06 — source: FMP earnings_calendar
-- PPL market cap: 27091620000 — source: FMP earnings_calendar
+- QXO EPS estimate: 0.13 (rounded 0.13) — source: FMP earnings_calendar
+- QXO revenue estimate: 4825018000 (~$4.83B) — source: FMP earnings_calendar
+- Report date: 2026-11-05 — source: FMP earnings_calendar
+- Market cap (feed): $11.99B — source: FMP earnings_calendar
 
-**Source URL:** https://financialmodelingprep.com/api/v3/earning_calendar
+**Source URL:** https://financialmodelingprep.com/stable/earnings-calendar
 
 ---
 
-## October wage growth: 2.9% YoY at 8:30
+## ImmunityBio: -$0.07 EPS consensus
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** On November 6 at 8:30 a.m. ET, the Labor Department publishes average hourly earnings for October, with year-over-year growth expected at 2.9% versus 3.0% prior—a gauge of how fast paychecks are rising alongside the jobs figures.
+**Short Summary:** ImmunityBio, Inc. ($IBRX) is scheduled on the November 5, 2026 earnings calendar with a -$0.07 EPS estimate and about $59.2 million in expected revenue—a biotech quarter where the loss per share and sales line both get scored at once.
 
 ### Post Body
 
-Average Hourly Earnings (YoY) for October prints November 6 at 8:30 a.m.
-ET.
+$IBRX — November 5, 2026 on the earnings calendar.
 
-Estimate: 2.9%.
+EPS estimate: -$0.07 (loss per share).
 
-Prior reading: 3.0%.
+Revenue estimate: ~$59.2M ($59,225,000).
 
-The number tracks how much the typical hourly wage rose versus a year ago—it rides in the same jobs report as payrolls and unemployment, but speaks to pay pressure rather than headcount alone.
+Negative EPS consensus means the street already modeled a money-losing quarter; revenue is the other number in the same release.
 
-Month-over-month earnings are also on the calendar that morning, estimate 0.3% versus 0.1% prior.
+No EPS actual is in this dataset for the row—only the pre-report consensus.
 
-When jobs and wages diverge, which do you read first?
+#earnings
+
+When EPS is negative, is revenue growth or cash burn what you watch?
 
 ### Supporting Data
 
-- Average Hourly Earnings YoY (Oct) estimate: 2.9% — source: FMP economic_calendar
-- Average Hourly Earnings YoY (Oct) previous: 3% — source: FMP economic_calendar
-- Average Hourly Earnings MoM (Oct) estimate: 0.3% — source: FMP economic_calendar
-- Average Hourly Earnings MoM (Oct) previous: 0.1% — source: FMP economic_calendar
-- Release date/time: 2026-11-06 13:30:00 (8:30 a.m.
-ET) — source: FMP economic_calendar
+- IBRX EPS estimate: -0.07 — source: FMP earnings_calendar
+- IBRX revenue estimate: 59225000 (~$59.2M) — source: FMP earnings_calendar
+- Report date: 2026-11-05 — source: FMP earnings_calendar
+- Company: ImmunityBio, Inc. — source: FMP earnings_calendar
 
-**Source URL:** https://financialmodelingprep.com/api/v3/economic_calendar
+**Source URL:** https://financialmodelingprep.com/stable/earnings-calendar

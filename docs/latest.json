@@ -1,205 +1,209 @@
 {
-  "updated_at": "2026-11-06T23:41:02-05:00",
+  "updated_at": "2026-11-07T23:28:14-05:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-11-06",
-    "generated_at": "2026-11-06T23:39:45-05:00",
-    "draft_path": "drafts/2026-11-06-am.md",
+    "session_date": "2026-11-07",
+    "generated_at": "2026-11-07T23:27:25-05:00",
+    "draft_path": "drafts/2026-11-07-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "October jobs added 165K, double the forecast",
+        "title": "Berkshire EPS $10.33 Beats $5.88 Estimate",
         "status": "ready",
         "kind": "x_idea",
-        "body": "October nonfarm payrolls: **165K** actual vs **65K** expected (prior **60K**).\n\nPrivate payrolls: **159K** vs **64K** expected.\n\nUnemployment rate: **4.1%** vs **4.2%** expected.\n\nAverage hourly earnings up **0.4%** month over month (est. **0.3%**) and **3.1%** year over year (est. **2.9%**).\n\nBroader U-6 unemployment\u2014includes discouraged workers and part-timers who want full-time work\u2014printed **7.9%** vs **7.9%** expected **7.6%**.\n\nU.S. indexes closed mixed after the release:\n\n- $SPY context: S&P 500 **+0.3%** to **7,378.90**\n- Nasdaq Composite **+1.1%** to **24,579.42**\n- Dow Jones **-0.5%** to **51,285.73**\n\nVolatility gauge VIX finished **-9.0%** at **25.64**.\n\nHow does a print this far above consensus square with the wage and U-6 lines on the same report?",
+        "body": "$BKR-B class reported EPS of $10.33 for the quarter that ended Nov. 7.\n\nThe Street had penciled in about $5.88 per share \u2014 the print came in roughly 76% above that figure.\n\nRevenue landed at $105.6 billion versus a consensus near $100.96 billion.\n\nClass A shares ($BRK-A) showed the same revenue line and EPS of $15,502 against an estimate near $8,822.\n\nBoth share classes trade on the NYSE; market cap in the release is on the order of $1.22 trillion.\n\nThat is operating results from Berkshire\u2019s insurance, railroad, energy, and equity portfolio \u2014 not a macro print, but it is one of the largest balance sheets in the U.S. reporting the same morning as the post-election narrative.\n\nWhich line matters more to you \u2014 the EPS gap or the revenue beat?",
         "skip_reason": "",
         "supporting_data": [
-          "Non Farm Payrolls (Oct): 165K actual, 65K estimate, 60K previous \u2014 source: FMP economic_calendar",
-          "Nonfarm Payrolls Private (Oct): 159K actual, 64K estimate \u2014 source: FMP economic_calendar",
-          "Unemployment Rate (Oct): 4.1% actual, 4.2% estimate \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings MoM (Oct): 0.4% actual, 0.3% estimate \u2014 source: FMP economic_calendar",
-          "Average Hourly Earnings YoY (Oct): 3.1% actual, 2.9% estimate \u2014 source: FMP economic_calendar",
-          "U-6 Unemployment Rate (Oct): 7.9% actual, 7.6% estimate \u2014 source: FMP economic_calendar",
-          "S&P 500 changesPercentage: 0.3%, price 7,378.90 \u2014 source: FMP indexes ^GSPC",
-          "NASDAQ Composite changesPercentage: 1.1%, price 24,579.42 \u2014 source: FMP indexes ^IXIC",
-          "Dow Jones changesPercentage: -0.5%, price 51,285.73 \u2014 source: FMP indexes ^DJI",
-          "VIX changesPercentage: -9.0%, price 25.64 \u2014 source: FMP indexes ^VIX"
-        ],
-        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-after-jobs-data-muted-ai-rebound-945344f6",
-        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-after-jobs-data-muted-ai-rebound-945344f6"
-      },
-      {
-        "title": "Michigan sentiment 51, three points above estimate",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "Michigan Consumer Sentiment (November): **51** actual vs **48** expected.\n\nPrior month: **48**.\n\nPrint time: **3:00 p.m.\nET** on the economic calendar, same session as the October jobs data.\n\nSame day, the S&P 500 closed **+0.3%** at **7,378.90** and the Dow was **-0.5%** at **51,285.73**.\n\nCoverage tied the week\u2019s equity swings to election-week volatility and a partial rebound in large technology names after prior-session declines\u2014not to this survey alone.\n\nWhat do you watch first when sentiment beats estimates on the same day as a much stronger jobs number?",
-        "skip_reason": "",
-        "supporting_data": [
-          "Michigan Consumer Sentiment (Nov): 51 actual, 48 estimate, 48 previous \u2014 source: FMP economic_calendar",
-          "S&P 500 price: 7,378.90, changesPercentage: 0.3% \u2014 source: FMP indexes ^GSPC",
-          "Dow Jones price: 51,285.73, changesPercentage: -0.5% \u2014 source: FMP indexes ^DJI"
-        ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-indexes-lower-on-week-after-volatility-0b37989b",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-indexes-lower-on-week-after-volatility-0b37989b"
-      },
-      {
-        "title": "Manufacturing payrolls 19K, government 6K",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "Manufacturing Payrolls (October): **19K** actual vs **5K** expected (prior **13K**).\n\nGovernment Payrolls (October): **6K** actual vs **-5K** expected (prior **-18K**).\n\nHeadline nonfarm payrolls for the month: **165K** vs **65K** expected.\n\nManufacturing contributed a larger slice of the upside than analysts had penciled in; government hiring also moved opposite the expected drag.\n\nReuters coverage the same day noted QatarEnergy looking at U.S. LNG supply from a NextDecade train\u2014energy policy and export capacity, separate from the payroll line items.\n\nTen-year Treasury yield in the injected snapshot (dated **2026-11-04**): **4.9%**.\n\nTwo-year: **4.6%**.\n\n2s10s spread: **0.32** percentage point.\n\nWhich part of the jobs split\u2014factories, government, or private **159K**\u2014matters most for your read on the labor report?",
-        "skip_reason": "",
-        "supporting_data": [
-          "Manufacturing Payrolls (Oct): 19K actual, 5K estimate, 13K previous \u2014 source: FMP economic_calendar",
-          "Government Payrolls (Oct): 6K actual, -5K estimate, -18K previous \u2014 source: FMP economic_calendar",
-          "Non Farm Payrolls (Oct): 165K actual, 65K estimate \u2014 source: FMP economic_calendar",
-          "Nonfarm Payrolls Private (Oct): 159K actual \u2014 source: FMP economic_calendar",
-          "Treasury year10: 4.9 \u2014 source: FMP treasury",
-          "Treasury year2: 4.58 \u2014 source: FMP treasury",
-          "Treasury spread_2s10s: 0.32 \u2014 source: FMP treasury"
-        ],
-        "source_url": "https://www.reuters.com/business/energy/qatarenergy-eyes-nextdecade-train-6-supply-latest-us-lng-push-sources-say-2026-11-06/",
-        "source_notes": "https://www.reuters.com/business/energy/qatarenergy-eyes-nextdecade-train-6-supply-latest-us-lng-push-sources-say-2026-11-06/"
-      }
-    ]
-  },
-  "close": {
-    "mode": "close",
-    "session_date": "2026-11-06",
-    "generated_at": "2026-11-06T23:40:24-05:00",
-    "draft_path": "drafts/2026-11-06.md",
-    "errors": [],
-    "slots": [
-      {
-        "title": "AMD up 11% as chips lead Nasdaq",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "$AMD +11.0% to 449.04.\n\nThe Nasdaq rose 1.1% to 24,579.42 while the S&P 500 added 0.3%; chip names were among the standouts after payrolls came in well above consensus.\n\n- $INTC +7.7% to 56.28\n- $TSM +6.3% to 375.44\n- $NVDA +2.8% to 186.64\n\nSession turnover on AMD was about 45.6M shares; the day\u2019s range ran 433.30\u2013459.78.\n\nWhich large chip name moved your watchlist the most on Friday?",
-        "skip_reason": "",
-        "supporting_data": [
-          "AMD change: +11.0% \u2014 mega_caps / EOD",
-          "AMD price: 449.04 \u2014 mega_caps",
-          "AMD volume: 45,607,871 \u2014 mega_caps",
-          "Nasdaq Composite: +1.1%, 24,579.42 \u2014 indexes ^IXIC",
-          "INTC: +7.7%, 56.28 \u2014 actives",
-          "TSM: +6.3%, 375.44 \u2014 mega_caps",
-          "NVDA: +2.8%, 186.64 \u2014 actives"
-        ],
-        "source_url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13",
-        "source_notes": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13"
-      },
-      {
-        "title": "Payrolls add 165K jobs in October",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "Nonfarm payrolls: **165K** actual vs **65K** estimate (prior **60K**).\n\nUnemployment **4.1%** vs **4.2%** expected.\n\nPrivate payrolls **159K** vs **64K** estimated.\n\nU.S. indexes split after the 8:30 a.m. release: Nasdaq **+1.1%**, S&P 500 **+0.3%**, Dow **-0.5%**.\n\nThe VIX fell **-9.0%** to **25.64**.\n\nLater, Michigan consumer sentiment (November) printed **51** vs **48** expected.\n\nHow did you read the mix of strong hiring and a higher sentiment read?",
-        "skip_reason": "",
-        "supporting_data": [
-          "Non Farm Payrolls actual: 165K \u2014 economic_calendar",
-          "Non Farm Payrolls estimate: 65K \u2014 economic_calendar",
-          "Unemployment Rate actual: 4.1% \u2014 economic_calendar",
-          "Nonfarm Payrolls Private actual: 159K \u2014 economic_calendar",
-          "S&P 500: +0.3%, 7,378.90 \u2014 indexes ^GSPC",
-          "Nasdaq: +1.1%, 24,579.42 \u2014 indexes ^IXIC",
-          "Dow: -0.5%, 51,285.73 \u2014 indexes ^DJI",
-          "VIX: -9.0%, 25.64 \u2014 indexes ^VIX",
-          "Michigan Consumer Sentiment actual: 51 \u2014 economic_calendar"
-        ],
-        "source_url": "https://seekingalpha.com/article/4964452-tech-stocks-rebound-nasdaq-is-still-in-correction-territory",
-        "source_notes": "https://seekingalpha.com/article/4964452-tech-stocks-rebound-nasdaq-is-still-in-correction-territory"
-      },
-      {
-        "title": "Charter drops 6.2% on quarterly loss",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "$CHTR **-6.2%** to **118.07**.\n\nEPS **-20.50** actual vs **+8.90** estimated.\n\nRevenue **$14.92B** actual vs **$13.50B** estimated.\n\nThe stock traded between **110.58** and **123.66** on roughly **6.5M** shares.\n\nCable and broadband peers were not uniformly lower in the session, but Charter was among the larger megacap decliners on the day.\n\nWhat stood out to you in the gap between the top and bottom lines?",
-        "skip_reason": "",
-        "supporting_data": [
-          "CHTR change: -6.2% \u2014 mega_caps",
-          "CHTR price: 118.07 \u2014 mega_caps",
-          "CHTR epsActual: -20.5 \u2014 earnings_calendar",
-          "CHTR epsEstimated: 8.9 \u2014 earnings_calendar",
-          "CHTR revenueActual: 14,922,000,000 \u2014 earnings_calendar",
-          "CHTR dayLow/dayHigh: 110.58 / 123.66 \u2014 mega_caps",
-          "CHTR volume: 6,463,152 \u2014 mega_caps"
+          "BRK-B EPS actual: 10.33 \u2014 [source: FMP earnings_calendar]",
+          "BRK-B EPS estimated: 5.88 \u2014 [source: FMP earnings_calendar]",
+          "BRK-B revenue actual: 105,600,000,000 \u2014 [source: FMP earnings_calendar]",
+          "BRK-B revenue estimated: 100,958,700,000 \u2014 [source: FMP earnings_calendar]",
+          "BRK-A EPS actual: 15,502 \u2014 [source: FMP earnings_calendar]",
+          "BRK-A EPS estimated: 8,821.84 \u2014 [source: FMP earnings_calendar]",
+          "Report date: 2026-11-07 \u2014 [source: FMP earnings_calendar]"
         ],
         "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
         "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
       },
       {
-        "title": "US session recap \u2014 Nov. 6, 2026",
+        "title": "Post-Election AI Spending in the Headlines",
         "status": "ready",
-        "kind": "x_recap",
-        "body": "The October employment report set the tone: **165,000** jobs added vs **65,000** expected, unemployment **4.1%**, and average hourly earnings **+3.1%** year over year.\nManufacturing payrolls rose **19K**; the broader private sector added **159K** vs a **64K** consensus.\n\nThe S&P 500 closed up **0.3%** at **7,378.90** (range **7,369.55\u20137,444.20**).\nThe Nasdaq Composite gained **1.1%** to **24,579.42**.\nThe Dow Jones Industrial Average slipped **0.5%** to **51,285.73**.\nThe Russell 2000 rose **0.9%** to **2,754.11**.\n\nNasdaq sector averages leaned toward defensive and cyclical areas: Healthcare **+2.0%**, Industrials **+1.7%**, Utilities **+1.6%**, Energy **+1.3%**.\nTechnology was the laggard at **-0.7%** on a sector-average basis despite many individual chip names finishing higher.\n\nSemiconductor and AI-related equities led the risk-on slice of the tape. **$AMD** rose **11.0%** to **449.04**; **$INTC** **+7.7%** to **56.28**; **$TSM** **+6.3%** to **375.44**. **$TSLA** gained **4.2%** to **358.22**. **$CRM** fell **-3.9%** to **213.65**; **$NFLX** **-3.3%** to **63.41**.\n\nEarnings tied to several large moves. **$MRNA** finished **+5.3%** at **254.19** after EPS **0.38** vs **-1.10** expected and revenue about **$1.31B** vs **$890M** estimated. **$HUM** **+5.3%** to **433.74** (EPS **-0.70** vs **-1.00** est.). **$VST** **+10.6%** to **124.80** (EPS **3.01** vs **2.98** est., revenue **$6.35B**). **$UI** **+15.3%** to **592.84** on a profit and sales beat. **$CHTR** **-6.2%** to **118.07** after EPS **-20.50** vs **+8.90** expected despite revenue above estimate. **$BAM**, **$BEN**, and **$ELAN** also reported; **$PAA** and **$PAGP** missed on EPS versus estimates.\n\nAfternoon data added **Michigan consumer sentiment (Nov)** at **51** vs **48** expected (prior **48**).\nPayrolls had already reshaped rate-path debate in headlines and commentary; the sentiment print arrived with the cash equity session largely settled.\n\nCross-asset moves were comparatively subdued.\nThe CBOE Volatility Index fell **9.0%** to **25.64**.\nGold futures slipped **-0.8%** to **4,079.60**.\nBrent crude was roughly flat at **98.32**; the oil ETF **USO** ticked **+0.1%** to **148.41**.\nThe dollar proxy **UUP** rose **+0.7%** to **29.13**; **EUR/USD** was **-0.7%** at **1.11**. **Bitcoin** was little changed, **+0.1%** to **75,787.05**.\n\nOverseas equity cues from the data set included the Nikkei **-6.0%**, FTSE **-1.0%**, Hang Seng **+2.4%**, and Germany exposure (**EWG**) **-2.7%**\u2014mostly outside U.S. cash hours but part of the global backdrop traders carried into the week\u2019s end.\n\nTreasury snapshot (dated **2026-11-04** in the feed): **10-year** at **4.9%**, **2-year** at **4.6%**, **2s10s spread** **0.32**.",
+        "kind": "x_idea",
+        "body": "After the midterms, several outlets describe investors weighing political resistance to AI spending and data centers \u2014 not a new regulation on the tape, but a policy story markets were already trading.\n\nThe Nasdaq Composite closed at 24,579.42, up 1.1% on the session.\n\nThe S&P 500 finished at 7,376.86, up 0.3%.\n\nThe VIX \u2014 a gauge of expected stock volatility \u2014 fell 9.0% to 25.64.\n\nThat session tone sits alongside week-ahead commentary that major indexes had swung from election optimism into a technology-led drawdown tied to those same policy worries.\n\nGridlock limits what one party can pass alone; the discussion in the feed is about sentiment and capex timing, not a single bill number.\n\nWhere do you draw the line between election headlines and company-level AI demand?",
         "skip_reason": "",
         "supporting_data": [
-          "NFP 165K / est. 65K \u2014 economic_calendar",
-          "^GSPC +0.3%, 7,378.90 \u2014 indexes",
-          "^IXIC +1.1%, 24,579.42 \u2014 indexes",
-          "^DJI -0.5%, 51,285.73 \u2014 indexes",
-          "^RUT +0.9%, 2,754.11 \u2014 indexes",
-          "^VIX -9.0%, 25.64 \u2014 indexes",
-          "Sector Healthcare +2.0%, Technology -0.7% \u2014 sectors",
-          "AMD +11.0%, TSLA +4.2%, CHTR -6.2%, MRNA +5.3% \u2014 mega_caps / earnings_calendar",
-          "GCUSD -0.8%, UUP +0.7%, BTCUSD +0.1% \u2014 cross_asset",
-          "Michigan sentiment 51 \u2014 economic_calendar",
-          "Treasury 10Y 4.9%, spread_2s10s 0.32 \u2014 treasury"
+          "^IXIC price: 24,579.42 \u2014 [source: FMP indexes]",
+          "^IXIC changesPercentage: 1.1% \u2014 [source: FMP indexes]",
+          "^GSPC price: 7,376.86 \u2014 [source: FMP indexes]",
+          "^GSPC changesPercentage: 0.3% \u2014 [source: FMP indexes]",
+          "^VIX price: 25.64 \u2014 [source: FMP indexes]",
+          "^VIX changesPercentage: -9.0% \u2014 [source: FMP indexes]",
+          "Session date: 2026-11-07 \u2014 [source: FMP session_date]"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-after-jobs-data-muted-ai-rebound-945344f6",
-        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-after-jobs-data-muted-ai-rebound-945344f6"
+        "source_url": "https://seekingalpha.com/article/4964176-midterms-can-delay-6-percent-of-ai-capex-at-most-qqq-is-now-defensive-index",
+        "source_notes": "https://seekingalpha.com/article/4964176-midterms-can-delay-6-percent-of-ai-capex-at-most-qqq-is-now-defensive-index"
+      },
+      {
+        "title": "Iran Tensions Still in the Oil Story",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "Oil markets this week reacted in part to U.S. politics and the war in Iran \u2014 not a single new sanctions headline in the feed, but a geopolitical frame for energy prices.\n\nBrent crude settled at $98.32, flat on the day (0.0%).\n\nThe U.S. Oil fund ($USO) closed at $148.41, up 0.1% on the session.\n\nCoverage notes that Gulf states are still bracing for possible escalation even after the midterm vote shifted expectations for how long fighting might last.\n\nHigher crude still shows up in household fuel costs in most states; Alaska\u2019s state budget is an exception because it earns from local production.\n\nDoes your read on oil start with the barrel price or with headlines out of the Middle East?",
+        "skip_reason": "",
+        "supporting_data": [
+          "BZUSD (Brent) price: 98.32 \u2014 [source: FMP cross_asset]",
+          "BZUSD changesPercentage: 0.0% \u2014 [source: FMP cross_asset]",
+          "USO price: 148.41 \u2014 [source: FMP cross_asset]",
+          "USO changesPercentage: 0.1% \u2014 [source: FMP cross_asset]",
+          "Session date: 2026-11-07 \u2014 [source: FMP session_date]"
+        ],
+        "source_url": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html",
+        "source_notes": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html"
+      }
+    ]
+  },
+  "close": {
+    "mode": "close",
+    "session_date": "2026-11-07",
+    "generated_at": "2026-11-07T23:27:56-05:00",
+    "draft_path": "drafts/2026-11-07.md",
+    "errors": [],
+    "slots": [
+      {
+        "title": "Chips rebound 6% as Nasdaq outpaces Dow",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "The Nasdaq Composite closed up 1.1% at 24,579.42.\n\nThe Dow Jones Industrial Average fell 0.5% to 51,285.73 \u2014 a split tape between growth and blue chips.\n\nLarge semiconductor names led the upside:\n\n- $TSM +6.3% to 375.44\n- $ASML +5.0% to 1,424.75\n- $NVDA +2.8% to 186.64\n\nThe Direxion 3x semiconductor bull fund $SOXL rose 12.5% to 45.97 on the session.\n\nCoverage of the week\u2019s technology decline pointed to macro fears around AI credit risk and political pushback on data-center buildouts after the midterms \u2014 not fresh earnings misses from the chip leaders.\n\nWhich large-cap name on your screen had the biggest Friday reversal?",
+        "skip_reason": "",
+        "supporting_data": [
+          "Nasdaq change: +1.1% \u2014 session close, FMP_DATA indexes ^IXIC",
+          "Nasdaq price: 24,579.42 \u2014 FMP_DATA indexes ^IXIC",
+          "Dow change: -0.5% \u2014 FMP_DATA indexes ^DJI",
+          "Dow price: 51,285.73 \u2014 FMP_DATA indexes ^DJI",
+          "TSM change: +6.3%, price 375.44 \u2014 FMP_DATA mega_caps TSM",
+          "ASML change: +5.0%, price 1,424.75 \u2014 FMP_DATA mega_caps ASML",
+          "NVDA change: +2.8%, price 186.64 \u2014 FMP_DATA mega_caps NVDA",
+          "SOXL change: +12.5%, price 45.97 \u2014 FMP_DATA actives SOXL"
+        ],
+        "source_url": "https://seekingalpha.com/article/4964652-dont-let-the-blue-wave-scare-you-out-of-chips",
+        "source_notes": "https://seekingalpha.com/article/4964652-dont-let-the-blue-wave-scare-you-out-of-chips"
+      },
+      {
+        "title": "Salesforce closes down 3.9% at 213.65",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "$CRM closed at 213.65, down 3.9% on the session.\n\nThe stock traded between 211.00 and 218.77 after a prior close of 222.41.\n\nThat move landed against a Nasdaq up 1.1% \u2014 software lagging the chip-led bounce.\n\nMicrosoft, another large cloud name, finished down 1.0% at 530.61 on the same day.\n\nDo you track enterprise software separately from semiconductors when the indexes diverge?",
+        "skip_reason": "",
+        "supporting_data": [
+          "CRM change: -3.9% \u2014 FMP_DATA mega_caps CRM",
+          "CRM price: 213.65 \u2014 FMP_DATA mega_caps CRM",
+          "CRM change (points): -8.76 \u2014 FMP_DATA mega_caps CRM",
+          "CRM day low/high: 211.00 / 218.77 \u2014 FMP_DATA mega_caps CRM",
+          "CRM previous close: 222.41 \u2014 FMP_DATA mega_caps CRM",
+          "MSFT change: -1.0%, price 530.61 \u2014 FMP_DATA mega_caps MSFT",
+          "Nasdaq change: +1.1% \u2014 FMP_DATA indexes ^IXIC"
+        ],
+        "source_url": "https://seekingalpha.com/article/4964579-what-moved-markets-this-week",
+        "source_notes": "https://seekingalpha.com/article/4964579-what-moved-markets-this-week"
+      },
+      {
+        "title": "Berkshire EPS 10.33 vs 5.88 estimate",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "Berkshire Hathaway reported for the Nov. 7 session.\n\nClass B $BRK-B: EPS actual 10.33 vs estimate 5.88.\n\nRevenue actual $105.6B vs estimate $100.96B.\n\nThe Class B share closed at 570.95, down 0.2% on the day \u2014 a modest price move versus the size of the EPS beat on the calendar.\n\nClass A $BRK-A reported EPS actual 15,502 vs estimate 8,821.84 on the same revenue figure.\n\nHow much do you weigh reported EPS against the closing tick on earnings day?",
+        "skip_reason": "",
+        "supporting_data": [
+          "BRK-B epsActual: 10.33 \u2014 FMP_DATA earnings_calendar",
+          "BRK-B epsEstimated: 5.88 \u2014 FMP_DATA earnings_calendar",
+          "revenueActual: 105,600,000,000 \u2014 FMP_DATA earnings_calendar",
+          "revenueEstimated: 100,958,700,000 \u2014 FMP_DATA earnings_calendar",
+          "BRK-B price: 570.95, change -0.2% \u2014 FMP_DATA mega_caps BRK-B",
+          "BRK-A epsActual: 15502, epsEstimated: 8,821.84 \u2014 FMP_DATA earnings_calendar"
+        ],
+        "source_url": "https://seekingalpha.com/article/4964579-what-moved-markets-this-week",
+        "source_notes": "https://seekingalpha.com/article/4964579-what-moved-markets-this-week"
+      },
+      {
+        "title": "US cash session \u2014 Nov. 7, 2026",
+        "status": "ready",
+        "kind": "x_recap",
+        "body": "The S&P 500 finished up 0.3% at 7,376.86, gaining 23.13 points after trading between 7,369.55 and 7,444.20.\nThe benchmark held below its 52-week high of 7,844.52 from the data.\n\nThe Nasdaq Composite led US equities, up 1.1% to 24,579.42.\nThat +264.43-point session stood apart from the Dow, which lost 0.5% and closed at 51,285.73.\n\nThe Russell 2000 rose 0.9% to 2,754.11.\nSmall caps participated in the risk-on tilt that favored growth over the Dow\u2019s 30 industrial names.\n\nThe CBOE Volatility Index fell 9.0% to 25.64, down 2.54 points from 28.18.\nThe session range ran from 23.47 to 27.76 \u2014 a softer close after a bruising week for technology in the headlines.\n\nSemiconductors dominated the megacap leaderboard.\nTaiwan Semiconductor $TSM rose 6.3% to 375.44.\nASML $ASML gained 5.0% to 1,424.75.\nNVIDIA $NVDA added 2.8% to 186.64 on heavy volume of 179.3 million shares.\nIntel $INTC, among the most active names, closed up 7.7% at 56.28.\n\nSoftware and select consumer megacaps lagged the Nasdaq.\nSalesforce $CRM fell 3.9% to 213.65.\nMicrosoft $MSFT was down 1.0% at 530.61.\nWalmart $WMT lost 1.7% to 125.52.\nApple $AAPL slipped 0.5% to 342.37.\n\nJohnson & Johnson $JNJ stood out on the plus side among defensives, up 1.4% to 276.22.\nAlphabet $GOOGL rose 0.8% to 284.78.\nBanks were slightly weaker: JPMorgan $JPM down 0.8% to 334.49, Bank of America $BAC down 0.7% to 49.42.\n\nBerkshire Hathaway released results on the calendar: Class B EPS 10.33 versus 5.88 estimated, revenue about $105.6 billion versus about $101.0 billion estimated.\n$BRK-B closed down 0.2% at 570.95; $BRK-A finished at 856,612.00.\n\nIn cross-asset markets, gold futures settled at 4,079.60, down 0.8%.\nThe US Oil Fund $USO edged up 0.1% to 148.41.\nBrent crude $BZUSD was flat at 98.32.\nThe dollar-bullish fund $UUP rose 0.7% to 29.13 while EUR/USD slipped to 1.11.\nBitcoin $BTCUSD ticked up 0.1% to 75,840.42.\n\nTreasury yields in the injected snapshot (dated 2026-11-05) showed the 10-year at 4.8% and the 2s10s spread at 0.38 percentage points \u2014 context for the session, not a same-day print in the feed.\n\nOvernight and overseas, Japan\u2019s Nikkei 225 was down 6.0% at 57,434.77.\nThe FTSE 100 lost 1.0%.\nHong Kong\u2019s Hang Seng rose 2.4% to 24,481.90 \u2014 a divergent global backdrop against the US chip-led bounce.\n\nAmong liquid advancers outside the megacap list, JFrog $FROG rose 35.3% to 100.98.\nFirefly Aerospace $FLY gained 36.8% to 20.76.\nOn the downside, iRhythm $IRTC fell 30.7% to 90.22 and Karat Packaging $KRT lost 34.8% to 33.54.\nNo major US economic releases appeared in the session economic calendar in the injected data.",
+        "skip_reason": "",
+        "supporting_data": [
+          "^GSPC: 7,376.86, +0.3% \u2014 FMP_DATA indexes",
+          "^IXIC: 24,579.42, +1.1% \u2014 FMP_DATA indexes",
+          "^DJI: 51,285.73, -0.5% \u2014 FMP_DATA indexes",
+          "^RUT: 2,754.11, +0.9% \u2014 FMP_DATA indexes",
+          "^VIX: 25.64, -9.0% \u2014 FMP_DATA indexes",
+          "TSM, ASML, NVDA, INTC, CRM, MSFT, BRK-B earnings \u2014 FMP_DATA mega_caps / earnings_calendar",
+          "GCUSD, USO, BZUSD, UUP, EURUSD, BTCUSD \u2014 FMP_DATA cross_asset",
+          "year10: 4.84, spread_2s10s: 0.38 \u2014 FMP_DATA treasury",
+          "^N225, ^FTSE, ^HSI \u2014 FMP_DATA overseas",
+          "FROG, FLY, IRTC, KRT \u2014 FMP_DATA liquid_gainers / liquid_losers"
+        ],
+        "source_url": "https://seekingalpha.com/article/4964576-the-1-minute-market-report-november-7-2026",
+        "source_notes": "https://seekingalpha.com/article/4964576-the-1-minute-market-report-november-7-2026"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-11-06",
-    "generated_at": "2026-11-06T23:41:02-05:00",
-    "draft_path": "drafts/2026-11-06-week-ahead.md",
+    "session_date": "2026-11-07",
+    "generated_at": "2026-11-07T23:28:14-05:00",
+    "draft_path": "drafts/2026-11-07-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Silicon Labs: 0.85 EPS on the calendar",
+        "title": "October CPI lands Tuesday 8:30 a.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$SLAB \u2014 consensus $0.85 EPS and ~$242M revenue on the November 5, 2026 earnings calendar.\n\nSilicon Labs makes connectivity chips used in smart-home and industrial gear; the release is the profit-and-sales read for that business.\n\nRevenue estimate in the feed: $242.01M.\n\nThe print is when those estimates meet actual results\u2014no scorecard in this dataset yet.\n\n#earnings\n\nWhat do you usually check first on a small-cap semi report\u2014EPS, revenue, or guidance?",
+        "body": "October CPI is on the calendar for Tuesday, Nov. 10, at 8:30 a.m.\nET.\n\nHeadline inflation is expected at 3.7% year-over-year, unchanged from the prior reading, and 0.3% month-over-month versus 0.6% last month.\n\nCore inflation \u2014 prices minus food and energy \u2014 is estimated at 2.5% YoY and 0.2% MoM versus 0.3% prior.\n\nThe release measures what households paid for goods and services and is one of the main inputs markets use to read price pressure.\n\nWhich line do you watch first: headline, core, or the monthly rate?",
         "skip_reason": "",
         "supporting_data": [
-          "SLAB EPS estimate: 0.845 (rounded 0.85) \u2014 source: FMP earnings_calendar",
-          "SLAB revenue estimate: 242005300 ($242.01M) \u2014 source: FMP earnings_calendar",
-          "Report date: 2026-11-05 \u2014 source: FMP earnings_calendar",
-          "Company: Silicon Laboratories Inc. \u2014 source: FMP earnings_calendar"
+          "Inflation Rate YoY (Oct) estimate: 3.7% \u2014 source: FMP economic_calendar",
+          "Inflation Rate MoM (Oct) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Core Inflation Rate YoY (Oct) estimate: 2.5% \u2014 source: FMP economic_calendar",
+          "Core Inflation Rate MoM (Oct) estimate: 0.2% \u2014 source: FMP economic_calendar",
+          "Core Inflation Rate MoM (Oct) previous: 0.3% \u2014 source: FMP economic_calendar",
+          "Release time: 2026-11-10 13:30:00 \u2014 source: FMP economic_calendar"
+        ],
+        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+      },
+      {
+        "title": "$CSCO and $AMAT report Wednesday",
+        "status": "ready",
+        "kind": "x_idea",
+        "body": "Wednesday, Nov. 12, brings two large-cap tech results.\n\n$CSCO \u2014 Cisco Systems \u2014 carries a consensus of $1.32 EPS and roughly $18.1 billion in revenue.\n\n$AMAT \u2014 Applied Materials \u2014 is modeled at $4.06 EPS and roughly $10.3 billion in revenue.\n\nCisco frames enterprise networking and security demand; Applied Materials reports on semiconductor equipment orders and backlog.\n\nBoth names report after the regular session closes on the 12th.\n\nNetworking or equipment \u2014 which print are you lining up for?",
+        "skip_reason": "",
+        "supporting_data": [
+          "CSCO date: 2026-11-12 \u2014 source: FMP earnings_calendar",
+          "CSCO epsEstimated: 1.32 \u2014 source: FMP earnings_calendar",
+          "CSCO revenueEstimated: 18106690000 (~$18.11B) \u2014 source: FMP earnings_calendar",
+          "AMAT date: 2026-11-12 \u2014 source: FMP earnings_calendar",
+          "AMAT epsEstimated: 4.06 \u2014 source: FMP earnings_calendar",
+          "AMAT revenueEstimated: 10299950000 (~$10.30B) \u2014 source: FMP earnings_calendar"
         ],
         "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
         "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
       },
       {
-        "title": "QXO: $4.83B revenue estimate on deck",
+        "title": "PPI October due Friday 8:30 a.m.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$QXO \u2014 calendar date November 5, 2026.\n\nConsensus in the feed: $0.13 EPS.\n\nRevenue estimate: ~$4.83B ($4,825,018,000).\n\nThat pairing is the full-quarter snapshot analysts had penciled in before the report.\n\nThis feed row carries the estimate, not a reported actual\u2014so the calendar line is what to watch when results post.\n\n#earnings\n\nDo you track revenue more than EPS on big distributors?",
+        "body": "Friday, Nov. 13, at 8:30 a.m.\nET: October producer price index.\n\nPPI month-over-month is estimated at 0.4%, down from 1.3% the prior month.\n\nPPI year-over-year is estimated at 6.1% versus 6.3% previously.\n\nCore PPI MoM is estimated at 0.3% versus 0.7% prior; core PPI YoY is estimated at 4.9% versus 5.0%.\n\nProducer prices track what businesses pay at the wholesale level \u2014 often read as an early read on pipeline costs before they reach consumer prices.\n\nDo you treat PPI as a leading signal for CPI or as its own number?",
         "skip_reason": "",
         "supporting_data": [
-          "QXO EPS estimate: 0.13 (rounded 0.13) \u2014 source: FMP earnings_calendar",
-          "QXO revenue estimate: 4825018000 (~$4.83B) \u2014 source: FMP earnings_calendar",
-          "Report date: 2026-11-05 \u2014 source: FMP earnings_calendar",
-          "Market cap (feed): $11.99B \u2014 source: FMP earnings_calendar"
+          "Producer Price Index MoM (Oct) estimate: 0.4% \u2014 source: FMP economic_calendar",
+          "Producer Price Index MoM (Oct) previous: 1.3% \u2014 source: FMP economic_calendar",
+          "Producer Price Index YoY (Oct) estimate: 6.1% \u2014 source: FMP economic_calendar",
+          "Producer Price Index YoY (Oct) previous: 6.3% \u2014 source: FMP economic_calendar",
+          "Core PPI MoM (Oct) estimate: 0.3% \u2014 source: FMP economic_calendar",
+          "Core PPI MoM (Oct) previous: 0.7% \u2014 source: FMP economic_calendar",
+          "Core PPI YoY (Oct) estimate: 4.9% \u2014 source: FMP economic_calendar",
+          "Release date: 2026-11-13 13:30:00 \u2014 source: FMP economic_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
-      },
-      {
-        "title": "ImmunityBio: -$0.07 EPS consensus",
-        "status": "ready",
-        "kind": "x_idea",
-        "body": "$IBRX \u2014 November 5, 2026 on the earnings calendar.\n\nEPS estimate: -$0.07 (loss per share).\n\nRevenue estimate: ~$59.2M ($59,225,000).\n\nNegative EPS consensus means the street already modeled a money-losing quarter; revenue is the other number in the same release.\n\nNo EPS actual is in this dataset for the row\u2014only the pre-report consensus.\n\n#earnings\n\nWhen EPS is negative, is revenue growth or cash burn what you watch?",
-        "skip_reason": "",
-        "supporting_data": [
-          "IBRX EPS estimate: -0.07 \u2014 source: FMP earnings_calendar",
-          "IBRX revenue estimate: 59225000 (~$59.2M) \u2014 source: FMP earnings_calendar",
-          "Report date: 2026-11-05 \u2014 source: FMP earnings_calendar",
-          "Company: ImmunityBio, Inc. \u2014 source: FMP earnings_calendar"
-        ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
+        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
       }
     ]
   }

@@ -5,119 +5,114 @@ FMP brief: `data/2026-11-10-week-ahead.json`
 
 ---
 
-## Wholesale inflation prints land Thursday 8:30 a.m.
+## Cisco, Applied Materials report Nov. 12
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** The Labor Department releases October producer price figures on Thursday morning, including month-over-month wholesale inflation est. 0.4% after September’s 1.3%.
+**Short Summary:** Two large-cap tech suppliers report on Wednesday with consensus EPS at $1.33 for $CSCO and $4.06 for $AMAT, alongside revenue estimates near $18.1B and $10.3B.
 
 ### Post Body
 
-October producer prices (PPI) hit Thursday, Nov. 13, at 8:30 a.m.
-ET.
+Wednesday, Nov. 12: $CSCO and $AMAT earnings.
 
-Wholesale inflation month over month is est. 0.4%; prior month was 1.3%.
+$CSCO (Cisco) — EPS estimate $1.33.
 
-Year-over-year PPI is est. 6.6%; prior read was 6.3%.
+Revenue estimate about $18.12B.
 
-Core PPI month over month is est. 0.3%; prior was 0.7%.
+$AMAT (Applied Materials) — EPS estimate $4.06.
 
-Core PPI year over year is est. 5.0%; prior was 5.0%.
+Revenue estimate about $10.30B.
 
-PPI tracks what businesses pay for goods and services before they reach consumers — a read on pipeline price pressure.
+Both print after the bell; numbers cover recent networking and chip-equipment demand.
 
-Which PPI line do you watch first: headline month over month or core year over year?
+Which line item do you watch first on semi equipment names — orders or guidance?
 
 ### Supporting Data
 
-- PPI MoM (Oct) estimate: 0.4% — [source: FMP economic_calendar]
-- PPI MoM (Oct) previous: 1.3% — [source: FMP economic_calendar]
-- PPI YoY (Oct) estimate: 6.6% — [source: FMP economic_calendar]
-- PPI YoY (Oct) previous: 6.3% — [source: FMP economic_calendar]
-- Core PPI MoM (Oct) estimate: 0.3% — [source: FMP economic_calendar]
-- Core PPI MoM (Oct) previous: 0.7% — [source: FMP economic_calendar]
-- Core PPI YoY (Oct) estimate: 5.0% — [source: FMP economic_calendar]
-- Release date/time: 2026-11-13 13:30:00 ET — [source: FMP economic_calendar]
+- [CSCO EPS estimate]: 1.33 — [source: FMP earnings_calendar]
+- [CSCO revenue estimate]: 18122840000 (~$18.12B) — [source: FMP earnings_calendar]
+- [AMAT EPS estimate]: 4.06 — [source: FMP earnings_calendar]
+- [AMAT revenue estimate]: 10303800000 (~$10.30B) — [source: FMP earnings_calendar]
+- [CSCO report date]: 2026-11-12 — [source: FMP earnings_calendar]
+- [AMAT report date]: 2026-11-12 — [source: FMP earnings_calendar]
 
-**Source URL:** https://seekingalpha.com/article/4965519-what-is-coming-weekly-blog-966
+**Source URL:** https://financialmodelingprep.com/stable/earnings-calendar
 
 ---
 
-## $CSCO and $AMAT report Wednesday
+## October PPI due Friday at 8:30 a.m.
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** Cisco and Applied Materials are on the calendar for Wednesday, Nov. 12, with consensus at $1.32 and $4.06 EPS and revenue estimates near $18.11B and $10.30B.
+**Short Summary:** Producer Price Index data for October lands Friday at 1:30 p.m. ET with headline month-over-month estimate at 0.4% and core month-over-month at 0.3%, measuring wholesale inflation before it reaches consumer prices.
 
 ### Post Body
 
-Two large-cap tech suppliers report Wednesday, Nov. 12.
+Friday, Nov. 13, 8:30 a.m.
+ET: October PPI (Producer Price Index — wholesale inflation).
 
-- $CSCO — EPS estimate $1.32; revenue estimate $18.11B
-- $AMAT — EPS estimate $4.06; revenue estimate $10.30B
+Headline PPI MoM estimate: 0.4% (prior month: 1.3%).
 
-$CSCO market cap about $388.94B; $AMAT about $294.07B.
+Core PPI MoM estimate: 0.3% (prior: 0.7%).
 
-Both names print after a session that saw the Nasdaq Composite close up 2.7% at 25,253.14 and the S&P 500 up 2.3% at 7,549.94.
+Producer Price Index YoY estimate: 6.6% (prior: 6.3%).
 
-The prints break out networking and semiconductor equipment demand for the quarter Wall Street models in those estimates.
+Same release window: core PPI YoY estimate 5.0%.
 
-Are you tracking revenue, EPS, or guidance more closely on $CSCO vs $AMAT?
+It tracks what businesses pay suppliers, often ahead of consumer CPI.
+
+After Tuesday’s CPI, which PPI slice are you lining up against — headline or core?
 
 ### Supporting Data
 
-- $CSCO EPS estimate: 1.32 — [source: FMP earnings_calendar]
-- $CSCO revenue estimate: $18.11B — [source: FMP earnings_calendar]
-- $CSCO market cap: $388.94B — [source: FMP earnings_calendar]
-- $AMAT EPS estimate: 4.06 — [source: FMP earnings_calendar]
-- $AMAT revenue estimate: $10.30B — [source: FMP earnings_calendar]
-- $AMAT market cap: $294.07B — [source: FMP earnings_calendar]
-- Earnings date: 2026-11-12 — [source: FMP earnings_calendar]
-- ^IXIC close: 25,253.14 (+2.7%) — [source: FMP indexes]
-- ^GSPC close: 7,549.94 (+2.3%) — [source: FMP indexes]
+- [PPI MoM estimate]: 0.4% — [source: FMP economic_calendar, event "Producer Price Index MoM (Oct)"]
+- [PPI MoM previous]: 1.3% — [source: FMP economic_calendar]
+- [Core PPI MoM estimate]: 0.3% — [source: FMP economic_calendar, event "Core PPI MoM (Oct)"]
+- [Core PPI MoM previous]: 0.7% — [source: FMP economic_calendar]
+- [Producer Price Index YoY estimate]: 6.6% — [source: FMP economic_calendar]
+- [Producer Price Index YoY previous]: 6.3% — [source: FMP economic_calendar]
+- [Release time]: 2026-11-13 13:30:00 America/New_York — [source: FMP economic_calendar]
 
-**Source URL:** https://seekingalpha.com/article/4965519-what-is-coming-weekly-blog-966
+**Source URL:** https://financialmodelingprep.com/stable/economic-calendar
 
 ---
 
-## Existing home sales Thursday at 3 p.m.
+## Existing home sales Oct. on Thursday
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** October resale home sales are due Thursday at 3:00 p.m. ET with a 3.98 million-unit estimate and month-over-month change est. 0.3% after September’s 1.5%.
+**Short Summary:** The National Association of Realtors’ October existing home sales print is due Thursday at 3:00 p.m. ET with a 3.98 million annualized rate estimate and month-over-month change estimate of 0.3%.
 
 ### Post Body
 
-October existing home sales release Thursday, Nov. 12, at 3:00 p.m.
-ET.
+Thursday, Nov. 12, 3:00 p.m.
+ET: Existing Home Sales (Oct) — completed sales of previously owned homes, annualized in millions.
 
-Volume estimate: 3.98M homes (annualized pace).
+Volume estimate: 3.98M (prior: 3.99M).
 
-Month-over-month change estimate: 0.3%.
-
-Prior month-over-month: 1.5%.
-
-Prior level: 3.99M.
-
-The report counts completed sales of previously owned homes — a gauge of mortgage rates, inventory, and housing turnover.
+Month-over-month estimate: 0.3% (prior: 1.5%).
 
 Same morning, 8:30 a.m.
-ET, brings initial jobless claims with a 195K estimate (prior 189K) and continuing claims est. 1,720K (prior 1,718K).
+ET: Initial Jobless Claims (Nov/07) estimate 195K (prior 189K).
 
-Does housing volume or the week’s labor claims print matter more for your read on the consumer?
+4-week average estimate: 192.5K (prior 194.75K).
+
+Thursday pairs housing turnover with a weekly layoff filing snapshot.
+
+Do you treat home sales as a level read or mostly the MoM change?
 
 ### Supporting Data
 
-- Existing Home Sales (Oct) estimate: 3.98M — [source: FMP economic_calendar]
-- Existing Home Sales (Oct) previous: 3.99M — [source: FMP economic_calendar]
-- Existing Home Sales MoM (Oct) estimate: 0.3% — [source: FMP economic_calendar]
-- Existing Home Sales MoM (Oct) previous: 1.5% — [source: FMP economic_calendar]
-- Release time: 2026-11-12 15:00:00 ET — [source: FMP economic_calendar]
-- Initial Jobless Claims estimate: 195K — [source: FMP economic_calendar]
-- Initial Jobless Claims previous: 189K — [source: FMP economic_calendar]
-- Continuing Jobless Claims estimate: 1,720K — [source: FMP economic_calendar]
+- [Existing Home Sales estimate]: 3.98M — [source: FMP economic_calendar, event "Existing Home Sales (Oct)"]
+- [Existing Home Sales previous]: 3.99M — [source: FMP economic_calendar]
+- [Existing Home Sales MoM estimate]: 0.3% — [source: FMP economic_calendar]
+- [Existing Home Sales MoM previous]: 1.5% — [source: FMP economic_calendar]
+- [Release date/time]: 2026-11-12 15:00:00 — [source: FMP economic_calendar]
+- [Initial Jobless Claims estimate]: 195K — [source: FMP economic_calendar, event "Initial Jobless Claims (Nov/07)"]
+- [Initial Jobless Claims previous]: 189K — [source: FMP economic_calendar]
+- [Jobless Claims 4-Week Average estimate]: 192.5K — [source: FMP economic_calendar]
 
-**Source URL:** https://seekingalpha.com/article/4965519-what-is-coming-weekly-blog-966
+**Source URL:** https://financialmodelingprep.com/stable/economic-calendar

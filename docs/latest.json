@@ -1,211 +1,219 @@
 {
-  "updated_at": "2026-11-13T00:05:16-05:00",
+  "updated_at": "2026-11-13T23:57:29-05:00",
   "morning": {
     "mode": "morning",
     "session_date": "2026-11-13",
-    "generated_at": "2026-11-13T00:04:01-05:00",
+    "generated_at": "2026-11-13T23:56:16-05:00",
     "draft_path": "drafts/2026-11-13-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Williams says Fed still has inflation work",
+        "title": "October wholesale inflation up 0.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Fed's Williams: inflation is still too high \u2014 central bank has \"work to do\" to get back on target.\n\nThat\u2019s wholesale prices and consumer inflation still running above what policymakers aim for, not a single jobs or CPI print in this headline.\n\nPrior session, risk gauges moved with the macro tone:\n- $SPX proxy ^GSPC -0.4% to 7,592.40\n- VIX +6.9% to 18.70\n\n10-year Treasury yield in the latest FMP snapshot: 5.0% (data dated 2026-11-10).\n\nWhat inflation gauge do you watch first \u2014 PPI today or something else?",
+        "body": "October\u2019s Producer Price Index (wholesale inflation for goods and services businesses buy) came in at +0.3% month over month.\n\nEconomists had expected +0.4%; September was +1.4%.\n\nYear over year, producer prices are up 6.5% vs a 6.6% estimate (September: 6.3%).\n\nCore PPI, which strips volatile food and energy, matched forecasts at +0.3% MoM and +5.0% YoY.\n\n\u201cPPI ex food, energy and trade\u201d \u2014 a narrower core measure \u2014 rose +0.5% MoM vs a +0.3% estimate.\n\nThe S&P 500 finished Nov. 13 at 7,560.97 (-0.4%); the Nasdaq at 25,138.73 (-0.9%).\n\n#economy #inflation\n\nWhich PPI line do you watch first \u2014 headline, core, or ex trade?",
         "skip_reason": "",
         "supporting_data": [
-          "S&P 500 change: -0.4% \u2014 [FMP: ^GSPC indexes]",
-          "S&P 500 level: 7,592.40 \u2014 [FMP: ^GSPC indexes]",
-          "VIX change: +6.9% \u2014 [FMP: ^GSPC indexes / ^VIX]",
-          "VIX level: 18.70 \u2014 [FMP: ^VIX indexes]",
-          "10-year Treasury: 5.0% \u2014 [FMP: treasury]",
-          "Treasury data date: 2026-11-10 \u2014 [FMP: treasury]"
+          "PPI MoM (Oct) actual: 0.3% \u2014 economic_calendar, FMP",
+          "PPI MoM estimate: 0.4% \u2014 economic_calendar, FMP",
+          "PPI MoM previous: 1.4% \u2014 economic_calendar, FMP",
+          "PPI YoY (Oct) actual: 6.5% \u2014 economic_calendar, FMP",
+          "PPI YoY estimate: 6.6% \u2014 economic_calendar, FMP",
+          "Core PPI MoM: 0.3% \u2014 economic_calendar, FMP",
+          "Core PPI YoY: 5.0% \u2014 economic_calendar, FMP",
+          "PPI Ex Food, Energy and Trade MoM: 0.5% (est. 0.3%) \u2014 economic_calendar, FMP",
+          "^GSPC: 7,560.97, -0.4% \u2014 indexes, FMP",
+          "^IXIC: 25,138.73, -0.9% \u2014 indexes, FMP"
         ],
-        "source_url": "https://www.reuters.com/business/feds-williams-says-central-bank-has-work-do-get-inflation-back-target-2026-11-13/",
-        "source_notes": "https://www.reuters.com/business/feds-williams-says-central-bank-has-work-do-get-inflation-back-target-2026-11-13/"
+        "source_url": "https://tickeralpha.ai",
+        "source_notes": "https://tickeralpha.ai"
       },
       {
-        "title": "Japan warns as yen crosses 160",
+        "title": "87% cite AI in Fed stability survey",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Japan\u2019s finance minister vows action \u2014 yen breached the 160 per dollar line.\n\nOfficials framed the move as one-sided and rapid, i.e. a sharp swing in the currency rather than a slow drift.\n\nAsia equity read from the overnight feed:\n- Nikkei 225 +0.8% to 61,294.96\n- Hang Seng -1.1% to 23,745.00\n\nU.S. dollar tone in cross-asset data: dollar-bullish ETF $UUP +0.2% to 29.42.\n\nEUR/USD flat at 1.11 in the same snapshot.\n\nWhen a major economy talks intervention, do you track FX first or the local stock index?",
+        "body": "The Fed released its financial stability report on Nov. 13.\n\nRespondents named AI-related risks as the biggest threat to the financial system \u2014 87% cited it in this survey, up from 50% in the spring 2026 edition.\n\nGovernor Philip Jefferson said the same day he is taking policy cues from inflation data, per Reuters.\n\nChicago Fed President Austan Goolsbee said in a separate interview that the Fed is missing on the inflation side of its dual mandate (price stability and jobs), and pointed to data-center construction as a large source of demand in the economy.\n\nThe CBOE Volatility Index closed at 19.30, up 3.2% on the session.\n\n10-year Treasury yield in the latest FMP snapshot (Nov. 10): 5.0%; 2-year: 4.7%; 2s\u201310s spread: 0.25 percentage point.\n\n#Fed #macro\n\nDid the jump in AI worry in the survey surprise you?",
         "skip_reason": "",
         "supporting_data": [
-          "Nikkei 225 change: +0.8% \u2014 [FMP: overseas ^N225]",
-          "Nikkei 225 level: 61,294.96 \u2014 [FMP: overseas ^N225]",
-          "Hang Seng change: -1.1% \u2014 [FMP: overseas ^HSI]",
-          "Hang Seng level: 23,745.00 \u2014 [FMP: overseas ^HSI]",
-          "UUP change: +0.2% \u2014 [FMP: cross_asset dxy]",
-          "UUP price: 29.42 \u2014 [FMP: cross_asset dxy]",
-          "EUR/USD: 1.11 \u2014 [FMP: cross_asset eurusd]"
+          "AI cited by 87% of Fed stability survey respondents \u2014 news (CNBC), FMP feed",
+          "Prior survey (spring 2026): 50% \u2014 news (CNBC), FMP feed",
+          "^VIX: 19.30, +3.2% \u2014 indexes, FMP",
+          "year10: 5.0% \u2014 treasury, FMP",
+          "year2: 4.7% \u2014 treasury, FMP",
+          "spread_2s10s: 0.25 \u2014 treasury, FMP"
         ],
-        "source_url": "https://www.reuters.com/markets/us/japans-finance-minister-vows-action-yen-breaches-160-threshold-2026-11-13/",
-        "source_notes": "https://www.reuters.com/markets/us/japans-finance-minister-vows-action-yen-breaches-160-threshold-2026-11-13/"
+        "source_url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+        "source_notes": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
       },
       {
-        "title": "10-year yield 5.0%, 2s10s at 0.25",
+        "title": "FAA halted U.S. departures nationwide",
         "status": "ready",
         "kind": "x_idea",
-        "body": "10-year Treasury: 5.0% in FMP\u2019s 2026-11-10 Treasury table.\n\n2s10s spread: 0.25 pt \u2014 the gap between short- and long-term government borrowing costs.\n\nMarketWatch: bond yields logged one of the largest jumps since 2022 as expectations shifted around how long rates might stay elevated.\n\nPrior U.S. session equity snapshot:\n- Dow -0.4% to 52,297.09\n- Nasdaq -0.4% to 25,366.09\n- Russell 2000 -1.7% to 2,799.06\n\nSmall caps lagged the large-cap indexes on that close.\n\nDoes a 5.0% 10-year change how you read today\u2019s PPI estimates (0.4% MoM headline PPI, 0.3% core MoM in the calendar)?",
+        "body": "The FAA temporarily halted departures across the United States on Nov. 13, citing safety concerns tied to air traffic control communication issues.\n\nBloomberg and the WSJ reported the ground stop applied broadly to departing traffic until further notice.\n\nHang Seng closed down 2.8% at 23,637.60 on the session in the FMP overseas set; Nikkei 225 was up 0.5% at 61,142.35; FTSE 100 up 0.4% at 10,902.56.\n\nIn U.S. indexes at the prior close: Dow Jones Industrial Average +0.1% at 52,347.55; S&P 500 -0.4%; Russell 2000 -0.3% at 2,790.49.\n\nBrent crude in the cross-asset feed: 95.84 (0.0% on the day); gold futures 3,886.30 (0.0%).\n\n#news #markets\n\nWere you or someone you know caught in the ground stop?",
         "skip_reason": "",
         "supporting_data": [
-          "10-year Treasury (year10): 5.0% \u2014 [FMP: treasury]",
-          "2-year Treasury (year2): 4.7% \u2014 [FMP: treasury]",
-          "spread_2s10s: 0.25 \u2014 [FMP: treasury]",
-          "Treasury snapshot date: 2026-11-10 \u2014 [FMP: treasury]",
-          "Dow change: -0.4% \u2014 [FMP: ^DJI indexes]",
-          "Dow level: 52,297.09 \u2014 [FMP: ^DJI indexes]",
-          "Nasdaq change: -0.4% \u2014 [FMP: ^IXIC indexes]",
-          "Nasdaq level: 25,366.09 \u2014 [FMP: ^IXIC indexes]",
-          "Russell 2000 change: -1.7% \u2014 [FMP: ^RUT indexes]",
-          "Russell 2000 level: 2,799.06 \u2014 [FMP: ^RUT indexes]",
-          "PPI MoM (Oct) estimate: 0.4% \u2014 [FMP: economic_calendar]",
-          "Core PPI MoM (Oct) estimate: 0.3% \u2014 [FMP: economic_calendar]"
+          "^HSI: 23,637.60, -2.8% \u2014 overseas, FMP",
+          "^N225: 61,142.35, +0.5% \u2014 overseas, FMP",
+          "^FTSE: 10,902.56, +0.4% \u2014 overseas, FMP",
+          "^DJI: 52,347.55, +0.1% \u2014 indexes, FMP",
+          "^GSPC changesPercentage: -0.4% \u2014 indexes, FMP",
+          "^RUT: 2,790.49, -0.3% \u2014 indexes, FMP",
+          "Brent (BZUSD): 95.84, 0.0% \u2014 cross_asset, FMP",
+          "Gold (GCUSD): 3,886.30, 0.0% \u2014 cross_asset, FMP"
         ],
-        "source_url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195",
-        "source_notes": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195"
+        "source_url": "https://www.wsj.com/us-news/faa-temporarily-halts-flights-across-u-s-b9b06e59",
+        "source_notes": "https://www.wsj.com/us-news/faa-temporarily-halts-flights-across-u-s-b9b06e59"
       }
     ]
   },
   "close": {
     "mode": "close",
     "session_date": "2026-11-13",
-    "generated_at": "2026-11-13T00:04:35-05:00",
+    "generated_at": "2026-11-13T23:56:45-05:00",
     "draft_path": "drafts/2026-11-13.md",
     "errors": [],
     "slots": [
       {
-        "title": "Nvidia down 4.3% after Huang exit headlines",
+        "title": "AMD closes down 8.8% in one session",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$NVDA closed -4.3% at 166.19, session low 166.19 area vs prior close 173.73.\n\nU.S. equities slipped after the sudden ouster of one of the main architects of the artificial-intelligence boom sent shockwaves through the technology sector, per WSJ coverage of the session.\n\nThe stock was among the most active names on the tape, with chip-linked ETFs also drawing volume (e.g.:\n- $SOXL -0.8%\n- $NVDL -9.0%\n\n).\n\n- $NVDA -4.3% to 166.19\n\nDid you track chip weight in your index exposure through this close?",
+        "body": "$AMD \u22128.8% to $534.06.\n\nThe session low was $520.01; prior close was $585.30.\n\nCoverage of the day described U.S. stocks as mixed with rate worries back in focus and tumult at Nvidia spilling into the wider semiconductor sector.\n\n- $NVDA \u22122.0% to $162.85\n- $TSM \u22121.7% to $398.73\n- $SOXL \u221211.0% to $58.32\n\nThe Nasdaq Composite closed \u22120.9% at 25,138.73 while the S&P 500 was \u22120.4% at 7,560.97.\n\nWhich large chip name moved your watchlist the most on the close?",
         "skip_reason": "",
         "supporting_data": [
-          "NVDA change %: -4.3% \u2014 FMP mega_caps / quote",
-          "NVDA price: 166.19 \u2014 FMP mega_caps",
-          "NVDA previous close: 173.73 (implied from change -7.54) \u2014 FMP mega_caps change field",
-          "^GSPC: -0.4% to 7,592.40 \u2014 FMP indexes"
+          "AMD change: \u22128.8% \u2014 FMP mega_caps / session 2026-11-13",
+          "AMD price: $534.06 \u2014 FMP mega_caps",
+          "AMD day low: $520.01 \u2014 FMP mega_caps",
+          "NVDA: \u22122.0% to $162.85 \u2014 FMP actives",
+          "TSM: \u22121.7% to $398.73 \u2014 FMP mega_caps",
+          "SOXL: \u221211.0% to $58.32 \u2014 FMP actives",
+          "^IXIC: \u22120.9% to 25,138.73 \u2014 FMP indexes",
+          "^GSPC: \u22120.4% to 7,560.97 \u2014 FMP indexes"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-huang-ouster-sends-shockwaves-through-tech-5b0aa02a",
-        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-huang-ouster-sends-shockwaves-through-tech-5b0aa02a"
+        "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-on-nvidia-fallout-fears-f9946e8d",
+        "source_notes": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-on-nvidia-fallout-fears-f9946e8d"
       },
       {
-        "title": "AMD and Broadcom up 5.9% and 5.5%",
+        "title": "Defensive staples up while cyclicals lag",
         "status": "ready",
         "kind": "x_idea",
-        "body": "While $NVDA fell -4.3%, two large chip names closed much higher on the prior U.S. session.\n\n- $AMD +5.9% to 585.30\n- $AVGO +5.5% to 364.36\n\nBarron\u2019s noted the Nvidia drop hurt indexes while investors rotated into other chip plays.\n\n$TSM closed -1.9% to 405.49 on the day.\n\nWhich name mattered more for your read of the group: the laggard or the rotators?",
+        "body": "October U.S. producer prices: +0.3% month over month (estimate +0.4%); +6.5% year over year.\n\nNasdaq sector averages for the close:\n\n- Consumer Defensive +1.1%\n- Consumer Cyclical \u22121.5%\n\nNamed staples at the bell:\n\n- $KO +1.9% to $99.25\n- $PEP +2.2% to $145.44\n- $WMT +1.5% to $128.09\n- $PG +1.1% to $169.80\n\n$KO\u2019s day high matched its 52-week high of $99.30 in the session range.\n\nHow much do you map sector color to the same-day inflation print vs. single-stock flows?",
         "skip_reason": "",
         "supporting_data": [
-          "AMD changesPercentage: 5.9% \u2014 FMP mega_caps",
-          "AMD price: 585.30 \u2014 FMP mega_caps",
-          "AVGO changesPercentage: 5.5% \u2014 FMP mega_caps",
-          "AVGO price: 364.36 \u2014 FMP mega_caps",
-          "TSM changesPercentage: -1.9% \u2014 FMP mega_caps",
-          "TSM price: 405.49 \u2014 FMP mega_caps",
-          "NVDA changesPercentage: -4.3% \u2014 FMP mega_caps"
+          "PPI MoM (Oct) actual: 0.3% \u2014 FMP economic_calendar",
+          "PPI MoM estimate: 0.4% \u2014 FMP economic_calendar",
+          "PPI YoY (Oct) actual: 6.5% \u2014 FMP economic_calendar",
+          "Consumer Defensive averageChange: +1.1% (rounded from +1.1%) \u2014 FMP sectors",
+          "Consumer Cyclical averageChange: \u22121.5% (rounded from \u22121.5%) \u2014 FMP sectors",
+          "KO: +1.9%, $99.25, yearHigh $99.30 \u2014 FMP mega_caps",
+          "PEP: +2.2%, $145.44 \u2014 FMP mega_caps",
+          "WMT: +1.5%, $128.09 \u2014 FMP mega_caps",
+          "PG: +1.1%, $169.80 \u2014 FMP mega_caps"
         ],
-        "source_url": "https://www.barrons.com/articles/stocks-today-jensen-huang-resignation-rattles-indexes-ai-trade-8f4b98aa",
-        "source_notes": "https://www.barrons.com/articles/stocks-today-jensen-huang-resignation-rattles-indexes-ai-trade-8f4b98aa"
+        "source_url": "https://www.wsj.com/economy/consumers/the-next-wave-of-food-inflation-is-coming-b06f37db",
+        "source_notes": "https://www.wsj.com/economy/consumers/the-next-wave-of-food-inflation-is-coming-b06f37db"
       },
       {
-        "title": "Russell 2000 down 1.7% as VIX hits 18.7",
+        "title": "Nasdaq \u22120.9% as tech averages \u22121.1%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Breadth looked softer outside the large-cap benchmarks.\n\n- ^RUT -1.7% to 2,799.06\n- ^GSPC -0.4% to 7,592.40\n- ^IXIC -0.4% to 25,366.09\n- ^DJI -0.4% to 52,297.09\n\n^VIX rose +6.9% to 18.70 (prior close 17.49).\n\nNo single headline in the feed tied directly to the Russell gap vs the S&P.\n\nWhere do you usually look first when small caps diverge like this?",
+        "body": "^IXIC \u22120.9% to 25,138.73 (\u2212227.37 pts).\n\n^DJI +0.1% to 52,347.55.\n\n^GSPC \u22120.4% to 7,560.97.\n\nTechnology (NASDAQ average) \u22121.1% for the session.\n\nSame-day framing in the press pointed to tech weakness with Nvidia finishing lower and a heavier week ahead for AI-linked trades.\n\n- $GOOGL \u22121.0% to $295.77\n- $ORCL \u22121.4% to $125.35\n- $TSLA \u22121.8% to $390.22\n\n^VIX +3.2% to 19.30.\n\nDoes a softer Nasdaq with a slightly higher Dow match what you saw in your sector weights?",
         "skip_reason": "",
         "supporting_data": [
-          "^RUT changesPercentage: -1.7% \u2014 FMP indexes",
-          "^RUT price: 2,799.06 \u2014 FMP indexes",
-          "^GSPC changesPercentage: -0.4% \u2014 FMP indexes",
-          "^IXIC changesPercentage: -0.4% \u2014 FMP indexes",
-          "^DJI changesPercentage: -0.4% \u2014 FMP indexes",
-          "^VIX changesPercentage: 6.9% \u2014 FMP indexes",
-          "^VIX price: 18.70 \u2014 FMP indexes",
-          "^VIX previousClose: 17.49 \u2014 FMP indexes"
+          "^IXIC: \u22120.9%, 25,138.73, change \u2212227.37 \u2014 FMP indexes",
+          "^DJI: +0.1%, 52,347.55 \u2014 FMP indexes",
+          "^GSPC: \u22120.4%, 7,560.97 \u2014 FMP indexes",
+          "Technology sector averageChange: \u22121.1% (rounded from \u22121.1%) \u2014 FMP sectors",
+          "GOOGL: \u22121.0%, $295.77 \u2014 FMP mega_caps",
+          "ORCL: \u22121.4%, $125.35 \u2014 FMP mega_caps",
+          "TSLA: \u22121.8%, $390.22 \u2014 FMP mega_caps",
+          "^VIX: +3.2%, 19.30 \u2014 FMP indexes"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/quote/^RUT,^VIX,^GSPC",
-        "source_notes": "https://financialmodelingprep.com/api/v3/quote/^RUT,^VIX,^GSPC"
+        "source_url": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49",
+        "source_notes": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49"
       },
       {
-        "title": "U.S. close \u2014 Nov. 13, 2026",
+        "title": "US close \u2014 Nov. 13, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 finished at 7,592.40, down 0.4% (-26.98 points), with an intraday range of 7,550.84 to 7,652.76.\nThe session was part of a broader tech-led narrative tied to sudden leadership change at the center of the AI trade, with large-cap indexes moving in lockstep rather than diverging.\n\nThe Nasdaq Composite closed at 25,366.09, also -0.4%, while the Dow Jones Industrial Average ended at 52,297.09, -0.4%.\nDespite the uniform percentage move among those three, the Russell 2000 was weaker at 2,799.06, -1.7%, suggesting more pressure under the surface in smaller companies than in the headline indexes.\n\nNVIDIA was the standout megacap decliner among the most watched names, closing at 166.19, -4.3%.\nCoverage linked the drop to fallout from the abrupt exit of a key figure behind the AI boom, with technology stocks absorbing the shock.\nTrading interest showed up in the actives list, where $NVDA sat alongside levered chip products.\n\nRotation within semiconductors showed up in the price data: Advanced Micro Devices rose 5.9% to 585.30 and Broadcom gained 5.5% to 364.36 on heavy volume (AMD volume 55,014,886; AVGO 43,502,367).\nTaiwan Semiconductor slipped 1.9% to 405.49.\nOracle, which had been a recent mover, eased 1.0% to 127.14.\n\nAmong other megacaps, Alphabet Class A shares rose 1.8% to 298.70 and Microsoft edged up 0.4% to 523.00.\nMeta fell 0.8% to 623.61, Netflix declined 2.9% to 62.69, and Visa lost 1.2% to 420.31.\nApple was essentially flat, -0.1% at 354.88.\nExxon Mobil rose 1.8% to 169.78; Johnson & Johnson gained 1.1% to 283.52; Costco touched a session high of 1,102.84 and closed 0.4% higher at 1,092.21.\n\nThe CBOE Volatility Index closed at 18.70, up 6.9% from 17.49, with an intraday high of 19.34.\nThat move accompanied the equity slip rather than a calm, range-bound tape.\n\nIn cross-assets, gold futures rose 0.7% to 3,914.10.\nThe United States Oil Fund (a common WTI exposure) gained 3.3% to 146.07, while Brent crude was -0.3% at 95.57.\nThe dollar proxy (UUP) ticked up 0.2% to 29.42.\nBitcoin fell 4.1% to 68,476.28.\n\nTreasury yields in the dataset carried a November 10 stamp: the 2-year at 4.7%, 10-year at 5.0%, and the 2s10s spread at 0.25 percentage points.\nFresh yield prints were not part of this close bundle.\n\nOverseas indexes in the feed were mixed: Japan\u2019s Nikkei 225 rose 0.8% to 61,299.33, the FTSE 100 gained 0.3% to 10,863.09, the Hang Seng fell 1.1% to 23,744.50, and the Germany ETF proxy (EWG) was -0.5% at 42.81.\n\nThe economic calendar listed multiple U.S. producer-price (PPI) releases for October at 13:30 on this date, including month-over-month headline PPI with a 0.4% estimate and core month-over-month at 0.3%.\nNo actual PPI figures were included in this data snapshot, so the recap stops at what was scheduled.\n\nNo earnings results with reported actuals appeared in the earnings calendar for this bundle.\nSector performance breakdowns were not populated in the feed for this session.",
+        "body": "The S&P 500 closed at 7,560.97, down 31.43 points (\u22120.4%).\nThe session ranged from 7,499.40 to 7,621.78.\n\nThe Nasdaq Composite finished at 25,138.73, down 227.37 points (\u22120.9%), with an intraday low of 24,872.41.\nThe Dow Jones Industrial Average was the outlier among the large caps, up 50.46 points (+0.1%) to 52,347.55.\nThe Russell 2000 slipped \u22120.3% to 2,790.49.\n\nAt 8:30 a.m.\nET the Bureau\u2019s October producer price data hit the wire: month-over-month change +0.3% versus a +0.4% consensus; year-over-year +6.5% versus 6.6% expected.\nCore PPI was +0.3% month over month and +5.0% year over year, matching estimates on both.\nA broader \u201cex food, energy and trade\u201d slice rose +0.5% month over month.\n\nSector-wise on Nasdaq, real estate led declines at about \u22121.8%, followed by consumer cyclical (\u22121.5%), utilities (\u22121.3%), and technology (\u22121.1%).\nConsumer defensive averaged about +1.1%, and energy about +0.5%.\nFinancial services and healthcare were roughly flat to slightly negative.\n\nSemiconductor stress stood out among liquid large names.\n$AMD closed \u22128.8% at $534.06 after trading as low as $520.01.\n$NVDA was \u22122.0% at $162.85 on heavy activity lists; $TSM \u22121.7% at $398.73.\nThe 3\u00d7 bull semiconductor ETF $SOXL fell \u221211.0% to $58.32 while the bear counterpart $SOXS rose +11.1% to $50.78.\n\nMega-cap tech and AI-adjacent names mostly weakened: $GOOGL \u22121.0% to $295.77, $ORCL \u22121.4% to $125.35, $TSLA \u22121.8% to $390.22, $AMZN \u22120.3% to $266.66.\n$ASML was essentially flat at $1,495.16 (\u22120.1%).\n\nDefensive household names moved the other way:\n- $KO +1.9%\n- $PEP +2.2%\n- $WMT +1.5%\n- $PG +1.1%\n- $JNJ +0.8%\n- $COST +1.3%\n- $MA +1.3%\n- $BAC +1.0%\n\nto $51.02.\n\nEnergy equities firmed with $CVX +1.6% to $219.89.\nOn the commodity tape, Brent crude was little changed at $95.84; the oil ETF proxy $USO was \u22120.3% at $145.58.\nGold futures $GCUSD closed near flat at $3,886.30.\n\nCross-asset, bitcoin was \u22121.7% at $67,057.01.\nThe dollar-bull ETF $UUP rose +0.3% to $29.50; EUR/USD \u22120.3% at 1.10.\nTreasury snapshot (dated 2026-11-10 in the feed) showed the 10-year at 5.0% and the 2s10s spread at 0.25 percentage point.\n\nImplied volatility rose: the VIX closed at 19.30, up +3.2% on the day, with an intraday high of 20.92.\nOverseas earlier, the Hang Seng was \u22122.8%; the Nikkei +0.5%, FTSE 100 +0.4%.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,592.40, -0.4% \u2014 FMP indexes",
-          "^IXIC: 25,366.09, -0.4% \u2014 FMP indexes",
-          "^DJI: 52,297.09, -0.4% \u2014 FMP indexes",
-          "^RUT: 2,799.06, -1.7% \u2014 FMP indexes",
-          "^VIX: 18.70, +6.9% \u2014 FMP indexes",
-          "NVDA: 166.19, -4.3% \u2014 FMP mega_caps",
-          "AMD: 585.30, +5.9% \u2014 FMP mega_caps",
-          "AVGO: 364.36, +5.5% \u2014 FMP mega_caps",
-          "GCUSD gold: 3,914.10, +0.7% \u2014 FMP cross_asset",
-          "BTCUSD: 68,476.28, -4.1% \u2014 FMP cross_asset",
-          "Treasury 10y: 5.0% (date 2026-11-10) \u2014 FMP treasury"
+          "Session date: 2026-11-13 \u2014 FMP_DATA session_date",
+          "^GSPC: 7,560.97, \u22120.4% \u2014 FMP indexes",
+          "^IXIC: 25,138.73, \u22120.9% \u2014 FMP indexes",
+          "^DJI: 52,347.55, +0.1% \u2014 FMP indexes",
+          "^RUT: 2,790.49, \u22120.3% \u2014 FMP indexes",
+          "PPI MoM: 0.3% actual, 0.4% estimate \u2014 FMP economic_calendar",
+          "PPI YoY: 6.5% \u2014 FMP economic_calendar",
+          "^VIX: 19.30, +3.2% \u2014 FMP indexes",
+          "AMD: \u22128.8%, $534.06 \u2014 FMP mega_caps",
+          "KO/PEP/WMT/CVX: as in post \u2014 FMP mega_caps",
+          "GCUSD: $3,886.30 \u2014 FMP cross_asset",
+          "BTCUSD: $67,057.01, \u22121.7% \u2014 FMP cross_asset",
+          "year10: 5.0%, spread_2s10s: 0.25 \u2014 FMP treasury"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+        "source_notes": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
     "session_date": "2026-11-13",
-    "generated_at": "2026-11-13T00:05:16-05:00",
+    "generated_at": "2026-11-13T23:57:29-05:00",
     "draft_path": "drafts/2026-11-13-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Dillard\u2019s EPS estimate $8.05",
+        "title": "October home resales 3.75M vs 3.85M est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$DDS \u2014 earnings on the calendar with EPS estimate $8.05.\n\nRevenue estimate about $1.48B.\n\nThe print is the read on mall-based apparel and home spending versus what analysts already baked in.\n\nWhat line item do you watch first on a department-store report \u2014 comp sales or gross margin?",
+        "body": "October existing home sales (prior closings, not new construction) were scheduled for Nov. 12 at 3:00 p.m.\nET.\n\nThe annualized pace printed at 3.75M.\n\nThe consensus estimate was 3.85M.\n\nMonth-over-month change: -5.5%.\n\nThe prior month\u2019s pace was 3.97M.\n\nThat\u2019s a high-impact housing demand read now on the board before the next full week of trading.\n\nWhich housing datapoint do you track closest after a miss like this?",
         "skip_reason": "",
         "supporting_data": [
-          "[EPS estimate]: $8.05 \u2014 [source: FMP earnings_calendar]",
-          "[Revenue estimate]: $1.48B (1,478,782,000) \u2014 [source: FMP earnings_calendar]",
-          "[Report date]: 2026-11-12 \u2014 [source: FMP earnings_calendar]",
-          "[Exchange]: NYSE \u2014 [source: FMP earnings_calendar]"
+          "Existing Home Sales (Oct): 3.75M \u2014 source: economic_calendar, FMP_DATA",
+          "Existing Home Sales MoM (Oct): -5.5% \u2014 source: economic_calendar, FMP_DATA",
+          "Existing Home Sales estimate (Oct): 3.85M \u2014 source: economic_calendar, FMP_DATA",
+          "Existing Home Sales previous (Oct): 3.97M \u2014 source: economic_calendar, FMP_DATA",
+          "Release date/time: 2026-11-12 15:00:00 US \u2014 source: economic_calendar, FMP_DATA"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/earnings-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/earnings-calendar"
+        "source_url": "https://tickeralpha.ai/docs/latest.json",
+        "source_notes": "https://tickeralpha.ai/docs/latest.json"
       },
       {
-        "title": "Freedom Holding EPS est. $0.87",
+        "title": "October PPI 0.3% MoM vs 0.4% est.",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$FRHC \u2014 earnings with EPS estimate $0.87.\n\nRevenue estimate about $124.1M.\n\nIt is a smaller-cap name on the calendar; the release is the checkpoint against that per-share and top-line setup.\n\nDo you track regional brokers separately from the big US banks?",
+        "body": "October PPI (wholesale inflation \u2014 prices producers receive) dropped Nov. 13 at 8:30 a.m.\nET.\n\nHeadline PPI month-over-month: 0.3%.\n\nEstimate: 0.4%.\n\nPrior month: 1.4%.\n\nPPI year-over-year: 6.5%.\n\nYoY estimate: 6.6%.\n\nCore PPI MoM (ex food and energy): 0.3%, matching the 0.3% estimate.\n\nCore PPI YoY: 5.0%, matching the 5.0% estimate.\n\nThe S&P 500 finished the Nov. 13 session at 7,560.97 (-0.4%).\n\nDoes wholesale inflation or consumer CPI matter more for how you read the week ahead?",
         "skip_reason": "",
         "supporting_data": [
-          "[EPS estimate]: $0.87 \u2014 [source: FMP earnings_calendar]",
-          "[Revenue estimate]: $124.1M (124,137,000) \u2014 [source: FMP earnings_calendar]",
-          "[Report date]: 2026-11-12 \u2014 [source: FMP earnings_calendar]",
-          "[Market cap]: $100.8B \u2014 [source: FMP earnings_calendar, 100,790,891,050 rounded]",
-          "Wait - market cap 10079089105 is ~$100.8 billion?\nThat's 100.79 billion - seems high for Freedom Holding.\nData says 10,079,089,105.00 - I'll round to $100.8B or actually 10.08B if I misread - 10079089105 = 10.08 billion.\nRound to $10.1B.",
-          "Fix market cap:** 10.08B \u2192 $10.1B",
-          "--"
+          "Producer Price Index MoM (Oct) actual: 0.3% \u2014 source: economic_calendar, FMP_DATA",
+          "Producer Price Index MoM (Oct) estimate: 0.4% \u2014 source: economic_calendar, FMP_DATA",
+          "Producer Price Index MoM (Oct) previous: 1.4% \u2014 source: economic_calendar, FMP_DATA",
+          "Producer Price Index YoY (Oct) actual: 6.5% \u2014 source: economic_calendar, FMP_DATA",
+          "Producer Price Index YoY (Oct) estimate: 6.6% \u2014 source: economic_calendar, FMP_DATA",
+          "Core PPI MoM (Oct) actual: 0.3% \u2014 source: economic_calendar, FMP_DATA",
+          "Core PPI YoY (Oct) actual: 5.0% \u2014 source: economic_calendar, FMP_DATA",
+          "^GSPC close: 7,560.97, -0.4% \u2014 source: indexes, FMP_DATA"
         ],
-        "source_url": "",
-        "source_notes": "FMP_DATA"
+        "source_url": "https://tickeralpha.ai/docs/latest.json",
+        "source_notes": "https://tickeralpha.ai/docs/latest.json"
       },
       {
-        "title": "Core PPI MoM est. 0.3% at 8:30",
+        "title": "Nov. 12 earnings: TWST, MBGL, FPS",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Core PPI MoM (Oct) \u2014 estimate +0.3% at 8:30 a.m.\nET Nov. 13.\n\nPrior month: +0.7%.\n\nCore PPI strips out volatile food and energy at the wholesale level; it is one of the cleaner reads on pipeline inflation before it reaches shoppers.\n\nHeadline PPI MoM (Oct) is on the same release with estimate +0.4% (prior +1.3%).\n\nWhich print do you treat as the cleaner signal \u2014 core or headline PPI?",
+        "body": "The injected earnings calendar lines up Nov. 12 reports with Street EPS estimates \u2014 the scorecard is in after those dates.\n\n- $TWST EPS -0.32 vs -0.39 est.; revenue $126.6M vs $123.5M est.\n\n- $MBGL EPS 0.40 vs 0.38 est.; revenue $478M vs $475.1M est.\n\n- $FPS EPS 0.18 vs 0.20 est.; revenue $478.6M vs $462.3M est.\n\nNasdaq Composite closed Nov. 13 at 25,138.73 (-0.9%).\n\nVIX settled at 19.30 (+3.2%).\n\nWhen you map the week ahead, do you start with the calendar or with the last session\u2019s index levels?",
         "skip_reason": "",
         "supporting_data": [
-          "[Core PPI MoM estimate]: 0.3% \u2014 [source: FMP economic_calendar]",
-          "[Core PPI MoM previous]: 0.7% \u2014 [source: FMP economic_calendar]",
-          "[Release time]: 2026-11-13 13:30:00 (8:30 a.m.\nET) \u2014 [source: FMP economic_calendar]",
-          "[PPI MoM estimate]: 0.4% \u2014 [source: FMP economic_calendar]",
-          "[PPI MoM previous]: 1.3% \u2014 [source: FMP economic_calendar]",
-          "[Impact]: Medium (Core PPI MoM) \u2014 [source: FMP economic_calendar]"
+          "TWST date: 2026-11-12; epsActual -0.32; epsEstimated -0.39; revenueActual 126644000; revenueEstimated 123545200 \u2014 source: earnings_calendar, FMP_DATA",
+          "MBGL date: 2026-11-12; epsActual 0.40; epsEstimated 0.38; revenueActual 478000000; revenueEstimated 475088800 \u2014 source: earnings_calendar, FMP_DATA",
+          "FPS date: 2026-11-12; epsActual 0.18; epsEstimated 0.20; revenueActual 478566000; revenueEstimated 462297900 \u2014 source: earnings_calendar, FMP_DATA",
+          "^IXIC: 25,138.73, -0.9% \u2014 source: indexes, FMP_DATA",
+          "^VIX: 19.30, +3.2% \u2014 source: indexes, FMP_DATA"
         ],
-        "source_url": "https://financialmodelingprep.com/stable/economic-calendar",
-        "source_notes": "https://financialmodelingprep.com/stable/economic-calendar"
+        "source_url": "https://tickeralpha.ai/docs/latest.json",
+        "source_notes": "https://tickeralpha.ai/docs/latest.json"
       }
     ]
   }

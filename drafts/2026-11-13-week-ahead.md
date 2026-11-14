@@ -5,94 +5,116 @@ FMP brief: `data/2026-11-13-week-ahead.json`
 
 ---
 
-## Dillard’s EPS estimate $8.05
+## October home resales 3.75M vs 3.85M est.
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** Dillard’s Inc. ($DDS) is on the earnings calendar with a consensus EPS estimate of $8.05 and revenue estimate of about $1.48 billion, resolving when the department-store operator posts results.
+**Short Summary:** The October existing-home sales release on Nov. 12 counted closings on previously owned homes; the annualized pace came in at 3.75 million versus a 3.85 million estimate and fell 5.5% from the prior month.
 
 ### Post Body
 
-$DDS — earnings on the calendar with EPS estimate $8.05.
+October existing home sales (prior closings, not new construction) were scheduled for Nov. 12 at 3:00 p.m.
+ET.
 
-Revenue estimate about $1.48B.
+The annualized pace printed at 3.75M.
 
-The print is the read on mall-based apparel and home spending versus what analysts already baked in.
+The consensus estimate was 3.85M.
 
-What line item do you watch first on a department-store report — comp sales or gross margin?
+Month-over-month change: -5.5%.
+
+The prior month’s pace was 3.97M.
+
+That’s a high-impact housing demand read now on the board before the next full week of trading.
+
+Which housing datapoint do you track closest after a miss like this?
 
 ### Supporting Data
 
-- [EPS estimate]: $8.05 — [source: FMP earnings_calendar]
-- [Revenue estimate]: $1.48B (1,478,782,000) — [source: FMP earnings_calendar]
-- [Report date]: 2026-11-12 — [source: FMP earnings_calendar]
-- [Exchange]: NYSE — [source: FMP earnings_calendar]
+- Existing Home Sales (Oct): 3.75M — source: economic_calendar, FMP_DATA
+- Existing Home Sales MoM (Oct): -5.5% — source: economic_calendar, FMP_DATA
+- Existing Home Sales estimate (Oct): 3.85M — source: economic_calendar, FMP_DATA
+- Existing Home Sales previous (Oct): 3.97M — source: economic_calendar, FMP_DATA
+- Release date/time: 2026-11-12 15:00:00 US — source: economic_calendar, FMP_DATA
 
-**Source URL:** https://financialmodelingprep.com/stable/earnings-calendar
+**Source URL:** https://tickeralpha.ai/docs/latest.json
 
 ---
 
-## Freedom Holding EPS est. $0.87
+## October PPI 0.3% MoM vs 0.4% est.
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** Freedom Holding Corp. ($FRHC) is scheduled to report with a consensus EPS estimate of $0.87 and revenue estimate of about $124.1 million, a snapshot of its brokerage and banking footprint.
+**Short Summary:** Producer Price Index figures for October were released Nov. 13 at 8:30 a.m. ET; headline month-over-month inflation at the wholesale level was 0.3% against a 0.4% estimate, with year-over-year at 6.5% versus a 6.6% estimate.
 
 ### Post Body
 
-$FRHC — earnings with EPS estimate $0.87.
+October PPI (wholesale inflation — prices producers receive) dropped Nov. 13 at 8:30 a.m.
+ET.
 
-Revenue estimate about $124.1M.
+Headline PPI month-over-month: 0.3%.
 
-It is a smaller-cap name on the calendar; the release is the checkpoint against that per-share and top-line setup.
+Estimate: 0.4%.
 
-Do you track regional brokers separately from the big US banks?
+Prior month: 1.4%.
+
+PPI year-over-year: 6.5%.
+
+YoY estimate: 6.6%.
+
+Core PPI MoM (ex food and energy): 0.3%, matching the 0.3% estimate.
+
+Core PPI YoY: 5.0%, matching the 5.0% estimate.
+
+The S&P 500 finished the Nov. 13 session at 7,560.97 (-0.4%).
+
+Does wholesale inflation or consumer CPI matter more for how you read the week ahead?
 
 ### Supporting Data
 
-- [EPS estimate]: $0.87 — [source: FMP earnings_calendar]
-- [Revenue estimate]: $124.1M (124,137,000) — [source: FMP earnings_calendar]
-- [Report date]: 2026-11-12 — [source: FMP earnings_calendar]
-- [Market cap]: $100.8B — [source: FMP earnings_calendar, 100,790,891,050 rounded]
-- Wait - market cap 10079089105 is ~$100.8 billion?
-That's 100.79 billion - seems high for Freedom Holding.
-Data says 10,079,089,105.00 - I'll round to $100.8B or actually 10.08B if I misread - 10079089105 = 10.08 billion.
-Round to $10.1B.
-- Fix market cap:** 10.08B → $10.1B
-- --
+- Producer Price Index MoM (Oct) actual: 0.3% — source: economic_calendar, FMP_DATA
+- Producer Price Index MoM (Oct) estimate: 0.4% — source: economic_calendar, FMP_DATA
+- Producer Price Index MoM (Oct) previous: 1.4% — source: economic_calendar, FMP_DATA
+- Producer Price Index YoY (Oct) actual: 6.5% — source: economic_calendar, FMP_DATA
+- Producer Price Index YoY (Oct) estimate: 6.6% — source: economic_calendar, FMP_DATA
+- Core PPI MoM (Oct) actual: 0.3% — source: economic_calendar, FMP_DATA
+- Core PPI YoY (Oct) actual: 5.0% — source: economic_calendar, FMP_DATA
+- ^GSPC close: 7,560.97, -0.4% — source: indexes, FMP_DATA
+
+**Source URL:** https://tickeralpha.ai/docs/latest.json
 
 ---
 
-## Core PPI MoM est. 0.3% at 8:30
+## Nov. 12 earnings: TWST, MBGL, FPS
 
 **Status:** ready
 **Suggested window:** Stream 3 — Next week preview
 
-**Short Summary:** The Labor Department posts October core producer inflation (prices businesses charge, excluding food and energy) on Nov. 13 at 8:30 a.m. ET, with the month-over-month change estimated at 0.3% after 0.7% in the prior month.
+**Short Summary:** Three mid-cap names on the earnings calendar for Nov. 12 reported results against published EPS estimates, including Twist Bioscience, Mobility Global, and Forgent Power Solutions.
 
 ### Post Body
 
-Core PPI MoM (Oct) — estimate +0.3% at 8:30 a.m.
-ET Nov. 13.
+The injected earnings calendar lines up Nov. 12 reports with Street EPS estimates — the scorecard is in after those dates.
 
-Prior month: +0.7%.
+- $TWST EPS -0.32 vs -0.39 est.; revenue $126.6M vs $123.5M est.
 
-Core PPI strips out volatile food and energy at the wholesale level; it is one of the cleaner reads on pipeline inflation before it reaches shoppers.
+- $MBGL EPS 0.40 vs 0.38 est.; revenue $478M vs $475.1M est.
 
-Headline PPI MoM (Oct) is on the same release with estimate +0.4% (prior +1.3%).
+- $FPS EPS 0.18 vs 0.20 est.; revenue $478.6M vs $462.3M est.
 
-Which print do you treat as the cleaner signal — core or headline PPI?
+Nasdaq Composite closed Nov. 13 at 25,138.73 (-0.9%).
+
+VIX settled at 19.30 (+3.2%).
+
+When you map the week ahead, do you start with the calendar or with the last session’s index levels?
 
 ### Supporting Data
 
-- [Core PPI MoM estimate]: 0.3% — [source: FMP economic_calendar]
-- [Core PPI MoM previous]: 0.7% — [source: FMP economic_calendar]
-- [Release time]: 2026-11-13 13:30:00 (8:30 a.m.
-ET) — [source: FMP economic_calendar]
-- [PPI MoM estimate]: 0.4% — [source: FMP economic_calendar]
-- [PPI MoM previous]: 1.3% — [source: FMP economic_calendar]
-- [Impact]: Medium (Core PPI MoM) — [source: FMP economic_calendar]
+- TWST date: 2026-11-12; epsActual -0.32; epsEstimated -0.39; revenueActual 126644000; revenueEstimated 123545200 — source: earnings_calendar, FMP_DATA
+- MBGL date: 2026-11-12; epsActual 0.40; epsEstimated 0.38; revenueActual 478000000; revenueEstimated 475088800 — source: earnings_calendar, FMP_DATA
+- FPS date: 2026-11-12; epsActual 0.18; epsEstimated 0.20; revenueActual 478566000; revenueEstimated 462297900 — source: earnings_calendar, FMP_DATA
+- ^IXIC: 25,138.73, -0.9% — source: indexes, FMP_DATA
+- ^VIX: 19.30, +3.2% — source: indexes, FMP_DATA
 
-**Source URL:** https://financialmodelingprep.com/stable/economic-calendar
+**Source URL:** https://tickeralpha.ai/docs/latest.json

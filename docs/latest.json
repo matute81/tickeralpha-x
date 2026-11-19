@@ -1,213 +1,219 @@
 {
-  "updated_at": "2026-11-18T00:55:51-05:00",
+  "updated_at": "2026-11-19T00:56:07-05:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-11-18",
-    "generated_at": "2026-11-18T00:55:07-05:00",
-    "draft_path": "drafts/2026-11-18-am.md",
+    "session_date": "2026-11-19",
+    "generated_at": "2026-11-19T00:55:06-05:00",
+    "draft_path": "drafts/2026-11-19-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "October housing permits and starts due at 8:30",
+        "title": "Moody's pegs 2026 US growth at 2.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "October building permits are expected at 1.38M units versus 1.398M in September, with the monthly change estimated at -2.7% after -0.4%.\n\nHousing starts are expected at 1.27M versus 1.221M in September; the month-over-month change is estimated at -1.7% after -5.2%.\n\nThe prints measure new-home construction and permit activity \u2014 early reads on housing demand and borrowing costs.\n\nBoth releases are on the US calendar for 8:30 a.m.\nET on Nov. 18, 2026.\n\nWhat do you watch first \u2014 permits or starts?",
+        "body": "Moody's expects US full-year economic growth of 2.3% for 2026 \u2014 above what many had been assuming after recent data.\n\nThe rating agency points to higher interest rates (what borrowers pay on loans), elevated energy prices, and a normalization of the AI investment boom as factors that could slow growth in 2027 and 2028.\n\nThe 10-year US Treasury yield was at 5.1% in the latest curve snapshot (the rate the government pays on long-term debt, a benchmark for mortgages and corporate borrowing).\n\nThe 2-year yield sat at 4.8%, leaving the gap between 2-year and 10-year yields at 0.30 percentage points \u2014 the spread investors watch for recession signals.\n\nDoes a 2.3% growth year change how you read the next round of labor data?",
         "skip_reason": "",
         "supporting_data": [
-          "Building Permits (Oct) estimate: 1.38M \u2014 source: FMP economic_calendar",
-          "Building Permits (Oct) previous: 1.398M \u2014 source: FMP economic_calendar",
-          "Building Permits MoM (Oct) estimate: -2.7% \u2014 source: FMP economic_calendar",
-          "Building Permits MoM (Oct) previous: -0.4% \u2014 source: FMP economic_calendar",
-          "Housing Starts (Oct) estimate: 1.27M \u2014 source: FMP economic_calendar",
-          "Housing Starts (Oct) previous: 1.221M \u2014 source: FMP economic_calendar",
-          "Housing Starts MoM (Oct) estimate: -1.7% \u2014 source: FMP economic_calendar",
-          "Housing Starts MoM (Oct) previous: -5.2% \u2014 source: FMP economic_calendar"
+          "Moody's full-year US growth expectation: 2.3% \u2014 [source: WSJ news via FMP](https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5)",
+          "10-year Treasury yield: 5.1% \u2014 [source: FMP treasury]",
+          "2-year Treasury yield: 4.8% \u2014 [source: FMP treasury]",
+          "2s10s spread: 0.30 \u2014 [source: FMP treasury]"
         ],
-        "source_url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
-        "source_notes": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+        "source_url": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5",
+        "source_notes": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5"
       },
       {
-        "title": "Xi urges lower trade and investment barriers",
+        "title": "IEA sees 4% less oil demand by 2035",
         "status": "ready",
         "kind": "x_idea",
-        "body": "China's Xi called for removing trade and investment barriers ahead of his meeting with Trump and Putin, CNBC reported.\n\nPrior US close:\n- $SPY proxy ^GSPC -1.0% to 7,340.53\n- ^DJI -1.6% to 50,759.42\n\nThe Hang Seng finished -1.0% at 23,270.37.\n\nThe story is policy and cross-border investment rules, not a single earnings print.\n\nWhich barrier types \u2014 tariffs, caps, or licensing \u2014 do you map to your sector list?",
+        "body": "The IEA says energy-security steps tied to the Iran war could cut global oil demand by 4% by 2035.\n\nThat is a long-dated supply-and-demand story, not a single-day oil print \u2014 but it lands while crude markets are already moving.\n\nBrent crude was at $92.22, up 0.3%.\n\nThe US oil fund proxy $USO closed at $136.11, down 2.9% on the session.\n\nGold futures were at $3,741.00, roughly flat at 0.0%.\n\nHow much weight do you put on decade-out demand forecasts versus this week's price action?",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC price: 7,340.53 \u2014 source: FMP indexes",
-          "^GSPC changesPercentage: -1.0% \u2014 source: FMP indexes",
-          "^DJI price: 50,759.42 \u2014 source: FMP indexes",
-          "^DJI changesPercentage: -1.6% \u2014 source: FMP indexes",
-          "^HSI price: 23,270.37 \u2014 source: FMP overseas",
-          "^HSI changesPercentage: -1.0% \u2014 source: FMP overseas"
+          "IEA oil demand reduction by 2035: 4% \u2014 [source: Reuters news via FMP](https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/)",
+          "Brent crude price: $92.22 \u2014 [source: FMP cross_asset brent]",
+          "Brent change: +0.3% \u2014 [source: FMP cross_asset brent changesPercentage]",
+          "USO price: $136.11 \u2014 [source: FMP cross_asset wti/USO]",
+          "USO session change: -2.9% \u2014 [source: FMP cross_asset wti changesPercentage]",
+          "Gold price: $3,741.00 \u2014 [source: FMP cross_asset gold]",
+          "Gold change: 0.0% \u2014 [source: FMP cross_asset gold changesPercentage]"
         ],
-        "source_url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
-        "source_notes": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+        "source_url": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/",
+        "source_notes": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/"
       },
       {
-        "title": "Japan exports up 20.5% in October",
+        "title": "China Treasury holdings at 2008 low",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Japan's October exports rose 20.5%, above estimates, CNBC reported.\n\nShipments of semiconductor equipment jumped 49.7% by value.\n\nShipments to China rose 13.3%; shipments to the U.S. rose 23.9%.\n\nReuters quoted the Bank of Japan governor saying the central bank should keep raising rates.\n\nNikkei 225 closed +0.4% at 59,090.47.\n\nJapan's export data is a demand read for chips and industrial gear into China and the U.S.\n\nDo you treat Japan export strength as a macro print or a semi supply-chain signal?",
+        "body": "Foreign investors trimmed US Treasury holdings in September, and China's position fell to a level last seen in 2008, according to Treasury data cited by Reuters.\n\nThat matters because overseas buyers help fund US deficits \u2014 fewer buyers can mean higher yields even without a Fed move.\n\nThe 10-year yield was 5.1% on the latest FMP curve print dated 2026-11-17.\n\nThe dollar proxy $UUP was at $29.62, up 0.3%.\n\n$EURUSD was at 1.10, down 0.1%.\n\nAre you tracking official custody data or just the yield curve day to day?",
         "skip_reason": "",
         "supporting_data": [
-          "October export growth: 20.5% \u2014 source: FMP news (CNBC)",
-          "Semiconductor equipment shipment value change: 49.7% \u2014 source: FMP news (CNBC)",
-          "Shipments to China: +13.3% \u2014 source: FMP news (CNBC)",
-          "Shipments to U.S.: +23.9% \u2014 source: FMP news (CNBC)",
-          "^N225 price: 59,090.47 \u2014 source: FMP overseas",
-          "^N225 changesPercentage: +0.4% \u2014 source: FMP overseas"
+          "10-year Treasury yield: 5.1% \u2014 [source: FMP treasury]",
+          "Treasury curve date: 2026-11-17 \u2014 [source: FMP treasury]",
+          "UUP price: $29.62 \u2014 [source: FMP cross_asset dxy/UUP]",
+          "UUP change: +0.3% \u2014 [source: FMP cross_asset dxy changesPercentage]",
+          "EUR/USD: 1.10 \u2014 [source: FMP cross_asset eurusd]",
+          "EUR/USD change: -0.1% \u2014 [source: FMP cross_asset eurusd changesPercentage]",
+          "China Treasury holdings: 2008 low (headline/data reference) \u2014 [source: Reuters news via FMP](https://www.reuters.com/markets/us/foreign-holdings-us-treasuries-dip-sept-china-holdings-hit-2008-low-data-show-2026-11-18/)"
         ],
-        "source_url": "https://www.wsj.com/finance/stocks/slower-retail-sales-drag-on-market-fd1db66a",
-        "source_notes": "https://www.wsj.com/finance/stocks/slower-retail-sales-drag-on-market-fd1db66a"
+        "source_url": "https://www.reuters.com/markets/us/foreign-holdings-us-treasuries-dip-sept-china-holdings-hit-2008-low-data-show-2026-11-18/",
+        "source_notes": "https://www.reuters.com/markets/us/foreign-holdings-us-treasuries-dip-sept-china-holdings-hit-2008-low-data-show-2026-11-18/"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-11-18",
-    "generated_at": "2026-11-18T00:55:36-05:00",
-    "draft_path": "drafts/2026-11-18.md",
+    "session_date": "2026-11-19",
+    "generated_at": "2026-11-19T00:55:47-05:00",
+    "draft_path": "drafts/2026-11-19.md",
     "errors": [],
     "slots": [
       {
-        "title": "Salesforce drops 9.5% to 194.52",
+        "title": "AMD up 5.3% as Nvidia slips 2.9%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$S CRM finished at 194.52, down 20.31 points on the day.\n\nThat is a -9.5% move from the prior close of 214.83.\n\nThe session range ran from a high of 211.00 to a low of 193.41.\n\nVolume on the name was 13.3 million shares.\n\nThe S&P 500 closed -1.0% at 7,340.53 on the same session.\n\nWhich line on $CRM\u2019s chart are you tracking after a\u5355-day move this large?",
+        "body": "$AMD closed up 5.3% at $530.14, a $26.73 gain on the day.\n\n$NVDA finished down 2.9% at $150.96, with more than 343 million shares changing hands.\n\n$AVGO rose 3.6% to $354.05.\n\n$TSM added 0.8% to $362.62.\n\nThe Nasdaq Composite still closed up 0.4% at 24,429.88 while the S&P 500 slipped 0.2%.\n\nWhich large chip name mattered more to your read of the session?",
         "skip_reason": "",
         "supporting_data": [
-          "CRM close: 194.52 \u2014 tickeralpha.ai / FMP quote",
-          "CRM change: -20.31 \u2014 tickeralpha.ai / FMP quote",
-          "CRM changesPercentage: -9.5% \u2014 tickeralpha.ai / FMP quote",
-          "CRM previousClose: 214.83 \u2014 tickeralpha.ai / FMP quote",
-          "CRM dayHigh: 211.00 \u2014 tickeralpha.ai / FMP quote",
-          "CRM dayLow: 193.41 \u2014 tickeralpha.ai / FMP quote",
-          "CRM volume: 13,337,457 \u2014 tickeralpha.ai / FMP quote",
-          "^GSPC changesPercentage: -1.0% \u2014 FMP indexes",
-          "^GSPC price: 7,340.53 \u2014 FMP indexes"
+          "AMD change: +5.3% \u2014 FMP mega_caps / EOD",
+          "AMD price: $530.14 \u2014 FMP mega_caps",
+          "AMD change ($): +26.73 \u2014 FMP mega_caps",
+          "NVDA change: -2.9% \u2014 FMP mega_caps",
+          "NVDA price: $150.96 \u2014 FMP mega_caps",
+          "NVDA volume: 343,007,056 \u2014 FMP mega_caps",
+          "AVGO change: +3.6% \u2014 FMP mega_caps",
+          "AVGO price: $354.05 \u2014 FMP mega_caps",
+          "TSM change: +0.8% \u2014 FMP mega_caps",
+          "^IXIC change: +0.4% \u2014 FMP indexes",
+          "^IXIC price: 24,429.88 \u2014 FMP indexes",
+          "^GSPC change: -0.2% \u2014 FMP indexes"
         ],
-        "source_url": "https://tickeralpha.ai/symbol/CRM",
-        "source_notes": "https://tickeralpha.ai/symbol/CRM"
+        "source_url": "https://financialmodelingprep.com/",
+        "source_notes": "https://financialmodelingprep.com/"
       },
       {
-        "title": "UnitedHealth falls 5.4% to 389.68",
+        "title": "Chevron down 4.0% in energy slide",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$UNH closed at 389.68, down 22.34 from the prior session.\n\nThat is a -5.4% change versus a previous close of 412.02.\n\nThe day\u2019s range was 387.16 at the low and 399.99 at the high.\n\nHealthcare was one of the few sectors in the injected tape that finished slightly positive on average (+0.1% on Nasdaq-listed names), while $UNH moved the other way.\n\nThe Dow Jones Industrial Average ended -1.6% at 50,759.42.\n\nHow are you lining up insurer charts against the broader index print from this close?",
+        "body": "$CVX closed down 4.0% at $205.87, off $8.48 from the prior finish.\n\nThe Energy sector\u2019s Nasdaq average was down about 1.1% on the session.\n\n$USO, which tracks oil exposure, fell 2.9% to $136.11.\n\nBrent settled at $92.21, up 0.3%.\n\nReuters cited the IEA saying energy-security responses tied to the Iran war could cut oil demand by about 4% by 2035.\n\nDid you tie today\u2019s energy stock move to crude, or to the longer demand picture?",
         "skip_reason": "",
         "supporting_data": [
-          "UNH price: 389.68 \u2014 tickeralpha.ai / FMP quote",
-          "UNH change: -22.34 \u2014 tickeralpha.ai / FMP quote",
-          "UNH changesPercentage: -5.4% \u2014 tickeralpha.ai / FMP quote",
-          "UNH previousClose: 412.02 \u2014 tickeralpha.ai / FMP quote",
-          "UNH dayLow: 387.16 \u2014 tickeralpha.ai / FMP quote",
-          "UNH dayHigh: 399.99 \u2014 tickeralpha.ai / FMP quote",
-          "Healthcare sector averageChange: +0.1% \u2014 FMP sectors",
-          "^DJI changesPercentage: -1.6% \u2014 FMP indexes",
-          "^DJI price: 50,759.42 \u2014 FMP indexes"
+          "CVX change: -4.0% \u2014 FMP mega_caps",
+          "CVX price: $205.87 \u2014 FMP mega_caps",
+          "CVX change ($): -8.48 \u2014 FMP mega_caps",
+          "Energy sector averageChange: -1.1% (rounded from -1.15) \u2014 FMP sectors",
+          "USO change: -2.9% \u2014 FMP cross_asset",
+          "USO price: $136.11 \u2014 FMP cross_asset",
+          "BZUSD price: $92.21 \u2014 FMP cross_asset",
+          "BZUSD change: +0.3% \u2014 FMP cross_asset"
         ],
-        "source_url": "https://tickeralpha.ai/symbol/UNH",
-        "source_notes": "https://tickeralpha.ai/symbol/UNH"
+        "source_url": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/",
+        "source_notes": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/"
       },
       {
-        "title": "Taiwan Semi off 3.7% at 359.69",
+        "title": "Dow drops 561 points, Nasdaq gains",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$TSM ended at 359.69, down 13.76 points for the session.\n\nThat is a -3.7% move from 373.45 at the prior close.\n\nThe stock traded between 353.50 and 373.05.\n\nTechnology names in the injected sector screen averaged -1.0% on Nasdaq.\n\nOn the same close:\n\n- $MSFT -2.3% to 506.24\n- $ORCL -3.4% to 115.06\n\n$NVDA was -0.4% to 155.46 with very heavy volume in the actives list.\n\nWhat part of the chip supply chain are you watching after this session\u2019s closes?",
+        "body": "The Dow closed down 1.1% at 50,198.17, a 561.25-point drop.\n\nThe Nasdaq Composite rose 0.4% to 24,429.88.\n\nThe S&P 500 eased 0.2% to 7,323.63.\n\nSeveral Dow-heavy names weakened:\n\n- $JPM -1.8% to $324.11\n- $HD -0.4% to $337.64\n- $CVX -4.0% to $205.87\n\nThe Russell 2000 still rose 0.5% to 2,714.31.\n\nWhere did you see the split show up\u2014in indexes or in sectors?",
         "skip_reason": "",
         "supporting_data": [
-          "TSM price: 359.69 \u2014 tickeralpha.ai / FMP quote",
-          "TSM changesPercentage: -3.7% \u2014 tickeralpha.ai / FMP quote",
-          "TSM change: -13.76 \u2014 tickeralpha.ai / FMP quote",
-          "TSM previousClose: 373.45 \u2014 tickeralpha.ai / FMP quote",
-          "Technology sector averageChange: -1.0% \u2014 FMP sectors",
-          "MSFT price: 506.24, changesPercentage: -2.3% \u2014 FMP mega_caps",
-          "ORCL price: 115.06, changesPercentage: -3.4% \u2014 FMP mega_caps",
-          "NVDA price: 155.46, changesPercentage: -0.4% \u2014 FMP mega_caps"
+          "^DJI change: -1.1% \u2014 FMP indexes",
+          "^DJI price: 50,198.17 \u2014 FMP indexes",
+          "^DJI change (pts): -561.25 \u2014 FMP indexes",
+          "^IXIC change: +0.4% \u2014 FMP indexes",
+          "^IXIC price: 24,429.88 \u2014 FMP indexes",
+          "^GSPC change: -0.2% \u2014 FMP indexes",
+          "^GSPC price: 7,323.63 \u2014 FMP indexes",
+          "^RUT change: +0.5% \u2014 FMP indexes",
+          "^RUT price: 2,714.31 \u2014 FMP indexes",
+          "JPM change: -1.8% \u2014 FMP mega_caps",
+          "CVX change: -4.0% \u2014 FMP mega_caps"
         ],
-        "source_url": "https://tickeralpha.ai/symbol/TSM",
-        "source_notes": "https://tickeralpha.ai/symbol/TSM"
+        "source_url": "https://financialmodelingprep.com/",
+        "source_notes": "https://financialmodelingprep.com/"
       },
       {
-        "title": "U.S. cash session \u2014 Nov. 18, 2026",
+        "title": "U.S. cash session \u2014 Nov. 19, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The S&P 500 finished at 7,340.53, down 76.06 points and -1.0% for the session.\nThe index traded between 7,288.34 and 7,415.37 after a prior close of 7,416.59.\n\nThe Dow Jones Industrial Average lost 848.75 points to 50,759.42, a -1.6% decline.\nThat was the weakest major U.S. index print in the injected set.\nThe session low was 50,566.98.\n\nThe Nasdaq Composite closed at 24,328.38, down 181.38 points or -0.7%.\nThe Russell 2000 fell -1.5% to 2,701.87.\n\nThe CBOE Volatility Index rose 2.55 to 25.46, up 11.1% from 22.91.\nThe day high on the VIX was 27.73.\n\nAmong sector averages in the injected data, industrials led at +1.0%.\nHealthcare was up 0.1% on average.\nEnergy lagged at -3.1%, utilities at -2.2%, and financial services at -1.7%.\nTechnology averaged -1.0%.\n\nSalesforce was the standout megacap percentage loser in the bundle: $CRM -9.5% to 194.52, with a low of 193.41.\nUnitedHealth declined -5.4% to 389.68.\nTaiwan Semiconductor fell -3.7% to 359.69; Oracle was -3.4% to 115.06; PepsiCo -3.0% to 142.02.\n\nSeveral large technology and payments names posted smaller but broad-based declines: Microsoft -2.3% to 506.24, Visa -2.3% to 416.77, JPMorgan -2.4% to 329.96, Home Depot -2.4% to 339.01, and Mastercard -2.4% to 645.73.\nMeta Platforms was -1.2% to 618.87.\nNVIDIA closed -0.4% at 155.46 and sat among the most active symbols in the injected list.\n\nThe U.S. economic calendar in the feed included October housing starts and building permits releases at 13:30 New York time, plus FOMC meeting minutes at 19:00 marked high impact.\nThe injected payload did not include released actual figures for those housing prints.\n\nOverseas indexes in the snapshot were mixed to lower: the FTSE 100 was -1.8% at 10,689.87, the Hang Seng -1.0% at 23,272.92, the Nikkei 225 +0.4% at 59,095.73.\nThe Germany proxy ETF EWG was -1.5% at 41.67.\n\nGold futures fell -1.9% to 3,790.00, with a session low of 3,781.70.\nBrent crude was -0.7% at 92.49.\nThe U.S. oil fund USO rose 0.1% to 140.24.\nBitcoin was -0.4% at 64,614.59.\nThe dollar proxy UUP slipped -0.1% to 29.54.\n\nTreasury yields in the injected snapshot (dated 2026-11-16) showed the 10-year at 5.1% and the 2s10s spread at 0.29 percentage points.\nEarnings were scheduled in the calendar for names including Palo Alto Networks, TJX, Lowe\u2019s, and Target; the close bundle listed estimates but not reported actual EPS or revenue for those reports.",
+        "body": "The Dow Jones Industrial Average lost 561.25 points and closed down 1.1% at 50,198.17, trading between 50,029.35 and 50,637.70.\nThat was the heaviest index decline among the major U.S. benchmarks on the session.\n\nThe Nasdaq Composite finished up 0.4% at 24,429.88, with an intraday range of 24,225.30 to 24,538.78.\nGains in select large technology and chip names helped the growth-heavy index hold green while the Dow weakened.\n\nThe S&P 500 slipped 0.2% to 7,323.63 after touching a high of 7,367.68 and a low of 7,285.76.\nThe broad index stayed closer to flat than the Dow, reflecting the offset from Nasdaq strength.\n\nThe Russell 2000 rose 0.5% to 2,714.31.\nSmall caps outperformed the Dow and S&P on the day despite the large-cap split.\n\nThe CBOE Volatility Index fell 3.5% to 24.56, down from 25.46 at the prior close, with a session range of 23.45 to 26.26.\n\nAmong megacap chips, $AMD rose 5.3% to $530.14 while $NVDA fell 2.9% to $150.96 on volume above 343 million shares.\n$AVGO gained 3.6% to $354.05 and $TSM added 0.8% to $362.62.\n\nEnergy and financials weighed on parts of the tape.\n$CVX closed down 4.0% at $205.87.\n$JPM fell 1.8% to $324.11 and $BAC lost 1.1% to $48.91.\nThe Energy sector average was down about 1.1% on Nasdaq, and Financial Services was down about 0.6%.\n\nConsumer Cyclical was the strongest sector in the injected sector snapshot, up about 1.3%.\n$ROST rose 3.3% to $227.64, $WSM gained 4.0% to $260.09, and $GAP added 2.5% to $19.84.\nSeveral of those names were on the Nov. 19 earnings calendar in the data, with consensus estimates listed but no reported actuals in the feed.\n\nUtilities lagged among sectors, down about 0.8%.\nHealthcare averaged down about 0.6%.\n$LLY fell 2.3% to $1,382.54.\nTechnology as a sector was roughly flat, down about 0.1% on average.\n\n$CRM declined 2.1% to $190.40.\n$INTU, also scheduled to report, closed down 2.4% at $313.24.\n$WMT edged 0.1% lower to $127.36 ahead of its report date in the calendar.\n$MSFT ticked up 0.4% to $508.29 and $GOOG rose 0.6% to $279.20.\n\nOn the calendar for Nov. 19, U.S. jobless claims releases were scheduled at 8:30 ET, including initial claims with a 197K estimate and continuing claims with a 1,710K estimate in the injected calendar.\nThe dataset does not include released actual figures for those prints.\n\nGold futures were little changed, up 0.0% at $3,742.80.\n$USO fell 2.9% to $136.11.\nBrent crude was at $92.21, up 0.3%.\nThe Invesco U.S. dollar bull ETF ($UUP) rose 0.3% to $29.62.\nBitcoin traded at $63,216.24, up 0.4%.\n\nTreasury yields in the Nov. 17 snapshot showed the 10-year at 5.1% and the 2s10s spread at 0.30.\nOverseas, the Hang Seng was down 2.1%, the FTSE 100 off 1.3%, and the Nikkei 225 up 0.4% in the injected overseas block.",
         "skip_reason": "",
         "supporting_data": [
-          "^GSPC: 7,340.53, -1.0% \u2014 FMP indexes",
-          "^DJI: 50,759.42, -1.6% \u2014 FMP indexes",
-          "^IXIC: 24,328.38, -0.7% \u2014 FMP indexes",
-          "^RUT: 2,701.87, -1.5% \u2014 FMP indexes",
-          "^VIX: 25.46, +11.1% \u2014 FMP indexes",
-          "Sector averages: Energy -3.1%, Industrials +1.0% \u2014 FMP sectors",
-          "CRM, UNH, TSM closes \u2014 FMP mega_caps",
-          "GCUSD: 3,790.00, -1.9% \u2014 FMP cross_asset",
-          "BZUSD: 92.49, -0.7% \u2014 FMP cross_asset",
-          "Treasury year10: 5.1% \u2014 FMP treasury"
+          "Session date: 2026-11-19 \u2014 FMP_DATA session_date",
+          "^DJI: -1.1%, 50,198.17 \u2014 FMP indexes",
+          "^IXIC: +0.4%, 24,429.88 \u2014 FMP indexes",
+          "^GSPC: -0.2%, 7,323.63 \u2014 FMP indexes",
+          "^RUT: +0.5%, 2,714.31 \u2014 FMP indexes",
+          "^VIX: -3.5%, 24.56 \u2014 FMP indexes",
+          "AMD/NVDA/AVGO/TSM/CVX/JPM/BAC/ROST/WSM/GAP/LLY/CRM/INTU/WMT/MSFT/GOOG \u2014 FMP mega_caps",
+          "Sectors \u2014 FMP sectors",
+          "GCUSD, USO, BZUSD, UUP, BTCUSD \u2014 FMP cross_asset",
+          "Treasury \u2014 FMP treasury (date 2026-11-17)",
+          "Economic calendar estimates \u2014 FMP economic_calendar",
+          "Overseas indexes \u2014 FMP overseas"
         ],
-        "source_url": "https://tickeralpha.ai/markets/us-close/2026-11-18",
-        "source_notes": "https://tickeralpha.ai/markets/us-close/2026-11-18"
+        "source_url": "https://financialmodelingprep.com/",
+        "source_notes": "https://financialmodelingprep.com/"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-11-18",
-    "generated_at": "2026-11-18T00:55:51-05:00",
-    "draft_path": "drafts/2026-11-18-week-ahead.md",
+    "session_date": "2026-11-19",
+    "generated_at": "2026-11-19T00:56:07-05:00",
+    "draft_path": "drafts/2026-11-19-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Walmart reports Nov. 19 on $0.64 EPS view",
+        "title": "Three names report Friday with EPS views",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$WMT reports for the quarter ending late October on Wed., Nov. 19.\n\nConsensus sits at $0.64 EPS on about $187.3 billion in revenue.\n\nThe release is a read on grocery, general merchandise, and online demand after October retail sales showed 6.8% year-over-year growth and 0.2% growth from September.\n\nResults typically land before the US cash open.\n\nWhich line item are you watching first\u2014same-store sales, e-commerce, or guidance?",
+        "body": "Friday, Nov. 20, three mid-cap names close out the week\u2019s earnings slate.\n\nEach print is a read on wholesale clubs, aerospace controls, and industrial services demand.\n\n- $BJ \u2014 EPS estimate $1.26; revenue estimate about $5.97B\n- $MOG-A \u2014 EPS estimate $2.69; revenue estimate about $1.12B\n- $IESC \u2014 EPS estimate $2.81; revenue estimate about $1.15B\n\nEarnings per share is profit divided by shares; the estimate is where analysts land before the number is released.\n\nWhich line item do you watch first on a club retailer vs. an industrial supplier?",
         "skip_reason": "",
         "supporting_data": [
-          "WMT EPS estimate: 0.64 \u2014 [source: FMP earnings_calendar]",
-          "WMT revenue estimate: 187269300000 (~$187.3B) \u2014 [source: FMP earnings_calendar]",
-          "Report date: 2026-11-19 \u2014 [source: FMP earnings_calendar]",
-          "Retail Sales YoY (Oct) actual: 6.8% \u2014 [source: FMP economic_calendar]",
-          "Retail Sales MoM (Oct) actual: 0.2% \u2014 [source: FMP economic_calendar]"
+          "BJ EPS estimate: 1.26 \u2014 source: FMP earnings_calendar",
+          "BJ revenue estimate: 5972371000 (~$5.97B) \u2014 source: FMP earnings_calendar",
+          "MOG-A EPS estimate: 2.69 \u2014 source: FMP earnings_calendar",
+          "MOG-A revenue estimate: 1120431000 (~$1.12B) \u2014 source: FMP earnings_calendar",
+          "IESC EPS estimate: 2.81 \u2014 source: FMP earnings_calendar",
+          "IESC revenue estimate: 1148000000 (~$1.15B) \u2014 source: FMP earnings_calendar",
+          "Report date: 2026-11-20 \u2014 source: FMP earnings_calendar"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+        "source_url": "https://tickeralpha.ai",
+        "source_notes": "https://tickeralpha.ai"
       },
       {
-        "title": "Jobless claims Nov. 19 at 8:30 ET, 196K seen",
+        "title": "Keysight set for $3.37 EPS print Thursday",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Three US labor prints drop Thu., Nov. 19 at 8:30 a.m.\nET.\n\nInitial jobless claims (week ended Nov. 14): estimate 196,000 vs prior 200,000.\n\nContinuing claims (week ended Nov. 7): estimate 1,725,000 vs prior 1,697,000.\n\nFour-week average for initial claims: estimate 192,000 vs prior 195,250.\n\nInitial claims are weekly new applications for unemployment insurance\u2014a pulse on layoffs and hiring friction.\n\nDo you pair this with continuing claims or focus on the single-week number?",
+        "body": "$KEYS reports Thursday, Nov. 19.\n\nConsensus sits at $3.37 EPS on revenue of about $1.95B.\n\nKeysight sells equipment used to validate semiconductors and communications gear \u2014 the results show how much customers are still spending on lab and production test gear.\n\nThe number lands in the same week the Nasdaq Composite finished up 0.4% at 24,429.88 while the Dow fell 1.1% to 50,198.17.\n\nDo you treat test-equipment earnings as a lead indicator for chip capex or a lagging receipt?",
         "skip_reason": "",
         "supporting_data": [
-          "Initial Jobless Claims estimate: 196 (K) \u2014 [source: FMP economic_calendar]",
-          "Initial Jobless Claims previous: 200 (K) \u2014 [source: FMP economic_calendar]",
-          "Continuing Jobless Claims estimate: 1725 (K) \u2014 [source: FMP economic_calendar]",
-          "Continuing Jobless Claims previous: 1697 (K) \u2014 [source: FMP economic_calendar]",
-          "Jobless Claims 4-Week Average estimate: 192 (K) \u2014 [source: FMP economic_calendar]",
-          "Jobless Claims 4-Week Average previous: 195.25 (K) \u2014 [source: FMP economic_calendar]",
-          "Release time: 2026-11-19 13:30:00 (America/New_York 8:30) \u2014 [source: FMP economic_calendar]"
+          "KEYS EPS estimate: 3.37 \u2014 source: FMP earnings_calendar",
+          "KEYS revenue estimate: 1945803000 (~$1.95B) \u2014 source: FMP earnings_calendar",
+          "Report date: 2026-11-19 \u2014 source: FMP earnings_calendar",
+          "Nasdaq Composite: 24,429.88 (+0.4%) \u2014 source: FMP indexes ^IXIC",
+          "Dow Jones: 50,198.17 (-1.1%) \u2014 source: FMP indexes ^DJI"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/economic_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/economic_calendar"
+        "source_url": "https://tickeralpha.ai",
+        "source_notes": "https://tickeralpha.ai"
       },
       {
-        "title": "Intuit Nov. 19 on $2.46 EPS estimate",
+        "title": "Warner Music Nov. 19 on $0.36 EPS view",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$INTU fiscal Q1 results are scheduled for Wed., Nov. 19.\n\nEPS estimate: $2.46.\n\nRevenue estimate: about $4.30 billion.\n\nThe company books TurboTax, QuickBooks, and related subscriptions\u2014numbers reflect small-business and consumer tax-prep activity ahead of the next filing season.\n\nSame session, several retailers also report, including:\n- $ROST \u2014 EPS estimate $1.87\n- $WSM \u2014 EPS estimate $2.18\n- $GAP \u2014 EPS estimate $0.78\n\nWhat do you use as a read-through from software spend to storefront traffic?",
+        "body": "$WMG is on the calendar for Thursday, Nov. 19.\n\nAnalysts\u2019 EPS estimate is $0.36.\n\nRevenue is expected at about $1.91B.\n\nThe report breaks out how recorded music and publishing are tracking \u2014 subscriptions, ad-supported streams, and licensing \u2014 without needing label jargon: it is how much money came in from songs and rights.\n\nThat session also brings high-impact labor data at 8:30 a.m.\nET: initial jobless claims (estimate 197K), continuing claims (estimate 1710K), and the four-week average (estimate 192K).\n\nThose claims counts measure how many people are newly filing for unemployment and how many stay on benefits.\n\nWhich Warner Music segment do you map to streaming growth when the release drops?",
         "skip_reason": "",
         "supporting_data": [
-          "INTU EPS estimate: 2.46 \u2014 [source: FMP earnings_calendar]",
-          "INTU revenue estimate: 4304818000 (~$4.30B) \u2014 [source: FMP earnings_calendar]",
-          "INTU report date: 2026-11-19 \u2014 [source: FMP earnings_calendar]",
-          "ROST EPS estimate: 1.87 \u2014 [source: FMP earnings_calendar]",
-          "WSM EPS estimate: 2.18 \u2014 [source: FMP earnings_calendar]",
-          "GAP EPS estimate: 0.778 (~$0.78) \u2014 [source: FMP earnings_calendar]"
+          "WMG EPS estimate: 0.36 (0.36 rounded) \u2014 source: FMP earnings_calendar",
+          "WMG revenue estimate: 1908541000 (~$1.91B) \u2014 source: FMP earnings_calendar",
+          "WMG report date: 2026-11-19 \u2014 source: FMP earnings_calendar",
+          "Initial Jobless Claims estimate: 197K \u2014 source: FMP economic_calendar",
+          "Continuing Jobless Claims estimate: 1710K \u2014 source: FMP economic_calendar",
+          "Jobless Claims 4-Week Average estimate: 192K \u2014 source: FMP economic_calendar",
+          "Release time: 2026-11-19 13:30:00 (8:30 a.m.\nET) \u2014 source: FMP economic_calendar, timezone America/New_York"
         ],
-        "source_url": "https://financialmodelingprep.com/api/v3/earning_calendar",
-        "source_notes": "https://financialmodelingprep.com/api/v3/earning_calendar"
+        "source_url": "https://tickeralpha.ai",
+        "source_notes": "https://tickeralpha.ai"
       }
     ]
   }

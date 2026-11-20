@@ -1,219 +1,205 @@
 {
-  "updated_at": "2026-11-19T00:56:07-05:00",
+  "updated_at": "2026-11-20T00:44:35-05:00",
   "morning": {
     "mode": "morning",
-    "session_date": "2026-11-19",
-    "generated_at": "2026-11-19T00:55:06-05:00",
-    "draft_path": "drafts/2026-11-19-am.md",
+    "session_date": "2026-11-20",
+    "generated_at": "2026-11-20T00:43:30-05:00",
+    "draft_path": "drafts/2026-11-20-am.md",
     "errors": [],
     "slots": [
       {
-        "title": "Moody's pegs 2026 US growth at 2.3%",
+        "title": "Japan core inflation 2.2% in October",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Moody's expects US full-year economic growth of 2.3% for 2026 \u2014 above what many had been assuming after recent data.\n\nThe rating agency points to higher interest rates (what borrowers pay on loans), elevated energy prices, and a normalization of the AI investment boom as factors that could slow growth in 2027 and 2028.\n\nThe 10-year US Treasury yield was at 5.1% in the latest curve snapshot (the rate the government pays on long-term debt, a benchmark for mortgages and corporate borrowing).\n\nThe 2-year yield sat at 4.8%, leaving the gap between 2-year and 10-year yields at 0.30 percentage points \u2014 the spread investors watch for recession signals.\n\nDoes a 2.3% growth year change how you read the next round of labor data?",
+        "body": "Japan\u2019s October core inflation print: **2.2%** year over year.\n\nThat\u2019s below the **2.3%** consensus economists in a Reuters poll had been looking for.\n\nHeadline inflation came in at **2.3%**, up from **2.1%** in September.\n\nCoverage tied the release to expectations that the Bank of Japan could move interest rates again, after core prices excluding fresh food picked up through the year.\n\nOvernight, Japan\u2019s main stock benchmark finished down **4.7%** at **56,668.30**, with reports citing pressure on chip and metals names after U.S. indexes slid in the prior session.\n\nHow much do overseas inflation prints shape what you watch at home before the U.S. open?",
         "skip_reason": "",
         "supporting_data": [
-          "Moody's full-year US growth expectation: 2.3% \u2014 [source: WSJ news via FMP](https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5)",
-          "10-year Treasury yield: 5.1% \u2014 [source: FMP treasury]",
-          "2-year Treasury yield: 4.8% \u2014 [source: FMP treasury]",
-          "2s10s spread: 0.30 \u2014 [source: FMP treasury]"
+          "Japan core inflation (October): 2.2% y/y \u2014 [source: CNBC news feed](https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html)",
+          "Core inflation consensus: 2.3% \u2014 [source: CNBC news feed](https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html)",
+          "Headline inflation (October): 2.3% \u2014 [source: CNBC news feed](https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html)",
+          "September headline inflation: 2.1% \u2014 [source: CNBC news feed](https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html)",
+          "^N225 close: 56,668.30, -4.7% \u2014 [source: FMP overseas indexes]",
+          "^N225 change: -2,775.91 points \u2014 [source: FMP overseas indexes]"
         ],
-        "source_url": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5",
-        "source_notes": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5"
+        "source_url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+        "source_notes": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
       },
       {
-        "title": "IEA sees 4% less oil demand by 2035",
+        "title": "Fed regional banks cap raises at 1%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The IEA says energy-security steps tied to the Iran war could cut global oil demand by 4% by 2035.\n\nThat is a long-dated supply-and-demand story, not a single-day oil print \u2014 but it lands while crude markets are already moving.\n\nBrent crude was at $92.22, up 0.3%.\n\nThe US oil fund proxy $USO closed at $136.11, down 2.9% on the session.\n\nGold futures were at $3,741.00, roughly flat at 0.0%.\n\nHow much weight do you put on decade-out demand forecasts versus this week's price action?",
+        "body": "The Fed\u2019s 12 regional banks are planning **1%** annual raises for employees in the year ahead.\n\nThat compares with **3%** raises this year, according to reporting on the central bank\u2019s push to rein in costs and streamline operations.\n\nThe story lands the same week two Fed officials are on the calendar to speak on **Nov. 20**: Christopher Waller at **1:25 p.m.** ET and Lisa Cook at **5:15 p.m.** ET.\n\nIn the prior U.S. session, the fear gauge moved up with equities lower:\n\n- $^VIX +15.8% to **28.44**\n- $^GSPC -2.0% to **7,175.83**\n\nDo you treat Fed staffing and cost decisions as background noise, or as a signal about how the institution is run?",
         "skip_reason": "",
         "supporting_data": [
-          "IEA oil demand reduction by 2035: 4% \u2014 [source: Reuters news via FMP](https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/)",
-          "Brent crude price: $92.22 \u2014 [source: FMP cross_asset brent]",
-          "Brent change: +0.3% \u2014 [source: FMP cross_asset brent changesPercentage]",
-          "USO price: $136.11 \u2014 [source: FMP cross_asset wti/USO]",
-          "USO session change: -2.9% \u2014 [source: FMP cross_asset wti changesPercentage]",
-          "Gold price: $3,741.00 \u2014 [source: FMP cross_asset gold]",
-          "Gold change: 0.0% \u2014 [source: FMP cross_asset gold changesPercentage]"
+          "Regional bank raise guidance (next year): 1% \u2014 [source: WSJ news feed](https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d)",
+          "Regional bank raises (current year): 3% \u2014 [source: WSJ news feed](https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d)",
+          "Fed Waller Speech scheduled: 2026-11-20 13:25 ET \u2014 [source: FMP economic_calendar]",
+          "Fed Cook Speech scheduled: 2026-11-20 17:15 ET \u2014 [source: FMP economic_calendar]",
+          "^VIX: 28.44, +15.8% \u2014 [source: FMP indexes]",
+          "^GSPC: 7,175.83, -2.0% \u2014 [source: FMP indexes]"
         ],
-        "source_url": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/",
-        "source_notes": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/"
+        "source_url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d",
+        "source_notes": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d"
       },
       {
-        "title": "China Treasury holdings at 2008 low",
+        "title": "AAII bullish share at 33.3%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Foreign investors trimmed US Treasury holdings in September, and China's position fell to a level last seen in 2008, according to Treasury data cited by Reuters.\n\nThat matters because overseas buyers help fund US deficits \u2014 fewer buyers can mean higher yields even without a Fed move.\n\nThe 10-year yield was 5.1% on the latest FMP curve print dated 2026-11-17.\n\nThe dollar proxy $UUP was at $29.62, up 0.3%.\n\n$EURUSD was at 1.10, down 0.1%.\n\nAre you tracking official custody data or just the yield curve day to day?",
+        "body": "AAII\u2019s weekly sentiment survey: **33.3%** of respondents bullish.\n\nThat\u2019s up **2.6** percentage points from the prior reading.\n\nNeutral responses climbed **6.7** points to **24.4%**.\n\nThe update was framed as pessimism easing somewhat, against a backdrop where major U.S. benchmarks closed lower in the latest session:\n\n- $^DJI -2.2% to **49,097.06**\n- $^IXIC -2.3% to **23,879.20**\n- $^GSPC -2.0% to **7,175.83**\n\nGold futures in the cross-asset set were down **4.5%** at **3,517.90** in the same window.\n\nWhen survey optimism and index levels diverge, which do you read first?",
         "skip_reason": "",
         "supporting_data": [
-          "10-year Treasury yield: 5.1% \u2014 [source: FMP treasury]",
-          "Treasury curve date: 2026-11-17 \u2014 [source: FMP treasury]",
-          "UUP price: $29.62 \u2014 [source: FMP cross_asset dxy/UUP]",
-          "UUP change: +0.3% \u2014 [source: FMP cross_asset dxy changesPercentage]",
-          "EUR/USD: 1.10 \u2014 [source: FMP cross_asset eurusd]",
-          "EUR/USD change: -0.1% \u2014 [source: FMP cross_asset eurusd changesPercentage]",
-          "China Treasury holdings: 2008 low (headline/data reference) \u2014 [source: Reuters news via FMP](https://www.reuters.com/markets/us/foreign-holdings-us-treasuries-dip-sept-china-holdings-hit-2008-low-data-show-2026-11-18/)"
+          "AAII bullish sentiment: 33.3% \u2014 [source: Seeking Alpha news feed](https://seekingalpha.com/article/4970388-aaii-sentiment-survey-pessimism-backtracks)",
+          "Bullish change: +2.6 percentage points \u2014 [source: Seeking Alpha news feed](https://seekingalpha.com/article/4970388-aaii-sentiment-survey-pessimism-backtracks)",
+          "AAII neutral sentiment: 24.4% \u2014 [source: Seeking Alpha news feed](https://seekingalpha.com/article/4970388-aaii-sentiment-survey-pessimism-backtracks)",
+          "Neutral change: +6.7 percentage points \u2014 [source: Seeking Alpha news feed](https://seekingalpha.com/article/4970388-aaii-sentiment-survey-pessimism-backtracks)",
+          "^DJI: 49,097.06, -2.2% \u2014 [source: FMP indexes]",
+          "^IXIC: 23,879.20, -2.3% \u2014 [source: FMP indexes]",
+          "^GSPC: 7,175.83, -2.0% \u2014 [source: FMP indexes]",
+          "Gold (GCUSD): 3,517.90, -4.5% \u2014 [source: FMP cross_asset]"
         ],
-        "source_url": "https://www.reuters.com/markets/us/foreign-holdings-us-treasuries-dip-sept-china-holdings-hit-2008-low-data-show-2026-11-18/",
-        "source_notes": "https://www.reuters.com/markets/us/foreign-holdings-us-treasuries-dip-sept-china-holdings-hit-2008-low-data-show-2026-11-18/"
+        "source_url": "https://seekingalpha.com/article/4970388-aaii-sentiment-survey-pessimism-backtracks",
+        "source_notes": "https://seekingalpha.com/article/4970388-aaii-sentiment-survey-pessimism-backtracks"
       }
     ]
   },
   "close": {
     "mode": "close",
-    "session_date": "2026-11-19",
-    "generated_at": "2026-11-19T00:55:47-05:00",
-    "draft_path": "drafts/2026-11-19.md",
+    "session_date": "2026-11-20",
+    "generated_at": "2026-11-20T00:43:58-05:00",
+    "draft_path": "drafts/2026-11-20.md",
     "errors": [],
     "slots": [
       {
-        "title": "AMD up 5.3% as Nvidia slips 2.9%",
+        "title": "S&P 500 Off 2.0% as VIX Jumps 15.8%",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$AMD closed up 5.3% at $530.14, a $26.73 gain on the day.\n\n$NVDA finished down 2.9% at $150.96, with more than 343 million shares changing hands.\n\n$AVGO rose 3.6% to $354.05.\n\n$TSM added 0.8% to $362.62.\n\nThe Nasdaq Composite still closed up 0.4% at 24,429.88 while the S&P 500 slipped 0.2%.\n\nWhich large chip name mattered more to your read of the session?",
+        "body": "$SPY proxy: the S&P 500 closed at 7,175.83, down 147.80 points (-2.0%).\n\nThe Nasdaq Composite finished at 23,879.20 (-2.3%).\n\nThe Dow Jones Industrial Average lost 1,101.11 points to 49,097.06 (-2.2%).\n\nThe CBOE Volatility Index ($VIX) rose 3.88 to 28.44 (+15.8%), with an intraday high of 29.13.\n\nCoverage of the session linked broad U.S. weakness to risk-off mood after a landmark AI company debut on Nasdaq did not lift the major indexes.\n\nHow much of today\u2019s move do you attribute to index-level hedging versus single-name selling?",
         "skip_reason": "",
         "supporting_data": [
-          "AMD change: +5.3% \u2014 FMP mega_caps / EOD",
-          "AMD price: $530.14 \u2014 FMP mega_caps",
-          "AMD change ($): +26.73 \u2014 FMP mega_caps",
-          "NVDA change: -2.9% \u2014 FMP mega_caps",
-          "NVDA price: $150.96 \u2014 FMP mega_caps",
-          "NVDA volume: 343,007,056 \u2014 FMP mega_caps",
-          "AVGO change: +3.6% \u2014 FMP mega_caps",
-          "AVGO price: $354.05 \u2014 FMP mega_caps",
-          "TSM change: +0.8% \u2014 FMP mega_caps",
-          "^IXIC change: +0.4% \u2014 FMP indexes",
-          "^IXIC price: 24,429.88 \u2014 FMP indexes",
-          "^GSPC change: -0.2% \u2014 FMP indexes"
+          "S&P 500 close: 7,175.83 (-2.0%) \u2014 indexes.^GSPC, session 2026-11-20",
+          "S&P 500 point change: -147.80 \u2014 indexes.^GSPC",
+          "Nasdaq Composite close: 23,879.20 (-2.3%) \u2014 indexes.^IXIC",
+          "Dow close: 49,097.06 (-2.2%) \u2014 indexes.^DJI",
+          "VIX close: 28.44 (+15.8%) \u2014 indexes.^VIX",
+          "VIX day high: 29.13 \u2014 indexes.^VIX"
         ],
-        "source_url": "https://financialmodelingprep.com/",
-        "source_notes": "https://financialmodelingprep.com/"
+        "source_url": "https://seekingalpha.com/article/4970409-anthropic-hits-market-wall-street-hits-brakes",
+        "source_notes": "https://seekingalpha.com/article/4970409-anthropic-hits-market-wall-street-hits-brakes"
       },
       {
-        "title": "Chevron down 4.0% in energy slide",
+        "title": "AMD Down 7.7% in Chip-Led Selloff",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$CVX closed down 4.0% at $205.87, off $8.48 from the prior finish.\n\nThe Energy sector\u2019s Nasdaq average was down about 1.1% on the session.\n\n$USO, which tracks oil exposure, fell 2.9% to $136.11.\n\nBrent settled at $92.21, up 0.3%.\n\nReuters cited the IEA saying energy-security responses tied to the Iran war could cut oil demand by about 4% by 2035.\n\nDid you tie today\u2019s energy stock move to crude, or to the longer demand picture?",
+        "body": "$AMD closed at 489.19, down 40.95 (-7.7%), after trading between 470.56 and 555.01.\n\nOther large chip-linked names on the same session:\n\n- $NVDA -3.3% to 145.98\n- $TSM -2.9% to 352.09\n- $ASML -2.8% to 1,356.20\n\nThe Direxion Daily Semiconductor Bull 3X ETF ($SOXL) fell 8.0% to 45.30.\n\nJapanese equities were described as weaker with chip and metals stocks dragging the Nikkei; the injected overseas read shows the Nikkei 225 at 56,652.16 (-4.7%).\n\nWhich semiconductor name in your watchlist moved farthest from its session high?",
         "skip_reason": "",
         "supporting_data": [
-          "CVX change: -4.0% \u2014 FMP mega_caps",
-          "CVX price: $205.87 \u2014 FMP mega_caps",
-          "CVX change ($): -8.48 \u2014 FMP mega_caps",
-          "Energy sector averageChange: -1.1% (rounded from -1.15) \u2014 FMP sectors",
-          "USO change: -2.9% \u2014 FMP cross_asset",
-          "USO price: $136.11 \u2014 FMP cross_asset",
-          "BZUSD price: $92.21 \u2014 FMP cross_asset",
-          "BZUSD change: +0.3% \u2014 FMP cross_asset"
+          "AMD close: 489.19 (-7.7%) \u2014 mega_caps.AMD",
+          "AMD day range: 470.56\u2013555.01 \u2014 mega_caps.AMD",
+          "NVDA close: 145.98 (-3.3%) \u2014 mega_caps.NVDA",
+          "TSM close: 352.09 (-2.9%) \u2014 mega_caps.TSM",
+          "ASML close: 1,356.20 (-2.8%) \u2014 mega_caps.ASML",
+          "SOXL close: 45.30 (-8.0%) \u2014 actives.SOXL",
+          "Nikkei 225: 56,652.16 (-4.7%) \u2014 overseas.^N225"
         ],
-        "source_url": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/",
-        "source_notes": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/"
+        "source_url": "https://www.wsj.com/finance/stocks/nikkei-falls-2-9-dragged-by-chip-metals-stocks-0601645e",
+        "source_notes": "https://www.wsj.com/finance/stocks/nikkei-falls-2-9-dragged-by-chip-metals-stocks-0601645e"
       },
       {
-        "title": "Dow drops 561 points, Nasdaq gains",
+        "title": "Communication Services Down 5.8% on Nasdaq",
         "status": "ready",
         "kind": "x_idea",
-        "body": "The Dow closed down 1.1% at 50,198.17, a 561.25-point drop.\n\nThe Nasdaq Composite rose 0.4% to 24,429.88.\n\nThe S&P 500 eased 0.2% to 7,323.63.\n\nSeveral Dow-heavy names weakened:\n\n- $JPM -1.8% to $324.11\n- $HD -0.4% to $337.64\n- $CVX -4.0% to $205.87\n\nThe Russell 2000 still rose 0.5% to 2,714.31.\n\nWhere did you see the split show up\u2014in indexes or in sectors?",
+        "body": "Nasdaq-listed Communication Services names averaged -5.8% for the session (sector bucket in the data).\n\nLarge cap constituents in that group from the injected tape:\n\n- $GOOGL -3.5% to 272.66\n- $META -3.3% to 596.22\n- $NFLX -2.3% to 58.46\n\nTechnology, as its own Nasdaq sector average, was -4.2%.\n\nConsumer Cyclical averaged -4.5% on the same matrix.\n\nAre you tracking this as a single \u201cgrowth\u201d drawdown or as separate ad/streaming versus software lines?",
         "skip_reason": "",
         "supporting_data": [
-          "^DJI change: -1.1% \u2014 FMP indexes",
-          "^DJI price: 50,198.17 \u2014 FMP indexes",
-          "^DJI change (pts): -561.25 \u2014 FMP indexes",
-          "^IXIC change: +0.4% \u2014 FMP indexes",
-          "^IXIC price: 24,429.88 \u2014 FMP indexes",
-          "^GSPC change: -0.2% \u2014 FMP indexes",
-          "^GSPC price: 7,323.63 \u2014 FMP indexes",
-          "^RUT change: +0.5% \u2014 FMP indexes",
-          "^RUT price: 2,714.31 \u2014 FMP indexes",
-          "JPM change: -1.8% \u2014 FMP mega_caps",
-          "CVX change: -4.0% \u2014 FMP mega_caps"
+          "Communication Services average change: -5.8% \u2014 sectors (2026-11-20, NASDAQ)",
+          "Technology average change: -4.2% \u2014 sectors (2026-11-20, NASDAQ)",
+          "Consumer Cyclical average change: -4.5% \u2014 sectors (2026-11-20, NASDAQ)",
+          "GOOGL close: 272.66 (-3.5%) \u2014 mega_caps.GOOGL",
+          "META close: 596.22 (-3.3%) \u2014 mega_caps.META",
+          "NFLX close: 58.46 (-2.3%) \u2014 mega_caps.NFLX"
         ],
-        "source_url": "https://financialmodelingprep.com/",
-        "source_notes": "https://financialmodelingprep.com/"
+        "source_url": "https://seekingalpha.com/article/4970409-anthropic-hits-market-wall-street-hits-brakes",
+        "source_notes": "https://seekingalpha.com/article/4970409-anthropic-hits-market-wall-street-hits-brakes"
       },
       {
-        "title": "U.S. cash session \u2014 Nov. 19, 2026",
+        "title": "U.S. Cash Session \u2014 Nov. 20, 2026",
         "status": "ready",
         "kind": "x_recap",
-        "body": "The Dow Jones Industrial Average lost 561.25 points and closed down 1.1% at 50,198.17, trading between 50,029.35 and 50,637.70.\nThat was the heaviest index decline among the major U.S. benchmarks on the session.\n\nThe Nasdaq Composite finished up 0.4% at 24,429.88, with an intraday range of 24,225.30 to 24,538.78.\nGains in select large technology and chip names helped the growth-heavy index hold green while the Dow weakened.\n\nThe S&P 500 slipped 0.2% to 7,323.63 after touching a high of 7,367.68 and a low of 7,285.76.\nThe broad index stayed closer to flat than the Dow, reflecting the offset from Nasdaq strength.\n\nThe Russell 2000 rose 0.5% to 2,714.31.\nSmall caps outperformed the Dow and S&P on the day despite the large-cap split.\n\nThe CBOE Volatility Index fell 3.5% to 24.56, down from 25.46 at the prior close, with a session range of 23.45 to 26.26.\n\nAmong megacap chips, $AMD rose 5.3% to $530.14 while $NVDA fell 2.9% to $150.96 on volume above 343 million shares.\n$AVGO gained 3.6% to $354.05 and $TSM added 0.8% to $362.62.\n\nEnergy and financials weighed on parts of the tape.\n$CVX closed down 4.0% at $205.87.\n$JPM fell 1.8% to $324.11 and $BAC lost 1.1% to $48.91.\nThe Energy sector average was down about 1.1% on Nasdaq, and Financial Services was down about 0.6%.\n\nConsumer Cyclical was the strongest sector in the injected sector snapshot, up about 1.3%.\n$ROST rose 3.3% to $227.64, $WSM gained 4.0% to $260.09, and $GAP added 2.5% to $19.84.\nSeveral of those names were on the Nov. 19 earnings calendar in the data, with consensus estimates listed but no reported actuals in the feed.\n\nUtilities lagged among sectors, down about 0.8%.\nHealthcare averaged down about 0.6%.\n$LLY fell 2.3% to $1,382.54.\nTechnology as a sector was roughly flat, down about 0.1% on average.\n\n$CRM declined 2.1% to $190.40.\n$INTU, also scheduled to report, closed down 2.4% at $313.24.\n$WMT edged 0.1% lower to $127.36 ahead of its report date in the calendar.\n$MSFT ticked up 0.4% to $508.29 and $GOOG rose 0.6% to $279.20.\n\nOn the calendar for Nov. 19, U.S. jobless claims releases were scheduled at 8:30 ET, including initial claims with a 197K estimate and continuing claims with a 1,710K estimate in the injected calendar.\nThe dataset does not include released actual figures for those prints.\n\nGold futures were little changed, up 0.0% at $3,742.80.\n$USO fell 2.9% to $136.11.\nBrent crude was at $92.21, up 0.3%.\nThe Invesco U.S. dollar bull ETF ($UUP) rose 0.3% to $29.62.\nBitcoin traded at $63,216.24, up 0.4%.\n\nTreasury yields in the Nov. 17 snapshot showed the 10-year at 5.1% and the 2s10s spread at 0.30.\nOverseas, the Hang Seng was down 2.1%, the FTSE 100 off 1.3%, and the Nikkei 225 up 0.4% in the injected overseas block.",
+        "body": "The S&P 500 settled at 7,175.83, down 147.80 points (-2.0%), with a session range of 7,173.63 to 7,415.64.\nThe Nasdaq Composite closed at 23,879.20 (-550.68, -2.3%), and the Dow at 49,097.06 (-1,101.11, -2.2%).\nThe Russell 2000 finished at 2,655.11 (-2.2%).\n\nThe VIX ended at 28.44, up 3.88 (+15.8%) from the prior close of 24.56, reaching as high as 29.13 intraday.\n\nAmong Nasdaq sector averages, Communication Services led declines at -5.8%, followed by Consumer Cyclical at -4.5%, Technology at -4.2%, Utilities at -3.8%, and Industrials at -3.5%.\nConsumer Defensive was the only positive bucket at +0.6%.\nFinancial Services averaged -2.3%; Healthcare -1.6%; Energy -0.8%; Basic Materials -0.7%.\n\nSemiconductor and AI-adjacent mega caps were heavy:\n- $AMD -7.7% to 489.19\n- $UNH -5.6% to 330.48\n- $AMZN -3.9% to 257.37\n- $GOOGL -3.5% to 272.66\n- $NVDA -3.3% to 145.98\n- $META -3.3% to 596.22\n- $ORCL -3.0% to 110.51\n- $TSM -2.9% to 352.09\n- $TSLA -2.4% to 374.41\n\n$AAPL was comparatively steady at 349.21 (-0.9%).\n$CVX rose 0.3% to 206.50 while $XOM slipped 1.0% to 158.93.\n\nActive volume highlighted $NVDA at 315.9M shares and extreme movers elsewhere in the tape:\n- $SOXL -8.0%\n- $ANT +17.1% to 97.17\n\nin the injected actives list).\n\nThree companies had earnings on the calendar with estimates in the data: BJ\u2019s Wholesale Club ($BJ) with EPS estimate 1.26 and revenue estimate about $5.97B\u2014the stock closed at 110.75 (-0.1%); Moog ($MOG-A) EPS estimate 2.68, close 328.07 (-2.1%); IESC Holdings EPS estimate 2.81, close 166.90 (+0.5%).\nThe payload does not include reported actuals versus those estimates.\n\nGold futures (GCUSD) settled at 3,520.30, down 165.20 (-4.5%), with a session low of 3,515.50.\nBitcoin (BTCUSD) was 61,613.17 (-0.5%).\nBrent crude (BZUSD) was 92.35 (+0.4%); the United States Oil Fund ($USO) closed at 138.09 (+1.5%).\nThe Invesco dollar bull fund ($UUP) was flat at 29.63 (0.0%).\nEUR/USD printed 1.10 unchanged in the injected cross-asset feed.\n\nTreasury yields in the snapshot (dated 2026-11-18 in the data) show the 10-year at 5.1% and the 2s10s spread at 0.27 percentage points.\n\nOverseas indexes in the feed were lower: Nikkei 225 56,652.16 (-4.7%), Hang Seng 22,282.50 (-2.4%), FTSE 100 10,452.68 (-0.9%), and the Germany proxy (EWG) 40.19 (-2.0%).\n\nScheduled U.S. releases later on the calendar included CFTC speculative positioning fields (Nasdaq 100, gold, crude, S&P 500, among others) and the Baker Hughes oil rig count for Nov. 20, with the prior rig count at 463 in the economic calendar object.",
         "skip_reason": "",
         "supporting_data": [
-          "Session date: 2026-11-19 \u2014 FMP_DATA session_date",
-          "^DJI: -1.1%, 50,198.17 \u2014 FMP indexes",
-          "^IXIC: +0.4%, 24,429.88 \u2014 FMP indexes",
-          "^GSPC: -0.2%, 7,323.63 \u2014 FMP indexes",
-          "^RUT: +0.5%, 2,714.31 \u2014 FMP indexes",
-          "^VIX: -3.5%, 24.56 \u2014 FMP indexes",
-          "AMD/NVDA/AVGO/TSM/CVX/JPM/BAC/ROST/WSM/GAP/LLY/CRM/INTU/WMT/MSFT/GOOG \u2014 FMP mega_caps",
-          "Sectors \u2014 FMP sectors",
-          "GCUSD, USO, BZUSD, UUP, BTCUSD \u2014 FMP cross_asset",
-          "Treasury \u2014 FMP treasury (date 2026-11-17)",
-          "Economic calendar estimates \u2014 FMP economic_calendar",
-          "Overseas indexes \u2014 FMP overseas"
+          "S&P 500: 7,175.83 (-2.0%) \u2014 indexes.^GSPC",
+          "Nasdaq Composite: 23,879.20 (-2.3%) \u2014 indexes.^IXIC",
+          "Dow: 49,097.06 (-2.2%) \u2014 indexes.^DJI",
+          "Russell 2000: 2,655.11 (-2.2%) \u2014 indexes.^RUT",
+          "VIX: 28.44 (+15.8%) \u2014 indexes.^VIX",
+          "Communication Services sector: -5.8% \u2014 sectors",
+          "AMD: 489.19 (-7.7%) \u2014 mega_caps.AMD",
+          "Gold GCUSD: 3,520.30 (-4.5%) \u2014 cross_asset.gold",
+          "USO: 138.09 (+1.5%) \u2014 cross_asset.wti",
+          "10-year Treasury: 5.1% \u2014 treasury.year10",
+          "Nikkei: 56,652.16 (-4.7%) \u2014 overseas.^N225"
         ],
-        "source_url": "https://financialmodelingprep.com/",
-        "source_notes": "https://financialmodelingprep.com/"
+        "source_url": "https://financialmodelingprep.com/stable/quote/^GSPC",
+        "source_notes": "https://financialmodelingprep.com/stable/quote/^GSPC"
       }
     ]
   },
   "week-ahead": {
     "mode": "week-ahead",
-    "session_date": "2026-11-19",
-    "generated_at": "2026-11-19T00:56:07-05:00",
-    "draft_path": "drafts/2026-11-19-week-ahead.md",
+    "session_date": "2026-11-20",
+    "generated_at": "2026-11-20T00:44:35-05:00",
+    "draft_path": "drafts/2026-11-20-week-ahead.md",
     "errors": [],
     "slots": [
       {
-        "title": "Three names report Friday with EPS views",
+        "title": "BJ\u2019s Wholesale reports on $1.26 EPS view",
         "status": "ready",
         "kind": "x_idea",
-        "body": "Friday, Nov. 20, three mid-cap names close out the week\u2019s earnings slate.\n\nEach print is a read on wholesale clubs, aerospace controls, and industrial services demand.\n\n- $BJ \u2014 EPS estimate $1.26; revenue estimate about $5.97B\n- $MOG-A \u2014 EPS estimate $2.69; revenue estimate about $1.12B\n- $IESC \u2014 EPS estimate $2.81; revenue estimate about $1.15B\n\nEarnings per share is profit divided by shares; the estimate is where analysts land before the number is released.\n\nWhich line item do you watch first on a club retailer vs. an industrial supplier?",
+        "body": "$BJ reports Nov. 20.\n\nThe Street\u2019s EPS estimate is $1.26.\n\nRevenue is estimated at about $5.97 billion.\n\nThe print measures how members are shopping at the warehouse-club chain \u2014 ticket size, traffic, and margin \u2014 not just one-day stock action.\n\n$WMT already posted this week: EPS $0.65 vs a $0.64 estimate and revenue near $188.8 billion.\n\nBJ\u2019s number is smaller, but the same question: are consumers still stocking up in bulk?\n\nResults typically land with the release; check the date on your earnings calendar.\n\nWhat do you watch first on a club retailer report \u2014 comps, membership, or guidance?",
         "skip_reason": "",
         "supporting_data": [
-          "BJ EPS estimate: 1.26 \u2014 source: FMP earnings_calendar",
-          "BJ revenue estimate: 5972371000 (~$5.97B) \u2014 source: FMP earnings_calendar",
-          "MOG-A EPS estimate: 2.69 \u2014 source: FMP earnings_calendar",
-          "MOG-A revenue estimate: 1120431000 (~$1.12B) \u2014 source: FMP earnings_calendar",
-          "IESC EPS estimate: 2.81 \u2014 source: FMP earnings_calendar",
-          "IESC revenue estimate: 1148000000 (~$1.15B) \u2014 source: FMP earnings_calendar",
-          "Report date: 2026-11-20 \u2014 source: FMP earnings_calendar"
+          "BJ EPS estimate: $1.26 \u2014 [source: FMP earnings_calendar]",
+          "BJ revenue estimate: $5.97B (5,972,371,000) \u2014 [source: FMP earnings_calendar]",
+          "BJ report date: 2026-11-20 \u2014 [source: FMP earnings_calendar]",
+          "WMT EPS actual: $0.65 \u2014 [source: FMP earnings_calendar]",
+          "WMT EPS estimate: $0.64 \u2014 [source: FMP earnings_calendar]",
+          "WMT revenue actual: $188.8B \u2014 [source: FMP earnings_calendar]"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://tickeralpha.ai/calendar/earnings",
+        "source_notes": "https://tickeralpha.ai/calendar/earnings"
       },
       {
-        "title": "Keysight set for $3.37 EPS print Thursday",
+        "title": "Moog set for $2.68 EPS on Nov. 20",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$KEYS reports Thursday, Nov. 19.\n\nConsensus sits at $3.37 EPS on revenue of about $1.95B.\n\nKeysight sells equipment used to validate semiconductors and communications gear \u2014 the results show how much customers are still spending on lab and production test gear.\n\nThe number lands in the same week the Nasdaq Composite finished up 0.4% at 24,429.88 while the Dow fell 1.1% to 50,198.17.\n\nDo you treat test-equipment earnings as a lead indicator for chip capex or a lagging receipt?",
+        "body": "$MOG-A earnings are on the calendar for Nov. 20.\n\nEPS estimate: $2.68.\n\nRevenue estimate: about $1.12 billion.\n\nMoog makes motion-control systems \u2014 the kind of components that show up in defense, aircraft, and industrial equipment supply chains.\n\nThe release is a backlog-and-order snapshot as much as a quarterly EPS line.\n\nNo outcome is in the data yet; only the estimates and the date.\n\nThat\u2019s what resolves when the report drops.\n\nDo you follow small-cap industrials for order trends or mainly for the EPS print?",
         "skip_reason": "",
         "supporting_data": [
-          "KEYS EPS estimate: 3.37 \u2014 source: FMP earnings_calendar",
-          "KEYS revenue estimate: 1945803000 (~$1.95B) \u2014 source: FMP earnings_calendar",
-          "Report date: 2026-11-19 \u2014 source: FMP earnings_calendar",
-          "Nasdaq Composite: 24,429.88 (+0.4%) \u2014 source: FMP indexes ^IXIC",
-          "Dow Jones: 50,198.17 (-1.1%) \u2014 source: FMP indexes ^DJI"
+          "MOG-A EPS estimate: $2.68 \u2014 [source: FMP earnings_calendar]",
+          "MOG-A revenue estimate: $1.12B (1,120,431,000) \u2014 [source: FMP earnings_calendar]",
+          "MOG-A report date: 2026-11-20 \u2014 [source: FMP earnings_calendar]",
+          "MOG-A market cap: $10.39B \u2014 [source: FMP earnings_calendar]"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://tickeralpha.ai/calendar/earnings",
+        "source_notes": "https://tickeralpha.ai/calendar/earnings"
       },
       {
-        "title": "Warner Music Nov. 19 on $0.36 EPS view",
+        "title": "IES Holdings eyes $2.81 EPS Nov. 20",
         "status": "ready",
         "kind": "x_idea",
-        "body": "$WMG is on the calendar for Thursday, Nov. 19.\n\nAnalysts\u2019 EPS estimate is $0.36.\n\nRevenue is expected at about $1.91B.\n\nThe report breaks out how recorded music and publishing are tracking \u2014 subscriptions, ad-supported streams, and licensing \u2014 without needing label jargon: it is how much money came in from songs and rights.\n\nThat session also brings high-impact labor data at 8:30 a.m.\nET: initial jobless claims (estimate 197K), continuing claims (estimate 1710K), and the four-week average (estimate 192K).\n\nThose claims counts measure how many people are newly filing for unemployment and how many stay on benefits.\n\nWhich Warner Music segment do you map to streaming growth when the release drops?",
+        "body": "$IESC is scheduled to report Nov. 20.\n\nEPS estimate: $2.81.\n\nRevenue estimate: about $1.15 billion.\n\nIES runs electrical and infrastructure services \u2014 work tied to building, data-center, and utility projects.\n\nThe report shows whether project volume and labor costs matched what analysts modeled.\n\nThe calendar lists the date and estimates; the actuals fill in when the company files.\n\nSame session as $BJ and $MOG-A \u2014 three separate business models, one reporting day.\n\nWhich sector report on your radar this week \u2014 retail, defense components, or contractors?",
         "skip_reason": "",
         "supporting_data": [
-          "WMG EPS estimate: 0.36 (0.36 rounded) \u2014 source: FMP earnings_calendar",
-          "WMG revenue estimate: 1908541000 (~$1.91B) \u2014 source: FMP earnings_calendar",
-          "WMG report date: 2026-11-19 \u2014 source: FMP earnings_calendar",
-          "Initial Jobless Claims estimate: 197K \u2014 source: FMP economic_calendar",
-          "Continuing Jobless Claims estimate: 1710K \u2014 source: FMP economic_calendar",
-          "Jobless Claims 4-Week Average estimate: 192K \u2014 source: FMP economic_calendar",
-          "Release time: 2026-11-19 13:30:00 (8:30 a.m.\nET) \u2014 source: FMP economic_calendar, timezone America/New_York"
+          "IESC EPS estimate: $2.81 \u2014 [source: FMP earnings_calendar]",
+          "IESC revenue estimate: $1.15B (1,148,000,000) \u2014 [source: FMP earnings_calendar]",
+          "IESC report date: 2026-11-20 \u2014 [source: FMP earnings_calendar]",
+          "IESC market cap: $6.72B \u2014 [source: FMP earnings_calendar]",
+          "BJ report date: 2026-11-20 \u2014 [source: FMP earnings_calendar]",
+          "MOG-A report date: 2026-11-20 \u2014 [source: FMP earnings_calendar]"
         ],
-        "source_url": "https://tickeralpha.ai",
-        "source_notes": "https://tickeralpha.ai"
+        "source_url": "https://tickeralpha.ai/calendar/earnings",
+        "source_notes": "https://tickeralpha.ai/calendar/earnings"
       }
     ]
   }
